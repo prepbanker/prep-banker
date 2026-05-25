@@ -1,0 +1,315 @@
+// PATH: lib/data/live-tests/tests.ts
+// PrepBanker — Live Tests Static Data
+// Add new tests here without touching any UI code.
+// 18 tests across SBI-PO and IBPS-PO for 3 pages of 6.
+
+import type { LiveTest } from '@/types/live-tests';
+
+export const liveTests: LiveTest[] = [
+
+  // ── SBI-PO · Prelims ────────────────────────────────────────
+  {
+    id: 'lt-1',
+    title: 'SBI PO Prelims Live Challenge #1',
+    exam: 'SBI-PO',
+    type: 'Prelims',
+    duration: 60,
+    totalQuestions: 100,
+    totalMarks: 100,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Medium',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'Full Prelims simulation covering Reasoning (35Q), Quantitative Aptitude (35Q), and English Language (30Q) with live competitive rankings.',
+    participants: 11240,
+  },
+  {
+    id: 'lt-2',
+    title: 'SBI PO Prelims Live Challenge #2 – Hard',
+    exam: 'SBI-PO',
+    type: 'Prelims',
+    duration: 60,
+    totalQuestions: 100,
+    totalMarks: 100,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Advanced-difficulty Prelims mock mirroring SBI PO 2025 pattern. High-complexity puzzles and DI sets. Ideal for final-stage sharpening.',
+    participants: 8900,
+  },
+  {
+    id: 'lt-9',
+    title: 'SBI PO Speed Prelims – 45-Minute Blitz',
+    exam: 'SBI-PO',
+    type: 'Prelims',
+    duration: 45,
+    totalQuestions: 100,
+    totalMarks: 100,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Intense 45-minute Prelims designed to push your attempt count above 90. Proves speed and accuracy under extreme time pressure.',
+    participants: 5630,
+  },
+
+  // ── SBI-PO · Mains ──────────────────────────────────────────
+  {
+    id: 'lt-3',
+    title: 'SBI PO Mains Full Mock – Live',
+    exam: 'SBI-PO',
+    type: 'Mains',
+    duration: 180,
+    totalQuestions: 155,
+    totalMarks: 200,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Complete Mains mock: Reasoning & Computer (45Q), Data Analysis & Interpretation (35Q), GA/Economy/Banking (40Q), and English Language (35Q).',
+    participants: 4320,
+  },
+
+  // ── SBI-PO · Sectional ───────────────────────────────────────
+  {
+    id: 'lt-4',
+    title: 'SBI PO Reasoning Ability Live Drill',
+    exam: 'SBI-PO',
+    type: 'Sectional',
+    duration: 20,
+    totalQuestions: 35,
+    totalMarks: 35,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'High-pressure Reasoning sectional: Puzzles, Seating Arrangements, Syllogisms, Blood Relations, and Coded Inequalities.',
+    participants: 6780,
+  },
+  {
+    id: 'lt-5',
+    title: 'SBI PO Quantitative Aptitude Live Test',
+    exam: 'SBI-PO',
+    type: 'Sectional',
+    duration: 20,
+    totalQuestions: 35,
+    totalMarks: 35,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Medium',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'Live Quant sectional covering Number Series, Data Interpretation, Quadratic Equations, Simplification, and Arithmetic Word Problems.',
+    participants: 5490,
+  },
+  {
+    id: 'lt-6',
+    title: 'SBI PO English Language Live Test',
+    exam: 'SBI-PO',
+    type: 'Sectional',
+    duration: 20,
+    totalQuestions: 30,
+    totalMarks: 30,
+    languages: ['English'],
+    difficulty: 'Easy',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'English sectional with RC passages, Error Spotting, Fill in the Blanks, Para Jumbles, and Cloze Test at standard Prelims difficulty.',
+    participants: 4120,
+  },
+
+  // ── SBI-PO · Topic Wise ──────────────────────────────────────
+  {
+    id: 'lt-7',
+    title: 'SBI PO Data Interpretation Mains Live',
+    exam: 'SBI-PO',
+    type: 'Topic Wise',
+    duration: 25,
+    totalQuestions: 35,
+    totalMarks: 35,
+    languages: ['English'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Mains-level DI live test: Caselet DI, Mixed Charts, Advanced Tabular sets, and Missing Data sets. Critical for Mains scoring.',
+    participants: 3560,
+  },
+  {
+    id: 'lt-8',
+    title: 'SBI PO Banking GK Live Quiz',
+    exam: 'SBI-PO',
+    type: 'Topic Wise',
+    duration: 25,
+    totalQuestions: 40,
+    totalMarks: 40,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Medium',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'Banking Awareness live quiz: RBI policies, SEBI/IRDAI/NABARD, financial terms, Basel norms, and current banking sector news.',
+    participants: 7340,
+  },
+
+  // ── SBI-PO · Full Mock ───────────────────────────────────────
+  {
+    id: 'lt-10',
+    title: 'SBI PO 2025 Paper Replay – Live',
+    exam: 'SBI-PO',
+    type: 'Full Mock',
+    duration: 60,
+    totalQuestions: 100,
+    totalMarks: 100,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'Live replay of the actual SBI PO 2025 Prelims paper. Benchmark yourself against the real exam difficulty and official cut-off scores.',
+    participants: 9120,
+  },
+
+  // ── IBPS-PO · Prelims ────────────────────────────────────────
+  {
+    id: 'lt-11',
+    title: 'IBPS PO Prelims Live Challenge #1',
+    exam: 'IBPS-PO',
+    type: 'Prelims',
+    duration: 60,
+    totalQuestions: 100,
+    totalMarks: 100,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Medium',
+    isFree: true,
+    endsAt: 0,
+    description:
+      "India's most attempted IBPS PO live mock. Complete Prelims format with section-wise timers, negative marking, and instant all-India rank.",
+    participants: 13450,
+  },
+  {
+    id: 'lt-12',
+    title: 'IBPS PO Prelims Live Challenge #2 – Advanced',
+    exam: 'IBPS-PO',
+    type: 'Prelims',
+    duration: 60,
+    totalQuestions: 100,
+    totalMarks: 100,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Advanced-level IBPS PO Prelims with questions drawn from 2023–2025 analysis. Complex puzzles, caselets, and RC passages.',
+    participants: 9800,
+  },
+
+  // ── IBPS-PO · Mains ──────────────────────────────────────────
+  {
+    id: 'lt-13',
+    title: 'IBPS PO Mains Full Mock – Live',
+    exam: 'IBPS-PO',
+    type: 'Mains',
+    duration: 180,
+    totalQuestions: 155,
+    totalMarks: 200,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Official-pattern IBPS PO Mains mock: Reasoning & Computer (45Q), English (35Q), Data Interpretation (35Q), GA & Banking (40Q).',
+    participants: 5210,
+  },
+
+  // ── IBPS-PO · Sectional ──────────────────────────────────────
+  {
+    id: 'lt-14',
+    title: 'IBPS PO Reasoning Live Challenge',
+    exam: 'IBPS-PO',
+    type: 'Sectional',
+    duration: 20,
+    totalQuestions: 35,
+    totalMarks: 35,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Hard',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'High-velocity Reasoning sectional: complex Puzzles, Direction Sense, Machine Input-Output, Coded Inequalities, and Logical Reasoning.',
+    participants: 7890,
+  },
+  {
+    id: 'lt-15',
+    title: 'IBPS PO Quantitative Aptitude Live',
+    exam: 'IBPS-PO',
+    type: 'Sectional',
+    duration: 20,
+    totalQuestions: 35,
+    totalMarks: 35,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Medium',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Quant sectional at IBPS PO standard difficulty — Arithmetic, DI Sets, Number Series, and Approximation with full solutions.',
+    participants: 6340,
+  },
+  {
+    id: 'lt-16',
+    title: 'IBPS PO English Language Live Test',
+    exam: 'IBPS-PO',
+    type: 'Sectional',
+    duration: 20,
+    totalQuestions: 30,
+    totalMarks: 30,
+    languages: ['English'],
+    difficulty: 'Easy',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'English sectional with RC passages, Vocabulary, Error Detection, Sentence Rearrangement, and Word Usage questions.',
+    participants: 4780,
+  },
+
+  // ── IBPS-PO · Topic Wise ──────────────────────────────────────
+  {
+    id: 'lt-17',
+    title: 'IBPS PO GA & Banking Awareness Live',
+    exam: 'IBPS-PO',
+    type: 'Topic Wise',
+    duration: 30,
+    totalQuestions: 40,
+    totalMarks: 40,
+    languages: ['English', 'Hindi'],
+    difficulty: 'Medium',
+    isFree: true,
+    endsAt: 0,
+    description:
+      'Current Affairs + Banking GK live quiz covering RBI updates, financial schemes, banking sector news, Awards, and Static GK.',
+    participants: 8920,
+  },
+  {
+    id: 'lt-18',
+    title: 'IBPS PO Mains Data Analysis Live',
+    exam: 'IBPS-PO',
+    type: 'Topic Wise',
+    duration: 25,
+    totalQuestions: 35,
+    totalMarks: 35,
+    languages: ['English'],
+    difficulty: 'Hard',
+    isFree: false,
+    endsAt: 0,
+    description:
+      'Mains-level Data Analysis: Bar Graphs, Pie Charts, Missing DI, Caselet, Radar Charts, and Funnel/Bubble Chart sets.',
+    participants: 3890,
+  },
+];
