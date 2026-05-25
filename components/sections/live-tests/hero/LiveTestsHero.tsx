@@ -5,7 +5,7 @@ import { Radio, Users, Clock, Zap, Globe, Target, BookOpen, Unlock } from 'lucid
 import { heroStats } from '@/lib/data/live-tests';
 import Breadcrumb from '@/components/shared/Breadcrumb';
 
-// ─── Icon map (keeps data files free of React imports) ─────────
+// ─── Icon map ──────────────────────────────────────────────────
 const ICON_MAP: Record<string, React.ElementType> = {
   Radio, Users, Clock, Zap, Globe, Target, BookOpen, Unlock,
 };
@@ -13,25 +13,37 @@ const ICON_MAP: Record<string, React.ElementType> = {
 export default function LiveTestsHero() {
   return (
     <section
-      className="relative overflow-hidden"
-      style={{
-        background:
-          'linear-gradient(135deg, var(--color-navy-deep) 0%, var(--color-navy-mid) 60%, #0f2347 100%)',
-        padding: '3rem 0 2.5rem',
-      }}
+      className="relative overflow-hidden bg-[var(--color-navy-deep)]"
+      style={{ padding: '3rem 0 2.5rem' }}
     >
-      {/* Background glow blobs */}
-      <div
-        aria-hidden
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          backgroundImage: [
-            'radial-gradient(circle at 8% 65%, rgba(239,68,68,0.18) 0%, transparent 42%)',
-            'radial-gradient(circle at 78% 15%, rgba(212,160,23,0.14) 0%, transparent 38%)',
-            'radial-gradient(circle at 50% 90%, rgba(27,110,181,0.10) 0%, transparent 35%)',
-          ].join(','),
-        }}
-      />
+
+      {/* ── Decorative background blobs ── */}
+      <div aria-hidden className="absolute inset-0 pointer-events-none">
+        {/* Top-left blue blob */}
+        <div
+          className="absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, var(--color-blue) 0%, transparent 70%)' }}
+        />
+        {/* Top-right gold blob */}
+        <div
+          className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, var(--color-gold) 0%, transparent 70%)' }}
+        />
+        {/* Red accent — unique to live tests page */}
+        <div
+          className="absolute bottom-0 left-1/2 -translate-x-1/2 w-72 h-72 rounded-full opacity-[0.07]"
+          style={{ background: 'radial-gradient(circle, #EF4444 0%, transparent 70%)' }}
+        />
+        {/* Subtle grid */}
+        <div
+          className="absolute inset-0 opacity-[0.04]"
+          style={{
+            backgroundImage:
+              'linear-gradient(var(--color-gray-200) 1px, transparent 1px), linear-gradient(90deg, var(--color-gray-200) 1px, transparent 1px)',
+            backgroundSize: '40px 40px',
+          }}
+        />
+      </div>
 
       <div className="container-custom relative z-10">
 
@@ -110,7 +122,11 @@ export default function LiveTestsHero() {
             );
           })}
         </div>
+
       </div>
+
+      {/* Bottom separator */}
+      <div className="h-px mt-10 bg-white/10 relative z-10" />
 
       <style>{`
         @keyframes lth-pulse {

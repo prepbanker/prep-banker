@@ -68,7 +68,7 @@ export default function ExamDetailsPage({ exam }: Props) {
       />
 
       {/* ── Shared floating UI ── */}
-      <PromoPopup    scrollThreshold={700} delaySeconds={1.2} storageKey="pb_promo_seen" />
+      {/* <PromoPopup    scrollThreshold={700} delaySeconds={1.2} storageKey="pb_promo_seen" /> */}
       <StickyLeftCTA href="https://app.prepgrind.com/register" label="Start Preparing Now" topOffset={280} />
 
       <Header />

@@ -41,15 +41,17 @@ export default function QuizHero({ stats, totalTests }: Props) {
         />
       </div>
 
-      <div className="container-custom relative z-10 pt-12 pb-10">
+      <div className="container-custom relative z-10 pt-10 pb-10">
 
         {/* Breadcrumb */}
-        <Breadcrumb
+        <div className="mt-8">
+          <Breadcrumb
           items={[
             { label: 'Home', href: '/' },
             { label: 'Mock Tests' },
           ]}
         />
+        </div>
 
         {/* ── Two-col layout on lg+ ── */}
         <div className="mt-6 flex flex-col lg:flex-row lg:items-center lg:gap-12">
@@ -103,7 +105,7 @@ export default function QuizHero({ stats, totalTests }: Props) {
             </div>
 
             {/* CTAs */}
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-7 flex flex-wrap gap-3 mb-8">
               <a
                 href="https://app.prepgrind.com/register"
                 target="_blank"

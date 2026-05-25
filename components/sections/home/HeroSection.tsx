@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { Zap, BookOpen } from 'lucide-react';
 import { Button, Badge } from '@/components/ui';
 import { heroExamData } from '@/lib/data';
 import type { ExamType } from '@/types';
@@ -13,28 +14,24 @@ const TABS: ExamType[] = ['SBI-PO', 'IBPS-PO'];
 
 const EXAM_META: Record<ExamType, {
   color: string;
-  borderColor: string;
   vacancies: string;
   exam: string;
   notify: string;
 }> = {
   'SBI-PO': {
     color: '#1B6EB5',
-    borderColor: '#1B6EB5',
     vacancies: '2000+ Vacancies',
     exam: 'June 2026',
     notify: 'April 2026',
   },
   'IBPS-PO': {
     color: '#D4A017',
-    borderColor: '#D4A017',
     vacancies: '3500+ Vacancies',
     exam: 'Oct 2026',
     notify: 'Aug 2026',
   },
 };
 
-// Number bullet colors per column
 const NUM_STYLES: { bg: string; color: string }[] = [
   { bg: '#DBEAFE', color: '#1D4ED8' },
   { bg: '#FEF3C7', color: '#B45309' },
@@ -47,46 +44,40 @@ export default function HeroSection() {
   const meta = EXAM_META[activeTab];
 
   return (
-    <section
-      className="relative overflow-hidden pb-14"
-      style={{
-        background:
-          'linear-gradient(135deg, var(--color-navy-deep) 0%, var(--color-navy-mid) 50%, var(--color-navy-light) 100%)',
-      }}
-    >
-      {/* ── Background glow blobs ── */}
-      <div
-        className="pointer-events-none absolute inset-0"
-        style={{
-          opacity: 0.4,
-          backgroundImage: `
-            radial-gradient(circle at 15% 40%, rgba(27,110,181,0.4) 0%, transparent 45%),
-            radial-gradient(circle at 85% 15%, rgba(212,160,23,0.2) 0%, transparent 40%),
-            radial-gradient(circle at 60% 85%, rgba(13,27,62,0.6) 0%, transparent 50%)
-          `,
-        }}
-      />
+    <section className="relative overflow-hidden bg-[var(--color-navy-deep)]">
 
-      {/* ── Grid lines decoration ── */}
-      <div
-        className="pointer-events-none absolute inset-0"
-        style={{
-          opacity: 0.04,
-          backgroundImage:
-            'linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)',
-          backgroundSize: '40px 40px',
-        }}
-      />
+      {/* ── Decorative background blobs (matches QuizHero) ── */}
+      <div className="absolute inset-0 pointer-events-none" aria-hidden>
+        {/* Top-left blue blob */}
+        <div
+          className="absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, var(--color-blue) 0%, transparent 70%)' }}
+        />
+        {/* Top-right gold blob */}
+        <div
+          className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, var(--color-gold) 0%, transparent 70%)' }}
+        />
+        {/* Subtle grid */}
+        <div
+          className="absolute inset-0 opacity-[0.04]"
+          style={{
+            backgroundImage:
+              'linear-gradient(var(--color-gray-200) 1px, transparent 1px), linear-gradient(90deg, var(--color-gray-200) 1px, transparent 1px)',
+            backgroundSize: '40px 40px',
+          }}
+        />
+      </div>
 
-      <div className="container-custom relative pt-14">
+      <div className="container-custom relative z-10 pt-14">
 
         {/* ── Top Label ── */}
         <div className="mb-5 text-center mt-5">
           <div
             className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-[0.72rem] font-bold uppercase tracking-widest"
             style={{
-              background: 'rgba(212,160,23,0.12)',
-              border: '1px solid rgba(212,160,23,0.3)',
+              background: 'rgba(212,160,23,0.1)',
+              border: '1px solid rgba(212,160,23,0.25)',
               color: 'var(--color-gold-bright)',
             }}
           >
@@ -120,7 +111,7 @@ export default function HeroSection() {
         <p
           className="mx-auto mb-7 max-w-[560px] text-center leading-relaxed"
           style={{
-            color: 'rgba(255,255,255,0.7)',
+            color: 'rgba(255,255,255,0.6)',
             fontSize: 'clamp(0.95rem, 1.8vw, 1.15rem)',
           }}
         >
@@ -130,31 +121,39 @@ export default function HeroSection() {
 
         {/* ── CTA ── */}
         <div className="mb-10 flex flex-wrap justify-center gap-3">
-          <Button
+          <a
             href="https://app.prepgrind.com/register"
-            variant="gold"
-            size="lg"
-            external
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 active:scale-95"
+            style={{
+              background: 'linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-bright) 100%)',
+              color: 'var(--color-navy-deep)',
+              boxShadow: '0 4px 18px rgba(212,160,23,0.35)',
+            }}
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-            >
-              <path d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
+            <Zap size={16} />
             Start Preparing Now
-          </Button>
+          </a>
+          <a
+            href="#test-series"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
+            style={{
+              background: 'rgba(255,255,255,0.08)',
+              border: '1px solid rgba(255,255,255,0.15)',
+              color: 'rgba(255,255,255,0.85)',
+            }}
+          >
+            <BookOpen size={16} />
+            Browse Mock Tests
+          </a>
         </div>
 
         {/* ── Quick Stats ── */}
         <div className="mb-10 flex flex-wrap justify-center gap-6">
           {[
             { value: '50K+', label: 'Aspirants' },
-            { value: '2M+', label: 'Tests Taken' },
+            { value: '2M+',  label: 'Tests Taken' },
             { value: '4.8★', label: 'Rating' },
             { value: 'Free', label: 'Mock Tests' },
           ].map((s) => (
@@ -170,7 +169,7 @@ export default function HeroSection() {
               </div>
               <div
                 className="text-[0.72rem] tracking-wider"
-                style={{ color: 'rgba(255,255,255,0.5)' }}
+                style={{ color: 'rgba(255,255,255,0.45)' }}
               >
                 {s.label}
               </div>
@@ -179,9 +178,9 @@ export default function HeroSection() {
         </div>
 
         {/* ════════════════════════════════════════
-            TAB CARD — white background
+            TAB CARD
         ════════════════════════════════════════ */}
-        <div className="mx-auto max-w-[1080px] overflow-hidden rounded-2xl bg-white shadow-[0_4px_32px_rgba(13,27,62,0.18)] border border-slate-100">
+        <div className="mx-auto max-w-[1080px] overflow-hidden rounded-2xl bg-white shadow-[0_4px_32px_rgba(13,27,62,0.22)] border border-slate-100">
 
           {/* ── Tab Header ── */}
           <div className="flex flex-wrap items-stretch border-b border-slate-100 bg-slate-50">
@@ -198,20 +197,14 @@ export default function HeroSection() {
                       ? 'bg-white shadow-sm'
                       : 'border-transparent text-slate-400 hover:bg-white/70 hover:text-slate-600',
                   ].join(' ')}
-                  style={
-                    isActive
-                      ? { borderBottomColor: m.color }
-                      : {}
-                  }
+                  style={isActive ? { borderBottomColor: m.color } : {}}
                 >
                   <span className="flex items-center gap-2">
                     <span
                       className="inline-block h-2 w-2 flex-shrink-0 rounded-full"
                       style={{ background: m.color }}
                     />
-                    <span
-                      className={`text-sm font-bold ${isActive ? 'text-slate-800' : ''}`}
-                    >
+                    <span className={`text-sm font-bold ${isActive ? 'text-slate-800' : ''}`}>
                       {tab}
                     </span>
                   </span>
@@ -226,7 +219,7 @@ export default function HeroSection() {
               );
             })}
 
-            {/* Exam pills — desktop only */}
+            {/* Exam pills — desktop */}
             <div className="hidden sm:flex items-center gap-2 px-5 ml-auto flex-wrap">
               <span className="rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-[0.65rem] font-bold uppercase tracking-wide text-amber-700">
                 Prelims: {meta.exam}
@@ -254,13 +247,8 @@ export default function HeroSection() {
 
                 {/* Section header */}
                 <div className="mb-4 flex items-center justify-between">
-                  <h3 className="text-sm font-bold text-slate-800">
-                    {section.title}
-                  </h3>
-                  <Badge
-                    variant={i === 0 ? 'blue' : i === 1 ? 'gold' : 'green'}
-                    size="sm"
-                  >
+                  <h3 className="text-sm font-bold text-slate-800">{section.title}</h3>
+                  <Badge variant={i === 0 ? 'blue' : i === 1 ? 'gold' : 'green'} size="sm">
                     {section.level}
                   </Badge>
                 </div>
@@ -310,23 +298,31 @@ export default function HeroSection() {
           {/* ── Bottom Bar ── */}
           <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 bg-slate-50 px-5 py-3.5">
             <span className="flex items-center gap-1.5 text-[0.8rem] text-slate-400">
-              <span>📚</span>
+              <BookOpen size={14} className="text-slate-400" />
               Start your {activeTab} preparation today
             </span>
-            <Button
+            <a
               href="https://app.prepgrind.com/register"
-              variant="gold"
-              size="sm"
-              external
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-[0.78rem] font-bold transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 active:scale-95"
+              style={{
+                background: 'linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-bright) 100%)',
+                color: 'var(--color-navy-deep)',
+                boxShadow: '0 2px 10px rgba(212,160,23,0.25)',
+              }}
             >
               Get Free Mock Tests →
-            </Button>
+            </a>
           </div>
 
         </div>
         {/* END TAB CARD */}
 
       </div>
+
+      {/* Bottom separator — matches QuizHero */}
+      <div className="h-px mt-14 bg-white/10 relative z-10" />
     </section>
   );
 }
