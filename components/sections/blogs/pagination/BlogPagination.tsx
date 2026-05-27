@@ -1,18 +1,18 @@
 // PATH: components/sections/blogs/pagination/BlogPagination.tsx
-// ─────────────────────────────────────────
-// PrepBanker — Blog Pagination
-// ─────────────────────────────────────────
+
 'use client';
 
+import { Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Props {
   currentPage: number;
-  totalPages: number;
+  totalPages:  number;
 }
 
-export default function BlogPagination({ currentPage, totalPages }: Props) {
+// ── Inner component — uses useSearchParams ─────────────
+function BlogPaginationInner({ currentPage, totalPages }: Props) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -60,7 +60,7 @@ export default function BlogPagination({ currentPage, totalPages }: Props) {
     color: '#fff',
     border: 'none',
     boxShadow: '0 4px 14px rgba(27,110,181,0.3)',
-  };
+  }; 
 
   const disabledStyle: React.CSSProperties = {
     opacity: 0.35,
@@ -85,7 +85,10 @@ export default function BlogPagination({ currentPage, totalPages }: Props) {
       {/* Page numbers */}
       {getPageNumbers().map((p, i) =>
         p === '...' ? (
-          <span key={`ellipsis-${i}`} style={{ ...btnBase, border: 'none', background: 'transparent', cursor: 'default' }}>
+          <span
+            key={`ellipsis-${i}`}
+            style={{ ...btnBase, border: 'none', background: 'transparent', cursor: 'default' }}
+          >
             …
           </span>
         ) : (
@@ -111,5 +114,14 @@ export default function BlogPagination({ currentPage, totalPages }: Props) {
         <ChevronRight className="w-4 h-4" />
       </button>
     </nav>
+  );
+}
+
+// ── Public export with Suspense boundary ───────────────
+export default function BlogPagination({ currentPage, totalPages }: Props) {
+  return (
+    <Suspense fallback={null}>
+      <BlogPaginationInner currentPage={currentPage} totalPages={totalPages} />
+    </Suspense>
   );
 }

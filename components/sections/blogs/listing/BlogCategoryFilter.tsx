@@ -1,9 +1,8 @@
 // PATH: components/sections/blogs/listing/BlogCategoryFilter.tsx
-// ─────────────────────────────────────────
-// PrepBanker — Blog Category Filter Tabs
-// ─────────────────────────────────────────
+
 'use client';
 
+import { Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import type { BlogCategory } from '@/types/blogs';
 
@@ -23,7 +22,8 @@ interface Props {
   activeCategory: BlogCategory | 'All';
 }
 
-export default function BlogCategoryFilter({ activeCategory }: Props) {
+// ── Inner component — uses useSearchParams ─────────────
+function BlogCategoryFilterInner({ activeCategory }: Props) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -39,7 +39,11 @@ export default function BlogCategoryFilter({ activeCategory }: Props) {
   };
 
   return (
-    <div className="flex items-center gap-2 overflow-x-auto scroll-hide pb-1" role="tablist" aria-label="Blog categories">
+    <div
+      className="flex items-center gap-2 overflow-x-auto scroll-hide pb-1"
+      role="tablist"
+      aria-label="Blog categories"
+    >
       {CATEGORIES.map(cat => {
         const isActive = cat === activeCategory;
         return (
@@ -69,5 +73,38 @@ export default function BlogCategoryFilter({ activeCategory }: Props) {
         );
       })}
     </div>
+  );
+}
+
+// ── Fallback skeleton while Suspense resolves ──────────
+function CategoryFilterSkeleton() {
+  return (
+    <div className="flex items-center gap-2 overflow-x-auto scroll-hide pb-1">
+      {['All', 'Exam Strategy', 'Current Affairs', 'Study Tips'].map(label => (
+        <div
+          key={label}
+          style={{
+            padding: '7px 18px',
+            borderRadius: '999px',
+            fontSize: '0.78rem',
+            background: 'var(--color-gray-100)',
+            color: 'transparent',
+            userSelect: 'none',
+            minWidth: 60,
+          }}
+        >
+          {label}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Public export — wraps inner component in Suspense ──
+export default function BlogCategoryFilter({ activeCategory }: Props) {
+  return (
+    <Suspense fallback={<CategoryFilterSkeleton />}>
+      <BlogCategoryFilterInner activeCategory={activeCategory} />
+    </Suspense>
   );
 }
