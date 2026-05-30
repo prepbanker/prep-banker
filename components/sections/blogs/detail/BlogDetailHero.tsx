@@ -1,220 +1,135 @@
 // PATH: components/sections/blogs/detail/BlogDetailHero.tsx
-// ─────────────────────────────────────────
-// PrepBanker — Blog Detail Hero
-// Dynamic hero that renders based on the specific blog's
-// title, category, author, featured image, and metadata.
-// ─────────────────────────────────────────
-import Image from 'next/image';
-import { Clock, Calendar, Eye, Star, BookOpen } from 'lucide-react';
+import Link from 'next/link';
+import { Clock, Calendar } from 'lucide-react';
 import Breadcrumb from '@/components/shared/Breadcrumb';
 import type { Blog } from '@/types/blogs';
 import { formatBlogDate } from '@/lib/data/blogs/blogs';
+import BlogShareButton from './BlogShareButton';
 
-// ── Category → accent colour mapping ──────
-const CATEGORY_ACCENT: Record<string, { pill: string; pillText: string }> = {
-  'Banking Awareness': { pill: 'rgba(59,158,227,0.18)',  pillText: '#60B4FF' },
-  'Current Affairs':   { pill: 'rgba(240,180,41,0.18)',  pillText: '#F0B429' },
-  'Exam Strategy':     { pill: 'rgba(22,163,74,0.18)',   pillText: '#4ADE80' },
-  'Study Tips':        { pill: 'rgba(139,92,246,0.18)',  pillText: '#C084FC' },
-  'RBI & Economy':     { pill: 'rgba(239,68,68,0.18)',   pillText: '#FCA5A5' },
-  'Government Schemes':{ pill: 'rgba(249,115,22,0.18)',  pillText: '#FB923C' },
-  'Interview Tips':    { pill: 'rgba(16,185,129,0.18)',  pillText: '#6EE7B7' },
-  'Success Stories':   { pill: 'rgba(236,72,153,0.18)',  pillText: '#F9A8D4' },
-};
-const DEFAULT_ACCENT = { pill: 'rgba(27,110,181,0.18)', pillText: '#60B4FF' };
+interface Props { blog: Blog; }
 
-interface Props {
-  blog: Blog;
-}
+// AI tools strip matching PDF reference
+const AI_TOOLS = [
+  { name: 'ChatGPT',    icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.28 9.28a5.77 5.77 0 00-.51-4.73 5.9 5.9 0 00-6.35-2.83A5.9 5.9 0 0010.07 0a5.89 5.89 0 00-5.62 4.08 5.88 5.88 0 00-3.93 2.84 5.9 5.9 0 00.73 6.92 5.84 5.84 0 00.51 4.73 5.9 5.9 0 006.35 2.83A5.86 5.86 0 0013.93 24a5.9 5.9 0 005.63-4.09 5.87 5.87 0 003.93-2.84 5.9 5.9 0 00-.73-6.79h.02z"/></svg> },
+  { name: 'Claude',     icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-1.285-.072C1.2 12.6 0 11.37 0 9.75c0-1.502 1.05-2.75 2.45-3.02l.3-.043.093-.277A5.26 5.26 0 017.88 2.36c.98 0 1.865.28 2.67.72l.207.117.19-.14A4.428 4.428 0 0113.53 2c1.807 0 3.33 1.09 4.02 2.66l.1.23.245.02c1.79.15 3.105 1.64 3.105 3.42 0 .07 0 .14-.006.21l-.02.3.27.12c1.02.44 1.72 1.46 1.72 2.64 0 1.58-1.2 2.81-2.72 2.91l-.79.043-3.18.097-.79.048h-.23l-.08.127.08.23 4.72 2.647 3.458 1.94c.303.17.406.554.23.858l-1.49 2.58a.625.625 0 01-.857.23l-3.46-1.942-4.716-2.65-.23-.08-.23.08-4.717 2.65L4.64 21.56a.625.625 0 01-.857-.23l-1.49-2.578a.625.625 0 01.23-.858l4.186-2.94z"/></svg> },
+  { name: 'Gemini',     icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24A14.304 14.304 0 000 12 14.304 14.304 0 0012 0a14.304 14.304 0 0012 12 14.304 14.304 0 00-12 12"/></svg> },
+  { name: 'Perplexity', icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.3527 7.16309H16.0274V1.21167L22.3527 7.16309ZM13.8759 0L7.94745 5.85228V0H2.17285V10.8897L0 13.0138V24H7.94745V18.1477L13.8759 24H21.8234V13.1309L24 11.0069V0H13.8759ZM16.0274 21.8485H14.7418L7.94745 15.2186V21.8485H2.15143V13.7655L4.43629 11.5243H7.94745V8.10309L13.7189 2.39381V9.02369H19.7703L21.8234 11.0924V21.8485H16.0274Z"/></svg> },
+  { name: 'Grok',       icon: <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.3L13.06 12 20.3 19.7a10 10 0 000-15.4zM3.7 19.7L10.94 12 3.7 4.3a10 10 0 000 15.4z"/></svg> },
+];
 
 export default function BlogDetailHero({ blog }: Props) {
-  const accent = CATEGORY_ACCENT[blog.category] ?? DEFAULT_ACCENT;
-
   return (
-    <section
-      className="relative overflow-hidden bg-[var(--color-navy-deep)]"
-      style={{ padding: '0 0 0' }}
+    <div
+      className="relative overflow-hidden border-b"
+      style={{
+        background: 'var(--color-navy-deep)',
+        borderColor: 'rgba(255,255,255,0.08)',
+        padding: '2rem 0 1.5rem',
+      }}
     >
-      {/* ── Background: featured image with overlay ── */}
-      <div className="absolute inset-0">
-        <Image
-          src={blog.featuredImage}
-          alt=""
-          fill
-          className="object-cover"
-          priority
-          aria-hidden
-        />
-        {/* Dark gradient overlay — keeps text readable */}
+
+      {/* ── Decorative background blobs (matches BlogHero) ── */}
+      <div aria-hidden className="absolute inset-0 pointer-events-none">
         <div
-          className="absolute inset-0"
-          style={{
-            background:
-              'linear-gradient(180deg, rgba(7,16,42,0.82) 0%, rgba(7,16,42,0.90) 60%, rgba(7,16,42,0.98) 100%)',
-          }}
+          className="absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, var(--color-blue) 0%, transparent 70%)' }}
         />
-        {/* Blue side tint */}
         <div
-          className="absolute inset-0"
-          style={{
-            background:
-              'radial-gradient(ellipse at 0% 100%, rgba(27,110,181,0.20) 0%, transparent 55%)',
-          }}
+          className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10"
+          style={{ background: 'radial-gradient(circle, var(--color-gold) 0%, transparent 70%)' }}
         />
-        {/* Gold top-right bloom */}
         <div
-          className="absolute inset-0"
-          style={{
-            background:
-              'radial-gradient(ellipse at 100% 0%, rgba(212,160,23,0.12) 0%, transparent 45%)',
-          }}
-        />
-        {/* Subtle grid */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
+          className="absolute inset-0 opacity-[0.04]"
           style={{
             backgroundImage:
-              'linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)',
+              'linear-gradient(var(--color-gray-200) 1px, transparent 1px), linear-gradient(90deg, var(--color-gray-200) 1px, transparent 1px)',
             backgroundSize: '40px 40px',
           }}
         />
       </div>
 
-      {/* ── Content ── */}
-      <div className="container-custom relative z-10" style={{ padding: '2.5rem 1.5rem 3rem' }}>
-
+      <div className="container-custom relative z-10" style={{ padding: '0 1.5rem' }}>
         {/* Breadcrumb */}
         <Breadcrumb
           items={[
-            { label: 'Home',     href: '/' },
-            { label: 'Blog',     href: '/blogs' },
-            { label: blog.category, href: `/blogs?category=${encodeURIComponent(blog.category)}` },
+            { label: 'Home', href: '/' },
+            { label: 'Blog', href: '/blogs' },
             { label: blog.title },
           ]}
+  
         />
-
-        {/* Category pill + difficulty */}
-        <div className="mt-5 flex items-center flex-wrap gap-2">
-          <span
-            className="badge"
-            style={{ background: accent.pill, color: accent.pillText, border: `1px solid ${accent.pillText}30` }}
-          >
-            {blog.category}
-          </span>
-          {blog.difficulty && (
-            <span
-              className="badge"
-              style={{ background: 'rgba(255,255,255,0.08)', color: 'rgba(255,255,255,0.65)', border: '1px solid rgba(255,255,255,0.12)' }}
-            >
-              {blog.difficulty}
-            </span>
-          )}
-          {blog.relatedExams?.map(exam => (
-            <span
-              key={exam}
-              className="badge"
-              style={{ background: 'rgba(212,160,23,0.12)', color: 'var(--color-gold-bright)', border: '1px solid rgba(212,160,23,0.25)' }}
-            >
-              {exam.toUpperCase().replace('-', ' ')}
-            </span>
-          ))}
-        </div>
 
         {/* Title */}
         <h1
-          className="font-extrabold leading-tight mt-4"
+          className="font-extrabold leading-tight mt-5 mb-4"
           style={{
             fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(1.5rem, 3.5vw, 2.4rem)',
+            fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)',
             color: '#fff',
-            maxWidth: '820px',
+            maxWidth: 820,
           }}
         >
           {blog.title}
         </h1>
 
-        {/* Excerpt */}
-        <p
-          className="mt-3 max-w-2xl text-sm leading-relaxed"
-          style={{ color: 'rgba(255,255,255,0.60)' }}
-        >
-          {blog.excerpt}
-        </p>
-
-        {/* ── Meta strip ── */}
-        <div
-          className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3"
-          style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1.25rem' }}
-        >
+        {/* Meta row */}
+        <div className="flex flex-wrap items-center gap-4 mb-4">
           {/* Author */}
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-2">
             <div
-              className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
-              style={{ background: 'var(--color-navy-light)', color: '#fff', border: '2px solid rgba(255,255,255,0.15)' }}
+              className="w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold"
+              style={{ background: 'rgba(255,255,255,0.15)', color: '#fff' }}
             >
               {blog.author.name.split(' ').map(p => p[0]).join('').slice(0, 2)}
             </div>
-            <div>
-              <p className="text-[13px] font-semibold text-white leading-none">{blog.author.name}</p>
-              <p className="text-[11px] mt-0.5" style={{ color: 'rgba(255,255,255,0.48)' }}>
-                {blog.author.designation}
-              </p>
-            </div>
+            <span className="text-sm font-medium" style={{ color: 'rgba(255,255,255,0.85)' }}>
+              {blog.author.name}
+            </span>
           </div>
-
-          {/* Divider */}
-          <div className="hidden sm:block w-px h-8" style={{ background: 'rgba(255,255,255,0.12)' }} />
 
           {/* Date */}
-          <div className="flex items-center gap-1.5 text-[12px]" style={{ color: 'rgba(255,255,255,0.55)' }}>
-            <Calendar className="w-3.5 h-3.5 flex-shrink-0" aria-hidden />
+          <div className="flex items-center gap-1.5 text-sm" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            <Calendar className="w-3.5 h-3.5" aria-hidden />
             {formatBlogDate(blog.publishedAt)}
-            {blog.updatedAt && (
-              <span style={{ color: 'rgba(255,255,255,0.35)' }}>
-                · Updated {formatBlogDate(blog.updatedAt)}
-              </span>
-            )}
-          </div>
-
-          {/* Read time */}
-          <div className="flex items-center gap-1.5 text-[12px]" style={{ color: 'rgba(255,255,255,0.55)' }}>
-            <Clock className="w-3.5 h-3.5 flex-shrink-0" aria-hidden />
-            {blog.readTimeMinutes} min read
-          </div>
-
-          {/* View count */}
-          {blog.viewCount && (
-            <div className="flex items-center gap-1.5 text-[12px]" style={{ color: 'rgba(255,255,255,0.55)' }}>
-              <Eye className="w-3.5 h-3.5 flex-shrink-0" aria-hidden />
-              {(blog.viewCount >= 1000
-                ? `${(blog.viewCount / 1000).toFixed(1)}K`
-                : blog.viewCount
-              )} views
-            </div>
-          )}
-
-          {/* Rating */}
-          {blog.rating && (
-            <div className="flex items-center gap-1.5 text-[12px] font-semibold" style={{ color: 'var(--color-gold-bright)' }}>
-              <Star className="w-3.5 h-3.5 fill-current flex-shrink-0" aria-hidden />
-              {blog.rating.toFixed(1)} / 5
-            </div>
-          )}
-
-          {/* Read time pill (right side) */}
-          <div className="ml-auto hidden lg:flex items-center gap-1.5 text-[12px]" style={{ color: 'rgba(255,255,255,0.55)' }}>
-            <BookOpen className="w-3.5 h-3.5" aria-hidden />
-            <span>{blog.tags.map(t => t.label).join(' · ')}</span>
           </div>
         </div>
 
+        {/* Share button row */}
+        <BlogShareButton />
+
+{/* Summarise with AI strip */}
+<div
+  className="flex flex-wrap items-center gap-3 mt-4 mb-8 px-4 py-2.5 rounded-xl w-fit"
+  style={{
+    background: 'rgba(255,255,255,0.07)',
+    border: '1px solid rgba(255,255,255,0.12)',
+  }}
+>
+  <span className="text-xs font-medium" style={{ color: 'rgba(255,255,255,0.55)' }}>
+    Summarise with AI
+  </span>
+ {AI_TOOLS.map(tool => (
+  <button
+    key={tool.name}
+    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium ai-tool-btn"
+    style={{
+      border: '1px solid rgba(255,255,255,0.15)',
+      background: 'rgba(255,255,255,0.08)',
+      color: 'rgba(255,255,255,0.80)',
+      cursor: 'pointer',
+      transition: 'background 0.15s ease',
+    }}
+  >
+    <span>{tool.icon}</span>
+    {tool.name}
+  </button>
+))}
+</div>
+        
       </div>
 
-      {/* Bottom fade to page bg */}
-      <div
-        className="h-8 relative z-10"
-        style={{ background: 'linear-gradient(0deg, var(--color-off-white) 0%, transparent 100%)' }}
-      />
-    </section>
+      {/* Bottom separator */}
+      <div className="h-px mt-6 bg-white/10 relative z-10" />
+    </div>
   );
 }

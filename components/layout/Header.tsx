@@ -4,7 +4,9 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { navLinks } from '@/lib/data';
- 
+import Image from 'next/image';
+import Logo from "../../public/images/prepbanker-logo-1.png"
+
 export default function Header() {
   const [scrolled,       setScrolled]       = useState(false);
   const [mobileOpen,     setMobileOpen]     = useState(false);
@@ -58,31 +60,38 @@ export default function Header() {
             gap: '10px', flexShrink: 0,
           }}
         >
-          <div style={{
-            width: 38, height: 38,
-            background: 'linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-bright) 100%)',
-            borderRadius: '10px',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontFamily: 'var(--font-display)',
-            fontWeight: 800,
-            fontSize: '1.15rem',
-            color: 'var(--color-navy-deep)',
-            boxShadow: '0 3px 10px rgba(212,160,23,0.35)',
-            flexShrink: 0,
-          }}>P</div>
+          <div
+  style={{
+    width: '42px',
+    height: '42px',
+    position: 'relative',
+    flexShrink: 0,
+  }}
+>
+  <Image
+    src={Logo}
+    alt="PrepBanker Logo"
+    fill
+    priority
+    sizes="42px"
+    style={{
+      objectFit: 'contain',
+    }}
+  />
+</div>
           <div>
             <div style={{
               fontFamily: 'var(--font-display)',
               fontWeight: 800,
-              fontSize: '1.2rem',
-              color: 'var(--color-navy-deep)',
+fontSize: 'clamp(1rem, 2vw, 1.2rem)',  
+            color: 'var(--color-navy-deep)',
               lineHeight: 1,
               letterSpacing: '-0.01em',
             }}>
-              Prep<span style={{ color: 'var(--color-blue)' }}>Banker</span>
+              Prep<span style={{ color: 'var(--color-gold-bright)' }}>Banker</span>
             </div>
             <div style={{
-              fontSize: '0.58rem',
+              fontSize: 'clamp(0.5rem, 1.2vw, 0.58rem)',
               color: 'var(--color-gray-400)',
               letterSpacing: '0.08em',
               textTransform: 'uppercase',

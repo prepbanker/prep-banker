@@ -434,8 +434,18 @@ export function getPaginatedBlogs(
   page = 1,
   perPage = 6,
   category?: string,
+  search?: string,
 ): { blogs: Blog[]; total: number; totalPages: number } {
-  const filtered = getBlogsByCategory(category);
+  let filtered = getBlogsByCategory(category);
+
+  if (search?.trim()) {
+    const q = search.trim().toLowerCase();
+    filtered = filtered.filter(b =>
+      b.title.toLowerCase().includes(q) ||
+      b.excerpt?.toLowerCase().includes(q)
+    );
+  }
+
   const total = filtered.length;
   const totalPages = Math.ceil(total / perPage);
   const start = (page - 1) * perPage;

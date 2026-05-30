@@ -1,17 +1,13 @@
 // PATH: components/sections/blogs/listing/BlogGrid.tsx
-// ─────────────────────────────────────────
-// PrepBanker — Blog Listing Grid
-// ─────────────────────────────────────────
 import type { Blog } from '@/types/blogs';
 import BlogCard from './BlogCard';
-import FeaturedBlogCard from './FeaturedBlogCard';
 
 interface Props {
   blogs: Blog[];
   showFeaturedFirst?: boolean;
 }
 
-export default function BlogGrid({ blogs, showFeaturedFirst = true }: Props) {
+export default function BlogGrid({ blogs, showFeaturedFirst = false }: Props) {
   if (blogs.length === 0) {
     return (
       <div
@@ -32,25 +28,11 @@ export default function BlogGrid({ blogs, showFeaturedFirst = true }: Props) {
     );
   }
 
-  // If showFeaturedFirst and first blog is featured, render it as wide card
-  const [first, ...rest] = blogs;
-  const renderFeaturedFirst = showFeaturedFirst && first?.isFeatured;
-
   return (
-    <div>
-      {/* Featured wide card (first blog if featured) */}
-      {renderFeaturedFirst && (
-        <div className="mb-6">
-          <FeaturedBlogCard blog={first} />
-        </div>
-      )}
-
-      {/* Regular grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {(renderFeaturedFirst ? rest : blogs).map(blog => (
-          <BlogCard key={blog.id} blog={blog} />
-        ))}
-      </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {blogs.map(blog => (
+        <BlogCard key={blog.id} blog={blog} />
+      ))}
     </div>
   );
 }

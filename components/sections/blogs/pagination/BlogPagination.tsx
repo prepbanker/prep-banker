@@ -1,5 +1,3 @@
-// PATH: components/sections/blogs/pagination/BlogPagination.tsx
-
 'use client';
 
 import { Suspense } from 'react';
@@ -11,22 +9,20 @@ interface Props {
   totalPages:  number;
 }
 
-// ── Inner component — uses useSearchParams ─────────────
 function BlogPaginationInner({ currentPage, totalPages }: Props) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
   if (totalPages <= 1) return null;
 
-  const goToPage = (page: number) => {
-    if (page < 1 || page > totalPages) return;
-    const params = new URLSearchParams(searchParams.toString());
-    params.set('page', String(page));
-    router.push(`/blogs?${params.toString()}`);
+ const goToPage = (page: number) => {
+  if (page < 1 || page > totalPages) return;
+  const params = new URLSearchParams(searchParams.toString());
+  params.set('page', String(page));
+  router.push(`/blogs?${params.toString()}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+};
 
-  // Build page numbers with ellipsis
   const getPageNumbers = (): (number | '...')[] => {
     if (totalPages <= 7) return Array.from({ length: totalPages }, (_, i) => i + 1);
     const pages: (number | '...')[] = [1];
@@ -39,85 +35,95 @@ function BlogPaginationInner({ currentPage, totalPages }: Props) {
     return pages;
   };
 
-  const btnBase: React.CSSProperties = {
-    display: 'inline-flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: 38,
-    height: 38,
-    borderRadius: 10,
-    fontSize: '0.875rem',
-    fontWeight: 600,
-    cursor: 'pointer',
-    border: '1px solid var(--color-gray-100)',
-    background: '#fff',
-    color: 'var(--color-gray-600)',
-    transition: 'var(--transition)',
-  };
-
-  const activeStyle: React.CSSProperties = {
-    background: 'linear-gradient(135deg, var(--color-blue), var(--color-navy-light))',
-    color: '#fff',
-    border: 'none',
-    boxShadow: '0 4px 14px rgba(27,110,181,0.3)',
-  }; 
-
-  const disabledStyle: React.CSSProperties = {
-    opacity: 0.35,
-    cursor: 'not-allowed',
-  };
-
   return (
     <nav
       aria-label="Blog pagination"
-      className="flex items-center justify-center gap-2 mt-10"
+      className="flex items-center justify-center gap-1.5 mt-10"
     >
-      {/* Prev */}
+      {/* Prev button */}
       <button
         onClick={() => goToPage(currentPage - 1)}
         disabled={currentPage === 1}
-        style={{ ...btnBase, ...(currentPage === 1 ? disabledStyle : {}) }}
         aria-label="Previous page"
+        className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all focus:outline-none disabled:opacity-40 disabled:cursor-not-allowed"
+        style={{
+          border: '1px solid var(--color-gray-200)',
+          background: '#fff',
+          color: 'var(--color-gray-600)',
+          cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+        }}
+        onMouseEnter={e => { if (currentPage !== 1) (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--color-blue)'; (e.currentTarget as HTMLButtonElement).style.color = 'var(--color-blue)'; }}
+        onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--color-gray-200)'; (e.currentTarget as HTMLButtonElement).style.color = 'var(--color-gray-600)'; }}
       >
-        <ChevronLeft className="w-4 h-4" />
+        <ChevronLeft className="w-3.5 h-3.5" />
+        <span>Prev</span>
       </button>
 
       {/* Page numbers */}
-      {getPageNumbers().map((p, i) =>
-        p === '...' ? (
-          <span
-            key={`ellipsis-${i}`}
-            style={{ ...btnBase, border: 'none', background: 'transparent', cursor: 'default' }}
-          >
-            …
-          </span>
-        ) : (
-          <button
-            key={p}
-            onClick={() => goToPage(p as number)}
-            aria-label={`Go to page ${p}`}
-            aria-current={p === currentPage ? 'page' : undefined}
-            style={{ ...btnBase, ...(p === currentPage ? activeStyle : {}) }}
-          >
-            {p}
-          </button>
-        )
-      )}
+      <div className="flex items-center gap-1">
+        {getPageNumbers().map((p, i) =>
+          p === '...' ? (
+            <span
+              key={`ellipsis-${i}`}
+              className="w-9 h-9 flex items-center justify-center text-sm"
+              style={{ color: 'var(--color-gray-400)' }}
+            >
+              …
+            </span>
+          ) : (
+            <button
+              key={p}
+              onClick={() => goToPage(p as number)}
+              aria-label={`Page ${p}`}
+              aria-current={p === currentPage ? 'page' : undefined}
+              className="w-9 h-9 flex items-center justify-center rounded-lg text-sm font-semibold transition-all focus:outline-none"
+              style={
+                p === currentPage
+                  ? {
+                      background: 'var(--color-blue)',
+                      color: '#fff',
+                      border: '1px solid var(--color-blue)',
+                      cursor: 'default',
+                      boxShadow: '0 2px 8px rgba(27,110,181,0.25)',
+                    }
+                  : {
+                      background: '#fff',
+                      color: 'var(--color-navy)',
+                      border: '1px solid var(--color-gray-200)',
+                      cursor: 'pointer',
+                    }
+              }
+              onMouseEnter={e => { if (p !== currentPage) { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--color-blue)'; (e.currentTarget as HTMLButtonElement).style.color = 'var(--color-blue)'; } }}
+              onMouseLeave={e => { if (p !== currentPage) { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--color-gray-200)'; (e.currentTarget as HTMLButtonElement).style.color = 'var(--color-navy)'; } }}
+            >
+              {p}
+            </button>
+          )
+        )}
+      </div>
 
-      {/* Next */}
+      {/* Next button */}
       <button
         onClick={() => goToPage(currentPage + 1)}
         disabled={currentPage === totalPages}
-        style={{ ...btnBase, ...(currentPage === totalPages ? disabledStyle : {}) }}
         aria-label="Next page"
+        className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all focus:outline-none disabled:opacity-40 disabled:cursor-not-allowed"
+        style={{
+          border: '1px solid var(--color-gray-200)',
+          background: '#fff',
+          color: 'var(--color-gray-600)',
+          cursor: currentPage === totalPages ? 'not-allowed' : 'pointer',
+        }}
+        onMouseEnter={e => { if (currentPage !== totalPages) { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--color-blue)'; (e.currentTarget as HTMLButtonElement).style.color = 'var(--color-blue)'; } }}
+        onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--color-gray-200)'; (e.currentTarget as HTMLButtonElement).style.color = 'var(--color-gray-600)'; }}
       >
-        <ChevronRight className="w-4 h-4" />
+        <span>Next</span>
+        <ChevronRight className="w-3.5 h-3.5" />
       </button>
     </nav>
   );
 }
 
-// ── Public export with Suspense boundary ───────────────
 export default function BlogPagination({ currentPage, totalPages }: Props) {
   return (
     <Suspense fallback={null}>

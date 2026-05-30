@@ -135,18 +135,7 @@ export default function HeroSection() {
             <Zap size={16} />
             Start Preparing Now
           </a>
-          <a
-            href="#test-series"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
-            style={{
-              background: 'rgba(255,255,255,0.08)',
-              border: '1px solid rgba(255,255,255,0.15)',
-              color: 'rgba(255,255,255,0.85)',
-            }}
-          >
-            <BookOpen size={16} />
-            Browse Mock Tests
-          </a>
+        
         </div>
 
         {/* ── Quick Stats ── */}
