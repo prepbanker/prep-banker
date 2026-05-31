@@ -1,6 +1,5 @@
-// PATH: components/layout/Header.tsx
 'use client';
- 
+
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { navLinks } from '@/lib/data';
@@ -11,212 +10,117 @@ export default function Header() {
   const [scrolled,       setScrolled]       = useState(false);
   const [mobileOpen,     setMobileOpen]     = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
- 
+
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handler, { passive: true });
     return () => window.removeEventListener('scroll', handler);
   }, []);
- 
+
   useEffect(() => {
     const handler = () => { if (window.innerWidth >= 1024) setMobileOpen(false); };
     window.addEventListener('resize', handler);
     return () => window.removeEventListener('resize', handler);
   }, []);
- 
-  // Badge color mapping so Quiz gets a different colour to LIVE
-  function badgeStyle(badge: string) {
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    if (mobileOpen) document.body.style.overflow = 'hidden';
+    else document.body.style.overflow = '';
+    return () => { document.body.style.overflow = ''; };
+  }, [mobileOpen]);
+
+  function badgeStyle(badge: string): React.CSSProperties {
     if (badge === 'LIVE') return { background: '#EF4444' };
     if (badge === 'NEW')  return { background: 'linear-gradient(135deg,#7C3AED,#A855F7)' };
     return { background: 'var(--color-blue)' };
   }
- 
+
   return (
     <header
       suppressHydrationWarning
-      style={{
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
-        background: '#ffffff',
-        borderBottom: scrolled
-          ? '1px solid rgba(13,27,62,0.1)'
-          : '1px solid rgba(13,27,62,0.07)',
-        boxShadow: scrolled ? '0 2px 20px rgba(13,27,62,0.08)' : 'none',
-        transition: 'var(--transition)',
-      }}
+      className={`sticky top-0 z-[100] bg-white transition-all duration-300 ${
+        scrolled
+          ? 'border-b border-[rgba(13,27,62,0.1)] shadow-[0_2px_20px_rgba(13,27,62,0.08)]'
+          : 'border-b border-[rgba(13,27,62,0.07)]'
+      }`}
     >
-      <div
-        className="container-custom"
-        style={{ display: 'flex', alignItems: 'center', height: '64px', gap: '2rem' }}
-      >
- 
-        {/* ── Logo ──────────────────────────────── */}
-        <Link
-          href="/"
-          style={{
-            textDecoration: 'none',
-            display: 'flex', alignItems: 'center',
-            gap: '10px', flexShrink: 0,
-          }}
-        >
-          <div
-  style={{
-    width: '42px',
-    height: '42px',
-    position: 'relative',
-    flexShrink: 0,
-  }}
->
-  <Image
-    src={Logo}
-    alt="PrepBanker Logo"
-    fill
-    priority
-    sizes="42px"
-    style={{
-      objectFit: 'contain',
-    }}
-  />
-</div>
+      <div className="container-custom flex items-center h-16 gap-4 lg:gap-8">
+
+        {/* ── Logo ── */}
+        <Link href="/" className="flex items-center gap-2.5 shrink-0 no-underline">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 shrink-0">
+            <Image
+              src={Logo}
+              alt="PrepBanker Logo"
+              fill
+              priority
+              sizes="42px"
+              className="object-contain"
+            />
+          </div>
           <div>
-            <div style={{
-              fontFamily: 'var(--font-display)',
-              fontWeight: 800,
-fontSize: 'clamp(1rem, 2vw, 1.2rem)',  
-            color: 'var(--color-navy-deep)',
-              lineHeight: 1,
-              letterSpacing: '-0.01em',
-            }}>
-              Prep<span style={{ color: 'var(--color-gold-bright)' }}>Banker</span>
+            <div
+              className="font-extrabold leading-none tracking-tight text-[var(--color-navy-deep)]"
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+              }}
+            >
+              Prep<span className="text-[var(--color-gold-bright)]">Banker</span>
             </div>
-            <div style={{
-              fontSize: 'clamp(0.5rem, 1.2vw, 0.58rem)',
-              color: 'var(--color-gray-400)',
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-              lineHeight: 1,
-              marginTop: '2px',
-            }}>
+            <div className="text-[var(--color-gray-400)] uppercase tracking-widest leading-none mt-0.5"
+              style={{ fontSize: 'clamp(0.5rem, 1.2vw, 0.58rem)' }}
+            >
               Banking Exam Prep
             </div>
           </div>
         </Link>
- 
-        {/* ── Desktop Nav ───────────────────────── */}
-        <nav
-          style={{ display: 'none', flex: 1, alignItems: 'center', gap: '2px' }}
-          className="lg-nav"
-        >
+
+        {/* ── Desktop Nav ── */}
+        <nav className="hidden lg:flex flex-1 items-center gap-0.5">
           {navLinks.map(link => (
             <div
               key={link.href}
-              style={{ position: 'relative' }}
+              className="relative"
               onMouseEnter={() => link.children && setActiveDropdown(link.label)}
               onMouseLeave={() => setActiveDropdown(null)}
             >
               <Link
                 href={link.href}
-                style={{
-                  display: 'inline-flex', alignItems: 'center', gap: '5px',
-                  padding: '7px 13px',
-                  borderRadius: '8px',
-                  color: 'var(--color-gray-600)',
-                  textDecoration: 'none',
-                  fontSize: '0.88rem',
-                  fontWeight: 600,
-                  transition: 'var(--transition)',
-                  whiteSpace: 'nowrap',
-                }}
-                onMouseEnter={e => {
-                  (e.currentTarget as HTMLElement).style.color = 'var(--color-navy)';
-                  (e.currentTarget as HTMLElement).style.background = 'var(--color-sky)';
-                }}
-                onMouseLeave={e => {
-                  (e.currentTarget as HTMLElement).style.color = 'var(--color-gray-600)';
-                  (e.currentTarget as HTMLElement).style.background = 'transparent';
-                }}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[0.88rem] font-semibold text-[var(--color-gray-600)] no-underline whitespace-nowrap transition-all duration-200 hover:text-[var(--color-navy)] hover:bg-[var(--color-sky)]"
               >
                 {link.label}
- 
-                {/* Badge (LIVE / NEW / etc.) */}
+
                 {link.badge && (
-                  <span style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '4px',
-                    ...badgeStyle(link.badge),
-                    color: '#fff',
-                    fontSize: '0.6rem',
-                    fontWeight: 800,
-                    padding: link.badge === 'LIVE' ? '2px 7px 2px 5px' : '2px 7px',
-                    borderRadius: '999px',
-                    letterSpacing: '0.06em',
-                    textTransform: 'uppercase',
-                    lineHeight: 1,
-                  }}>
-                    {/* Pulse dot only for LIVE */}
+                  <span
+                    className="inline-flex items-center gap-1 text-white text-[0.6rem] font-black px-1.5 py-0.5 rounded-full uppercase tracking-wide leading-none"
+                    style={badgeStyle(link.badge)}
+                  >
                     {link.badge === 'LIVE' && (
-                      <span style={{
-                        width: 5, height: 5,
-                        background: '#fff',
-                        borderRadius: '50%',
-                        display: 'inline-block',
-                        flexShrink: 0,
-                        animation: 'pulse-live 1.4s ease-in-out infinite',
-                      }} />
+                      <span className="w-1 h-1 bg-white rounded-full inline-block shrink-0 animate-[pulse-live_1.4s_ease-in-out_infinite]" />
                     )}
                     {link.badge}
                   </span>
                 )}
- 
+
                 {link.children && (
                   <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
                     <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                   </svg>
                 )}
               </Link>
- 
+
               {/* Dropdown */}
               {link.children && activeDropdown === link.label && (
-                <div style={{
-                  position: 'absolute', top: 'calc(100% + 6px)', left: 0,
-                  background: '#fff',
-                  border: '1px solid var(--color-gray-100)',
-                  borderRadius: '14px',
-                  padding: '6px',
-                  minWidth: 190,
-                  boxShadow: '0 8px 32px rgba(13,27,62,0.12)',
-                  zIndex: 200,
-                }}>
+                <div className="absolute top-[calc(100%+6px)] left-0 bg-white border border-[var(--color-gray-100)] rounded-2xl p-1.5 min-w-[190px] shadow-[0_8px_32px_rgba(13,27,62,0.12)] z-[200]">
                   {link.children.map(child => (
                     <Link
                       key={child.href}
                       href={child.href}
-                      style={{
-                        display: 'flex', alignItems: 'center', gap: '8px',
-                        padding: '10px 14px',
-                        color: 'var(--color-gray-600)',
-                        textDecoration: 'none',
-                        fontSize: '0.875rem',
-                        fontWeight: 500,
-                        borderRadius: '9px',
-                        transition: 'var(--transition)',
-                      }}
-                      onMouseEnter={e => {
-                        (e.currentTarget as HTMLElement).style.background = 'var(--color-sky)';
-                        (e.currentTarget as HTMLElement).style.color = 'var(--color-blue)';
-                      }}
-                      onMouseLeave={e => {
-                        (e.currentTarget as HTMLElement).style.background = 'transparent';
-                        (e.currentTarget as HTMLElement).style.color = 'var(--color-gray-600)';
-                      }}
+                      className="flex items-center gap-2 px-3.5 py-2.5 text-[0.875rem] font-medium text-[var(--color-gray-600)] no-underline rounded-xl transition-all duration-200 hover:bg-[var(--color-sky)] hover:text-[var(--color-blue)]"
                     >
-                      <span style={{
-                        width: 6, height: 6, borderRadius: '50%',
-                        background: 'var(--color-blue)', display: 'inline-block', flexShrink: 0,
-                      }} />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-blue)] inline-block shrink-0" />
                       {child.label}
                     </Link>
                   ))}
@@ -225,153 +129,112 @@ fontSize: 'clamp(1rem, 2vw, 1.2rem)',
             </div>
           ))}
         </nav>
- 
-        {/* spacer (mobile) */}
-        <div style={{ flex: 1 }} className="lg-hide" />
- 
-        {/* ── CTA + Hamburger ───────────────────── */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+
+        {/* spacer mobile */}
+        <div className="flex-1 lg:hidden" />
+
+        {/* ── CTA + Hamburger ── */}
+        <div className="flex items-center gap-2 shrink-0">
           <a
             href="https://app.prepgrind.com/register"
             target="_blank"
             rel="noopener noreferrer"
+            className="
+              inline-flex items-center justify-center
+              px-4 sm:px-5 py-2 sm:py-2.5
+              rounded-xl font-bold no-underline whitespace-nowrap
+              text-[var(--color-navy-deep)]
+              transition-all duration-200
+              hover:-translate-y-px
+              text-xs sm:text-sm
+            "
             style={{
-              padding: '9px 22px',
               background: 'linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-bright) 100%)',
-              color: 'var(--color-navy-deep)',
-              borderRadius: '10px',
-              fontWeight: 700,
-              fontSize: '0.875rem',
-              textDecoration: 'none',
-              transition: 'var(--transition)',
               boxShadow: '0 3px 12px rgba(212,160,23,0.35)',
-              whiteSpace: 'nowrap',
-            }}
-            onMouseEnter={e => {
-              (e.currentTarget as HTMLElement).style.transform = 'translateY(-1px)';
-              (e.currentTarget as HTMLElement).style.boxShadow = '0 6px 20px rgba(212,160,23,0.45)';
-            }}
-            onMouseLeave={e => {
-              (e.currentTarget as HTMLElement).style.transform = 'translateY(0)';
-              (e.currentTarget as HTMLElement).style.boxShadow = '0 3px 12px rgba(212,160,23,0.35)';
             }}
           >
-            Start Free
+            <span className="hidden sm:inline">Start Free</span>
+            <span className="sm:hidden">Free</span>
           </a>
- 
+
           {/* Hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
-            className="hamburger"
-            style={{
-              display: 'none',
-              background: 'var(--color-sky)',
-              border: '1px solid var(--color-gray-200)',
-              borderRadius: '8px',
-              padding: '8px',
-              cursor: 'pointer',
-              color: 'var(--color-navy)',
-            }}
+            aria-expanded={mobileOpen}
+            className="lg:hidden flex items-center justify-center w-9 h-9 rounded-lg bg-[var(--color-sky)] border border-[var(--color-gray-200)] cursor-pointer text-[var(--color-navy)] transition-colors duration-200 hover:bg-[var(--color-gray-100)]"
           >
             {mobileOpen
-              ? <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" /></svg>
-              : <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M3 6h18M3 18h18" /></svg>
+              ? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" /></svg>
+              : <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M3 6h18M3 18h18" /></svg>
             }
           </button>
         </div>
       </div>
- 
-      {/* ── Mobile Menu ──────────────────────────── */}
+
+      {/* ── Mobile Menu ── */}
       {mobileOpen && (
-        <div style={{
-          background: '#fff',
-          borderTop: '1px solid var(--color-gray-100)',
-          padding: '1rem 1.5rem 1.5rem',
-        }}>
-          {navLinks.map(link => (
-            <div key={link.href}>
-              <Link
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 top-16 bg-black/40 z-40 lg:hidden"
+            onClick={() => setMobileOpen(false)}
+          />
+
+          {/* Drawer */}
+          <div className="absolute top-full left-0 right-0 bg-white border-t border-[var(--color-gray-100)] z-50 lg:hidden max-h-[calc(100vh-64px)] overflow-y-auto">
+            <div className="px-4 py-3 pb-6">
+
+              {navLinks.map(link => (
+                <div key={link.href}>
+                  <Link
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center justify-between py-3 text-base font-semibold text-[var(--color-navy)] no-underline border-b border-[var(--color-gray-100)]"
+                  >
+                    {link.label}
+                    {link.badge && (
+                      <span
+                        className="inline-flex items-center gap-1 text-white text-[0.6rem] font-black px-2 py-0.5 rounded-full uppercase tracking-wide"
+                        style={badgeStyle(link.badge)}
+                      >
+                        {link.badge === 'LIVE' && (
+                          <span className="w-1 h-1 bg-white rounded-full inline-block" />
+                        )}
+                        {link.badge}
+                      </span>
+                    )}
+                  </Link>
+
+                  {link.children?.map(child => (
+                    <Link
+                      key={child.href}
+                      href={child.href}
+                      onClick={() => setMobileOpen(false)}
+                      className="flex items-center gap-2 px-3.5 py-2.5 text-[0.9rem] text-[var(--color-gray-600)] no-underline border-b border-[var(--color-gray-50)] hover:bg-[var(--color-sky)] hover:text-[var(--color-blue)] transition-colors duration-150 rounded-lg mx-1"
+                    >
+                      <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-blue)] inline-block shrink-0" />
+                      {child.label}
+                    </Link>
+                  ))}
+                </div>
+              ))}
+
+              <a
+                href="https://app.prepgrind.com/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center mt-5 py-3.5 rounded-xl font-bold text-base text-[var(--color-navy-deep)] no-underline text-center"
                 style={{
-                  display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                  padding: '12px 0',
-                  color: 'var(--color-navy)',
-                  textDecoration: 'none',
-                  fontSize: '1rem',
-                  fontWeight: 600,
-                  borderBottom: '1px solid var(--color-gray-100)',
+                  background: 'linear-gradient(135deg, var(--color-gold), var(--color-gold-bright))',
                 }}
               >
-                {link.label}
-                {link.badge && (
-                  <span style={{
-                    display: 'inline-flex', alignItems: 'center', gap: '4px',
-                    ...badgeStyle(link.badge),
-                    color: '#fff',
-                    fontSize: '0.6rem', fontWeight: 800,
-                    padding: '2px 8px', borderRadius: '999px',
-                  }}>
-                    {link.badge === 'LIVE' && (
-                      <span style={{ width: 5, height: 5, background: '#fff', borderRadius: '50%', display: 'inline-block' }} />
-                    )}
-                    {link.badge}
-                  </span>
-                )}
-              </Link>
-              {link.children?.map(child => (
-                <Link
-                  key={child.href}
-                  href={child.href}
-                  onClick={() => setMobileOpen(false)}
-                  style={{
-                    display: 'flex', alignItems: 'center', gap: '8px',
-                    padding: '10px 14px',
-                    color: 'var(--color-gray-600)',
-                    textDecoration: 'none',
-                    fontSize: '0.9rem',
-                    borderBottom: '1px solid var(--color-gray-50)',
-                  }}
-                >
-                  <span style={{ width: 5, height: 5, borderRadius: '50%', background: 'var(--color-blue)', display: 'inline-block' }} />
-                  {child.label}
-                </Link>
-              ))}
+                Start Preparing Free →
+              </a>
             </div>
-          ))}
-          <a
-            href="https://app.prepgrind.com/register"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'block',
-              marginTop: '1.25rem',
-              padding: '14px',
-              background: 'linear-gradient(135deg, var(--color-gold), var(--color-gold-bright))',
-              color: 'var(--color-navy-deep)',
-              borderRadius: '12px',
-              fontWeight: 700,
-              fontSize: '1rem',
-              textDecoration: 'none',
-              textAlign: 'center',
-            }}
-          >
-            Start Preparing Free →
-          </a>
-        </div>
+          </div>
+        </>
       )}
- 
-      <style>{`
-        @media (min-width: 1024px) {
-          .lg-nav    { display: flex !important; }
-          .hamburger { display: none  !important; }
-          .lg-hide   { display: none  !important; }
-        }
-        @media (max-width: 1023px) {
-          .hamburger { display: flex  !important; }
-        }
-      `}</style>
     </header>
   );
 }
