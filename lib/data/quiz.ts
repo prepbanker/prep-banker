@@ -3,6 +3,8 @@
 // PrepBanker — Quiz / Practice Data
 // ─────────────────────────────────────────
 import type { ExamType, DifficultyLevel, TestType } from '@/types';
+import type { QuizPlatformStats } from '@/types/quiz';
+
 
 // ─── Quiz-specific types ──────────────────
 export type QuizCategory =
@@ -690,12 +692,12 @@ export const quizLeaderboard: QuizLeaderboardEntry[] = [
 ];
 
 // ─── Quiz Stats (platform-level) ─────────
-export const quizStats = {
+export const quizStats: QuizPlatformStats = {
   totalQuizSeries:    quizSeries.length,
   totalQuestions:     quizSeries.reduce((s, q) => s + q.totalQuestions, 0),
   freeQuizSeries:     quizSeries.filter(q => !q.isPremium).length,
   totalCategories:    quizCategories.length,
-  avgRating:          4.8,
+  avgRating:          '4.8',
   totalAttempts:      quizSeries.reduce((s, q) => s + q.totalAttempts, 0),
   trendingCount:      quizSeries.filter(q => q.isTrending).length,
   newThisWeek:        quizSeries.filter(q => q.isNew).length,
