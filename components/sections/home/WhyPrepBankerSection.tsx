@@ -125,7 +125,7 @@ export default function WhyPrepBankerSection() {
 
           <h2
             className="text-[clamp(1.9rem,3.5vw,2.6rem)] font-bold leading-tight text-[#0D1B3E] mb-2"
-            style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+            style={{ fontFamily: "var(--font-display)" }}
           >
             Why Choose{' '}
             <span
@@ -174,7 +174,7 @@ className="flex flex-col items-center gap-2 rounded-2xl px-6 py-5 border border-
               {/* Value */}
               <span
                 className="font-bold text-[1.65rem] text-[#ffffff] leading-none tracking-tight"
-                style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+                style={{ fontFamily: "var(--font-display)" }}
               >
                 {stat.value}
               </span>

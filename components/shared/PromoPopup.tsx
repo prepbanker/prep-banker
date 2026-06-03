@@ -110,7 +110,7 @@ export default function PromoPopup({
           <div className="px-7 pt-6 pb-7">
             <p
               className="font-bold text-xl leading-snug mb-1.5"
-              style={{ fontFamily: "'Playfair Display', serif", color: '#0D1B3E' }}
+              style={{ fontFamily: "var(--font-display)", color: '#0D1B3E' }}
             >
               Start your exam preparation today
             </p>

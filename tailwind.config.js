@@ -17,8 +17,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        display: ['Playfair Display', 'Georgia', 'serif'],
-        body:    ['Source Sans 3', 'Segoe UI', 'sans-serif'],
+        display: ['var(--font-display)', 'sans-serif'],
+        body:    ['var(--font-body)', 'sans-serif'],
       },
     },
   },

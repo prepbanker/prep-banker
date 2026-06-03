@@ -29,7 +29,7 @@ export default function CutoffsSection({ exam }: { exam: ExamDetailData }) {
             {exam.cutoffs.map(row => (
               <div className="epg-cut-section" key={row.year}>
                 <div className="epg-cut-head">
-                  <span style={{ fontFamily:"'Playfair Display',serif",fontWeight:700,fontSize:'0.95rem',color:T.navy }}>{row.year}</span>
+                  <span style={{ fontFamily:"var(--font-display)",fontWeight:700,fontSize:'0.95rem',color:T.navy }}>{row.year}</span>
                 </div>
                 <div style={{ padding:'0 15px' }}>
                   {CATS.map(cat => (

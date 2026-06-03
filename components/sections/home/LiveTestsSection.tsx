@@ -16,23 +16,6 @@ import { formatTimer, randomCountdown } from '@/lib/utils';
 // ─────────────────────────────────────────
 // Types & Constants
 // ─────────────────────────────────────────
-type LiveTab =
-  | 'All Live Tests'
-  | 'SBI-PO Live'
-  | 'IBPS-PO Live'
-  | 'Prelims Tests'
-  | 'Mains Tests'
-  | 'Free Tests';
-
-const LIVE_TABS: LiveTab[] = [
-  'All Live Tests',
-  'SBI-PO Live',
-  'IBPS-PO Live',
-  'Prelims Tests',
-  'Mains Tests',
-  'Free Tests',
-];
-
 // Module-scoped initial timers (stable across re-renders)
 const INITIAL_TIMERS: Record<string, number> = {};
 liveTestsData.forEach((t) => {
@@ -58,7 +41,6 @@ function difficultyClasses(difficulty: string): {
 // LiveTestsSection
 // ─────────────────────────────────────────
 export default function LiveTestsSection() {
-  const [activeTab, setActiveTab] = useState<LiveTab>('All Live Tests');
   const [timers, setTimers] = useState<Record<string, number>>(INITIAL_TIMERS);
   const sliderRef = useRef<HTMLDivElement>(null);
 
@@ -101,16 +83,6 @@ export default function LiveTestsSection() {
     });
   };
 
-  const filtered = liveTestsData.filter((t) => {
-    if (activeTab === 'All Live Tests') return true;
-    if (activeTab === 'SBI-PO Live') return t.exam === 'SBI-PO';
-    if (activeTab === 'IBPS-PO Live') return t.exam === 'IBPS-PO';
-    if (activeTab === 'Prelims Tests') return t.type === 'Prelims';
-    if (activeTab === 'Mains Tests') return t.type === 'Mains';
-    if (activeTab === 'Free Tests') return t.isFree;
-    return true;
-  });
-
   return (
     <section
       className="py-20 overflow-hidden"
@@ -132,7 +104,7 @@ export default function LiveTestsSection() {
 
             <h2
               className="text-[clamp(1.8rem,3.5vw,2.5rem)] font-bold leading-tight text-[#0D1B3E] mb-1"
-              style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
+              style={{ fontFamily: "var(--font-display)" }}
             >
               Live Mock Tests{' '}
               <span
@@ -155,9 +127,9 @@ export default function LiveTestsSection() {
               }}
             />
 
-            <p className="text-slate-500 text-sm max-w-md">
-              Join live mock tests for SBI-PO and IBPS-PO and compete with
-              other aspirants in real time.
+            <p className="text-slate-500 text-sm max-w-xl leading-relaxed">
+              Join live SBI PO and IBPS PO mock tests, compete with fellow banking aspirants, and assess your
+              performance in a real exam-like environment.
             </p>
           </div>
 
@@ -179,48 +151,13 @@ export default function LiveTestsSection() {
           </div>
         </div>
 
-        {/* ── Tabs ── */}
-        <div className="flex gap-1.5 overflow-x-auto pb-4 mb-6 scroll-hide">
-          {LIVE_TABS.map((tab) => {
-            const active = tab === activeTab;
-            return (
-              <button
-                key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={[
-                  'flex-shrink-0 flex items-center gap-1.5 px-4 py-[7px] rounded-full text-[0.78rem] font-semibold whitespace-nowrap transition-all duration-200',
-                  active
-                    ? 'text-white border-0 shadow-[0_4px_12px_rgba(27,110,181,.3)]'
-                    : 'bg-white border border-slate-200 text-slate-500 hover:border-[#1B6EB5] hover:text-[#1B6EB5]',
-                ].join(' ')}
-                style={
-                  active
-                    ? {
-                        background:
-                          'linear-gradient(135deg, #1B6EB5, #0D1B3E)',
-                      }
-                    : undefined
-                }
-              >
-                {active && (
-                  <span
-                    className="live-dot"
-                    style={{ background: '#fff', width: 5, height: 5 }}
-                  />
-                )}
-                {tab}
-              </button>
-            );
-          })}
-        </div>
-
         {/* ── Cards Slider ── */}
         <div
           ref={sliderRef}
-          className="flex gap-4 overflow-x-auto pb-2 scroll-hide"
+          className="flex gap-4 overflow-x-auto pt-4 pb-6 scroll-hide"
           style={{ scrollSnapType: 'x mandatory' }}
         >
-          {filtered.map((test) => {
+          {liveTestsData.map((test) => {
             const timeLeft = timers[test.id] ?? 0;
             const isExpired = timeLeft <= 0;
             const isUrgent = timeLeft < 3600 && timeLeft > 0;

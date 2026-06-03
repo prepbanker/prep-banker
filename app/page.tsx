@@ -5,6 +5,10 @@ import Footer from '@/components/layout/Footer';
 import HeroSection            from '@/components/sections/home/HeroSection';
 import ExamHighlightsSection  from '@/components/sections/home/ExamHighlightsSection';
 import TrendingTestsSection   from '@/components/sections/home/TrendingTestsSection';
+import ExamCalendarSection    from '@/components/sections/home/ExamCalendarSection';
+import CutOffsSection         from '@/components/sections/home/CutOffsSection';
+import SalarySection          from '@/components/sections/home/SalarySection';
+import ComparisonSection      from '@/components/sections/home/ComparisonSection';
 import CurrentAffairsSection  from '@/components/sections/home/CurrentAffairsSection';
 import LiveTestsSection       from '@/components/sections/home/LiveTestsSection';
 import WhyPrepBankerSection   from '@/components/sections/home/WhyPrepBankerSection';
@@ -57,6 +61,18 @@ export default function HomePage() {
 
         {/* 3. Trending Test Series Slider */}
         <TrendingTestsSection />
+
+        {/* Exam Calendar / Important Dates Section */}
+        <ExamCalendarSection />
+
+        {/* Previous Year Cut-offs Section */}
+        <CutOffsSection />
+
+        {/* Salary & Career Growth Section */}
+        <SalarySection />
+
+        {/* SBI PO vs IBPS PO Comparison Section */}
+        <ComparisonSection />
 
         {/* 4. Current Affairs */}
         <CurrentAffairsSection />

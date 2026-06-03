@@ -16,7 +16,7 @@ const exams = [
     badge: 'Most Popular',
     badgeColor: 'bg-amber-400 text-amber-900',
     description:
-      'IBPS PO is one of the most sought-after banking exams conducted by the Institute of Banking Personnel Selection for recruitment to the post of Probationary Officer.',
+      'Prepare for the IBPS PO Exam with comprehensive mock tests, sectional tests, practice questions, current affairs, and study material designed to help you improve accuracy, speed, and overall performance.',
     vacancy: '4000+',
     salary: '₹52,000/month',
     difficulty: 'Moderate',
@@ -39,7 +39,7 @@ const exams = [
     badge: 'High Salary',
     badgeColor: 'bg-amber-400 text-amber-900',
     description:
-      "SBI PO is the flagship recruitment exam by State Bank of India for Probationary Officers. It is considered the most prestigious banking job in India.",
+      "Prepare for the SBI PO Exam with comprehensive mock tests, sectional tests, practice questions, current affairs, and study material designed to help you improve accuracy, speed, and overall performance.",
     vacancy: '2000+',
     salary: '₹63,000/month',
     difficulty: 'Hard',
@@ -79,8 +79,8 @@ export default function ExamHighlightsSection() {
             <span style={{ color: 'var(--color-blue-bright)' }}>Banking Exam</span>
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-slate-500">
-            We currently offer deep preparation resources for two of India's most
-            popular bank exams. More coming soon.
+            Start your preparation for SBI PO and IBPS PO with mock tests, sectional tests, 
+            practice questions, current affairs, and study material designed to help you succeed.
           </p>
         </div>
 

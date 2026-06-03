@@ -27,7 +27,7 @@ export default function ExamsPage() {
             <span style={{ width:6,height:6,borderRadius:'50%',background:'#F0B429',display:'inline-block' }} />
             2026 Recruitment Open
           </div>
-          <h1 style={{ fontFamily:"'Playfair Display',serif",fontWeight:800,fontSize:'clamp(1.8rem,4vw,2.8rem)',color:'#fff',lineHeight:1.15,marginBottom:'0.75rem' }}>
+          <h1 style={{ fontFamily:"var(--font-display)",fontWeight:800,fontSize:'clamp(1.8rem,4vw,2.8rem)',color:'#fff',lineHeight:1.15,marginBottom:'0.75rem' }}>
             Banking Exams{' '}
             <span style={{ background:'linear-gradient(135deg,#D4A017,#F0B429)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent',backgroundClip:'text' }}>
               2026
@@ -48,7 +48,7 @@ export default function ExamsPage() {
         {/* ── Compare strip ── */}
         <div style={{ marginTop:'3rem',background:'#fff',borderRadius:16,border:'1px solid #E2E8F0',padding:'1.5rem 2rem',display:'flex',alignItems:'center',justifyContent:'space-between',flexWrap:'wrap',gap:'1rem',boxShadow:'0 2px 20px rgba(13,27,62,0.06)' }}>
           <div>
-            <div style={{ fontFamily:"'Playfair Display',serif",fontWeight:700,fontSize:'1.1rem',color:'#0D1B3E',marginBottom:4 }}>
+            <div style={{ fontFamily:"var(--font-display)",fontWeight:700,fontSize:'1.1rem',color:'#0D1B3E',marginBottom:4 }}>
               Not sure which exam to target?
             </div>
             <p style={{ fontSize:'0.85rem',color:'#475569' }}>
@@ -88,7 +88,7 @@ function ExamCard({ exam }: { exam: ExamDetailData }) {
           <span style={{ width:5,height:5,borderRadius:'50%',background:exam.tagColor,display:'inline-block' }} />
           {exam.tag}
         </div>
-        <h2 style={{ fontFamily:"'Playfair Display',serif",fontWeight:800,fontSize:'1.45rem',color:'#fff',lineHeight:1.2,marginBottom:'0.5rem' }}>
+        <h2 style={{ fontFamily:"var(--font-display)",fontWeight:800,fontSize:'1.45rem',color:'#fff',lineHeight:1.2,marginBottom:'0.5rem' }}>
           {exam.shortName}
         </h2>
         <p style={{ fontSize:'0.78rem',color:'rgba(255,255,255,0.5)',margin:0 }}>{exam.fullName}</p>

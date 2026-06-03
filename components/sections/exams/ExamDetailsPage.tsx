@@ -174,7 +174,7 @@ function BottomCTA({ exam }: { exam: ExamDetailData }) {
 
         <h3
           className="font-bold text-white mb-2.5 leading-tight"
-          style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.2rem,2.5vw,1.65rem)' }}
+          style={{ fontFamily: "var(--font-display)", fontSize: 'clamp(1.2rem,2.5vw,1.65rem)' }}
         >
           Ready to Crack {exam.shortName} 2026?
         </h3>

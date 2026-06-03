@@ -20,7 +20,7 @@ export default function ExamPatternSection({ exam }: { exam: ExamDetailData }) {
               style={{ background: phase.phase === 'Prelims' ? '#EFF6FF' : '#FFFBEB' }}
             >
               <div style={{ display:'flex',alignItems:'center',gap:9 }}>
-                <span style={{ fontFamily:"'Playfair Display',serif",fontWeight:700,fontSize:'0.95rem',color:T.navy }}>
+                <span style={{ fontFamily:"var(--font-display)",fontWeight:700,fontSize:'0.95rem',color:T.navy }}>
                   {phase.phase}
                 </span>
                 <span
