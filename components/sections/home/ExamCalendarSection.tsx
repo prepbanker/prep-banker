@@ -26,7 +26,7 @@ const CALENDAR_DATA: CalendarEvent[] = [
 
 export default function ExamCalendarSection() {
   return (
-    <section className="section-padding bg-white border-y border-slate-100">
+    <section aria-label="SBI PO & IBPS PO 2026 Exam Calendar" className="section-padding bg-white border-y border-slate-100">
       <div className="container-custom max-w-5xl">
         {/* Section Title */}
         <SectionTitle
@@ -79,11 +79,11 @@ export default function ExamCalendarSection() {
         </div>
 
         {/* Desktop Journey Map Timeline (Hidden on Mobile) */}
-        <div className="hidden md:block relative">
+        <ul className="hidden md:block relative list-none">
           {CALENDAR_DATA.map((row, idx) => {
             const stepNum = idx + 1;
             return (
-              <div key={idx} className="grid grid-cols-[1fr_auto_1fr] items-center gap-8 min-h-[100px]">
+              <li key={idx} className="grid grid-cols-[1fr_auto_1fr] items-center gap-8 min-h-[100px]">
                 
                 {/* Left Side: SBI PO Card */}
                 <div className="flex justify-end w-full">
@@ -149,20 +149,21 @@ export default function ExamCalendarSection() {
                   </div>
                 </div>
 
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
 
         {/* Mobile Timeline (Hidden on Desktop) */}
         <div className="md:hidden relative pl-4 pr-1">
           {/* Mobile Vertical Spine */}
           <div className="absolute left-7 top-4 bottom-4 w-0.5 border-l-2 border-dashed border-slate-200 z-0" />
           
-          {CALENDAR_DATA.map((row, idx) => {
-            const stepNum = idx + 1;
-            return (
-              <div key={idx} className="relative pl-10 pb-8 last:pb-0">
+          <ul className="list-none">
+            {CALENDAR_DATA.map((row, idx) => {
+              const stepNum = idx + 1;
+              return (
+                <li key={idx} className="relative pl-10 pb-8 last:pb-0">
                 {/* Node */}
                 <div className="absolute left-0 top-1 -translate-x-1/2 z-10">
                   {row.isImportant ? (
@@ -215,9 +216,10 @@ export default function ExamCalendarSection() {
                     </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+                </li>
+              );
+            })}
+          </ul>
         </div>
 
         {/* Note / Advisory Box */}

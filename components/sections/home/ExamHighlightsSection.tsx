@@ -39,7 +39,7 @@ const exams = [
     badge: 'High Salary',
     badgeColor: 'bg-amber-400 text-amber-900',
     description:
-      "Prepare for the SBI PO Exam with comprehensive mock tests, sectional tests, practice questions, current affairs, and study material designed to help you improve accuracy, speed, and overall performance.",
+      "Get ready for the SBI PO Exam with a complete preparation package featuring mock tests, sectional quizzes, practice questions, current affairs updates, and study resources to enhance your speed, accuracy, and exam performance.",
     vacancy: '2000+',
     salary: '₹63,000/month',
     difficulty: 'Hard',
@@ -59,7 +59,7 @@ const exams = [
 
 export default function ExamHighlightsSection() {
   return (
-    <section className="section-padding" style={{ background: 'var(--color-off-white)' }}>
+    <section aria-label="SBI PO & IBPS PO Exam Highlights 2026" className="section-padding" style={{ background: 'var(--color-off-white)' }}>
       <div className="container-custom">
 
         {/* Section Header */}
@@ -75,19 +75,18 @@ export default function ExamHighlightsSection() {
             className="mx-auto max-w-xl text-4xl font-extrabold text-slate-800"
             style={{ fontFamily: 'var(--font-display)' }}
           >
-            Choose Your{' '}
-            <span style={{ color: 'var(--color-blue-bright)' }}>Banking Exam</span>
+            SBI PO & IBPS PO Exam Highlights 2026
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-slate-500">
-            Start your preparation for SBI PO and IBPS PO with mock tests, sectional tests, 
+            Start your preparation for SBI PO and IBPS PO with mock tests, sectional tests,
             practice questions, current affairs, and study material designed to help you succeed.
           </p>
         </div>
 
         {/* Cards Grid */}
-        <div className="mx-auto grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
+        <ul className="mx-auto grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2 list-none">
           {exams.map((exam) => (
-            <div
+            <li
               key={exam.id}
               className={[
                 'flex flex-col rounded-2xl overflow-hidden border transition-all duration-200',
@@ -139,20 +138,20 @@ export default function ExamHighlightsSection() {
               <div className="flex flex-1 flex-col bg-white px-6 pt-5 pb-6 gap-5">
 
                 {/* Key Metrics */}
-                <div className="grid grid-cols-3 divide-x divide-slate-100 rounded-xl border border-slate-100 bg-slate-50">
+                <ul className="grid grid-cols-3 divide-x divide-slate-100 rounded-xl border border-slate-100 bg-slate-50 list-none">
                   {[
-                    { label: 'Vacancy',    value: exam.vacancy },
-                    { label: 'Salary',     value: exam.salary },
+                    { label: 'Vacancy', value: exam.vacancy },
+                    { label: 'Salary', value: exam.salary },
                     { label: 'Difficulty', value: exam.difficulty },
                   ].map((m) => (
-                    <div key={m.label} className="px-3 py-2.5 text-center">
+                    <li key={m.label} className="px-3 py-2.5 text-center">
                       <p className="text-sm font-bold text-slate-800">{m.value}</p>
                       <p className="mt-0.5 text-[0.6rem] font-bold uppercase tracking-wider text-slate-400">
                         {m.label}
                       </p>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
 
                 {/* Highlights */}
                 <ul className="flex flex-col gap-2">
@@ -189,9 +188,9 @@ export default function ExamHighlightsSection() {
                 </div>
 
               </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
 
       </div>
     </section>

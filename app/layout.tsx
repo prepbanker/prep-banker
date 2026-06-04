@@ -64,6 +64,8 @@ export const viewport: Viewport = {
   themeColor: '#0D1B3E',
 };
 
+import StickyBottomCTA from '@/components/shared/StickyBottomCTA';
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -91,6 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body suppressHydrationWarning>
         {children}
+        <StickyBottomCTA />
       </body>
     </html>
   );

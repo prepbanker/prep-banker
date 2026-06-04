@@ -41,20 +41,28 @@ function difficultyClasses(difficulty: string): {
 // LiveTestsSection
 // ─────────────────────────────────────────
 export default function LiveTestsSection() {
-  const [timers, setTimers] = useState<Record<string, number>>(INITIAL_TIMERS);
-  const sliderRef = useRef<HTMLDivElement>(null);
+  const [timers, setTimers] = useState<Record<string, number>>({});
+  const sliderRef = useRef<HTMLUListElement>(null);
 
   // Persist / restore timers
   useEffect(() => {
+    let initial: Record<string, number> = {};
     try {
       const saved = localStorage.getItem('pb_live_timers_light');
       if (saved) {
         const parsed = JSON.parse(saved) as Record<string, number>;
-        if (liveTestsData.every((t) => parsed[t.id] >= 0)) setTimers(parsed);
+        if (liveTestsData.every((t) => parsed[t.id] >= 0)) {
+          initial = parsed;
+        }
       }
     } catch {
       /* ignore */
     }
+
+    if (Object.keys(initial).length === 0) {
+      initial = { ...INITIAL_TIMERS };
+    }
+    setTimers(initial);
   }, []);
 
   // Countdown tick
@@ -85,6 +93,7 @@ export default function LiveTestsSection() {
 
   return (
     <section
+      aria-label="Live Mock Tests"
       className="py-20 overflow-hidden"
       style={{
         background:
@@ -152,7 +161,7 @@ export default function LiveTestsSection() {
         </div>
 
         {/* ── Cards Slider ── */}
-        <div
+        <ul
           ref={sliderRef}
           className="flex gap-4 overflow-x-auto pt-4 pb-6 scroll-hide"
           style={{ scrollSnapType: 'x mandatory' }}
@@ -164,7 +173,7 @@ export default function LiveTestsSection() {
             const dc = difficultyClasses(test.difficulty);
 
             return (
-              <div
+              <li
                 key={test.id}
                 className="flex-shrink-0 rounded-[14px] overflow-hidden transition-all duration-250 hover:-translate-y-1"
                 style={{
@@ -229,7 +238,7 @@ export default function LiveTestsSection() {
                 </div>
 
                 {/* Stats grid */}
-                <div
+                <ul
                   className="grid grid-cols-3 my-3"
                   style={{ gap: '1px', background: '#e2e8f0' }}
                 >
@@ -238,7 +247,7 @@ export default function LiveTestsSection() {
                     { label: 'Questions', value: test.totalQuestions },
                     { label: 'Marks', value: test.totalMarks },
                   ].map((s) => (
-                    <div
+                    <li
                       key={s.label}
                       className="bg-slate-50 py-2 text-center"
                     >
@@ -251,9 +260,9 @@ export default function LiveTestsSection() {
                       <div className="text-slate-400 text-[0.6rem] mt-0.5">
                         {s.label}
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
 
                 {/* Timer */}
                 <div className="px-[0.85rem]">
@@ -311,14 +320,16 @@ export default function LiveTestsSection() {
                   >
                     {test.difficulty}
                   </span>
-                  {test.languages.map((l) => (
-                    <span
-                      key={l}
-                      className="text-[0.62rem] text-slate-500 bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5"
-                    >
-                      {l}
-                    </span>
-                  ))}
+                  <ul className="flex gap-1.5 flex-wrap items-center">
+                    {test.languages.map((l) => (
+                      <li
+                        key={l}
+                        className="text-[0.62rem] text-slate-500 bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5"
+                      >
+                        {l}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
                 {/* CTA Button */}
@@ -357,10 +368,10 @@ export default function LiveTestsSection() {
                     )}
                   </a>
                 </div>
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
 
         {/* ── View All ── */}
         <div className="text-center mt-8">

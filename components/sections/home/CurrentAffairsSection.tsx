@@ -10,23 +10,25 @@ export default function CurrentAffairsSection() {
   const displayedUpdates = currentAffairs.slice(0, 6);
 
   return (
-    <section className="section-padding bg-slate-50/50 border-b border-slate-100">
+    <section aria-label="Daily Current Affairs for Banking Exams" className="section-padding bg-slate-50/50 border-b border-slate-100">
       <div className="container-custom">
         {/* Section Title with updated subheading */}
         <SectionTitle
           label="Current Affairs"
-          title="Stay Updated with "
-          highlight="Current Affairs"
+          title="Daily Current Affairs for "
+          highlight="Banking Exams"
           subtitle="Get daily and monthly current affairs for SBI PO, IBPS PO, and other banking exams. Stay informed with important national, international, banking, economy, and government updates."
           align="center"
         />
 
         {/* Simplified Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {displayedUpdates.map(ca => (
-            <CACard key={ca.id} ca={ca} />
+            <li key={ca.id}>
+              <CACard ca={ca} />
+            </li>
           ))}
-        </div>
+        </ul>
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
@@ -44,10 +46,11 @@ function CACard({ ca }: { ca: typeof currentAffairs[0] }) {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div
+    <article
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="bg-white rounded-xl p-5 flex flex-col gap-3.5 transition-all duration-200 border border-slate-200/60 shadow-sm"
+      aria-label={ca.title}
+      className="bg-white rounded-xl p-5 flex flex-col gap-3.5 transition-all duration-200 border border-slate-200/60 shadow-sm h-full"
       style={{
         boxShadow: hovered ? 'var(--shadow-hover)' : 'var(--shadow-card)',
         transform: hovered ? 'translateY(-3px)' : 'translateY(0)',
@@ -89,6 +92,6 @@ function CACard({ ca }: { ca: typeof currentAffairs[0] }) {
           </svg>
         </a>
       </div>
-    </div>
+    </article>
   );
 }

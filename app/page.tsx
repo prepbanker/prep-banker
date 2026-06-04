@@ -21,21 +21,43 @@ import { ProductSchema, WebsiteSchema } from '@/components/seo';
 // Homepage Metadata
 // ─────────────────────────────────────────
 export const metadata: Metadata = {
-  title: 'PrepBanker – #1 Banking Exam Preparation | SBI PO & IBPS PO 2026',
-  description:
-    'Prepare for SBI PO and IBPS PO 2026 with PrepBanker – India\'s most trusted platform. Free mock tests, live exams, daily current affairs, performance analytics, and expert preparation tools.',
+  title: 'SBI PO Mock Test 2026, IBPS PO Mock Test, Sectional Tests & Practice Questions | PrepBanker',
+  description: 'Practice with SBI PO Mock Tests, IBPS PO Mock Tests, sectional tests, topic-wise quizzes, current affairs, previous year questions, and study material. Improve speed, accuracy, and exam readiness with PrepBanker.',
   keywords: [
-    'SBI PO 2026 preparation', 'IBPS PO 2026 mock test',
-    'banking exam preparation India', 'free banking mock tests',
-    'SBI PO live tests', 'IBPS PO current affairs',
-    'PrepBanker', 'banking aspirants platform',
+    'SBI PO Mock Test', 'SBI PO Mock Tests', 'SBI PO Free Mock Test',
+    'SBI PO Online Test', 'SBI PO Practice Test', 'SBI PO Mock Test 2026',
+    'SBI PO Prelims Mock Test', 'SBI PO Mains Mock Test', 'SBI PO Sectional Test',
+    'SBI PO Section Wise Test', 'SBI PO Quant Mock Test', 'SBI PO Reasoning Mock Test',
+    'SBI PO English Mock Test', 'SBI PO Practice Questions',
+    'IBPS PO Mock Test', 'IBPS PO Mock Tests', 'IBPS PO Free Mock Test',
+    'IBPS PO Online Test', 'IBPS PO Practice Test', 'IBPS PO Prelims Mock Test',
+    'IBPS PO Mains Mock Test', 'IBPS PO Sectional Test', 'IBPS PO Section Wise Test',
+    'IBPS PO Quant Test', 'IBPS PO Reasoning Test', 'IBPS PO English Test',
+    'IBPS PO Practice Questions', 'Banking Exam Mock Tests',
+    'Banking Exam Practice Questions', 'Banking Current Affairs',
+    'Best SBI PO Mock Test Series', 'Best IBPS PO Mock Test Series',
+    'Online Banking Exam Preparation', 'Bank PO Mock Tests',
+    'Free Banking Mock Tests', 'PrepBanker'
   ],
-  alternates: { canonical: 'https://prepbanker.com' },
   openGraph: {
-    title: 'PrepBanker – India\'s #1 Banking Exam Prep Platform',
-    description: 'Free mock tests, live exams & daily current affairs for SBI PO & IBPS PO 2026.',
+    title: 'SBI PO Mock Test 2026, IBPS PO Mock Test | PrepBanker',
+    description: 'Practice with SBI PO Mock Tests, IBPS PO Mock Tests, sectional tests, topic-wise quizzes, current affairs and study material.',
     url: 'https://prepbanker.com',
-    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+    siteName: 'PrepBanker',
+    type: 'website',
+    locale: 'en_IN',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SBI PO Mock Test 2026, IBPS PO Mock Test | PrepBanker',
+    description: 'Practice with SBI PO Mock Tests, IBPS PO Mock Tests, sectional tests and study material.',
+  },
+  alternates: {
+    canonical: 'https://prepbanker.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -94,6 +116,52 @@ export default function HomePage() {
       </main>
 
       <Footer />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "PrepBanker",
+            "url": "https://prepbanker.com",
+            "description": "India's Number 1 Banking Exam Preparation Platform for SBI PO and IBPS PO",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://prepbanker.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the best way to prepare for SBI PO 2026?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Practice with full-length SBI PO Mock Tests, sectional tests, and topic-wise quizzes on PrepBanker."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are the mock tests on PrepBanker free?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, PrepBanker offers 500+ free mock tests for SBI PO and IBPS PO exam preparation."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </>
   );
 }

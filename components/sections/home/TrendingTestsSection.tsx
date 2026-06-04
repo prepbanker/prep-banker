@@ -62,7 +62,7 @@ function Stars({ rating }: { rating: number }) {
 }
 
 export default function TrendingTestsSection() {
-  const sliderRef = useRef<HTMLDivElement>(null);
+  const sliderRef = useRef<HTMLUListElement>(null);
 
   const scroll = (dir: 'left' | 'right') => {
     if (!sliderRef.current) return;
@@ -73,7 +73,7 @@ export default function TrendingTestsSection() {
   };
 
   return (
-    <section className="section-padding overflow-hidden bg-white">
+    <section aria-label="Trending Mock Tests for Banking Exams" className="section-padding overflow-hidden bg-white">
       <div className="container-custom">
 
         {/* ── Header row ── */}
@@ -119,13 +119,13 @@ export default function TrendingTestsSection() {
         </div>
 
         {/* ── Slider ── */}
-        <div
+        <ul
           ref={sliderRef}
-          className="scroll-hide flex gap-4 overflow-x-auto pb-2 pt-2"
+          className="scroll-hide flex gap-4 overflow-x-auto pb-2 pt-2 list-none"
           style={{ scrollSnapType: 'x mandatory' }}
         >
           {trendingTests.map(test => (
-            <div
+            <li
               key={test.id}
               className="group flex w-[clamp(250px,28vw,290px)] flex-shrink-0 flex-col rounded-2xl border border-slate-100 bg-white shadow-[0_2px_16px_rgba(13,27,62,0.07)] transition-all duration-200 hover:-translate-y-1 hover:border-amber-200 hover:shadow-[0_8px_32px_rgba(13,27,62,0.12)]"
               style={{ scrollSnapAlign: 'start' }}
@@ -170,66 +170,72 @@ export default function TrendingTestsSection() {
               </div>
 
               {/* Stats row */}
-              <div className="grid grid-cols-3 divide-x divide-slate-100 border-b border-slate-100">
+              <ul className="grid grid-cols-3 divide-x divide-slate-100 border-b border-slate-100 list-none">
                 {[
                   { label: 'Questions', value: test.totalQuestions.toString(), icon: <FileText className="h-3 w-3" /> },
                   { label: 'Free Tests', value: test.freeTests.toString(),        icon: <BookOpen  className="h-3 w-3" /> },
                   { label: 'Attempts',  value: formatCount(test.totalAttempts),  icon: <Users     className="h-3 w-3" /> },
                 ].map(s => (
-                  <div key={s.label} className="flex flex-col items-center py-3 px-1">
+                  <li key={s.label} className="flex flex-col items-center py-3 px-1">
                     <span className="text-base font-extrabold text-amber-500">{s.value}</span>
                     <span className="mt-0.5 text-center text-[0.58rem] font-medium uppercase tracking-wide text-slate-400">
                       {s.label}
                     </span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
               {/* Tags & hashtags */}
               <div className="flex flex-1 flex-col gap-2.5 px-4 py-3">
                 {/* Difficulty + type pills */}
-                <div className="flex flex-wrap gap-1.5">
-                  <span
-                    className={[
-                      'rounded-full border px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
-                      DIFF_CLASS[test.difficulty] ?? 'bg-slate-50 text-slate-600 border-slate-200',
-                    ].join(' ')}
-                  >
-                    {test.difficulty}
-                  </span>
-                  <span
-                    className={[
-                      'rounded-full border px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
-                      TYPE_CLASS[test.type] ?? 'bg-slate-50 text-slate-600 border-slate-200',
-                    ].join(' ')}
-                  >
-                    {test.type}
-                  </span>
-                </div>
+                <ul className="flex flex-wrap gap-1.5 list-none">
+                  <li>
+                    <span
+                      className={[
+                        'rounded-full border px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
+                        DIFF_CLASS[test.difficulty] ?? 'bg-slate-50 text-slate-600 border-slate-200',
+                      ].join(' ')}
+                    >
+                      {test.difficulty}
+                    </span>
+                  </li>
+                  <li>
+                    <span
+                      className={[
+                        'rounded-full border px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
+                        TYPE_CLASS[test.type] ?? 'bg-slate-50 text-slate-600 border-slate-200',
+                      ].join(' ')}
+                    >
+                      {test.type}
+                    </span>
+                  </li>
+                </ul>
 
                 {/* Languages */}
-                <div className="flex flex-wrap gap-1.5">
+                <ul className="flex flex-wrap gap-1.5 list-none">
                   {test.languages.map(l => (
-                    <span
-                      key={l}
-                      className="rounded border border-slate-100 bg-slate-50 px-2 py-0.5 text-[0.62rem] font-medium text-slate-500"
-                    >
-                      {l}
-                    </span>
+                    <li key={l}>
+                      <span
+                        className="rounded border border-slate-100 bg-slate-50 px-2 py-0.5 text-[0.62rem] font-medium text-slate-500"
+                      >
+                        {l}
+                      </span>
+                    </li>
                   ))}
-                </div>
+                </ul>
 
                 {/* Hashtags */}
-                <div className="flex flex-wrap gap-1">
+                <ul className="flex flex-wrap gap-1 list-none">
                   {test.tags.slice(0, 2).map(tag => (
-                    <span
-                      key={tag}
-                      className="text-[0.62rem] font-semibold text-amber-500"
-                    >
-                      #{tag.replace(/^#/, '').replace(/\s/g, '')}
-                    </span>
+                    <li key={tag}>
+                      <span
+                        className="text-[0.62rem] font-semibold text-amber-500"
+                      >
+                        #{tag.replace(/^#/, '').replace(/\s/g, '')}
+                      </span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
 
               {/* CTA */}
@@ -244,9 +250,9 @@ export default function TrendingTestsSection() {
                   Start Practicing
                 </a>
               </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
 
         {/* View All */}
         <div className="mt-8 text-center">

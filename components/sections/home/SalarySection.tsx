@@ -58,7 +58,7 @@ const TIMELINE: TimelineStep[] = [
 
 export default function SalarySection() {
   return (
-    <section className="section-padding bg-slate-50/10 border-b border-slate-100">
+    <section aria-label="SBI PO and IBPS PO Salary Breakdown" className="section-padding bg-slate-50/10 border-b border-slate-100">
       <div className="container-custom max-w-5xl">
         {/* Section Title */}
         <SectionTitle
@@ -82,14 +82,14 @@ export default function SalarySection() {
             </div>
             
             <div className="p-6">
-              <div className="divide-y divide-slate-100 mb-6">
+              <ul className="divide-y divide-slate-100 mb-6 list-none">
                 {SBI_SALARY.map((s, idx) => (
-                  <div key={idx} className={`py-3 flex justify-between text-sm ${s.isTotal ? 'font-bold text-slate-800 pt-4' : 'text-slate-600'}`}>
+                  <li key={idx} className={`py-3 flex justify-between text-sm ${s.isTotal ? 'font-bold text-slate-800 pt-4' : 'text-slate-600'}`}>
                     <span>{s.label}</span>
                     <span className={s.isTotal ? 'text-blue-600 text-base' : 'text-slate-800'}>{s.amount}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
               {/* Annual CTC Badge */}
               <div className="rounded-xl bg-blue-50 border border-blue-100 p-4 text-center">
@@ -113,14 +113,14 @@ export default function SalarySection() {
             </div>
             
             <div className="p-6">
-              <div className="divide-y divide-slate-100 mb-6">
+              <ul className="divide-y divide-slate-100 mb-6 list-none">
                 {IBPS_SALARY.map((s, idx) => (
-                  <div key={idx} className={`py-3 flex justify-between text-sm ${s.isTotal ? 'font-bold text-slate-800 pt-4' : 'text-slate-600'}`}>
+                  <li key={idx} className={`py-3 flex justify-between text-sm ${s.isTotal ? 'font-bold text-slate-800 pt-4' : 'text-slate-600'}`}>
                     <span>{s.label}</span>
                     <span className={s.isTotal ? 'text-amber-600 text-base' : 'text-slate-800'}>{s.amount}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
               {/* Annual CTC Badge */}
               <div className="rounded-xl bg-amber-50 border border-amber-100 p-4 text-center">
@@ -148,17 +148,17 @@ export default function SalarySection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 list-none">
             {PERKS.map((p, idx) => (
-              <div key={idx} className="bg-white rounded-xl border border-slate-100 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200">
+              <li key={idx} className="bg-white rounded-xl border border-slate-100 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200">
                 <div className="h-10 w-10 rounded-lg bg-slate-50 flex items-center justify-center mb-4">
                   {p.icon}
                 </div>
                 <h4 className="text-sm font-bold text-slate-800 mb-1">{p.title}</h4>
                 <p className="text-xs text-slate-500 leading-relaxed">{p.desc}</p>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
 
         {/* Career Growth Timeline */}
@@ -177,11 +177,11 @@ export default function SalarySection() {
             {/* Timeline center spine line (desktop-centered, mobile-left) */}
             <div className="absolute left-7 md:left-1/2 top-4 bottom-4 w-0.5 border-l-2 border-dashed border-slate-200 -translate-x-1/2 z-0" />
 
-            <div className="space-y-8">
+            <ul className="space-y-8 list-none">
               {TIMELINE.map((step, idx) => {
                 const isEven = idx % 2 === 0;
                 return (
-                  <div key={idx} className="relative flex md:items-center z-10">
+                  <li key={idx} className="relative flex md:items-center z-10">
                     
                     {/* Left block (desktop-only spacer or years text) */}
                     <div className="hidden md:block w-1/2 pr-8 text-right">
@@ -235,10 +235,10 @@ export default function SalarySection() {
                       </h4>
                     </div>
 
-                  </div>
+                  </li>
                 );
               })}
-            </div>
+            </ul>
           </div>
         </div>
 

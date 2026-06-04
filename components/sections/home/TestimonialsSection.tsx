@@ -9,7 +9,6 @@ import {
   Award,
   CheckCircle2,
   Zap,
-  BarChart3,
   Trophy,
   Target,
   ClipboardList,
@@ -22,11 +21,12 @@ import { testimonials, metrics } from '@/lib/data';
 // Icon map for metrics (replace emoji)
 // ─────────────────────────────────────────
 const METRIC_ICONS: Record<number, React.ReactNode> = {
-  0: <Users size={20} color="var(--color-blue)" strokeWidth={2} />,
-  1: <CheckCircle2 size={20} color="var(--color-blue)" strokeWidth={2} />,
+  0: <Star size={20} color="var(--color-blue)" strokeWidth={2} />,
+  1: <Users size={20} color="var(--color-blue)" strokeWidth={2} />,
   2: <ClipboardList size={20} color="var(--color-blue)" strokeWidth={2} />,
-  3: <BarChart3 size={20} color="var(--color-blue)" strokeWidth={2} />,
+  3: <CheckCircle2 size={20} color="var(--color-blue)" strokeWidth={2} />,
   4: <Trophy size={20} color="var(--color-blue)" strokeWidth={2} />,
+  5: <MessageSquareQuote size={20} color="var(--color-blue)" strokeWidth={2} />,
 };
 
 // ─────────────────────────────────────────
@@ -41,6 +41,7 @@ const ROW_2 = testimonials.slice(4);
 export default function TestimonialsSection() {
   return (
     <section
+      aria-label="What Our Students Say"
       className="section-padding overflow-hidden"
       style={{
         background: 'linear-gradient(180deg, var(--color-off-white) 0%, var(--color-sky) 100%)',
@@ -86,17 +87,17 @@ export default function TestimonialsSection() {
             className="mx-auto"
             style={{
               color: 'var(--color-gray-600)',
-              fontSize: 'clamp(0.875rem, 1.5vw, 1rem)',
-              maxWidth: 580,
+              fontSize: 'clamp(0.875rem, 1.5vw, 0.95rem)',
+              maxWidth: 720,
+              lineHeight: 1.6,
             }}
           >
-            Don&apos;t just take our word for it. See what SBI-PO and IBPS-PO aspirants say
-            about their preparation experience.
+            Join thousands of SBI PO and IBPS PO aspirants who trust PrepBanker for mock tests, sectional tests, practice questions, current affairs, and complete banking exam preparation.
           </p>
         </div>
 
         {/* ── Trust Metrics ── */}
-        <div
+        <ul
           className="flex flex-wrap justify-center mb-12"
           style={{
             background: '#fff',
@@ -107,7 +108,7 @@ export default function TestimonialsSection() {
           }}
         >
           {metrics.map((m, i) => (
-            <div
+            <li
               key={i}
               className="flex-1 text-center"
               style={{
@@ -148,33 +149,37 @@ export default function TestimonialsSection() {
               <div style={{ color: 'var(--color-gray-600)', fontSize: '0.72rem' }}>
                 {m.label}
               </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
 
       {/* ── Marquee Row 1 (left → right) ── */}
-      <div className="overflow-hidden mb-4">
-        <div
+      <div className="overflow-hidden py-3 mb-4">
+        <ul
           className="animate-marquee-left"
-          style={{ display: 'flex', gap: '1rem', width: 'max-content' }}
+          style={{ display: 'flex', gap: '1rem', width: 'max-content', willChange: 'transform' }}
         >
-          {[...ROW_1, ...ROW_1].map((t, i) => (
-            <TestimonialCard key={`r1-${i}`} testimonial={t} />
+          {[...ROW_1, ...ROW_1, ...ROW_1, ...ROW_1].map((t, i) => (
+            <li key={`r1-${i}`}>
+              <TestimonialCard testimonial={t} />
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
 
       {/* ── Marquee Row 2 (right → left) ── */}
-      <div className="overflow-hidden mb-12">
-        <div
+      <div className="overflow-hidden py-3 mb-12">
+        <ul
           className="animate-marquee-right"
-          style={{ display: 'flex', gap: '1rem', width: 'max-content' }}
+          style={{ display: 'flex', gap: '1rem', width: 'max-content', willChange: 'transform' }}
         >
-          {[...ROW_2, ...ROW_2].map((t, i) => (
-            <TestimonialCard key={`r2-${i}`} testimonial={t} />
+          {[...ROW_2, ...ROW_2, ...ROW_2, ...ROW_2].map((t, i) => (
+            <li key={`r2-${i}`}>
+              <TestimonialCard testimonial={t} />
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
 
       {/* ── CTA ── */}
@@ -224,7 +229,8 @@ export default function TestimonialsSection() {
 // ─────────────────────────────────────────
 function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[0] }) {
   return (
-    <div
+    <article
+      aria-label={`Testimonial by ${t.name}`}
       style={{
         width: 'clamp(260px, 80vw, 300px)',
         flexShrink: 0,
@@ -398,6 +404,6 @@ function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[
           </span>
         )}
       </div>
-    </div>
+    </article>
   );
 }

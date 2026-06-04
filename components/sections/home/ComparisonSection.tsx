@@ -28,7 +28,7 @@ const COMPARISON_DATA: ComparisonRow[] = [
 
 export default function ComparisonSection() {
   return (
-    <section className="section-padding bg-white border-b border-slate-100">
+    <section aria-label="SBI PO vs IBPS PO Comparison" className="section-padding bg-white border-b border-slate-100">
       <div className="container-custom max-w-5xl">
         {/* Section Title */}
         <SectionTitle
@@ -75,9 +75,9 @@ export default function ComparisonSection() {
         </div>
 
         {/* Parameter Cards (Mobile View) */}
-        <div className="md:hidden space-y-4 mb-16">
+        <ul className="md:hidden space-y-4 mb-16">
           {COMPARISON_DATA.map((row, idx) => (
-            <div 
+            <li 
               key={idx} 
               className={`bg-white rounded-xl border p-4 shadow-sm ${
                 row.isHighlighted ? 'border-l-4 border-l-amber-500 bg-amber-50/5' : 'border-slate-200'
@@ -106,9 +106,9 @@ export default function ComparisonSection() {
                   </span>
                 </div>
               </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
 
         {/* "Which one should I pick?" Answer Block */}
         <div className="border-t border-slate-100 pt-12">
@@ -122,9 +122,9 @@ export default function ComparisonSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Target SBI PO Card */}
-            <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200 border-t-4 border-t-blue-600">
+            <li className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200 border-t-4 border-t-blue-600">
               <div className="h-10 w-10 rounded-lg bg-blue-50 flex items-center justify-center mb-4">
                 <Award className="h-5 w-5 text-blue-600" />
               </div>
@@ -132,10 +132,10 @@ export default function ComparisonSection() {
               <p className="text-xs text-slate-500 leading-relaxed">
                 Choose SBI PO if salary, brand name, and career growth speed are your top priorities. The extra stage (Group Discussion) and higher competition are worth it for the premium package.
               </p>
-            </div>
+            </li>
 
             {/* Target IBPS PO Card */}
-            <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200 border-t-4 border-t-amber-500">
+            <li className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200 border-t-4 border-t-amber-500">
               <div className="h-10 w-10 rounded-lg bg-amber-50 flex items-center justify-center mb-4">
                 <Zap className="h-5 w-5 text-amber-600" />
               </div>
@@ -143,10 +143,10 @@ export default function ComparisonSection() {
               <p className="text-xs text-slate-500 leading-relaxed">
                 Choose IBPS PO if you want more vacancies, slightly lower competition, or prefer a specific bank like Bank of Baroda or Canara Bank.
               </p>
-            </div>
+            </li>
 
             {/* Target Both Card */}
-            <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200 border-t-4 border-t-emerald-500">
+            <li className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm hover:-translate-y-0.5 transition-all duration-200 border-t-4 border-t-emerald-500">
               <div className="h-10 w-10 rounded-lg bg-emerald-50 flex items-center justify-center mb-4">
                 <Layers className="h-5 w-5 text-emerald-600" />
               </div>
@@ -154,8 +154,8 @@ export default function ComparisonSection() {
               <p className="text-xs text-slate-500 leading-relaxed">
                 Prepare for both simultaneously — the Prelims syllabus is nearly identical (Reasoning, Quant, English). Only Mains differs slightly. Attempting both doubles your chances of a banking job in the same calendar year.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
 
         {/* CTA Button */}

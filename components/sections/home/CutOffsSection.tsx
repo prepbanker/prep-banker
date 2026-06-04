@@ -60,7 +60,7 @@ export default function CutOffsSection() {
   }
 
   return (
-    <section className="section-padding bg-slate-50/30 border-b border-slate-100">
+    <section aria-label="SBI PO and IBPS PO Previous Year Cut-offs" className="section-padding bg-slate-50/30 border-b border-slate-100">
       <div className="container-custom">
         {/* Section Title */}
         <SectionTitle
@@ -73,28 +73,36 @@ export default function CutOffsSection() {
 
         {/* Tab Selector */}
         <div className="mb-8 flex justify-center">
-          <div className="inline-flex rounded-xl bg-slate-100 p-1 shadow-inner">
-            <button
-              onClick={() => setActiveTab('SBI')}
-              className={`rounded-lg px-6 py-2.5 text-sm font-bold transition-all duration-200 ${
-                isSBI
-                  ? 'bg-blue-600 text-white shadow-sm'
-                  : 'text-slate-500 hover:text-slate-800'
-              }`}
-            >
-              SBI PO Cut-offs
-            </button>
-            <button
-              onClick={() => setActiveTab('IBPS')}
-              className={`rounded-lg px-6 py-2.5 text-sm font-bold transition-all duration-200 ${
-                !isSBI
-                  ? 'bg-amber-500 text-white shadow-sm'
-                  : 'text-slate-500 hover:text-slate-800'
-              }`}
-            >
-              IBPS PO Cut-offs
-            </button>
-          </div>
+          <ul className="inline-flex rounded-xl bg-slate-100 p-1 shadow-inner list-none" role="tablist">
+            <li role="presentation">
+              <button
+                role="tab"
+                aria-selected={isSBI}
+                onClick={() => setActiveTab('SBI')}
+                className={`rounded-lg px-6 py-2.5 text-sm font-bold transition-all duration-200 ${
+                  isSBI
+                    ? 'bg-blue-600 text-white shadow-sm'
+                    : 'text-slate-500 hover:text-slate-800'
+                }`}
+              >
+                SBI PO Cut-offs
+              </button>
+            </li>
+            <li role="presentation">
+              <button
+                role="tab"
+                aria-selected={!isSBI}
+                onClick={() => setActiveTab('IBPS')}
+                className={`rounded-lg px-6 py-2.5 text-sm font-bold transition-all duration-200 ${
+                  !isSBI
+                    ? 'bg-amber-500 text-white shadow-sm'
+                    : 'text-slate-500 hover:text-slate-800'
+                }`}
+              >
+                IBPS PO Cut-offs
+              </button>
+            </li>
+          </ul>
         </div>
 
         {/* Tables Grid */}

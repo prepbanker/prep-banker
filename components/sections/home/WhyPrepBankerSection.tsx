@@ -13,8 +13,8 @@ import {
   BarChart2,
   Zap,
   Trophy,
-  Smartphone,
-  RefreshCw,
+  Newspaper,
+  BookOpen,
   Zap as ZapIcon,
 } from 'lucide-react';
 import { SectionTitle, Button } from '@/components/ui';
@@ -33,7 +33,7 @@ const PLATFORM_STATS = [
   },
   {
     value: '2M+',
-    label: 'Tests Attempted',
+    label: 'Questions Attempted',
     icon: <FileText size={22} strokeWidth={1.8} />,
     iconBg: '#ede9fe',
     iconColor: '#7c3aed',
@@ -47,21 +47,21 @@ const PLATFORM_STATS = [
   },
   {
     value: '95%',
-    label: 'Satisfaction Rate',
+    label: 'Student Satisfaction',
     icon: <ThumbsUp size={22} strokeWidth={1.8} />,
     iconBg: '#dcfce7',
     iconColor: '#16a34a',
   },
   {
     value: '500+',
-    label: 'Expert Questions',
+    label: 'Mock Tests & Quizzes',
     icon: <HelpCircle size={22} strokeWidth={1.8} />,
     iconBg: '#ffedd5',
     iconColor: '#ea580c',
   },
   {
     value: '365',
-    label: 'Days of Updates',
+    label: 'Days of Current Affairs Updates',
     icon: <CalendarDays size={22} strokeWidth={1.8} />,
     iconBg: '#e0f2fe',
     iconColor: '#0284c7',
@@ -76,8 +76,8 @@ const FEAT_META: { icon: React.ReactNode; color: string }[] = [
   { icon: <BarChart2 size={20} strokeWidth={1.9} />,  color: '#7c3aed' },
   { icon: <Zap size={20} strokeWidth={1.9} />,        color: '#D4A017' },
   { icon: <Trophy size={20} strokeWidth={1.9} />,     color: '#16a34a' },
-  { icon: <Smartphone size={20} strokeWidth={1.9} />, color: '#0284c7' },
-  { icon: <RefreshCw size={20} strokeWidth={1.9} />,  color: '#ea580c' },
+  { icon: <Newspaper size={20} strokeWidth={1.9} />,  color: '#0284c7' },
+  { icon: <BookOpen size={20} strokeWidth={1.9} />,   color: '#ea580c' },
 ];
 
 // ─────────────────────────────────────────
@@ -88,10 +88,11 @@ export default function WhyPrepBankerSection() {
 
   return (
     <section
+      aria-label="The Smarter Way to Crack SBI PO & IBPS PO"
       className="py-20 overflow-hidden relative"
       style={{
         background:
-          'linear-gradient(175deg, #fffcf5 0%, #ffffff 55%, #f5f8ff 100%)',
+          'linear-gradient(175deg, #fffcf5 0%, #ffffff 55%, #f5f7ff 100%)',
       }}
     >
       {/* Decorative background orbs */}
@@ -127,7 +128,7 @@ export default function WhyPrepBankerSection() {
             className="text-[clamp(1.9rem,3.5vw,2.6rem)] font-bold leading-tight text-[#0D1B3E] mb-2"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Why Choose{' '}
+            The Smarter Way to{' '}
             <span
               style={{
                 background: 'linear-gradient(135deg, #D4A017, #F0B429)',
@@ -136,7 +137,7 @@ export default function WhyPrepBankerSection() {
                 backgroundClip: 'text',
               }}
             >
-              PrepBanker?
+              Crack SBI PO & IBPS PO
             </span>
           </h2>
 
@@ -146,19 +147,18 @@ export default function WhyPrepBankerSection() {
             style={{ background: 'linear-gradient(90deg, #D4A017, #1B6EB5)' }}
           />
 
-          <p className="text-slate-500 text-[0.92rem] max-w-lg mx-auto leading-relaxed">
-            Everything banking aspirants need in one platform — mock tests,
-            current affairs, live exams, analytics, and smart preparation tools.
+          <p className="text-slate-500 text-[0.92rem] max-w-2xl mx-auto leading-relaxed">
+            Everything you need for SBI PO and IBPS PO preparation in one place—mock tests, sectional tests, practice questions, current affairs, study material, and live exams.
           </p>
         </div>
 
         {/* ── Stats Cards ── */}
-        <div className="flex flex-wrap justify-center gap-4 mb-14">
+        <ul className="flex flex-wrap justify-center gap-4 mb-14">
           {PLATFORM_STATS.map((stat, i) => (
-            <div
+            <li
               key={i}
-className="flex flex-col items-center gap-2 rounded-2xl px-6 py-5 border border-[#1A2D5A] bg-[#0D1B3E] text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#07102A] hover:shadow-[0_8px_28px_rgba(13,27,62,.25)]"              style={{ flex: '1 1 130px', maxWidth: 170 }}
-              
+              className="flex flex-col items-center gap-2 rounded-2xl px-6 py-5 border border-[#1A2D5A] bg-[#0D1B3E] text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#07102A] hover:shadow-[0_8px_28px_rgba(13,27,62,.25)]"
+              style={{ flex: '1 1 130px', maxWidth: 170 }}
             >
               {/* Icon badge */}
               <div
@@ -183,18 +183,18 @@ className="flex flex-col items-center gap-2 rounded-2xl px-6 py-5 border border-
               <span className="text-slate-300 text-[0.72rem] font-semibold text-center leading-snug">
                 {stat.label}
               </span>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
 
         {/* ── Feature Grid ── */}
-        <div className="grid gap-[1.1rem] mb-12" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))' }}>
+        <ul className="grid gap-[1.1rem] mb-12" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))' }}>
           {whyPrepBanker.map((item, i) => {
             const meta = FEAT_META[i] ?? FEAT_META[0];
             const hovered = hoveredIdx === i;
 
             return (
-              <div
+              <li
                 key={i}
                 onMouseEnter={() => setHoveredIdx(i)}
                 onMouseLeave={() => setHoveredIdx(null)}
@@ -232,10 +232,10 @@ className="flex flex-col items-center gap-2 rounded-2xl px-6 py-5 border border-
                     {item.description}
                   </p>
                 </div>
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
 
         {/* ── Animated CTA ── */}
         <div className="text-center">
