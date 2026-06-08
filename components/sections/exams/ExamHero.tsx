@@ -24,8 +24,13 @@ export default function ExamHero({ exam }: Props) {
 
   return (
     <div
-      className="relative overflow-hidden bg-[var(--color-navy-deep)]"
-      style={{ paddingTop: '3rem' }}
+      className="relative overflow-hidden"
+      style={{
+        paddingTop: '3rem',
+        background: isIbps
+          ? 'linear-gradient(135deg, #3D2A00 0%, #07102A 100%)'
+          : 'linear-gradient(135deg, #07102A 0%, #1A2D5A 100%)'
+      }}
     >
 
       {/* ── Decorative background blobs ── */}
@@ -64,6 +69,7 @@ export default function ExamHero({ exam }: Props) {
             { label: 'Exams', href: '/exams' },
             { label: exam.shortName },
           ]}
+          linkColor={isIbps ? '#F0B429' : '#60B4FF'}
         />
 
         {/* ── Exam switcher ── */}

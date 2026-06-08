@@ -14,7 +14,7 @@ export default function StickyBottomCTA() {
       if (scrollHeight > 0) {
         const scrolled = window.scrollY;
         const percentage = (scrolled / scrollHeight) * 100;
-        setIsVisible(percentage >= 25);
+        setIsVisible(percentage >= 20);
       } else {
         // If page is too short to scroll, show it by default
         setIsVisible(true);
@@ -41,12 +41,11 @@ export default function StickyBottomCTA() {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 w-full bg-gradient-to-r from-[#1B6EB5] via-[#1A2D5A] to-[#0D1B3E] text-white py-3.5 md:py-4 px-4 sm:px-6 shadow-[0_-8px_30px_rgba(13,27,62,0.25)] border-t border-[#1B6EB5]/30 transition-all duration-500 ease-in-out transform ${
-        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0 pointer-events-none'
-      }`}
+      className={`fixed bottom-0 left-0 right-0 z-50 w-full bg-gradient-to-r from-[#1B6EB5] via-[#1A2D5A] to-[#0D1B3E] text-white py-3.5 md:py-4 px-4 sm:px-6 shadow-[0_-8px_30px_rgba(13,27,62,0.25)] border-t border-[#1B6EB5]/30 transition-all duration-500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0 pointer-events-none'
+        }`}
     >
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6">
-        
+
         {/* Left Side: Icon & Headline */}
         <div className="flex items-center gap-3 text-center sm:text-left">
           <div className="hidden sm:flex items-center justify-center w-8 h-8 rounded-lg bg-white/10 text-[var(--color-gold-bright)] flex-shrink-0 animate-pulse">
@@ -70,7 +69,7 @@ export default function StickyBottomCTA() {
           >
             Enroll Now
           </a>
-          
+
           <button
             onClick={handleClose}
             aria-label="Close call to action bar"

@@ -20,6 +20,8 @@ import {
 } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import Breadcrumb from '@/components/shared/Breadcrumb';
+import './exam.css';
 
 const NAV_ITEMS = [
   { id: 'overview', label: 'Overview' },
@@ -93,17 +95,55 @@ export default function IBPSPOContent() {
       <Header />
 
       {/* Hero Section (#hero) */}
-      <section id="hero" className="bg-gradient-to-br from-[#0D1B3E] via-[#1A2D5A] to-[#07102A] text-white pt-24 pb-16 px-6">
-        <div className="max-w-6xl mx-auto text-center md:text-left">
+      <section
+        id="hero"
+        className="relative overflow-hidden bg-[var(--color-navy-deep)] text-white pt-16 pb-9 px-6"
+      >
+        {/* ── Decorative background blobs ── */}
+        <div aria-hidden className="absolute inset-0 pointer-events-none">
+          {/* Top-left blob — blue */}
+          <div
+            className="absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-10"
+            style={{ background: 'radial-gradient(circle, var(--color-blue) 0%, transparent 70%)' }}
+          />
+          {/* Top-right gold blob */}
+          <div
+            className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10"
+            style={{ background: 'radial-gradient(circle, var(--color-gold) 0%, transparent 70%)' }}
+          />
+          {/* Subtle grid */}
+          <div
+            className="absolute inset-0 opacity-[0.04]"
+            style={{
+              backgroundImage:
+                'linear-gradient(var(--color-gray-200) 1px, transparent 1px), linear-gradient(90deg, var(--color-gray-200) 1px, transparent 1px)',
+              backgroundSize: '40px 40px',
+            }}
+          />
+        </div>
+
+        <div className="max-w-6xl mx-auto relative z-10 text-left">
+          {/* ── Breadcrumb ── */}
+          <div className="mb-6">
+            <Breadcrumb
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'Exams', href: '/exams' },
+                { label: 'IBPS PO' },
+              ]}
+            />
+          </div>
+
+          {/* Status badge */}
           <span className="inline-flex items-center gap-1 bg-[#1B6EB5]/30 border border-[#1B6EB5]/50 px-3 py-1 rounded-full text-xs font-bold text-[var(--color-blue-light)] uppercase tracking-wider mb-4">
             <span className="w-2 h-2 rounded-full bg-[var(--color-blue-light)] animate-pulse" />
             Recruitment Guide 2026
           </span>
-          
+
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display leading-tight max-w-4xl mb-4 tracking-tight">
             IBPS PO 2026 — Free Mock Tests, Syllabus, Pattern & Complete Preparation Guide
           </h1>
-          
+
           <p className="text-white/70 text-sm sm:text-base md:text-lg max-w-3xl mb-8 leading-relaxed">
             IBPS PO (Probationary Officer) is India's largest banking recruitment exam, 
             offering 3,500+ vacancies across 11 public sector banks in a single cycle.
@@ -130,20 +170,14 @@ export default function IBPSPOContent() {
           </ul>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col xs:flex-row gap-3 justify-center md:justify-start">
+          <div className="flex flex-col xs:flex-row gap-3 justify-start items-start">
             <a
               href="https://app.prepgrind.com/register"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-sm tracking-wide text-center transition-all shadow-md hover:-translate-y-0.5"
+              className="w-fit px-4 py-2 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
             >
               Start Free IBPS PO Mock Test →
-            </a>
-            <a
-              href="/live-tests"
-              className="px-6 py-3 rounded-lg border border-white/20 hover:bg-white/10 text-white font-bold text-sm tracking-wide text-center transition-all"
-            >
-              View IBPS PO Sectional Tests
             </a>
           </div>
         </div>

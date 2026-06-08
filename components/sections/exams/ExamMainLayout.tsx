@@ -1,0 +1,2300 @@
+// PATH: components/sections/exams/ExamMainLayout.tsx
+'use client';
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import {
+  CheckCircle2,
+  ChevronRight,
+  Zap,
+  Award,
+  HelpCircle,
+  FileText,
+  Calendar,
+  Layers,
+  BookMarked,
+  Brain,
+  BarChart3,
+  DollarSign,
+  Briefcase,
+  TrendingUp,
+  Target,
+  Trophy,
+  Info,
+  ChevronDown,
+  ExternalLink,
+  BookOpen,
+} from 'lucide-react';
+import type { ExamDetailData } from '@/types/exam';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Breadcrumb from '@/components/shared/Breadcrumb';
+import './exam.css';
+
+interface Props {
+  exam: ExamDetailData;
+}
+
+export default function ExamMainLayout({ exam }: Props) {
+  const isSbi = exam.id === 'sbi-po';
+  const brandColor = isSbi ? '#1B6EB5' : '#F0B429';
+
+  const [syllabusTab, setSyllabusTab] = useState<'prelims' | 'mains'>('prelims');
+  const [patternTab, setPatternTab] = useState<'prelims' | 'mains'>('prelims');
+  const [openFaqIdx, setOpenFaqIdx] = useState<number | null>(null);
+  const [descExpanded, setDescExpanded] = useState(false);
+
+  const DESC_LIMIT = 180;
+  const hasMoreDesc = exam.description.length > DESC_LIMIT;
+  const displayDesc = descExpanded ? exam.description : (hasMoreDesc ? exam.description.slice(0, DESC_LIMIT) + '...' : exam.description);
+
+  // Table of Contents list
+  const tocItems = isSbi
+    ? [
+        { label: 'What is SBI PO?', id: 'what-is' },
+        { label: 'SBI PO 2026 at a Glance', id: 'overview-card' },
+        { label: 'Important Dates', id: 'important-dates' },
+        { label: 'Eligibility Criteria', id: 'eligibility-criteria' },
+        { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
+        { label: 'Complete Syllabus', id: 'full-syllabus' },
+        { label: 'SBI PO Mock Tests 2026', id: 'mock-tests' },
+        { label: 'SBI PO Sectional Tests 2026', id: 'sectional-tests' },
+        { label: 'Topic-Wise Practice Questions', id: 'topic-wise-questions' },
+        { label: 'Current Affairs for SBI PO 2026', id: 'current-affairs' },
+        { label: 'Study Material & Strategy', id: 'prep-strategy' },
+        { label: 'Previous Year Cut-offs', id: 'cut-offs' },
+        { label: 'Salary & Career Growth', id: 'salary-career' },
+        { label: 'Selection Process Deep Dive', id: 'selection-process' },
+        { label: 'Why Prepare on BankerPrep?', id: 'platform-features' },
+        { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
+      ]
+    : [
+        { label: `What is ${exam.shortName}?`, id: 'what-is' },
+        { label: `${exam.shortName} Overview Card`, id: 'overview-card' },
+        { label: 'Important Dates Timeline', id: 'important-dates' },
+        { label: 'Eligibility Criteria', id: 'eligibility-criteria' },
+        { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
+        { label: 'Full Syllabus Breakdown', id: 'full-syllabus' },
+        { label: 'PrepBanker Mock Tests', id: 'mock-tests' },
+        { label: 'Sectional Timed Quizzes', id: 'sectional-tests' },
+        { label: 'Daily Current Affairs', id: 'current-affairs' },
+        { label: '90-Day Study Strategy', id: 'prep-strategy' },
+        { label: 'Previous Year Cut-offs', id: 'cut-offs' },
+        { label: 'Salary Structure & Allowances', id: 'salary-career' },
+        { label: `${exam.shortName} vs SBI PO Comparison`, id: 'comparison' },
+        { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
+      ];
+
+  return (
+    <div className="bg-slate-50/40 min-h-screen flex flex-col font-sans">
+      <Header />
+
+      {/* Hero Section */}
+      <section
+        id="hero"
+        className="relative overflow-hidden text-white pt-12 pb-7 px-6"
+        style={{
+          background: isSbi
+            ? 'linear-gradient(135deg, #07102A 0%, #1A2D5A 100%)'
+            : 'linear-gradient(135deg, #3D2A00 0%, #07102A 100%)'
+        }}
+      >
+        {/* Decorative background blobs */}
+        <div aria-hidden className="absolute inset-0 pointer-events-none">
+          <div
+            className="absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-10"
+            style={{ background: isSbi ? 'radial-gradient(circle, var(--color-blue) 0%, transparent 70%)' : 'radial-gradient(circle, var(--color-gold) 0%, transparent 70%)' }}
+          />
+          <div
+            className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-10"
+            style={{ background: 'radial-gradient(circle, var(--color-gold) 0%, transparent 70%)' }}
+          />
+          <div
+            className="absolute inset-0 opacity-[0.04]"
+            style={{
+              backgroundImage:
+                'linear-gradient(var(--color-gray-200) 1px, transparent 1px), linear-gradient(90deg, var(--color-gray-200) 1px, transparent 1px)',
+              backgroundSize: '40px 40px',
+            }}
+          />
+        </div>
+
+        <div className="max-w-6xl mx-auto relative z-10 text-left">
+          {/* Breadcrumb */}
+          <div className="mb-4 sm:mb-5">
+            <Breadcrumb
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'Exams', href: '/exams' },
+                { label: exam.shortName },
+              ]}
+              linkColor={isSbi ? '#60B4FF' : '#F0B429'}
+            />
+          </div>
+
+          {/* Status badge */}
+          <span
+            className="inline-flex items-center gap-1 border px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3"
+            style={{
+              backgroundColor: `${exam.tagColor}1F`,
+              borderColor: `${exam.tagColor}4D`,
+              color: exam.tagColor,
+            }}
+          >
+            <span className="w-2 h-2 rounded-full bg-[currentColor] animate-pulse" />
+            {exam.tag}
+          </span>
+
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold font-display leading-tight max-w-4xl mb-2.5 tracking-tight">
+            {exam.name}
+          </h1>
+
+          {isSbi && (
+            <h2 className="text-lg sm:text-xl font-bold text-white/90 mb-3 font-display">
+              Crack SBI PO 2026 with India's Most Complete Prep Platform
+            </h2>
+          )}
+
+          <p className="text-white/70 text-sm sm:text-base max-w-3xl mb-5 leading-relaxed font-normal">
+            {displayDesc}{' '}
+            {hasMoreDesc && (
+              <button
+                onClick={() => setDescExpanded(v => !v)}
+                className="font-bold underline hover:text-white transition-colors ml-1 focus:outline-none"
+                style={{ color: isSbi ? '#60B4FF' : '#F0B429' }}
+              >
+                {descExpanded ? 'Read Less ↑' : 'Read More ↓'}
+              </button>
+            )}
+          </p>
+
+          {/* 4 Stat Pills */}
+          <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mb-6">
+            {exam.summaryCards.slice(0, 4).map((card) => (
+              <li
+                key={card.label}
+                className="bg-white/5 border border-white/15 px-4 py-3.5 rounded-xl backdrop-blur-sm flex flex-col justify-between min-h-[5.5rem] sm:min-h-[6rem] transition-all hover:bg-white/10"
+              >
+                <span className="block text-[var(--color-gold-bright)] text-sm sm:text-base md:text-lg font-black tracking-tight leading-snug break-words whitespace-pre-wrap">
+                  {card.value}
+                </span>
+                <span className="text-[10px] sm:text-xs text-white/70 block font-semibold mt-1.5">{card.label}</span>
+              </li>
+            ))}
+          </ul>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-wrap gap-3 justify-start items-center">
+            <a
+              href="https://app.prepgrind.com/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
+            >
+              Start Free Mock Test →
+            </a>
+            <a
+              href="#sectional-tests"
+              className="px-4 py-2.5 rounded-lg border border-white/30 hover:border-white text-white font-bold text-xs sm:text-sm tracking-wide text-center transition-all hover:bg-white/5"
+            >
+              View {exam.shortName} Sectional Tests →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Horizontal Overview Card */}
+      <section className="max-w-6xl w-full mx-auto px-6 mt-8">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col md:flex-row justify-between gap-6 items-center">
+          {/* Left Column: Dates & Vacancies info */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 flex-1 w-full">
+            <div>
+              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
+              <span className="block text-xs sm:text-sm font-bold text-slate-800">
+                {isSbi ? 'April 2026 (Expected)' : 'August 2026 (Expected)'}
+              </span>
+            </div>
+            <div>
+              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
+              <span className="block text-xs sm:text-sm font-bold text-slate-800">
+                {isSbi ? '2,000+ Posts' : '3,500+ Posts'}
+              </span>
+            </div>
+            <div>
+              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
+              <span className="block text-xs sm:text-sm font-bold text-slate-800">
+                {isSbi ? 'June 2026' : 'October 2026'}
+              </span>
+            </div>
+          </div>
+
+          {/* Vertical divider on desktop */}
+          <div className="hidden md:block w-px bg-slate-200 self-stretch" />
+
+          {/* Right Column: CTA Actions */}
+          <div className="flex flex-col gap-3 w-full md:w-auto shrink-0 items-start md:items-end">
+            <div className="flex gap-3 w-full sm:w-auto">
+              <a
+                href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 sm:flex-initial text-center px-4 py-2 border border-slate-200 text-slate-700 font-bold text-xs rounded-lg hover:bg-slate-50 transition-all"
+              >
+                Download PDF Notification
+              </a>
+              <a
+                href="https://app.prepgrind.com/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 sm:flex-initial text-center px-4 py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all"
+              >
+                Apply Online
+              </a>
+            </div>
+            <span className="text-[10px] text-slate-400 flex items-center gap-1 font-semibold">
+              Official Website:{' '}
+              <a
+                href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--color-blue)] hover:underline flex items-center gap-0.5"
+              >
+                {isSbi ? 'sbi.co.in' : 'ibps.in'}
+                <ExternalLink size={8} />
+              </a>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {/* 2-Column Responsive Layout (Main Area) */}
+      <div className="max-w-6xl w-full mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
+        
+        {/* Left Column: Content */}
+        <main className="space-y-10 min-w-0">
+          
+          {/* Table of Contents */}
+          <section id="toc" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-sm scroll-mt-20">
+            <h2 className="text-xs sm:text-sm font-black text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+              <Layers size={14} className="text-[#1B6EB5]" />
+              Table of Contents
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+              {tocItems.map((item, idx) => (
+                <a
+                  key={item.id}
+                  href={`#${item.id}`}
+                  className="text-sm sm:text-[15px] text-[#1B6EB5] hover:text-[#0D1B3E] hover:underline font-bold flex items-center gap-1.5 transition-colors"
+                >
+                  <span className="text-[var(--color-gold)] font-extrabold">{idx + 1}.</span>
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </section>
+
+          {/* Section 1: What is exam */}
+          <section id="what-is" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-5 font-display border-b border-slate-100 pb-3">
+              What is {exam.shortName}?
+            </h2>
+            <p className="text-slate-700 text-base sm:text-[17px] leading-relaxed mb-5 font-normal">
+              {isSbi 
+                ? "SBI PO is a prestigious national-level recruitment examination conducted annually by the State Bank of India to select entry-level Probationary Officers. It is highly sought-after due to its premium compensation package exceeding ₹90,000/month gross, comprehensive perks, and rapid promotional avenues. Candidates undergo a rigorous four-stage selection process involving Preliminary screening, Main examinations, Group Exercises, and a Personal Interview. Newly recruited officers undergo a detailed two-year probation period, during which they receive hands-on training across diverse retail, corporate, and agricultural banking portfolios."
+                : "IBPS PO is a national-level recruitment examination conducted annually by the Institute of Banking Personnel Selection to recruit Probationary Officers for 11 public sector banks in India. It offers a highly respected career with a structured promotional path, competitive salaries exceeding ₹80,000/month gross in metro cities, and excellent financial security. Aspiring candidates undergo a three-stage selection process comprising Preliminary screening, Main examinations, and a Personal Interview. Selected officers are posted across India and undergo a mandatory two-year probation to master all commercial and retail banking operations."
+              }
+            </p>
+            <div className="bg-slate-50 border border-slate-200 p-4 sm:p-5 rounded-xl flex items-center justify-between flex-wrap gap-4 mt-6">
+              <span className="text-sm font-semibold text-slate-650">
+                Want to read the full criteria, attempts, and post mandates in detail?
+              </span>
+              <Link
+                href={`/${exam.id}/eligibility`}
+                className="text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline flex items-center gap-0.5"
+              >
+                Go to Eligibility Details Page →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 2: Overview Card */}
+          <section id="overview-card" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 at a Glance' : `${exam.shortName} Overview Highlights`}
+            </h2>
+            {isSbi ? (
+              <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <thead>
+                    <tr className="bg-slate-900 text-white font-bold">
+                      <th className="px-4 py-2.5">Parameter</th>
+                      <th className="px-4 py-2.5">Details</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 text-slate-650">
+                    <tr>
+                      <td className="px-4 py-3 font-semibold text-slate-800">Full Name</td>
+                      <td className="px-4 py-3">State Bank of India Probationary Officer</td>
+                    </tr>
+                    <tr className="bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Conducting Body</td>
+                      <td className="px-4 py-3">State Bank of India (SBI)</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-semibold text-slate-800">Notification</td>
+                      <td className="px-4 py-3">April 2026</td>
+                    </tr>
+                    <tr className="bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Total Vacancies</td>
+                      <td className="px-4 py-3">2,000+ (Expected)</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-semibold text-slate-800">Application Mode</td>
+                      <td className="px-4 py-3">Online — sbi.co.in</td>
+                    </tr>
+                    <tr className="bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Exam Mode</td>
+                      <td className="px-4 py-3">Computer Based Test (CBT)</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-semibold text-slate-800">Selection Stages</td>
+                      <td className="px-4 py-3">Prelims → Mains → Group Exercise → Interview</td>
+                    </tr>
+                    <tr className="bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay</td>
+                      <td className="px-4 py-3">₹41,960/month</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-semibold text-slate-800">Gross Salary</td>
+                      <td className="px-4 py-3">₹63,000 – ₹95,000/month</td>
+                    </tr>
+                    <tr className="bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Job Location</td>
+                      <td className="px-4 py-3">Pan India</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-semibold text-slate-800">Official Website</td>
+                      <td className="px-4 py-3">
+                        <a href="https://sbi.co.in" target="_blank" rel="noopener noreferrer" className="text-[#1B6EB5] hover:underline font-bold">sbi.co.in</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {exam.summaryCards.map((card) => (
+                  <div 
+                    key={card.label} 
+                    className="bg-gradient-to-br from-slate-50/50 to-white border border-slate-150 p-4 rounded-xl border-l-4"
+                    style={{ borderLeftColor: brandColor }}
+                  >
+                    <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">{card.label}</span>
+                    <span className="block text-sm sm:text-base font-extrabold text-slate-850 mt-1">{card.value}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+
+          {/* Section 3: Important Dates */}
+          <section id="important-dates" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 Important Dates & Exam Calendar' : 'Important Dates & Recruitment Timeline'}
+            </h2>
+            {isSbi ? (
+              <div className="space-y-4">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-3">
+                  Never miss a deadline. Below are the expected key dates for SBI PO 2026 based on the official notification and previous year patterns.
+                </p>
+                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                    <thead>
+                      <tr className="bg-slate-900 text-white font-bold">
+                        <th className="px-4 py-2.5">Event</th>
+                        <th className="px-4 py-2.5">Expected Date</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 text-slate-650">
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">Official Notification Release</td>
+                        <td className="px-4 py-3">April 2026</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">Online Application Opens</td>
+                        <td className="px-4 py-3">April 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">Application Deadline</td>
+                        <td className="px-4 py-3">May 2026</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">Application Fee Payment Last Date</td>
+                        <td className="px-4 py-3">May 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">Prelims Admit Card Download</td>
+                        <td className="px-4 py-3">May–June 2026</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Prelims Exam</td>
+                        <td className="px-4 py-3">June 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">Prelims Result Declaration</td>
+                        <td className="px-4 py-3">July 2026</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">Mains Admit Card Download</td>
+                        <td className="px-4 py-3">July 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Mains Exam</td>
+                        <td className="px-4 py-3">August 2026</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">Mains Result Declaration</td>
+                        <td className="px-4 py-3">September 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">Group Exercise & Interview</td>
+                        <td className="px-4 py-3">October–November 2026</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">Final Result & Merit List</td>
+                        <td className="px-4 py-3">November–December 2026</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-xs text-slate-500 italic mt-2">
+                  "These dates are indicative based on the SBI PO 2025 cycle. Official dates will be confirmed at sbi.co.in upon notification release. BankerPrep will update this page immediately."
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                  {exam.dates.slice(0, 6).map((date) => {
+                    const isUpcoming = date.status === 'upcoming';
+                    return (
+                      <div key={date.event} className="bg-slate-50/50 border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
+                        <div className="space-y-1">
+                          <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
+                          <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm">{date.event}</h4>
+                          <span className="block text-xs font-bold text-[#1B6EB5]">{date.date}</span>
+                        </div>
+                        <span className={`text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
+                          isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
+                        }`}>
+                          {date.status}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+            <div className="mt-4">
+              <Link
+                href={`/${exam.id}/dates`}
+                className="inline-flex items-center text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                View Full Interactive Date Calendar & Milestone Guide →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 4: Eligibility Criteria */}
+          <section id="eligibility-criteria" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 Eligibility Criteria' : 'Eligibility Criteria Overview'}
+            </h2>
+            {isSbi ? (
+              <div className="space-y-6">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-3">
+                  Before you start your preparation, confirm you meet the eligibility requirements for SBI PO 2026.
+                </p>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-150 border-l-4 border-[#1B6EB5] mb-4">
+                  <span className="block text-slate-500 text-xs sm:text-sm font-bold uppercase mb-1.5">Educational Qualification</span>
+                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal">{exam.eligibility.education}</p>
+                </div>
+
+                <div className="space-y-3">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Age Limit Table</h4>
+                  <p className="text-xs text-slate-400">Note: Age is calculated as of 1st April 2026.</p>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2.5">Category</th>
+                          <th className="px-4 py-2.5">Minimum Age</th>
+                          <th className="px-4 py-2.5">Maximum Age</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">General / UR</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">30 years</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">OBC (Non-Creamy Layer)</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">33 years</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">SC / ST</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">35 years</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">EWS</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">30 years</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD (General/EWS)</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">40 years</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD (OBC)</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">43 years</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD (SC/ST)</td>
+                          <td className="px-4 py-3">21 years</td>
+                          <td className="px-4 py-3">45 years</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">Ex-Servicemen</td>
+                          <td className="px-4 py-3">As per govt norms</td>
+                          <td className="px-4 py-3">—</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Number of Attempts Table</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2.5">Category</th>
+                          <th className="px-4 py-2.5">Maximum Attempts</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">General / EWS</td>
+                          <td className="px-4 py-3">4</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">OBC (Non-Creamy Layer)</td>
+                          <td className="px-4 py-3">7</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">SC / ST</td>
+                          <td className="px-4 py-3">Unlimited (within age limit)</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD</td>
+                          <td className="px-4 py-3">Unlimited (within age limit)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-150 border-l-4 border-[#1B6EB5]">
+                  <span className="block text-slate-500 text-xs sm:text-sm font-bold uppercase mb-1.5">Academic Qualification</span>
+                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-extrabold">{exam.eligibility.education}</p>
+                  <span className="block text-xs sm:text-sm text-slate-500 mt-2">Final year students can also apply provisionally.</span>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-150 border-l-4 border-[var(--color-gold)]">
+                  <span className="block text-slate-500 text-xs sm:text-sm font-bold uppercase mb-1.5">Age Limit & Relaxation</span>
+                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-extrabold">{exam.eligibility.age}</p>
+                  <span className="block text-xs sm:text-sm text-slate-500 mt-2">Standard upper limit relaxations apply for reserved categories.</span>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-150 border-l-4 border-green-500">
+                  <span className="block text-slate-500 text-xs sm:text-sm font-bold uppercase mb-1.5">Nationality & Citizenship</span>
+                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-extrabold">{exam.eligibility.nationality}</p>
+                  <span className="block text-xs sm:text-sm text-slate-500 mt-2">Must be citizen of India or satisfy specified refuge rules.</span>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-150 border-l-4 border-purple-500">
+                  <span className="block text-slate-500 text-xs sm:text-sm font-bold uppercase mb-1.5">Number of Attempts</span>
+                  <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-extrabold">{exam.eligibility.attempts}</p>
+                  <span className="block text-xs sm:text-sm text-slate-500 mt-2">
+                    Age limit is the sole determining factor; no attempt caps apply.
+                  </span>
+                </div>
+              </div>
+            )}
+            <div className="mt-4">
+              <Link
+                href={`/${exam.id}/eligibility`}
+                className="inline-flex items-center text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                Read Full Age Relaxation & Educational Guidelines →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 5: Exam Pattern */}
+          <section id="exam-pattern" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 Exam Pattern — Prelims & Mains' : 'Exam Selection Pattern'}
+            </h2>
+            <p className="text-slate-650 text-sm sm:text-base leading-relaxed mb-4">
+              {isSbi ? 'SBI PO selection has 3 exam stages followed by a Group Exercise and Personal Interview.' : 'Understand the timings, negative markings and sectional details below.'}
+            </p>
+            <div className="flex gap-2 mb-4 bg-slate-100 p-1 rounded-lg w-fit">
+              <button
+                onClick={() => setPatternTab('prelims')}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
+                  patternTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                }`}
+              >
+                Prelims (Phase 1)
+              </button>
+              <button
+                onClick={() => setPatternTab('mains')}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
+                  patternTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                }`}
+              >
+                Mains (Phase 2)
+              </button>
+            </div>
+
+            {patternTab === 'prelims' ? (
+              <div className="space-y-4">
+                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                    <thead>
+                      <tr className="bg-slate-900 text-white font-bold">
+                        <th className="px-4 py-2.5">Section</th>
+                        <th className="px-4 py-2.5">No. of Questions</th>
+                        <th className="px-4 py-2.5">Maximum Marks</th>
+                        <th className="px-4 py-2.5">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 text-slate-650">
+                      {exam.examPattern[0]?.sections.map((sec) => (
+                        <tr key={sec.subject}>
+                          <td className="px-4 py-3 font-semibold text-slate-800">{sec.subject}</td>
+                          <td className="px-4 py-3">{sec.questions}</td>
+                          <td className="px-4 py-3">{sec.marks}</td>
+                          <td className="px-4 py-3">{sec.time}</td>
+                        </tr>
+                      ))}
+                      <tr className="font-bold text-slate-900 bg-slate-50/50">
+                        <td className="px-4 py-3">Total</td>
+                        <td className="px-4 py-3">100</td>
+                        <td className="px-4 py-3">100</td>
+                        <td className="px-4 py-3">60 minutes</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="space-y-1">
+                  {exam.examPattern[0]?.notes.map((note, idx) => (
+                    <div key={idx} className="text-xs text-slate-500 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-slate-400 shrink-0" />
+                      <span>{note}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div className="space-y-4">
+                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs mb-4">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                    <thead>
+                      <tr className="bg-slate-900 text-white font-bold">
+                        <th className="px-4 py-2.5">Section</th>
+                        <th className="px-4 py-2.5">No. of Questions</th>
+                        <th className="px-4 py-2.5">Maximum Marks</th>
+                        <th className="px-4 py-2.5">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 text-slate-650">
+                      {exam.examPattern[1]?.sections.map((sec) => (
+                        <tr key={sec.subject}>
+                          <td className="px-4 py-3 font-semibold text-slate-800">{sec.subject}</td>
+                          <td className="px-4 py-3">{sec.questions}</td>
+                          <td className="px-4 py-3">{sec.marks}</td>
+                          <td className="px-4 py-3">{sec.time}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                {isSbi && (
+                  <div className="space-y-4">
+                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-2">Phase 3 — Group Exercise & Personal Interview</h4>
+                    <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                      <table className="w-full text-left text-sm sm:text-base border-collapse">
+                        <thead>
+                          <tr className="bg-slate-900 text-white font-bold">
+                            <th className="px-4 py-2.5">Component</th>
+                            <th className="px-4 py-2.5">Marks</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-slate-650">
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">Group Exercise</td>
+                            <td className="px-4 py-3">20</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">Personal Interview</td>
+                            <td className="px-4 py-3">30</td>
+                          </tr>
+                          <tr className="font-bold text-slate-900">
+                            <td className="px-4 py-3">Total</td>
+                            <td className="px-4 py-3">50</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div className="bg-blue-50 border border-blue-100 p-4 rounded-xl text-xs sm:text-sm text-slate-700">
+                      <strong>Final merit ranking calculation:</strong> Mains objective + Descriptive + GE + Interview (200 + 50 + 50 = 300 marks)
+                    </div>
+                  </div>
+                )}
+
+                <div className="space-y-1">
+                  {exam.examPattern[1]?.notes.map((note, idx) => (
+                    <div key={idx} className="text-xs text-slate-500 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-slate-400 shrink-0" />
+                      <span>{note}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="mt-5">
+              <Link
+                href={`/${exam.id}/exam-pattern`}
+                className="text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                Read Detailed Phase Schemes & Marks Distribution →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 6: Full Syllabus */}
+          <section id="full-syllabus" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 Complete Syllabus — Prelims & Mains' : 'Syllabus Breakdown'}
+            </h2>
+            <div className="flex gap-2 mb-4 bg-slate-100 p-1 rounded-lg w-fit">
+              <button
+                onClick={() => setSyllabusTab('prelims')}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
+                  syllabusTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                }`}
+              >
+                Prelims Topics
+              </button>
+              <button
+                onClick={() => setSyllabusTab('mains')}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
+                  syllabusTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                }`}
+              >
+                Mains Topics
+              </button>
+            </div>
+
+            {syllabusTab === 'prelims' ? (
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
+                    English Language
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {exam.syllabus['English Language']?.slice(0, 4).map((t) => (
+                      <span key={t} className="text-[11px] font-bold text-slate-650 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                        {t}
+                      </span>
+                    ))}
+                    <span className="text-[11px] font-extrabold text-[#1B6EB5] bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full">
+                      + more topics
+                    </span>
+                  </div>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
+                    Quant Aptitude
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {exam.syllabus['Quantitative Aptitude']?.slice(0, 4).map((t) => (
+                      <span key={t} className="text-[11px] font-bold text-slate-650 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                        {t}
+                      </span>
+                    ))}
+                    <span className="text-[11px] font-extrabold text-[#1B6EB5] bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full">
+                      + more topics
+                    </span>
+                  </div>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
+                    Reasoning Ability
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {exam.syllabus['Reasoning Ability']?.slice(0, 4).map((t) => (
+                      <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                        {t}
+                      </span>
+                    ))}
+                    <span className="text-[11px] font-extrabold text-[#1B6EB5] bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full">
+                      + more topics
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[var(--color-gold)] border-b border-slate-200 pb-1.5 font-display">
+                    Reasoning & Computer
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {isSbi
+                      ? exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4).map((t) => (
+                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                            {t}
+                          </span>
+                        ))
+                      : ['Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks', 'Logic Gates'].map((t) => (
+                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                            {t}
+                          </span>
+                        ))}
+                    <span className="text-[11px] font-extrabold text-[var(--color-gold)] bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-full">
+                      + more topics
+                    </span>
+                  </div>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[var(--color-gold)] border-b border-slate-200 pb-1.5 font-display">
+                    General/Economy Awareness
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {isSbi
+                      ? exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4).map((t) => (
+                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                            {t}
+                          </span>
+                        ))
+                      : exam.syllabus['General/Banking Awareness']?.slice(0, 4).map((t) => (
+                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
+                            {t}
+                          </span>
+                        ))}
+                    <span className="text-[11px] font-extrabold text-[var(--color-gold)] bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-full">
+                      + more topics
+                    </span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <div className="mt-5">
+              <Link
+                href={`/${exam.id}/syllabus`}
+                className="text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                Read Full Subject-wise Syllabus topics →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 7: Mock Tests */}
+          <section id="mock-tests" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-sm scroll-mt-20">
+            <div className="flex items-center gap-2 mb-3">
+              <Trophy size={22} className="text-[var(--color-gold)]" />
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-850 font-display">
+                {isSbi ? 'SBI PO Mock Tests 2026 — Free & Premium Practice Tests' : 'PrepBanker Mock Tests'}
+              </h3>
+            </div>
+            <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5">
+              {isSbi
+                ? "BankerPrep's SBI PO mock tests are designed by banking exam experts and follow the exact 2026 exam pattern. Each mock test covers all three sections — English, Quant, and Reasoning for Prelims, and all four sections for Mains — with timed conditions, negative marking, and instant performance analytics. Whether you are just starting out or looking to push your score past the cut-off, our SBI PO practice tests give you real exam experience from day one."
+                : `PrepBanker provides detailed full length mock tests matching current difficulty trends for ${exam.shortName}.`}
+            </p>
+
+            {isSbi ? (
+              <div className="space-y-6">
+                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                    <thead>
+                      <tr className="bg-slate-900 text-white font-bold">
+                        <th className="px-4 py-2.5">Test Type</th>
+                        <th className="px-4 py-2.5">No. of Tests</th>
+                        <th className="px-4 py-2.5">Questions</th>
+                        <th className="px-4 py-2.5">Marks</th>
+                        <th className="px-4 py-2.5">Duration</th>
+                        <th className="px-4 py-2.5">Available</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 text-slate-650">
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Full Mock Test (Prelims)</td>
+                        <td className="px-4 py-3">20</td>
+                        <td className="px-4 py-3">100</td>
+                        <td className="px-4 py-3">100</td>
+                        <td className="px-4 py-3">60 mins</td>
+                        <td className="px-4 py-3 text-green-600 font-bold">5 Free</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Full Mock Test (Mains)</td>
+                        <td className="px-4 py-3">15</td>
+                        <td className="px-4 py-3">155 + Descriptive</td>
+                        <td className="px-4 py-3">250</td>
+                        <td className="px-4 py-3">210 mins</td>
+                        <td className="px-4 py-3 text-green-600 font-bold">3 Free</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Previous Year Papers (2018–2025)</td>
+                        <td className="px-4 py-3">8</td>
+                        <td className="px-4 py-3">100 / 155</td>
+                        <td className="px-4 py-3">100 / 200</td>
+                        <td className="px-4 py-3">60 / 180 mins</td>
+                        <td className="px-4 py-3 text-green-600 font-bold">2 Free</td>
+                      </tr>
+                      <tr className="bg-slate-50/50">
+                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Prelims Speed Tests</td>
+                        <td className="px-4 py-3">10</td>
+                        <td className="px-4 py-3">100</td>
+                        <td className="px-4 py-3">100</td>
+                        <td className="px-4 py-3">45 mins</td>
+                        <td className="px-4 py-3 text-green-600 font-bold">3 Free</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="space-y-3">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Why Practise with BankerPrep's SBI PO Mock Tests?</h4>
+                  <ul className="list-disc list-inside text-slate-650 text-xs sm:text-sm pl-2 space-y-2 font-normal">
+                    <li>Exact replica of SBI's CBT interface so you are never surprised on exam day</li>
+                    <li>Real-time countdown timers with section-switching disabled, just like the actual exam</li>
+                    <li>Detailed post-test analysis — accuracy %, time per question, topic-wise weak areas</li>
+                    <li>Comparison against 50,000+ aspirants to know your true percentile rank</li>
+                    <li>Solutions with shortcut methods for every question so you learn while reviewing</li>
+                    <li>Updated immediately after every official SBI notification change</li>
+                  </ul>
+                </div>
+
+                <div className="bg-blue-50 border border-blue-150 p-4 rounded-xl text-center text-xs sm:text-sm text-slate-700 font-bold">
+                  Take your first SBI PO Full Mock Test free — no login required for the first attempt.
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 1 Preparation</span>
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Prelims Mocks</h4>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
+                    20 high-fidelity test simulations matching the current difficulty trends, designed with sectional timers.
+                  </p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-[11px] font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">5 Mocks Free</span>
+                    <span className="text-xs font-bold text-slate-500">20 Total Mocks</span>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 2 Preparation</span>
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Mains Mocks</h4>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
+                    15 advanced level full mocks testing analytical ability and descriptive writing simulation answers.
+                  </p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-[11px] font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">3 Mocks Free</span>
+                    <span className="text-xs font-bold text-slate-500">15 Total Mocks</span>
+                  </div>
+                </div>
+              </div>
+            )}
+            <div className="text-center mt-5">
+              <a
+                href="https://app.prepgrind.com/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex px-6 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
+              >
+                Start Free Mock Test Now →
+              </a>
+            </div>
+          </section>
+
+          {/* Section 8: Sectional Tests */}
+          <section id="sectional-tests" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO Sectional Tests 2026 — English, Quant & Reasoning Practice' : 'Topic & Sectional Timed Quizzes'}
+            </h2>
+            <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5">
+              {isSbi
+                ? "Sectional tests help you master each subject individually before attempting full mocks. BankerPrep's SBI PO sectional tests are topic-focused, timed, and scored — giving you a precise understanding of where you stand in each subject. Since SBI PO Prelims has separate 20-minute timers for each section, dedicated sectional practice is not optional — it is essential."
+                : "Master each subject individually with our topic-focused tests."}
+            </p>
+
+            {isSbi ? (
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">English Language Sectional Tests</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Topic</th>
+                          <th className="px-4 py-2">Tests Available</th>
+                          <th className="px-4 py-2">Questions per Test</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Reading Comprehension</td>
+                          <td className="px-4 py-2">15</td>
+                          <td className="px-4 py-2">10–15</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Cloze Test</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Para Jumbles</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">5</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Error Detection</td>
+                          <td className="px-4 py-2">12</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Fill in the Blanks</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Sentence Improvement</td>
+                          <td className="px-4 py-2">8</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr className="font-bold text-slate-900">
+                          <td className="px-4 py-2">Full English Section Mock</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">30</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Quantitative Aptitude Sectional Tests</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Topic</th>
+                          <th className="px-4 py-2">Tests Available</th>
+                          <th className="px-4 py-2">Questions per Test</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Data Interpretation</td>
+                          <td className="px-4 py-2">20</td>
+                          <td className="px-4 py-2">5 sets</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Number Series</td>
+                          <td className="px-4 py-2">12</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Simplification & Approximation</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">15</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Quadratic Equations</td>
+                          <td className="px-4 py-2">8</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Arithmetic (Profit/Loss, SI/CI, etc.)</td>
+                          <td className="px-4 py-2">15</td>
+                          <td className="px-4 py-2">10</td>
+                        </tr>
+                        <tr className="font-bold text-slate-900">
+                          <td className="px-4 py-2">Full Quant Section Mock</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">35</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Reasoning Ability Sectional Tests</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Topic</th>
+                          <th className="px-4 py-2">Tests Available</th>
+                          <th className="px-4 py-2">Questions per Test</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Puzzles & Seating Arrangement</td>
+                          <td className="px-4 py-2">25</td>
+                          <td className="px-4 py-2">5 sets</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Syllogisms</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">5</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Inequalities</td>
+                          <td className="px-4 py-2">8</td>
+                          <td className="px-4 py-2">5</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Coding-Decoding</td>
+                          <td className="px-4 py-2">8</td>
+                          <td className="px-4 py-2">5</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Blood Relations</td>
+                          <td className="px-4 py-2">6</td>
+                          <td className="px-4 py-2">5</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Direction Sense</td>
+                          <td className="px-4 py-2">6</td>
+                          <td className="px-4 py-2">5</td>
+                        </tr>
+                        <tr className="font-bold text-slate-900">
+                          <td className="px-4 py-2">Full Reasoning Section Mock</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2">35</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 p-4 border border-slate-200 rounded-xl flex items-center justify-between flex-wrap gap-4 mt-6">
+                  <span className="text-sm font-semibold text-slate-650">
+                    Practice the section that is costing you marks.
+                  </span>
+                  <a
+                    href="https://app.prepgrind.com/register"
+                    className="text-sm font-bold text-[#1B6EB5] hover:underline"
+                  >
+                    View All Sectional Tests →
+                  </a>
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <Link href="/live-tests" className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 text-center hover:bg-slate-100 hover:border-blue-300 hover:shadow-xs transition-all border-t-4 border-t-[#1B6EB5]">
+                  <span className="block font-extrabold text-slate-805 text-sm sm:text-base">Quantitative Aptitude</span>
+                  <span className="text-xs sm:text-sm text-slate-500 block mt-1.5 font-semibold">30+ Sectional Tests</span>
+                </Link>
+                <Link href="/live-tests" className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 text-center hover:bg-slate-100 hover:border-blue-300 hover:shadow-xs transition-all border-t-4 border-t-[#1B6EB5]">
+                  <span className="block font-extrabold text-slate-805 text-sm sm:text-base">Reasoning Ability</span>
+                  <span className="text-xs sm:text-sm text-slate-500 block mt-1.5 font-semibold">25+ Puzzles Tests</span>
+                </Link>
+                <Link href="/live-tests" className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 text-center hover:bg-slate-100 hover:border-blue-300 hover:shadow-xs transition-all border-t-4 border-t-[#1B6EB5]">
+                  <span className="block font-extrabold text-slate-805 text-sm sm:text-base">English Language</span>
+                  <span className="text-xs sm:text-sm text-slate-500 block mt-1.5 font-semibold">20+ Comprehension Tests</span>
+                </Link>
+              </div>
+            )}
+          </section>
+
+          {/* Section 9: Topic-wise Practice Questions (New for SBI PO) */}
+          {isSbi && (
+            <section id="topic-wise-questions" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+                SBI PO Topic-Wise Practice Questions — 10,000+ Questions Bank
+              </h2>
+              <p className="text-slate-660 text-sm sm:text-[15px] leading-relaxed mb-5 font-normal">
+                BankerPrep's SBI PO question bank has 10,000+ practice questions across all topics, sorted by difficulty — Easy, Medium, and Hard. Each question comes with a detailed explanation and shortcut method. Practising topic-wise before attempting full mocks is the fastest way to improve accuracy and speed.
+              </p>
+
+              <div className="space-y-6">
+                <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">High-Priority Topics to Focus On</h4>
+                
+                <div>
+                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Reasoning — Must-Practice Topics</h5>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Topic</th>
+                          <th className="px-4 py-2">Avg Questions in Exam</th>
+                          <th className="px-4 py-2">Difficulty</th>
+                          <th className="px-4 py-2">Priority</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Puzzles & Seating Arrangements</td>
+                          <td className="px-4 py-2">15–20</td>
+                          <td className="px-4 py-2 text-red-650 font-semibold">High</td>
+                          <td className="px-4 py-2 font-extrabold text-red-650">Must Do</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Coding-Decoding (new pattern)</td>
+                          <td className="px-4 py-2">5</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Syllogisms</td>
+                          <td className="px-4 py-2">3–5</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Inequalities</td>
+                          <td className="px-4 py-2">5</td>
+                          <td className="px-4 py-2 text-green-600 font-semibold">Low–Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Blood Relations</td>
+                          <td className="px-4 py-2">2–3</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-slate-500">Medium</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Direction Sense</td>
+                          <td className="px-4 py-2">2–3</td>
+                          <td className="px-4 py-2 text-green-650 font-semibold">Low</td>
+                          <td className="px-4 py-2 font-bold text-slate-500">Medium</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Quantitative Aptitude — Must-Practice Topics</h5>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Topic</th>
+                          <th className="px-4 py-2">Avg Questions in Exam</th>
+                          <th className="px-4 py-2">Difficulty</th>
+                          <th className="px-4 py-2">Priority</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Data Interpretation</td>
+                          <td className="px-4 py-2">15–20</td>
+                          <td className="px-4 py-2 text-red-650 font-semibold">High</td>
+                          <td className="px-4 py-2 font-extrabold text-red-650">Must Do</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Number Series</td>
+                          <td className="px-4 py-2">5</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Simplification</td>
+                          <td className="px-4 py-2">5–8</td>
+                          <td className="px-4 py-2 text-green-650 font-semibold">Low</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Arithmetic Word Problems</td>
+                          <td className="px-4 py-2">8–10</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Quadratic Equations</td>
+                          <td className="px-4 py-2">5</td>
+                          <td className="px-4 py-2 text-green-650 font-semibold">Low</td>
+                          <td className="px-4 py-2 font-bold text-slate-500">Medium</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">English — Must-Practice Topics</h5>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Topic</th>
+                          <th className="px-4 py-2">Avg Questions in Exam</th>
+                          <th className="px-4 py-2">Difficulty</th>
+                          <th className="px-4 py-2">Priority</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Reading Comprehension</td>
+                          <td className="px-4 py-2">10</td>
+                          <td className="px-4 py-2 text-red-650 font-semibold">Medium–High</td>
+                          <td className="px-4 py-2 font-extrabold text-red-650">Must Do</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Cloze Test</td>
+                          <td className="px-4 py-2">5–7</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">Para Jumbles</td>
+                          <td className="px-4 py-2">5</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-amber-600">High</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">Error Detection</td>
+                          <td className="px-4 py-2">5</td>
+                          <td className="px-4 py-2 text-amber-600 font-semibold">Medium</td>
+                          <td className="px-4 py-2 font-bold text-slate-500">Medium</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="text-center mt-4">
+                  <a
+                    href="https://app.prepgrind.com/register"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex px-5 py-2.5 rounded-lg bg-[var(--color-navy-deep)] text-white hover:bg-slate-800 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_4px_12px_rgba(13,27,62,0.25)]"
+                  >
+                    Start Topic-Wise Practice →
+                  </a>
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Section 10: Current Affairs */}
+          <section id="current-affairs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'Current Affairs for SBI PO 2026 — What to Study & How Much' : 'Daily Banking & Economy Current Affairs'}
+            </h2>
+            <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5 font-normal">
+              {isSbi
+                ? "The General/Economy/Banking Awareness section in SBI PO Mains carries 40 marks and is often the difference-maker between selection and rejection — since most candidates score similarly in Reasoning and Quant. BankerPrep publishes daily current affairs curated specifically for banking exams, so you never waste time on irrelevant news."
+                : "Get updated daily with specialized digests summarizing the latest notifications."}
+            </p>
+
+            {isSbi ? (
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-extrabold text-slate-850 text-sm sm:text-base mb-2">What to Cover for SBI PO GA</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2.5">Category</th>
+                          <th className="px-4 py-2.5">Weightage</th>
+                          <th className="px-4 py-2.5">What to Focus On</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Banking & Financial Awareness</td>
+                          <td className="px-4 py-3">35–40%</td>
+                          <td className="px-4 py-3">RBI policies, repo rate, CRR, SLR, banking schemes, new bank launches</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">Current Affairs (Last 6 Months)</td>
+                          <td className="px-4 py-3">25–30%</td>
+                          <td className="px-4 py-3">National & international events, government schemes, summits</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Static GK</td>
+                          <td className="px-4 py-3">15–20%</td>
+                          <td className="px-4 py-3">HQs, taglines, governors, MD & CEOs of banks, countries & capitals</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">Economy & Budget</td>
+                          <td className="px-4 py-3">10–15%</td>
+                          <td className="px-4 py-3">Union Budget highlights, GDP figures, IMF/World Bank reports</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Awards, Reports & Rankings</td>
+                          <td className="px-4 py-3">5–10%</td>
+                          <td className="px-4 py-3">Padma Awards, Nobel Prize, important indices (GII, HDI, GHI)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">How BankerPrep Helps</h4>
+                  <ul className="list-disc list-inside text-slate-650 text-xs sm:text-sm pl-2 space-y-2 font-normal">
+                    <li>Daily current affairs capsules tagged for banking exams — read in under 10 minutes</li>
+                    <li>Monthly PDF compilations for quick revision before exams</li>
+                    <li>Topic-wise current affairs quizzes to test retention</li>
+                    <li>RBI policy tracker updated after every MPC meeting</li>
+                    <li>Banking awareness quiz — 50 questions updated weekly</li>
+                  </ul>
+                </div>
+
+                <div className="flex gap-3 justify-center mt-4 flex-wrap">
+                  <a
+                    href="https://app.prepgrind.com/register"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-[var(--color-blue)] text-white hover:bg-slate-800 font-bold text-xs rounded-lg transition-all"
+                  >
+                    Read Today's Current Affairs →
+                  </a>
+                  <a
+                    href="https://app.prepgrind.com/register"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 border border-slate-200 text-slate-700 hover:bg-slate-50 font-bold text-xs rounded-lg transition-all"
+                  >
+                    Attempt Banking Awareness Quiz →
+                  </a>
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:bg-white transition-colors border-l-4 border-l-[#1B6EB5]">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5">
+                    Monetary & Regulatory Updates
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Specialized digests summarizing the latest Reserve Bank of India (RBI) notifications, monetary policy revisions, SLR/CRR changes, and commercial banking regulations.
+                  </p>
+                </div>
+                <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:bg-white transition-colors border-l-4 border-l-[#1B6EB5]">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5">
+                    Financial GK & Digests
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Comprehensive monthly news files covering national summits, financial schemes, corporate bank mergers, international indexes, and budget updates.
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {!isSbi && (
+              <Link
+                href="/current-affairs"
+                className="inline-flex items-center text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                Read Current Affairs Digests & Quizzes →
+              </Link>
+            )}
+          </section>
+
+          {/* Section 11: Study Material & Strategy */}
+          <section id="prep-strategy" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 Study Material & Preparation Strategy' : 'Preparation Strategy & Study Plan'}
+            </h2>
+            
+            <div className="space-y-6">
+              <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display">How to Prepare for SBI PO in 90 Days — Month-by-Month Plan</h3>
+              <div className="relative pl-6 space-y-6 border-l border-slate-200 mb-5 py-1">
+                {exam.strategy.map((phase) => (
+                  <div key={phase.focus}>
+                    <div className="absolute -left-[9px] w-4 h-4 rounded-full border-2 border-white bg-[#1B6EB5] mt-1" />
+                    <h4 className="font-extrabold text-slate-850 text-sm sm:text-base mb-1">{phase.focus}</h4>
+                    <ul className="list-disc list-inside text-xs sm:text-sm text-slate-600 pl-1 space-y-1 font-normal">
+                      {phase.tips.map((tip, index) => (
+                        <li key={index}>{tip}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+
+              {isSbi && (
+                <div className="space-y-4 pt-2 border-t border-slate-100">
+                  <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display">Section-wise Time Strategy for SBI PO Prelims</h3>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-3">
+                    Since sections are individually timed at 20 minutes each, you need a clear attempt strategy for each.
+                  </p>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-[#1B6EB5]">
+                      <h4 className="font-extrabold text-[#1B6EB5] text-sm sm:text-base mb-1">English (20 mins)</h4>
+                      <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
+                        Start with Fill in the Blanks and Error Detection. Attempt Cloze Test next. Save RC for last.
+                      </p>
+                      <span className="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
+                        Target: 22–25 attempts (85–90% acc.)
+                      </span>
+                    </div>
+
+                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-[var(--color-gold)]">
+                      <h4 className="font-extrabold text-[var(--color-gold)] text-sm sm:text-base mb-1">Quant (20 mins)</h4>
+                      <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
+                        Start with Simplification, Number Series, then Quadratic Equations. Attempt DI last. Skip tough Qs.
+                      </p>
+                      <span className="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
+                        Target: 22–25 attempts (80%+ acc.)
+                      </span>
+                    </div>
+
+                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-purple-500">
+                      <h4 className="font-extrabold text-purple-600 text-sm sm:text-base mb-1">Reasoning (20 mins)</h4>
+                      <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
+                        Start with Inequalities, Syllogisms, and Coding-Decoding. Attempt puzzles only if time permits.
+                      </p>
+                      <span className="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
+                        Target: 22–25 attempts (85%+ acc.)
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="mt-5">
+              <Link
+                href={`/${exam.id}/strategy`}
+                className="inline-flex items-center text-xs sm:text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                Read Topper's Detailed 90-Day Study Plan →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 12: Previous Year Cut-offs */}
+          <section id="cut-offs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO Previous Year Cut-off Marks (2018–2025)' : 'Historical Category Cut-off Trends'}
+            </h2>
+            <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-4">
+              Use these as your target scores. Consistently scoring above the General category cut-off in mocks = exam-ready.
+            </p>
+
+            {isSbi ? (
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Year</th>
+                          <th className="px-4 py-2">General</th>
+                          <th className="px-4 py-2">OBC</th>
+                          <th className="px-4 py-2">SC</th>
+                          <th className="px-4 py-2">ST</th>
+                          <th className="px-4 py-2">EWS</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">2024</td>
+                          <td className="px-4 py-2">62.50</td>
+                          <td className="px-4 py-2">59.00</td>
+                          <td className="px-4 py-2">52.50</td>
+                          <td className="px-4 py-2">46.00</td>
+                          <td className="px-4 py-2">58.25</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">2023</td>
+                          <td className="px-4 py-2">60.75</td>
+                          <td className="px-4 py-2">57.50</td>
+                          <td className="px-4 py-2">50.00</td>
+                          <td className="px-4 py-2">44.50</td>
+                          <td className="px-4 py-2">56.00</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">2022</td>
+                          <td className="px-4 py-2">58.00</td>
+                          <td className="px-4 py-2">55.25</td>
+                          <td className="px-4 py-2">48.75</td>
+                          <td className="px-4 py-2">42.00</td>
+                          <td className="px-4 py-2">54.00</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">2021</td>
+                          <td className="px-4 py-2">55.50</td>
+                          <td className="px-4 py-2">52.75</td>
+                          <td className="px-4 py-2">46.50</td>
+                          <td className="px-4 py-2">40.00</td>
+                          <td className="px-4 py-2">52.00</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">2019</td>
+                          <td className="px-4 py-2">59.75</td>
+                          <td className="px-4 py-2">56.50</td>
+                          <td className="px-4 py-2">50.25</td>
+                          <td className="px-4 py-2">44.00</td>
+                          <td className="px-4 py-2">—</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">2018</td>
+                          <td className="px-4 py-2">57.25</td>
+                          <td className="px-4 py-2">54.00</td>
+                          <td className="px-4 py-2">48.00</td>
+                          <td className="px-4 py-2">41.50</td>
+                          <td className="px-4 py-2">—</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2">Year</th>
+                          <th className="px-4 py-2">General</th>
+                          <th className="px-4 py-2">OBC</th>
+                          <th className="px-4 py-2">SC</th>
+                          <th className="px-4 py-2">ST</th>
+                          <th className="px-4 py-2">EWS</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">2024</td>
+                          <td className="px-4 py-2">89.47</td>
+                          <td className="px-4 py-2">83.10</td>
+                          <td className="px-4 py-2">72.40</td>
+                          <td className="px-4 py-2">64.20</td>
+                          <td className="px-4 py-2">81.00</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">2023</td>
+                          <td className="px-4 py-2">86.20</td>
+                          <td className="px-4 py-2">80.50</td>
+                          <td className="px-4 py-2">70.00</td>
+                          <td className="px-4 py-2">61.75</td>
+                          <td className="px-4 py-2">78.25</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">2022</td>
+                          <td className="px-4 py-2">84.10</td>
+                          <td className="px-4 py-2">78.30</td>
+                          <td className="px-4 py-2">67.80</td>
+                          <td className="px-4 py-2">59.50</td>
+                          <td className="px-4 py-2">76.00</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">2021</td>
+                          <td className="px-4 py-2">81.50</td>
+                          <td className="px-4 py-2">75.80</td>
+                          <td className="px-4 py-2">65.00</td>
+                          <td className="px-4 py-2">57.25</td>
+                          <td className="px-4 py-2">74.00</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 font-semibold text-slate-800">2019</td>
+                          <td className="px-4 py-2">78.90</td>
+                          <td className="px-4 py-2">72.50</td>
+                          <td className="px-4 py-2">62.75</td>
+                          <td className="px-4 py-2">55.00</td>
+                          <td className="px-4 py-2">—</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-2 font-semibold text-slate-800">2018</td>
+                          <td className="px-4 py-2">76.25</td>
+                          <td className="px-4 py-2">70.00</td>
+                          <td className="px-4 py-2">60.50</td>
+                          <td className="px-4 py-2">53.00</td>
+                          <td className="px-4 py-2">—</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="bg-amber-50 border border-amber-250 p-4 rounded-xl text-xs sm:text-sm text-slate-700 font-semibold">
+                  "The General cut-off has risen by ~6 marks over 6 years in Prelims and ~13 marks in Mains. Aim for 72+ in Prelims and 100+ in Mains to be safe across all categories."
+                </div>
+              </div>
+            ) : (
+              <div className="bg-slate-50 border border-slate-200 p-6 rounded-2xl mb-5 space-y-4">
+                <h4 className="text-sm sm:text-base font-extrabold text-slate-800 text-center mb-2">
+                  Comparative Prelims General Cut-off Marks
+                </h4>
+                <div className="h-44 flex items-end justify-around border-b border-slate-300 pb-2 px-4">
+                  {exam.cutoffs.slice(0, 3).map((cutoff) => {
+                    const score = cutoff.prelims.general;
+                    const heightPercent = Math.min(100, Math.round((score / 80) * 100));
+                    return (
+                      <div key={cutoff.year} className="flex flex-col items-center gap-2 w-16 group">
+                        <span className="text-[11px] font-black text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded shadow-xs opacity-90 group-hover:scale-105 transition-transform">
+                          {score} M
+                        </span>
+                        <div 
+                          className="w-8 sm:w-10 rounded-t-lg bg-[#1B6EB5] hover:bg-[#2481CC] transition-all duration-300 relative shadow-sm"
+                          style={{ height: `${heightPercent}px`, minHeight: '40px' }}
+                        >
+                          <div className="absolute inset-x-0 top-0 h-1 bg-white/20 rounded-t-lg" />
+                        </div>
+                        <span className="text-xs font-bold text-slate-500 mt-1">{cutoff.year}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+            
+            <div className="mt-4">
+              <Link
+                href={`/${exam.id}/cut-offs`}
+                className="inline-flex items-center text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                View Full Category-wise Cut-off History →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 13: Salary & Career Growth */}
+          <section id="salary-career" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-850 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO Salary 2026 — In-hand Pay, Allowances & Career Progression' : 'Salary Structure, Perks & Allowances'}
+            </h2>
+            
+            <div className="space-y-6">
+              {isSbi ? (
+                <>
+                  <div>
+                    <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display mb-2">SBI PO Monthly Salary Breakdown</h3>
+                    <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                      <table className="w-full text-left text-sm border-collapse">
+                        <thead>
+                          <tr className="bg-slate-900 text-white font-bold">
+                            <th className="px-4 py-2.5">Component</th>
+                            <th className="px-4 py-2.5">Amount</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-slate-650">
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay (Scale I)</td>
+                            <td className="px-4 py-3">₹41,960</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">Dearness Allowance (DA)</td>
+                            <td className="px-4 py-3">~₹17,200</td>
+                          </tr>
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Metro</td>
+                            <td className="px-4 py-3">₹9,030</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Urban</td>
+                            <td className="px-4 py-3">₹6,300</td>
+                          </tr>
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Semi-urban</td>
+                            <td className="px-4 py-3">₹4,500</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">Special Allowance</td>
+                            <td className="px-4 py-3">₹5,500</td>
+                          </tr>
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">Transport Allowance</td>
+                            <td className="px-4 py-3">₹1,200</td>
+                          </tr>
+                          <tr className="bg-slate-50/50 font-bold text-slate-900">
+                            <td className="px-4 py-3">Gross Monthly (Metro)</td>
+                            <td className="px-4 py-3">~₹82,000 – ₹95,000</td>
+                          </tr>
+                          <tr className="font-bold text-slate-900">
+                            <td className="px-4 py-3">Gross Monthly (Non-metro)</td>
+                            <td className="px-4 py-3">~₹63,000 – ₹72,000</td>
+                          </tr>
+                          <tr className="bg-slate-50/50 font-bold text-slate-900">
+                            <td className="px-4 py-3">Annual CTC (approx.)</td>
+                            <td className="px-4 py-3">₹10 – 12 LPA</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div className="space-y-2">
+                    <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">Additional perks & benefits:</h4>
+                    <ul className="list-disc list-inside text-slate-655 text-xs sm:text-sm pl-2 space-y-1.5 font-normal">
+                      <li>Mediclaim for self & family (₹6 lakh cover)</li>
+                      <li>NPS pension</li>
+                      <li>Subsidised home loan at ~7% interest</li>
+                      <li>Subsidised car loan</li>
+                      <li>LFC / LTC twice a year</li>
+                      <li>Annual bonus</li>
+                      <li>Paid leave (30 days EL + 12 SL)</li>
+                      <li>Staff quarters in select postings</li>
+                      <li>Club membership</li>
+                      <li>Mobile reimbursement</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display mb-2">SBI PO Career Growth & Promotion Path</h3>
+                    <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                      <table className="w-full text-left text-sm border-collapse">
+                        <thead>
+                          <tr className="bg-slate-900 text-white font-bold">
+                            <th className="px-4 py-2.5">Years of Service</th>
+                            <th className="px-4 py-2.5">Designation</th>
+                            <th className="px-4 py-2.5">Approximate CTC</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-slate-650">
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">0 – 2 years</td>
+                            <td className="px-4 py-3">Probationary Officer → Junior Management Grade Scale I</td>
+                            <td className="px-4 py-3">₹10–12 LPA</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">2 – 5 years</td>
+                            <td className="px-4 py-3">Assistant Manager (JMGS I)</td>
+                            <td className="px-4 py-3">₹12–15 LPA</td>
+                          </tr>
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">5 – 8 years</td>
+                            <td className="px-4 py-3">Deputy Manager (MMGS Scale II)</td>
+                            <td className="px-4 py-3">₹16–20 LPA</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">8 – 13 years</td>
+                            <td className="px-4 py-3">Manager (MMGS Scale III)</td>
+                            <td className="px-4 py-3">₹22–28 LPA</td>
+                          </tr>
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">13 – 18 years</td>
+                            <td className="px-4 py-3">Senior Manager (SMGS Scale IV)</td>
+                            <td className="px-4 py-3">₹30–38 LPA</td>
+                          </tr>
+                          <tr className="bg-slate-50/50">
+                            <td className="px-4 py-3 font-semibold text-slate-800">18 – 23 years</td>
+                            <td className="px-4 py-3">Chief Manager (SMGS Scale V)</td>
+                            <td className="px-4 py-3">₹42–52 LPA</td>
+                          </tr>
+                          <tr>
+                            <td className="px-4 py-3 font-semibold text-slate-800">23+ years</td>
+                            <td className="px-4 py-3">AGM / DGM / GM / ED / MD & CEO</td>
+                            <td className="px-4 py-3">₹60 LPA+</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <p className="text-xs text-slate-500 italic mt-2">
+                      "SBI offers the fastest promotion cycle among all PSU banks. Officers who clear internal promotion exams can reach Scale III in 5 years instead of 8."
+                    </p>
+                  </div>
+                </>
+              ) : (
+                <div className="bg-gradient-to-br from-slate-900 to-[#1e293b] border border-slate-850 p-5 rounded-2xl text-white shadow-md mb-5">
+                  <div className="flex justify-between items-center border-b border-slate-800 pb-3 mb-4 flex-wrap gap-2">
+                    <div>
+                      <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-widest">Post Cadre: Scale I</span>
+                      <h4 className="font-extrabold text-xs sm:text-sm mt-0.5">{exam.shortName} Entry Level Salary Structure</h4>
+                    </div>
+                    <span className="text-[10px] font-black text-[#1B6EB5] bg-blue-50/10 border border-blue-50/20 px-2.5 py-1 rounded-md uppercase tracking-wider">
+                      Confirmed Post
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="space-y-3">
+                      <div>
+                        <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-widest">Basic Starting Pay</span>
+                        <span className="block text-xl sm:text-2xl font-black text-[var(--color-gold-bright)] mt-0.5">{exam.salary.basic}</span>
+                      </div>
+                      <div>
+                        <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-widest">Metro City Gross In-Hand</span>
+                        <span className="block text-xl sm:text-2xl font-black text-white mt-0.5">{exam.salary.gross}</span>
+                      </div>
+                    </div>
+                    <div className="bg-white/5 border border-white/10 p-4 rounded-xl flex flex-col justify-between">
+                      <span className="block text-[9px] font-bold text-slate-300 uppercase tracking-widest border-b border-white/10 pb-1 mb-2">
+                        Key Allowance Benefits
+                      </span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {exam.salary.allowances.slice(0, 4).map((allow) => (
+                          <span key={allow} className="text-[9px] sm:text-[10px] font-bold bg-white/10 text-slate-200 px-2 py-0.5 rounded">
+                            {allow}
+                          </span>
+                        ))}
+                        <span className="text-[9px] sm:text-[10px] font-extrabold text-[#F0B429] bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded">
+                          + leased HRA
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="mt-4">
+              <Link
+                href={`/${exam.id}/salary`}
+                className="inline-flex items-center text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
+              >
+                View Allowances, Perks, Promotions & Career Hierarchies →
+              </Link>
+            </div>
+          </section>
+
+          {/* Section 14: Selection Process Deep Dive */}
+          {isSbi ? (
+            <section id="selection-process" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+                SBI PO 2026 Selection Process — All 4 Stages Explained
+              </h2>
+              
+              <div className="space-y-6 text-slate-700 text-sm leading-relaxed font-normal">
+                <div>
+                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 1 — Preliminary Exam:</h4>
+                  <p>Online, 100 questions, 100 marks, 60 minutes. Three sections with individual 20-minute timers. Qualifying in nature — marks are not added to final merit. Approximately top 10–12 candidates per vacancy are shortlisted for Mains.</p>
+                </div>
+
+                <div>
+                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 2 — Main Exam:</h4>
+                  <p>Online, 155 objective questions (200 marks, 180 minutes) + 1 Descriptive test (50 marks, 30 minutes). The descriptive test involves an essay and a formal letter. Marks from this stage form the base for final merit. Sectional as well as overall cut-offs apply.</p>
+                </div>
+
+                <div>
+                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 3 — Group Exercise (GE):</h4>
+                  <p>Shortlisted Mains qualifiers appear for a Group Exercise conducted at SBI's regional offices. Candidates are assessed on communication, leadership, listening, and teamwork. This stage carries 20 marks. Typically 3–4 candidates per vacancy are shortlisted from GE for the final interview.</p>
+                </div>
+
+                <div>
+                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 4 — Personal Interview:</h4>
+                  <p>30-mark interview conducted by a panel of senior SBI officers and external experts. Focuses on banking awareness, current affairs, general awareness, candidate's background, and situational judgement. Grooming, confidence, and articulation matter significantly at this stage.</p>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Final Merit Calculation</h4>
+                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left border-collapse">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2.5">Stage</th>
+                          <th className="px-4 py-2.5">Marks</th>
+                          <th className="px-4 py-2.5">Weightage</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Objective</td>
+                          <td className="px-4 py-3">200</td>
+                          <td className="px-4 py-3" rowSpan={2}>75% (Normalized)</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">Descriptive Test</td>
+                          <td className="px-4 py-3">50</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Group Exercise</td>
+                          <td className="px-4 py-3">20</td>
+                          <td className="px-4 py-3" rowSpan={2}>25% (Normalized)</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">Personal Interview</td>
+                          <td className="px-4 py-3">30</td>
+                        </tr>
+                        <tr className="font-bold text-slate-900">
+                          <td className="px-4 py-3">Total</td>
+                          <td className="px-4 py-3">300</td>
+                          <td className="px-4 py-3">100%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : (
+            /* Section 13: Comparison */
+            <section id="comparison" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+                {exam.shortName} vs SBI PO Comparison
+              </h2>
+              <div className="overflow-hidden border border-slate-200 rounded-xl bg-white mb-4 text-xs sm:text-sm">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="bg-slate-900 text-white font-bold">
+                      <th className="px-4 py-3">Parameters</th>
+                      <th className="px-4 py-3">IBPS PO</th>
+                      <th className="px-4 py-3">SBI PO</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 text-slate-650">
+                    <tr className="hover:bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Participating Banks</td>
+                      <td className="px-4 py-3">11 Public Sector Banks</td>
+                      <td className="px-4 py-3">SBI Only</td>
+                    </tr>
+                    <tr className="bg-slate-50/50 hover:bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Vacancies</td>
+                      <td className="px-4 py-3">3,500+ (Higher)</td>
+                      <td className="px-4 py-3">2,000+ (Moderate)</td>
+                    </tr>
+                    <tr className="hover:bg-slate-50/50">
+                      <td className="px-4 py-3 font-semibold text-slate-800">Base Basic Salary</td>
+                      <td className="px-4 py-3">₹36,000/month</td>
+                      <td className="px-4 py-3">₹41,960/month (Higher)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+
+          {/* Section 15: Platform Features */}
+          {isSbi && (
+            <section id="platform-features" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
+                Why Prepare for SBI PO on BankerPrep?
+              </h2>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    Free SBI PO Mock Tests
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Start with 5 free full-length Prelims mocks and 3 free Mains mocks — no payment required, no card needed. Get instant scores, section-wise analysis, and rank among all test-takers.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    SBI PO Sectional Tests
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    80+ topic-specific sectional tests covering every chapter in the Prelims and Mains syllabus. Timed exactly like the real exam sections.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    10,000+ Practice Questions
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Topic-wise question bank with difficulty filters. Every question has a step-by-step explanation and a shortcut method. Track what you have attempted and your accuracy per topic.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    Live Exam Experience
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Attempt live SBI PO mock tests with thousands of aspirants simultaneously. Real-time leaderboard, countdown timer, and instant result with all-India percentile.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    Daily Current Affairs
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Banking-exam-tagged daily updates. 5-minute daily capsules, monthly PDFs, and weekly quizzes so your GA preparation never goes stale.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    Performance Analytics Dashboard
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Know your speed, accuracy, and percentile for every topic. The analytics dashboard shows improvement trends over time and flags topics where you are losing the most marks.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    Descriptive Writing Practice
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Model essays and letters on banking topics with marking criteria so you are not caught off-guard in the SBI PO Mains descriptive section.
+                  </p>
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                    Study Material & Notes
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Topic-wise notes for every chapter in the SBI PO syllabus — concise, exam-focused, and regularly updated.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-slate-900 text-white rounded-xl p-5 text-center mt-6">
+                <p className="text-sm font-semibold text-white/80 mb-3">Join 50,000+ aspirants already preparing on BankerPrep.</p>
+                <a
+                  href="https://app.prepgrind.com/register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-5 py-2.5 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm rounded-lg transition-all"
+                >
+                  Start Preparing Free →
+                </a>
+              </div>
+            </section>
+          )}
+
+          {/* Section 16/17: FAQs */}
+          <section id="faqs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-855 mb-4 font-display border-b border-slate-100 pb-3">
+              {isSbi ? 'SBI PO 2026 — Frequently Asked Questions' : 'Frequently Asked Questions (FAQs)'}
+            </h2>
+            <div className="space-y-3">
+              {exam.examFaqs.map((faq, idx) => {
+                const isOpen = openFaqIdx === idx;
+                return (
+                  <div
+                    key={idx}
+                    className={`border border-slate-200 rounded-xl overflow-hidden transition-all duration-200 ${
+                      isOpen ? 'border-blue-200 bg-slate-50/50' : 'bg-white'
+                    }`}
+                  >
+                    <button
+                      className="w-full flex items-center justify-between p-4 text-left font-bold text-slate-850 text-sm sm:text-base"
+                      onClick={() => setOpenFaqIdx(isOpen ? null : idx)}
+                    >
+                      <span>{faq.q}</span>
+                      <ChevronDown
+                        size={16}
+                        className={`text-slate-400 transition-transform duration-200 ${
+                          isOpen ? 'transform rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+                    {isOpen && (
+                      <div className="px-4 pb-4 text-sm sm:text-base text-slate-650 leading-relaxed border-t border-slate-100 pt-3 font-normal">
+                        {faq.a}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        </main>
+
+        {/* Right Column: Sticky Sidebar (Quick Navigation & CTA Cards) */}
+        <aside className="sticky top-20 space-y-4">
+          
+          {/* Quick Navigation panel */}
+          <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+            <div className="bg-slate-900 px-4 py-3 text-white font-bold text-xs uppercase tracking-wider flex items-center gap-1.5 font-display">
+              <BookOpen size={14} className="text-[var(--color-gold)]" />
+              Quick Navigation
+            </div>
+            <nav className="p-2 flex flex-col gap-1">
+              <Link
+                href={`/${exam.id}/eligibility`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Eligibility Criteria</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+              <Link
+                href={`/${exam.id}/syllabus`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Official Syllabus</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+              <Link
+                href={`/${exam.id}/exam-pattern`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Exam Pattern</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+              <Link
+                href={`/${exam.id}/salary`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Salary & Job Profile</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+              <Link
+                href={`/${exam.id}/cut-offs`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Previous Year Cutoffs</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+              <Link
+                href={`/${exam.id}/dates`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Important Dates</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+              <Link
+                href={`/${exam.id}/strategy`}
+                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
+              >
+                <span>Preparation Strategy</span>
+                <ChevronRight size={12} className="opacity-50" />
+              </Link>
+            </nav>
+          </div>
+
+          {/* Premium Mock Test CTA Banner */}
+          <div className="bg-gradient-to-br from-[#07102A] to-[#1A2D5A] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white">
+            <div className="relative z-10">
+              <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
+              <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
+              <p className="text-white/60 text-[10px] leading-relaxed mb-4">
+                Join 50k+ banking aspirants practicing with BankerPrep mocks.
+              </p>
+              <a
+                href="https://app.prepgrind.com/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"
+              >
+                Start Practice Mocks Free →
+              </a>
+            </div>
+            <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
+          </div>
+        </aside>
+      </div>
+
+      <Footer />
+    </div>
+  );
+}

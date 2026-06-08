@@ -63,6 +63,7 @@ export interface ExamDetailCategoryScore {
   obc: number;
   sc: number;
   st: number;
+  ews?: number;
 }
 
 export interface ExamDetailCutoff {
