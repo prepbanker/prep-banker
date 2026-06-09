@@ -35,18 +35,18 @@ export const AUTHORS: Record<string, BlogAuthor> = {
 
 // ─── Tags (shared pool) ───────────────────
 const TAG_POOL = {
-  sbiPo:     { id: 'sbi-po',     label: 'SBI PO',      slug: 'sbi-po' },
-  ibpsPo:    { id: 'ibps-po',    label: 'IBPS PO',     slug: 'ibps-po' },
-  rbi:       { id: 'rbi',        label: 'RBI',          slug: 'rbi' },
-  quant:     { id: 'quant',      label: 'Quant',        slug: 'quant' },
-  reasoning: { id: 'reasoning',  label: 'Reasoning',    slug: 'reasoning' },
-  english:   { id: 'english',    label: 'English',      slug: 'english' },
-  strategy:  { id: 'strategy',   label: 'Strategy',     slug: 'strategy' },
-  interview: { id: 'interview',  label: 'Interview',    slug: 'interview' },
-  economy:   { id: 'economy',    label: 'Economy',      slug: 'economy' },
-  schemes:   { id: 'schemes',    label: 'Govt Schemes', slug: 'govt-schemes' },
-  mockTest:  { id: 'mock-test',  label: 'Mock Tests',   slug: 'mock-tests' },
-  current:   { id: 'current',    label: 'Current Affairs', slug: 'current-affairs' },
+  sbiPo: { id: 'sbi-po', label: 'SBI PO', slug: 'sbi-po' },
+  ibpsPo: { id: 'ibps-po', label: 'IBPS PO', slug: 'ibps-po' },
+  rbi: { id: 'rbi', label: 'RBI', slug: 'rbi' },
+  quant: { id: 'quant', label: 'Quant', slug: 'quant' },
+  reasoning: { id: 'reasoning', label: 'Reasoning', slug: 'reasoning' },
+  english: { id: 'english', label: 'English', slug: 'english' },
+  strategy: { id: 'strategy', label: 'Strategy', slug: 'strategy' },
+  interview: { id: 'interview', label: 'Interview', slug: 'interview' },
+  economy: { id: 'economy', label: 'Economy', slug: 'economy' },
+  schemes: { id: 'schemes', label: 'Govt Schemes', slug: 'govt-schemes' },
+  mockTest: { id: 'mock-test', label: 'Mock Tests', slug: 'mock-tests' },
+  current: { id: 'current', label: 'Current Affairs', slug: 'current-affairs' },
 };
 
 // ─── Blog Data ────────────────────────────
@@ -91,7 +91,7 @@ export const BLOGS: Blog[] = [
         <li>Banking Awareness — Arihant / PrepBanker Daily CA</li>
       </ul>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Exam Strategy',
     tags: [TAG_POOL.sbiPo, TAG_POOL.strategy, TAG_POOL.quant],
     author: AUTHORS.riya,
@@ -141,7 +141,7 @@ export const BLOGS: Blog[] = [
       <h2>3-Week Mastery Plan</h2>
       <p>Week 1: Tabular and Bar Graph. Week 2: Pie Chart and Combined DI. Week 3: Caselet and Missing Data. Attempt 2 full DI sets daily with a 12-minute timer.</p>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Study Tips',
     tags: [TAG_POOL.ibpsPo, TAG_POOL.quant, TAG_POOL.strategy],
     author: AUTHORS.vikram,
@@ -179,7 +179,7 @@ export const BLOGS: Blog[] = [
       <h2>GDP & Inflation Projections</h2>
       <p>RBI projected FY2026-27 GDP growth at 6.8% and CPI inflation at 4.1%. These numbers are directly asked in General Awareness sections of banking exams.</p>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'RBI & Economy',
     tags: [TAG_POOL.rbi, TAG_POOL.current, TAG_POOL.economy],
     author: AUTHORS.priya,
@@ -220,7 +220,7 @@ export const BLOGS: Blog[] = [
       <h2>How to Answer "Why Banking?"</h2>
       <p>Avoid generic answers. Link your answer to specific banking roles, the impact of financial services on society, or a genuine interest in economic policy. Mention any relevant experience (internship, banking awareness study).</p>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Interview Tips',
     tags: [TAG_POOL.interview, TAG_POOL.sbiPo, TAG_POOL.ibpsPo],
     author: AUTHORS.arjun,
@@ -254,7 +254,7 @@ export const BLOGS: Blog[] = [
       <h2>Trick 3: Look for Contrast & Continuation Connectors</h2>
       <p>Sentences starting with "However", "On the contrary", and "Nevertheless" follow a contrasting statement. Sentences with "Moreover", "Furthermore", and "In addition" follow a supporting statement.</p>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Study Tips',
     tags: [TAG_POOL.english, TAG_POOL.strategy, TAG_POOL.ibpsPo],
     author: AUTHORS.riya,
@@ -290,7 +290,7 @@ export const BLOGS: Blog[] = [
         <li><strong>Unified Pension Scheme (UPS)</strong> — Effective April 2025; hybrid pension scheme for central govt employees</li>
       </ul>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Government Schemes',
     tags: [TAG_POOL.schemes, TAG_POOL.current, TAG_POOL.sbiPo],
     author: AUTHORS.priya,
@@ -324,7 +324,7 @@ export const BLOGS: Blog[] = [
       <h2>Step 3: Identify Your Time Leaks</h2>
       <p>Find which question types take you disproportionately long. These are your time leaks. For each, either improve speed through practice or build a skip strategy.</p>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Exam Strategy',
     tags: [TAG_POOL.mockTest, TAG_POOL.strategy, TAG_POOL.ibpsPo],
     author: AUTHORS.arjun,
@@ -369,7 +369,7 @@ export const BLOGS: Blog[] = [
         <li>New CMD of LIC appointed by government</li>
       </ul>
     `,
-    featuredImage: '/images/demo.jpg',
+    featuredImage: '/images/default.jpg',
     category: 'Current Affairs',
     tags: [TAG_POOL.current, TAG_POOL.rbi, TAG_POOL.economy],
     author: AUTHORS.priya,
@@ -405,14 +405,14 @@ export const BLOG_SIDEBAR_DATA: BlogSidebarData = {
     })),
 
   popularCategories: [
-    { category: 'Exam Strategy',       count: 24 },
-    { category: 'Current Affairs',     count: 31 },
-    { category: 'Study Tips',          count: 18 },
-    { category: 'RBI & Economy',       count: 14 },
-    { category: 'Banking Awareness',   count: 22 },
-    { category: 'Government Schemes',  count: 9  },
-    { category: 'Interview Tips',      count: 11 },
-    { category: 'Success Stories',     count: 6  },
+    { category: 'Exam Strategy', count: 24 },
+    { category: 'Current Affairs', count: 31 },
+    { category: 'Study Tips', count: 18 },
+    { category: 'RBI & Economy', count: 14 },
+    { category: 'Banking Awareness', count: 22 },
+    { category: 'Government Schemes', count: 9 },
+    { category: 'Interview Tips', count: 11 },
+    { category: 'Success Stories', count: 6 },
   ],
 };
 

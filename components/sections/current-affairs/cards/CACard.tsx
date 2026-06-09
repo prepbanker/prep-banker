@@ -2,123 +2,117 @@
 'use client';
 
 import { memo } from 'react';
-import { Clock, ArrowRight, Flame, AlertCircle, CheckCircle2, Star } from 'lucide-react';
-import type { CurrentAffair, ImportanceLevel } from '../../../../types/current-affairs';
-import { getCategoryStyle } from '../../../../lib/data/current-affairs/categories';
+import Link from 'next/link';
+import { Clock } from 'lucide-react';
+import type { CurrentAffair } from '../../../../types/current-affairs';
 
 // ─── Helpers ──────────────────────────────
-function importanceMeta(level: ImportanceLevel) {
-  const map = {
-    High:   { cls: 'bg-red-50 text-red-600 border border-red-100',      Icon: Flame,        label: 'High'   },
-    Medium: { cls: 'bg-amber-50 text-amber-600 border border-amber-100', Icon: AlertCircle,  label: 'Medium' },
-    Low:    { cls: 'bg-emerald-50 text-emerald-600 border border-emerald-100', Icon: CheckCircle2, label: 'Low'    },
-  } as const;
-  return map[level];
+export function getArticleImage(ca: CurrentAffair): string {
+  const images: Record<string, string> = {
+    'RBI Updates': 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=500&auto=format&fit=crop&q=80',
+    'Economy & Finance': 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=500&auto=format&fit=crop&q=80',
+    'Banking Awareness': 'https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=500&auto=format&fit=crop&q=80',
+    'Government Schemes': 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=500&auto=format&fit=crop&q=80',
+    'International Affairs': 'https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=500&auto=format&fit=crop&q=80',
+    'Static GK': 'https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=500&auto=format&fit=crop&q=80',
+    'Important Days': 'https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=500&auto=format&fit=crop&q=80',
+    'Awards & Honors': 'https://images.unsplash.com/photo-1531058020387-3be344559be6?w=500&auto=format&fit=crop&q=80',
+    'Reports & Indexes': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=80',
+  };
+  
+  if (ca.id.includes('rbi-01')) {
+    return 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=500&auto=format&fit=crop&q=80';
+  }
+  if (ca.title.toLowerCase().includes('semiconductor')) {
+    return 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop&q=80';
+  }
+  if (ca.title.toLowerCase().includes('yogasana') || ca.title.toLowerCase().includes('yoga')) {
+    return 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&auto=format&fit=crop&q=80';
+  }
+  if (ca.title.toLowerCase().includes('entrepreneurs') || ca.title.toLowerCase().includes('msde')) {
+    return 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=500&auto=format&fit=crop&q=80';
+  }
+  if (ca.title.toLowerCase().includes('padma')) {
+    return '/images/padma.png';
+  }
+  if (ca.title.toLowerCase().includes('governor bags') || ca.title.toLowerCase().includes('best central banker')) {
+    return 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=80';
+  }
+
+  return images[ca.category] ?? 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=80';
 }
 
-// ─── Props ────────────────────────────────
 interface CACardProps {
-  ca:         CurrentAffair;
-  featured?:  boolean;
-  onReadMore: () => void;
+  ca: CurrentAffair;
 }
 
-// ─── Component ────────────────────────────
-function CACard({ ca, featured = false, onReadMore }: CACardProps) {
-  const imp    = importanceMeta(ca.importance);
-  const ImpIcon = imp.Icon;
+function CACard({ ca }: CACardProps) {
+  const imageUrl = getArticleImage(ca);
+
+  // Parse custom format like 'May 20, 2026' into '20 May' or similar if needed, or keep it short.
+  const formatShortDate = (dateStr: string) => {
+    try {
+      const dateObj = new Date(dateStr);
+      if (isNaN(dateObj.getTime())) return dateStr;
+      return dateObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
+    } catch {
+      return dateStr;
+    }
+  };
 
   return (
-    <article
-      role="button"
-      tabIndex={0}
+    <Link
+      href={`/current-affairs/${ca.id}`}
       aria-label={`Read more about ${ca.title}`}
-      onClick={onReadMore}
-      onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && onReadMore()}
-      className={`group bg-white rounded-xl flex flex-col transition-all duration-200
-                  hover:-translate-y-0.5 cursor-pointer outline-none
-                  focus-visible:ring-2 focus-visible:ring-[var(--color-gold-bright)] focus-visible:ring-offset-1
-                  ${featured
-                    ? 'border-2 border-[rgba(212,160,23,0.25)]'
-                    : 'border border-gray-100'
-                  }`}
-      style={{ boxShadow: 'var(--shadow-card)' }}
-      onMouseEnter={e => { (e.currentTarget as HTMLElement).style.boxShadow = 'var(--shadow-hover)'; }}
-      onMouseLeave={e => { (e.currentTarget as HTMLElement).style.boxShadow = 'var(--shadow-card)'; }}
+      className="group bg-white rounded-xl flex flex-col overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg border border-slate-200"
     >
-      {/* Featured accent bar */}
-      {featured && (
-        <div
-          className="h-0.5 w-full rounded-t-xl"
-          style={{ background: 'linear-gradient(90deg, var(--color-gold), var(--color-blue))' }}
+      {/* Article Image */}
+      <div className="relative h-48 w-full overflow-hidden bg-slate-100">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={imageUrl}
+          alt={ca.title}
+          loading="lazy"
+          className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+          onError={(e) => { (e.target as HTMLImageElement).src = '/images/default.jpg'; }}
         />
-      )}
-
-      <div className="p-4 flex flex-col gap-3 flex-1">
-        {/* Category badge + date */}
-        <div className="flex items-start justify-between gap-2">
-          <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px]
-                            font-bold uppercase tracking-wide leading-tight ${getCategoryStyle(ca.category)}`}>
-            {featured && <Star className="w-2.5 h-2.5" fill="currentColor" />}
-            {ca.category}
-          </span>
-          <span className="text-[10px] text-gray-400 font-medium whitespace-nowrap mt-0.5 flex-shrink-0">
-            {ca.date}
-          </span>
+        {/* Category tag overlaid */}
+        <div className="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[9px] font-extrabold uppercase px-2 py-0.5 rounded tracking-wide">
+          {ca.category}
         </div>
+      </div>
 
-        {/* Title */}
-        <h3 className="text-[13px] font-bold leading-snug text-[var(--color-navy)] line-clamp-2
-                       group-hover:text-[var(--color-blue)] transition-colors duration-200">
-          {ca.title}
-        </h3>
-
-        {/* Summary */}
-        <p className="text-[11px] text-gray-600 leading-relaxed line-clamp-3 flex-1">
-          {ca.summary}
-        </p>
-
-        {/* Quick fact pills (show 2) */}
-        {ca.quickFacts.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 pt-0.5">
-            {ca.quickFacts.slice(0, 2).map((fact, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center text-[10px] font-medium px-2 py-0.5 rounded-md
-                           bg-[var(--color-sky)] text-[var(--color-blue)] border border-gray-100"
-              >
-                {fact}
-              </span>
-            ))}
-            {ca.quickFacts.length > 2 && (
-              <span className="text-[10px] text-gray-400 self-center">
-                +{ca.quickFacts.length - 2} more
-              </span>
-            )}
+      <div className="p-4 flex flex-col flex-1 justify-between gap-3">
+        <div>
+          {/* Date & Read time */}
+          <div className="flex items-center gap-3 text-[11px] text-slate-400 font-bold mb-1.5">
+            <span>{formatShortDate(ca.date)}</span>
+            <span className="w-1 h-1 rounded-full bg-slate-300" />
+            <span className="flex items-center gap-1">
+              <Clock className="w-3.5 h-3.5 text-slate-450" />
+              {ca.readTime} Min
+            </span>
           </div>
-        )}
-      </div>
 
-      {/* Footer */}
-      <div className="px-4 pb-4 pt-2 flex items-center justify-between
-                      border-t border-gray-50 mt-auto">
-        <div className="flex items-center gap-2.5">
-          <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold ${imp.cls}`}>
-            <ImpIcon className="w-3 h-3" />
-            {imp.label}
-          </span>
-          <span className="inline-flex items-center gap-1 text-[10px] text-gray-400">
-            <Clock className="w-3 h-3" />
-            {ca.readTime}m read
+          {/* Title */}
+          <h3 className="text-[14px] font-extrabold leading-snug text-slate-800 group-hover:text-[var(--color-blue)] transition-colors duration-200 line-clamp-2 min-h-[40px]">
+            {ca.title}
+          </h3>
+
+          {/* Summary / Excerpt */}
+          <p className="text-[11.5px] text-slate-500 leading-relaxed mt-1 mb-2 line-clamp-2">
+            {ca.summary}
+          </p>
+        </div>
+
+        {/* Read More button */}
+        <div className="border-t border-slate-100 pt-3 flex items-center justify-between">
+          <span className="text-[11.5px] font-extrabold text-[var(--color-blue)] group-hover:underline transition-all">
+            Read More
           </span>
         </div>
-        <span className="inline-flex items-center gap-1 text-[11px] font-bold text-[var(--color-blue)]
-                         group-hover:text-[var(--color-navy)] transition-colors">
-          Read More
-          <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-        </span>
       </div>
-    </article>
+    </Link>
   );
 }
 

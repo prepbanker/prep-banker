@@ -1,6 +1,5 @@
 // PATH: lib/data/exams/detailContentMap.tsx
 import React from 'react';
-import { CheckCircle2, ChevronRight, Award, Trophy, BookOpen, Clock, FileText } from 'lucide-react';
 import type { ExamDetailData } from '@/types/exam';
 import { sbiPoData } from './sbi-po';
 import { ibpsPoData } from './ibps-po';
@@ -70,8 +69,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-3 font-semibold">
                   Note: Age is calculated as of 1st April 2026.
                 </p>
-                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Category</th>
@@ -131,8 +130,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
             title: 'Number of Attempts',
             content: (
               <div className="space-y-4">
-                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[400px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Category</th>
@@ -188,8 +187,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
                   As of the official notification cutoff date, the age of the candidate must lie within the specified limits. For General (UR) and EWS candidates, the age must be between <strong>{isIbps ? '20 and 30' : '21 and 30'} years</strong> (both dates inclusive).
                 </p>
-                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Category</th>
@@ -645,8 +644,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed mb-3">
                     SBI PO monthly pay scale has starting basic pay of ₹41,960 with standard increments. Gross metro city package ranges between ₹82,000 and ₹95,000 per month.
                   </p>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[400px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Component</th>
@@ -810,8 +809,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Year</th>
@@ -878,8 +877,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
                 <div>
                   <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Year</th>

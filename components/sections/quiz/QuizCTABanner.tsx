@@ -31,7 +31,7 @@ export default function QuizCTABanner() {
               Start with 5 Free Full Mocks — No Sign-up Needed
             </h2>
             <p className="mt-2 text-sm text-white/55 max-w-md">
-              Join 50,000+ aspirants who use PrepBanker daily. Free forever for basic access.
+              Join 50,000+ aspirants who use our platform daily. Free forever for basic access.
             </p>
           </div>
 

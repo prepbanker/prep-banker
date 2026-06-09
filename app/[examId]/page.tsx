@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import ExamMainLayout from '@/components/sections/exams/ExamMainLayout';
 import { getExamData } from '@/lib/data/exams/detailContentMap';
 
+import { BreadcrumbSchema, CourseSchema } from '@/components/seo';
+
 interface PageProps {
   params: Promise<{ examId: string }>;
 }
@@ -57,5 +59,21 @@ export default async function ExamPage({ params }: PageProps) {
     notFound();
   }
 
-  return <ExamMainLayout exam={exam} />;
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Exams', href: '/exams' },
+          { name: exam.shortName, href: `/${examId}` },
+        ]}
+      />
+      <CourseSchema
+        name={exam.name}
+        description={exam.description}
+        url={`https://prepbanker.com/${examId}`}
+      />
+      <ExamMainLayout exam={exam} />
+    </>
+  );
 }

@@ -80,8 +80,7 @@ export function useCAFilters(): UseCAFiltersReturn {
   const totalPages   = Math.ceil(totalRegular / PER_PAGE);
 
   const paginated = useMemo(() => {
-    const start = (filters.page - 1) * PER_PAGE;
-    return regular.slice(start, start + PER_PAGE);
+    return regular.slice(0, filters.page * PER_PAGE);
   }, [regular, filters.page]);
 
   // Guard: if current page exceeds new totalPages (e.g., after search), reset to 1

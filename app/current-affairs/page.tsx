@@ -9,7 +9,8 @@ import Footer  from '@/components/layout/Footer';
 import CAHero            from '@/components/sections/current-affairs/hero/CAhero';
 import CurrentAffairsModule from '@/components/sections/current-affairs/CurrentAffairs';
 import CAFAQSection      from '@/components/sections/current-affairs/faq/CAFAQSection';
-import { BreadcrumbSchema } from '@/components/seo';
+import { BreadcrumbSchema, FAQSchema } from '@/components/seo';
+import { CA_FAQS } from '@/lib/data/current-affairs/faqs';
 
 // ─── SEO metadata ─────────────────────────
 export const metadata: Metadata = {
@@ -42,6 +43,8 @@ export default function CurrentAffairsPage() {
           { name: 'Current Affairs', href: '/current-affairs' },
         ]}
       />
+
+      <FAQSchema items={CA_FAQS} />
 
       <Header />
 

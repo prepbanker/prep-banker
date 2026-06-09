@@ -8,8 +8,7 @@ import { T } from '../constants';
 export default function SyllabusSection({ exam }: { exam: ExamDetailData }) {
   const accent = exam.id === 'ibps-po' ? T.gold : T.blue;
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><BookMarked size={11} />Official Syllabus</div>
         <h2 className="epg-h2">{exam.shortName} <span>Syllabus</span> 2026</h2>
         <p className="epg-sub">Complete topic-wise syllabus for all sections.</p>
@@ -30,6 +29,5 @@ export default function SyllabusSection({ exam }: { exam: ExamDetailData }) {
           ))}
         </div>
       </div>
-    </div>
-  );
+);
 }

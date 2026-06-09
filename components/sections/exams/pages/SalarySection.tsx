@@ -12,8 +12,7 @@ export default function SalarySection({ exam }: { exam: ExamDetailData }) {
     ['CTC (First Year)', exam.salary.ctc],
   ];
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><DollarSign size={11} />Salary & Benefits</div>
         <h2 className="epg-h2">{exam.shortName} <span>Salary</span> & Benefits</h2>
 
@@ -53,6 +52,5 @@ export default function SalarySection({ exam }: { exam: ExamDetailData }) {
           </div>
         </div>
       </div>
-    </div>
-  );
+);
 }

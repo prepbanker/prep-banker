@@ -6,6 +6,7 @@ import { ibpsPoData } from '@/lib/data/exams/ibps-po';
 import type { ExamDetailData } from '@/types/exam';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import { BreadcrumbSchema, ItemListSchema } from '@/components/seo';
 
 export const metadata: Metadata = {
   title: 'Banking Exams 2026 – SBI PO & IBPS PO Guides | PrepBanker',
@@ -18,6 +19,19 @@ const DESC_LIMIT = 160;
 export default function ExamsPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Exams', href: '/exams' },
+        ]}
+      />
+      <ItemListSchema
+        name="Banking Exams — PrepBanker"
+        items={EXAMS.map(e => ({
+          name: e.shortName,
+          url: `https://prepbanker.com/${e.id}`,
+        }))}
+      />
       <Header />
 
       {/* ── Page Hero ── */}

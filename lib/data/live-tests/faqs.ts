@@ -1,117 +1,56 @@
 // PATH: lib/data/live-tests/faqs.ts
 // PrepBanker — Live Tests FAQ Static Data
-// Add / edit FAQs here without touching any UI component.
+// Replaced with the 8 specific FAQs for SEO and user discovery.
 
 import type { LiveTestFAQItem } from '@/types/live-tests';
 
 export const liveTestFAQs: LiveTestFAQItem[] = [
-  // ── How Live Tests Work ──────────────────────────────────────
   {
-    id: 'lt-faq-1',
-    question: 'How do live mock tests work on PrepBanker?',
+    id: 'faq-1',
+    question: 'What are live mock tests?',
     answer:
-      'Live tests are real-time mock exams that run for a fixed time window. Thousands of aspirants attempt the same test simultaneously. You see a live countdown timer, compete for all-India rankings, and receive instant results with a percentile score and full performance breakdown the moment the window closes.',
+      'Live mock tests are online practice exams that are scheduled for a specific time window. Thousands of candidates across the country attempt the same test concurrently under identical conditions, complete with sectional timers, negative marking, and real-time environment simulation.',
   },
   {
-    id: 'lt-faq-2',
-    question: 'Can I join a live test after it has started?',
+    id: 'faq-2',
+    question: 'How are live tests different from regular mock tests?',
     answer:
-      'Yes — you can join any live test up to the last 10 minutes of its window. The timer starts from the point you join, so you will see a personal countdown. However, the test officially closes at the same time for everyone, so joining early gives you the best chance to attempt all questions.',
+      'Unlike regular mock tests which can be taken at any time, live tests are event-based and run within a fixed time slot (e.g., 24-48 hours). They simulate the actual exam-day environment where you compete live against thousands of other aspirants, giving you a realistic all-India rank and percentile.',
   },
   {
-    id: 'lt-faq-3',
-    question: 'What happens when a live test countdown reaches zero?',
+    id: 'faq-3',
+    question: 'Are live tests useful for SBI PO preparation?',
     answer:
-      'When the countdown hits zero, the test window closes and no new submissions are accepted. The card displays "Test Completed" and your rank among all participants is calculated. You can still review your answers and the full solution key after the test ends.',
-  },
-
-  // ── Access & Devices ─────────────────────────────────────────
-  {
-    id: 'lt-faq-4',
-    question: 'Can I attempt live tests on my mobile phone?',
-    answer:
-      'Absolutely. PrepBanker is fully responsive and tested across Android and iOS. Live tests work seamlessly on mobile, tablet, and desktop browsers. We recommend a stable internet connection and the latest version of Chrome or Safari for the best experience.',
+      'Yes, they are highly useful. SBI PO is known for its high-difficulty level and sudden pattern shifts. Live tests train you to maintain speed and accuracy under extreme pressure, choose which high-complexity puzzles to attempt, and benchmark your readiness against actual SBI PO cutoffs.',
   },
   {
-    id: 'lt-faq-5',
-    question: 'Do I need to create an account to join a live test?',
+    id: 'faq-4',
+    question: 'Are rankings provided after the test?',
     answer:
-      'Free live tests can be previewed without an account, but submitting answers and receiving your rank requires a free PrepBanker account. Premium live tests require an active subscription. Registration takes under 60 seconds — no credit card needed for a free account.',
-  },
-
-  // ── Free vs Premium ──────────────────────────────────────────
-  {
-    id: 'lt-faq-6',
-    question: 'What is the difference between free and premium live tests?',
-    answer:
-      'Free live tests give you full access to the test, a live rank on the leaderboard, and a basic score card. Premium live tests add section-wise analytics, accuracy vs speed graphs, detailed question-level breakdowns, comparison with toppers, and downloadable performance PDFs. Both types award a rank certificate.',
+      'Yes. Once the live test window closes, an all-India leaderboard is generated. You receive your exact rank among all participants, a detailed percentile score showing where you stand nationwide, and comparative metrics comparing your speed with the toppers.',
   },
   {
-    id: 'lt-faq-7',
-    question: 'How many free live tests can I attempt each month?',
+    id: 'faq-5',
+    question: 'Can I attempt the test multiple times?',
     answer:
-      'There is no cap on free live tests. All tests marked FREE in the catalogue are free every time they run. PrepBanker typically schedules 8–12 free live events per month across SBI-PO and IBPS-PO, including Prelims and topic-wise formats.',
-  },
-
-  // ── Exam Pattern ─────────────────────────────────────────────
-  {
-    id: 'lt-faq-8',
-    question: 'Do live tests follow the actual SBI PO and IBPS PO exam pattern?',
-    answer:
-      'Yes. Every live test is built by banking exam experts and strictly follows the latest official exam pattern — including section-wise timing, negative marking (−0.25 per wrong answer), question distribution, and difficulty calibration. Full Mock and Mains tests also include the Descriptive Paper format.',
+      'To maintain competitive integrity and fair rankings, you can only submit your score once during the live test window. However, after the live window ends and solutions are unlocked, you can re-attempt the test in practice mode to review your answers.',
   },
   {
-    id: 'lt-faq-9',
-    question: 'Is there negative marking in live tests?',
+    id: 'faq-6',
+    question: 'How often should I take live tests?',
     answer:
-      'Live tests replicate the official pattern: 1 mark per correct answer and −0.25 (one-fourth) deducted per wrong answer. Questions left unattempted carry zero marks. The platform shows your corrected score, gross score, and penalty marks separately in the result card.',
-  },
-
-  // ── Results & Analytics ───────────────────────────────────────
-  {
-    id: 'lt-faq-10',
-    question: 'When do I get my results after a live test?',
-    answer:
-      'Results are instant. The moment the live window closes, your score, percentile, and all-India rank are displayed on the result screen. Detailed analytics — topic-wise breakdown, accuracy charts, and time per question — are available within 5 minutes of the test ending.',
+      'We recommend taking at least 1-2 live tests per week during the active preparation phase. As exams approach, this can be increased to 3 live tests per week, leaving ample time between tests to analyze mistakes and revise weaker concepts.',
   },
   {
-    id: 'lt-faq-11',
-    question: 'Can I review my answers and solutions after the live test ends?',
+    id: 'faq-7',
+    question: 'Do live tests improve exam scores?',
     answer:
-      'Yes. Full solutions are unlocked for all questions once the live window closes. Each answer includes a step-by-step explanation, the correct approach, shortcut methods where applicable, and the difficulty rating of that specific question.',
+      'Yes. By regularly attempting tests in a timed, competitive environment, you build muscle memory for time management, reduce negative marking deductions by avoiding wild guessing, and identify specific weak areas to focus on, resulting in a 20-30% score bump.',
   },
   {
-    id: 'lt-faq-12',
-    question: 'How is the all-India rank calculated in live tests?',
+    id: 'faq-8',
+    question: 'Are solutions available after the test?',
     answer:
-      'Rank is calculated based on corrected score (after negative marking) in descending order. In case of a tie, the participant who attempted the test in less total time ranks higher. The percentile is computed as: (number of participants who scored less than you ÷ total participants) × 100.',
-  },
-
-  // ── Scheduling ───────────────────────────────────────────────
-  {
-    id: 'lt-faq-13',
-    question: 'How often are new live tests scheduled?',
-    answer:
-      'PrepBanker schedules live tests daily — at least two per day, one in the morning slot (8–10 AM) and one in the evening slot (7–9 PM) IST. Additional special live events are scheduled during exam notification periods. You can subscribe to live test alerts via email or push notifications.',
-  },
-  {
-    id: 'lt-faq-14',
-    question: 'Are live tests available in Hindi as well as English?',
-    answer:
-      'Most live tests are bilingual — you can switch between English and Hindi at any point during the test. English-only live tests are clearly labelled in the catalogue. Tests that include the Descriptive Paper (letter/essay writing) are English-medium only, mirroring the actual exam.',
-  },
-
-  // ── Technical ────────────────────────────────────────────────
-  {
-    id: 'lt-faq-15',
-    question: 'What happens if my internet disconnects during a live test?',
-    answer:
-      'Your answers are auto-saved every 30 seconds to the server. If you lose connectivity, you can rejoin the same test session from any device and your progress will be restored — provided the live window is still open. The timer continues running in your absence, so reconnect as quickly as possible.',
-  },
-  {
-    id: 'lt-faq-16',
-    question: 'Can I pause a live test once I have started?',
-    answer:
-      'No — live tests cannot be paused. This is intentional: pausing would break the competitive fairness of the live format and undermine the real exam simulation. If you close the browser, the timer keeps running. Re-open the test URL to resume from where you left off within the live window.',
+      'Yes. Detailed step-by-step solutions and shortcut keys for all quantitative, reasoning, and English sections are unlocked immediately after the live test window closes. Each solution includes alternative solving methods and time-saving tips.',
   },
 ];

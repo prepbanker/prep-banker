@@ -73,7 +73,7 @@ export default function CAGrid({
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {featured.map(ca => (
-                <CACard key={ca.id} ca={ca} featured onReadMore={() => openModal(ca)} />
+                <CACard key={ca.id} ca={ca} />
               ))}
             </div>
           </section>
@@ -92,7 +92,7 @@ export default function CAGrid({
             )}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {paginated.map(ca => (
-                <CACard key={ca.id} ca={ca} onReadMore={() => openModal(ca)} />
+                <CACard key={ca.id} ca={ca} />
               ))}
             </div>
           </section>

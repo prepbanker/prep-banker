@@ -7,8 +7,7 @@ import { T } from '../constants';
 
 export default function DatesSection({ exam }: { exam: ExamDetailData }) {
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><Calendar size={11} />Important Dates</div>
         <h2 className="epg-h2">{exam.shortName} <span>Key Dates</span> 2026</h2>
         <p className="epg-sub">
@@ -35,6 +34,5 @@ export default function DatesSection({ exam }: { exam: ExamDetailData }) {
           </p>
         </div>
       </div>
-    </div>
-  );
+);
 }

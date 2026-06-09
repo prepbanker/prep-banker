@@ -8,8 +8,7 @@ import { ICON_MAP, T } from '../constants';
 export default function SelectionSection({ exam }: { exam: ExamDetailData }) {
   const accent = exam.id === 'ibps-po' ? T.gold : T.blue;
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><ListChecks size={11} />Selection Process</div>
         <h2 className="epg-h2">{exam.shortName} <span>Selection Process</span></h2>
         <p className="epg-sub">
@@ -33,6 +32,5 @@ export default function SelectionSection({ exam }: { exam: ExamDetailData }) {
           })}
         </div>
       </div>
-    </div>
-  );
+);
 }

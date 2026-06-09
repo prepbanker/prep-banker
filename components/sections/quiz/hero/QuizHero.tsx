@@ -5,14 +5,14 @@ import QuizHeroStats from './QuizHeroStats';
 import type { QuizPlatformStats } from '@/types/quiz';
 
 const TRUST = [
-  { Icon: Star,         label: 'Expert-curated questions'      },
-  { Icon: CheckCircle2, label: 'Latest 2026 exam pattern'       },
-  { Icon: TrendingUp,   label: 'Detailed performance analytics' },
-  { Icon: Award,        label: 'Free tests, no card required'   },
+  { Icon: Star, label: 'Expert-curated questions' },
+  { Icon: CheckCircle2, label: 'Latest 2026 exam pattern' },
+  { Icon: TrendingUp, label: 'Detailed performance analytics' },
+  { Icon: Award, label: 'Free tests, no card required' },
 ];
 
 interface Props {
-  stats:      QuizPlatformStats;
+  stats: QuizPlatformStats;
   totalTests: number;
 }
 
@@ -46,11 +46,11 @@ export default function QuizHero({ stats, totalTests }: Props) {
         {/* Breadcrumb */}
         <div className="mt-8">
           <Breadcrumb
-          items={[
-            { label: 'Home', href: '/' },
-            { label: 'Mock Tests' },
-          ]}
-        />
+            items={[
+              { label: 'Home', href: '/' },
+              { label: 'Quiz Practice' },
+            ]}
+          />
         </div>
 
         {/* ── Two-col layout on lg+ ── */}
@@ -75,8 +75,8 @@ export default function QuizHero({ stats, totalTests }: Props) {
                 fontSize: 'clamp(1.85rem, 5vw, 3rem)',
               }}
             >
-              Practice Smarter,{' '}
-              <span className="text-gold-gradient">Score Higher</span>
+              Practice Quizzes for{' '}
+              <span className="text-gold-gradient">SBI PO, IBPS PO</span> &amp; Competitive Exams
             </h1>
 
             <p

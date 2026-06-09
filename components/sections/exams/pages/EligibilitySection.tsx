@@ -14,8 +14,7 @@ export default function EligibilitySection({ exam }: { exam: ExamDetailData }) {
     { label: 'Attempts',                  iconKey: 'Target',        value: exam.eligibility.attempts   },
   ];
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><GraduationCap size={11} />Eligibility Criteria</div>
         <h2 className="epg-h2">{exam.shortName} <span>Eligibility</span> Criteria</h2>
         <p className="epg-sub">Check your eligibility before applying for {exam.shortName} 2026.</p>
@@ -33,6 +32,5 @@ export default function EligibilitySection({ exam }: { exam: ExamDetailData }) {
           })}
         </div>
       </div>
-    </div>
-  );
+);
 }

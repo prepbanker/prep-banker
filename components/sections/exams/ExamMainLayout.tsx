@@ -274,7 +274,7 @@ export default function ExamMainLayout({ exam }: Props) {
         <main className="space-y-10 min-w-0">
           
           {/* Table of Contents */}
-          <section id="toc" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-sm scroll-mt-20">
+          <section id="toc" className="bg-slate-50 border border-slate-200 p-6 sm:p-8 rounded-2xl scroll-mt-20">
             <h2 className="text-xs sm:text-sm font-black text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
               <Layers size={14} className="text-[#1B6EB5]" />
               Table of Contents
@@ -294,7 +294,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 1: What is exam */}
-          <section id="what-is" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="what-is" className="py-6 scroll-mt-20">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-5 font-display border-b border-slate-100 pb-3">
               What is {exam.shortName}?
             </h2>
@@ -318,13 +318,13 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 2: Overview Card */}
-          <section id="overview-card" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="overview-card" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 at a Glance' : `${exam.shortName} Overview Highlights`}
             </h2>
             {isSbi ? (
-              <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                <table className="w-full text-left text-sm sm:text-base border-collapse">
+              <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                   <thead>
                     <tr className="bg-slate-900 text-white font-bold">
                       <th className="px-4 py-2.5">Parameter</th>
@@ -398,7 +398,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 3: Important Dates */}
-          <section id="important-dates" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="important-dates" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Important Dates & Exam Calendar' : 'Important Dates & Recruitment Timeline'}
             </h2>
@@ -407,8 +407,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-3">
                   Never miss a deadline. Below are the expected key dates for SBI PO 2026 based on the official notification and previous year patterns.
                 </p>
-                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Event</th>
@@ -505,7 +505,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 4: Eligibility Criteria */}
-          <section id="eligibility-criteria" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="eligibility-criteria" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Eligibility Criteria' : 'Eligibility Criteria Overview'}
             </h2>
@@ -522,8 +522,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 <div className="space-y-3">
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Age Limit Table</h4>
                   <p className="text-xs text-slate-400">Note: Age is calculated as of 1st April 2026.</p>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Category</th>
@@ -579,8 +579,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div className="space-y-3">
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Number of Attempts Table</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Category</th>
@@ -646,7 +646,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 5: Exam Pattern */}
-          <section id="exam-pattern" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="exam-pattern" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Exam Pattern — Prelims & Mains' : 'Exam Selection Pattern'}
             </h2>
@@ -674,8 +674,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
             {patternTab === 'prelims' ? (
               <div className="space-y-4">
-                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Section</th>
@@ -714,7 +714,7 @@ export default function ExamMainLayout({ exam }: Props) {
             ) : (
               <div className="space-y-4">
                 <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs mb-4">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Section</th>
@@ -739,8 +739,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 {isSbi && (
                   <div className="space-y-4">
                     <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-2">Phase 3 — Group Exercise & Personal Interview</h4>
-                    <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse">
+                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                         <thead>
                           <tr className="bg-slate-900 text-white font-bold">
                             <th className="px-4 py-2.5">Component</th>
@@ -791,7 +791,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 6: Full Syllabus */}
-          <section id="full-syllabus" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="full-syllabus" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Complete Syllabus — Prelims & Mains' : 'Syllabus Breakdown'}
             </h2>
@@ -920,7 +920,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 7: Mock Tests */}
-          <section id="mock-tests" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-sm scroll-mt-20">
+          <section id="mock-tests" className="py-6 scroll-mt-20 border-t border-slate-200">
             <div className="flex items-center gap-2 mb-3">
               <Trophy size={22} className="text-[var(--color-gold)]" />
               <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-850 font-display">
@@ -935,8 +935,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
             {isSbi ? (
               <div className="space-y-6">
-                <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse">
+                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                     <thead>
                       <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Test Type</th>
@@ -1039,7 +1039,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 8: Sectional Tests */}
-          <section id="sectional-tests" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="sectional-tests" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO Sectional Tests 2026 — English, Quant & Reasoning Practice' : 'Topic & Sectional Timed Quizzes'}
             </h2>
@@ -1053,8 +1053,8 @@ export default function ExamMainLayout({ exam }: Props) {
               <div className="space-y-6">
                 <div>
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">English Language Sectional Tests</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Topic</th>
@@ -1105,8 +1105,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div>
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Quantitative Aptitude Sectional Tests</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Topic</th>
@@ -1152,8 +1152,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div>
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Reasoning Ability Sectional Tests</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Topic</th>
@@ -1234,7 +1234,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
           {/* Section 9: Topic-wise Practice Questions (New for SBI PO) */}
           {isSbi && (
-            <section id="topic-wise-questions" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <section id="topic-wise-questions" className="py-6 scroll-mt-20 border-t border-slate-200">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 SBI PO Topic-Wise Practice Questions — 10,000+ Questions Bank
               </h2>
@@ -1247,8 +1247,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 
                 <div>
                   <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Reasoning — Must-Practice Topics</h5>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Topic</th>
@@ -1301,8 +1301,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div>
                   <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Quantitative Aptitude — Must-Practice Topics</h5>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Topic</th>
@@ -1349,8 +1349,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div>
                   <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">English — Must-Practice Topics</h5>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Topic</th>
@@ -1404,7 +1404,7 @@ export default function ExamMainLayout({ exam }: Props) {
           )}
 
           {/* Section 10: Current Affairs */}
-          <section id="current-affairs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="current-affairs" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'Current Affairs for SBI PO 2026 — What to Study & How Much' : 'Daily Banking & Economy Current Affairs'}
             </h2>
@@ -1418,8 +1418,8 @@ export default function ExamMainLayout({ exam }: Props) {
               <div className="space-y-6">
                 <div>
                   <h4 className="font-extrabold text-slate-850 text-sm sm:text-base mb-2">What to Cover for SBI PO GA</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Category</th>
@@ -1520,7 +1520,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 11: Study Material & Strategy */}
-          <section id="prep-strategy" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="prep-strategy" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Study Material & Preparation Strategy' : 'Preparation Strategy & Study Plan'}
             </h2>
@@ -1594,7 +1594,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 12: Previous Year Cut-offs */}
-          <section id="cut-offs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="cut-offs" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO Previous Year Cut-off Marks (2018–2025)' : 'Historical Category Cut-off Trends'}
             </h2>
@@ -1606,8 +1606,8 @@ export default function ExamMainLayout({ exam }: Props) {
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Year</th>
@@ -1674,8 +1674,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div>
                   <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-xs sm:text-sm border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2">Year</th>
@@ -1783,7 +1783,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 13: Salary & Career Growth */}
-          <section id="salary-career" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="salary-career" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-850 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO Salary 2026 — In-hand Pay, Allowances & Career Progression' : 'Salary Structure, Perks & Allowances'}
             </h2>
@@ -1793,8 +1793,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 <>
                   <div>
                     <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display mb-2">SBI PO Monthly Salary Breakdown</h3>
-                    <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                      <table className="w-full text-left text-sm border-collapse">
+                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                      <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                         <thead>
                           <tr className="bg-slate-900 text-white font-bold">
                             <th className="px-4 py-2.5">Component</th>
@@ -1865,8 +1865,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                   <div>
                     <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display mb-2">SBI PO Career Growth & Promotion Path</h3>
-                    <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                      <table className="w-full text-left text-sm border-collapse">
+                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                      <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                         <thead>
                           <tr className="bg-slate-900 text-white font-bold">
                             <th className="px-4 py-2.5">Years of Service</th>
@@ -1972,7 +1972,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
           {/* Section 14: Selection Process Deep Dive */}
           {isSbi ? (
-            <section id="selection-process" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <section id="selection-process" className="py-6 scroll-mt-20 border-t border-slate-200">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 SBI PO 2026 Selection Process — All 4 Stages Explained
               </h2>
@@ -2000,8 +2000,8 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div>
                   <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Final Merit Calculation</h4>
-                  <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left border-collapse">
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
+                    <table className="w-full text-left border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Stage</th>
@@ -2041,12 +2041,12 @@ export default function ExamMainLayout({ exam }: Props) {
             </section>
           ) : (
             /* Section 13: Comparison */
-            <section id="comparison" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <section id="comparison" className="py-6 scroll-mt-20 border-t border-slate-200">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 {exam.shortName} vs SBI PO Comparison
               </h2>
               <div className="overflow-hidden border border-slate-200 rounded-xl bg-white mb-4 text-xs sm:text-sm">
-                <table className="w-full text-left border-collapse">
+                <table className="w-full text-left border-collapse min-w-[500px]">
                   <thead>
                     <tr className="bg-slate-900 text-white font-bold">
                       <th className="px-4 py-3">Parameters</th>
@@ -2078,7 +2078,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
           {/* Section 15: Platform Features */}
           {isSbi && (
-            <section id="platform-features" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+            <section id="platform-features" className="py-6 scroll-mt-20 border-t border-slate-200">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 Why Prepare for SBI PO on BankerPrep?
               </h2>
@@ -2172,7 +2172,7 @@ export default function ExamMainLayout({ exam }: Props) {
           )}
 
           {/* Section 16/17: FAQs */}
-          <section id="faqs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20">
+          <section id="faqs" className="py-6 scroll-mt-20 border-t border-slate-200">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-855 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 — Frequently Asked Questions' : 'Frequently Asked Questions (FAQs)'}
             </h2>
@@ -2219,7 +2219,7 @@ export default function ExamMainLayout({ exam }: Props) {
               <BookOpen size={14} className="text-[var(--color-gold)]" />
               Quick Navigation
             </div>
-            <nav className="p-2 flex flex-col gap-1">
+            <nav className="p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-1">
               <Link
                 href={`/${exam.id}/eligibility`}
                 className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"

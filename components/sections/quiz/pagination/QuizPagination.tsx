@@ -3,58 +3,57 @@
 
 import { memo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { ITEMS_PER_PAGE } from '../hooks/useQuizFilters';
 
 interface Props {
-  page:       number;
+  page: number;
   totalPages: number;
-  total:      number;
-  onPage:     (p: number) => void;
+  total: number;
+  onPage: (p: number) => void;
 }
 
 function getPageNumbers(current: number, total: number): (number | '…')[] {
-  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
-  if (current <= 4) return [1, 2, 3, 4, 5, '…', total];
-  if (current >= total - 3) return [1, '…', total - 4, total - 3, total - 2, total - 1, total];
-  return [1, '…', current - 1, current, current + 1, '…', total];
+  if (total <= 5) return Array.from({ length: total }, (_, i) => i + 1);
+
+  const pages: (number | '…')[] = [1];
+
+  if (current > 3) pages.push('…');
+  for (let p = Math.max(2, current - 1); p <= Math.min(total - 1, current + 1); p++) {
+    pages.push(p);
+  }
+  if (current < total - 2) pages.push('…');
+  pages.push(total);
+
+  return pages;
 }
 
-function QuizPagination({ page, totalPages, total, onPage }: Props) {
+function QuizPagination({ page, totalPages, onPage }: Props) {
   if (totalPages <= 1) return null;
 
-  const start = (page - 1) * ITEMS_PER_PAGE + 1;
-  const end   = Math.min(page * ITEMS_PER_PAGE, total);
   const pages = getPageNumbers(page, totalPages);
 
   return (
-    <div className="mt-10 mb-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <nav
+      aria-label="Pagination"
+      className="flex items-center justify-center gap-1.5 mt-10 py-6 border-t border-slate-100"
+    >
+      {/* Previous Page */}
+      <button
+        onClick={() => onPage(page - 1)}
+        disabled={page === 1}
+        className="inline-flex items-center gap-1 px-3.5 py-2 text-[11px] font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
+        aria-label="Previous page"
+      >
+        <ChevronLeft className="w-3.5 h-3.5" />
+        Prev
+      </button>
 
-      {/* Range label */}
-      <p className="text-xs text-[var(--color-gray-400)] order-2 sm:order-1">
-        Showing{' '}
-        <span className="font-bold text-[var(--color-navy)]">{start}–{end}</span>
-        {' '}of{' '}
-        <span className="font-bold text-[var(--color-navy)]">{total}</span>
-        {' '}quiz series
-      </p>
-
-      {/* Page buttons */}
-      <div className="flex items-center gap-1.5 order-1 sm:order-2">
-
-        {/* Prev */}
-        <button
-          onClick={() => onPage(page - 1)}
-          disabled={page === 1}
-          className="w-8 h-8 flex items-center justify-center rounded-lg border border-[var(--color-gray-200)] bg-white text-[var(--color-gray-600)] hover:border-[var(--color-blue)] hover:text-[var(--color-blue)] transition-all disabled:opacity-40 disabled:pointer-events-none"
-        >
-          <ChevronLeft className="w-4 h-4" />
-        </button>
-
+      {/* Page Numbers */}
+      <div className="flex items-center gap-1 mx-2">
         {pages.map((p, i) =>
           p === '…' ? (
             <span
               key={`ellipsis-${i}`}
-              className="w-8 h-8 flex items-center justify-center text-xs text-[var(--color-gray-400)]"
+              className="w-8.5 h-8.5 flex items-center justify-center text-xs text-slate-400 select-none"
             >
               …
             </span>
@@ -62,30 +61,30 @@ function QuizPagination({ page, totalPages, total, onPage }: Props) {
             <button
               key={p}
               onClick={() => onPage(p as number)}
-              className={`w-8 h-8 flex items-center justify-center rounded-lg text-xs font-bold border transition-all duration-200 ${
+              aria-current={page === p ? 'page' : undefined}
+              className={`w-8.5 h-8.5 rounded-lg flex items-center justify-center text-xs font-extrabold transition-all active:scale-95 ${
                 page === p
-                  ? 'text-white border-transparent'
-                  : 'border-[var(--color-gray-200)] bg-white text-[var(--color-gray-600)] hover:border-[var(--color-blue)] hover:text-[var(--color-blue)]'
+                  ? 'bg-[#FBBF24] text-[#07102A] shadow-sm font-black'
+                  : 'border border-slate-200 text-slate-500 hover:border-slate-350 hover:text-slate-800 hover:bg-slate-50'
               }`}
-              style={page === p ? {
-                background: 'linear-gradient(135deg, var(--color-blue), var(--color-navy))',
-              } : {}}
             >
               {p}
             </button>
-          ),
+          )
         )}
-
-        {/* Next */}
-        <button
-          onClick={() => onPage(page + 1)}
-          disabled={page === totalPages}
-          className="w-8 h-8 flex items-center justify-center rounded-lg border border-[var(--color-gray-200)] bg-white text-[var(--color-gray-600)] hover:border-[var(--color-blue)] hover:text-[var(--color-blue)] transition-all disabled:opacity-40 disabled:pointer-events-none"
-        >
-          <ChevronRight className="w-4 h-4" />
-        </button>
       </div>
-    </div>
+
+      {/* Next Page */}
+      <button
+        onClick={() => onPage(page + 1)}
+        disabled={page === totalPages}
+        className="inline-flex items-center gap-1 px-3.5 py-2 text-[11px] font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
+        aria-label="Next page"
+      >
+        Next
+        <ChevronRight className="w-3.5 h-3.5" />
+      </button>
+    </nav>
   );
 }
 

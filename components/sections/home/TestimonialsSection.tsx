@@ -110,7 +110,7 @@ function getProfileImage(id: string) {
     'tm-7': '/images/karan_mehta.png',
     'tm-8': '/images/ananya_gupta.png',
   };
-  return mapping[id] || '/images/demo.jpg';
+  return mapping[id] || '/images/default.jpg';
 }
 
 // ─────────────────────────────────────────

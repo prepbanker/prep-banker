@@ -7,8 +7,7 @@ import { T } from '../constants';
 
 export default function ExamPatternSection({ exam }: { exam: ExamDetailData }) {
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><Layers size={11} />Exam Pattern</div>
         <h2 className="epg-h2">{exam.shortName} <span>Exam Pattern</span></h2>
         <p className="epg-sub">Section-wise structure for Prelims and Mains examination.</p>
@@ -36,8 +35,8 @@ export default function ExamPatternSection({ exam }: { exam: ExamDetailData }) {
               <span style={{ fontSize:'0.76rem',color:T.gray600,fontWeight:500 }}>{phase.info}</span>
             </div>
 
-            <div style={{ overflowX:'auto' }}>
-              <table className="epg-table">
+            <div className="w-full overflow-x-auto border border-slate-150 rounded-xl bg-white shadow-xs">
+              <table className="epg-table min-w-[500px]">
                 <thead>
                   <tr>
                     <th>Subject / Section</th>
@@ -76,6 +75,5 @@ export default function ExamPatternSection({ exam }: { exam: ExamDetailData }) {
           </div>
         ))}
       </div>
-    </div>
-  );
+);
 }

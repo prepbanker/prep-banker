@@ -83,7 +83,7 @@ export default function ExamDetailsPage({ exam }: Props) {
             SidebarInfoCard sits BELOW the sticky block in normal flow,
             so it never overlaps the nav.
           */}
-          <aside className="flex flex-col gap-0">
+          <aside className="flex flex-col gap-0 order-last lg:order-none">
 
             {/* Sticky nav block */}
             <div className="sticky top-4">

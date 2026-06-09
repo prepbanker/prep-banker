@@ -1,32 +1,33 @@
-// PATH: hooks/useLiveTestFilters.ts
+// PATH: components/sections/live-tests/hooks/useLiveTestFilters.ts
 // PrepBanker — Filter + Pagination state for Live Tests
-// Single responsibility: derive the visible page of tests from tab + page.
+// Single responsibility: derive the visible page of tests from checkboxes + search + page.
 
 'use client';
 
 import { useState, useMemo, useCallback } from 'react';
 import { liveTests, PAGE_SIZE } from '@/lib/data/live-tests';
-import type { LiveTest, LiveTestTab, PaginationState } from '@/types/live-tests';
+import type { LiveTest, PaginationState } from '@/types/live-tests';
 
-function applyTab(tests: LiveTest[], tab: LiveTestTab): LiveTest[] {
-  switch (tab) {
-    case 'SBI-PO Live':   return tests.filter(t => t.exam === 'SBI-PO');
-    case 'IBPS-PO Live':  return tests.filter(t => t.exam === 'IBPS-PO');
-    case 'Prelims Tests': return tests.filter(t => t.type === 'Prelims');
-    case 'Mains Tests':   return tests.filter(t => t.type === 'Mains');
-    case 'Free Tests':    return tests.filter(t => t.isFree);
-    default:              return tests;
-  }
-}
+// Mapping from UI filter category names to exam values in mock data
+export const CATEGORY_EXAM_MAPPING: Record<string, string[]> = {
+  'SBI PO': ['SBI-PO'],
+  'IBPS PO': ['IBPS-PO'],
+};
 
-/** Returns the count for a given tab (used in tab pill badges). */
-export function tabCount(tab: LiveTestTab): number {
-  return applyTab(liveTests, tab).length;
-}
+export const CATEGORIES_LIST = [
+  'SBI PO',
+  'IBPS PO',
+];
 
 interface UseLiveTestFiltersReturn {
-  activeTab: LiveTestTab;
-  setTab: (tab: LiveTestTab) => void;
+  selectedCategories: string[];
+  setSelectedCategories: React.Dispatch<React.SetStateAction<string[]>>;
+  toggleCategory: (category: string) => void;
+  clearCategories: () => void;
+  categorySearchQuery: string;
+  setCategorySearchQuery: (query: string) => void;
+  searchQuery: string;
+  setSearchQuery: (query: string) => void;
   currentPage: number;
   setPage: (page: number) => void;
   visibleTests: LiveTest[];
@@ -35,12 +36,29 @@ interface UseLiveTestFiltersReturn {
 }
 
 export function useLiveTestFilters(): UseLiveTestFiltersReturn {
-  const [activeTab, setActiveTab] = useState<LiveTestTab>('All Live Tests');
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [categorySearchQuery, setCategorySearchQuery] = useState<string>('');
+  const [searchQuery, setSearchQueryState] = useState<string>('');
   const [currentPage, setCurrentPage] = useState(1);
 
-  const setTab = useCallback((tab: LiveTestTab) => {
-    setActiveTab(tab);
-    setCurrentPage(1); // reset to page 1 on tab change
+  const toggleCategory = useCallback((category: string) => {
+    setSelectedCategories(prev => {
+      const next = prev.includes(category)
+        ? prev.filter(c => c !== category)
+        : [...prev, category];
+      return next;
+    });
+    setCurrentPage(1); // reset to page 1
+  }, []);
+
+  const clearCategories = useCallback(() => {
+    setSelectedCategories([]);
+    setCurrentPage(1);
+  }, []);
+
+  const setSearchQuery = useCallback((query: string) => {
+    setSearchQueryState(query);
+    setCurrentPage(1); // reset to page 1
   }, []);
 
   const setPage = useCallback((page: number) => {
@@ -52,7 +70,29 @@ export function useLiveTestFilters(): UseLiveTestFiltersReturn {
     }
   }, []);
 
-  const filtered = useMemo(() => applyTab(liveTests, activeTab), [activeTab]);
+  // Filter helper matching search queries and categories
+  const filtered = useMemo(() => {
+    return liveTests.filter(test => {
+      // 1. Search Query Filter (by name)
+      if (searchQuery.trim()) {
+        const query = searchQuery.toLowerCase().trim();
+        const matchesTitle = test.title.toLowerCase().includes(query);
+        if (!matchesTitle) return false;
+      }
+
+      // 2. Multi-category checkboxes filter
+      if (selectedCategories.length > 0) {
+        // Collect all allowed exams based on selected categories
+        const allowedExams = selectedCategories.flatMap(cat => CATEGORY_EXAM_MAPPING[cat] || []);
+        if (!allowedExams.includes(test.exam)) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  }, [selectedCategories, searchQuery]);
+
   const totalItems = filtered.length;
   const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
 
@@ -69,8 +109,14 @@ export function useLiveTestFilters(): UseLiveTestFiltersReturn {
   };
 
   return {
-    activeTab,
-    setTab,
+    selectedCategories,
+    setSelectedCategories,
+    toggleCategory,
+    clearCategories,
+    categorySearchQuery,
+    setCategorySearchQuery,
+    searchQuery,
+    setSearchQuery,
     currentPage,
     setPage,
     visibleTests,

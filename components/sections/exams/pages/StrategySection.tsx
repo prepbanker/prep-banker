@@ -9,8 +9,7 @@ export default function StrategySection({ exam }: { exam: ExamDetailData }) {
   const isIbps = exam.id === 'ibps-po';
   const accent  = isIbps ? T.gold : T.blue;
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><Brain size={11} />Preparation Strategy</div>
         <h2 className="epg-h2">4-Month <span>Strategy</span> for {exam.shortName}</h2>
         <p className="epg-sub">A proven month-wise plan from foundation to full-mock phase.</p>
@@ -34,6 +33,5 @@ export default function StrategySection({ exam }: { exam: ExamDetailData }) {
           </a>
         </div>
       </div>
-    </div>
-  );
+);
 }

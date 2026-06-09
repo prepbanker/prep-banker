@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { navLinks } from '@/lib/data';
 import Image from 'next/image';
-import Logo from "../../public/images/prepbanker-logo-1.png"
+import Logo from "../../public/images/prepbanker-logo-2.png"
 
 export default function Header() {
   const [scrolled,       setScrolled]       = useState(false);
@@ -113,7 +113,7 @@ export default function Header() {
 
               {/* Dropdown */}
               {link.children && activeDropdown === link.label && (
-                <div className="absolute top-[calc(100%+6px)] left-0 bg-white border border-[var(--color-gray-100)] rounded-2xl p-1.5 min-w-[190px] shadow-[0_8px_32px_rgba(13,27,62,0.12)] z-[200]">
+                <div className="absolute top-[calc(100%+6px)] left-0 bg-white border border-[var(--color-gray-100)] rounded-2xl p-1.5 min-w-[190px] shadow-[0_8px_32px_rgba(13,27,62,0.12)] z-[200] before:absolute before:-top-[8px] before:left-0 before:right-0 before:h-[8px] before:content-['']">
                   {link.children.map(child => (
                     <Link
                       key={child.href}
@@ -149,8 +149,8 @@ export default function Header() {
               text-xs sm:text-sm
             "
             style={{
-              background: 'linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-bright) 100%)',
-              boxShadow: '0 3px 12px rgba(212,160,23,0.35)',
+              background: 'var(--color-yellow)',
+              boxShadow: '0 3px 12px rgba(251,191,36,0.35)',
             }}
           >
             <span className="hidden sm:inline">Start Free</span>
@@ -226,7 +226,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center mt-5 py-3.5 rounded-xl font-bold text-base text-[var(--color-navy-deep)] no-underline text-center"
                 style={{
-                  background: 'linear-gradient(135deg, var(--color-gold), var(--color-gold-bright))',
+                  background: 'var(--color-yellow)',
                 }}
               >
                 Start Preparing Free →

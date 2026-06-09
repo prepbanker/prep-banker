@@ -11,7 +11,7 @@ export type { ExamType, TestType, DifficultyLevel };
 export interface LiveTest {
   id: string;
   title: string;
-  exam: ExamType;
+  exam: string;
   type: TestType;
   duration: number;        // minutes
   totalQuestions: number;

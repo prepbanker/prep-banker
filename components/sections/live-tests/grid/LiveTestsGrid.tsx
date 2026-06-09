@@ -4,13 +4,13 @@
 
 import { Radio } from 'lucide-react';
 import LiveTestCard from '@/components/sections/live-tests/cards/LiveTestCard';
-import type { LiveTest, LiveTestTab, TimersMap } from '@/types/live-tests';
+import type { LiveTest, TimersMap } from '@/types/live-tests';
 
 interface Props {
   tests: LiveTest[];
   timers: TimersMap;
   filteredTotal: number;
-  activeTab: LiveTestTab;
+  selectedCategory: string;
   onResetTab: () => void;
 }
 
@@ -18,7 +18,7 @@ export default function LiveTestsGrid({
   tests,
   timers,
   filteredTotal,
-  activeTab,
+  selectedCategory,
   onResetTab,
 }: Props) {
   if (tests.length === 0) {
@@ -45,7 +45,7 @@ export default function LiveTestsGrid({
     <div
       id="live-tests-grid"
       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
-      aria-label={`Live tests — ${activeTab}`}
+      aria-label={`Live tests — ${selectedCategory}`}
     >
       {tests.map(test => (
         <LiveTestCard

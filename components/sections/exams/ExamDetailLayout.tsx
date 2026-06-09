@@ -84,29 +84,29 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
           
           {/* Main Area */}
           <main className="space-y-8">
-            {/* Intro Card */}
-            <div className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs">
-              <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-800 font-display mb-3">
+            {/* Intro Header */}
+            <div className="py-4">
+              <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 font-display mb-4 tracking-tight leading-tight">
                 {detail.title}
               </h1>
-              <p className="text-slate-600 text-base sm:text-[17px] leading-relaxed mb-6">
+              <p className="text-slate-600 text-base sm:text-lg leading-relaxed mb-6 max-w-4xl font-normal">
                 {detail.overview}
               </p>
               <a
                 href={detail.ctaHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(240,180,41,0.5)] hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-sm tracking-wide transition-all hover:-translate-y-0.5 shadow-sm hover:shadow-md"
               >
-                <Sparkles size={14} />
+                <Sparkles size={15} />
                 {detail.ctaText}
               </a>
             </div>
 
             {/* Local TOC */}
-            <div className="bg-white border border-slate-200 p-5 rounded-xl shadow-xs">
-              <span className="block text-slate-400 font-bold text-xs tracking-wider uppercase mb-2">On This Page</span>
-              <ul className="space-y-2 text-sm sm:text-base font-semibold">
+            <div className="bg-slate-50 border border-slate-200 p-6 rounded-xl">
+              <span className="block text-slate-400 font-bold text-xs tracking-wider uppercase mb-3">On This Page</span>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm sm:text-base font-semibold">
                 {detail.subsections.map((sub, idx) => (
                   <li key={sub.id}>
                     <a
@@ -122,17 +122,17 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
             </div>
 
             {/* Subsections Content */}
-            <div className="space-y-8">
+            <div className="space-y-10">
               {detail.subsections.map((sub) => (
                 <section
                   key={sub.id}
                   id={sub.id}
-                  className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs scroll-mt-20"
+                  className="scroll-mt-20 border-t border-slate-200 pt-8"
                 >
-                  <h2 className="text-xl sm:text-2xl font-extrabold text-slate-800 font-display border-b border-slate-100 pb-3 mb-4">
+                  <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-display mb-4">
                     {sub.title}
                   </h2>
-                  <div className="text-slate-700 text-sm sm:text-base leading-relaxed">
+                  <div className="text-slate-750 text-sm sm:text-base leading-relaxed">
                     {sub.content}
                   </div>
                 </section>
@@ -141,8 +141,8 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
 
             {/* Local Section FAQs */}
             {detail.faqs.length > 0 && (
-              <section id="faqs" className="bg-white border border-slate-200 p-6 sm:p-8 rounded-2xl shadow-xs">
-                <h2 className="text-xl sm:text-2xl font-extrabold text-slate-800 font-display border-b border-slate-100 pb-3 mb-4">
+              <section id="faqs" className="scroll-mt-20 border-t border-slate-200 pt-8">
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-display mb-6">
                   {exam.shortName} {sectionSlug.charAt(0).toUpperCase() + sectionSlug.slice(1)} FAQs
                 </h2>
                 <div className="space-y-3">
@@ -187,11 +187,11 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
                 <BookOpen size={14} className="text-[var(--color-gold)]" />
                 Quick Navigation
               </div>
-              <nav className="p-2 flex flex-col gap-1">
+              <nav className="p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-1">
                 {/* Link to main page */}
                 <Link
                   href={`/${exam.id}`}
-                  className="flex items-center justify-between px-3 py-2 text-sm font-bold text-slate-700 hover:bg-slate-50 rounded-lg transition-colors border-b border-slate-100 pb-2.5 mb-1"
+                  className="flex items-center justify-between px-3 py-2 text-sm font-bold text-slate-700 hover:bg-slate-50 rounded-lg transition-colors border-b border-slate-100 pb-2.5 mb-1 col-span-full"
                 >
                   <span>Main Guide Overview</span>
                   <ArrowRight size={12} className="opacity-60" />

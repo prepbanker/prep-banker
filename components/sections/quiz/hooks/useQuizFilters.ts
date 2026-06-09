@@ -1,123 +1,166 @@
-    // PATH: components/sections/quiz/hooks/useQuizFilters.ts
+// PATH: components/sections/quiz/hooks/useQuizFilters.ts
 'use client';
 
 import { useState, useMemo, useCallback } from 'react';
 import { quizSeries } from '@/lib/data/quiz';
-import type {
-  ExamFilter, TypeFilter, LevelFilter, SortOption,
-} from '@/types/quiz';
+import type { QuizSeries, SortOption } from '@/types/quiz';
 
 export const ITEMS_PER_PAGE = 12;
 
-export function useQuizFilters() {
-  const [examFilter,  setExamFilter]  = useState<ExamFilter>('All');
-  const [typeFilter,  setTypeFilter]  = useState<TypeFilter>('All');
-  const [levelFilter, setLevelFilter] = useState<LevelFilter>('All');
-  const [freeOnly,    setFreeOnly]    = useState(false);
-  const [sortBy,      setSortBy]      = useState<SortOption>('most-attempted');
-  const [search,      setSearch]      = useState('');
-  const [page,        setPage]        = useState(1);
+interface UseQuizFiltersReturn {
+  selectedExams: string[];
+  toggleExam: (exam: string) => void;
+  selectedTypes: string[];
+  toggleType: (type: string) => void;
+  selectedLevels: string[];
+  toggleLevel: (level: string) => void;
+  freeOnly: boolean;
+  toggleFreeOnly: () => void;
+  sortBy: SortOption;
+  setSortBy: (sort: SortOption) => void;
+  search: string;
+  setSearch: (search: string) => void;
+  page: number;
+  setPage: (page: number) => void;
+  filtered: QuizSeries[];
+  paginated: QuizSeries[];
+  totalPages: number;
+  totalCount: number;
+  hasActiveFilters: boolean;
+  resetFilters: () => void;
+}
 
-  // ── Derived filter counts for tabs ──────────────────────────
-  const typeCounts = useMemo(() => {
-    const allTypes = ['All', 'Full Mock', 'Prelims', 'Mains', 'Sectional', 'Topic Wise'] as const;
-    return Object.fromEntries(
-      allTypes.map(t => [
-        t,
-        t === 'All'
-          ? quizSeries.length
-          : quizSeries.filter(q => q.type === t).length,
-      ]),
-    ) as Record<string, number>;
-  }, []);
+export function useQuizFilters(): UseQuizFiltersReturn {
+  const [selectedExams, setSelectedExams] = useState<string[]>([]);
+  const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [selectedLevels, setSelectedLevels] = useState<string[]>([]);
+  const [freeOnly, setFreeOnly] = useState(false);
+  const [sortBy, setSortBy] = useState<SortOption>('most-attempted');
+  const [search, setSearchState] = useState('');
+  const [page, setPage] = useState(1);
 
-  // ── Filtered + sorted list ───────────────────────────────────
+  // Filter and sort logic
   const filtered = useMemo(() => {
     let list = [...quizSeries];
 
-    if (examFilter  !== 'All') list = list.filter(q => q.exam === examFilter || q.exam === 'Both');
-    if (typeFilter  !== 'All') list = list.filter(q => q.type === typeFilter);
-    if (levelFilter !== 'All') list = list.filter(q => q.difficulty === levelFilter);
-    if (freeOnly)              list = list.filter(q => q.freeQuestions > 0);
+    // 1. Exam Checklist: 'SBI-PO' | 'IBPS-PO'
+    if (selectedExams.length > 0) {
+      list = list.filter(q => {
+        if (q.exam === 'Both') return true;
+        return selectedExams.includes(q.exam);
+      });
+    }
 
+    // 2. Quiz Type Checklist: 'Full Mock' | 'Sectional' | 'Topic Wise' etc
+    if (selectedTypes.length > 0) {
+      list = list.filter(q => selectedTypes.includes(q.type));
+    }
+
+    // 3. Difficulty Level Checklist: 'Easy' | 'Medium' | 'Hard'
+    if (selectedLevels.length > 0) {
+      list = list.filter(q => selectedLevels.includes(q.difficulty));
+    }
+
+    // 4. Free Only
+    if (freeOnly) {
+      list = list.filter(q => q.freeQuestions > 0);
+    }
+
+    // 5. Search Query
     if (search.trim()) {
-      const q = search.toLowerCase();
+      const q = search.toLowerCase().trim();
       list = list.filter(s =>
         s.title.toLowerCase().includes(q) ||
         s.description.toLowerCase().includes(q) ||
         s.tags.some(tag => tag.toLowerCase().includes(q)) ||
-        (s.subject ?? '').toLowerCase().includes(q),
+        (s.subject ?? '').toLowerCase().includes(q)
       );
     }
 
+    // Sort order
     list.sort((a, b) => {
       if (sortBy === 'most-attempted') return b.totalAttempts - a.totalAttempts;
-      if (sortBy === 'highest-rated')  return b.rating        - a.rating;
+      if (sortBy === 'highest-rated')  return b.rating - a.rating;
       if (sortBy === 'newest')         return (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0);
       return b.freeQuestions - a.freeQuestions;
     });
 
     return list;
-  }, [examFilter, typeFilter, levelFilter, freeOnly, sortBy, search]);
+  }, [selectedExams, selectedTypes, selectedLevels, freeOnly, sortBy, search]);
 
   const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
-  const paginated  = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
+  const paginated = useMemo(() => {
+    const start = (page - 1) * ITEMS_PER_PAGE;
+    return filtered.slice(start, start + ITEMS_PER_PAGE);
+  }, [filtered, page]);
 
-  // ── Setters that also reset page ────────────────────────────
-  const setExamFilterAndReset = useCallback((v: ExamFilter) => {
-    setExamFilter(v); setPage(1);
+  // Actions
+  const toggleExam = useCallback((v: string) => {
+    setSelectedExams(prev =>
+      prev.includes(v) ? prev.filter(x => x !== v) : [...prev, v]
+    );
+    setPage(1);
   }, []);
-  const setTypeFilterAndReset = useCallback((v: TypeFilter) => {
-    setTypeFilter(v); setPage(1);
+
+  const toggleType = useCallback((v: string) => {
+    setSelectedTypes(prev =>
+      prev.includes(v) ? prev.filter(x => x !== v) : [...prev, v]
+    );
+    setPage(1);
   }, []);
-  const setLevelFilterAndReset = useCallback((v: LevelFilter) => {
-    setLevelFilter(v); setPage(1);
+
+  const toggleLevel = useCallback((v: string) => {
+    setSelectedLevels(prev =>
+      prev.includes(v) ? prev.filter(x => x !== v) : [...prev, v]
+    );
+    setPage(1);
   }, []);
+
   const toggleFreeOnly = useCallback(() => {
-    setFreeOnly(p => !p); setPage(1);
+    setFreeOnly(prev => !prev);
+    setPage(1);
   }, []);
-  const setSearchAndReset = useCallback((v: string) => {
-    setSearch(v); setPage(1);
+
+  const setSearch = useCallback((v: string) => {
+    setSearchState(v);
+    setPage(1);
   }, []);
 
   const resetFilters = useCallback(() => {
-    setExamFilter('All');
-    setTypeFilter('All');
-    setLevelFilter('All');
+    setSelectedExams([]);
+    setSelectedTypes([]);
+    setSelectedLevels([]);
     setFreeOnly(false);
-    setSearch('');
+    setSearchState('');
     setPage(1);
   }, []);
 
   const hasActiveFilters =
-    examFilter !== 'All' ||
-    typeFilter !== 'All' ||
-    levelFilter !== 'All' ||
+    selectedExams.length > 0 ||
+    selectedTypes.length > 0 ||
+    selectedLevels.length > 0 ||
     freeOnly ||
     search.trim() !== '';
 
-  const trendingCount = useMemo(
-    () => quizSeries.filter(q => q.isTrending).length,
-    [],
-  );
-
   return {
-    // State
-    examFilter,  setExamFilter:  setExamFilterAndReset,
-    typeFilter,  setTypeFilter:  setTypeFilterAndReset,
-    levelFilter, setLevelFilter: setLevelFilterAndReset,
-    freeOnly,    toggleFreeOnly,
-    sortBy,      setSortBy,
-    search,      setSearch: setSearchAndReset,
-    page,        setPage,
-
-    // Derived
+    selectedExams,
+    toggleExam,
+    selectedTypes,
+    toggleType,
+    selectedLevels,
+    toggleLevel,
+    freeOnly,
+    toggleFreeOnly,
+    sortBy,
+    setSortBy,
+    search,
+    setSearch,
+    page,
+    setPage,
     filtered,
     paginated,
     totalPages,
     totalCount: filtered.length,
-    typeCounts,
-    trendingCount,
     hasActiveFilters,
     resetFilters,
   };

@@ -14,7 +14,7 @@ export default function OverviewSection({ exam }: { exam: ExamDetailData }) {
   const iconColor = isIbps ? '#F0B429' : '#60B4FF';
 
   return (
-    <div className="epg-card">
+    <div>
       <div style={{ background: heroGrad, padding: '1.75rem 1.75rem 0' }}>
         <div className="epg-section-lbl"><Info size={11} />Overview</div>
         <h2 className="epg-h2 !text-white">

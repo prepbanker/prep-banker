@@ -76,8 +76,8 @@ export default function LiveTestsHero() {
             color: '#fff',
           }}
         >
-          Live Mock Tests{' '}
-          <span className="text-gold-gradient">Running Now</span>
+          Live Mock Tests for{' '}
+          <span className="text-gold-gradient">SBI PO, IBPS PO & Banking Exams</span>
         </h1>
 
         <p

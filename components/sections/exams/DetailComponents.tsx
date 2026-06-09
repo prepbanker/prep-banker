@@ -78,7 +78,7 @@ export function InteractiveSyllabus({ data }: { data: SyllabusData }) {
   const currentSubject = data.subjects.find((s) => s.id === activeSubject);
 
   return (
-    <div className="bg-slate-50/60 border border-slate-200 p-5 sm:p-7 rounded-2xl shadow-xs">
+    <div className="w-full">
       <div className="flex gap-2 overflow-x-auto pb-2 mb-6 scrollbar-thin">
         {data.subjects.map((sub) => (
           <button
@@ -171,7 +171,7 @@ export function DatesTimeline({ events }: { events: TimelineEvent[] }) {
   const currentEvent = activeIdx !== null ? events[activeIdx] : null;
 
   return (
-    <div className="bg-slate-50/60 border border-slate-200 p-5 sm:p-7 rounded-2xl shadow-xs">
+    <div className="w-full">
       <p className="text-slate-600 text-sm sm:text-base mb-6 leading-relaxed">
         Click on any event milestone in the interactive calendar below to reveal details, advisory preparation timelines, and checklist recommendations.
       </p>
@@ -288,7 +288,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
   const currentStep = steps[activeStep];
 
   return (
-    <div className="bg-slate-50/60 border border-slate-200 p-5 sm:p-7 rounded-2xl shadow-xs">
+    <div className="w-full">
       <p className="text-slate-600 text-sm sm:text-base mb-6 leading-relaxed">
         Click on the operational scales below to view in-hand basic compensation, typical promotional timeframes, and standard job profiles:
       </p>
@@ -382,7 +382,7 @@ export function InteractivePattern({ prelims, mains }: { prelims: PhaseData; mai
   const currentPhase = activeTab === 'prelims' ? prelims : mains;
 
   return (
-    <div className="bg-slate-50/60 border border-slate-200 p-5 sm:p-7 rounded-2xl shadow-xs">
+    <div className="w-full">
       <div className="flex gap-2 bg-slate-100 p-1 rounded-xl w-fit mb-5">
         <button
           onClick={() => setActiveTab('prelims')}
@@ -413,8 +413,8 @@ export function InteractivePattern({ prelims, mains }: { prelims: PhaseData; mai
           </span>
         </div>
 
-        <div className="overflow-hidden border border-slate-150 rounded-xl bg-white shadow-xs">
-          <table className="w-full text-left text-sm sm:text-base border-collapse">
+        <div className="w-full overflow-x-auto border border-slate-150 rounded-xl bg-white shadow-xs">
+          <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
             <thead>
               <tr className="bg-slate-900 text-white font-bold">
                 <th className="px-4 py-2.5">Section Subject</th>
@@ -483,7 +483,7 @@ export function CutoffTrendsSwitcher({ cutoffs }: { cutoffs: YearCutoff[] }) {
   ];
 
   return (
-    <div className="bg-slate-50/60 border border-slate-200 p-5 sm:p-7 rounded-2xl shadow-xs">
+    <div className="w-full">
       <div className="flex gap-2 overflow-x-auto pb-2 mb-5 scrollbar-thin">
         {categories.map((cat) => (
           <button
@@ -505,8 +505,8 @@ export function CutoffTrendsSwitcher({ cutoffs }: { cutoffs: YearCutoff[] }) {
           <Trophy size={16} className="text-[var(--color-gold)]" />
           Category Specific: {categories.find((c) => c.id === activeCat)?.name} Cut-offs
         </h4>
-        <div className="overflow-hidden border border-slate-150 rounded-xl">
-          <table className="w-full text-left text-sm sm:text-base border-collapse">
+        <div className="w-full overflow-x-auto border border-slate-150 rounded-xl bg-white shadow-xs">
+          <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
             <thead>
               <tr className="bg-slate-900 text-white font-bold">
                 <th className="px-4 py-3">Year Cycle</th>
@@ -545,7 +545,7 @@ export function StrategyRoadmap({ phases }: { phases: StrategyPhase[] }) {
   const currentPhase = phases[activePhase];
 
   return (
-    <div className="bg-slate-50/60 border border-slate-200 p-5 sm:p-7 rounded-2xl shadow-xs">
+    <div className="w-full">
       <p className="text-slate-600 text-sm sm:text-base mb-6 leading-relaxed">
         Click on the preparation roadmap phases below to reveal topper guidelines, checklist tasks, and mock frequency plans.
       </p>

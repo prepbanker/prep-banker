@@ -2,6 +2,8 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../../public/images/prepbanker-logo-2.png';
 
 // ─────────────────────────────────────────
 // Footer — PrepBanker
@@ -13,22 +15,18 @@ const footerLinks = {
     { label: 'All Exams',    href: '/exams' },
   ],
   Prepare: [
-    { label: 'Mock Tests',       href: '/mock-tests' },
+    { label: 'Quiz Practice',    href: '/quiz' },
     { label: 'Live Tests',       href: '/live-tests' },
     { label: 'Current Affairs',  href: '/current-affairs' },
-    { label: 'Topic Wise Tests', href: '/topic-tests' },
   ],
   Company: [
     { label: 'About Us',    href: '/about' },
     { label: 'Contact Us',  href: '/contact' },
     { label: 'Blogs',        href: '/blogs' },
-    { label: 'Careers',     href: '/careers' },
   ],
   Legal: [
     { label: 'Terms & Conditions', href: '/terms' },
     { label: 'Privacy Policy',     href: '/privacy' },
-    { label: 'Refund Policy',      href: '/refund' },
-    { label: 'Cookie Policy',      href: '/cookies' },
   ],
 };
 
@@ -59,7 +57,7 @@ export default function Footer() {
   return (
     <footer style={{
       background: 'linear-gradient(180deg, var(--color-navy-deep) 0%, #030a18 100%)',
-      borderTop: '1px solid rgba(212,160,23,0.15)',
+      borderTop: '1px solid rgba(251,191,36,0.15)',
       color: 'rgba(255,255,255,0.7)',
     }}>
       {/* ── Main Footer ─────────────────────── */}
@@ -72,29 +70,39 @@ export default function Footer() {
 
           {/* Brand Column */}
           <div style={{ gridColumn: 'span 2' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1.25rem' }}>
               <div style={{
-                width: 40, height: 40,
-                background: 'linear-gradient(135deg, var(--color-gold), var(--color-gold-bright))',
+                position: 'relative',
+                width: 40,
+                height: 40,
+                flexShrink: 0,
+                background: '#ffffff',
                 borderRadius: '10px',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontFamily: 'var(--font-display)',
-                fontWeight: 800,
-                fontSize: '1.2rem',
-                color: 'var(--color-navy-deep)',
-              }}>P</div>
+                padding: '6px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 4px 12px rgba(255,255,255,0.05)',
+              }}>
+                <Image
+                  src={Logo}
+                  alt="PrepBanker Logo"
+                  className="object-contain"
+                  style={{ maxWidth: '100%', maxHeight: '100%' }}
+                />
+              </div>
               <div>
-                <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.3rem', color: '#fff' }}>
-                  Prep<span style={{ color: 'var(--color-gold-bright)' }}>Banker</span>
+                <div style={{ fontFamily: 'var(--font-display)', fontWeight: 805, fontSize: '1.3rem', color: '#fff', lineHeight: 1.15 }}>
+                  Prep<span className="text-[var(--color-yellow)]">Banker</span>
                 </div>
-                <div style={{ fontSize: '0.65rem', color: 'var(--color-gray-400)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                <div style={{ fontSize: '0.62rem', color: 'var(--color-gray-400)', letterSpacing: '0.08em', textTransform: 'uppercase', marginTop: '3px' }}>
                   Banking Exam Prep
                 </div>
               </div>
             </div>
 
             <p style={{ fontSize: '0.875rem', lineHeight: 1.7, maxWidth: 280, marginBottom: '1.25rem' }}>
-              India&apos;s most trusted banking exam preparation platform for SBI PO and IBPS PO aspirants. Mock tests, live exams, current affairs, and smart analytics — all in one place.
+              India&apos;s most trusted banking exam preparation platform for SBI PO and IBPS PO aspirants. Practice quizzes, live exams, current affairs, and smart analytics — all in one place.
             </p>
 
             {/* Social Links */}
@@ -111,7 +119,7 @@ export default function Footer() {
                      color: 'rgba(255,255,255,0.6)',
                      transition: 'var(--transition)',
                    }}
-                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(212,160,23,0.2)'; (e.currentTarget as HTMLElement).style.color = 'var(--color-gold-bright)'; (e.currentTarget as HTMLElement).style.borderColor = 'rgba(212,160,23,0.4)'; }}
+                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(251,191,36,0.15)'; (e.currentTarget as HTMLElement).style.color = 'var(--color-yellow)'; (e.currentTarget as HTMLElement).style.borderColor = 'rgba(251,191,36,0.3)'; }}
                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.07)'; (e.currentTarget as HTMLElement).style.color = 'rgba(255,255,255,0.6)'; (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.1)'; }}>
                   {s.icon}
                 </a>
@@ -123,7 +131,7 @@ export default function Footer() {
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
               <h4 style={{
-                color: 'var(--color-gold-bright)',
+                color: 'var(--color-yellow)',
                 fontSize: '0.8rem',
                 fontWeight: 700,
                 letterSpacing: '0.1em',
@@ -140,7 +148,7 @@ export default function Footer() {
                       transition: 'var(--transition)',
                       display: 'inline-block',
                     }}
-                    onMouseEnter={e => (e.currentTarget.style.color = '#fff')}
+                    onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-yellow)')}
                     onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.6)')}>
                       {link.label}
                     </Link>
@@ -154,8 +162,8 @@ export default function Footer() {
         {/* ── CTA Banner ──────────────────────── */}
         <div style={{
           marginTop: '3rem',
-          background: 'linear-gradient(135deg, rgba(27,110,181,0.2) 0%, rgba(212,160,23,0.1) 100%)',
-          border: '1px solid rgba(212,160,23,0.2)',
+          background: 'linear-gradient(135deg, rgba(27,110,181,0.08) 0%, rgba(251,191,36,0.05) 100%)',
+          border: '1px solid rgba(251,191,36,0.15)',
           borderRadius: '16px',
           padding: '1.75rem 2rem',
           display: 'flex',
@@ -178,17 +186,17 @@ export default function Footer() {
             rel="noopener noreferrer"
             style={{
               padding: '12px 28px',
-              background: 'linear-gradient(135deg, var(--color-gold), var(--color-gold-bright))',
+              background: 'var(--color-yellow)',
               color: 'var(--color-navy-deep)',
               borderRadius: '10px',
-              fontWeight: 700,
+              fontWeight: 750,
               fontSize: '0.9rem',
               textDecoration: 'none',
               flexShrink: 0,
               transition: 'var(--transition)',
             }}
-            onMouseEnter={e => (e.currentTarget.style.transform = 'translateY(-2px)')}
-            onMouseLeave={e => (e.currentTarget.style.transform = 'translateY(0)')}>
+            onMouseEnter={e => { (e.currentTarget.style.transform = 'translateY(-2px)'); (e.currentTarget.style.boxShadow = '0 4px 14px rgba(251,191,36,0.35)'); }}
+            onMouseLeave={e => { (e.currentTarget.style.transform = 'translateY(0)'); (e.currentTarget.style.boxShadow = 'none'); }}>
             Start Preparing Free →
           </a>
         </div>
@@ -206,7 +214,7 @@ export default function Footer() {
           fontSize: '0.8rem',
         }}>
           <p style={{ color: 'rgba(255,255,255,0.4)' }}>
-            © {new Date().getFullYear()} PrepBanker. All rights reserved. Made with ♥ for Banking Aspirants.
+            © {new Date().getFullYear()} PrepBanker. All rights reserved.
           </p>
           <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
             {[
@@ -215,7 +223,7 @@ export default function Footer() {
               { label: 'Contact', href: '/contact' },
             ].map(l => (
               <Link key={l.href} href={l.href} style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none', transition: 'var(--transition)' }}
-                onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-gold-bright)')}
+                onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-yellow)')}
                 onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.4)')}>
                 {l.label}
               </Link>

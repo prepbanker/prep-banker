@@ -15,8 +15,7 @@ export default function CutoffsSection({ exam }: { exam: ExamDetailData }) {
     : 'linear-gradient(90deg,' + T.blue + ',' + T.goldBright + ')';
 
   return (
-    <div className="epg-card">
-      <div className="epg-card-body">
+    <div className="py-6 border-t border-slate-200 mt-4">
         <div className="epg-section-lbl"><BarChart3 size={11} />Cutoff Trends</div>
         <h2 className="epg-h2">{exam.shortName} <span>Cutoff</span> Trends</h2>
         <p className="epg-sub">Category-wise Prelims and Mains cutoffs for the last 3 years (out of 100).</p>
@@ -57,6 +56,5 @@ export default function CutoffsSection({ exam }: { exam: ExamDetailData }) {
           </p>
         </div>
       </div>
-    </div>
-  );
+);
 }

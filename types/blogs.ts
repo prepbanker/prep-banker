@@ -48,7 +48,7 @@ export interface Blog {
   title: string;
   excerpt: string;
   content: string; // HTML string or markdown
-  featuredImage: string; // path e.g. /images/demo.jpg
+  featuredImage: string;
   category: BlogCategory;
   tags: BlogTag[];
   author: BlogAuthor;

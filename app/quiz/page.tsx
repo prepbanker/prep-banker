@@ -4,25 +4,30 @@ import Header           from '@/components/layout/Header';
 import Footer           from '@/components/layout/Footer';
 import Quiz             from '@/components/sections/quiz/Quiz';
 import QuizHero         from '@/components/sections/quiz/hero/QuizHero';
-import QuizHowItWorks   from '@/components/sections/quiz/hero/QuizHowItWorks';
 import QuizCTABanner    from '@/components/sections/quiz/QuizCTABanner';
 import QuizFAQSection   from '@/components/sections/quiz/QuizFAQSection';
-import { BreadcrumbSchema, generatePageMeta } from '@/components/seo';
+import { BreadcrumbSchema, FAQSchema, WebPageSchema, generatePageMeta, ItemListSchema } from '@/components/seo';
 import { quizStats }    from '@/lib/data/quiz';
+import { quizFaqs }     from '@/lib/data/quiz/quizFaqs';
+import { quizSeries }   from '@/lib/data/quiz/quizSeries';
 
 // ── Page metadata ──────────────────────────────────────────────
 export const metadata: Metadata = generatePageMeta({
-  title: 'Mock Test Series – SBI PO & IBPS PO Quiz Practice',
+  title: 'Practice Quizzes for SBI PO & IBPS PO | Topic-wise Quiz Preparation',
   description:
-    'Attempt full mock tests, sectional quizzes, and topic-wise practice for SBI PO and IBPS PO on PrepBanker. Free and premium test series with detailed analytics.',
+    'Practice topic-wise quizzes for SBI PO, IBPS PO, and other competitive exams. Improve accuracy, strengthen concepts, track performance, and boost your exam preparation with interactive quiz practice.',
   path: '/quiz',
   keywords: [
-    'SBI PO mock test',
+    'quiz practice',
+    'SBI PO quiz',
     'IBPS PO quiz',
-    'banking mock test series',
-    'free banking quiz',
-    'SBI PO practice test',
-    'IBPS PO test series',
+    'banking exam quiz',
+    'aptitude quiz',
+    'reasoning quiz',
+    'English quiz',
+    'current affairs quiz',
+    'online quiz practice',
+    'competitive exam preparation',
   ],
 });
 
@@ -32,9 +37,25 @@ export default function QuizPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Home',       href: '/' },
-          { name: 'Mock Tests', href: '/quiz' },
+          { name: 'Home',             href: '/' },
+          { name: 'Practice Quizzes', href: '/quiz' },
         ]}
+      />
+
+      <WebPageSchema
+        name="Practice Quizzes for SBI PO & IBPS PO | Topic-wise Quiz Preparation"
+        description="Practice topic-wise quizzes for SBI PO, IBPS PO, and other competitive exams. Improve accuracy, strengthen concepts, track performance, and boost your exam preparation with interactive quiz practice."
+        url="https://prepbanker.com/quiz"
+      />
+
+      <FAQSchema items={quizFaqs} />
+
+      <ItemListSchema
+        name="Practice Quizzes — PrepBanker"
+        items={quizSeries.map(q => ({
+          name: q.title,
+          url: `https://prepbanker.com/quiz?series=${q.id}`
+        }))}
       />
 
       <Header />
@@ -47,10 +68,7 @@ export default function QuizPage() {
           totalTests={quizStats.totalQuizSeries}
         />
 
-        {/* How It Works strip */}
-        <QuizHowItWorks />
-
-        {/* Quiz grid with sticky filters */}
+        {/* Quiz grid with sticky filters and SEO content */}
         <Quiz />
 
         {/* Bottom CTA */}

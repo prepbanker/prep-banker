@@ -73,27 +73,43 @@ export function BreadcrumbSchema({ items }: {
 }
 
 // ── ProductSchema ────────────────────────
-export function ProductSchema() {
+export function ProductSchema({
+  name = 'PrepBanker – Banking Exam Preparation Platform',
+  description = "India's most trusted banking exam preparation platform for SBI PO and IBPS PO aspirants.",
+  url = 'https://prepbanker.com',
+  price = '0',
+  currency = 'INR',
+  ratingValue = '4.8',
+  reviewCount = '8000',
+}: {
+  name?: string;
+  description?: string;
+  url?: string;
+  price?: string;
+  currency?: string;
+  ratingValue?: string;
+  reviewCount?: string;
+} = {}) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'PrepBanker – Banking Exam Preparation Platform',
-    description: 'India\'s most trusted banking exam preparation platform for SBI PO and IBPS PO aspirants.',
-    url: 'https://prepbanker.com',
+    name,
+    description,
+    url,
     brand: { '@type': 'Brand', name: 'PrepBanker' },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '8000',
+      ratingValue,
+      reviewCount,
       bestRating: '5',
       worstRating: '1',
     },
     offers: {
       '@type': 'Offer',
-      priceCurrency: 'INR',
-      price: '0',
+      priceCurrency: currency,
+      price,
       availability: 'https://schema.org/InStock',
-      description: 'Free mock tests available. Premium plans from ₹199/month.',
+      description: price === '0' ? 'Free mock tests available. Premium plans from ₹199/month.' : `Get premium access for ${currency} ${price}.`,
     },
   };
 
@@ -117,6 +133,175 @@ export function WebsiteSchema() {
       target: 'https://prepbanker.com/search?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// ── FAQSchema ────────────────────────────
+export function FAQSchema({ items }: {
+  items: { question: string; answer: string }[];
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// ── WebPageSchema ────────────────────────
+export function WebPageSchema({
+  name,
+  description,
+  url,
+}: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${url}#webpage`,
+    url,
+    name,
+    description,
+    publisher: {
+      '@type': 'Organization',
+      name: 'PrepBanker',
+      url: 'https://prepbanker.com',
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// ── CourseSchema ─────────────────────────
+export function CourseSchema({
+  name,
+  description,
+  url,
+}: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name,
+    description,
+    provider: {
+      '@type': 'Organization',
+      name: 'PrepBanker',
+      sameAs: 'https://prepbanker.com',
+    },
+    url,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// ── ArticleSchema ────────────────────────
+export function ArticleSchema({
+  headline,
+  description,
+  image,
+  datePublished,
+  authorName = 'PrepBanker Editorial Board',
+  publisherName = 'PrepBanker',
+  publisherLogoUrl = 'https://prepbanker.com/logo.png',
+  url,
+}: {
+  headline: string;
+  description: string;
+  image: string;
+  datePublished: string;
+  authorName?: string;
+  publisherName?: string;
+  publisherLogoUrl?: string;
+  url: string;
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline,
+    description,
+    image,
+    datePublished,
+    author: {
+      '@type': 'Person',
+      name: authorName,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: publisherName,
+      logo: {
+        '@type': 'ImageObject',
+        url: publisherLogoUrl,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// ── ItemListSchema ───────────────────────
+export function ItemListSchema({
+  name,
+  items,
+}: {
+  name: string;
+  items: { name: string; url: string }[];
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      url: item.url,
+    })),
   };
 
   return (

@@ -6,22 +6,28 @@ import Footer from '@/components/layout/Footer';
 import LiveTestsHero from '@/components/sections/live-tests/hero/LiveTestsHero';
 import LiveTests from '@/components/sections/live-tests/LiveTests';
 import LiveTestsFAQ from '@/components/sections/live-tests/faq/LiveTestsFAQ';
+import { BreadcrumbSchema, FAQSchema, WebPageSchema, ItemListSchema } from '@/components/seo';
+import { liveTestFAQs, liveTests } from '@/lib/data/live-tests';
 
 export const metadata: Metadata = {
-  title: 'Live Mock Tests – SBI PO & IBPS PO Live Exams | PrepBanker',
+  title: 'Live Mock Tests for SBI PO & IBPS PO | Free Banking Exam Test Series',
   description:
-    'Join live mock tests for SBI PO and IBPS PO on PrepBanker. Compete in real-time with thousands of banking aspirants and get instant all-India rankings.',
+    'Attempt free live mock tests for SBI PO, IBPS PO, and other banking exams. Practice in a real exam environment, improve speed and accuracy, track performance, and boost your chances of success.',
   keywords: [
-    'live banking mock test',
+    'live mock test',
     'SBI PO live test',
-    'IBPS PO live exam',
-    'real-time banking test',
-    'banking exam practice',
+    'IBPS PO live test',
+    'banking exam mock tests',
+    'free mock test',
+    'online test series',
+    'banking preparation',
+    'SBI PO preparation',
+    'IBPS PO preparation',
   ],
   openGraph: {
-    title: 'Live Mock Tests – SBI PO & IBPS PO | PrepBanker',
+    title: 'Live Mock Tests for SBI PO & IBPS PO | Free Banking Exam Test Series',
     description:
-      'Real-time mock tests for SBI PO and IBPS PO. Compete live with 13,000+ aspirants.',
+      'Attempt free live mock tests for SBI PO, IBPS PO, and other banking exams. Practice in a real exam environment, improve speed and accuracy, track performance, and boost your chances of success.',
     url: 'https://prepbanker.com/live-tests',
     type: 'website',
   },
@@ -30,6 +36,29 @@ export const metadata: Metadata = {
 export default function LiveTestsPage() {
   return (
     <>
+      <WebPageSchema
+        name="Live Mock Tests for SBI PO & IBPS PO | Free Banking Exam Test Series"
+        description="Attempt free live mock tests for SBI PO, IBPS PO, and other banking exams. Practice in a real exam environment, improve speed and accuracy, track performance, and boost your chances of success."
+        url="https://prepbanker.com/live-tests"
+      />
+
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Live Tests', href: '/live-tests' },
+        ]}
+      />
+
+      <FAQSchema items={liveTestFAQs} />
+
+      <ItemListSchema
+        name="Live Mock Tests — PrepBanker"
+        items={liveTests.map(t => ({
+          name: t.title,
+          url: `https://prepbanker.com/live-tests?test=${t.id}`
+        }))}
+      />
+
       <Header />
 
       <main>
