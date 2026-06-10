@@ -1,6 +1,14 @@
 // PATH: app/layout.tsx
 import type { Metadata, Viewport } from 'next';
+import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
 
 // ─────────────────────────────────────────
 // SEO — Root Metadata
@@ -106,7 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body suppressHydrationWarning>
+      <body className={inter.variable} suppressHydrationWarning>
         {children}
         <StickyBottomCTA />
       </body>

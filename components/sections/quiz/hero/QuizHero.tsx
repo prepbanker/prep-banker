@@ -48,7 +48,7 @@ export default function QuizHero({ stats, totalTests }: Props) {
           <Breadcrumb
             items={[
               { label: 'Home', href: '/' },
-              { label: 'Quiz Practice' },
+              { label: 'Quiz Practice ' },
             ]}
           />
         </div>
@@ -64,7 +64,7 @@ export default function QuizHero({ stats, totalTests }: Props) {
               <Star className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" fill="currentColor" />
               <span className="text-[11px] font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
                 {stats.avgRating} Rated · India&apos;s #1 Banking Quiz Platform
-              </span>
+              </span> 
             </div>
 
             {/* Headline */}

@@ -1,8 +1,9 @@
 // PATH: components/sections/current-affairs/cards/CACard.tsx
 'use client';
 
-import { memo } from 'react';
+import { memo, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Clock } from 'lucide-react';
 import type { CurrentAffair } from '../../../../types/current-affairs';
 
@@ -19,7 +20,7 @@ export function getArticleImage(ca: CurrentAffair): string {
     'Awards & Honors': 'https://images.unsplash.com/photo-1531058020387-3be344559be6?w=500&auto=format&fit=crop&q=80',
     'Reports & Indexes': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=80',
   };
-  
+
   if (ca.id.includes('rbi-01')) {
     return 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=500&auto=format&fit=crop&q=80';
   }
@@ -33,7 +34,7 @@ export function getArticleImage(ca: CurrentAffair): string {
     return 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=500&auto=format&fit=crop&q=80';
   }
   if (ca.title.toLowerCase().includes('padma')) {
-    return '/images/padma.png';
+    return 'https://images.unsplash.com/photo-1578269174936-2709b5a8c0e3?w=500&auto=format&fit=crop&q=80';
   }
   if (ca.title.toLowerCase().includes('governor bags') || ca.title.toLowerCase().includes('best central banker')) {
     return 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=80';
@@ -48,6 +49,7 @@ interface CACardProps {
 
 function CACard({ ca }: CACardProps) {
   const imageUrl = getArticleImage(ca);
+  const [imgSrc, setImgSrc] = useState(imageUrl);
 
   // Parse custom format like 'May 20, 2026' into '20 May' or similar if needed, or keep it short.
   const formatShortDate = (dateStr: string) => {
@@ -68,13 +70,13 @@ function CACard({ ca }: CACardProps) {
     >
       {/* Article Image */}
       <div className="relative h-48 w-full overflow-hidden bg-slate-100">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={imageUrl}
+        <Image
+          src={imgSrc}
           alt={ca.title}
-          loading="lazy"
-          className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-          onError={(e) => { (e.target as HTMLImageElement).src = '/images/default.jpg'; }}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 25vw"
+          className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+          onError={() => setImgSrc('/images/default.jpg')}
         />
         {/* Category tag overlaid */}
         <div className="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[9px] font-extrabold uppercase px-2 py-0.5 rounded tracking-wide">

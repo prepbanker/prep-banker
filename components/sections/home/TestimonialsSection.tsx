@@ -2,6 +2,7 @@
 'use client';
 
 import { Zap } from 'lucide-react';
+import Image from 'next/image';
 import { Button } from '@/components/ui';
 import { testimonials } from '@/lib/data';
 
@@ -331,13 +332,13 @@ function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[
       {/* Bottom Row: User info */}
       <div className="flex items-center gap-3">
         {/* Avatar */}
-        <img
+        <Image
           src={getProfileImage(t.id)}
           alt={t.name}
+          width={40}
+          height={40}
           className="flex-shrink-0 object-cover"
           style={{
-            width: 40,
-            height: 40,
             borderRadius: '50%',
             border: '1.5px solid var(--color-gray-100)',
           }}

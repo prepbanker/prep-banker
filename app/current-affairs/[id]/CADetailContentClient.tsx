@@ -3,6 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Calendar,
   User,
@@ -44,6 +45,7 @@ export default function CADetailContentClient({
   const [activeSection, setActiveSection] = useState('intro');
 
   const imageUrl = getArticleImage(article);
+  const [imgSrc, setImgSrc] = useState(imageUrl);
 
   // Generate page URL for sharing
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
@@ -236,14 +238,15 @@ export default function CADetailContentClient({
           <article className="w-full lg:w-3/4 flex flex-col gap-8">
 
             {/* Featured Image */}
-            <div className="relative w-full overflow-hidden rounded-2xl bg-slate-100 border border-slate-200 shadow-sm max-h-[420px]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={imageUrl}
+            <div className="relative w-full aspect-[16/9] overflow-hidden rounded-2xl bg-slate-100 border border-slate-200 shadow-sm max-h-[420px]">
+              <Image
+                src={imgSrc}
                 alt={article.title}
-                loading="lazy"
-                className="w-full h-auto max-h-[420px] object-cover object-center"
-                onError={(e) => { (e.target as HTMLImageElement).src = '/images/default.jpg'; }}
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 75vw"
+                className="object-cover object-center"
+                onError={() => setImgSrc('/images/default.jpg')}
               />
             </div>
 

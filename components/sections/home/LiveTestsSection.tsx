@@ -285,7 +285,7 @@ export default function LiveTestsSection() {
                         <div
                           className="font-bold text-[1.15rem] tracking-[0.04em]"
                           style={{
-                            fontFamily: "'JetBrains Mono', monospace",
+                            fontFamily: 'var(--font-mono)',
                             color: isUrgent ? '#ef4444' : '#1B6EB5',
                           }}
                         >
