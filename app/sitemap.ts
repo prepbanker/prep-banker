@@ -29,7 +29,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // 3. Exam Detail Subsections
-  const SECTIONS = ['eligibility', 'syllabus', 'exam-pattern', 'salary', 'cut-offs', 'dates', 'strategy'];
+  const SECTIONS = [
+    'notification',
+    'admit-card',
+    'vacancy',
+    'syllabus',
+    'important-dates',
+    'cut-off',
+    'exam-pattern',
+    'eligibility',
+    'selection-process',
+    'salary',
+    'mock-tests',
+    'english-tests',
+    'quant-tests',
+    'reasoning-tests',
+    'comparison',
+    'study-plan'
+  ];
   const detailPages: MetadataRoute.Sitemap = [];
   for (const examId of exams) {
     for (const section of SECTIONS) {

@@ -10,7 +10,30 @@ interface PageProps {
   params: Promise<{ examId: string; section: string }>;
 }
 
-const SECTIONS = ['eligibility', 'syllabus', 'exam-pattern', 'salary', 'cut-offs', 'dates', 'strategy'];
+const SECTIONS = [
+  // New Slugs
+  'notification',
+  'admit-card',
+  'vacancy',
+  'syllabus',
+  'important-dates',
+  'cut-off',
+  'exam-pattern',
+  'eligibility',
+  'selection-process',
+  'salary',
+  'mock-tests',
+  'english-tests',
+  'quant-tests',
+  'reasoning-tests',
+  'comparison',
+  'study-plan',
+
+  // Legacy compatibility slugs
+  'dates',
+  'cut-offs',
+  'strategy'
+];
 
 export async function generateStaticParams() {
   const exams = ['sbi-po', 'ibps-po'];
@@ -37,10 +60,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  // Generate highly descriptive, SEO-optimized title & description
-  const sectionTitle = section.charAt(0).toUpperCase() + section.slice(1).replace('-', ' ');
-  const title = `${exam.shortName} ${sectionTitle} 2026 — Complete Guide & Trends | PrepBanker`;
-  const description = `${content.overview.slice(0, 150)}... Read comprehensive analysis on PrepBanker.`;
+  // Generate highly descriptive, SEO-optimized title & description or use page overrides
+  const title = content.metaTitle || `${content.title} | PrepBanker`;
+  const description = content.metaDescription || `${content.overview.slice(0, 150)}... Read the comprehensive guide and attempt free practice mock tests on PrepBanker.`;
 
   return {
     title,
@@ -68,28 +90,34 @@ export default async function ExamSectionPage({ params }: PageProps) {
 
   return (
     <>
-      <BreadcrumbSchema
-        items={[
-          { name: 'Home', href: '/' },
-          { name: 'Exams', href: '/exams' },
-          { name: exam.shortName, href: `/${examId}` },
-          { name: content.title, href: `/${examId}/${section}` },
-        ]}
-      />
-      <ArticleSchema
-        headline={`${exam.shortName} ${content.title} Guide 2026`}
-        description={content.overview}
-        image="https://prepbanker.com/favicon-32x32.png"
-        datePublished="2026-01-01"
-        url={`https://prepbanker.com/${examId}/${section}`}
-      />
-      {content.faqs && content.faqs.length > 0 && (
-        <FAQSchema
-          items={content.faqs.map(f => ({
-            question: f.q,
-            answer: f.a,
-          }))}
-        />
+      {content.customSchemas ? (
+        content.customSchemas
+      ) : (
+        <>
+          <BreadcrumbSchema
+            items={[
+              { name: 'Home', href: '/' },
+              { name: 'Exams', href: '/exams' },
+              { name: exam.shortName, href: `/${examId}` },
+              { name: content.title, href: `/${examId}/${section}` },
+            ]}
+          />
+          <ArticleSchema
+            headline={`${content.title}`}
+            description={content.overview}
+            image="https://prepbanker.com/favicon-32x32.png"
+            datePublished="2026-01-01"
+            url={`https://prepbanker.com/${examId}/${section}`}
+          />
+          {content.faqs && content.faqs.length > 0 && (
+            <FAQSchema
+              items={content.faqs.map(f => ({
+                question: f.q,
+                answer: f.a,
+              }))}
+            />
+          )}
+        </>
       )}
       <ExamDetailLayout examId={examId} sectionSlug={section} />
     </>

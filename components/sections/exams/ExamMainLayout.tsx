@@ -29,6 +29,7 @@ import type { ExamDetailData } from '@/types/exam';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumb from '@/components/shared/Breadcrumb';
+import QuickNavigation from './QuickNavigation';
 import './exam.css';
 
 interface Props {
@@ -1774,7 +1775,7 @@ export default function ExamMainLayout({ exam }: Props) {
             
             <div className="mt-4">
               <Link
-                href={`/${exam.id}/cut-offs`}
+                href={`/${exam.id}/cut-off`}
                 className="inline-flex items-center text-sm font-bold text-[#1B6EB5] hover:text-[#2481CC] underline"
               >
                 View Full Category-wise Cut-off History →
@@ -2214,63 +2215,7 @@ export default function ExamMainLayout({ exam }: Props) {
         <aside className="sticky top-20 space-y-4">
           
           {/* Quick Navigation panel */}
-          <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-            <div className="bg-slate-900 px-4 py-3 text-white font-bold text-xs uppercase tracking-wider flex items-center gap-1.5 font-display">
-              <BookOpen size={14} className="text-[var(--color-gold)]" />
-              Quick Navigation
-            </div>
-            <nav className="p-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-1">
-              <Link
-                href={`/${exam.id}/eligibility`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Eligibility Criteria</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-              <Link
-                href={`/${exam.id}/syllabus`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Official Syllabus</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-              <Link
-                href={`/${exam.id}/exam-pattern`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Exam Pattern</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-              <Link
-                href={`/${exam.id}/salary`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Salary & Job Profile</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-              <Link
-                href={`/${exam.id}/cut-offs`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Previous Year Cutoffs</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-              <Link
-                href={`/${exam.id}/dates`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Important Dates</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-              <Link
-                href={`/${exam.id}/strategy`}
-                className="flex items-center justify-between px-3 py-2 text-sm font-bold text-[#1B6EB5] hover:bg-[var(--color-sky)] hover:underline rounded-lg transition-colors"
-              >
-                <span>Preparation Strategy</span>
-                <ChevronRight size={12} className="opacity-50" />
-              </Link>
-            </nav>
-          </div>
+          <QuickNavigation exam={exam} />
 
           {/* Premium Mock Test CTA Banner */}
           <div className="bg-gradient-to-br from-[#07102A] to-[#1A2D5A] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white">
