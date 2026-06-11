@@ -1,7 +1,7 @@
 // PATH: components/sections/exams/ExamMainLayout.tsx
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   CheckCircle2,
@@ -24,6 +24,8 @@ import {
   ChevronDown,
   ExternalLink,
   BookOpen,
+  X,
+  ShieldAlert,
 } from 'lucide-react';
 import type { ExamDetailData } from '@/types/exam';
 import Header from '@/components/layout/Header';
@@ -48,6 +50,172 @@ export default function ExamMainLayout({ exam }: Props) {
   const DESC_LIMIT = 180;
   const hasMoreDesc = exam.description.length > DESC_LIMIT;
   const displayDesc = descExpanded ? exam.description : (hasMoreDesc ? exam.description.slice(0, DESC_LIMIT) + '...' : exam.description);
+
+  // --- NEW: Modals State ---
+  const [showEligModal, setShowEligModal] = useState(false);
+  const [showSalModal, setShowSalModal] = useState(false);
+
+  // Eligibility Checker States
+  const [eligAge, setEligAge] = useState<number>(21);
+  const [eligGrad, setEligGrad] = useState<string>('completed');
+  const [eligCategory, setEligCategory] = useState<string>('general');
+  const [eligResult, setEligResult] = useState<{ eligible: boolean; text: string; details?: string } | null>(null);
+
+  // Salary Calculator States
+  const [salCity, setSalCity] = useState<'metro' | 'urban' | 'semi'>('metro');
+  const [salLease, setSalLease] = useState<boolean>(false);
+
+  // Syllabus progress state
+  const [checkedTopics, setCheckedTopics] = useState<{ [key: string]: boolean }>({});
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem(`prep_progress_${exam.id}`);
+      if (stored) {
+        try {
+          setCheckedTopics(JSON.parse(stored));
+        } catch (e) {
+          console.error(e);
+        }
+      }
+    }
+  }, [exam.id]);
+
+  const toggleTopic = (topic: string) => {
+    const next = { ...checkedTopics, [topic]: !checkedTopics[topic] };
+    setCheckedTopics(next);
+    localStorage.setItem(`prep_progress_${exam.id}`, JSON.stringify(next));
+  };
+
+  // Eligibility Checker Function
+  const handleCheckEligibility = () => {
+    let maxAge = 30;
+    let attemptsText = '';
+
+    if (eligCategory === 'obc') {
+      maxAge = 33;
+      attemptsText = isSbi ? 'OBC Category: Maximum of 7 attempts allowed.' : 'OBC Category: Unlimited attempts allowed.';
+    } else if (eligCategory === 'scst') {
+      maxAge = 35;
+      attemptsText = 'SC/ST Category: Unlimited attempts allowed.';
+    } else if (eligCategory === 'pwbd_gen') {
+      maxAge = 40;
+      attemptsText = isSbi ? 'PwBD (General/EWS): Maximum of 7 attempts allowed.' : 'PwBD (General/EWS): Unlimited attempts allowed.';
+    } else if (eligCategory === 'pwbd_obc') {
+      maxAge = 43;
+      attemptsText = isSbi ? 'PwBD (OBC): Maximum of 7 attempts allowed.' : 'PwBD (OBC): Unlimited attempts allowed.';
+    } else if (eligCategory === 'pwbd_scst') {
+      maxAge = 45;
+      attemptsText = 'PwBD (SC/ST): Unlimited attempts allowed.';
+    } else {
+      // General / EWS
+      maxAge = 30;
+      attemptsText = isSbi ? 'General/EWS Category: Maximum of 4 attempts allowed.' : 'General/EWS Category: Unlimited attempts allowed.';
+    }
+
+    const minAge = isSbi ? 21 : 20;
+
+    let isEligible = true;
+    let reasonText = '';
+    let detailText = '';
+
+    if (eligAge < minAge) {
+      isEligible = false;
+      reasonText = `Age is less than the minimum required limit of ${minAge} years.`;
+    } else if (eligAge > maxAge) {
+      isEligible = false;
+      reasonText = `Age (${eligAge}) exceeds the maximum allowed limit of ${maxAge} years for this category.`;
+    }
+
+    if (eligGrad === 'undergrad') {
+      isEligible = false;
+      reasonText = reasonText ? `${reasonText} Also, you must at least be in the final year of graduation.` : 'You must at least be in the final year of graduation to apply.';
+    }
+
+    if (isEligible) {
+      if (eligGrad === 'final_year') {
+        reasonText = 'Eligible (Provisionally)';
+        detailText = `You meet the age criteria (${eligAge} years). Since you are in your final year/semester, you can apply provisionally. However, you must produce proof of passing graduation before joining. ${attemptsText}`;
+      } else {
+        reasonText = 'Eligible';
+        detailText = `Congratulations! You meet all eligibility criteria (Age: ${eligAge} years, Graduated). ${attemptsText}`;
+      }
+    } else {
+      detailText = `Unfortunately, you do not meet the requirements. Minimum age is ${minAge} years, and maximum age limit for your selected category is ${maxAge} years. ${attemptsText}`;
+    }
+
+    setEligResult({ eligible: isEligible, text: reasonText, details: detailText });
+  };
+
+  // Salary Calculator Function
+  const getSalaryDetails = () => {
+    const basic = isSbi ? 41960 : 36000;
+    const da = isSbi ? 17200 : 15000;
+    const special = isSbi ? 5500 : 4500;
+    const transport = isSbi ? 1200 : 1000;
+
+    let hra = 0;
+    let leaseAmount = 0;
+
+    if (salCity === 'metro') {
+      hra = isSbi ? 9030 : 3240;
+      leaseAmount = isSbi ? 29500 : 15000;
+    } else if (salCity === 'urban') {
+      hra = isSbi ? 6300 : 2160;
+      leaseAmount = isSbi ? 19000 : 10000;
+    } else {
+      hra = isSbi ? 4500 : 1080;
+      leaseAmount = isSbi ? 12000 : 7000;
+    }
+
+    const housingBenefit = salLease ? leaseAmount : hra;
+    const gross = basic + da + special + transport + housingBenefit;
+
+    const nps = Math.round((basic + da) * 0.1);
+    const profTax = 200;
+    const deductions = nps + profTax;
+
+    const netInHand = salLease 
+      ? (basic + da + special + transport - deductions)
+      : (gross - deductions);
+
+    return {
+      basic,
+      da,
+      special,
+      transport,
+      housingBenefit,
+      hra,
+      leaseAmount,
+      gross,
+      nps,
+      profTax,
+      deductions,
+      netInHand
+    };
+  };
+
+  // Active syllabus topics for completion computation
+  const activeTopics = syllabusTab === 'prelims' 
+    ? [
+        ...(exam.syllabus['English Language']?.slice(0, 4) || []),
+        ...(exam.syllabus['Quantitative Aptitude']?.slice(0, 4) || []),
+        ...(exam.syllabus['Reasoning Ability']?.slice(0, 4) || [])
+      ]
+    : isSbi
+      ? [
+          ...(exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4) || []),
+          ...(exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4) || [])
+        ]
+      : [
+          'Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks',
+          ...(exam.syllabus['General/Banking Awareness']?.slice(0, 4) || [])
+        ];
+
+  const totalActiveCount = activeTopics.length;
+  const completedActiveCount = activeTopics.filter(t => checkedTopics[t]).length;
+  const completionPercent = totalActiveCount > 0 ? Math.round((completedActiveCount / totalActiveCount) * 100) : 0;
+  // --- END: Calculator & Tracker Logic ---
 
   // Table of Contents list
   const tocItems = isSbi
@@ -85,6 +253,36 @@ export default function ExamMainLayout({ exam }: Props) {
         { label: `${exam.shortName} vs SBI PO Comparison`, id: 'comparison' },
         { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
       ];
+  const renderTopicBadge = (t: string) => {
+    const isChecked = !!checkedTopics[t];
+    const parts = t.split(' (');
+    const mainText = parts[0];
+    const subText = parts[1] ? `(${parts[1]}` : '';
+
+    return (
+      <div
+        key={t}
+        onClick={() => toggleTopic(t)}
+        className={`w-full rounded-lg border p-2.5 flex items-start gap-2 cursor-pointer transition-all select-none hover:shadow-xs text-left ${
+          isChecked
+            ? 'border-green-300 bg-green-50/20 text-green-800 shadow-xs'
+            : 'border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50 text-slate-700'
+        }`}
+      >
+        <div className={`w-3.5 h-3.5 rounded border flex items-center justify-center shrink-0 mt-0.5 ${
+          isChecked 
+            ? 'bg-green-600 border-green-600 text-white' 
+            : 'border-slate-300 bg-white'
+        }`}>
+          {isChecked && <span className="text-[9px] font-black leading-none">✓</span>}
+        </div>
+        <div className="flex flex-col gap-0.5 break-words min-w-0 flex-1 leading-normal">
+          <span className="text-[11px] font-bold">{mainText}</span>
+          {subText && <span className="text-[9px] font-normal text-slate-400 leading-tight">{subText}</span>}
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div className="bg-slate-50/40 min-h-screen flex flex-col font-sans">
@@ -161,7 +359,7 @@ export default function ExamMainLayout({ exam }: Props) {
             {hasMoreDesc && (
               <button
                 onClick={() => setDescExpanded(v => !v)}
-                className="font-bold underline hover:text-white transition-colors ml-1 focus:outline-none"
+                className="font-bold underline hover:text-white transition-colors ml-1 focus:outline-none text-xs sm:text-[13px]"
                 style={{ color: isSbi ? '#60B4FF' : '#F0B429' }}
               >
                 {descExpanded ? 'Read Less ↑' : 'Read More ↓'}
@@ -235,22 +433,26 @@ export default function ExamMainLayout({ exam }: Props) {
           {/* Right Column: CTA Actions */}
           <div className="flex flex-col gap-3 w-full md:w-auto shrink-0 items-start md:items-end">
             <div className="flex gap-3 w-full sm:w-auto">
-              <a
-                href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 sm:flex-initial text-center px-4 py-2 border border-slate-200 text-slate-700 font-bold text-xs rounded-lg hover:bg-slate-50 transition-all"
+              <button
+                onClick={() => {
+                  setEligResult(null);
+                  setShowEligModal(true);
+                }}
+                className="flex-1 sm:flex-initial text-center px-4 py-2.5 border border-slate-200 text-slate-700 hover:text-slate-900 font-extrabold text-xs rounded-lg hover:bg-slate-50 transition-all cursor-pointer shadow-sm active:scale-95"
               >
-                Download PDF Notification
-              </a>
-              <a
-                href="https://app.prepgrind.com/register"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 sm:flex-initial text-center px-4 py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all"
+                🔍 Check Eligibility
+              </button>
+              <button
+                onClick={() => setShowSalModal(true)}
+                className="flex-1 sm:flex-initial text-center px-4 py-2.5 text-white font-extrabold text-xs rounded-lg transition-all cursor-pointer shadow-md hover:opacity-95 active:scale-95"
+                style={{
+                  background: isSbi
+                    ? 'linear-gradient(135deg, #1B6EB5 0%, #104A7D 100%)'
+                    : 'linear-gradient(135deg, #D4A017 0%, #A37505 100%)',
+                }}
               >
-                Apply Online
-              </a>
+                💵 Calculate Salary
+              </button>
             </div>
             <span className="text-[10px] text-slate-400 flex items-center gap-1 font-semibold">
               Official Website:{' '}
@@ -258,7 +460,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[var(--color-blue)] hover:underline flex items-center gap-0.5"
+                className="text-[var(--color-blue)] hover:underline flex items-center gap-0.5 font-bold"
               >
                 {isSbi ? 'sbi.co.in' : 'ibps.in'}
                 <ExternalLink size={8} />
@@ -796,10 +998,35 @@ export default function ExamMainLayout({ exam }: Props) {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-3 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Complete Syllabus — Prelims & Mains' : 'Syllabus Breakdown'}
             </h2>
+
+            {/* Syllabus Progress Bar */}
+            <div className="mb-6 bg-slate-50 border border-slate-200 p-4 rounded-xl">
+              <div className="flex justify-between items-center mb-1.5 flex-wrap gap-2">
+                <span className="text-xs font-black text-slate-700 uppercase tracking-wide flex items-center gap-1.5">
+                  📝 {syllabusTab === 'prelims' ? 'Prelims' : 'Mains'} Syllabus Tracker
+                </span>
+                <span className="text-xs font-black" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
+                  {completedActiveCount} / {totalActiveCount} Topics Completed ({completionPercent}%)
+                </span>
+              </div>
+              <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden shadow-inner">
+                <div
+                  className="h-full rounded-full transition-all duration-500"
+                  style={{
+                    width: `${completionPercent}%`,
+                    backgroundColor: isSbi ? '#1B6EB5' : '#D4A017'
+                  }}
+                />
+              </div>
+              <p className="text-[10px] text-slate-400 font-semibold mt-1.5 italic">
+                *Click on any topic tag below to check it off and track your preparation progress.
+              </p>
+            </div>
+
             <div className="flex gap-2 mb-4 bg-slate-100 p-1 rounded-lg w-fit">
               <button
                 onClick={() => setSyllabusTab('prelims')}
-                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all border-none cursor-pointer ${
                   syllabusTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
                 }`}
               >
@@ -807,7 +1034,7 @@ export default function ExamMainLayout({ exam }: Props) {
               </button>
               <button
                 onClick={() => setSyllabusTab('mains')}
-                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all border-none cursor-pointer ${
                   syllabusTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
                 }`}
               >
@@ -816,95 +1043,92 @@ export default function ExamMainLayout({ exam }: Props) {
             </div>
 
             {syllabusTab === 'prelims' ? (
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
                     English Language
                   </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {exam.syllabus['English Language']?.slice(0, 4).map((t) => (
-                      <span key={t} className="text-[11px] font-bold text-slate-650 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                        {t}
-                      </span>
-                    ))}
-                    <span className="text-[11px] font-extrabold text-[#1B6EB5] bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full">
-                      + more topics
-                    </span>
+                  <div className="flex flex-col gap-2">
+                    {exam.syllabus['English Language']?.slice(0, 4).map((t) => renderTopicBadge(t))}
+                    <Link
+                      href={`/${exam.id}/syllabus`}
+                      className="text-[10px] font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                    >
+                      + View All Syllabus Topics
+                    </Link>
                   </div>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
                     Quant Aptitude
                   </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {exam.syllabus['Quantitative Aptitude']?.slice(0, 4).map((t) => (
-                      <span key={t} className="text-[11px] font-bold text-slate-650 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                        {t}
-                      </span>
-                    ))}
-                    <span className="text-[11px] font-extrabold text-[#1B6EB5] bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full">
-                      + more topics
-                    </span>
+                  <div className="flex flex-col gap-2">
+                    {exam.syllabus['Quantitative Aptitude']?.slice(0, 4).map((t) => renderTopicBadge(t))}
+                    <Link
+                      href={`/${exam.id}/syllabus`}
+                      className="text-[10px] font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                    >
+                      + View All Syllabus Topics
+                    </Link>
                   </div>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
                     Reasoning Ability
                   </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {exam.syllabus['Reasoning Ability']?.slice(0, 4).map((t) => (
-                      <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                        {t}
-                      </span>
-                    ))}
-                    <span className="text-[11px] font-extrabold text-[#1B6EB5] bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-full">
-                      + more topics
-                    </span>
+                  <div className="flex flex-col gap-2">
+                    {exam.syllabus['Reasoning Ability']?.slice(0, 4).map((t) => renderTopicBadge(t))}
+                    <Link
+                      href={`/${exam.id}/syllabus`}
+                      className="text-[10px] font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                    >
+                      + View All Syllabus Topics
+                    </Link>
                   </div>
                 </div>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[var(--color-gold)] border-b border-slate-200 pb-1.5 font-display">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
                     Reasoning & Computer
                   </h4>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-col gap-2">
                     {isSbi
-                      ? exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4).map((t) => (
-                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                            {t}
-                          </span>
-                        ))
-                      : ['Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks', 'Logic Gates'].map((t) => (
-                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                            {t}
-                          </span>
-                        ))}
-                    <span className="text-[11px] font-extrabold text-[var(--color-gold)] bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-full">
-                      + more topics
-                    </span>
+                      ? exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4).map((t) => renderTopicBadge(t))
+                      : ['Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks'].map((t) => renderTopicBadge(t))}
+                    <Link
+                      href={`/${exam.id}/syllabus`}
+                      className="text-[10px] font-extrabold hover:text-slate-800 bg-amber-50 hover:bg-amber-100 border border-amber-100 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      style={{
+                        color: isSbi ? '#1B6EB5' : '#7A5200',
+                        borderColor: isSbi ? '#bfdbfe' : '#fef3c7',
+                        backgroundColor: isSbi ? '#eff6ff' : '#fefbeb'
+                      }}
+                    >
+                      + View All Syllabus Topics
+                    </Link>
                   </div>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[var(--color-gold)] border-b border-slate-200 pb-1.5 font-display">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
                     General/Economy Awareness
                   </h4>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-col gap-2">
                     {isSbi
-                      ? exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4).map((t) => (
-                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                            {t}
-                          </span>
-                        ))
-                      : exam.syllabus['General/Banking Awareness']?.slice(0, 4).map((t) => (
-                          <span key={t} className="text-[11px] font-bold text-slate-655 bg-white border border-slate-200 px-2 py-0.5 rounded-full">
-                            {t}
-                          </span>
-                        ))}
-                    <span className="text-[11px] font-extrabold text-[var(--color-gold)] bg-amber-50 border border-amber-100 px-2 py-0.5 rounded-full">
-                      + more topics
-                    </span>
+                      ? exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4).map((t) => renderTopicBadge(t))
+                      : exam.syllabus['General/Banking Awareness']?.slice(0, 4).map((t) => renderTopicBadge(t))}
+                    <Link
+                      href={`/${exam.id}/syllabus`}
+                      className="text-[10px] font-extrabold hover:text-slate-800 bg-amber-50 hover:bg-amber-100 border border-amber-100 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      style={{
+                        color: isSbi ? '#1B6EB5' : '#7A5200',
+                        borderColor: isSbi ? '#bfdbfe' : '#fef3c7',
+                        backgroundColor: isSbi ? '#eff6ff' : '#fefbeb'
+                      }}
+                    >
+                      + View All Syllabus Topics
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -2240,6 +2464,247 @@ export default function ExamMainLayout({ exam }: Props) {
       </div>
 
       <Footer />
+
+      {/* ── Eligibility Checker Modal ── */}
+      {showEligModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fadein">
+          <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl overflow-hidden border border-slate-100 flex flex-col max-h-[90vh]">
+            {/* Modal Header */}
+            <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50">
+              <h3 className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2">
+                🎓 {exam.shortName} 2026 Eligibility Checker
+              </h3>
+              <button
+                onClick={() => setShowEligModal(false)}
+                className="text-slate-400 hover:text-slate-650 p-1.5 rounded-full hover:bg-slate-105 transition-all cursor-pointer border-none"
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6 space-y-4 overflow-y-auto flex-1 text-slate-700 text-xs sm:text-sm">
+              <div className="space-y-1">
+                <label className="block font-bold text-slate-700">Enter Your Age (in years):</label>
+                <div className="flex gap-3 items-center">
+                  <input
+                    type="number"
+                    min={18}
+                    max={50}
+                    value={eligAge}
+                    onChange={(e) => setEligAge(Number(e.target.value))}
+                    className="w-20 px-3 py-1.5 border border-slate-200 rounded-lg text-center font-bold text-slate-800 focus:border-[#1B6EB5] focus:outline-none"
+                  />
+                  <input
+                    type="range"
+                    min={18}
+                    max={50}
+                    value={eligAge}
+                    onChange={(e) => setEligAge(Number(e.target.value))}
+                    className="flex-1 accent-[#1B6EB5]"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-1">
+                <label className="block font-bold text-slate-700">Graduation Status:</label>
+                <select
+                  value={eligGrad}
+                  onChange={(e) => setEligGrad(e.target.value)}
+                  className="w-full px-3 py-2 border border-slate-200 rounded-lg text-slate-800 focus:border-[#1B6EB5] focus:outline-none font-semibold"
+                >
+                  <option value="completed">Completed Graduation</option>
+                  <option value="final_year">In Final Year / Semester</option>
+                  <option value="undergrad">Undergraduate (Not in final year)</option>
+                </select>
+              </div>
+
+              <div className="space-y-1">
+                <label className="block font-bold text-slate-700">Select Category:</label>
+                <select
+                  value={eligCategory}
+                  onChange={(e) => setEligCategory(e.target.value)}
+                  className="w-full px-3 py-2 border border-slate-200 rounded-lg text-slate-800 focus:border-[#1B6EB5] focus:outline-none font-semibold"
+                >
+                  <option value="general">General / EWS (Unreserved)</option>
+                  <option value="obc">OBC (Non-Creamy Layer)</option>
+                  <option value="scst">SC / ST</option>
+                  <option value="pwbd_gen">PwBD (General / EWS)</option>
+                  <option value="pwbd_obc">PwBD (OBC)</option>
+                  <option value="pwbd_scst">PwBD (SC / ST)</option>
+                </select>
+              </div>
+
+              <button
+                onClick={handleCheckEligibility}
+                className="w-full py-2.5 rounded-lg text-white font-extrabold tracking-wide transition-all shadow-md cursor-pointer hover:opacity-95 text-center mt-2 border-none"
+                style={{ background: isSbi ? '#1B6EB5' : '#D4A017', color: isSbi ? '#fff' : '#07102A' }}
+              >
+                Verify My Eligibility
+              </button>
+
+              {/* Eligibility Result output */}
+              {eligResult && (
+                <div
+                  className={`p-4 rounded-xl border flex flex-col gap-1.5 animate-fadein ${
+                    eligResult.eligible
+                      ? 'bg-green-50 border-green-200 text-green-800'
+                      : 'bg-rose-50 border-rose-250 text-rose-800'
+                  }`}
+                >
+                  <div className="flex items-center gap-1.5 font-extrabold text-sm sm:text-base">
+                    {eligResult.eligible ? (
+                      <span className="bg-green-600 text-white rounded-full p-0.5 text-xs flex items-center justify-center w-5 h-5">✓</span>
+                    ) : (
+                      <span className="bg-rose-600 text-white rounded-full p-0.5 text-xs flex items-center justify-center w-5 h-5">✕</span>
+                    )}
+                    <span>{eligResult.text}</span>
+                  </div>
+                  <p className="text-xs font-semibold leading-relaxed">{eligResult.details}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Salary & Perks Calculator Modal ── */}
+      {showSalModal && (() => {
+        const sal = getSalaryDetails();
+        return (
+          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fadein">
+            <div className="bg-white rounded-2xl max-w-lg w-full shadow-2xl overflow-hidden border border-slate-100 flex flex-col max-h-[90vh]">
+              {/* Modal Header */}
+              <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50">
+                <h3 className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2">
+                  💵 {exam.shortName} 2026 Salary & Allowance Calculator
+                </h3>
+                <button
+                  onClick={() => setShowSalModal(false)}
+                  className="text-slate-400 hover:text-slate-650 p-1.5 rounded-full hover:bg-slate-105 transition-all cursor-pointer border-none"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+
+              {/* Modal Body */}
+              <div className="p-6 space-y-5 overflow-y-auto flex-1 text-slate-700 text-xs sm:text-sm">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {/* City Class Selector */}
+                  <div className="space-y-1">
+                    <label className="block font-bold text-slate-700">Posting Location Category:</label>
+                    <select
+                      value={salCity}
+                      onChange={(e) => setSalCity(e.target.value as any)}
+                      className="w-full px-3 py-2 border border-slate-200 rounded-lg text-slate-800 focus:border-[#1B6EB5] focus:outline-none font-semibold"
+                    >
+                      <option value="metro">Metro Class A (Delhi, Mumbai, etc.)</option>
+                      <option value="urban">Urban Class B (Major Cities)</option>
+                      <option value="semi">Semi-Urban/Rural Class C</option>
+                    </select>
+                  </div>
+
+                  {/* Leased Housing Toggle */}
+                  <div className="space-y-1 flex flex-col justify-end">
+                    <div className="flex items-center gap-2.5 bg-slate-50 border border-slate-150 p-2.5 rounded-lg">
+                      <input
+                        type="checkbox"
+                        id="leasedHousing"
+                        checked={salLease}
+                        onChange={(e) => setSalLease(e.target.checked)}
+                        className="w-4.5 h-4.5 accent-[#1B6EB5] cursor-pointer"
+                      />
+                      <label htmlFor="leasedHousing" className="text-xs font-bold text-slate-700 cursor-pointer select-none">
+                        Avail Leased Housing instead of HRA
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Salary Breakdown Table */}
+                <div className="border border-slate-150 rounded-xl overflow-hidden shadow-xs">
+                  <table className="w-full text-left border-collapse text-xs">
+                    <thead>
+                      <tr className="bg-slate-850 text-white font-bold">
+                        <th className="px-4 py-2">Earning Components</th>
+                        <th className="px-4 py-2 text-right">Monthly Value</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 text-slate-650">
+                      <tr>
+                        <td className="px-4 py-2.5 font-semibold text-slate-850">Basic Starting Pay (Scale I)</td>
+                        <td className="px-4 py-2.5 text-right font-black text-slate-855">₹{sal.basic.toLocaleString()}</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-2.5 font-semibold text-slate-850">Dearness Allowance (DA)</td>
+                        <td className="px-4 py-2.5 text-right font-black text-slate-855">₹{sal.da.toLocaleString()}</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-2.5 font-semibold text-slate-850">Special Allowance</td>
+                        <td className="px-4 py-2.5 text-right font-black text-slate-855">₹{sal.special.toLocaleString()}</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-2.5 font-semibold text-slate-850">Transport Allowance</td>
+                        <td className="px-4 py-2.5 text-right font-black text-slate-855">₹{sal.transport.toLocaleString()}</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-2.5 font-semibold text-slate-800 flex items-center gap-1">
+                          <span>{salLease ? 'Leased Housing Benefit' : 'House Rent Allowance (HRA)'}</span>
+                          {salLease && (
+                            <span className="text-[9px] text-[#1B6EB5] font-bold">
+                              *(Paid to landlord)
+                            </span>
+                          )}
+                        </td>
+                        <td className="px-4 py-2.5 text-right font-black text-slate-855">₹{sal.housingBenefit.toLocaleString()}</td>
+                      </tr>
+                      <tr className="bg-slate-900 text-white font-bold">
+                        <td className="px-4 py-2.5">Total Gross Salary</td>
+                        <td className="px-4 py-2.5 text-right font-black">₹{sal.gross.toLocaleString()}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* Deductions & Net Pay */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="bg-rose-50/50 border border-rose-100 p-4 rounded-xl space-y-1">
+                    <span className="block text-[9px] font-bold text-rose-600 uppercase tracking-wider">Mandatory Deductions</span>
+                    <div className="flex justify-between text-xs font-semibold text-slate-650 mt-1">
+                      <span>NPS Contribution (10%):</span>
+                      <span>₹{sal.nps.toLocaleString()}</span>
+                    </div>
+                    <div className="flex justify-between text-xs font-semibold text-slate-650">
+                      <span>Professional Tax:</span>
+                      <span>₹{sal.profTax}</span>
+                    </div>
+                    <div className="border-t border-rose-200/50 pt-1.5 mt-1.5 flex justify-between font-black text-rose-800 text-xs">
+                      <span>Total Deductions:</span>
+                      <span>₹{sal.deductions.toLocaleString()}</span>
+                    </div>
+                  </div>
+
+                  <div className="bg-green-50 border border-green-200 p-4 rounded-xl flex flex-col justify-between">
+                    <div>
+                      <span className="block text-[9px] font-bold text-green-700 uppercase tracking-wider">
+                        {salLease ? 'Estimated Cash In Hand' : 'Net Take-Home Monthly'}
+                      </span>
+                      <span className="block text-2xl font-black text-green-800 mt-1">
+                        ₹{sal.netInHand.toLocaleString()}
+                      </span>
+                    </div>
+                    {salLease && (
+                      <p className="text-[9px] text-green-700 font-semibold leading-normal mt-1.5">
+                        *Excludes housing lease of ₹{sal.leaseAmount.toLocaleString()} paid directly to landlord. You get free accommodation!
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }

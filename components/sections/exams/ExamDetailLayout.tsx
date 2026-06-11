@@ -46,6 +46,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
     if (slug === 'dates') return 'important-dates';
     if (slug === 'cut-offs') return 'cut-off';
     if (slug === 'strategy') return 'study-plan';
+    if (slug === 'sbi-po-vs-ibps-po') return 'comparison';
     return slug;
   };
   const activeNormalized = getNormalizedSlug(sectionSlug);

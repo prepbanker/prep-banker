@@ -2,6 +2,14 @@
 import React from 'react';
 import type { ExamDetailData } from '@/types/exam';
 import { sbiPoData } from './sbi-po';
+import { sbiPoSalaryContent } from './sbiPoSalary';
+import { sbiPoMockTestContent } from './sbiPoMockTest';
+import { sbiPoEnglishSectionalContent } from './sbiPoEnglishSectional';
+import { sbiPoQuantSectionalContent } from './sbiPoQuantSectional';
+import { sbiPoReasoningSectionalContent } from './sbiPoReasoningSectional';
+import { sbiPoComparisonContent } from './sbiPoComparison';
+import { sbiPoStudyPlanContent } from './sbiPoStudyPlan';
+import { sbiPoEligibilityContent } from './sbiPoEligibility';
 import { ibpsPoData } from './ibps-po';
 import {
   HighlightBox,
@@ -45,6 +53,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
   switch (sectionSlug) {
     case 'eligibility': {
+      if (examId === 'sbi-po') {
+        return sbiPoEligibilityContent;
+      }
       return {
         title: `${exam.shortName} Eligibility Criteria 2026`,
         overview: examId === 'sbi-po'
@@ -1344,57 +1355,11 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     }
 
     case 'salary': {
-      const careerSteps = examId === 'sbi-po' ? [
-        {
-          scale: '0 – 2 years',
-          role: 'Probationary Officer → Junior Management Grade Scale I',
-          pay: '₹10–12 LPA',
-          timeframe: '0 - 2 Years (Probation)',
-          responsibilities: 'Undergo probation and training. Perform basic branch banking duties.'
-        },
-        {
-          scale: '2 – 5 years',
-          role: 'Assistant Manager (JMGS I)',
-          pay: '₹12–15 LPA',
-          timeframe: '2 - 5 Years',
-          responsibilities: 'Core branch credit and retail banking operations management.'
-        },
-        {
-          scale: '5 – 8 years',
-          role: 'Deputy Manager (MMGS Scale II)',
-          pay: '₹16–20 LPA',
-          timeframe: '5 - 8 Years',
-          responsibilities: 'Operational lead or manager in small/medium branch operations.'
-        },
-        {
-          scale: '8 – 13 years',
-          role: 'Manager (MMGS Scale III)',
-          pay: '₹22–28 LPA',
-          timeframe: '8 - 13 Years',
-          responsibilities: 'Head of credit or branch manager at urban/metro locations.'
-        },
-        {
-          scale: '13 – 18 years',
-          role: 'Senior Manager (SMGS Scale IV)',
-          pay: '₹30–38 LPA',
-          timeframe: '13 - 18 Years',
-          responsibilities: 'Departmental head in regional or circle offices.'
-        },
-        {
-          scale: '18 – 23 years',
-          role: 'Chief Manager (SMGS Scale V)',
-          pay: '₹42–52 LPA',
-          timeframe: '18 - 23 Years',
-          responsibilities: 'Operational controls, circle leadership, and regional coordination.'
-        },
-        {
-          scale: '23+ years',
-          role: 'AGM / DGM / GM / ED / MD & CEO',
-          pay: '₹60 LPA+',
-          timeframe: '23+ Years',
-          responsibilities: 'Executive leadership at corporate and national level.'
-        }
-      ] : [
+      if (examId === 'sbi-po') {
+        return sbiPoSalaryContent;
+      }
+
+      const careerSteps = [
         {
           scale: 'Scale I',
           role: 'Probationary Officer (Assistant Manager)',
@@ -1455,65 +1420,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           {
             id: 'pay-scale',
             title: 'Detailed Salary Component & Gross CTC Breakdown',
-            content: examId === 'sbi-po' ? (
-              <div className="space-y-4">
-                <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed mb-3">
-                  SBI PO monthly pay scale has starting basic pay of ₹41,960 with standard increments. Gross metro city package ranges between ₹82,000 and ₹95,000 per month.
-                </p>
-                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[400px]">
-                    <thead>
-                      <tr className="bg-slate-900 text-white font-bold">
-                        <th className="px-4 py-2.5">Component</th>
-                        <th className="px-4 py-2.5">Amount</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100 text-slate-650">
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay (Scale I)</td>
-                        <td className="px-4 py-3">₹41,960</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Dearness Allowance (DA)</td>
-                        <td className="px-4 py-3">~₹17,200</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Metro</td>
-                        <td className="px-4 py-3">₹9,030</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Urban</td>
-                        <td className="px-4 py-3">₹6,300</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Semi-urban</td>
-                        <td className="px-4 py-3">₹4,500</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Special Allowance</td>
-                        <td className="px-4 py-3">₹5,500</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Transport Allowance</td>
-                        <td className="px-4 py-3">₹1,200</td>
-                      </tr>
-                      <tr className="bg-slate-50/50 font-bold text-slate-900">
-                        <td className="px-4 py-3">Gross Monthly (Metro)</td>
-                        <td className="px-4 py-3">~₹82,000 – ₹95,000</td>
-                      </tr>
-                      <tr className="font-bold text-slate-900">
-                        <td className="px-4 py-3">Gross Monthly (Non-metro)</td>
-                        <td className="px-4 py-3">~₹63,000 – ₹72,000</td>
-                      </tr>
-                      <tr className="bg-slate-50/50 font-bold text-slate-900">
-                        <td className="px-4 py-3">Annual CTC (approx.)</td>
-                        <td className="px-4 py-3">₹10 – 12 LPA</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            ) : (
+            content: (
               <div className="space-y-4">
                 <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
                   Probationary Officers enjoy one of the most premium entry-level packages in public sector undertakings. Starting base pay and gross salary in metro cities are detailed below:
@@ -1583,10 +1490,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
             content: (
               <div className="space-y-4">
                 <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  {examId === 'sbi-po'
-                    ? "SBI offers the fastest promotion cycle among all PSU banks. Officers who clear internal promotion exams can reach Scale III in 5 years instead of 8."
-                    : "The promotion policy in public sector banking is structured and highly meritocratic. Candidates can advance via fast-track channels (written exam + interview) or standard seniority routes."
-                  }
+                  The promotion policy in public sector banking is structured and highly meritocratic. Candidates can advance via fast-track channels (written exam + interview) or standard seniority routes.
                 </p>
                 <CareerRoadmap steps={careerSteps} />
               </div>
@@ -1855,6 +1759,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
     case 'study-plan':
     case 'strategy': {
+      if (examId === 'sbi-po') {
+        return sbiPoStudyPlanContent;
+      }
       return {
         title: `${exam.shortName} Preparation Strategy & Study Plan 2026`,
         overview: `A comprehensive 90-day step-by-step preparation plan crafted by banking toppers to build speed, accuracy, and clear section cut-offs.`,
@@ -4598,6 +4505,10 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     }
 
     case 'mock-tests': {
+      if (examId === 'sbi-po') {
+        return sbiPoMockTestContent;
+      }
+
       return {
         title: `${exam.shortName} Mock Tests — Practice Series`,
         overview: `Challenge yourself with PrepBanker's full-length mock tests, practice sectional quizzes, and analyze your performance.`,
@@ -4630,7 +4541,12 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
       };
     }
 
-    case 'english-tests': {
+    case 'english-tests':
+    case 'english-sectional-test': {
+      if (examId === 'sbi-po') {
+        return sbiPoEnglishSectionalContent;
+      }
+
       return {
         title: `${exam.shortName} English Language Sectional Mock Tests`,
         overview: `Optimize your score in the English Language section with high-quality practice questions and reading comprehension strategies.`,
@@ -4681,7 +4597,12 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
       };
     }
 
-    case 'quant-tests': {
+    case 'quant-tests':
+    case 'quantitative-aptitude-test': {
+      if (examId === 'sbi-po') {
+        return sbiPoQuantSectionalContent;
+      }
+
       return {
         title: `${exam.shortName} Quantitative Aptitude Practice Tests`,
         overview: `Boost your calculation speed and master data interpretation (DI) sets with sectional practice questions.`,
@@ -4728,7 +4649,12 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
       };
     }
 
-    case 'reasoning-tests': {
+    case 'reasoning-tests':
+    case 'reasoning-ability-test': {
+      if (examId === 'sbi-po') {
+        return sbiPoReasoningSectionalContent;
+      }
+
       return {
         title: `${exam.shortName} Reasoning Ability Practice Tests`,
         overview: `Develop logical deduction habits and master puzzles and seating arrangement configurations.`,
@@ -4775,7 +4701,11 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
       };
     }
 
+    case 'sbi-po-vs-ibps-po':
     case 'comparison': {
+      if (examId === 'sbi-po') {
+        return sbiPoComparisonContent;
+      }
       return {
         title: `${exam.shortName} vs ${isIbps ? 'SBI PO' : 'IBPS PO'} Comparison`,
         overview: `A complete side-by-side comparison of SBI PO and IBPS PO covering salary package, career path, and lifestyle.`,

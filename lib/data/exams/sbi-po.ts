@@ -253,24 +253,19 @@ export const sbiPoData: ExamDetailData = {
   ],
   cutoffs: [
     {
+      year: '2025',
+      prelims: { general: 66.75, obc: 65.50, sc: 59.25, st: 51.50, ews: 64.50 },
+      mains: { general: 75.00, obc: 69.50, sc: 63.50, st: 63.50, ews: 75.00 },
+    },
+    {
       year: '2024',
-      prelims: { general: 62.50, obc: 59.00, sc: 52.50, st: 46.00, ews: 58.25 },
-      mains: { general: 89.47, obc: 83.10, sc: 72.40, st: 64.20, ews: 81.00 },
+      prelims: { general: 61.75, obc: 60.50, sc: 55.00, st: 49.00, ews: 60.25 },
+      mains: { general: 87.50, obc: 75.00, sc: 75.00, st: 75.00, ews: 87.50 },
     },
     {
       year: '2023',
-      prelims: { general: 60.75, obc: 57.50, sc: 50.00, st: 44.50, ews: 56.00 },
-      mains: { general: 86.20, obc: 80.50, sc: 70.00, st: 61.75, ews: 78.25 },
-    },
-    {
-      year: '2022',
-      prelims: { general: 58.00, obc: 55.25, sc: 48.75, st: 42.00, ews: 54.00 },
-      mains: { general: 84.10, obc: 78.30, sc: 67.80, st: 59.50, ews: 76.00 },
-    },
-    {
-      year: '2021',
-      prelims: { general: 55.50, obc: 52.75, sc: 46.50, st: 40.00, ews: 52.00 },
-      mains: { general: 81.50, obc: 75.80, sc: 65.00, st: 57.25, ews: 74.00 },
+      prelims: { general: 59.25, obc: 59.25, sc: 53.00, st: 47.50, ews: 59.25 },
+      mains: { general: 70.00, obc: 62.25, sc: 57.50, st: 57.50, ews: 70.00 },
     },
   ],
   examFaqs: [

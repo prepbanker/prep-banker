@@ -53,10 +53,13 @@ export default function QuickNavigation({ exam, activeSlug }: Props) {
         </Link>
         {sidebarLinks.map((link) => {
           const isActive = link.slug === activeSlug;
+          const href = link.slug === 'comparison' && exam.id === 'sbi-po'
+            ? `/sbi-po/sbi-po-vs-ibps-po`
+            : `/${exam.id}/${link.slug}`;
           return (
             <Link
               key={link.slug}
-              href={`/${exam.id}/${link.slug}`}
+              href={href}
               className={`flex items-center justify-between px-3 py-1.5 text-xs transition-colors rounded-lg font-sans ${
                 isActive
                   ? 'font-black text-[#1B6EB5] bg-slate-100/80 border-l-4 border-[#1B6EB5] rounded-r-lg'

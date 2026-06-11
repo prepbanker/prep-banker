@@ -103,4 +103,4 @@
 .epg-bottom-cta{background:linear-gradient(135deg,#07102A 0%,#1A2D5A 100%);border-radius:15px;padding:2.25rem;text-align:center;margin-top:.5rem;position:relative;overflow:hidden}
 .epg-info-box{background:#E8F4FD;border:1px solid rgba(27,110,181,.2);border-radius:9px;padding:9px 13px;display:flex;gap:8px;align-items:flex-start;margin-top:1rem}
 .epg-warn-box{background:#FFFBEB;border:1px solid #FDE68A;border-radius:9px;padding:9px 13px;display:flex;gap:8px;align-items:flex-start;margin-top:1rem}
-.epg-read-more-btn{background:none;border:none;cursor:pointer;font-size:.82rem;font-weight:700;padding:6px 0 0;display:inline-flex;align-items:center;gap:4px;font-family:var(--font-body)}
+.epg-read-more-btn{background:none;border:none;cursor:pointer;font-size:.76rem;font-weight:700;padding:6px 0 0;display:inline-flex;align-items:center;gap:4px;font-family:var(--font-body)}

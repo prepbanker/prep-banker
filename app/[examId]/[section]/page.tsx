@@ -27,12 +27,16 @@ const SECTIONS = [
   'quant-tests',
   'reasoning-tests',
   'comparison',
+  'sbi-po-vs-ibps-po',
   'study-plan',
 
   // Legacy compatibility slugs
   'dates',
   'cut-offs',
-  'strategy'
+  'strategy',
+  'english-sectional-test',
+  'quantitative-aptitude-test',
+  'reasoning-ability-test'
 ];
 
 export async function generateStaticParams() {
