@@ -23,14 +23,14 @@ export interface CurrentAffair {
   id:            string;
   title:         string;
   summary:       string;
-  body:          string;        // rich detail for modal (supports \n paragraphs)
+  body:          string;
   category:      CACategory;
   date:          string;
   importance:    ImportanceLevel;
   examRelevance: ExamRelevance;
   quickFacts:    string[];
-  keyPoints:     string[];      // bullet points for modal detail section
-  readTime:      number;        // minutes
+  keyPoints:     string[];
+  readTime:      number;
   isMonthly?:    boolean;
   isFeatured?:   boolean;
   tags?:         string[];
@@ -39,7 +39,7 @@ export interface CurrentAffair {
 // ─── Category meta (for filter bar) ──────
 export interface CACategoryMeta {
   label:     CACategory;
-  iconName:  string;            // maps to ICON_MAP in CAFilters
+  iconName:  string;
 }
 
 // ─── Stat strip ───────────────────────────

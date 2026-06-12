@@ -110,7 +110,7 @@ export default function ExamHero({ exam, title, description }: Props) {
         )}
 
         {/* ── Hero copy ── */}
-        <div style={{ maxWidth: 800, paddingBottom: '2.25rem' }}>
+        <div style={{ maxWidth: 800, marginTop: title ? '1.25rem' : '0', paddingBottom: '2.25rem' }}>
 
           {/* Status badge */}
           <div
@@ -153,7 +153,7 @@ export default function ExamHero({ exam, title, description }: Props) {
           </h1>
 
           {/* Description */}
-          <p style={{ color: 'rgba(255,255,255,0.62)', fontSize: '0.9rem', lineHeight: 1.7 }}>
+          <p style={{ color: 'rgba(255,255,255,0.62)', fontSize: '1rem', lineHeight: 1.7 }}>
             {displayDesc}
           </p>
 

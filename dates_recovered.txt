@@ -1,0 +1,13 @@
+case 'important-dates':
+    case 'dates': {
+      if (examId === 'ibps-po') {
+        const timelineEvents = [
+          { event: 'IBPS Exam Calendar 2026–27 Release', date: '16 January 2026', status: 'closed' as const, details: 'The official IBPS Calendar confirming exam dates for CRP XVI PO/Clerk/RRB was published on the official site.' },
+          { event: 'IBPS PO 2026 Official Notification', date: 'June–July 2026', status: 'upcoming' as const, details: 'Expected release of detailed notification PDF containing bank-wise vacancies, eligibility parameters, and online registration instructions.' },
+          { event: 'Online Registration Opens', date: 'June–July 2026', status: 'upcoming' as const, details: 'The online registration link goes live at ibps.in. Prepare scanned documents including passport photograph, signature, and left thumb impression.' },
+          { event: 'Last Date to Apply', date: 'June–July 2026', status: 'upcoming' as const, details: 'Hard deadline for online application form submission and payment. Late registrations are not processed under any circumstances.' },
+          { event: 'Prelims Admit Card Download', date: 'Early August 2026', status: 'upcoming' as const, details: 'Prelims call letters go live for download. Candidates must check shift details, venue, reporting time, and print rules.' },
+          { event: 'IBPS PO Prelims Exam', date: '22nd & 23rd August 2026', status: 'upcoming' as const, details: 'Phase 1 online CBT objective test. Includes English (30 marks), Quant (35 marks), and Reasoning (35 marks) across multiple shifts.' },
+          { event: 'Prelims Result', date: 'September 2026', status: 'upcoming' as const, details: 'Announcement of qualifying candidates eligible to sit for Mains. Sectional and category overall scores scorecard published.' },
+          { event: 'Mains Admit Card Download', date: 'Late September 2026', status: 'upcoming' as const, details: 'Main exam hall tickets released. Must check exact center address and print guidelines for
+<truncated 66999 bytes

@@ -254,7 +254,6 @@ export default function ExamMainLayout({ exam }: Props) {
         { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
       ];
   const renderTopicBadge = (t: string) => {
-    const isChecked = !!checkedTopics[t];
     const parts = t.split(' (');
     const mainText = parts[0];
     const subText = parts[1] ? `(${parts[1]}` : '';
@@ -262,22 +261,10 @@ export default function ExamMainLayout({ exam }: Props) {
     return (
       <div
         key={t}
-        onClick={() => toggleTopic(t)}
-        className={`w-full rounded-lg border p-2.5 flex items-start gap-2 cursor-pointer transition-all select-none hover:shadow-xs text-left ${
-          isChecked
-            ? 'border-green-300 bg-green-50/20 text-green-800 shadow-xs'
-            : 'border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50 text-slate-700'
-        }`}
+        className="w-full rounded-lg border border-slate-200 bg-white p-2.5 flex items-start gap-2 text-slate-700 text-left font-sans"
       >
-        <div className={`w-3.5 h-3.5 rounded border flex items-center justify-center shrink-0 mt-0.5 ${
-          isChecked 
-            ? 'bg-green-600 border-green-600 text-white' 
-            : 'border-slate-300 bg-white'
-        }`}>
-          {isChecked && <span className="text-[9px] font-black leading-none">✓</span>}
-        </div>
         <div className="flex flex-col gap-0.5 break-words min-w-0 flex-1 leading-normal">
-          <span className="text-[11px] font-bold">{mainText}</span>
+          <span className="text-[11px] font-bold text-slate-800">{mainText}</span>
           {subText && <span className="text-[9px] font-normal text-slate-400 leading-tight">{subText}</span>}
         </div>
       </div>
@@ -291,7 +278,7 @@ export default function ExamMainLayout({ exam }: Props) {
       {/* Hero Section */}
       <section
         id="hero"
-        className="relative overflow-hidden text-white pt-12 pb-7 px-6"
+        className="relative overflow-hidden text-white pt-12 pb-7"
         style={{
           background: isSbi
             ? 'linear-gradient(135deg, #07102A 0%, #1A2D5A 100%)'
@@ -318,7 +305,7 @@ export default function ExamMainLayout({ exam }: Props) {
           />
         </div>
 
-        <div className="max-w-6xl mx-auto relative z-10 text-left">
+        <div className="container-custom relative z-10 text-left">
           {/* Breadcrumb */}
           <div className="mb-4 sm:mb-5">
             <Breadcrumb
@@ -377,7 +364,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 <span className="block text-[var(--color-gold-bright)] text-sm sm:text-base md:text-lg font-black tracking-tight leading-snug break-words whitespace-pre-wrap">
                   {card.value}
                 </span>
-                <span className="text-[10px] sm:text-xs text-white/70 block font-semibold mt-1.5">{card.label}</span>
+                <span className="text-xs sm:text-sm text-white/70 block font-semibold mt-1.5">{card.label}</span>
               </li>
             ))}
           </ul>
@@ -388,13 +375,13 @@ export default function ExamMainLayout({ exam }: Props) {
               href="https://app.prepgrind.com/register"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
+              className="px-4 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-sm sm:text-base tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
             >
               Start Free Mock Test →
             </a>
             <a
               href="#sectional-tests"
-              className="px-4 py-2.5 rounded-lg border border-white/30 hover:border-white text-white font-bold text-xs sm:text-sm tracking-wide text-center transition-all hover:bg-white/5"
+              className="px-4 py-2.5 rounded-lg border border-white/30 hover:border-white text-white font-bold text-sm sm:text-base tracking-wide text-center transition-all hover:bg-white/5"
             >
               View {exam.shortName} Sectional Tests →
             </a>
@@ -402,26 +389,27 @@ export default function ExamMainLayout({ exam }: Props) {
         </div>
       </section>
 
-      {/* Horizontal Overview Card */}
-      <section className="max-w-6xl w-full mx-auto px-6 mt-8">
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col md:flex-row justify-between gap-6 items-center">
+      {/* Horizontal Overview Card / Highlights Bar */}
+      <section className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs scroll-mt-20 relative overflow-hidden" style={{ marginTop: '1.25rem', marginBottom: '1.25rem' }}>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 relative z-10">
+          
           {/* Left Column: Dates & Vacancies info */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 flex-1 w-full">
             <div>
-              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
-              <span className="block text-xs sm:text-sm font-bold text-slate-800">
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
+              <span className="block text-sm sm:text-base font-bold text-slate-800">
                 {isSbi ? 'April 2026 (Expected)' : 'August 2026 (Expected)'}
               </span>
             </div>
             <div>
-              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
-              <span className="block text-xs sm:text-sm font-bold text-slate-800">
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
+              <span className="block text-sm sm:text-base font-bold text-slate-800">
                 {isSbi ? '2,000+ Posts' : '3,500+ Posts'}
               </span>
             </div>
             <div>
-              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
-              <span className="block text-xs sm:text-sm font-bold text-slate-800">
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
+              <span className="block text-sm sm:text-base font-bold text-slate-800">
                 {isSbi ? 'June 2026' : 'October 2026'}
               </span>
             </div>
@@ -430,31 +418,13 @@ export default function ExamMainLayout({ exam }: Props) {
           {/* Vertical divider on desktop */}
           <div className="hidden md:block w-px bg-slate-200 self-stretch" />
 
-          {/* Right Column: CTA Actions */}
-          <div className="flex flex-col gap-3 w-full md:w-auto shrink-0 items-start md:items-end">
-            <div className="flex gap-3 w-full sm:w-auto">
-              <button
-                onClick={() => {
-                  setEligResult(null);
-                  setShowEligModal(true);
-                }}
-                className="flex-1 sm:flex-initial text-center px-4 py-2.5 border border-slate-200 text-slate-700 hover:text-slate-900 font-extrabold text-xs rounded-lg hover:bg-slate-50 transition-all cursor-pointer shadow-sm active:scale-95"
-              >
-                🔍 Check Eligibility
-              </button>
-              <button
-                onClick={() => setShowSalModal(true)}
-                className="flex-1 sm:flex-initial text-center px-4 py-2.5 text-white font-extrabold text-xs rounded-lg transition-all cursor-pointer shadow-md hover:opacity-95 active:scale-95"
-                style={{
-                  background: isSbi
-                    ? 'linear-gradient(135deg, #1B6EB5 0%, #104A7D 100%)'
-                    : 'linear-gradient(135deg, #D4A017 0%, #A37505 100%)',
-                }}
-              >
-                💵 Calculate Salary
-              </button>
+          {/* Right Column: Status & Official Website */}
+          <div className="flex flex-col gap-2.5 w-full md:w-auto shrink-0 items-start md:items-end">
+            <div className="flex items-center gap-2 px-4 py-2 bg-emerald-50/70 border border-emerald-200 text-emerald-800 font-bold text-sm rounded-xl shadow-xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" style={{ animation: 'pulse-live 1.5s infinite' }} />
+              Status: {exam.tag}
             </div>
-            <span className="text-[10px] text-slate-400 flex items-center gap-1 font-semibold">
+            <span className="text-xs sm:text-sm text-slate-400 flex items-center gap-1 font-semibold">
               Official Website:{' '}
               <a
                 href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
@@ -471,25 +441,27 @@ export default function ExamMainLayout({ exam }: Props) {
       </section>
 
       {/* 2-Column Responsive Layout (Main Area) */}
-      <div className="max-w-6xl w-full mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
+      <div className="container-custom py-8 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
         
         {/* Left Column: Content */}
-        <main className="space-y-10 min-w-0">
+        <main className="space-y-10 min-w-0 epg-main-rich-content">
           
           {/* Table of Contents */}
-          <section id="toc" className="bg-slate-50 border border-slate-200 p-6 sm:p-8 rounded-2xl scroll-mt-20">
-            <h2 className="text-xs sm:text-sm font-black text-slate-400 uppercase tracking-wider mb-4 flex items-center gap-2">
-              <Layers size={14} className="text-[#1B6EB5]" />
+          <section id="toc" className="bg-white border border-slate-200 border-l-4 border-l-[#1B6EB5] p-6 sm:p-7 rounded-2xl shadow-xs scroll-mt-20">
+            <h2 className="text-sm font-extrabold text-slate-800 mb-4 flex items-center gap-2 font-display">
+              <Layers size={15} className="text-[#1B6EB5]" />
               Table of Contents
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
               {tocItems.map((item, idx) => (
                 <a
                   key={item.id}
                   href={`#${item.id}`}
-                  className="text-sm sm:text-[15px] text-[#1B6EB5] hover:text-[#0D1B3E] hover:underline font-bold flex items-center gap-1.5 transition-colors"
+                  className="group flex items-center px-3 py-2 text-sm text-slate-650 hover:text-[#1B6EB5] hover:bg-slate-50/80 transition-all rounded-xl font-semibold no-underline"
                 >
-                  <span className="text-[var(--color-gold)] font-extrabold">{idx + 1}.</span>
+                  <span className="text-[var(--color-gold)] font-extrabold mr-2.5 text-xs bg-amber-50 border border-amber-200/50 w-5 h-5 rounded-md flex items-center justify-center group-hover:bg-[#1B6EB5] group-hover:border-[#1B6EB5] group-hover:text-white transition-all">
+                    {idx + 1}
+                  </span>
                   {item.label}
                 </a>
               ))}
@@ -592,7 +564,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     className="bg-gradient-to-br from-slate-50/50 to-white border border-slate-150 p-4 rounded-xl border-l-4"
                     style={{ borderLeftColor: brandColor }}
                   >
-                    <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">{card.label}</span>
+                    <span className="block text-xs sm:text-sm font-bold text-slate-400 uppercase tracking-wider">{card.label}</span>
                     <span className="block text-sm sm:text-base font-extrabold text-slate-850 mt-1">{card.value}</span>
                   </div>
                 ))}
@@ -670,7 +642,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     </tbody>
                   </table>
                 </div>
-                <p className="text-xs text-slate-500 italic mt-2">
+                <p className="text-sm text-slate-500 italic mt-2">
                   "These dates are indicative based on the SBI PO 2025 cycle. Official dates will be confirmed at sbi.co.in upon notification release. BankerPrep will update this page immediately."
                 </p>
               </div>
@@ -682,11 +654,11 @@ export default function ExamMainLayout({ exam }: Props) {
                     return (
                       <div key={date.event} className="bg-slate-50/50 border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
                         <div className="space-y-1">
-                          <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
-                          <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm">{date.event}</h4>
-                          <span className="block text-xs font-bold text-[#1B6EB5]">{date.date}</span>
+                          <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
+                          <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</h4>
+                          <span className="block text-sm font-bold text-[#1B6EB5]">{date.date}</span>
                         </div>
-                        <span className={`text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
+                        <span className={`text-[10px] sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
                           isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
                         }`}>
                           {date.status}
@@ -999,29 +971,7 @@ export default function ExamMainLayout({ exam }: Props) {
               {isSbi ? 'SBI PO 2026 Complete Syllabus — Prelims & Mains' : 'Syllabus Breakdown'}
             </h2>
 
-            {/* Syllabus Progress Bar */}
-            <div className="mb-6 bg-slate-50 border border-slate-200 p-4 rounded-xl">
-              <div className="flex justify-between items-center mb-1.5 flex-wrap gap-2">
-                <span className="text-xs font-black text-slate-700 uppercase tracking-wide flex items-center gap-1.5">
-                  📝 {syllabusTab === 'prelims' ? 'Prelims' : 'Mains'} Syllabus Tracker
-                </span>
-                <span className="text-xs font-black" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
-                  {completedActiveCount} / {totalActiveCount} Topics Completed ({completionPercent}%)
-                </span>
-              </div>
-              <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden shadow-inner">
-                <div
-                  className="h-full rounded-full transition-all duration-500"
-                  style={{
-                    width: `${completionPercent}%`,
-                    backgroundColor: isSbi ? '#1B6EB5' : '#D4A017'
-                  }}
-                />
-              </div>
-              <p className="text-[10px] text-slate-400 font-semibold mt-1.5 italic">
-                *Click on any topic tag below to check it off and track your preparation progress.
-              </p>
-            </div>
+
 
             <div className="flex gap-2 mb-4 bg-slate-100 p-1 rounded-lg w-fit">
               <button

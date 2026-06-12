@@ -97,7 +97,7 @@ export default function IBPSPOContent() {
       {/* Hero Section (#hero) */}
       <section
         id="hero"
-        className="relative overflow-hidden bg-[var(--color-navy-deep)] text-white pt-16 pb-9 px-6"
+        className="relative overflow-hidden bg-[var(--color-navy-deep)] text-white pt-16 pb-9"
       >
         {/* ── Decorative background blobs ── */}
         <div aria-hidden className="absolute inset-0 pointer-events-none">
@@ -122,7 +122,7 @@ export default function IBPSPOContent() {
           />
         </div>
 
-        <div className="max-w-6xl mx-auto relative z-10 text-left">
+        <div className="container-custom relative z-10 text-left">
           {/* ── Breadcrumb ── */}
           <div className="mb-6">
             <Breadcrumb
@@ -184,7 +184,7 @@ export default function IBPSPOContent() {
       </section>
 
       {/* 2-Column Responsive Container */}
-      <div className="max-w-6xl w-full mx-auto px-6 py-10 flex flex-col-reverse lg:flex-row gap-8 items-start">
+      <div className="container-custom py-10 flex flex-col-reverse lg:flex-row gap-8 items-start">
         
         {/* Left Side: Main Content (70% width) - Rendered first in DOM for normal desktop row layout */}
         <main className="w-full lg:w-[70%] space-y-0">

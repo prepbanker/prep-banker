@@ -32,13 +32,13 @@ export default function Breadcrumb({
             {isLast || !item.href ? (
               <span style={{
                 color:    isLast ? currentColor : linkColor,
-                fontSize: '0.78rem',
+                fontSize: '0.875rem',
                 fontWeight: isLast ? 500 : 400,
               }}>
                 {item.label}
               </span>
             ) : (
-              <Link href={item.href} style={{ color: linkColor, fontSize: '0.78rem', textDecoration: 'none' }}>
+              <Link href={item.href} style={{ color: linkColor, fontSize: '0.875rem', textDecoration: 'none' }}>
                 {item.label}
               </Link>
             )}

@@ -59,7 +59,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
       <ExamHero exam={exam} title={detail.title} description={detail.overview} />
 
       {/* Main Section Content Wrapper */}
-      <div className="max-w-6xl w-full mx-auto px-6 py-6 flex-1 flex flex-col gap-6">
+      <div className="container-custom py-6 flex-1 flex flex-col gap-6" style={{ marginTop: '2.5rem', marginBottom: '2.5rem' }}>
         
         {/* 2-Column Desktop Grid Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8 items-start">
@@ -81,16 +81,20 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
 
             {/* Local TOC */}
             {detail.subsections.length > 0 && (
-              <div className="bg-slate-50 border border-slate-200 p-6 rounded-xl">
-                <span className="block text-slate-400 font-bold text-xs tracking-wider uppercase mb-3">On This Page</span>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm sm:text-base font-semibold">
+              <div className="bg-white border border-slate-200 border-l-4 border-l-[#1B6EB5] p-6 rounded-2xl shadow-xs">
+                <span className="block text-slate-800 font-extrabold text-sm mb-4 flex items-center gap-2 font-display">
+                  On This Page
+                </span>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 list-none p-0 m-0">
                   {detail.subsections.map((sub, idx) => (
-                    <li key={sub.id}>
+                    <li key={sub.id} className="p-0 m-0">
                       <a
                         href={`#${sub.id}`}
-                        className="text-[#1B6EB5] hover:text-[#0D1B3E] hover:underline font-bold flex items-center gap-1.5 transition-colors"
+                        className="group flex items-center px-3 py-2 text-sm text-slate-650 hover:text-[#1B6EB5] hover:bg-slate-50/80 transition-all rounded-xl font-semibold no-underline"
                       >
-                        <span className="text-[var(--color-gold)] font-extrabold">{idx + 1}.</span>
+                        <span className="text-[var(--color-gold)] font-extrabold mr-2.5 text-xs bg-amber-50 border border-amber-200/50 w-5 h-5 rounded-md flex items-center justify-center group-hover:bg-[#1B6EB5] group-hover:border-[#1B6EB5] group-hover:text-white transition-all">
+                          {idx + 1}
+                        </span>
                         {sub.title}
                       </a>
                     </li>
@@ -110,7 +114,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
                   <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-display mb-4">
                     {sub.title}
                   </h2>
-                  <div className="text-slate-750 text-sm sm:text-base leading-relaxed font-sans">
+                  <div className="epg-detail-rich-text text-slate-755 text-base leading-relaxed font-sans">
                     {sub.content}
                   </div>
                 </section>
@@ -146,7 +150,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
                           />
                         </button>
                         {isOpen && (
-                          <div className="px-4 pb-4 text-sm sm:text-base text-slate-650 leading-relaxed border-t border-slate-100 pt-3">
+                          <div className="px-4 pb-4 text-base text-slate-700 leading-relaxed border-t border-slate-100 pt-3">
                             {faq.a}
                           </div>
                         )}
