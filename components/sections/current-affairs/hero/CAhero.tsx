@@ -1,22 +1,30 @@
 // PATH: components/sections/current-affairs/hero/CAHero.tsx
-import {
-  Newspaper, TrendingUp, Calendar, BookOpen, Users, Star, Sparkles,
-} from 'lucide-react';
+import { ReactNode, ElementType } from 'react';
 import Breadcrumb from '@/components/shared/Breadcrumb';
-import { CA_HERO_STATS } from '../../../../lib/data/current-affairs/stats';
 
-// ─── Icon map ─────────────────────────────
-const ICON_MAP: Record<string, React.ElementType> = {
-  Newspaper,
-  TrendingUp,
-  Calendar,
-  BookOpen,
-  Users,
-  Star,
-};
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface CAHeroProps {
+  breadcrumbs: BreadcrumbItem[];
+  badgeText?: string;
+  BadgeIcon?: ElementType;
+  title: ReactNode;
+  description?: ReactNode;
+  children?: ReactNode;
+}
 
 // ─── Component ────────────────────────────
-export default function CAHero() {
+export default function CAHero({
+  breadcrumbs,
+  badgeText,
+  BadgeIcon,
+  title,
+  description,
+  children,
+}: CAHeroProps) {
   return (
     <section
       className="relative overflow-hidden bg-[var(--color-navy-deep)]"
@@ -49,76 +57,40 @@ export default function CAHero() {
       <div className="container-custom relative z-10">
 
         {/* ── Breadcrumb ── */}
-        <Breadcrumb
-          items={[                    
-            { label: 'Home', href: '/' },
-            { label: 'Current Affairs' },
-          ]}
-        />
+        <Breadcrumb items={breadcrumbs} />
 
         {/* ── Badge ── */}
-        <div className="mt-4 mb-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/25">
-          <Sparkles className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" aria-hidden />
-          <span className="text-xs font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
-            Updated Daily
-          </span>
-        </div>
+        {badgeText && (
+          <div className="mt-4 mb-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/25">
+            {BadgeIcon && <BadgeIcon className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" aria-hidden />}
+            <span className="text-xs font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
+              {badgeText}
+            </span>
+          </div>
+        )}
 
         {/* ── Headline ── */}
         <h1
-          className="font-extrabold leading-tight"
+          className="font-extrabold leading-tight text-white"
           style={{
             fontFamily: 'var(--font-display)',
             fontSize: 'clamp(1.75rem, 4vw, 2.75rem)',
-            color: '#fff',
           }}
         >
-          Banking{' '}
-          <span className="text-gold-gradient">Current Affairs 2026</span>
+          {title}
         </h1>
 
-        <p
-          className="mt-3 max-w-xl text-sm leading-relaxed"
-          style={{ color: 'rgba(255,255,255,0.62)' }}
-        >
-          Daily and monthly current affairs curated for SBI PO &amp; IBPS PO
-          aspirants. Stay on top of banking news, RBI policy, economy updates,
-          and government schemes — all in one place.
-        </p>
+        {description && (
+          <div
+            className="mt-3 max-w-2xl text-sm leading-relaxed"
+            style={{ color: 'rgba(255,255,255,0.7)' }}
+          >
+            {description}
+          </div>
+        )}
 
-        {/* ── Stats strip ── */}
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-          {CA_HERO_STATS.map(({ iconName, value, label }) => {
-            const Icon = ICON_MAP[iconName] ?? Newspaper;
-            return (
-              <div
-                key={label}
-                className="flex items-center gap-3 px-4 py-3 rounded-xl"
-                style={{
-                  background: 'rgba(255,255,255,0.07)',
-                  border: '1px solid rgba(255,255,255,0.10)',
-                  backdropFilter: 'blur(6px)',
-                }}
-              >
-                <span
-                  className="flex-shrink-0 p-2 rounded-lg"
-                  style={{ background: 'rgba(255,255,255,0.10)' }}
-                >
-                  <Icon className="w-4 h-4 text-[var(--color-gold-bright)]" aria-hidden />
-                </span>
-                <div>
-                  <p className="text-base font-bold text-white leading-none">{value}</p>
-                  <p
-                    className="text-[10px] font-medium mt-0.5"
-                    style={{ color: 'rgba(255,255,255,0.55)' }}
-                  >
-                    {label}
-                  </p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        {/* ── Dynamic Content / Children (Stats, share controls, etc.) ── */}
+        {children}
 
       </div>
 
@@ -126,4 +98,4 @@ export default function CAHero() {
       <div className="h-px mt-10 bg-white/10 relative z-10" />
     </section>
   );
-}
+}

@@ -175,7 +175,7 @@ export default function ExamMainLayout({ exam }: Props) {
     const profTax = 200;
     const deductions = nps + profTax;
 
-    const netInHand = salLease 
+    const netInHand = salLease
       ? (basic + da + special + transport - deductions)
       : (gross - deductions);
 
@@ -196,21 +196,21 @@ export default function ExamMainLayout({ exam }: Props) {
   };
 
   // Active syllabus topics for completion computation
-  const activeTopics = syllabusTab === 'prelims' 
+  const activeTopics = syllabusTab === 'prelims'
     ? [
-        ...(exam.syllabus['English Language']?.slice(0, 4) || []),
-        ...(exam.syllabus['Quantitative Aptitude']?.slice(0, 4) || []),
-        ...(exam.syllabus['Reasoning Ability']?.slice(0, 4) || [])
-      ]
+      ...(exam.syllabus['English Language']?.slice(0, 4) || []),
+      ...(exam.syllabus['Quantitative Aptitude']?.slice(0, 4) || []),
+      ...(exam.syllabus['Reasoning Ability']?.slice(0, 4) || [])
+    ]
     : isSbi
       ? [
-          ...(exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4) || []),
-          ...(exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4) || [])
-        ]
+        ...(exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4) || []),
+        ...(exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4) || [])
+      ]
       : [
-          'Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks',
-          ...(exam.syllabus['General/Banking Awareness']?.slice(0, 4) || [])
-        ];
+        'Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks',
+        ...(exam.syllabus['General/Banking Awareness']?.slice(0, 4) || [])
+      ];
 
   const totalActiveCount = activeTopics.length;
   const completedActiveCount = activeTopics.filter(t => checkedTopics[t]).length;
@@ -220,39 +220,39 @@ export default function ExamMainLayout({ exam }: Props) {
   // Table of Contents list
   const tocItems = isSbi
     ? [
-        { label: 'What is SBI PO?', id: 'what-is' },
-        { label: 'SBI PO 2026 at a Glance', id: 'overview-card' },
-        { label: 'Important Dates', id: 'important-dates' },
-        { label: 'Eligibility Criteria', id: 'eligibility-criteria' },
-        { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
-        { label: 'Complete Syllabus', id: 'full-syllabus' },
-        { label: 'SBI PO Mock Tests 2026', id: 'mock-tests' },
-        { label: 'SBI PO Sectional Tests 2026', id: 'sectional-tests' },
-        { label: 'Topic-Wise Practice Questions', id: 'topic-wise-questions' },
-        { label: 'Current Affairs for SBI PO 2026', id: 'current-affairs' },
-        { label: 'Study Material & Strategy', id: 'prep-strategy' },
-        { label: 'Previous Year Cut-offs', id: 'cut-offs' },
-        { label: 'Salary & Career Growth', id: 'salary-career' },
-        { label: 'Selection Process Deep Dive', id: 'selection-process' },
-        { label: 'Why Prepare on BankerPrep?', id: 'platform-features' },
-        { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
-      ]
+      { label: 'What is SBI PO?', id: 'what-is' },
+      { label: 'SBI PO 2026 at a Glance', id: 'overview-card' },
+      { label: 'Important Dates', id: 'important-dates' },
+      { label: 'Eligibility Criteria', id: 'eligibility-criteria' },
+      { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
+      { label: 'Complete Syllabus', id: 'full-syllabus' },
+      { label: 'SBI PO Mock Tests 2026', id: 'mock-tests' },
+      { label: 'SBI PO Sectional Tests 2026', id: 'sectional-tests' },
+      { label: 'Topic-Wise Practice Questions', id: 'topic-wise-questions' },
+      { label: 'Current Affairs for SBI PO 2026', id: 'current-affairs' },
+      { label: 'Study Material & Strategy', id: 'prep-strategy' },
+      { label: 'Previous Year Cut-offs', id: 'cut-offs' },
+      { label: 'Salary & Career Growth', id: 'salary-career' },
+      { label: 'Selection Process Deep Dive', id: 'selection-process' },
+      { label: 'Why Prepare on BankerPrep?', id: 'platform-features' },
+      { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
+    ]
     : [
-        { label: `What is ${exam.shortName}?`, id: 'what-is' },
-        { label: `${exam.shortName} Overview Card`, id: 'overview-card' },
-        { label: 'Important Dates Timeline', id: 'important-dates' },
-        { label: 'Eligibility Criteria', id: 'eligibility-criteria' },
-        { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
-        { label: 'Full Syllabus Breakdown', id: 'full-syllabus' },
-        { label: 'PrepBanker Mock Tests', id: 'mock-tests' },
-        { label: 'Sectional Timed Quizzes', id: 'sectional-tests' },
-        { label: 'Daily Current Affairs', id: 'current-affairs' },
-        { label: '90-Day Study Strategy', id: 'prep-strategy' },
-        { label: 'Previous Year Cut-offs', id: 'cut-offs' },
-        { label: 'Salary Structure & Allowances', id: 'salary-career' },
-        { label: `${exam.shortName} vs SBI PO Comparison`, id: 'comparison' },
-        { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
-      ];
+      { label: `What is ${exam.shortName}?`, id: 'what-is' },
+      { label: `${exam.shortName} Overview Card`, id: 'overview-card' },
+      { label: 'Important Dates Timeline', id: 'important-dates' },
+      { label: 'Eligibility Criteria', id: 'eligibility-criteria' },
+      { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
+      { label: 'Full Syllabus Breakdown', id: 'full-syllabus' },
+      { label: 'PrepBanker Mock Tests', id: 'mock-tests' },
+      { label: 'Sectional Timed Quizzes', id: 'sectional-tests' },
+      { label: 'Daily Current Affairs', id: 'current-affairs' },
+      { label: '90-Day Study Strategy', id: 'prep-strategy' },
+      { label: 'Previous Year Cut-offs', id: 'cut-offs' },
+      { label: 'Salary Structure & Allowances', id: 'salary-career' },
+      { label: `${exam.shortName} vs SBI PO Comparison`, id: 'comparison' },
+      { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
+    ];
   const renderTopicBadge = (t: string) => {
     const parts = t.split(' (');
     const mainText = parts[0];
@@ -390,62 +390,64 @@ export default function ExamMainLayout({ exam }: Props) {
       </section>
 
       {/* Horizontal Overview Card / Highlights Bar */}
-      <section className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs scroll-mt-20 relative overflow-hidden" style={{ marginTop: '1.25rem', marginBottom: '1.25rem' }}>
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 relative z-10">
-          
-          {/* Left Column: Dates & Vacancies info */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 flex-1 w-full">
-            <div>
-              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
-              <span className="block text-sm sm:text-base font-bold text-slate-800">
-                {isSbi ? 'April 2026 (Expected)' : 'August 2026 (Expected)'}
-              </span>
+      <div className="container-custom">
+        <section className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs scroll-mt-20 relative overflow-hidden" style={{ marginTop: '1.25rem', marginBottom: '1.25rem' }}>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 relative z-10">
+
+            {/* Left Column: Dates & Vacancies info */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 flex-1 w-full">
+              <div>
+                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
+                <span className="block text-sm sm:text-base font-bold text-slate-800">
+                  {isSbi ? 'April 2026 (Expected)' : 'August 2026 (Expected)'}
+                </span>
+              </div>
+              <div>
+                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
+                <span className="block text-sm sm:text-base font-bold text-slate-800">
+                  {isSbi ? '2,000+ Posts' : '3,500+ Posts'}
+                </span>
+              </div>
+              <div>
+                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
+                <span className="block text-sm sm:text-base font-bold text-slate-800">
+                  {isSbi ? 'June 2026' : 'October 2026'}
+                </span>
+              </div>
             </div>
-            <div>
-              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
-              <span className="block text-sm sm:text-base font-bold text-slate-800">
-                {isSbi ? '2,000+ Posts' : '3,500+ Posts'}
-              </span>
-            </div>
-            <div>
-              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
-              <span className="block text-sm sm:text-base font-bold text-slate-800">
-                {isSbi ? 'June 2026' : 'October 2026'}
+
+            {/* Vertical divider on desktop */}
+            <div className="hidden md:block w-px bg-slate-200 self-stretch" />
+
+            {/* Right Column: Status & Official Website */}
+            <div className="flex flex-col gap-2.5 w-full md:w-auto shrink-0 items-start md:items-end">
+              <div className="flex items-center gap-2 px-4 py-2 bg-emerald-50/70 border border-emerald-200 text-emerald-800 font-bold text-sm rounded-xl shadow-xs">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" style={{ animation: 'pulse-live 1.5s infinite' }} />
+                Status: {exam.tag}
+              </div>
+              <span className="text-xs sm:text-sm text-slate-400 flex items-center gap-1 font-semibold">
+                Official Website:{' '}
+                <a
+                  href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-blue)] hover:underline flex items-center gap-0.5 font-bold"
+                >
+                  {isSbi ? 'sbi.co.in' : 'ibps.in'}
+                  <ExternalLink size={8} />
+                </a>
               </span>
             </div>
           </div>
-
-          {/* Vertical divider on desktop */}
-          <div className="hidden md:block w-px bg-slate-200 self-stretch" />
-
-          {/* Right Column: Status & Official Website */}
-          <div className="flex flex-col gap-2.5 w-full md:w-auto shrink-0 items-start md:items-end">
-            <div className="flex items-center gap-2 px-4 py-2 bg-emerald-50/70 border border-emerald-200 text-emerald-800 font-bold text-sm rounded-xl shadow-xs">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" style={{ animation: 'pulse-live 1.5s infinite' }} />
-              Status: {exam.tag}
-            </div>
-            <span className="text-xs sm:text-sm text-slate-400 flex items-center gap-1 font-semibold">
-              Official Website:{' '}
-              <a
-                href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[var(--color-blue)] hover:underline flex items-center gap-0.5 font-bold"
-              >
-                {isSbi ? 'sbi.co.in' : 'ibps.in'}
-                <ExternalLink size={8} />
-              </a>
-            </span>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* 2-Column Responsive Layout (Main Area) */}
       <div className="container-custom py-8 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
-        
+
         {/* Left Column: Content */}
         <main className="space-y-10 min-w-0 epg-main-rich-content">
-          
+
           {/* Table of Contents */}
           <section id="toc" className="bg-white border border-slate-200 border-l-4 border-l-[#1B6EB5] p-6 sm:p-7 rounded-2xl shadow-xs scroll-mt-20">
             <h2 className="text-sm font-extrabold text-slate-800 mb-4 flex items-center gap-2 font-display">
@@ -474,7 +476,7 @@ export default function ExamMainLayout({ exam }: Props) {
               What is {exam.shortName}?
             </h2>
             <p className="text-slate-700 text-base sm:text-[17px] leading-relaxed mb-5 font-normal">
-              {isSbi 
+              {isSbi
                 ? "SBI PO is a prestigious national-level recruitment examination conducted annually by the State Bank of India to select entry-level Probationary Officers. It is highly sought-after due to its premium compensation package exceeding ₹90,000/month gross, comprehensive perks, and rapid promotional avenues. Candidates undergo a rigorous four-stage selection process involving Preliminary screening, Main examinations, Group Exercises, and a Personal Interview. Newly recruited officers undergo a detailed two-year probation period, during which they receive hands-on training across diverse retail, corporate, and agricultural banking portfolios."
                 : "IBPS PO is a national-level recruitment examination conducted annually by the Institute of Banking Personnel Selection to recruit Probationary Officers for 11 public sector banks in India. It offers a highly respected career with a structured promotional path, competitive salaries exceeding ₹80,000/month gross in metro cities, and excellent financial security. Aspiring candidates undergo a three-stage selection process comprising Preliminary screening, Main examinations, and a Personal Interview. Selected officers are posted across India and undergo a mandatory two-year probation to master all commercial and retail banking operations."
               }
@@ -559,8 +561,8 @@ export default function ExamMainLayout({ exam }: Props) {
             ) : (
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {exam.summaryCards.map((card) => (
-                  <div 
-                    key={card.label} 
+                  <div
+                    key={card.label}
                     className="bg-gradient-to-br from-slate-50/50 to-white border border-slate-150 p-4 rounded-xl border-l-4"
                     style={{ borderLeftColor: brandColor }}
                   >
@@ -658,9 +660,8 @@ export default function ExamMainLayout({ exam }: Props) {
                           <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</h4>
                           <span className="block text-sm font-bold text-[#1B6EB5]">{date.date}</span>
                         </div>
-                        <span className={`text-[10px] sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
-                          isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
-                        }`}>
+                        <span className={`text-[10px] sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
+                          }`}>
                           {date.status}
                         </span>
                       </div>
@@ -831,17 +832,15 @@ export default function ExamMainLayout({ exam }: Props) {
             <div className="flex gap-2 mb-4 bg-slate-100 p-1 rounded-lg w-fit">
               <button
                 onClick={() => setPatternTab('prelims')}
-                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
-                  patternTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
-                }`}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${patternTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                  }`}
               >
                 Prelims (Phase 1)
               </button>
               <button
                 onClick={() => setPatternTab('mains')}
-                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${
-                  patternTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
-                }`}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all ${patternTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                  }`}
               >
                 Mains (Phase 2)
               </button>
@@ -976,17 +975,15 @@ export default function ExamMainLayout({ exam }: Props) {
             <div className="flex gap-2 mb-4 bg-slate-100 p-1 rounded-lg w-fit">
               <button
                 onClick={() => setSyllabusTab('prelims')}
-                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all border-none cursor-pointer ${
-                  syllabusTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
-                }`}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all border-none cursor-pointer ${syllabusTab === 'prelims' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                  }`}
               >
                 Prelims Topics
               </button>
               <button
                 onClick={() => setSyllabusTab('mains')}
-                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all border-none cursor-pointer ${
-                  syllabusTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
-                }`}
+                className={`px-4 py-2 text-xs sm:text-sm font-extrabold rounded-md transition-all border-none cursor-pointer ${syllabusTab === 'mains' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-500'
+                  }`}
               >
                 Mains Topics
               </button>
@@ -1043,7 +1040,7 @@ export default function ExamMainLayout({ exam }: Props) {
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
                     Reasoning & Computer
                   </h4>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-2 ">
                     {isSbi
                       ? exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4).map((t) => renderTopicBadge(t))
                       : ['Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks'].map((t) => renderTopicBadge(t))}
@@ -1419,7 +1416,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
               <div className="space-y-6">
                 <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">High-Priority Topics to Focus On</h4>
-                
+
                 <div>
                   <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Reasoning — Must-Practice Topics</h5>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
@@ -1699,7 +1696,7 @@ export default function ExamMainLayout({ exam }: Props) {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO 2026 Study Material & Preparation Strategy' : 'Preparation Strategy & Study Plan'}
             </h2>
-            
+
             <div className="space-y-6">
               <h3 className="text-lg sm:text-xl font-extrabold text-slate-800 font-display">How to Prepare for SBI PO in 90 Days — Month-by-Month Plan</h3>
               <div className="relative pl-6 space-y-6 border-l border-slate-200 mb-5 py-1">
@@ -1722,7 +1719,7 @@ export default function ExamMainLayout({ exam }: Props) {
                   <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-3">
                     Since sections are individually timed at 20 minutes each, you need a clear attempt strategy for each.
                   </p>
-                  
+
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-[#1B6EB5]">
                       <h4 className="font-extrabold text-[#1B6EB5] text-sm sm:text-base mb-1">English (20 mins)</h4>
@@ -1933,7 +1930,7 @@ export default function ExamMainLayout({ exam }: Props) {
                         <span className="text-[11px] font-black text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded shadow-xs opacity-90 group-hover:scale-105 transition-transform">
                           {score} M
                         </span>
-                        <div 
+                        <div
                           className="w-8 sm:w-10 rounded-t-lg bg-[#1B6EB5] hover:bg-[#2481CC] transition-all duration-300 relative shadow-sm"
                           style={{ height: `${heightPercent}px`, minHeight: '40px' }}
                         >
@@ -1946,7 +1943,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
               </div>
             )}
-            
+
             <div className="mt-4">
               <Link
                 href={`/${exam.id}/cut-off`}
@@ -1962,7 +1959,7 @@ export default function ExamMainLayout({ exam }: Props) {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-850 mb-4 font-display border-b border-slate-100 pb-3">
               {isSbi ? 'SBI PO Salary 2026 — In-hand Pay, Allowances & Career Progression' : 'Salary Structure, Perks & Allowances'}
             </h2>
-            
+
             <div className="space-y-6">
               {isSbi ? (
                 <>
@@ -2151,7 +2148,7 @@ export default function ExamMainLayout({ exam }: Props) {
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 SBI PO 2026 Selection Process — All 4 Stages Explained
               </h2>
-              
+
               <div className="space-y-6 text-slate-700 text-sm leading-relaxed font-normal">
                 <div>
                   <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 1 — Preliminary Exam:</h4>
@@ -2257,7 +2254,7 @@ export default function ExamMainLayout({ exam }: Props) {
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 Why Prepare for SBI PO on BankerPrep?
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
                   <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
@@ -2357,9 +2354,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 return (
                   <div
                     key={idx}
-                    className={`border border-slate-200 rounded-xl overflow-hidden transition-all duration-200 ${
-                      isOpen ? 'border-blue-200 bg-slate-50/50' : 'bg-white'
-                    }`}
+                    className={`border border-slate-200 rounded-xl overflow-hidden transition-all duration-200 ${isOpen ? 'border-blue-200 bg-slate-50/50' : 'bg-white'
+                      }`}
                   >
                     <button
                       className="w-full flex items-center justify-between p-4 text-left font-bold text-slate-850 text-sm sm:text-base"
@@ -2368,9 +2364,8 @@ export default function ExamMainLayout({ exam }: Props) {
                       <span>{faq.q}</span>
                       <ChevronDown
                         size={16}
-                        className={`text-slate-400 transition-transform duration-200 ${
-                          isOpen ? 'transform rotate-180' : ''
-                        }`}
+                        className={`text-slate-400 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''
+                          }`}
                       />
                     </button>
                     {isOpen && (
@@ -2387,7 +2382,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
         {/* Right Column: Sticky Sidebar (Quick Navigation & CTA Cards) */}
         <aside className="sticky top-20 space-y-4">
-          
+
           {/* Quick Navigation panel */}
           <QuickNavigation exam={exam} />
 
@@ -2496,11 +2491,10 @@ export default function ExamMainLayout({ exam }: Props) {
               {/* Eligibility Result output */}
               {eligResult && (
                 <div
-                  className={`p-4 rounded-xl border flex flex-col gap-1.5 animate-fadein ${
-                    eligResult.eligible
+                  className={`p-4 rounded-xl border flex flex-col gap-1.5 animate-fadein ${eligResult.eligible
                       ? 'bg-green-50 border-green-200 text-green-800'
                       : 'bg-rose-50 border-rose-250 text-rose-800'
-                  }`}
+                    }`}
                 >
                   <div className="flex items-center gap-1.5 font-extrabold text-sm sm:text-base">
                     {eligResult.eligible ? (

@@ -16,7 +16,10 @@ import { ibpsPoMockTestContent } from './ibpsPoMockTest';
 import { ibpsPoEnglishSectionalContent } from './ibpsPoEnglishSectional';
 import { ibpsPoQuantSectionalContent } from './ibpsPoQuantSectional';
 import { ibpsPoReasoningSectionalContent } from './ibpsPoReasoningSectional';
+import { ibpsPoComparisonContent } from './ibpsPoComparison';
+import { ibpsPoStudyPlanContent } from './ibpsPoStudyPlan';
 import Link from 'next/link';
+import { Calendar, CheckCircle2, Lightbulb } from 'lucide-react';
 import {
   HighlightBox,
   InteractiveSyllabus,
@@ -1236,7 +1239,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     Prelims has three sections, each with a fixed time limit. You cannot move between sections before your allotted time ends.
                   </p>
-                  
+
                   <div>
                     <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">English Language (30 Questions | 30 Marks | 20 Minutes)</h4>
                     <p className="mb-2">
@@ -1378,7 +1381,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     Mains is where the syllabus expands significantly and where the difference between a well-prepared aspirant and the rest becomes visible.
                   </p>
-                  
+
                   <div>
                     <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Data Analysis and Interpretation (35 Questions | 60 Marks | 45 Minutes)</h4>
                     <p>
@@ -1401,7 +1404,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       The largest section by question count and joint-highest by marks. This section combines advanced Reasoning with Computer Knowledge topics.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-3">
-                      <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                      <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                         <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Advanced Reasoning</h5>
                         <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                           <li>Complex multi-constraint Puzzles</li>
@@ -1411,7 +1414,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                           <li>Coded Blood Relations &amp; Directions</li>
                         </ul>
                       </div>
-                      <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                      <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                         <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Computer Aptitude</h5>
                         <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                           <li>Hardware &amp; OS fundamentals</li>
@@ -2259,8 +2262,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Note the asymmetry: Data Analysis {"&"} Interpretation carries 60 marks for 35 questions (highest per-question value), and Reasoning {"&"} Computer Aptitude also carries 60 marks for 45 questions. Getting these two sections right is the fastest way to a competitive Mains score.
                   </p>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4.5 my-3">
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-3" style={{ gap: '1.125rem' }}>
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains Reasoning {"&"} Computer Aptitude</h5>
                       <p className="text-xs font-semibold text-slate-700 mb-1">Reasoning (40–45 marks):</p>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside mb-3">
@@ -2284,7 +2287,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </ul>
                     </div>
 
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains Data Analysis {"&"} Interpretation</h5>
                       <p className="text-xs text-slate-600 leading-relaxed mb-3">
                         This section has the highest marks per question (60/35 = ~1.7 marks per correct answer). Every question carries more weight than any other section. Topics:
@@ -2301,8 +2304,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4.5 my-3">
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-3" style={{ gap: '1.125rem' }}>
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains English Language</h5>
                       <p className="text-xs text-slate-600 leading-relaxed mb-2">Mains English is more complex than Prelims:</p>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
@@ -2318,7 +2321,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </p>
                     </div>
 
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">General Economy {"&"} Banking Awareness</h5>
                       <p className="text-xs font-semibold text-slate-700 mb-1">Current Affairs (last 6 months):</p>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside mb-2">
@@ -2355,13 +2358,13 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     The Descriptive paper is where IBPS separates disciplined aspirants from unprepared ones. Most students discover this paper exists only after clearing Prelims — then scramble in the 4–6 weeks before Mains.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1.5 text-[#1B6EB5]">Essay Writing</h5>
                       <p className="text-xs text-slate-600 leading-relaxed">
                         250–300 words on an assigned topic. Common themes include financial inclusion, digital banking, demonetisation impact, UPI growth, women entrepreneurship, and climate finance.
                       </p>
                     </div>
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1.5 text-[#1B6EB5]">Letter Writing</h5>
                       <p className="text-xs text-slate-600 leading-relaxed">
                         150–200 words. Could be a formal complaint, official request, or semi-formal letter. Banking and financial contexts are standard.
@@ -2975,7 +2978,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed font-normal">
                     IBPS PO selection happens in three phases. Understanding how they connect is more important than memorizing individual section names.
                   </p>
-                  
+
                   <div className="space-y-3">
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
                       <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
@@ -3686,90 +3689,90 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         };
       }
 
-    // SBI PO fallback
-    const prelimsData = {
-      phase: 'Preliminary Examination (Phase 1)',
-      info: '60 Minutes • 100 Questions • 100 Marks',
-      sections: [
-        { subject: 'English Language', questions: 30, marks: 30, time: '20 Mins' },
-        { subject: 'Quantitative Aptitude', questions: 35, marks: 35, time: '20 Mins' },
-        { subject: 'Reasoning Ability', questions: 35, marks: 35, time: '20 Mins' }
-      ],
-      notes: [
-        'Sectional time limits apply; you cannot switch sections mid-exam.',
-        'No sectional cut-off score is applicable (only the overall cutoff determines Mains eligibility).',
-        'A penalty of 0.25 (1/4th) marks is applied for each incorrect answer.'
-      ]
-    };
+      // SBI PO fallback
+      const prelimsData = {
+        phase: 'Preliminary Examination (Phase 1)',
+        info: '60 Minutes • 100 Questions • 100 Marks',
+        sections: [
+          { subject: 'English Language', questions: 30, marks: 30, time: '20 Mins' },
+          { subject: 'Quantitative Aptitude', questions: 35, marks: 35, time: '20 Mins' },
+          { subject: 'Reasoning Ability', questions: 35, marks: 35, time: '20 Mins' }
+        ],
+        notes: [
+          'Sectional time limits apply; you cannot switch sections mid-exam.',
+          'No sectional cut-off score is applicable (only the overall cutoff determines Mains eligibility).',
+          'A penalty of 0.25 (1/4th) marks is applied for each incorrect answer.'
+        ]
+      };
 
-    const mainsData = {
-      phase: 'Main Examination (Phase 2)',
-      info: '180 Minutes (Objective) + 30 Minutes (Descriptive) • 250 Marks Total',
-      sections: [
-        { subject: 'Reasoning & Computer Aptitude', questions: 45, marks: 60, time: '60 Mins' },
-        { subject: 'Data Analysis & Interpretation', questions: 35, marks: 60, time: '45 Mins' },
-        { subject: 'English Language', questions: 35, marks: 40, time: '40 Mins' },
-        { subject: 'General/Economy/Banking Awareness', questions: 40, marks: 40, time: '35 Mins' },
-        { subject: 'Descriptive Test (Essay & Letter)', questions: 2, marks: 50, time: '30 Mins' }
-      ],
-      notes: [
-        'Sectional timers apply; no switching between sections.',
-        'Descriptive answers must be typed immediately. It holds a high weightage of 50 marks.',
-        'A penalty of 0.25 (1/4th) marks applies to objective sections. Descriptive test has no negative marking.'
-      ]
-    };
+      const mainsData = {
+        phase: 'Main Examination (Phase 2)',
+        info: '180 Minutes (Objective) + 30 Minutes (Descriptive) • 250 Marks Total',
+        sections: [
+          { subject: 'Reasoning & Computer Aptitude', questions: 45, marks: 60, time: '60 Mins' },
+          { subject: 'Data Analysis & Interpretation', questions: 35, marks: 60, time: '45 Mins' },
+          { subject: 'English Language', questions: 35, marks: 40, time: '40 Mins' },
+          { subject: 'General/Economy/Banking Awareness', questions: 40, marks: 40, time: '35 Mins' },
+          { subject: 'Descriptive Test (Essay & Letter)', questions: 2, marks: 50, time: '30 Mins' }
+        ],
+        notes: [
+          'Sectional timers apply; no switching between sections.',
+          'Descriptive answers must be typed immediately. It holds a high weightage of 50 marks.',
+          'A penalty of 0.25 (1/4th) marks applies to objective sections. Descriptive test has no negative marking.'
+        ]
+      };
 
-    return {
-      title: `SBI PO Exam Pattern & Phase Schemes 2026`,
-      overview: `Understand the marks allotment, question types, time limits, and negative marking structure for the SBI PO Prelims, Mains, and Interview phases.`,
-      ctaText: `Attempt Realistic CBT Mock Test`,
-      ctaHref: 'https://app.prepgrind.com/register',
-      subsections: [
-        {
-          id: 'exam-phases-interactive',
-          title: 'Interactive Selection Process & Sectional Timings',
-          content: (
-            <div className="space-y-4">
-              <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                Toggle between Prelims (Phase 1) and Mains (Phase 2) in the tab switcher below to review the detailed sections, question ratios, marks distribution, and timing caps.
-              </p>
-              <InteractivePattern prelims={prelimsData} mains={mainsData} />
-            </div>
-          )
-        },
-        {
-          id: 'interview-merit',
-          title: 'Phase 3: Group Exercises & Interview',
-          content: (
-            <div className="space-y-4">
-              <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                Candidates who qualify in the Phase 2 Mains exam are invited to the final evaluation round.
-              </p>
-              <div className="space-y-3">
+      return {
+        title: `SBI PO Exam Pattern & Phase Schemes 2026`,
+        overview: `Understand the marks allotment, question types, time limits, and negative marking structure for the SBI PO Prelims, Mains, and Interview phases.`,
+        ctaText: `Attempt Realistic CBT Mock Test`,
+        ctaHref: 'https://app.prepgrind.com/register',
+        subsections: [
+          {
+            id: 'exam-phases-interactive',
+            title: 'Interactive Selection Process & Sectional Timings',
+            content: (
+              <div className="space-y-4">
                 <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  SBI PO Phase 3 is a comprehensive assessment split into two parts: Group Exercises (GD, role play, and group activities - 20 marks) and a Personal Interview (30 marks) for a total of 50 marks.
+                  Toggle between Prelims (Phase 1) and Mains (Phase 2) in the tab switcher below to review the detailed sections, question ratios, marks distribution, and timing caps.
                 </p>
-                <HighlightBox type="info" title="Final Score Normalization Ratio">
-                  The marks of the Main Exam and Phase 3 are combined and normalized in a <strong>75:25 ratio</strong>. The Preliminary Exam remains strictly qualifying and does not count towards the final ranking.
-                </HighlightBox>
+                <InteractivePattern prelims={prelimsData} mains={mainsData} />
               </div>
-            </div>
-          )
-        }
-      ],
-      faqs: exam.examFaqs.filter(f => f.q.toLowerCase().includes('pattern') || f.q.toLowerCase().includes('negative') || f.q.toLowerCase().includes('stage'))
-    };
-  }
+            )
+          },
+          {
+            id: 'interview-merit',
+            title: 'Phase 3: Group Exercises & Interview',
+            content: (
+              <div className="space-y-4">
+                <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
+                  Candidates who qualify in the Phase 2 Mains exam are invited to the final evaluation round.
+                </p>
+                <div className="space-y-3">
+                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
+                    SBI PO Phase 3 is a comprehensive assessment split into two parts: Group Exercises (GD, role play, and group activities - 20 marks) and a Personal Interview (30 marks) for a total of 50 marks.
+                  </p>
+                  <HighlightBox type="info" title="Final Score Normalization Ratio">
+                    The marks of the Main Exam and Phase 3 are combined and normalized in a <strong>75:25 ratio</strong>. The Preliminary Exam remains strictly qualifying and does not count towards the final ranking.
+                  </HighlightBox>
+                </div>
+              </div>
+            )
+          }
+        ],
+        faqs: exam.examFaqs.filter(f => f.q.toLowerCase().includes('pattern') || f.q.toLowerCase().includes('negative') || f.q.toLowerCase().includes('stage'))
+      };
+    }
 
-  case 'salary': {
-    if (examId === 'sbi-po') {
-      return sbiPoSalaryContent;
+    case 'salary': {
+      if (examId === 'sbi-po') {
+        return sbiPoSalaryContent;
+      }
+      if (examId === 'ibps-po') {
+        return ibpsPoSalaryContent;
+      }
+      return undefined;
     }
-    if (examId === 'ibps-po') {
-      return ibpsPoSalaryContent;
-    }
-    return undefined;
-  }
 
     case 'cut-off':
     case 'cut-offs': {
@@ -4227,7 +4230,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     After both Mains and the Interview are complete, IBPS calculates a composite score:
                   </p>
-                  <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200 my-2 text-center font-bold text-slate-800">
+                  <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 my-2 text-center font-bold text-slate-800" style={{ padding: '1.25rem' }}>
                     Final Score = (Mains Score &times; 0.80) + (Interview Score &times; 0.20)
                   </div>
                   <p>
@@ -4781,25 +4784,218 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
     case 'important-dates':
     case 'dates': {
-      const eventDetailsMap: Record<string, string> = {
-        'Official Notification': `The official notification is released by the conducting body. It contains critical information regarding category-wise vacancies, reservation guidelines, participating bank branches, detailed eligibility requirements, exam centers, and standard application fees. Make sure to download and review the official PDF carefully before registering.`,
-        'Application Start': `The online registration portal opens on the official site. Candidates must fill out their personal details, educational qualifications, select their preferred banks in order of priority, and pay the registration fees online.`,
-        'Application Last Date': `The final day to submit your online application and pay the application fee. No changes to the application form are permitted after this date. Ensure you print a copy of your completed application for future reference.`,
-        'Admit Card (Prelims)': `The admit card/call letter for the Phase 1 Preliminary online exam is released. Candidates must download it and verify their test center address, reporting time, and roll number. Ensure you carry a printed copy and original ID proof.`,
-        'Prelims Exam': `The Phase 1 online objective test containing English, Quantitative Aptitude, and Reasoning sections is conducted across multiple shifts nationwide. Focus on accuracy to clear the qualifying cut-offs.`,
-        'Prelims Result': `Results for Phase 1 are announced. Shortlisted candidates who clear the cut-off qualify to take the Mains exam. Scorecards with category-wise marks are typically published within 7-10 days.`,
-        'Mains Exam': `The Phase 2 Main exam (Objective + Descriptive) is conducted. This is the most crucial stage as these marks form the major component of the final selection merit list. Prepare for descriptive typing on a physical keyboard.`,
-        'Interview': `Personal interview conducted by a panel of senior banking officers. Questions cover banking awareness, current financial issues, personal background, and general knowledge. Dress professionally and remain confident.`,
-        'Group Exercise & Interview': `SBI Phase 3 includes Group Exercises (Group Discussion/Prioritization - 20 marks) and a Personal Interview (30 marks). Simulating group discussion panels beforehand is highly recommended.`,
-        'Final Result': `The final provisional allotment merit list is declared by normalizing and combining Mains and Interview/GE scores. Successful candidates receive their allotment orders at participating public sector bank branches.`
+      const datesContentMap: Record<string, {
+        description: string;
+        checklist: string[];
+        tip: string;
+      }> = {
+        'Official Notification Release': {
+          description: 'The State Bank of India publishes the official advertisement detailing vacancies, exam structure, registration fee, eligible age limits, and reservation specifications.',
+          checklist: [
+            'Download and read the official notification PDF carefully.',
+            'Verify the age limit cutoff date (usually April 1st).',
+            'Check if you qualify under the educational criteria (final year students allowed).'
+          ],
+          tip: 'Do not rely on third-party blog summaries. Always read the official PDF yourself to clarify the Bank Preference guidelines, category definitions, and documentation rules.'
+        },
+        'Official Notification': {
+          description: 'The Institute of Banking Personnel Selection publishes the official advertisement detailing vacancies, exam structure, registration fee, eligible age limits, and reservation specifications for 11 public sector banks.',
+          checklist: [
+            'Download and read the official notification PDF.',
+            'Verify the age limit cutoff date.',
+            'Confirm the bank-wise vacancy distribution.'
+          ],
+          tip: 'Review the bank preferences carefully. Once submitted, your order of preference for the 11 banks cannot be changed and determines your final allotment.'
+        },
+        'Online Application Opens': {
+          description: 'The online registration portal opens on the official SBI site. Candidates can fill out the form, upload documents, select category, and pay fees.',
+          checklist: [
+            'Have marksheets, category certificates, and ID proof ready.',
+            'Scan photograph, signature, left thumb impression, and handwritten declaration in exact dimensions.',
+            'Ensure the spelling of your name matches your 10th standard certificate.'
+          ],
+          tip: 'Complete your registration in the first week. The server becomes extremely slow during the final days, causing transaction failures.'
+        },
+        'Application Start': {
+          description: 'The online registration portal opens on the official IBPS site. Candidates can fill out the form, upload documents, select category, bank preferences, and pay fees.',
+          checklist: [
+            'Have marksheets, category certificates, and ID proof ready.',
+            'Scan photograph, signature, left thumb impression, and handwritten declaration in exact dimensions.',
+            'Formulate your bank preference list beforehand.'
+          ],
+          tip: 'Double-check your bank preference list before submitting. Higher-ranked banks should be placed first, even if they have fewer vacancies this year.'
+        },
+        'Application Deadline': {
+          description: 'The final day to submit your online application and pay the application fee. No changes to the application form are permitted after this date.',
+          checklist: [
+            'Confirm payment status shows "Success" in the portal.',
+            'Download and save the final submitted application form PDF.',
+            'Double-check your registered email and phone number for confirmation.'
+          ],
+          tip: 'If your payment failed but money was deducted, wait 24-48 hours for the portal to update, or make a second payment. SBI typically refunds duplicate transaction fees.'
+        },
+        'Application Last Date': {
+          description: 'The final day to submit your online application and pay the application fee. No changes to the application form are permitted after this date.',
+          checklist: [
+            'Confirm payment status shows "Success" in the portal.',
+            'Download and save the final submitted application form PDF.',
+            'Double-check your registered email and phone number for confirmation.'
+          ],
+          tip: 'Save a copy of the handwritten declaration you uploaded. You may need to verify your signature and handwriting matching at the exam center and interview stages.'
+        },
+        'Application Fee Payment Last Date': {
+          description: 'The final date to pay the application fee online. This is usually the same as the application deadline.',
+          checklist: [
+            'Ensure the transaction status says "Success".',
+            'Save the e-receipt generated by the bank.'
+          ],
+          tip: 'Always print the e-receipt. It serves as proof of payment if any dispute arises regarding your registration fee.'
+        },
+        'Prelims Admit Card Download': {
+          description: 'Admit cards for Phase 1 are released online. They contain your exam center name, venue details, shift timing, and roll number.',
+          checklist: [
+            'Download and print two color copies of the call letter.',
+            'Affix a passport-size photograph exactly matching the one uploaded.',
+            'Check the location of your exam center on Google Maps beforehand.'
+          ],
+          tip: 'Check the reporting time carefully. Exam centers strictly close gates 15 minutes before the exam starts. Late entry is never permitted under any circumstances.'
+        },
+        'Admit Card (Prelims)': {
+          description: 'Admit cards for Phase 1 are released online. They contain your exam center name, venue details, shift timing, and roll number.',
+          checklist: [
+            'Download and print two color copies of the call letter.',
+            'Affix a passport-size photograph exactly matching the one uploaded.',
+            'Check the location of your exam center on Google Maps beforehand.'
+          ],
+          tip: 'Check the reporting time carefully. Exam centers strictly close gates 15 minutes before the exam starts. Late entry is never permitted under any circumstances.'
+        },
+        'SBI PO Prelims Exam': {
+          description: 'A 1-hour computer-based test comprising English (30 marks), Quantitative Aptitude (35 marks), and Reasoning Ability (35 marks).',
+          checklist: [
+            'Carry printed admit card with photo affixed.',
+            'Bring original photo ID proof and a clear photocopy of it.',
+            'Keep a blue/black ballpoint pen for rough sheets.'
+          ],
+          tip: 'Prelims is qualifying, so speed and accuracy are everything. If you get stuck on a puzzle or a DI set, skip it immediately. Do not spend more than 90 seconds on a single question.'
+        },
+        'Prelims Exam': {
+          description: 'A 1-hour computer-based test comprising English (30 marks), Quantitative Aptitude (35 marks), and Reasoning Ability (35 marks) with sectional cutoffs.',
+          checklist: [
+            'Carry printed admit card with photo affixed.',
+            'Bring original photo ID proof and a clear photocopy of it.',
+            'Keep a blue/black ballpoint pen for rough sheets.'
+          ],
+          tip: 'Unlike SBI PO, IBPS PO has sectional cut-offs. Do not neglect English or Reasoning; you must clear the minimum qualifying marks in every section to pass the exam.'
+        },
+        'Prelims Result Declaration': {
+          description: 'SBI publishes the list of roll numbers of candidates shortlisted for Phase 2 Mains (approx. 10 times the vacancy count).',
+          checklist: [
+            'Look up your roll number in the official PDF.',
+            'Note your score and the category-wise cutoff marks.',
+            'Begin full-length Mains mocks immediately if qualified.'
+          ],
+          tip: 'Do not wait for Prelims results to start preparing for Mains. The gap between Prelims results and Mains exam is usually less than 25 days, which is insufficient for General Awareness revision.'
+        },
+        'Prelims Result': {
+          description: 'IBPS publishes the list of candidates shortlisted for Phase 2 Mains (approx. 10 times the vacancy count).',
+          checklist: [
+            'Look up your registration/roll number in the official result portal.',
+            'Check the sectional and overall cut-off scores once scorecards are released.',
+            'Begin full-length Mains mocks immediately.'
+          ],
+          tip: 'Mains syllabus is vast. General Awareness and Descriptive Writing require constant practice. Start revising static banking concepts immediately.'
+        },
+        'Mains Admit Card Download': {
+          description: 'Phase 2 Mains admit cards are released for qualified candidates.',
+          checklist: [
+            'Download the Mains call letter and descriptive test guidelines.',
+            'Locate the Mains exam venue (often in larger cities than Prelims).'
+          ],
+          tip: 'Read the descriptive test instructions. You will have to type your essay and letter on a computer keyboard immediately after the objective section.'
+        },
+        'SBI PO Mains Exam': {
+          description: 'A 3.5-hour test: 3 hours objective (200 marks) + 30 minutes descriptive test (50 marks). This is the key score for your final merit listing.',
+          checklist: [
+            'Bring original ID proof and photocopies.',
+            'Mentally prepare for high-difficulty puzzles and data interpretation caselets.'
+          ],
+          tip: 'The descriptive test requires good typing speed. Practice typing on a physical keyboard, not a laptop keypad, to ensure you can finish within 30 minutes.'
+        },
+        'Mains Exam': {
+          description: 'A 3.5-hour test: 3 hours objective (200 marks) + 30 minutes descriptive test (25 marks). Marks scored in Mains determine your final merit listing.',
+          checklist: [
+            'Bring original ID proof and photocopies.',
+            'Mentally prepare for high-difficulty data interpretation and logical reasoning questions.'
+          ],
+          tip: 'Descriptive test is key in IBPS PO. Formulating structured templates for letter writing and essay writing will help you score easily.'
+        },
+        'Mains Result Declaration': {
+          description: 'List of candidates qualified for Phase 3 (Group Exercises & Interview) is published (approx. 3 times the vacancies).',
+          checklist: [
+            'Check your name/roll number in the selection PDF.',
+            'Start preparing documentation: graduation certificates, character certificates, caste certificates.'
+          ],
+          tip: 'Get your bio-data form ready. Draft answers to standard interview questions like "Why banking?", "Tell us about yourself", and "How does your degree help in SBI?".'
+        },
+        'Mains Result': {
+          description: 'List of candidates qualified for Phase 3 Personal Interview is published.',
+          checklist: [
+            'Check your roll number in the selection PDF.',
+            'Start preparing documentation: graduation certificates, category certificates, character certificates.'
+          ],
+          tip: 'Keep your academic transcripts ready. Panels regularly ask about your graduation subjects, major projects, and post-graduation plans.'
+        },
+        'Group Exercise & Interview': {
+          description: 'Assessment of communication, leadership, and banking knowledge. Consists of a Group Exercise/GD (20 marks) and Interview (30 marks).',
+          checklist: [
+            'Prepare formal business attire (suit/blazer/formal wear).',
+            'Revise financial current affairs, RBI policies, and basic economics of the last 3 months.',
+            'Participate in mock group discussions and interviews.'
+          ],
+          tip: 'In group exercises, focus on active listening and summarizing points rather than aggressive arguing. Panels look for collaboration and logical thinking.'
+        },
+        'Interview': {
+          description: 'Personal interview (100 marks) conducted by a panel of senior banking officials. Focuses on banking awareness, current affairs, and personality assessment.',
+          checklist: [
+            'Prepare formal business attire.',
+            'Revise financial current affairs, RBI policies, and basic economics of the last 3 months.',
+            'Practice mock interviews to build confidence.'
+          ],
+          tip: 'In personal interviews, honesty is key. If you do not know the answer to a question, politely say "I am not aware of this, sir, but I will look it up." Do not try to guess or bluff.'
+        },
+        'Final Result & Merit List': {
+          description: 'SBI publishes the list of provisionally selected candidates based on the 75:25 normalized weightage of Mains and Phase 3 scores.',
+          checklist: [
+            'Check the final list for your roll number.',
+            'Receive the allotment letter and pre-recruitment medical guidelines.'
+          ],
+          tip: 'Celebrate your success and prepare for your intensive training module at the SBI local head office!'
+        },
+        'Final Result': {
+          description: 'IBPS publishes the final allotment list of provisionally selected candidates based on the 80:20 normalized weightage of Mains and Interview scores.',
+          checklist: [
+            'Check the final list for your roll number and bank allotment.',
+            'Receive the offer letter from your allotted bank.'
+          ],
+          tip: 'Congratulations! Get ready to join your allotted bank and begin your journey as a Probationary Officer.'
+        }
       };
 
-      const timelineEvents = exam.dates.map(d => ({
-        event: d.event,
-        date: d.date,
-        status: d.status as 'upcoming' | 'active' | 'closed',
-        details: eventDetailsMap[d.event] || `Important recruitment milestone for the ${exam.shortName} 2026 cycle. Please track dates on the official portal to ensure compliance with conducting guidelines.`
-      }));
+      const timelineEvents = exam.dates.map(d => {
+        const rich = datesContentMap[d.event] || {
+          description: `Important recruitment milestone for the ${exam.shortName} 2026 cycle. Please track dates on the official portal to ensure compliance.`,
+          checklist: [],
+          tip: ''
+        };
+        return {
+          event: d.event,
+          date: d.date,
+          status: d.status as 'upcoming' | 'active' | 'closed',
+          description: rich.description,
+          checklist: rich.checklist,
+          tip: rich.tip
+        };
+      });
 
       return {
         title: `${exam.shortName} Important Dates & Timeline 2026`,
@@ -4808,14 +5004,88 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         ctaHref: 'https://app.prepgrind.com/register',
         subsections: [
           {
-            id: 'interactive-timeline-section',
-            title: 'Interactive Recruitment Calendar Timeline',
+            id: 'timeline-vertical-pathway',
+            title: 'Recruitment Calendar Timeline & Action Roadmap',
             content: (
-              <div className="space-y-4">
-                <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  Track dates and plan your preparation milestones using the interactive timeline below. Click on any event to see targeted guidelines and checklist tips.
+              <div className="space-y-6">
+                <p className="text-slate-655 text-sm sm:text-base leading-relaxed">
+                  Track the full lifecycle of the recruitment process below. Review the required checklists and expert tips for each milestone to keep your preparation perfectly aligned with key milestones.
                 </p>
-                <DatesTimeline events={timelineEvents} />
+                <div className="relative pl-6 sm:pl-8 border-l border-slate-200 ml-4 space-y-12 my-8">
+                  {timelineEvents.map((ev, idx) => {
+                    const statusColors = {
+                      upcoming: {
+                        dot: 'bg-amber-400 border-amber-200 text-amber-900',
+                        pill: 'bg-amber-50 text-amber-800 border-amber-200'
+                      },
+                      active: {
+                        dot: 'bg-emerald-500 border-emerald-200 text-white animate-pulse',
+                        pill: 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                      },
+                      closed: {
+                        dot: 'bg-slate-300 border-slate-200 text-slate-600',
+                        pill: 'bg-slate-100 text-slate-600 border-slate-200'
+                      }
+                    };
+                    const colorScheme = statusColors[ev.status] || statusColors.upcoming;
+
+                    return (
+                      <div key={ev.event} className="relative">
+                        {/* Circle Node on Left Line */}
+                        <div className={`absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full border-2 border-white shadow-xs ${colorScheme.dot}`} />
+
+                        <div className="space-y-3">
+                          {/* Metadata Bar */}
+                          <div className="flex items-center gap-2 flex-wrap text-xs font-bold">
+                            <span className="inline-flex items-center gap-1 text-[#1B6EB5] bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100">
+                              <Calendar size={12} />
+                              {ev.date}
+                            </span>
+                            <span className={`px-2.5 py-0.5 rounded-md border text-[10px] uppercase tracking-wider ${colorScheme.pill}`}>
+                              {ev.status}
+                            </span>
+                          </div>
+
+                          {/* Event Title */}
+                          <h4 className="text-base sm:text-lg font-extrabold text-slate-800 leading-tight">
+                            {ev.event}
+                          </h4>
+
+                          {/* Event Description */}
+                          <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
+                            {ev.description}
+                          </p>
+
+                          {/* Action Checklist */}
+                          {ev.checklist.length > 0 && (
+                            <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl space-y-2 mt-2">
+                              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest">Action Checklist</span>
+                              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-600">
+                                {ev.checklist.map((item, cidx) => (
+                                  <li key={cidx} className="flex gap-2 items-start font-normal">
+                                    <CheckCircle2 size={14} className="text-green-600 shrink-0 mt-0.5" />
+                                    <span>{item}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {/* Topper Tip */}
+                          {ev.tip && (
+                            <div className="bg-amber-50/70 border border-amber-200 p-4 rounded-xl flex gap-3 items-start mt-2">
+                              <Lightbulb size={18} className="text-[#D4A017] shrink-0 mt-0.5" />
+                              <div className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal">
+                                <span className="block font-bold text-slate-800 text-xs uppercase tracking-wider mb-0.5">Topper Advice</span>
+                                {ev.tip}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             )
           }
@@ -4828,6 +5098,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'strategy': {
       if (examId === 'sbi-po') {
         return sbiPoStudyPlanContent;
+      }
+      if (examId === 'ibps-po') {
+        return ibpsPoStudyPlanContent;
       }
       return {
         title: `${exam.shortName} Preparation Strategy & Study Plan 2026`,
@@ -6155,7 +6428,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     The admit card is your entry pass to the exam hall. Check every field carefully the moment you download it. Here&apos;s what it includes:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Candidate Information</h5>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Full name</li>
@@ -6165,7 +6438,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         <li>Category details</li>
                       </ul>
                     </div>
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Exam Details</h5>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Exam stage (Prelims/Mains)</li>
@@ -6175,7 +6448,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         <li>Exam centre code</li>
                       </ul>
                     </div>
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Instructions</h5>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Permitted items inside hall</li>
@@ -6237,7 +6510,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </tbody>
                     </table>
                   </div>
-                  <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                  <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
                     <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Accepted Photo ID Documents:</h5>
                     <ul className="text-xs sm:text-sm text-slate-650 space-y-1 pl-3 list-disc list-inside">
                       <li>Aadhaar Card (physical or mAadhaar)</li>
@@ -6418,23 +6691,23 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </p>
                   <div className="space-y-3.5 pl-3 font-normal">
                     <p>
-                      <strong>Step 1 — Start with a Diagnostic Mock Test</strong><br/>
+                      <strong>Step 1 — Start with a Diagnostic Mock Test</strong><br />
                       Attempt the <a href="https://prepbanker.com/sbi-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Free SBI PO Prelims Mock Test</a> without any preparation — this is your baseline. Analyse your score section-wise. Identify where you&apos;re losing marks: time management, accuracy, or topic gaps.
                     </p>
                     <p>
-                      <strong>Step 2 — Fill Gaps with Sectional Tests</strong><br/>
+                      <strong>Step 2 — Fill Gaps with Sectional Tests</strong><br />
                       PrepBanker&apos;s sectional tests for Quantitative Aptitude, Reasoning Ability, and English Language let you isolate weak areas without attempting a full 100-question mock. Use these in your daily practice schedule.
                     </p>
                     <p>
-                      <strong>Step 3 — Chapter-wise Quizzes for Concept Gaps</strong><br/>
+                      <strong>Step 3 — Chapter-wise Quizzes for Concept Gaps</strong><br />
                       If your sectional test reveals weakness in, say, Data Interpretation or Reading Comprehension, go to the relevant chapter-wise quiz. These are shorter (15–20 questions), targeted, and ideal for the 7–10 day pre-exam window.
                     </p>
                     <p>
-                      <strong>Step 4 — Full-Length Mock Tests with Analysis</strong><br/>
+                      <strong>Step 4 — Full-Length Mock Tests with Analysis</strong><br />
                       In the final 2 weeks, shift to full-length mocks. Take 1 mock per day. The post-test analysis on PrepBanker shows your accuracy per section, time spent per question, and percentile against other students — use this to adjust your exam strategy.
                     </p>
                     <p>
-                      <strong>Step 5 — Attempt PYQ Sets</strong><br/>
+                      <strong>Step 5 — Attempt PYQ Sets</strong><br />
                       Previous Year Question sets on PrepBanker are organised by exam and year. Solving SBI PO PYQs (2019–2024) gives you direct insight into the question type distribution. At least 30–40% of Prelims questions follow recurring patterns.
                     </p>
                   </div>
@@ -6875,7 +7148,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Your hall ticket contains everything you need to report to the right place at the right time. Here is what to look for and verify:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Personal Details</h5>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Candidate&apos;s full name (must match your application form exactly)</li>
@@ -6884,7 +7157,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         <li>Category (General / OBC / SC / ST / EWS / PwD)</li>
                       </ul>
                     </div>
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Exam Details</h5>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Exam name and cycle (CRP PO/MT-XVI)</li>
@@ -6894,7 +7167,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         <li>Language of exam</li>
                       </ul>
                     </div>
-                    <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
                       <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Centre Details</h5>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Name of the exam centre</li>
@@ -6955,7 +7228,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </tbody>
                     </table>
                   </div>
-                  <div className="bg-slate-50 p-4.5 rounded-xl border border-slate-200">
+                  <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
                     <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Accepted Photo ID Proofs:</h5>
                     <p className="text-xs sm:text-sm text-slate-600 mb-2">Any one of the following is valid:</p>
                     <ul className="text-xs sm:text-sm text-slate-605 space-y-1.5 pl-3 list-disc list-inside font-normal">
@@ -7160,17 +7433,15 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     Attempt the best place to start your final sprint is with a full <a href="https://prepbanker.com/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Free Mock Test — Prelims Pattern</a>. This full-length test mirrors the exact difficulty, question types, and time pressure of the October exam — use it to set your baseline score and identify which sections need the most attention in your remaining days.
                   </p>
+             
                   <p>
-                    For targeted drilling, the <a href="https://prepbanker.com/ibps-po/reasoning-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning Sectional Tests</a> cover all puzzle formats — floor-based, linear, circular, and double-row seating — that consistently appear in both Prelims and Mains. These are the questions most students lose marks on, and the most improvable with focused practice.
-                  </p>
-                  <p>
-                    The <a href="https://prepbanker.com/ibps-po/quant-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quant Sectional Test Series</a> is built around DI sets from the last four years of actual papers. If Data Interpretation is your weak link, this is the fastest way to build both speed and accuracy before the exam.
+                    The <a href="https://app.prepgrind.com/register" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quant Sectional Test Series</a> is built around DI sets from the last four years of actual papers. If Data Interpretation is your weak link, this is the fastest way to build both speed and accuracy before the exam.
                   </p>
                   <p>
                     Check the <a href="https://prepbanker.com/ibps-po/notification" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Notification 2026 page</a> for the full exam calendar, eligibility details, vacancy breakdown, and selection process — useful if you need to cross-check any details while reviewing your admit card.
                   </p>
                   <p>
-                    Finally, the <a href="https://prepbanker.com/ibps-po/pyq" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO PYQ Sets (Previous Year Questions)</a> give you actual questions from the last five years of Prelims and Mains exams — the single most reliable signal of what IBPS is likely to ask again in 2026.
+                    Finally, the <a href="https://app.prepgrind.com/register" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO PYQ Sets (Previous Year Questions)</a> give you actual questions from the last five years of Prelims and Mains exams — the single most reliable signal of what IBPS is likely to ask again in 2026.
                   </p>
                 </div>
               )
@@ -7911,7 +8182,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       <li>Psychometric Test: Qualifying (result placed before the interview panel)</li>
                     </ul>
                     <p className="mt-2 text-sm">
-                      <strong>Final Merit List Calculation:</strong><br/>
+                      <strong>Final Merit List Calculation:</strong><br />
                       Mains (out of 250) is scaled to 75 marks. GD + Interview (out of 50) is scaled to 25 marks. Final score is out of 100. This 75:25 ratio means your Mains score carries far more weight than the interview.
                     </p>
                   </div>
@@ -7978,23 +8249,23 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </p>
                   <div className="space-y-3 pl-3 font-normal">
                     <p>
-                      <strong>Step 1 — Take the Free Diagnostic Mock</strong><br/>
+                      <strong>Step 1 — Take the Free Diagnostic Mock</strong><br />
                       Start with PrepBanker&apos;s free SBI PO Prelims mock test. Don&apos;t study anything beforehand — this cold attempt tells you your real starting point across all three sections.
                     </p>
                     <p>
-                      <strong>Step 2 — Identify Your Section-Wise Score</strong><br/>
+                      <strong>Step 2 — Identify Your Section-Wise Score</strong><br />
                       After the test, open the result dashboard. You&apos;ll see your score, time spent per question, and your percentile. Identify which section is your biggest leak — for most students, it&apos;s either Quant or Reasoning.
                     </p>
                     <p>
-                      <strong>Step 3 — Work Through Sectional Tests</strong><br/>
+                      <strong>Step 3 — Work Through Sectional Tests</strong><br />
                       PrepBanker offers standalone sectional tests for Quant, Reasoning, English, and GA. Once you know your weak section, hit sectional tests in targeted bursts: 3–4 per week on your weak area.
                     </p>
                     <p>
-                      <strong>Step 4 — Use Chapter-Wise Quizzes to Fix Specific Topics</strong><br/>
+                      <strong>Step 4 — Use Chapter-Wise Quizzes to Fix Specific Topics</strong><br />
                       If your Quant score is weak, drill down further. Is it Data Interpretation? Simplification? Percentages? Chapter-wise quizzes on PrepBanker let you isolate specific topics and build strength before applying it in full tests.
                     </p>
                     <p>
-                      <strong>Step 5 — Attempt Full-Length Mocks Regularly</strong><br/>
+                      <strong>Step 5 — Attempt Full-Length Mocks Regularly</strong><br />
                       In the final 8–10 weeks before Prelims, attempt at least 2 full-length mocks per week under timed conditions. Review every single wrong answer. The analysis phase — not the attempt itself — is where improvement happens.
                     </p>
                   </div>
@@ -8813,7 +9084,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Weak in Quantitative Aptitude? The <a href="https://prepbanker.com/ibps-po/quant-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quant Sectional Test Series</a> is built around DI sets and arithmetic topics from the last four years of actual Mains papers — the exact questions that push most aspirants below cut-off.
                   </p>
                   <p>
-                    Finally, the <a href="https://prepbanker.com/ibps-po/pyq" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Previous Year Question Sets</a> give you five years of Prelims and Mains papers in timed test format — the most direct signal of what IBPS is likely to repeat or vary in 2026.
+                    Finally, the <a href="https://app.prepgrind.com/register" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Previous Year Question Sets</a> give you five years of Prelims and Mains papers in timed test format — the most direct signal of what IBPS is likely to repeat or vary in 2026.
                   </p>
                 </div>
               )
@@ -9268,7 +9539,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       A 1-hour, 100-mark Computer Based Test (CBT) with three sections. Purely qualifying in nature. Marks do not affect final selection.
                     </p>
                   </div>
-                  
+
                   <div className="bg-[#1B6EB5]/5 border border-[#1B6EB5]/20 rounded-2xl p-5 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-[#1B6EB5]/5 rounded-bl-full -mr-6 -mt-6"></div>
                     <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-2">Stage 2</span>
@@ -10065,59 +10336,10 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
       if (examId === 'sbi-po') {
         return sbiPoComparisonContent;
       }
-      return {
-        title: `${exam.shortName} vs ${isIbps ? 'SBI PO' : 'IBPS PO'} Comparison`,
-        overview: `A complete side-by-side comparison of SBI PO and IBPS PO covering salary package, career path, and lifestyle.`,
-        ctaText: 'Access PrepBanker Mock Series',
-        ctaHref: 'https://app.prepgrind.com/register',
-        subsections: [
-          {
-            id: 'quick-comparison-table',
-            title: 'Side-by-Side Comparison Parameters',
-            content: (
-              <div className="space-y-4">
-                <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  Here is how the two banking roles compare across key factors:
-                </p>
-                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                    <thead>
-                      <tr className="bg-slate-900 text-white font-bold">
-                        <th className="px-4 py-2.5">Feature</th>
-                        <th className="px-4 py-2.5">SBI PO</th>
-                        <th className="px-4 py-2.5">IBPS PO</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100 text-slate-650">
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Participating Banks</td>
-                        <td className="px-4 py-3">Only State Bank of India</td>
-                        <td className="px-4 py-3">11 Public Sector Banks</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Starting Metro CTC</td>
-                        <td className="px-4 py-3">₹10–12 LPA (Higher)</td>
-                        <td className="px-4 py-3">₹7–10 LPA</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Promotion Speed</td>
-                        <td className="px-4 py-3">Fast-track cycles; high growth</td>
-                        <td className="px-4 py-3">Structured, slightly slower</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Work Load & Pressure</td>
-                        <td className="px-4 py-3">High customer volume & targets</td>
-                        <td className="px-4 py-3">Moderate to high workload</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            )
-          }
-        ],
-        faqs: exam.examFaqs.filter(f => f.q.toLowerCase().includes('different') || f.q.toLowerCase().includes('clerk') || f.q.toLowerCase().includes('sbi clerk'))
-      };
+      if (examId === 'ibps-po') {
+        return ibpsPoComparisonContent;
+      }
+      return undefined;
     }
 
     default:

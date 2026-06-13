@@ -1,55 +1,55 @@
 // PATH: components/sections/current-affairs/cards/CACard.tsx
 'use client';
 
-import { memo, useState } from 'react';
+import { memo } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { Clock } from 'lucide-react';
+import {
+  Globe,
+  Building2,
+  Landmark,
+  TrendingUp,
+  Flag,
+  BookOpen,
+  Calendar,
+  Award,
+  BarChart2,
+  Newspaper,
+  Clock,
+} from 'lucide-react';
 import type { CurrentAffair } from '../../../../types/current-affairs';
 
 // ─── Helpers ──────────────────────────────
-export function getArticleImage(ca: CurrentAffair): string {
-  const images: Record<string, string> = {
-    'RBI Updates': 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=500&auto=format&fit=crop&q=80',
-    'Economy & Finance': 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=500&auto=format&fit=crop&q=80',
-    'Banking Awareness': 'https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=500&auto=format&fit=crop&q=80',
-    'Government Schemes': 'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=500&auto=format&fit=crop&q=80',
-    'International Affairs': 'https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=500&auto=format&fit=crop&q=80',
-    'Static GK': 'https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=500&auto=format&fit=crop&q=80',
-    'Important Days': 'https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=500&auto=format&fit=crop&q=80',
-    'Awards & Honors': 'https://images.unsplash.com/photo-1531058020387-3be344559be6?w=500&auto=format&fit=crop&q=80',
-    'Reports & Indexes': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=80',
-  };
+export const CATEGORY_ICONS: Record<string, React.ElementType> = {
+  'RBI Updates': Landmark,
+  'Banking Awareness': Building2,
+  'Economy & Finance': TrendingUp,
+  'Government Schemes': Flag,
+  'International Affairs': Globe,
+  'Static GK': BookOpen,
+  'Important Days': Calendar,
+  'Awards & Honors': Award,
+  'Reports & Indexes': BarChart2,
+};
 
-  if (ca.id.includes('rbi-01')) {
-    return 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=500&auto=format&fit=crop&q=80';
-  }
-  if (ca.title.toLowerCase().includes('semiconductor')) {
-    return 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop&q=80';
-  }
-  if (ca.title.toLowerCase().includes('yogasana') || ca.title.toLowerCase().includes('yoga')) {
-    return 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&auto=format&fit=crop&q=80';
-  }
-  if (ca.title.toLowerCase().includes('entrepreneurs') || ca.title.toLowerCase().includes('msde')) {
-    return 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=500&auto=format&fit=crop&q=80';
-  }
-  if (ca.title.toLowerCase().includes('padma')) {
-    return 'https://images.unsplash.com/photo-1578269174936-2709b5a8c0e3?w=500&auto=format&fit=crop&q=80';
-  }
-  if (ca.title.toLowerCase().includes('governor bags') || ca.title.toLowerCase().includes('best central banker')) {
-    return 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=80';
-  }
-
-  return images[ca.category] ?? 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=80';
-}
+export const CATEGORY_GRADIENTS: Record<string, string> = {
+  'RBI Updates': 'from-[#0F2027] via-[#203A43] to-[#2C5364]',
+  'Banking Awareness': 'from-[#1e3c72] to-[#2a5298]',
+  'Economy & Finance': 'from-[#24C6DC] to-[#514A9D]',
+  'Government Schemes': 'from-[#F3904F] to-[#3B4371]',
+  'International Affairs': 'from-[#11998e] to-[#38ef7d]',
+  'Static GK': 'from-[#8A2387] via-[#E94057] to-[#F27121]',
+  'Important Days': 'from-[#FF007F] to-[#FF4B2B]',
+  'Awards & Honors': 'from-[#f857a6] to-[#ff5858]',
+  'Reports & Indexes': 'from-[#11998e] to-[#38ef7d]',
+};
 
 interface CACardProps {
   ca: CurrentAffair;
 }
 
 function CACard({ ca }: CACardProps) {
-  const imageUrl = getArticleImage(ca);
-  const [imgSrc, setImgSrc] = useState(imageUrl);
+  const IconComponent = CATEGORY_ICONS[ca.category] ?? Newspaper;
+  const gradientClass = CATEGORY_GRADIENTS[ca.category] ?? 'from-slate-700 to-slate-800';
 
   // Parse custom format like 'May 20, 2026' into '20 May' or similar if needed, or keep it short.
   const formatShortDate = (dateStr: string) => {
@@ -68,16 +68,27 @@ function CACard({ ca }: CACardProps) {
       aria-label={`Read more about ${ca.title}`}
       className="group bg-white rounded-xl flex flex-col overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg border border-slate-200"
     >
-      {/* Article Image */}
-      <div className="relative h-48 w-full overflow-hidden bg-slate-100">
-        <Image
-          src={imgSrc}
-          alt={ca.title}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 25vw"
-          className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
-          onError={() => setImgSrc('/images/default.jpg')}
+      {/* Category Icon with Premium Gradient Background */}
+      <div className={`relative h-48 w-full overflow-hidden bg-gradient-to-br ${gradientClass} flex items-center justify-center`}>
+        {/* Subtle grid pattern */}
+        <div
+          className="absolute inset-0 opacity-[0.05] pointer-events-none"
+          style={{
+            backgroundImage:
+              'linear-gradient(rgba(255,255,255,0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.2) 1px, transparent 1px)',
+            backgroundSize: '20px 20px',
+          }}
         />
+        {/* Glowing/blur effect */}
+        <div className="absolute -top-12 -left-12 w-32 h-32 rounded-full bg-white/10 blur-xl pointer-events-none" />
+        <div className="absolute -bottom-12 -right-12 w-32 h-32 rounded-full bg-white/10 blur-xl pointer-events-none" />
+
+        <div className="relative z-10 flex flex-col items-center">
+          <span className="p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-inner transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6">
+            <IconComponent className="w-8 h-8 text-white filter drop-shadow-sm" aria-hidden />
+          </span>
+        </div>
+
         {/* Category tag overlaid */}
         <div className="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[9px] font-extrabold uppercase px-2 py-0.5 rounded tracking-wide">
           {ca.category}

@@ -4,6 +4,7 @@
 // All logic, data, and UI live inside the feature module.
 // ─────────────────────────────────────────
 import type { Metadata } from 'next';
+import { Sparkles, Newspaper, TrendingUp, Calendar, BookOpen, Users, Star } from 'lucide-react';
 import Header  from '@/components/layout/Header';
 import Footer  from '@/components/layout/Footer';
 import CAHero            from '@/components/sections/current-affairs/hero/CAhero';
@@ -11,6 +12,16 @@ import CurrentAffairsModule from '@/components/sections/current-affairs/CurrentA
 import CAFAQSection      from '@/components/sections/current-affairs/faq/CAFAQSection';
 import { BreadcrumbSchema, FAQSchema } from '@/components/seo';
 import { CA_FAQS } from '@/lib/data/current-affairs/faqs';
+import { CA_HERO_STATS } from '@/lib/data/current-affairs/stats';
+
+const HERO_ICON_MAP: Record<string, React.ElementType> = {
+  Newspaper,
+  TrendingUp,
+  Calendar,
+  BookOpen,
+  Users,
+  Star,
+};
 
 // ─── SEO metadata ─────────────────────────
 export const metadata: Metadata = {
@@ -30,6 +41,7 @@ export const metadata: Metadata = {
     title:       'Banking Current Affairs 2026 | PrepBanker',
     description: 'Exam-tagged daily current affairs for SBI PO & IBPS PO aspirants.',
     type:        'website',
+    url:         'https://prepbanker.com/current-affairs',
   },
 };
 
@@ -49,7 +61,54 @@ export default function CurrentAffairsPage() {
       <Header />
 
       <main>
-        <CAHero />
+        <CAHero
+          breadcrumbs={[
+            { label: 'Home', href: '/' },
+            { label: 'Current Affairs' },
+          ]}
+          badgeText="Updated Daily"
+          BadgeIcon={Sparkles}
+          title={
+            <>
+              Banking <span className="text-gold-gradient">Current Affairs 2026</span>
+            </>
+          }
+          description="Daily and monthly current affairs curated for SBI PO & IBPS PO aspirants. Stay on top of banking news, RBI policy, economy updates, and government schemes — all in one place."
+        >
+          {/* Stats strip */}
+          <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            {CA_HERO_STATS.map(({ iconName, value, label }) => {
+              const Icon = HERO_ICON_MAP[iconName] ?? Newspaper;
+              return (
+                <div
+                  key={label}
+                  className="flex items-center gap-3 px-4 py-3 rounded-xl"
+                  style={{
+                    background: 'rgba(255,255,255,0.07)',
+                    border: '1px solid rgba(255,255,255,0.10)',
+                    backdropFilter: 'blur(6px)',
+                  }}
+                >
+                  <span
+                    className="flex-shrink-0 p-2 rounded-lg"
+                    style={{ background: 'rgba(255,255,255,0.10)' }}
+                  >
+                    <Icon className="w-4 h-4 text-[var(--color-gold-bright)]" aria-hidden />
+                  </span>
+                  <div>
+                    <p className="text-base font-bold text-white leading-none">{value}</p>
+                    <p
+                      className="text-[10px] font-medium mt-0.5"
+                      style={{ color: 'rgba(255,255,255,0.55)' }}
+                    >
+                      {label}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </CAHero>
         <CurrentAffairsModule />
         <CAFAQSection />
       </main>
@@ -57,4 +116,4 @@ export default function CurrentAffairsPage() {
       <Footer />
     </>
   );
-}
+}

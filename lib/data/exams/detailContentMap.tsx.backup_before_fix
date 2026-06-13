@@ -3150,20 +3150,15 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     Downloading your admit card is one step. Cracking the exam is the goal. Here&apos;s what students preparing for SBI PO 2026 use most on PrepBanker:
                   </p>
-                  <p>
-                    Attempt the <a href="https://prepbanker.com/sbi-po/mock-tests/prelims-free" className="font-bold text-[#1B6EB5] hover:underline">Free SBI PO Prelims Full Mock Test</a> to get a real score estimate before your exam — no registration required for the first test.
-                  </p>
+
                   <p>
                     Check the <a href="https://prepbanker.com/sbi-po/syllabus" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Syllabus and Exam Pattern 2026</a> for a complete topic-wise breakdown of Prelims and Mains, with weightage analysis based on past papers.
                   </p>
-                  <p>
-                    Strengthen your speed with <a href="https://prepbanker.com/sectional-tests/quant" className="font-bold text-[#1B6EB5] hover:underline">Quantitative Aptitude Chapter-wise Quizzes</a> covering Number Series, Simplification, Data Interpretation, Quadratic Equations, and more.
+                   <p>
+                    Explore <a href="https://app.prepgrind.com/register" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Previous Year Question Papers (2019–2024)</a> — fully solved with detailed explanations, organised by year and section.
                   </p>
                   <p>
-                    Explore <a href="https://prepbanker.com/sbi-po/previous-year-papers" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Previous Year Question Papers (2019–2024)</a> — fully solved with detailed explanations, organised by year and section.
-                  </p>
-                  <p>
-                    Also preparing for IBPS PO or RBI Grade B? Check out the <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mock Test Series 2026</a> and <a href="https://prepbanker.com/rbi-grade-b/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">RBI Grade B Free Mock Test</a> — both exams share significant syllabus overlap with SBI PO.
+                    Also preparing for IBPS PO or RBI Grade B? Check out the <a href="https://app.prepgrind.com/register" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mock Test Series 2026</a> and <a href="https://app.prepgrind.com/register" className="font-bold text-[#1B6EB5] hover:underline">RBI Grade B Free Mock Test</a> — both exams share significant syllabus overlap with SBI PO.
                   </p>
                 </div>
               )
