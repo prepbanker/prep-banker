@@ -2,7 +2,6 @@
 'use client';
 
 import { Zap } from 'lucide-react';
-import Image from 'next/image';
 import { Button } from '@/components/ui';
 import { testimonials } from '@/lib/data';
 
@@ -98,20 +97,49 @@ function getSourceInfo(id: string) {
 }
 
 // ─────────────────────────────────────────
-// Profile Image Mapping Helper
+// Initials & Style Helpers
 // ─────────────────────────────────────────
-function getProfileImage(id: string) {
-  const mapping: Record<string, string> = {
-    'tm-1': '/images/rahul_sharma.png',
-    'tm-2': '/images/priya_verma.png',
-    'tm-3': '/images/arjun_patel.png',
-    'tm-4': '/images/sneha_krishnan.png',
-    'tm-5': '/images/vikram_singh.png',
-    'tm-6': '/images/divya_nair.png',
-    'tm-7': '/images/karan_mehta.png',
-    'tm-8': '/images/ananya_gupta.png',
-  };
-  return mapping[id] || '/images/default.jpg';
+function getInitials(name: string): string {
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 0) return '';
+  if (parts.length === 1) return parts[0].substring(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+function getAvatarStyles(name: string) {
+  const variants = [
+    {
+      bg: 'linear-gradient(135deg, #E0F2FE 0%, #BAE6FD 100%)',
+      color: '#0369A1',
+      border: '#bae6fd',
+    },
+    {
+      bg: 'linear-gradient(135deg, #F0FDF4 0%, #DCFCE7 100%)',
+      color: '#15803D',
+      border: '#dcfce7',
+    },
+    {
+      bg: 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)',
+      color: '#4338CA',
+      border: '#e0e7ff',
+    },
+    {
+      bg: 'linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%)',
+      color: '#7E22CE',
+      border: '#f3e8ff',
+    },
+    {
+      bg: 'linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%)',
+      color: '#C2410C',
+      border: '#ffedd5',
+    },
+  ];
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const index = Math.abs(hash) % variants.length;
+  return variants[index];
 }
 
 // ─────────────────────────────────────────
@@ -273,6 +301,7 @@ export default function TestimonialsSection() {
 // ─────────────────────────────────────────
 function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[0] }) {
   const srcInfo = getSourceInfo(t.id);
+  const avatarStyle = getAvatarStyles(t.name);
 
   return (
     <article
@@ -331,18 +360,20 @@ function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[
 
       {/* Bottom Row: User info */}
       <div className="flex items-center gap-3">
-        {/* Avatar */}
-        <Image
-          src={getProfileImage(t.id)}
-          alt={t.name}
-          width={40}
-          height={40}
-          className="flex-shrink-0 object-cover"
+        {/* Avatar Initials */}
+        <div
+          className="flex items-center justify-center flex-shrink-0 select-none font-bold text-[0.85rem] tracking-wider"
           style={{
+            width: '40px',
+            height: '40px',
             borderRadius: '50%',
-            border: '1.5px solid var(--color-gray-100)',
+            background: avatarStyle.bg,
+            color: avatarStyle.color,
+            border: `1.5px solid ${avatarStyle.border}`,
           }}
-        />
+        >
+          {getInitials(t.name)}
+        </div>
 
         {/* Name and description */}
         <div className="flex-1 min-w-0">

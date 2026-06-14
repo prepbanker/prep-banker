@@ -109,7 +109,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 'https://www.facebook.com/prepbanker',
                 'https://www.instagram.com/prepbanker',
               ],
-              contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: 'support@prepbanker.com' },
+              contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: 'prepbanker@gmail.com' },
             }),
           }}
         />

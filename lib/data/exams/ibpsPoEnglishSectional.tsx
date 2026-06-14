@@ -271,7 +271,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
             <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
               <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                 <thead>
-                  <tr className="bg-[#1B6EB5] text-white font-bold">
+                  <tr className="bg-slate-900 text-white font-bold">
                     <th className="px-4 py-2.5">Topic</th>
                     <th className="px-4 py-2.5">Typical Questions</th>
                     <th className="px-4 py-2.5">Marks</th>
@@ -411,7 +411,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
         <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
           <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
             <thead>
-              <tr className="bg-[#1B6EB5] text-white font-bold">
+              <tr className="bg-slate-900 text-white font-bold">
                 <th className="px-4 py-2.5">Parameter</th>
                 <th className="px-4 py-2.5">Prelims English</th>
                 <th className="px-4 py-2.5">Mains English (Objective)</th>
@@ -518,7 +518,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
         <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
           <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
             <thead>
-              <tr className="bg-[#1B6EB5] text-white font-bold">
+              <tr className="bg-slate-900 text-white font-bold">
                 <th className="px-4 py-2.5">Attempt Order</th>
                 <th className="px-4 py-2.5">Topic</th>
                 <th className="px-4 py-2.5">Target Time</th>
@@ -630,7 +630,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
         <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
           <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
             <thead>
-              <tr className="bg-[#1B6EB5] text-white font-bold">
+              <tr className="bg-slate-900 text-white font-bold">
                 <th className="px-4 py-2.5">Criterion</th>
                 <th className="px-4 py-2.5">English Sectional Test</th>
                 <th className="px-4 py-2.5">Full Mock Test</th>

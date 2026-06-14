@@ -387,7 +387,7 @@ export const sbiPoSalaryContent: DetailSectionContent = {
                   <td className="px-4 py-3 font-bold text-slate-800">Total Deductions</td>
                   <td className="px-4 py-3 font-bold">~11,000–12,500</td>
                 </tr>
-                <tr className="font-black text-white bg-[#1B6EB5]">
+                <tr className="font-black text-white bg-slate-900">
                   <td className="px-4 py-3 font-extrabold">Net In-Hand Salary (Metro)</td>
                   <td className="px-4 py-3 font-extrabold">~₹60,500–₹62,000</td>
                 </tr>

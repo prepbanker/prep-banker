@@ -159,51 +159,9 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* ── CTA Banner ──────────────────────── */}
-        <div style={{
-          marginTop: '3rem',
-          background: 'linear-gradient(135deg, rgba(27,110,181,0.08) 0%, rgba(251,191,36,0.05) 100%)',
-          border: '1px solid rgba(251,191,36,0.15)',
-          borderRadius: '16px',
-          padding: '1.75rem 2rem',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          flexWrap: 'wrap',
-          gap: '1rem',
-        }}>
-          <div>
-            <div style={{ color: '#fff', fontWeight: 700, fontSize: '1.1rem', marginBottom: '4px' }}>
-              Ready to crack SBI PO or IBPS PO in 2026?
-            </div>
-            <div style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem' }}>
-              Join 50,000+ aspirants already preparing with PrepBanker.
-            </div>
-          </div>
-          <a
-            href="https://app.prepgrind.com/register"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              padding: '12px 28px',
-              background: 'var(--color-yellow)',
-              color: 'var(--color-navy-deep)',
-              borderRadius: '10px',
-              fontWeight: 750,
-              fontSize: '0.9rem',
-              textDecoration: 'none',
-              flexShrink: 0,
-              transition: 'var(--transition)',
-            }}
-            onMouseEnter={e => { (e.currentTarget.style.transform = 'translateY(-2px)'); (e.currentTarget.style.boxShadow = '0 4px 14px rgba(251,191,36,0.35)'); }}
-            onMouseLeave={e => { (e.currentTarget.style.transform = 'translateY(0)'); (e.currentTarget.style.boxShadow = 'none'); }}>
-            Start Preparing Free →
-          </a>
-        </div>
-
         {/* ── Bottom Bar ──────────────────────── */}
         <div style={{
-          marginTop: '2rem',
+          marginTop: '3rem',
           paddingTop: '1.5rem',
           borderTop: '1px solid rgba(255,255,255,0.07)',
           display: 'flex',

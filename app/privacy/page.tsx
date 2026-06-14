@@ -44,9 +44,9 @@ export default function PrivacyPage() {
               { title: '3. Data Storage & Security', body: 'Your data is stored on secure servers in India. We implement industry-standard encryption (SSL/TLS) and follow best practices for data security. We do not store payment card information.' },
               { title: '4. Sharing of Information', body: 'We do not sell your personal information. We may share anonymized, aggregated data for research. We work with trusted service providers (payment processors, email services) bound by strict data agreements.' },
               { title: '5. Cookies', body: 'We use cookies to maintain your session, remember preferences, and analyze platform usage. You can control cookies through your browser settings. Disabling cookies may affect platform functionality.' },
-              { title: '6. Your Rights', body: 'You have the right to access, correct, or delete your personal data. You may opt out of marketing communications at any time. Contact privacy@prepbanker.com to exercise your rights.' },
+              { title: '6. Your Rights', body: 'You have the right to access, correct, or delete your personal data. You may opt out of marketing communications at any time. Contact prepbanker@gmail.com to exercise your rights.' },
               { title: '7. Children\'s Privacy', body: 'PrepBanker is intended for users 18 years and older. We do not knowingly collect information from minors. If we discover we have collected such information, it will be deleted.' },
-              { title: '8. Contact Us', body: 'For privacy-related questions, contact our Privacy Officer at privacy@prepbanker.com or write to: PrepBanker Privacy Team, India.' },
+              { title: '8. Contact Us', body: 'For privacy-related questions, contact our Privacy Officer at prepbanker@gmail.com or write to: PrepBanker Privacy Team, India.' },
             ].map(section => (
               <div key={section.title} style={{ marginBottom: '2rem', paddingBottom: '2rem', borderBottom: '1px solid var(--color-gray-100)' }}>
                 <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.1rem', marginBottom: '0.75rem' }}>

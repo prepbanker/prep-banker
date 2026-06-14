@@ -42,28 +42,28 @@ export default function ContactPage() {
         <section className="section-padding" style={{ background: 'var(--color-off-white)' }}>
           <div className="container-custom">
             <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-              gap: '1.5rem',
-              maxWidth: 900,
+              display: 'flex',
+              justifyContent: 'center',
               margin: '0 auto 3rem',
+              maxWidth: 450,
             }}>
               {[
-                { icon: '📧', title: 'Email Support', desc: 'support@prepbanker.com', sub: 'Response within 24 hours' },
-                { icon: '💬', title: 'Telegram Community', desc: 't.me/prepbanker', sub: '50,000+ aspirants' },
-                { icon: '📱', title: 'WhatsApp Support', desc: '+91 98765 43210', sub: 'Mon–Sat, 9AM–6PM IST' },
+                { icon: '📧', title: 'Email Support', desc: 'prepbanker@gmail.com', sub: 'Response within 24 hours' },
               ].map(c => (
                 <div key={c.title} style={{
                   background: '#fff',
                   borderRadius: 'var(--radius-lg)',
-                  padding: '2rem',
+                  padding: '2.5rem',
                   boxShadow: 'var(--shadow-card)',
                   textAlign: 'center',
+                  width: '100%',
                 }}>
-                  <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{c.icon}</div>
-                  <h3 style={{ fontWeight: 700, color: 'var(--color-navy)', marginBottom: '6px' }}>{c.title}</h3>
-                  <p style={{ color: 'var(--color-blue)', fontWeight: 600, marginBottom: '4px', fontSize: '0.9rem' }}>{c.desc}</p>
-                  <p style={{ color: 'var(--color-gray-400)', fontSize: '0.8rem' }}>{c.sub}</p>
+                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>{c.icon}</div>
+                  <h3 style={{ fontWeight: 700, color: 'var(--color-navy)', marginBottom: '8px', fontSize: '1.25rem' }}>{c.title}</h3>
+                  <a href={`mailto:${c.desc}`} style={{ color: 'var(--color-blue)', fontWeight: 600, marginBottom: '6px', fontSize: '1.05rem', textDecoration: 'none', display: 'block' }}>
+                    {c.desc}
+                  </a>
+                  <p style={{ color: 'var(--color-gray-400)', fontSize: '0.85rem' }}>{c.sub}</p>
                 </div>
               ))}
             </div>

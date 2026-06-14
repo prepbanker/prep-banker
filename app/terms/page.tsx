@@ -43,7 +43,7 @@ export default function TermsPage() {
               { title: '2. Use of Service', body: 'PrepBanker provides banking exam preparation materials including mock tests, current affairs, and live exams for personal, non-commercial educational use. You must not redistribute, sell, or sublicense our content.' },
               { title: '3. User Accounts', body: 'When you create an account, you are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.' },
               { title: '4. Intellectual Property', body: 'All content on PrepBanker — including questions, explanations, current affairs, and study materials — is protected by copyright and remains the intellectual property of PrepBanker.' },
-              { title: '5. Payment & Refunds', body: 'Premium subscriptions are billed as described at purchase. We offer a 7-day refund policy for unused premium features. Please contact support@prepbanker.com for refund requests.' },
+              { title: '5. Payment & Refunds', body: 'Premium subscriptions are billed as described at purchase. We offer a 7-day refund policy for unused premium features. Please contact prepbanker@gmail.com for refund requests.' },
               { title: '6. Limitation of Liability', body: 'PrepBanker provides content for educational purposes only. We do not guarantee exam success. Our liability is limited to the amount paid for services in the preceding 30 days.' },
               { title: '7. Changes to Terms', body: 'We reserve the right to update these terms at any time. Continued use of PrepBanker after changes constitutes acceptance of the new terms.' },
             ].map(section => (
@@ -55,7 +55,7 @@ export default function TermsPage() {
               </div>
             ))}
             <p style={{ color: 'var(--color-gray-400)', fontSize: '0.8rem' }}>
-              For questions about these terms, contact us at legal@prepbanker.com
+              For questions about these terms, contact us at prepbanker@gmail.com
             </p>
           </div>
         </section>

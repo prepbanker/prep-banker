@@ -542,47 +542,6 @@ export const sbiPoMockTestContent: DetailSectionContent = {
       )
     },
     {
-      id: 'section-strategy',
-      title: "Section-wise Strategy for SBI PO Prelims: What the Mock Test Data Shows",
-      content: (
-        <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
-          <p>
-            Across thousands of mock test attempts, certain patterns repeat for aspirants who clear SBI PO Prelims vs those who don't. Here's what the data suggests:
-          </p>
-
-          <div>
-            <h4 className="font-bold text-slate-800 text-xs sm:text-sm mb-1">English Language (30 marks, 20 minutes)</h4>
-            <p className="text-xs sm:text-sm">
-              Most students either love English or fear it — and both groups make the same mistake of spending too long on Reading Comprehension passages in a 20-minute window. RC in Prelims usually carries 7–10 marks. If you're spending 10 minutes on RC, you have 10 minutes left for 20 grammar and vocabulary questions. That's a losing trade.
-            </p>
-            <p className="text-xs text-slate-500 font-semibold mt-1">
-              Mock test target: Complete all 30 questions in 18–19 minutes, leaving a 1-minute buffer. Aim for 80%+ accuracy.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-slate-800 text-xs sm:text-sm mb-1">Quantitative Aptitude (35 marks, 20 minutes)</h4>
-            <p className="text-xs sm:text-sm">
-              20 minutes for 35 questions means roughly 34 seconds per question — which is genuinely fast. The key insight from mock data: the first 10–15 questions (usually Simplification and Approximation) are the fastest-scoring in the section. Students who get those right and fast set themselves up well; those who get bogged down early lose the section.
-            </p>
-            <p className="text-xs text-slate-500 font-semibold mt-1">
-              Mock test target: Identify your fastest question types in QA and attempt those first, regardless of order. Leave DI sets and word problems for last.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-slate-800 text-xs sm:text-sm mb-1">Reasoning Ability (35 marks, 20 minutes)</h4>
-            <p className="text-xs sm:text-sm">
-              Puzzles and seating arrangements typically appear in clusters (4–5 questions per set) and can be time-efficient if solved correctly — or devastating if you get the constraint wrong. Mock test data consistently shows that attempting 2 puzzle sets correctly beats attempting 3 sets with errors.
-            </p>
-            <p className="text-xs text-slate-500 font-semibold mt-1">
-              Mock test target: Identify 2–3 puzzle sets to commit to; use remaining time for non-set Reasoning (syllogisms, inequalities, blood relations), which are individually faster.
-            </p>
-          </div>
-        </div>
-      )
-    },
-    {
       id: 'platform-comparison',
       title: "Choosing Between SBI PO Mock Test Platforms: What to Look For",
       content: (

@@ -243,7 +243,6 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
               <li><strong>HRA:</strong> 7% (rural/semi-urban), 8% (urban), 9% (metro) of basic pay</li>
               <li><strong>Pension:</strong> National Pension System (NPS) — 10% of basic+DA contributed by employee</li>
               <li><strong>Annual Increment:</strong> ₹980 per year for first 7 years in Scale I</li>
-              <li><strong>Vacancies (2025 cycle):</strong> 5,208 across 11 public sector banks</li>
             </ul>
           </HighlightBox>
         </div>
@@ -438,7 +437,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
                   <td className="px-4 py-3">−₹150</td>
                   <td className="px-4 py-3">−₹150</td>
                 </tr>
-                <tr className="font-black text-white bg-[#1B6EB5]">
+                <tr className="font-black text-white bg-slate-900">
                   <td className="px-4 py-3 font-extrabold">Net In-Hand Salary (approx.)</td>
                   <td className="px-4 py-3 font-extrabold">₹39,909</td>
                   <td className="px-4 py-3 font-extrabold">₹39,342</td>

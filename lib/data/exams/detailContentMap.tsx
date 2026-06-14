@@ -305,7 +305,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Parameter</th>
                         <th className="px-4 py-2.5">Details</th>
                       </tr>
@@ -320,34 +320,30 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         <td className="px-4 py-3">Institute of Banking Personnel Selection (IBPS)</td>
                       </tr>
                       <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-850">Vacancies (2025 cycle)</td>
-                        <td className="px-4 py-3">5,208 vacancies across 11 public sector banks</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
                         <td className="px-4 py-3 font-semibold text-slate-850">Age Limit (General)</td>
                         <td className="px-4 py-3">20 to 30 years</td>
                       </tr>
-                      <tr>
+                      <tr className="bg-slate-50/50">
                         <td className="px-4 py-3 font-semibold text-slate-850">Upper Age Limit with SC/ST relaxation</td>
                         <td className="px-4 py-3">35 years</td>
                       </tr>
-                      <tr className="bg-slate-50/50">
+                      <tr>
                         <td className="px-4 py-3 font-semibold text-slate-850">Upper Age Limit with OBC (NCL) relaxation</td>
                         <td className="px-4 py-3">33 years</td>
                       </tr>
-                      <tr>
+                      <tr className="bg-slate-50/50">
                         <td className="px-4 py-3 font-semibold text-slate-850">Educational Qualification</td>
                         <td className="px-4 py-3">Graduation in any discipline (any percentage)</td>
                       </tr>
-                      <tr className="bg-slate-50/50">
+                      <tr>
                         <td className="px-4 py-3 font-semibold text-slate-850">Computer Knowledge</td>
                         <td className="px-4 py-3">Mandatory (certificate, diploma, or as a studied subject)</td>
                       </tr>
-                      <tr>
+                      <tr className="bg-slate-50/50">
                         <td className="px-4 py-3 font-semibold text-slate-850">Nationality</td>
                         <td className="px-4 py-3">Indian (plus specific categories of foreign nationals)</td>
                       </tr>
-                      <tr className="bg-slate-50/50">
+                      <tr>
                         <td className="px-4 py-3 font-semibold text-slate-850">Attempts Limit</td>
                         <td className="px-4 py-3">No official cap; limited by age window</td>
                       </tr>
@@ -392,7 +388,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Category</th>
                         <th className="px-4 py-2.5 text-center">Lower Age Limit</th>
                         <th className="px-4 py-2.5 text-center">Upper Age Limit</th>
@@ -533,7 +529,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Category</th>
                         <th className="px-4 py-2.5">Condition</th>
                       </tr>
@@ -622,7 +618,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Parameter</th>
                         <th className="px-4 py-2.5">IBPS PO 2026</th>
                         <th className="px-4 py-2.5">SBI PO 2026</th>
@@ -1952,14 +1948,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <HighlightBox type="info" title="Syllabus Summary">
                     <ul className="text-xs sm:text-sm text-slate-655 space-y-2.5 my-2 font-normal">
                       <li><strong>Exam Name:</strong> IBPS CRP PO/MT-XVI</li>
-                      <li><strong>Stages:</strong> Prelims &rarr; Mains &rarr; Interview</li>
                       <li><strong>Prelims Subjects:</strong> English Language, Quantitative Aptitude, Reasoning Ability</li>
-                      <li><strong>Prelims Total:</strong> 100 marks | 60 minutes (20 min per section)</li>
                       <li><strong>Mains Subjects:</strong> Reasoning {"&"} Computer Aptitude, English Language, Data Analysis {"&"} Interpretation, General Economy {"&"} Banking Awareness</li>
-                      <li><strong>Mains Total:</strong> 200 marks (objective) + 25 marks (descriptive) | 180 + 30 minutes</li>
-                      <li><strong>Negative Marking:</strong> 0.25 marks per wrong answer (both stages)</li>
                       <li><strong>Descriptive Paper:</strong> Essay + Letter (typed on computer)</li>
-                      <li><strong>Interview:</strong> 100 marks | Final merit: 80% Mains + 20% Interview</li>
                       <li><strong>Official Syllabus Source:</strong> <a href="https://ibps.in" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">ibps.in</a></li>
                     </ul>
                   </HighlightBox>
@@ -2910,7 +2901,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Parameter</th>
                           <th className="px-4 py-2.5">Details</th>
                         </tr>
@@ -2970,51 +2961,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
               )
             },
-            {
-              id: "selection-process",
-              title: "What Is the IBPS PO 2026 Selection Process?",
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed font-normal">
-                    IBPS PO selection happens in three phases. Understanding how they connect is more important than memorizing individual section names.
-                  </p>
 
-                  <div className="space-y-3">
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
-                        Phase 1 — Prelims:
-                      </h4>
-                      <p className="text-slate-650 text-xs sm:text-sm leading-relaxed">
-                        This is the screening round. About 15–20 lakh students appear for Prelims each year. IBPS shortlists roughly 10x the number of vacancies for Mains. So if there are 5,000 vacancies, expect around 50,000 students to clear Prelims. Your Prelims score does not count in the final merit — it only decides whether you get a Mains hall ticket.
-                      </p>
-                    </div>
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
-                        Phase 2 — Mains:
-                      </h4>
-                      <p className="text-slate-650 text-xs sm:text-sm leading-relaxed">
-                        This is the actual battle. Mains has an objective paper (200 marks) and a descriptive paper (25 marks). Both happen on the same day — objective first, then descriptive. Mains marks carry 80% weight in the final score.
-                      </p>
-                    </div>
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
-                        Phase 3 — Interview:
-                      </h4>
-                      <p className="text-slate-650 text-xs sm:text-sm leading-relaxed">
-                        Conducted by nodal banks. Carries 100 marks but contributes only 20% to the final merit. Minimum qualifying marks in the interview differ by category.
-                      </p>
-                    </div>
-                  </div>
-
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-4 text-[#1B6EB5]">
-                    Why the Three-Stage Structure Matters for Your Prep
-                  </h4>
-                  <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed">
-                    Many students prepare for Prelims and Mains the same way. That&apos;s a mistake. Prelims rewards speed and accuracy — you need to clear sectional cutoffs fast. Mains rewards depth, especially in Data Analysis and Reasoning. Treat them as two different exams that happen to share a syllabus.
-                  </p>
-                </div>
-              )
-            },
             {
               id: "prelims-pattern",
               title: "IBPS PO Prelims Exam Pattern 2026",
@@ -3027,7 +2974,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Section</th>
                           <th className="px-4 py-2.5">No. of Questions</th>
                           <th className="px-4 py-2.5">Maximum Marks</th>
@@ -3104,7 +3051,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Section</th>
                           <th className="px-4 py-2.5 text-center">No. of Questions</th>
                           <th className="px-4 py-2.5 text-center">Maximum Marks</th>
@@ -3152,7 +3099,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Component</th>
                           <th className="px-4 py-2.5 text-center">Marks</th>
                           <th className="px-4 py-2.5 text-center">Time</th>
@@ -3234,7 +3181,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Parameter</th>
                           <th className="px-4 py-2.5">Prelims</th>
                           <th className="px-4 py-2.5">Mains</th>
@@ -3339,7 +3286,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Section</th>
                           <th className="px-4 py-2.5">High-Weight Topics</th>
                           <th className="px-4 py-2.5 text-center">Approximate Questions</th>
@@ -3383,7 +3330,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Section</th>
                           <th className="px-4 py-2.5">High-Weight Topics</th>
                           <th className="px-4 py-2.5 text-center">Approximate Questions</th>
@@ -3432,77 +3379,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
               )
             },
-            {
-              id: "prep-strategy",
-              title: "IBPS PO 2026 Preparation Strategy: A Section-wise Roadmap",
-              content: (
-                <div className="space-y-6">
-                  <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed">
-                    Follow this in order. Don&apos;t jump ahead until you&apos;ve locked in the earlier steps.
-                  </p>
 
-                  <div className="relative pl-6 border-l border-slate-200 py-2 space-y-6">
-                    {[
-                      {
-                        step: 1,
-                        title: "Understand the exam pattern thoroughly",
-                        desc: "Know the time limits, marks, and negative marking rules cold before you touch a mock test. Understanding these parameters shapes your timing targets and section-wise focus."
-                      },
-                      {
-                        step: 2,
-                        title: "Build topic-wise fundamentals first",
-                        desc: "Spend 6–8 weeks on core topics: Arithmetic (Quant), Puzzles (Reasoning), Reading Comprehension and Grammar rules (English). Don't attempt full mocks during this phase — it builds bad habits before good ones."
-                      },
-                      {
-                        step: 3,
-                        title: "Attempt sectional tests by topic",
-                        desc: "On PrepBanker, attempt chapter-wise quizzes and DPPs for each topic before moving on. Sectional tests show you where you are on each topic — full mocks can mask weak topics with strong ones."
-                      },
-                      {
-                        step: 4,
-                        title: "Start full-length mock tests at the 60-day mark",
-                        desc: "Attempt at least 2 Prelims mocks per week. Review every single wrong answer — not just the ones you guessed, but especially the ones you were confident about and got wrong. Those are your blind spots."
-                      },
-                      {
-                        step: 5,
-                        title: "Switch to Mains mocks 30 days before Mains",
-                        desc: "Mains requires a completely different pacing strategy. Practice with the correct time limits. Never attempt Mains mocks in parts — always the full 3.5 hours in one sitting."
-                      },
-                      {
-                        step: 6,
-                        title: "Work on Descriptive Paper 3 weeks before Mains",
-                        desc: "Write 2 letters and 2 essays per week. Get your typing speed to at least 25–30 WPM on a standard keyboard. Speed matters here."
-                      },
-                      {
-                        step: 7,
-                        title: "Last 10 days: revision and light mock tests",
-                        desc: "No new topics. Revise Banking Awareness notes daily. Attempt one mock every 2 days to stay sharp without burning out."
-                      },
-                      {
-                        step: 8,
-                        title: "Interview prep starts the moment Mains ends",
-                        desc: "Don't wait for results. If you've appeared for Mains, start reading current affairs, your college background, and your home state's banking profile."
-                      }
-                    ].map((item) => (
-                      <div key={item.step} className="relative">
-                        {/* Circle dot on timeline */}
-                        <div className="absolute -left-[35px] top-1.5 w-[18px] h-[18px] rounded-full bg-white border-2 border-[#1B6EB5] flex items-center justify-center font-bold text-[9px] text-[#1B6EB5]">
-                          {item.step}
-                        </div>
-                        <div>
-                          <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
-                            {item.title}
-                          </h4>
-                          <p className="text-slate-650 text-xs sm:text-sm leading-relaxed">
-                            {item.desc}
-                          </p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )
-            },
             {
               id: "prepbanker-usage",
               title: "How to Use PrepBanker for IBPS PO 2026 Preparation",
@@ -3557,7 +3434,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
-                        <tr className="bg-[#1B6EB5] text-white font-bold">
+                        <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Year</th>
                           <th className="px-4 py-2.5">Vacancies</th>
                           <th className="px-4 py-2.5">Mains Cutoff (Gen, approx.)</th>
@@ -3973,8 +3850,6 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     <ul className="text-xs sm:text-sm text-slate-655 space-y-2.5 my-2 font-normal">
                       <li><strong>Exam Name:</strong> IBPS CRP PO/MT (Probationary Officer)</li>
                       <li><strong>Stages with Cut Offs:</strong> Prelims, Mains, Final (Interview-weighted)</li>
-                      <li><strong>Prelims Marks:</strong> 100 (3 sections, sectional cut offs apply)</li>
-                      <li><strong>Mains Marks:</strong> 225 objective + 25 descriptive = 250 total</li>
                       <li><strong>Final Cut Off Basis:</strong> Mains 80% + Interview 20%, normalized to 100</li>
                       <li><strong>2025 Prelims Cut Off (General/UR):</strong> 49.21 / 100</li>
                       <li><strong>2025 Mains Cut Off (General/UR):</strong> 75.75 / 225</li>
@@ -3982,7 +3857,6 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       <li><strong>2024 Prelims Cut Off (General/UR):</strong> 48.50 / 100</li>
                       <li><strong>2024 Mains Cut Off (General/UR):</strong> 66.50 / 225</li>
                       <li><strong>Cut Off Released At:</strong> <a href="https://ibps.in" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">ibps.in</a></li>
-                      <li><strong>Negative Marking:</strong> 0.25 per wrong answer</li>
                     </ul>
                   </HighlightBox>
                 </div>
@@ -9457,7 +9331,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Parameter</th>
                         <th className="px-4 py-2.5">Details</th>
                       </tr>
@@ -9500,18 +9374,6 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         <td className="px-4 py-3">Mains 80% + Interview 20% (normalized to 100)</td>
                       </tr>
                       <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Participating Banks</td>
-                        <td className="px-4 py-3">11 Public Sector Banks</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Expected Vacancies</td>
-                        <td className="px-4 py-3">4,000–6,000 (based on 5-year trend; 5,208 in 2025)</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Negative Marking</td>
-                        <td className="px-4 py-3">0.25 marks per wrong answer</td>
-                      </tr>
-                      <tr>
                         <td className="px-4 py-3 font-semibold text-slate-800">Official Website</td>
                         <td className="px-4 py-3"><a href="https://ibps.in" target="_blank" rel="noopener noreferrer" className="text-[#1B6EB5] hover:underline font-semibold">ibps.in</a></td>
                       </tr>
@@ -9584,7 +9446,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Section</th>
                         <th className="px-4 py-2.5 text-center">Number of Questions</th>
                         <th className="px-4 py-2.5 text-center">Maximum Marks</th>
@@ -9663,7 +9525,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Section</th>
                         <th className="px-4 py-2.5 text-center">Questions</th>
                         <th className="px-4 py-2.5 text-center">Marks</th>
@@ -9708,7 +9570,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Component</th>
                         <th className="px-4 py-2.5 text-center">Marks</th>
                         <th className="px-4 py-2.5 text-center">Time Limit</th>
@@ -9760,7 +9622,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Parameter</th>
                         <th className="px-4 py-2.5">Detail</th>
                       </tr>
@@ -9880,7 +9742,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[600px]">
                     <thead>
-                      <tr className="bg-[#1B6EB5] text-white font-bold">
+                      <tr className="bg-slate-900 text-white font-bold">
                         <th className="px-4 py-2.5">Parameter</th>
                         <th className="px-4 py-2.5">IBPS PO 2026</th>
                         <th className="px-4 py-2.5">SBI PO 2026</th>
