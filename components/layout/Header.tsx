@@ -139,6 +139,7 @@ export default function Header() {
             href="https://app.prepgrind.com/register"
             target="_blank"
             rel="noopener noreferrer"
+            suppressHydrationWarning
             className="
               inline-flex items-center justify-center
               px-3 sm:px-5 py-2 sm:py-2.5
@@ -153,8 +154,8 @@ export default function Header() {
               boxShadow: '0 3px 12px rgba(251,191,36,0.35)',
             }}
           >
-            <span className="hidden sm:inline">Start Free</span>
-            <span className="sm:hidden">Sign Up free</span>
+            <span className="hidden sm:inline" suppressHydrationWarning>Start Free</span>
+            <span className="sm:hidden" suppressHydrationWarning>Sign Up free</span>
           </a>
 
           {/* Hamburger */}
@@ -224,6 +225,7 @@ export default function Header() {
                 href="https://app.prepgrind.com/register"
                 target="_blank"
                 rel="noopener noreferrer"
+                suppressHydrationWarning
                 className="flex items-center justify-center mt-5 py-3.5 rounded-xl font-bold text-base text-[var(--color-navy-deep)] no-underline text-center"
                 style={{
                   background: 'var(--color-yellow)',

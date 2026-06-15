@@ -59,6 +59,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: 'LmGIlLWdfLgEv6N1EexR9Sy6Wf9XiLtlf0cMdVwvd5o',
+  },
 };
 
 // ─────────────────────────────────────────
