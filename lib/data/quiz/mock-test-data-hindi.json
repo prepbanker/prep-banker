@@ -1,0 +1,324 @@
+{
+  "syllogism": {
+    "subtopicId": "syllogism",
+    "topicId": "syllogism-blood",
+    "sectionId": "reasoning",
+    "instructions": {
+      "en": "In each question, two statements are given followed by two conclusions. Assuming the statements to be true, decide which conclusion(s) logically follow.",
+      "hi": "प्रत्येक प्रश्न में दो कथन दिए गए हैं, जिनके बाद दो निष्कर्ष दिए गए हैं। कथनों को सत्य मानते हुए, निर्धारित करें कि कौन सा/से निष्कर्ष तार्किक रूप से अनुसरण करता/करते है/हैं।"
+    },
+    "questions": [
+      {
+        "id": "syl-q1",
+        "question": {
+          "en": "Statements: All pens are pencils. All pencils are erasers.\nConclusions: I. All pens are erasers. II. Some erasers are pens.",
+          "hi": "कथन: सभी पेन पेंसिल हैं। सभी पेंसिल इरेज़र हैं।\nनिष्कर्ष: I. सभी पेन इरेज़र हैं। II. कुछ इरेज़र पेन हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both I and II follow", "Neither follows", "Either I or II follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों I और II अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "I या II में से कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 2,
+        "answer": "C",
+        "explanation": {
+          "en": "Since all pens are pencils and all pencils are erasers, all pens are erasers (I follows). This also means some erasers are pens (II follows).",
+          "hi": "क्योंकि सभी पेन पेंसिल हैं और सभी पेंसिल इरेज़र हैं, इसलिए सभी पेन इरेज़र हैं (I अनुसरण करता है)। इसका अर्थ यह भी है कि कुछ इरेज़र पेन हैं (II अनुसरण करता है)।"
+        },
+        "difficulty": "easy"
+      },
+      {
+        "id": "syl-q2",
+        "question": {
+          "en": "Statements: Some books are pens. No pen is a table.\nConclusions: I. Some books are not tables. II. No book is a table.",
+          "hi": "कथन: कुछ किताबें पेन हैं। कोई भी पेन टेबल नहीं है।\nनिष्कर्ष: I. कुछ किताबें टेबल नहीं हैं। II. कोई भी किताब टेबल नहीं है।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either I or II follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "I या II में से कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": {
+          "en": "The books that are pens cannot be tables, since no pen is a table, so some books are not tables (I follows). II overgeneralizes to all books, which is not supported.",
+          "hi": "जो किताबें पेन हैं वे टेबल नहीं हो सकतीं, क्योंकि कोई भी पेन टेबल नहीं है, इसलिए कुछ किताबें टेबल नहीं हैं (I अनुसरण करता है)। II सभी किताबों के लिए सामान्यीकरण करता है, जो समर्थित नहीं है।"
+        },
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-q3",
+        "question": {
+          "en": "Statements: All cups are plates. Some plates are spoons.\nConclusions: I. Some cups are spoons. II. Some spoons are cups.",
+          "hi": "कथन: सभी कप प्लेट हैं। कुछ प्लेट चम्मच हैं।\nनिष्कर्ष: I. कुछ कप चम्मच हैं। II. कुछ चम्मच कप हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 3,
+        "answer": "D",
+        "explanation": {
+          "en": "We cannot be certain the plates that are spoons overlap with the plates that are cups, so neither conclusion follows definitely.",
+          "hi": "हम निश्चित नहीं हो सकते कि जो प्लेट चम्मच हैं वे उन प्लेटों से मेल खाती हैं जो कप हैं, इसलिए कोई भी निष्कर्ष निश्चित रूप से अनुसरण नहीं करता।"
+        },
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-q4",
+        "question": {
+          "en": "Statements: No doctor is a teacher. All teachers are scientists.\nConclusions: I. No scientist is a doctor. II. Some scientists are teachers.",
+          "hi": "कथन: कोई भी डॉक्टर शिक्षक नहीं है। सभी शिक्षक वैज्ञानिक हैं।\nनिष्कर्ष: I. कोई भी वैज्ञानिक डॉक्टर नहीं है। II. कुछ वैज्ञानिक शिक्षक हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 1,
+        "answer": "B",
+        "explanation": {
+          "en": "Since all teachers are scientists, some scientists are definitely teachers (II follows). However, a doctor could still be a scientist through some other category, so I does not necessarily follow.",
+          "hi": "क्योंकि सभी शिक्षक वैज्ञानिक हैं, इसलिए कुछ वैज्ञानिक निश्चित रूप से शिक्षक हैं (II अनुसरण करता है)। लेकिन कोई डॉक्टर किसी अन्य श्रेणी के माध्यम से वैज्ञानिक हो सकता है, इसलिए I आवश्यक रूप से अनुसरण नहीं करता।"
+        },
+        "difficulty": "hard"
+      },
+      {
+        "id": "syl-q5",
+        "question": {
+          "en": "Statements: All flowers are fruits. No fruit is a vegetable.\nConclusions: I. No flower is a vegetable. II. No vegetable is a flower.",
+          "hi": "कथन: सभी फूल फल हैं। कोई भी फल सब्जी नहीं है।\nनिष्कर्ष: I. कोई भी फूल सब्जी नहीं है। II. कोई भी सब्जी फूल नहीं है।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 2,
+        "answer": "C",
+        "explanation": {
+          "en": "Since all flowers are fruits and no fruit is a vegetable, no flower is a vegetable (I follows). This relationship works both ways here, so no vegetable is a flower also follows (II follows).",
+          "hi": "क्योंकि सभी फूल फल हैं और कोई भी फल सब्जी नहीं है, इसलिए कोई भी फूल सब्जी नहीं है (I अनुसरण करता है)। यह संबंध यहां दोनों तरफ से काम करता है, इसलिए कोई भी सब्जी फूल नहीं है यह भी अनुसरण करता है (II अनुसरण करता है)।"
+        },
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-q6",
+        "question": {
+          "en": "Statements: Some chairs are tables. Some tables are doors.\nConclusions: I. Some chairs are doors. II. Some doors are chairs.",
+          "hi": "कथन: कुछ कुर्सियां टेबल हैं। कुछ टेबल दरवाजे हैं।\nनिष्कर्ष: I. कुछ कुर्सियां दरवाजे हैं। II. कुछ दरवाजे कुर्सियां हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either I or II follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "I या II में से कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 3,
+        "answer": "D",
+        "explanation": {
+          "en": "There is no guarantee of overlap between chairs and doors specifically, so neither conclusion follows.",
+          "hi": "विशेष रूप से कुर्सियों और दरवाजों के बीच ओवरलैप की कोई गारंटी नहीं है, इसलिए कोई भी निष्कर्ष अनुसरण नहीं करता।"
+        },
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-q7",
+        "question": {
+          "en": "Statements: All mobiles are phones. All phones are gadgets.\nConclusions: I. All mobiles are gadgets. II. Some gadgets are mobiles.",
+          "hi": "कथन: सभी मोबाइल फोन हैं। सभी फोन गैजेट हैं।\nनिष्कर्ष: I. सभी मोबाइल गैजेट हैं। II. कुछ गैजेट मोबाइल हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 2,
+        "answer": "C",
+        "explanation": {
+          "en": "All mobiles are phones and all phones are gadgets, so all mobiles are gadgets (I follows), which also means some gadgets are mobiles (II follows).",
+          "hi": "सभी मोबाइल फोन हैं और सभी फोन गैजेट हैं, इसलिए सभी मोबाइल गैजेट हैं (I अनुसरण करता है), जिसका अर्थ यह भी है कि कुछ गैजेट मोबाइल हैं (II अनुसरण करता है)।"
+        },
+        "difficulty": "easy"
+      },
+      {
+        "id": "syl-q8",
+        "question": {
+          "en": "Statements: No apple is a mango. Some mangoes are bananas.\nConclusions: I. Some bananas are not apples. II. No banana is an apple.",
+          "hi": "कथन: कोई भी सेब आम नहीं है। कुछ आम केले हैं।\nनिष्कर्ष: I. कुछ केले सेब नहीं हैं। II. कोई भी केला सेब नहीं है।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": {
+          "en": "The mangoes that are bananas cannot be apples, since no apple is a mango, so some bananas are not apples (I follows). II is too broad to be guaranteed for every banana.",
+          "hi": "जो आम केले हैं वे सेब नहीं हो सकते, क्योंकि कोई भी सेब आम नहीं है, इसलिए कुछ केले सेब नहीं हैं (I अनुसरण करता है)। II प्रत्येक केले के लिए गारंटी देने हेतु बहुत व्यापक है।"
+        },
+        "difficulty": "hard"
+      },
+      {
+        "id": "syl-q9",
+        "question": {
+          "en": "Statements: All rivers are lakes. Some lakes are oceans.\nConclusions: I. Some rivers are oceans. II. Some oceans are lakes.",
+          "hi": "कथन: सभी नदियां झील हैं। कुछ झीलें महासागर हैं।\nनिष्कर्ष: I. कुछ नदियां महासागर हैं। II. कुछ महासागर झील हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 1,
+        "answer": "B",
+        "explanation": {
+          "en": "Some lakes being oceans directly implies some oceans are lakes (II follows). Whether any rivers fall among those lakes that are oceans is not established, so I does not follow.",
+          "hi": "कुछ झीलों का महासागर होना सीधे यह दर्शाता है कि कुछ महासागर झील हैं (II अनुसरण करता है)। क्या कोई नदी उन झीलों में आती है जो महासागर हैं, यह स्थापित नहीं है, इसलिए I अनुसरण नहीं करता।"
+        },
+        "difficulty": "medium"
+      },
+      {
+        "id": "syl-q10",
+        "question": {
+          "en": "Statements: All squares are rectangles. No rectangle is a triangle.\nConclusions: I. No square is a triangle. II. Some rectangles are squares.",
+          "hi": "कथन: सभी वर्ग आयत हैं। कोई भी आयत त्रिभुज नहीं है।\nनिष्कर्ष: I. कोई भी वर्ग त्रिभुज नहीं है। II. कुछ आयत वर्ग हैं।"
+        },
+        "options": {
+          "en": ["Only I follows", "Only II follows", "Both follow", "Neither follows", "Either follows"],
+          "hi": ["केवल I अनुसरण करता है", "केवल II अनुसरण करता है", "दोनों अनुसरण करते हैं", "कोई भी अनुसरण नहीं करता", "कोई एक अनुसरण करता है"]
+        },
+        "correctOption": 2,
+        "answer": "C",
+        "explanation": {
+          "en": "Since all squares are rectangles and no rectangle is a triangle, no square is a triangle (I follows). All squares being rectangles also means some rectangles are squares (II follows).",
+          "hi": "क्योंकि सभी वर्ग आयत हैं और कोई भी आयत त्रिभुज नहीं है, इसलिए कोई भी वर्ग त्रिभुज नहीं है (I अनुसरण करता है)। सभी वर्गों का आयत होना यह भी दर्शाता है कि कुछ आयत वर्ग हैं (II अनुसरण करता है)।"
+        },
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "coding-decoding-sub": {
+    "subtopicId": "coding-decoding-sub",
+    "topicId": "coding-decoding",
+    "sectionId": "reasoning",
+    "instructions": {
+      "en": "Each question below states its own coding rule. Apply the stated rule to find the correct code.",
+      "hi": "नीचे दिया गया प्रत्येक प्रश्न अपना स्वयं का कोडिंग नियम बताता है। सही कोड खोजने के लिए बताए गए नियम को लागू करें।"
+    },
+    "questions": [
+      {
+        "id": "cd-q1",
+        "question": {
+          "en": "In a certain code, each letter is shifted forward by 1 position in the alphabet (A becomes B, B becomes C, and so on). If 'SUN' is written as 'TVO', how is 'STAR' written using the same rule?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला में 1 स्थान आगे खिसकाया जाता है (A, B बन जाता है, B, C बन जाता है, इत्यादि)। यदि 'SUN' को 'TVO' लिखा जाता है, तो समान नियम का उपयोग करते हुए 'STAR' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["TUBS", "TUAS", "RUBS", "TVBS", "SUBS"], "hi": ["TUBS", "TUAS", "RUBS", "TVBS", "SUBS"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Shifting each letter forward by 1: S to T, T to U, A to B, R to S, giving TUBS.", "hi": "प्रत्येक अक्षर को 1 स्थान आगे खिसकाने पर: S से T, T से U, A से B, R से S, जिससे TUBS मिलता है।" },
+        "difficulty": "easy"
+      },
+      {
+        "id": "cd-q2",
+        "question": {
+          "en": "In a certain code, each letter is shifted forward by 2 positions in the alphabet. If 'TIGER' is written as 'VKIGT', how is 'LIONS' written using the same rule?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला में 2 स्थान आगे खिसकाया जाता है। यदि 'TIGER' को 'VKIGT' लिखा जाता है, तो समान नियम का उपयोग करते हुए 'LIONS' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["NKQPU", "NKQOU", "NKPQU", "MKQPU", "NJQPU"], "hi": ["NKQPU", "NKQOU", "NKPQU", "MKQPU", "NJQPU"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Shifting each letter forward by 2: L to N, I to K, O to Q, N to P, S to U, giving NKQPU.", "hi": "प्रत्येक अक्षर को 2 स्थान आगे खिसकाने पर: L से N, I से K, O से Q, N से P, S से U, जिससे NKQPU मिलता है।" },
+        "difficulty": "medium"
+      },
+      {
+        "id": "cd-q3",
+        "question": {
+          "en": "In a certain code, each letter is replaced by its mirror-opposite in the alphabet (A pairs with Z, B with Y, C with X, and so on). If 'GARDEN' is coded as 'TZIWVM', what is the code for 'FLOWER' using the same rule?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला में उसके दर्पण-विपरीत अक्षर से बदला जाता है (A, Z के साथ जुड़ता है, B, Y के साथ, C, X के साथ, इत्यादि)। यदि 'GARDEN' को 'TZIWVM' कोड किया जाता है, तो समान नियम का उपयोग करते हुए 'FLOWER' का कोड क्या होगा?"
+        },
+        "options": { "en": ["UOLDVI", "ULOJVI", "UOLJVI", "UOLJUI", "VOLJVI"], "hi": ["UOLDVI", "ULOJVI", "UOLJVI", "UOLJUI", "VOLJVI"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Mirror substitution: F to U, L to O, O to L, W to D, E to V, R to I, giving UOLDVI.", "hi": "दर्पण प्रतिस्थापन: F से U, L से O, O से L, W से D, E से V, R से I, जिससे UOLDVI मिलता है।" },
+        "difficulty": "hard"
+      },
+      {
+        "id": "cd-q4",
+        "question": {
+          "en": "In a certain code, each letter is simply replaced by its position number in the alphabet (A=1, B=2, and so on). How is 'PAGE' written in this code?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को केवल वर्णमाला में उसकी स्थान संख्या से बदला जाता है (A=1, B=2, इत्यादि)। इस कोड में 'PAGE' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["16-1-7-5", "16-1-7-4", "15-1-7-5", "16-2-7-5", "16-1-8-5"], "hi": ["16-1-7-5", "16-1-7-4", "15-1-7-5", "16-2-7-5", "16-1-8-5"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "P is the 16th letter, A is the 1st, G is the 7th, E is the 5th, giving 16-1-7-5.", "hi": "P 16वां अक्षर है, A पहला है, G सातवां है, E पांचवां है, जिससे 16-1-7-5 मिलता है।" },
+        "difficulty": "easy"
+      },
+      {
+        "id": "cd-q5",
+        "question": {
+          "en": "In a certain code, each letter is replaced by its position number in the alphabet. How is 'MUMBAI' written in this code?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला में उसकी स्थान संख्या से बदला जाता है। इस कोड में 'MUMBAI' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["13-21-13-2-1-9", "13-21-13-2-1-8", "12-21-13-2-1-9", "13-20-13-2-1-9", "13-21-14-2-1-9"], "hi": ["13-21-13-2-1-9", "13-21-13-2-1-8", "12-21-13-2-1-9", "13-20-13-2-1-9", "13-21-14-2-1-9"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "M=13, U=21, M=13, B=2, A=1, I=9, giving 13-21-13-2-1-9.", "hi": "M=13, U=21, M=13, B=2, A=1, I=9, जिससे 13-21-13-2-1-9 मिलता है।" },
+        "difficulty": "easy"
+      },
+      {
+        "id": "cd-q6",
+        "question": {
+          "en": "In a certain code, each letter is shifted backward by 1 position in the alphabet (B becomes A, C becomes B, and so on). If 'PLANE' is written as 'OKZMD', how is 'TRAIN' written using the same rule?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला में 1 स्थान पीछे खिसकाया जाता है (B, A बन जाता है, C, B बन जाता है, इत्यादि)। यदि 'PLANE' को 'OKZMD' लिखा जाता है, तो समान नियम का उपयोग करते हुए 'TRAIN' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["SQZHM", "SQZHN", "RQZHM", "SPZHM", "SQYHM"], "hi": ["SQZHM", "SQZHN", "RQZHM", "SPZHM", "SQYHM"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Shifting each letter back by 1: T to S, R to Q, A to Z, I to H, N to M, giving SQZHM.", "hi": "प्रत्येक अक्षर को 1 स्थान पीछे खिसकाने पर: T से S, R से Q, A से Z, I से H, N से M, जिससे SQZHM मिलता है।" },
+        "difficulty": "medium"
+      },
+      {
+        "id": "cd-q7",
+        "question": {
+          "en": "In a certain code, the letters of a word are simply reversed. If 'WORLD' is coded as 'DLROW', how is 'MARKET' coded?",
+          "hi": "एक निश्चित कोड में, शब्द के अक्षरों को बस उल्टा कर दिया जाता है। यदि 'WORLD' को 'DLROW' कोड किया जाता है, तो 'MARKET' कैसे कोड किया जाएगा?"
+        },
+        "options": { "en": ["TEKRAM", "TEKARM", "TEKRMA", "EKTRAM", "TKERAM"], "hi": ["TEKRAM", "TEKARM", "TEKRMA", "EKTRAM", "TKERAM"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Reversing the letters of MARKET gives TEKRAM.", "hi": "MARKET के अक्षरों को उल्टा करने पर TEKRAM मिलता है।" },
+        "difficulty": "easy"
+      },
+      {
+        "id": "cd-q8",
+        "question": {
+          "en": "In a certain code, each letter is shifted forward by 3 positions in the alphabet. If 'CAT' is written as 'FDW', how is 'DOG' written using the same rule?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला में 3 स्थान आगे खिसकाया जाता है। यदि 'CAT' को 'FDW' लिखा जाता है, तो समान नियम का उपयोग करते हुए 'DOG' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["GRJ", "GRI", "GQJ", "FRJ", "GSJ"], "hi": ["GRJ", "GRI", "GQJ", "FRJ", "GSJ"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Shifting each letter forward by 3: D to G, O to R, G to J, giving GRJ.", "hi": "प्रत्येक अक्षर को 3 स्थान आगे खिसकाने पर: D से G, O से R, G से J, जिससे GRJ मिलता है।" },
+        "difficulty": "easy"
+      },
+      {
+        "id": "cd-q9",
+        "question": {
+          "en": "In a certain code, vowels in a word are each replaced by the next vowel in the sequence A-E-I-O-U-A (cyclic), and consonants stay unchanged. How is 'TABLE' coded?",
+          "hi": "एक निश्चित कोड में, शब्द में स्वरों को क्रम A-E-I-O-U-A (चक्रीय) में अगले स्वर से बदला जाता है, और व्यंजन अपरिवर्तित रहते हैं। 'TABLE' कैसे कोड किया जाएगा?"
+        },
+        "options": { "en": ["TEBLI", "TIBLO", "TOBLI", "TEBLO", "TABLI"], "hi": ["TEBLI", "TIBLO", "TOBLI", "TEBLO", "TABLI"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "Vowels A and E shift to the next vowel in sequence: A becomes E, E becomes I. Consonants stay the same, giving TEBLI.", "hi": "स्वर A और E क्रम में अगले स्वर में बदलते हैं: A, E बनता है, E, I बनता है। व्यंजन वैसे ही रहते हैं, जिससे TEBLI मिलता है।" },
+        "difficulty": "medium"
+      },
+      {
+        "id": "cd-q10",
+        "question": {
+          "en": "In a certain code, each letter is shifted forward by 1 position, except the last letter of the word, which is shifted backward by 1 position. If 'BOOK' is written as 'CPPJ', how is 'CARD' written using the same rule?",
+          "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को 1 स्थान आगे खिसकाया जाता है, सिवाय शब्द के अंतिम अक्षर के, जिसे 1 स्थान पीछे खिसकाया जाता है। यदि 'BOOK' को 'CPPJ' लिखा जाता है, तो समान नियम का उपयोग करते हुए 'CARD' कैसे लिखा जाएगा?"
+        },
+        "options": { "en": ["DBSC", "DBSD", "DASD", "DBSE", "DCSC"], "hi": ["DBSC", "DBSD", "DASD", "DBSE", "DCSC"] },
+        "correctOption": 0,
+        "answer": "A",
+        "explanation": { "en": "All letters except the last shift forward by 1: C to D, A to B, R to S. The last letter shifts backward: D to C, giving DBSC.", "hi": "अंतिम को छोड़कर सभी अक्षर 1 स्थान आगे खिसकते हैं: C से D, A से B, R से S। अंतिम अक्षर पीछे खिसकता है: D से C, जिससे DBSC मिलता है।" },
+        "difficulty": "hard"
+      }
+    ]
+  }
+}

@@ -2,9 +2,8 @@
 import type { Metadata } from 'next';
 import Header           from '@/components/layout/Header';
 import Footer           from '@/components/layout/Footer';
-import Quiz             from '@/components/sections/quiz/Quiz';
 import QuizHero         from '@/components/sections/quiz/hero/QuizHero';
-import QuizCTABanner    from '@/components/sections/quiz/QuizCTABanner';
+import QuizSection      from '@/components/sections/quiz/QuizSection';
 import QuizFAQSection   from '@/components/sections/quiz/QuizFAQSection';
 import { BreadcrumbSchema, FAQSchema, WebPageSchema, generatePageMeta, ItemListSchema } from '@/components/seo';
 import { quizStats }    from '@/lib/data/quiz';
@@ -68,11 +67,8 @@ export default function QuizPage() {
           totalTests={quizStats.totalQuizSeries}
         />
 
-        {/* Quiz grid with sticky filters and SEO content */}
-        <Quiz />
-
-        {/* Bottom CTA */}
-        <QuizCTABanner />
+        {/* Playable Interactive Mock Quiz flow */}
+        <QuizSection />
 
         {/* FAQs */}
         <QuizFAQSection />

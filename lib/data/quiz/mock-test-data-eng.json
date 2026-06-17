@@ -1,0 +1,1847 @@
+{
+  "examTypes": [
+    "SBI PO",
+    "IBPS PO"
+  ],
+  "sections": [
+    {
+      "id": "quant",
+      "name": "Quantitative Aptitude",
+      "topics": [
+        {
+          "id": "data-interpretation",
+          "name": "Data Interpretation",
+          "subtopics": [
+            {
+              "id": "bar-graph-di",
+              "name": "Bar Graph DI",
+              "hasQuestions": true
+            },
+            {
+              "id": "pie-chart-di",
+              "name": "Pie Chart DI",
+              "hasQuestions": true
+            },
+            {
+              "id": "table-di",
+              "name": "Tabular DI",
+              "hasQuestions": false
+            },
+            {
+              "id": "line-graph-di",
+              "name": "Line Graph DI",
+              "hasQuestions": false
+            },
+            {
+              "id": "caselet-di",
+              "name": "Caselet DI",
+              "hasQuestions": false
+            }
+          ]
+        },
+        {
+          "id": "arithmetic",
+          "name": "Arithmetic",
+          "subtopics": [
+            {
+              "id": "simple-compound-interest",
+              "name": "Simple & Compound Interest",
+              "hasQuestions": true
+            },
+            {
+              "id": "profit-loss",
+              "name": "Profit & Loss",
+              "hasQuestions": false
+            },
+            {
+              "id": "time-work",
+              "name": "Time & Work",
+              "hasQuestions": false
+            },
+            {
+              "id": "time-speed-distance",
+              "name": "Time, Speed & Distance",
+              "hasQuestions": false
+            },
+            {
+              "id": "averages",
+              "name": "Averages",
+              "hasQuestions": false
+            },
+            {
+              "id": "ratio-proportion",
+              "name": "Ratio & Proportion",
+              "hasQuestions": false
+            }
+          ]
+        },
+        {
+          "id": "number-series",
+          "name": "Number Series & Quadratic Equations",
+          "subtopics": [
+            {
+              "id": "missing-number-series",
+              "name": "Missing Number Series",
+              "hasQuestions": true
+            },
+            {
+              "id": "wrong-number-series",
+              "name": "Wrong Number Series",
+              "hasQuestions": false
+            },
+            {
+              "id": "quadratic-equations",
+              "name": "Quadratic Equations",
+              "hasQuestions": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "name": "Reasoning Ability",
+      "topics": [
+        {
+          "id": "puzzles-seating",
+          "name": "Puzzles & Seating Arrangement",
+          "subtopics": [
+            {
+              "id": "linear-seating",
+              "name": "Linear Seating Arrangement",
+              "hasQuestions": true
+            },
+            {
+              "id": "circular-seating",
+              "name": "Circular Seating Arrangement",
+              "hasQuestions": true
+            },
+            {
+              "id": "floor-puzzle",
+              "name": "Floor Based Puzzle",
+              "hasQuestions": false
+            },
+            {
+              "id": "box-puzzle",
+              "name": "Box Based Puzzle",
+              "hasQuestions": false
+            }
+          ]
+        },
+        {
+          "id": "syllogism-blood",
+          "name": "Syllogism & Blood Relations",
+          "subtopics": [
+            {
+              "id": "syllogism",
+              "name": "Syllogism",
+              "hasQuestions": true
+            },
+            {
+              "id": "blood-relations",
+              "name": "Blood Relations",
+              "hasQuestions": false
+            },
+            {
+              "id": "direction-sense",
+              "name": "Direction Sense",
+              "hasQuestions": false
+            }
+          ]
+        },
+        {
+          "id": "coding-decoding",
+          "name": "Coding-Decoding & Series",
+          "subtopics": [
+            {
+              "id": "coding-decoding-sub",
+              "name": "Coding-Decoding",
+              "hasQuestions": true
+            },
+            {
+              "id": "alphanumeric-series",
+              "name": "Alphanumeric Series",
+              "hasQuestions": false
+            },
+            {
+              "id": "inequality",
+              "name": "Inequality",
+              "hasQuestions": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English Language",
+      "topics": [
+        {
+          "id": "reading-comprehension",
+          "name": "Reading Comprehension",
+          "subtopics": [
+            {
+              "id": "rc-passage",
+              "name": "Comprehension Passage",
+              "hasQuestions": true
+            },
+            {
+              "id": "cloze-test",
+              "name": "Cloze Test",
+              "hasQuestions": false
+            },
+            {
+              "id": "para-jumbles",
+              "name": "Para Jumbles",
+              "hasQuestions": false
+            }
+          ]
+        },
+        {
+          "id": "grammar-vocab",
+          "name": "Grammar & Vocabulary",
+          "subtopics": [
+            {
+              "id": "error-spotting",
+              "name": "Error Spotting",
+              "hasQuestions": true
+            },
+            {
+              "id": "fillers",
+              "name": "Sentence Fillers",
+              "hasQuestions": false
+            },
+            {
+              "id": "phrase-replacement",
+              "name": "Phrase Replacement",
+              "hasQuestions": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questionSets": {
+    "bar-graph-di": {
+      "subtopicId": "bar-graph-di",
+      "topicId": "data-interpretation",
+      "sectionId": "quant",
+      "instructions": "Study the bar graph showing the number of laptops sold by 5 stores (P, Q, R, S, T) during Jan-Mar 2026 and answer the questions below.",
+      "sharedDiagram": {
+        "type": "svg",
+        "alt": "Bar graph of laptops sold by stores P,Q,R,S,T",
+        "svg": "<svg viewBox='0 0 520 320' xmlns='http://www.w3.org/2000/svg' font-family='Arial, sans-serif'><rect width='520' height='320' fill='#ffffff'/><line x1='60' y1='20' x2='60' y2='280' stroke='#333' stroke-width='2'/><line x1='60' y1='280' x2='500' y2='280' stroke='#333' stroke-width='2'/><text x='10' y='25' font-size='12' fill='#333'>Units</text><text x='250' y='305' font-size='13' fill='#333'>Stores</text><g font-size='11' fill='#555'><text x='35' y='284'>0</text><text x='35' y='244'>50</text><text x='35' y='204'>100</text><text x='35' y='164'>150</text><text x='35' y='124'>200</text><text x='35' y='84'>250</text><text x='35' y='44'>300</text></g><g stroke='#ddd'><line x1='60' y1='244' x2='500' y2='244'/><line x1='60' y1='204' x2='500' y2='204'/><line x1='60' y1='164' x2='500' y2='164'/><line x1='60' y1='124' x2='500' y2='124'/><line x1='60' y1='84' x2='500' y2='84'/><line x1='60' y1='44' x2='500' y2='44'/></g><g><rect x='90' y='120' width='28' height='160' fill='#4F46E5'/><rect x='130' y='140' width='28' height='140' fill='#22C55E'/><rect x='170' y='100' width='28' height='180' fill='#F59E0B'/><text x='95' y='112' font-size='10'>200</text><text x='135' y='132' font-size='10'>175</text><text x='175' y='92' font-size='10'>225</text></g><g><rect x='220' y='180' width='28' height='100' fill='#4F46E5'/><rect x='260' y='100' width='28' height='180' fill='#22C55E'/><rect x='300' y='140' width='28' height='140' fill='#F59E0B'/><text x='225' y='172' font-size='10'>125</text><text x='265' y='92' font-size='10'>225</text><text x='305' y='132' font-size='10'>175</text></g><g><rect x='350' y='60' width='28' height='220' fill='#4F46E5'/><rect x='390' y='160' width='28' height='120' fill='#22C55E'/><rect x='430' y='120' width='28' height='160' fill='#F59E0B'/><text x='355' y='52' font-size='10'>275</text><text x='395' y='152' font-size='10'>150</text><text x='435' y='112' font-size='10'>200</text></g><g font-size='12' fill='#333'><text x='95' y='298'>P</text><text x='225' y='298'>Q</text><text x='358' y='298'>R</text></g><g><rect x='150' y='8' width='10' height='10' fill='#4F46E5'/><text x='165' y='17' font-size='10'>Jan</text><rect x='200' y='8' width='10' height='10' fill='#22C55E'/><text x='215' y='17' font-size='10'>Feb</text><rect x='250' y='8' width='10' height='10' fill='#F59E0B'/><text x='265' y='17' font-size='10'>Mar</text></g></svg>"
+      },
+      "note": "Data table equivalent (use this for stores S and T as well, since only P, Q, R are shown in diagram): Jan: P=200,Q=125,R=275,S=150,T=190 | Feb: P=175,Q=225,R=150,S=210,T=160 | Mar: P=225,Q=175,R=200,S=180,T=220",
+      "questions": [
+        {
+          "id": "bgdi-q1",
+          "question": "What is the total number of laptops sold by store P during Jan-Mar 2026?",
+          "options": [
+            "600",
+            "625",
+            "650",
+            "575",
+            "700"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "P's sales: Jan=200, Feb=175, Mar=225. Total = 200+175+225 = 600.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bgdi-q2",
+          "question": "What is the average number of laptops sold by store R over the three months?",
+          "options": [
+            "200",
+            "208.33",
+            "210",
+            "215",
+            "225"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "R's sales: 275+150+200 = 625. Average = 625/3 = 208.33.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bgdi-q3",
+          "question": "Find the ratio of total laptops sold by Q to total laptops sold by S over the three months.",
+          "options": [
+            "525:540",
+            "175:180",
+            "35:36",
+            "36:35",
+            "525:545"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Q total = 125+225+175 = 525. S total = 150+210+180 = 540. Ratio = 525:540 = 35:36.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bgdi-q4",
+          "question": "In which month was the total sale across all 5 stores the highest?",
+          "options": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Jan and Mar equal",
+            "Cannot be determined"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Jan total = 200+125+275+150+190 = 940. Feb total = 175+225+150+210+160 = 920. Mar total = 225+175+200+180+220 = 1000. March is highest.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bgdi-q5",
+          "question": "Sales of store T in March is what percentage of sales of store T in January?",
+          "options": [
+            "100%",
+            "105.7%",
+            "115.8%",
+            "120%",
+            "110%"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "T Jan = 190, T Mar = 220. Percentage = (220/190)*100 = 115.78% \u2248 115.8%.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bgdi-q6",
+          "question": "What is the difference between the total sales of P and R over the three months?",
+          "options": [
+            "15",
+            "20",
+            "25",
+            "30",
+            "35"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "P total = 600, R total = 625. Difference = 625 - 600 = 25.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bgdi-q7",
+          "question": "If store S's February sales increased by 20% in a revised report, what would be the new February sales of S?",
+          "options": [
+            "240",
+            "248",
+            "252",
+            "250",
+            "245"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "S Feb original = 210. Increase of 20% = 210 * 1.2 = 252.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bgdi-q8",
+          "question": "Which store had the most consistent (least variation) sales across the three months?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Range of sales: P=225-175=50, Q=225-125=100, R=275-150=125, S=210-150=60, T=220-160=60. P has the smallest range (50), so it is most consistent.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "bgdi-q9",
+          "question": "What is the combined average monthly sale per store of stores Q and T together (total of both divided by 6 data points)?",
+          "options": [
+            "175.5",
+            "180",
+            "182.5",
+            "185",
+            "190"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Q total = 525, T total = 190+160+220 = 570. Combined = 1095. Average per data point = 1095/6 = 182.5.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "bgdi-q10",
+          "question": "Total sales of all stores in January and February combined is approximately what percent of total sales in March (all stores)?",
+          "options": [
+            "180%",
+            "186%",
+            "190%",
+            "196%",
+            "200%"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Jan+Feb = 940+920 = 1860. March = 1000. Percentage = (1860/1000)*100 = 186%.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "pie-chart-di": {
+      "subtopicId": "pie-chart-di",
+      "topicId": "data-interpretation",
+      "sectionId": "quant",
+      "instructions": "The pie chart shows the percentage distribution of 7200 employees working in different departments of a company. Study it and answer the questions.",
+      "sharedDiagram": {
+        "type": "svg",
+        "alt": "Pie chart of employee distribution across departments",
+        "svg": "<svg viewBox='0 0 460 320' xmlns='http://www.w3.org/2000/svg' font-family='Arial, sans-serif'><rect width='460' height='320' fill='#ffffff'/><g transform='translate(160,150)'><circle r='110' fill='#f3f4f6'/><path d='M0 0 L0 -110 A110 110 0 0 1 80.6 -74.6 Z' fill='#4F46E5'/><path d='M0 0 L80.6 -74.6 A110 110 0 0 1 109.4 13.9 Z' fill='#22C55E'/><path d='M0 0 L109.4 13.9 A110 110 0 0 1 47.6 99.0 Z' fill='#F59E0B'/><path d='M0 0 L47.6 99.0 A110 110 0 0 1 -57.6 93.5 Z' fill='#EF4444'/><path d='M0 0 L-57.6 93.5 A110 110 0 0 1 -109.96 -5.5 Z' fill='#06B6D4'/><path d='M0 0 L-109.96 -5.5 A110 110 0 0 1 0 -110 Z' fill='#A855F7'/></g><g font-size='12' fill='#333'><rect x='300' y='40' width='12' height='12' fill='#4F46E5'/><text x='318' y='50'>HR - 20%</text><rect x='300' y='62' width='12' height='12' fill='#22C55E'/><text x='318' y='72'>IT - 25%</text><rect x='300' y='84' width='12' height='12' fill='#F59E0B'/><text x='318' y='94'>Sales - 18%</text><rect x='300' y='106' width='12' height='12' fill='#EF4444'/><text x='318' y='116'>Finance - 15%</text><rect x='300' y='128' width='12' height='12' fill='#06B6D4'/><text x='318' y='138'>Ops - 12%</text><rect x='300' y='150' width='12' height='12' fill='#A855F7'/><text x='318' y='160'>Marketing - 10%</text></g></svg>"
+      },
+      "note": "Total employees = 7200. HR=20%, IT=25%, Sales=18%, Finance=15%, Ops=12%, Marketing=10%.",
+      "questions": [
+        {
+          "id": "pcdi-q1",
+          "question": "How many employees work in the IT department?",
+          "options": [
+            "1600",
+            "1700",
+            "1800",
+            "1900",
+            "2000"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "IT = 25% of 7200 = 1800.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pcdi-q2",
+          "question": "What is the difference between the number of employees in HR and Marketing?",
+          "options": [
+            "600",
+            "650",
+            "700",
+            "720",
+            "750"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "HR = 20% of 7200 = 1440. Marketing = 10% of 7200 = 720. Difference = 1440 - 720 = 720.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pcdi-q3",
+          "question": "Employees in Sales and Finance together form what percentage of total employees?",
+          "options": [
+            "33%",
+            "35%",
+            "36%",
+            "38%",
+            "40%"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Sales (18%) + Finance (15%) = 33%.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pcdi-q4",
+          "question": "If 30% of IT employees are women, how many men work in the IT department?",
+          "options": [
+            "1200",
+            "1260",
+            "1300",
+            "1340",
+            "1400"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "IT total = 1800. Women = 30% of 1800 = 540. Men = 1800 - 540 = 1260.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "pcdi-q5",
+          "question": "What is the ratio of employees in Operations to employees in Finance?",
+          "options": [
+            "4:5",
+            "5:4",
+            "3:5",
+            "12:15",
+            "2:3"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Ops = 12%, Finance = 15%. Ratio = 12:15 = 4:5.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pcdi-q6",
+          "question": "How many more employees are in HR than in Operations?",
+          "options": [
+            "500",
+            "550",
+            "576",
+            "600",
+            "620"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "HR = 1440, Ops = 12% of 7200 = 864. Difference = 1440 - 864 = 576.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "pcdi-q7",
+          "question": "If the company plans to increase IT headcount by 15% next year, how many new IT employees will be added?",
+          "options": [
+            "240",
+            "260",
+            "270",
+            "280",
+            "300"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "IT = 1800. 15% increase = 0.15 * 1800 = 270 new employees.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pcdi-q8",
+          "question": "Employees in HR, IT and Sales together are how many times the employees in Marketing?",
+          "options": [
+            "6 times",
+            "6.3 times",
+            "6.5 times",
+            "7 times",
+            "7.2 times"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "HR+IT+Sales % = 20+25+18 = 63%. Marketing = 10%. 63/10 = 6.3 times.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "pcdi-q9",
+          "question": "What is the central angle (in degrees) representing the Sales department in the pie chart?",
+          "options": [
+            "54\u00b0",
+            "60\u00b0",
+            "64.8\u00b0",
+            "70\u00b0",
+            "72\u00b0"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Central angle = (18/100) * 360 = 64.8\u00b0.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "pcdi-q10",
+          "question": "If 10% of Finance employees and 20% of Ops employees are transferred to Marketing, what is the new total in Marketing?",
+          "options": [
+            "1000.8",
+            "1050.8",
+            "1080.8",
+            "1100.8",
+            "1120.8"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Finance = 1080, 10% = 108. Ops = 864, 20% = 172.8. New Marketing = 720 + 108 + 172.8 = 1000.8.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "simple-compound-interest": {
+      "subtopicId": "simple-compound-interest",
+      "topicId": "arithmetic",
+      "sectionId": "quant",
+      "instructions": "Answer the following questions on Simple Interest and Compound Interest. No diagram required for this subtopic.",
+      "questions": [
+        {
+          "id": "sci-q1",
+          "question": "Find the simple interest on Rs. 12,000 at 8% per annum for 3 years.",
+          "options": [
+            "Rs. 2,400",
+            "Rs. 2,800",
+            "Rs. 2,880",
+            "Rs. 3,000",
+            "Rs. 3,200"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "SI = (P*R*T)/100 = (12000*8*3)/100 = Rs. 2,880.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sci-q2",
+          "question": "What is the compound interest on Rs. 10,000 at 10% per annum for 2 years, compounded annually?",
+          "options": [
+            "Rs. 2,000",
+            "Rs. 2,050",
+            "Rs. 2,100",
+            "Rs. 2,150",
+            "Rs. 2,200"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "A = 10000(1.1)^2 = 10000*1.21 = 12100. CI = 12100-10000 = Rs. 2,100.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sci-q3",
+          "question": "The difference between CI and SI on a sum for 2 years at 5% per annum is Rs. 15. Find the sum.",
+          "options": [
+            "Rs. 5,000",
+            "Rs. 5,500",
+            "Rs. 6,000",
+            "Rs. 6,500",
+            "Rs. 7,000"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Difference = P(R/100)^2 \u2192 15 = P(5/100)^2 = P*0.0025 \u2192 P = 15/0.0025 = Rs. 6,000.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sci-q4",
+          "question": "At what rate of simple interest will a sum double itself in 8 years?",
+          "options": [
+            "10%",
+            "11.5%",
+            "12%",
+            "12.5%",
+            "15%"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "For sum to double, SI = P. P = (P*R*8)/100 \u2192 R = 100/8 = 12.5%.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sci-q5",
+          "question": "A sum of Rs. 8,000 amounts to Rs. 9,200 in 3 years at simple interest. What is the rate of interest?",
+          "options": [
+            "4%",
+            "5%",
+            "5.5%",
+            "6%",
+            "6.5%"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "SI = 9200-8000 = 1200. R = (SI*100)/(P*T) = (1200*100)/(8000*3) = 5%.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sci-q6",
+          "question": "Find the compound interest on Rs. 15,000 for 1.5 years at 20% per annum, compounded half-yearly.",
+          "options": [
+            "Rs. 4,500",
+            "Rs. 4,800",
+            "Rs. 4,965",
+            "Rs. 5,250",
+            "Rs. 5,500"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Half-yearly rate = 10%, periods = 3. A = 15000(1.1)^3 = 15000*1.331 = 19965. CI = 19965-15000 = Rs. 4,965.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "sci-q7",
+          "question": "A certain sum amounts to Rs. 6,600 in 2 years and Rs. 7,260 in 3 years at compound interest. Find the rate of interest.",
+          "options": [
+            "8%",
+            "9%",
+            "10%",
+            "11%",
+            "12%"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Interest for 3rd year = 7260-6600 = 660. Rate = (660/6600)*100 = 10%.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sci-q8",
+          "question": "What is the simple interest on Rs. 25,000 for 4 years at 7.5% per annum?",
+          "options": [
+            "Rs. 6,500",
+            "Rs. 7,000",
+            "Rs. 7,500",
+            "Rs. 8,000",
+            "Rs. 8,500"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "SI = (25000*7.5*4)/100 = Rs. 7,500.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sci-q9",
+          "question": "The simple interest on a sum for 2 years at 12% per annum is Rs. 3,600. Find the compound interest on the same sum for the same time and rate.",
+          "options": [
+            "Rs. 3,600",
+            "Rs. 3,816",
+            "Rs. 3,900",
+            "Rs. 4,000",
+            "Rs. 4,116"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "SI = 3600 for 2 yrs at 12% \u2192 P = (3600*100)/(12*2) = 15000. CI = 15000[(1.12)^2-1] = 15000*0.2544 = Rs. 3,816.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "sci-q10",
+          "question": "In how many years will a sum of Rs. 4,000 become Rs. 4,840 at 10% per annum compound interest, compounded annually?",
+          "options": [
+            "1 year",
+            "1.5 years",
+            "2 years",
+            "2.5 years",
+            "3 years"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "4840/4000 = 1.21 = (1.1)^2. So time = 2 years.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "missing-number-series": {
+      "subtopicId": "missing-number-series",
+      "topicId": "number-series",
+      "sectionId": "quant",
+      "instructions": "Find the missing number in the following number series.",
+      "questions": [
+        {
+          "id": "mns-q1",
+          "question": "5, 11, 23, 47, 95, ?",
+          "options": [
+            "179",
+            "183",
+            "189",
+            "191",
+            "195"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "Pattern: each term = previous*2 + 1. 95*2+1 = 191.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mns-q2",
+          "question": "7, 9, 14, 24, 41, ?",
+          "options": [
+            "62",
+            "65",
+            "67",
+            "70",
+            "72"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Differences: 2,5,10,17 (differences of differences are 3,5,7). Next difference = 17+7=24. 41+24 = 65.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mns-q3",
+          "question": "2, 6, 12, 20, 30, ?",
+          "options": [
+            "38",
+            "40",
+            "42",
+            "44",
+            "46"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Pattern: n(n+1). 1*2=2, 2*3=6, 3*4=12, 4*5=20, 5*6=30, 6*7=42.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mns-q4",
+          "question": "3, 10, 29, 66, 127, ?",
+          "options": [
+            "198",
+            "208",
+            "212",
+            "218",
+            "224"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Pattern: n^3+2. 1+2=3, 8+2=10, 27+2=29, 64+2=66, 125+2=127, 216+2=218.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mns-q5",
+          "question": "100, 92, 85, 79, 74, ?",
+          "options": [
+            "68",
+            "69",
+            "70",
+            "71",
+            "72"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Differences decrease by 1 each time: -8,-7,-6,-5,-4. 74-4=70.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mns-q6",
+          "question": "4, 5, 12, 39, 160, ?",
+          "options": [
+            "805",
+            "810",
+            "815",
+            "820",
+            "825"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Each term follows the rule: next term = (current term x position) + position, where position counts from 1. So 4x1+1=5, 5x2+2=12, 12x3+3=39, 39x4+4=160, and 160x5+5=805.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mns-q7",
+          "question": "8, 16, 32, 64, ?, 256",
+          "options": [
+            "96",
+            "112",
+            "128",
+            "144",
+            "160"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Each term doubles the previous. 64*2 = 128.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mns-q8",
+          "question": "15, 18, 23, 30, 39, ?",
+          "options": [
+            "48",
+            "49",
+            "50",
+            "51",
+            "52"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Differences: 3,5,7,9,11 (odd numbers increasing). 39+11=50.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mns-q9",
+          "question": "6, 9, 15, 27, 51, ?",
+          "options": [
+            "95",
+            "97",
+            "99",
+            "101",
+            "103"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Differences between terms are 3, 6, 12, 24, each one doubling the previous difference. The next difference is 48, so 51+48=99.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mns-q10",
+          "question": "1, 4, 9, 16, 25, ?",
+          "options": [
+            "30",
+            "32",
+            "34",
+            "36",
+            "38"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "Pattern: perfect squares. 1\u00b2,2\u00b2,3\u00b2,4\u00b2,5\u00b2,6\u00b2=36.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    "linear-seating": {
+      "subtopicId": "linear-seating",
+      "topicId": "puzzles-seating",
+      "sectionId": "reasoning",
+      "instructions": "Eight people A, B, C, D, E, F, G and H sit in a straight line facing North, not necessarily in this order. Clues: 1. D sits third to the right of A. 2. C sits second to the left of D. 3. B sits at one of the extreme ends. 4. F sits immediately right of C. 5. E sits exactly between F and G. 6. H sits second to the right of B.",
+      "solvedOrder": [
+        "B",
+        "A",
+        "H",
+        "C",
+        "F",
+        "D",
+        "E",
+        "G"
+      ],
+      "sharedDiagram": {
+        "type": "svg",
+        "alt": "Linear seating arrangement of 8 people facing North",
+        "svg": "<svg viewBox='0 0 580 150' xmlns='http://www.w3.org/2000/svg' font-family='Arial, sans-serif'><rect width='580' height='150' fill='#ffffff'/><text x='20' y='20' font-size='13' fill='#555'>Facing North</text><g transform='translate(20,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>B</text></g><g transform='translate(90,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>A</text></g><g transform='translate(160,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>H</text></g><g transform='translate(230,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>C</text></g><g transform='translate(300,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>F</text></g><g transform='translate(370,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>D</text></g><g transform='translate(440,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>E</text></g><g transform='translate(510,45)'><rect width='60' height='60' rx='8' fill='#EEF2FF' stroke='#4F46E5'/><text x='30' y='35' text-anchor='middle' font-size='16' font-weight='bold'>G</text></g></svg>"
+      },
+      "questions": [
+        {
+          "id": "lsa-q1",
+          "question": "Who sits at the extreme right end of the row?",
+          "options": [
+            "E",
+            "F",
+            "G",
+            "D",
+            "H"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "From the solved arrangement B-A-H-C-F-D-E-G, G occupies the extreme right end.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q2",
+          "question": "How many people sit between C and E?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Between C and E we have F and D, so 2 people sit between them.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q3",
+          "question": "Who sits immediately to the right of A?",
+          "options": [
+            "C",
+            "H",
+            "D",
+            "B",
+            "F"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Order: B, A, H, C, F, D, E, G. The person immediately right of A is H.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q4",
+          "question": "What is the position of D from the left end?",
+          "options": [
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Counting from the left: B(1), A(2), H(3), C(4), F(5), D(6). D is 6th from the left.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q5",
+          "question": "Which pair sits at the two extreme ends of the row?",
+          "options": [
+            "B, E",
+            "B, G",
+            "A, G",
+            "B, D",
+            "H, G"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "B occupies the leftmost seat (position 1) and G occupies the rightmost seat (position 8).",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q6",
+          "question": "How many people sit to the left of F?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "F is at position 5. The people to its left are B, A, H, C - that is 4 people.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q7",
+          "question": "Which two people occupy the two middle-most seats of the row?",
+          "options": [
+            "A and H",
+            "H and C",
+            "C and F",
+            "F and D",
+            "D and E"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "With 8 seats, the two middle positions are 4 and 5, which are occupied by C and F.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "lsa-q8",
+          "question": "Who sits second to the left of F?",
+          "options": [
+            "A",
+            "H",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "F is at position 5. Second to the left of F is position 3, which is H.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q9",
+          "question": "How many people sit to the right of C?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "C is at position 4 of 8. The people to its right are F, D, E, G - that is 4 people.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "lsa-q10",
+          "question": "If E and H interchange positions, who would then sit second to the right of A?",
+          "options": [
+            "C",
+            "F",
+            "E",
+            "H",
+            "D"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Original order: B,A,H,C,F,D,E,G. After swapping E (position 7) and H (position 3), the order becomes B,A,E,C,F,D,H,G. Second to the right of A (position 2) is position 4, which is C.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "circular-seating": {
+      "subtopicId": "circular-seating",
+      "topicId": "puzzles-seating",
+      "sectionId": "reasoning",
+      "instructions": "Six friends P, Q, R, S, T and U sit around a circular table facing the center. Clues: 1. Q sits second to the right of P. 2. R sits immediately left of Q. 3. S sits opposite P. 4. T sits between R and U.",
+      "solvedOrderClockwise": [
+        "P",
+        "U",
+        "T",
+        "S",
+        "R",
+        "Q"
+      ],
+      "sharedDiagram": {
+        "type": "svg",
+        "alt": "Circular seating arrangement of 6 friends facing center",
+        "svg": "<svg viewBox='0 0 320 320' xmlns='http://www.w3.org/2000/svg' font-family='Arial, sans-serif'><rect width='320' height='320' fill='#ffffff'/><circle cx='160' cy='160' r='110' fill='none' stroke='#999' stroke-dasharray='4,4'/><circle cx='160' cy='40' r='28' fill='#EEF2FF' stroke='#4F46E5'/><text x='160' y='45' text-anchor='middle' font-size='15' font-weight='bold'>P</text><circle cx='255' cy='105' r='28' fill='#EEF2FF' stroke='#4F46E5'/><text x='255' y='110' text-anchor='middle' font-size='15' font-weight='bold'>U</text><circle cx='225' cy='225' r='28' fill='#EEF2FF' stroke='#4F46E5'/><text x='225' y='230' text-anchor='middle' font-size='15' font-weight='bold'>T</text><circle cx='160' cy='280' r='28' fill='#EEF2FF' stroke='#4F46E5'/><text x='160' y='285' text-anchor='middle' font-size='15' font-weight='bold'>S</text><circle cx='95' cy='225' r='28' fill='#EEF2FF' stroke='#4F46E5'/><text x='95' y='230' text-anchor='middle' font-size='15' font-weight='bold'>R</text><circle cx='65' cy='105' r='28' fill='#EEF2FF' stroke='#4F46E5'/><text x='65' y='110' text-anchor='middle' font-size='15' font-weight='bold'>Q</text><text x='160' y='160' text-anchor='middle' font-size='12' fill='#888'>Center</text></svg>"
+      },
+      "questions": [
+        {
+          "id": "csa-q1",
+          "question": "Who sits immediately to the right of P (clockwise direction)?",
+          "options": [
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U"
+          ],
+          "correctOption": 4,
+          "answer": "E",
+          "explanation": "Clockwise order is P, U, T, S, R, Q, back to P. So U sits immediately to the right of P.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "csa-q2",
+          "question": "Who sits opposite to P?",
+          "options": [
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "As given directly in clue 3, S sits opposite to P.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "csa-q3",
+          "question": "Who sits between R and U?",
+          "options": [
+            "P",
+            "Q",
+            "S",
+            "T",
+            "No one"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "Per clue 4 and the solved order P, U, T, S, R, Q, T sits directly between R and U.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "csa-q4",
+          "question": "Who sits second to the left of S?",
+          "options": [
+            "P",
+            "Q",
+            "R",
+            "T",
+            "U"
+          ],
+          "correctOption": 4,
+          "answer": "E",
+          "explanation": "Moving counter-clockwise (left) from S: immediate left is T, second to the left is U.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "csa-q5",
+          "question": "Who are the immediate neighbors of S?",
+          "options": [
+            "P and Q",
+            "T and R",
+            "U and Q",
+            "P and R",
+            "T and Q"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "In the order P, U, T, S, R, Q, the neighbors on either side of S are T and R.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "csa-q6",
+          "question": "How many people sit between P and S on each side of the table?",
+          "options": [
+            "1 and 1",
+            "2 and 2",
+            "1 and 2",
+            "0 and 3",
+            "3 and 0"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "With P and S directly opposite each other among 6 people, there are exactly 2 people on each side: U and T on one side, Q and R on the other.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "csa-q7",
+          "question": "Who sit between T and Q, going via S and R?",
+          "options": [
+            "P only",
+            "S and R",
+            "U only",
+            "R only",
+            "P and U"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Going from T to Q through S and R, both S and R lie in between.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "csa-q8",
+          "question": "Who sits to the immediate left of T?",
+          "options": [
+            "S",
+            "U",
+            "R",
+            "Q",
+            "P"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "In the clockwise order P, U, T, S, R, Q, the counter-clockwise (left) neighbor of T is U.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "csa-q9",
+          "question": "Which statement is correct based on the arrangement?",
+          "options": [
+            "Q is an immediate neighbor of S",
+            "R is an immediate neighbor of Q",
+            "U is an immediate neighbor of S",
+            "T is an immediate neighbor of P",
+            "P is an immediate neighbor of R"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "From the order P, U, T, S, R, Q, R and Q sit next to each other, confirming clue 2.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "csa-q10",
+          "question": "If U and R swap seats, who would then be the immediate neighbors of P?",
+          "options": [
+            "Q and T",
+            "Q and R",
+            "R and Q",
+            "U and S",
+            "T and S"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "P's original neighbors are Q and U. After U and R swap seats, R occupies U's old seat, so P's new neighbors become Q and R.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "syllogism": {
+      "subtopicId": "syllogism",
+      "topicId": "syllogism-blood",
+      "sectionId": "reasoning",
+      "instructions": "In each question, two statements are given followed by two conclusions. Assuming the statements to be true, decide which conclusion(s) logically follow.",
+      "questions": [
+        {
+          "id": "syl-q1",
+          "question": "Statements: All pens are pencils. All pencils are erasers.\nConclusions: I. All pens are erasers. II. Some erasers are pens.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both I and II follow",
+            "Neither follows",
+            "Either I or II follows"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Since all pens are pencils and all pencils are erasers, all pens are erasers (I follows). This also means some erasers are pens (II follows).",
+          "difficulty": "easy"
+        },
+        {
+          "id": "syl-q2",
+          "question": "Statements: Some books are pens. No pen is a table.\nConclusions: I. Some books are not tables. II. No book is a table.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either I or II follows"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "The books that are pens cannot be tables, since no pen is a table, so some books are not tables (I follows). II overgeneralizes to all books, which is not supported.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "syl-q3",
+          "question": "Statements: All cups are plates. Some plates are spoons.\nConclusions: I. Some cups are spoons. II. Some spoons are cups.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "We cannot be certain the plates that are spoons overlap with the plates that are cups, so neither conclusion follows definitely.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "syl-q4",
+          "question": "Statements: No doctor is a teacher. All teachers are scientists.\nConclusions: I. No scientist is a doctor. II. Some scientists are teachers.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Since all teachers are scientists, some scientists are definitely teachers (II follows). However, a doctor could still be a scientist through some other category, so I does not necessarily follow.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "syl-q5",
+          "question": "Statements: All flowers are fruits. No fruit is a vegetable.\nConclusions: I. No flower is a vegetable. II. No vegetable is a flower.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Since all flowers are fruits and no fruit is a vegetable, no flower is a vegetable (I follows). This relationship works both ways here, so no vegetable is a flower also follows (II follows).",
+          "difficulty": "medium"
+        },
+        {
+          "id": "syl-q6",
+          "question": "Statements: Some chairs are tables. Some tables are doors.\nConclusions: I. Some chairs are doors. II. Some doors are chairs.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either I or II follows"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "There is no guarantee of overlap between chairs and doors specifically, so neither conclusion follows.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "syl-q7",
+          "question": "Statements: All mobiles are phones. All phones are gadgets.\nConclusions: I. All mobiles are gadgets. II. Some gadgets are mobiles.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "All mobiles are phones and all phones are gadgets, so all mobiles are gadgets (I follows), which also means some gadgets are mobiles (II follows).",
+          "difficulty": "easy"
+        },
+        {
+          "id": "syl-q8",
+          "question": "Statements: No apple is a mango. Some mangoes are bananas.\nConclusions: I. Some bananas are not apples. II. No banana is an apple.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "The mangoes that are bananas cannot be apples, since no apple is a mango, so some bananas are not apples (I follows). II is too broad to be guaranteed for every banana.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "syl-q9",
+          "question": "Statements: All rivers are lakes. Some lakes are oceans.\nConclusions: I. Some rivers are oceans. II. Some oceans are lakes.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "Some lakes being oceans directly implies some oceans are lakes (II follows). Whether any rivers fall among those lakes that are oceans is not established, so I does not follow.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "syl-q10",
+          "question": "Statements: All squares are rectangles. No rectangle is a triangle.\nConclusions: I. No square is a triangle. II. Some rectangles are squares.",
+          "options": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Either follows"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "Since all squares are rectangles and no rectangle is a triangle, no square is a triangle (I follows). All squares being rectangles also means some rectangles are squares (II follows).",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    "coding-decoding-sub": {
+      "subtopicId": "coding-decoding-sub",
+      "topicId": "coding-decoding",
+      "sectionId": "reasoning",
+      "instructions": "Each question below states its own coding rule. Apply the stated rule to find the correct code.",
+      "questions": [
+        {
+          "id": "cd-q1",
+          "question": "In a certain code, each letter is shifted forward by 1 position in the alphabet (A becomes B, B becomes C, and so on). If 'SUN' is written as 'TVO', how is 'STAR' written using the same rule?",
+          "options": [
+            "TUBS",
+            "TUAS",
+            "RUBS",
+            "TVBS",
+            "SUBS"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Shifting each letter forward by 1: S to T, T to U, A to B, R to S, giving TUBS.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "cd-q2",
+          "question": "In a certain code, each letter is shifted forward by 2 positions in the alphabet. If 'TIGER' is written as 'VKIGT', how is 'LIONS' written using the same rule?",
+          "options": [
+            "NKQPU",
+            "NKQOU",
+            "NKPQU",
+            "MKQPU",
+            "NJQPU"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Shifting each letter forward by 2: L to N, I to K, O to Q, N to P, S to U, giving NKQPU.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "cd-q3",
+          "question": "In a certain code, each letter is replaced by its mirror-opposite in the alphabet (A pairs with Z, B with Y, C with X, and so on). If 'GARDEN' is coded as 'TZIWVM', what is the code for 'FLOWER' using the same rule?",
+          "options": [
+            "UOLJVI",
+            "ULOJVI",
+            "UOLDVI",
+            "UOLJUI",
+            "VOLJVI"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Mirror substitution: F to U, L to O, O to L, W to D... rechecking each letter individually: F(6th)->U(21st), L(12th)->O(15th), O(15th)->L(12th), W(23rd)->D(4th), E(5th)->V(22nd), R(18th)->I(9th). Combining gives UOLDVI, which is the substitution-consistent code.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "cd-q4",
+          "question": "In a certain code, each letter is simply replaced by its position number in the alphabet (A=1, B=2, and so on). How is 'PAGE' written in this code?",
+          "options": [
+            "16-1-7-5",
+            "16-1-7-4",
+            "15-1-7-5",
+            "16-2-7-5",
+            "16-1-8-5"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "P is the 16th letter, A is the 1st, G is the 7th, E is the 5th, giving 16-1-7-5.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "cd-q5",
+          "question": "In a certain code, each letter is replaced by its position number in the alphabet. How is 'MUMBAI' written in this code?",
+          "options": [
+            "13-21-13-2-1-9",
+            "13-21-13-2-1-8",
+            "12-21-13-2-1-9",
+            "13-20-13-2-1-9",
+            "13-21-14-2-1-9"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "M=13, U=21, M=13, B=2, A=1, I=9, giving 13-21-13-2-1-9.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "cd-q6",
+          "question": "In a certain code, each letter is shifted backward by 1 position in the alphabet (B becomes A, C becomes B, and so on). If 'PLANE' is written as 'OKZMD', how is 'TRAIN' written using the same rule?",
+          "options": [
+            "SQZHM",
+            "SQZHN",
+            "RQZHM",
+            "SPZHM",
+            "SQYHM"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Shifting each letter back by 1: T to S, R to Q, A to Z, I to H, N to M, giving SQZHM.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "cd-q7",
+          "question": "In a certain code, the letters of a word are simply reversed. If 'WORLD' is coded as 'DLROW', how is 'MARKET' coded?",
+          "options": [
+            "TEKRAM",
+            "TEKARM",
+            "TEKRMA",
+            "EKTRAM",
+            "TKERAM"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Reversing the letters of MARKET gives TEKRAM.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "cd-q8",
+          "question": "In a certain code, each letter is shifted forward by 3 positions in the alphabet. If 'CAT' is written as 'FDW', how is 'DOG' written using the same rule?",
+          "options": [
+            "GRJ",
+            "GRI",
+            "GQJ",
+            "FRJ",
+            "GSJ"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Shifting each letter forward by 3: D to G, O to R, G to J, giving GRJ.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "cd-q9",
+          "question": "In a certain code, vowels in a word are each replaced by the next vowel in the sequence A-E-I-O-U-A (cyclic), and consonants stay unchanged. How is 'TABLE' coded?",
+          "options": [
+            "TEBLI",
+            "TIBLO",
+            "TOBLI",
+            "TEBLO",
+            "TABLI"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "Vowels A and E shift to the next vowel in sequence: A becomes E, E becomes I. Consonants T, B, L stay the same, giving TEBLI.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "cd-q10",
+          "question": "In a certain code, each letter is shifted forward by 1 position, except the last letter of the word, which is shifted backward by 1 position. If 'BOOK' is written as 'CPPJ', how is 'CARD' written using the same rule?",
+          "options": [
+            "DBSC",
+            "DBSD",
+            "DASD",
+            "DBSE",
+            "DCSC"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "All letters except the last shift forward by 1: C to D, A to B, R to S. The last letter shifts backward by 1: D to C, giving DBSC.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "rc-passage": {
+      "subtopicId": "rc-passage",
+      "topicId": "reading-comprehension",
+      "sectionId": "english",
+      "instructions": "Read the following passage carefully and answer the questions that follow.",
+      "passage": "The banking sector in India has undergone a remarkable transformation over the past two decades, driven largely by advances in technology and shifts in regulatory policy. Public sector banks, once the dominant force in the industry, have faced increasing competition from private players and new-age financial technology companies. The introduction of digital payment systems, including the Unified Payments Interface, has fundamentally changed how ordinary citizens conduct financial transactions, reducing dependence on physical cash and traditional banking infrastructure.\n\nHowever, this transformation has not been without challenges. Concerns about cybersecurity, data privacy, and financial inclusion continue to occupy policymakers. While urban populations have rapidly adopted digital banking solutions, rural and semi-urban areas still lag behind due to limited internet connectivity and lower levels of digital literacy. The Reserve Bank of India has responded with several initiatives aimed at bridging this gap, including mandates for banks to expand their physical and digital presence in underserved regions.\n\nFurthermore, the rise of non-banking financial companies has added another layer of complexity to the financial ecosystem. These institutions, while contributing to credit growth, have also been a source of systemic risk, as evidenced by liquidity crises that have periodically rattled the sector. Regulators now face the delicate task of fostering innovation while ensuring that the broader financial system remains stable and resilient.",
+      "questions": [
+        {
+          "id": "rc-q1",
+          "question": "According to the passage, what has been a major driver of transformation in the Indian banking sector?",
+          "options": [
+            "Government nationalization of banks",
+            "Technology advances and regulatory policy shifts",
+            "Decline in private sector participation",
+            "Reduction in non-banking financial companies",
+            "Increase in physical cash transactions"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage opens by stating the transformation was driven largely by technology advances and regulatory policy shifts.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rc-q2",
+          "question": "What does the passage suggest about rural and semi-urban areas regarding digital banking?",
+          "options": [
+            "They have adopted digital banking faster than urban areas",
+            "They lag behind due to limited connectivity and digital literacy",
+            "They have completely rejected digital payment systems",
+            "They no longer require banking services",
+            "They have surpassed urban areas in UPI adoption"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage explicitly states rural and semi-urban areas lag behind due to limited internet connectivity and lower digital literacy.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rc-q3",
+          "question": "What role have non-banking financial companies played according to the passage?",
+          "options": [
+            "They have eliminated systemic risk entirely",
+            "They have only had negative effects on credit growth",
+            "They have contributed to credit growth but also introduced systemic risk",
+            "They have replaced all public sector banks",
+            "They are unrelated to liquidity crises"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "The passage states NBFCs contribute to credit growth while also being a source of systemic risk, evidenced by liquidity crises.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "rc-q4",
+          "question": "What has the Reserve Bank of India done in response to the urban-rural digital divide?",
+          "options": [
+            "Banned digital payment systems in rural areas",
+            "Introduced mandates for banks to expand presence in underserved regions",
+            "Shut down rural bank branches",
+            "Removed regulatory oversight of NBFCs",
+            "Increased dependence on physical cash nationwide"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage states the RBI responded with initiatives including mandates for banks to expand their physical and digital presence in underserved regions.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "rc-q5",
+          "question": "What is the 'delicate task' faced by regulators as mentioned in the passage?",
+          "options": [
+            "Eliminating all private banks",
+            "Balancing innovation with financial system stability",
+            "Promoting only cash-based transactions",
+            "Reducing the number of financial technology companies",
+            "Ignoring cybersecurity concerns"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage concludes that regulators face the task of fostering innovation while ensuring the broader financial system remains stable and resilient.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "rc-q6",
+          "question": "Which of the following best describes the overall tone of the passage?",
+          "options": [
+            "Purely critical of all banking reforms",
+            "Analytical, presenting both progress and challenges",
+            "Entirely optimistic with no concerns raised",
+            "Dismissive of technology's role in banking",
+            "Focused solely on historical events"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage presents a balanced, analytical view, discussing both the progress made (digital payments, UPI) and the challenges (cybersecurity, financial inclusion, systemic risk).",
+          "difficulty": "medium"
+        },
+        {
+          "id": "rc-q7",
+          "question": "What has reduced dependence on physical cash and traditional banking infrastructure, according to the passage?",
+          "options": [
+            "Increase in bank branches",
+            "Digital payment systems like the Unified Payments Interface",
+            "Government subsidies",
+            "Reduction in mobile phone usage",
+            "Closure of private banks"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage directly attributes this change to the introduction of digital payment systems, including UPI.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rc-q8",
+          "question": "Which group does the passage identify as having once dominated the banking industry?",
+          "options": [
+            "Private sector banks",
+            "Fintech companies",
+            "Public sector banks",
+            "Non-banking financial companies",
+            "Foreign banks"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "The passage states public sector banks were once the dominant force in the industry.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "rc-q9",
+          "question": "What can be inferred about liquidity crises mentioned in the passage?",
+          "options": [
+            "They are unrelated to non-banking financial companies",
+            "They have occurred periodically and are linked to NBFCs",
+            "They only affect public sector banks",
+            "They have been completely resolved by the RBI",
+            "They are caused exclusively by digital payment systems"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "The passage states NBFCs have been a source of systemic risk, as evidenced by liquidity crises that have periodically rattled the sector.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "rc-q10",
+          "question": "Which concern is NOT mentioned in the passage as a challenge facing policymakers?",
+          "options": [
+            "Cybersecurity",
+            "Data privacy",
+            "Financial inclusion",
+            "International trade tariffs",
+            "Systemic risk from NBFCs"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "The passage mentions cybersecurity, data privacy, financial inclusion, and systemic risk as concerns, but does not mention international trade tariffs.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "error-spotting": {
+      "subtopicId": "error-spotting",
+      "topicId": "grammar-vocab",
+      "sectionId": "english",
+      "instructions": "Each sentence below is divided into parts. Identify the part that contains a grammatical error. If there is no error, select 'No error'.",
+      "questions": [
+        {
+          "id": "es-q1",
+          "question": "(A) The manager along with his team / (B) have decided / (C) to launch the new product / (D) next month. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "When a subject is followed by 'along with', the verb agrees with the main subject, which is singular ('manager'). It should be 'has decided', not 'have decided'.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "es-q2",
+          "question": "(A) Neither of the candidates / (B) were prepared / (C) for the difficult questions / (D) asked by the panel. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "'Neither' is singular and takes a singular verb. It should be 'was prepared', not 'were prepared'.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "es-q3",
+          "question": "(A) She has been working / (B) in this company / (C) since five years / (D) and plans to continue. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "'Since' is used with a specific point in time, while 'for' is used with a duration. It should be 'for five years', not 'since five years'.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "es-q4",
+          "question": "(A) Each of the students / (B) are required / (C) to submit their assignments / (D) by Friday. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 1,
+          "answer": "B",
+          "explanation": "'Each' is singular and requires a singular verb. It should be 'is required', not 'are required'.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "es-q5",
+          "question": "(A) The committee members / (B) could not agree / (C) on whether the policy should / (D) be implement immediately. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 3,
+          "answer": "D",
+          "explanation": "After the modal-like construction 'should be', the base verb form needs the correct participle. It should be 'be implemented', not 'be implement'.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "es-q6",
+          "question": "(A) If I was you, / (B) I would accept / (C) the job offer / (D) without any hesitation. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "In hypothetical conditional sentences (subjunctive mood), 'were' is used instead of 'was', regardless of subject. It should be 'If I were you'.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "es-q7",
+          "question": "(A) The number of students / (B) who failed the exam / (C) have increased / (D) significantly this year. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 2,
+          "answer": "C",
+          "explanation": "'The number of' is treated as singular, so the verb should agree accordingly. It should be 'has increased', not 'have increased'.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "es-q8",
+          "question": "(A) Despite of the heavy rain, / (B) the match continued / (C) without any interruption / (D) for the entire day. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "'Despite' is never followed by 'of'. It should simply be 'Despite the heavy rain', not 'Despite of the heavy rain'.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "es-q9",
+          "question": "(A) One of the main reason / (B) for the company's success / (C) is its strong / (D) customer relationships. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 0,
+          "answer": "A",
+          "explanation": "'One of the' is always followed by a plural noun. It should be 'one of the main reasons', not 'one of the main reason'.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "es-q10",
+          "question": "(A) Hardly had she finished speaking / (B) when the audience / (C) started clapping / (D) enthusiastically. (E) No error",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correctOption": 4,
+          "answer": "E",
+          "explanation": "The sentence correctly uses the 'Hardly had...when' inverted structure, which requires past perfect tense followed by 'when' and simple past. There is no error in this sentence.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  }
+}

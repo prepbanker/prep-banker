@@ -107,9 +107,7 @@ export default function QuizHero({ stats, totalTests }: Props) {
             {/* CTAs */}
             <div className="mt-7 flex flex-wrap gap-3 mb-8">
               <a
-                href="https://app.prepgrind.com/register"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#quiz-module-root"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 active:scale-95"
                 style={{
                   background: 'linear-gradient(135deg, var(--color-blue) 0%, var(--color-navy-light) 100%)',
