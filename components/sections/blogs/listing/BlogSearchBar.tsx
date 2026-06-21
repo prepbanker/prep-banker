@@ -40,7 +40,7 @@ router.replace(`/blogs?${params.toString()}`, { scroll: false });
           border: '1px solid var(--color-gray-200)',
           background: 'var(--color-gray-50)',
           color: 'var(--color-navy)',
-          fontSize: '0.825rem',
+          fontSize: '0.875rem',
         }}
         onFocus={e => { e.currentTarget.style.borderColor = 'var(--color-blue)'; e.currentTarget.style.background = '#fff'; }}
         onBlur={e => { e.currentTarget.style.borderColor = 'var(--color-gray-200)'; e.currentTarget.style.background = 'var(--color-gray-50)'; }}

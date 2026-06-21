@@ -50,7 +50,7 @@ export default function QuizHeroStats({ stats }: Props) {
             <Icon className="w-14 h-14 text-white" />
           </div>
           <p className="text-2xl font-black text-white leading-none">{value}</p>
-          <p className="mt-1 text-[11px] font-semibold text-white/70">{label}</p>
+          <p className="mt-1 text-xs font-semibold text-white/70">{label}</p>
         </div>
       ))}
     </div>

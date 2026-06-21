@@ -90,20 +90,20 @@ export default function CAModal({ item, onClose }: CAModalProps) {
           <div className="flex flex-wrap items-center gap-2 pt-0.5">
             {/* Category badge */}
             <span
-              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[10px] font-bold
+              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold
                           uppercase tracking-wide ${getCategoryStyle(item.category)}`}
             >
               {item.category}
             </span>
             {item.isFeatured && (
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold
                                bg-[var(--color-gold-light)] text-amber-800">
                 <Star className="w-3 h-3" fill="currentColor" />
                 Featured
               </span>
             )}
             {item.isMonthly && (
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold
                                bg-emerald-100 text-emerald-700">
                 Monthly Revision
               </span>
@@ -133,7 +133,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
               <Clock className="w-3.5 h-3.5" />
               {item.readTime} min read
             </span>
-            <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold ${imp.cls}`}>
+            <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold ${imp.cls}`}>
               <ImpIcon className="w-3 h-3" />
               {imp.label}
             </span>
@@ -141,7 +141,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
             {(item.tags ?? []).slice(0, 3).map(tag => (
               <span
                 key={tag}
-                className="text-[10px] px-2 py-0.5 rounded-full bg-gray-100 text-gray-500 font-medium"
+                className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-500 font-medium"
               >
                 #{tag}
               </span>
@@ -158,7 +158,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
 
           {/* Summary / Overview */}
           <div className="rounded-xl p-4 bg-[var(--color-sky)] border border-blue-100">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-blue)] mb-2">
+            <p className="text-xs font-bold uppercase tracking-widest text-[var(--color-blue)] mb-2">
               Overview
             </p>
             <p className="text-sm text-gray-700 leading-relaxed font-medium">
@@ -169,7 +169,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
           {/* Full body paragraphs */}
           {paragraphs.length > 0 && (
             <div className="space-y-3">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 flex items-center gap-1.5">
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-400 flex items-center gap-1.5">
                 <BookOpen className="w-3.5 h-3.5" />
                 Detailed Analysis
               </p>
@@ -189,7 +189,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
                 style={{ background: 'linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-mid) 100%)' }}
               >
                 <Tag className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" />
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white">
+                <span className="text-xs font-bold uppercase tracking-widest text-white">
                   Key Points for Exam
                 </span>
               </div>
@@ -201,7 +201,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
                   >
                     <span
                       className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center
-                                 text-[9px] font-bold text-white mt-0.5"
+                                 text-xs font-bold text-white mt-0.5"
                       style={{ background: 'var(--color-blue)' }}
                     >
                       {i + 1}
@@ -216,7 +216,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
           {/* Quick Facts grid */}
           {item.quickFacts.length > 0 && (
             <div className="rounded-xl bg-[var(--color-sky)] p-4">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-blue)] mb-3 flex items-center gap-1.5">
+              <p className="text-xs font-bold uppercase tracking-widest text-[var(--color-blue)] mb-3 flex items-center gap-1.5">
                 <ChevronRight className="w-3.5 h-3.5" />
                 Quick Facts at a Glance
               </p>
@@ -237,7 +237,7 @@ export default function CAModal({ item, onClose }: CAModalProps) {
 
           {/* Exam Relevance */}
           <div className="rounded-xl p-4 bg-gray-50 border border-gray-100">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">
+            <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">
               Exam Relevance
             </p>
             <div className="flex flex-wrap gap-2">

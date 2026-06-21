@@ -86,7 +86,7 @@ export default function Quiz() {
 
             {/* Total Badge */}
             <div className="flex items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-[11px] font-bold text-[var(--color-blue)] whitespace-nowrap">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-xs font-bold text-[var(--color-blue)] whitespace-nowrap">
                 {totalCount} Practice Quizzes Available
               </span>
             </div>
@@ -265,7 +265,7 @@ export default function Quiz() {
             {/* Promo Subscription Card */}
             <div className="bg-[#07102A] rounded-xl p-5 text-white relative overflow-hidden border border-slate-800 shadow-md">
               {/* Badge */}
-              <div className="absolute top-0 right-0 bg-[#FBBF24] text-[#07102A] text-[9px] font-extrabold px-2 py-0.5 rounded-bl uppercase tracking-wide">
+              <div className="absolute top-0 right-0 bg-[#FBBF24] text-[#07102A] text-xs font-extrabold px-2 py-0.5 rounded-bl uppercase tracking-wide">
                 64% OFF
               </div>
 
@@ -274,11 +274,11 @@ export default function Quiz() {
               </h4>
 
               <div className="mt-4 flex items-baseline gap-2">
-                <span className="text-[11px] text-slate-450 line-through">₹549.00</span>
+                <span className="text-xs text-slate-450 line-through">₹549.00</span>
                 <span className="text-lg font-extrabold text-[#FBBF24]">₹199/-</span>
               </div>
 
-              <p className="text-[10px] text-slate-300 mt-2 leading-snug">
+              <p className="text-xs text-slate-300 mt-2 leading-snug">
                 7 Months Validity | Unlock all exams and tests
               </p>
 

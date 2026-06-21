@@ -20,26 +20,26 @@ export default function Pagination({ pagination, onPageChange }: Props) {
   return (
     <nav
       aria-label="Pagination"
-      className="flex items-center justify-center gap-1.5 mt-10 py-6 border-t border-slate-100"
+      className="flex items-center justify-center gap-2 mt-12"
     >
       {/* Previous Page */}
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="inline-flex items-center gap-1 px-3.5 py-2 text-[11px] font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
+        className="inline-flex items-center gap-1.5 px-4 py-2.5 text-xs font-semibold text-slate-650 hover:text-[var(--color-navy)] border border-slate-200 bg-white rounded-xl shadow-sm hover:bg-slate-50 hover:border-slate-300 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:border-slate-200 transition-all duration-200 active:scale-[0.98]"
         aria-label="Previous page"
       >
-        <ChevronLeft className="w-3.5 h-3.5" />
-        Prev
+        <ChevronLeft className="w-4 h-4 flex-shrink-0" />
+        <span className="hidden sm:inline">Previous</span>
       </button>
 
       {/* Page Numbers */}
-      <div className="flex items-center gap-1 mx-2">
+      <div className="flex items-center gap-1.5 mx-1">
         {pages.map((p, i) =>
           p === '...' ? (
             <span
               key={`ellipsis-${i}`}
-              className="w-8.5 h-8.5 flex items-center justify-center text-xs text-slate-400 select-none"
+              className="w-10 h-10 flex items-center justify-center text-xs text-slate-400 select-none"
             >
               …
             </span>
@@ -48,10 +48,10 @@ export default function Pagination({ pagination, onPageChange }: Props) {
               key={p}
               onClick={() => onPageChange(p as number)}
               aria-current={p === currentPage ? 'page' : undefined}
-              className={`w-8.5 h-8.5 rounded-lg flex items-center justify-center text-xs font-extrabold transition-all active:scale-95 ${
+              className={`w-10 h-10 rounded-xl flex items-center justify-center text-xs font-bold transition-all duration-200 active:scale-95 border ${
                 p === currentPage
-                  ? 'bg-[#FBBF24] text-[#07102A] shadow-sm font-black'
-                  : 'border border-slate-200 text-slate-500 hover:border-slate-350 hover:text-slate-800 hover:bg-slate-50'
+                  ? 'bg-[var(--color-navy)] border-[var(--color-navy)] text-white shadow-sm font-extrabold'
+                  : 'bg-white border-slate-200 text-slate-650 hover:border-slate-350 hover:text-[var(--color-navy)] hover:bg-slate-50'
               }`}
             >
               {p}
@@ -64,11 +64,11 @@ export default function Pagination({ pagination, onPageChange }: Props) {
       <button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="inline-flex items-center gap-1 px-3.5 py-2 text-[11px] font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
+        className="inline-flex items-center gap-1.5 px-4 py-2.5 text-xs font-semibold text-slate-650 hover:text-[var(--color-navy)] border border-slate-200 bg-white rounded-xl shadow-sm hover:bg-slate-50 hover:border-slate-300 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white disabled:hover:border-slate-200 transition-all duration-200 active:scale-[0.98]"
         aria-label="Next page"
       >
-        Next
-        <ChevronRight className="w-3.5 h-3.5" />
+        <span className="hidden sm:inline">Next</span>
+        <ChevronRight className="w-4 h-4 flex-shrink-0" />
       </button>
     </nav>
   );

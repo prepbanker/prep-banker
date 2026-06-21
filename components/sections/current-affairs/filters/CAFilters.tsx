@@ -93,7 +93,7 @@ export default function CAFilters({
                 onClick={() => onCategory(label)}
                 aria-pressed={isActive}
                 className={`flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full
-                            text-[11px] font-semibold whitespace-nowrap transition-all duration-200
+                            text-xs font-semibold whitespace-nowrap transition-all duration-200
                             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-gold-bright)]
                             ${isActive
                               ? 'text-white shadow-sm'
@@ -106,7 +106,7 @@ export default function CAFilters({
                 <Icon className="w-3.5 h-3.5" />
                 {label}
                 {count > 0 && (
-                  <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded-full ${
+                  <span className={`text-xs font-bold px-1.5 py-0.5 rounded-full ${
                     isActive
                       ? 'bg-white/20 text-white'
                       : 'bg-gray-100 text-gray-400'

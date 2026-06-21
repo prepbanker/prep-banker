@@ -43,8 +43,8 @@ export default function AboutPage() {
             <div style={{ position: 'absolute', bottom: '-10%', right: '-10%', width: '400px', height: '400px', borderRadius: '50%', background: 'radial-gradient(circle, #1B6EB5 0%, transparent 70%)' }} />
           </div>
 
-          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 1.5rem', position: 'relative', zIndex: 1 }}>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: 'rgba(240,180,41,0.12)', border: '1px solid rgba(240,180,41,0.25)', color: '#F0B429', padding: '4px 14px', borderRadius: '999px', fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
+          <div style={{ maxWidth: '1350px', margin: '0 auto', padding: '0 1.5rem', position: 'relative', zIndex: 1 }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: 'rgba(240,180,41,0.12)', border: '1px solid rgba(240,180,41,0.25)', color: '#F0B429', padding: '4px 14px', borderRadius: '999px', fontSize: '0.875rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
               <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#F0B429', display: 'inline-block' }} />
               Empowering Aspirants
             </span>
@@ -58,7 +58,7 @@ export default function AboutPage() {
         </section>
 
         {/* Mission Section */}
-        <section style={{ padding: '5rem 1.5rem', maxWidth: '1280px', margin: '0 auto' }}>
+        <section style={{ padding: '5rem 1.5rem', maxWidth: '1350px', margin: '0 auto' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3rem', alignItems: 'center' }}>
             <div>
               <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '2rem', color: '#0D1B3E', marginBottom: '1.5rem' }}>
@@ -86,7 +86,7 @@ export default function AboutPage() {
                     <span style={{ fontSize: '1.25rem', color: '#1B6EB5', flexShrink: 0 }}>✓</span>
                     <div>
                       <h4 style={{ fontWeight: 700, color: '#0D1B3E', fontSize: '0.95rem', marginBottom: '2px' }}>{item.title}</h4>
-                      <p style={{ fontSize: '0.85rem', color: '#64748B', lineHeight: 1.5 }}>{item.desc}</p>
+                      <p style={{ fontSize: '0.875rem', color: '#64748B', lineHeight: 1.5 }}>{item.desc}</p>
                     </div>
                   </li>
                 ))}
@@ -97,7 +97,7 @@ export default function AboutPage() {
 
         {/* Feature Cards Grid */}
         <section style={{ background: '#F8FAFC', padding: '5rem 1.5rem', borderTop: '1px solid #E2E8F0', borderBottom: '1px solid #E2E8F0' }}>
-          <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center', marginBottom: '3rem' }}>
+          <div style={{ maxWidth: '1350px', margin: '0 auto', textAlign: 'center', marginBottom: '3rem' }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '2rem', color: '#0D1B3E', marginBottom: '0.75rem' }}>
               Built Around Success Metrics
             </h2>
@@ -106,7 +106,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div style={{ maxWidth: '1280px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+          <div style={{ maxWidth: '1350px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
             {[
               { icon: '🎯', title: 'Curated by Experts', desc: 'Our mock questions and solutions are created by former banking officials and top-ranking teachers.' },
               { icon: '⚡', title: 'Speed & Accuracy Boost', desc: 'Interactive tools, sectional benchmarks, and timer alerts designed to improve speed and recall.' },

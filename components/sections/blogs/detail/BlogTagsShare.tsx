@@ -43,7 +43,7 @@ export default function BlogTagsShare({ blog }: Props) {
               alignItems: 'center',
               padding: '4px 12px',
               borderRadius: '999px',
-              fontSize: '0.72rem',
+              fontSize: '0.875rem',
               fontWeight: 600,
               color: 'var(--color-blue)',
               background: 'rgba(27,110,181,0.08)',

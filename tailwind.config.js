@@ -16,6 +16,10 @@ module.exports = {
           DEFAULT: '#0D1B3E',
         },
       },
+      fontSize: {
+        xs: '0.875rem',
+        sm: '0.9375rem',
+      },
       fontFamily: {
         sans:    ['var(--font-body)', 'sans-serif'],
         display: ['var(--font-display)', 'sans-serif'],

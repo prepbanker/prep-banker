@@ -19,10 +19,10 @@ export default function SidebarInfoCard() {
           <Sparkles size={14} color="#F0B429" />
         </div>
         <div>
-          <p className="text-white font-bold text-[0.8rem] leading-tight">
+          <p className="text-white font-bold text-xs leading-tight">
             PrepBanker Platform
           </p>
-          <p className="text-white/50 text-[0.68rem]">
+          <p className="text-white/50 text-xs">
             India&apos;s #1 Banking Prep
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function SidebarInfoCard() {
                 {value}
               </span>
             </div>
-            <span className="text-[0.66rem] text-gray-400 leading-tight">
+            <span className="text-xs text-gray-400 leading-tight">
               {label}
             </span>
           </div>
@@ -49,10 +49,10 @@ export default function SidebarInfoCard() {
       <div className="mx-3 mt-3 bg-[rgba(212,160,23,0.08)] border border-dashed border-[rgba(212,160,23,0.45)] rounded-[9px] px-3 py-2 flex items-center gap-1.5">
         <span className="text-base leading-none">🎯</span>
         <div>
-          <p className="text-[0.72rem] font-bold text-[#0D1B3E] leading-snug">
+          <p className="text-xs font-bold text-[#0D1B3E] leading-snug">
             Full Access at just ₹199
           </p>
-          <p className="text-[0.65rem] text-gray-400">
+          <p className="text-xs text-gray-400">
             500+ Mocks &bull; 7 Months validity
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function SidebarInfoCard() {
             w-full py-2.5
             bg-gradient-to-br from-red-600 to-red-700
             hover:from-red-500 hover:to-red-600
-            text-white font-bold text-[0.78rem]
+            text-white font-bold text-xs
             rounded-[9px] no-underline
             shadow-[0_3px_12px_rgba(220,38,38,0.3)]
             hover:shadow-[0_5px_18px_rgba(220,38,38,0.4)]
@@ -87,7 +87,7 @@ export default function SidebarInfoCard() {
             flex items-center justify-center gap-1.5
             py-2
             border border-[rgba(27,110,181,0.3)] rounded-[9px]
-            text-[#1B6EB5] text-[0.73rem] font-semibold no-underline
+            text-[#1B6EB5] text-xs font-semibold no-underline
             hover:bg-[rgba(27,110,181,0.06)]
             transition-colors duration-150
           "

@@ -35,7 +35,7 @@ export default function StickyLeftCTA({
         background:     'linear-gradient(180deg, #DC2626 0%, #B91C1C 100%)',
         color:          '#fff',
         fontWeight:     700,
-        fontSize:       '0.72rem',
+        fontSize:       '0.875rem',
         letterSpacing:  '0.06em',
         textTransform:  'uppercase',
         textDecoration: 'none',

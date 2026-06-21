@@ -117,7 +117,7 @@ export default async function BlogListingPage({ searchParams }: PageProps) {
                   />
                   <span
                     className="absolute top-3 left-3 badge"
-                    style={{ background: 'var(--color-blue)', color: '#fff', fontSize: '0.7rem' }}
+                    style={{ background: 'var(--color-blue)', color: '#fff', fontSize: '0.875rem' }}
                   >
                     Latest Article
                   </span>
@@ -132,7 +132,7 @@ export default async function BlogListingPage({ searchParams }: PageProps) {
                   <p className="text-xs mb-3 line-clamp-2" style={{ color: 'var(--color-gray-600)' }}>
                     {featuredBlog.excerpt}
                   </p>
-                  <div className="flex items-center gap-2 text-[11px]" style={{ color: 'var(--color-gray-400)' }}>
+                  <div className="flex items-center gap-2 text-xs" style={{ color: 'var(--color-gray-400)' }}>
                     <span className="font-medium" style={{ color: 'var(--color-blue)' }}>{featuredBlog.author.name}</span>
                     <span>·</span>
                     <span>{featuredBlog.publishedAt ? formatBlogDate(featuredBlog.publishedAt) : 'Date TBD'}</span>
@@ -175,12 +175,12 @@ export default async function BlogListingPage({ searchParams }: PageProps) {
                         >
                           {post.title}
                         </p>
-                        <p className="text-[10px]" style={{ color: 'var(--color-gray-400)' }}>
+                        <p className="text-xs" style={{ color: 'var(--color-gray-400)' }}>
                           {post.author.name} · {post.publishedAt ? formatBlogDate(post.publishedAt) : 'TBD'}
                         </p>
                       </div>
                       <span
-                        className="text-[10px] font-bold flex-shrink-0 mt-0.5"
+                        className="text-xs font-bold flex-shrink-0 mt-0.5"
                         style={{ color: 'var(--color-blue)' }}
                       >
                         Read more →

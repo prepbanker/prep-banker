@@ -22,7 +22,7 @@ export default function CutoffsSection({ exam }: { exam: ExamDetailData }) {
 
         {(['prelims','mains'] as const).map(phase => (
           <div key={phase} style={{ marginBottom:'1.25rem' }}>
-            <div style={{ fontWeight:700,fontSize:'0.8rem',color:T.blue,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9 }}>
+            <div style={{ fontWeight:700,fontSize:'0.875rem',color:T.blue,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9 }}>
               {phase === 'prelims' ? 'Prelims Cutoff' : 'Mains Cutoff'} (out of 100)
             </div>
             {exam.cutoffs.map(row => (
@@ -33,11 +33,11 @@ export default function CutoffsSection({ exam }: { exam: ExamDetailData }) {
                 <div style={{ padding:'0 15px' }}>
                   {CATS.map(cat => (
                     <div key={cat} style={{ display:'flex',alignItems:'center',gap:11,padding:'7px 0',borderBottom:'1px solid ' + T.gray50 }}>
-                      <span style={{ minWidth:56,fontSize:'0.76rem',fontWeight:700,color:T.gray600 }}>{CAT_LABELS[cat]}</span>
+                      <span style={{ minWidth:56,fontSize: '0.875rem',fontWeight:700,color:T.gray600 }}>{CAT_LABELS[cat]}</span>
                       <div style={{ flex:1,height:5,background:T.gray100,borderRadius:3,overflow:'hidden' }}>
                         <div style={{ height:'100%',width:row[phase][cat] + '%',background:barGrad,borderRadius:3 }} />
                       </div>
-                      <span style={{ minWidth:34,fontSize:'0.8rem',fontWeight:700,color:T.navy,textAlign:'right' }}>
+                      <span style={{ minWidth:34,fontSize:'0.875rem',fontWeight:700,color:T.navy,textAlign:'right' }}>
                         {row[phase][cat]}
                       </span>
                     </div>
@@ -50,7 +50,7 @@ export default function CutoffsSection({ exam }: { exam: ExamDetailData }) {
 
         <div className="epg-info-box">
           <Info size={13} style={{ color:T.blue,flexShrink:0,marginTop:1 }} />
-          <p style={{ fontSize:'0.76rem',color:T.blue,lineHeight:1.5 }}>
+          <p style={{ fontSize: '0.875rem',color:T.blue,lineHeight:1.5 }}>
             Cutoffs vary year-by-year based on vacancies, difficulty, and applicant volume.
             Always target 5–10 marks above the trend.
           </p>

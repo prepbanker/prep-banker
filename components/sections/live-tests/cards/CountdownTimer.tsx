@@ -32,7 +32,7 @@ const CountdownTimer = memo(function CountdownTimer({ timeLeft }: Props) {
       }}
     >
       <div>
-        <p className="text-[9px] font-bold uppercase tracking-widest text-[var(--color-gray-400)] mb-0.5">
+        <p className="text-xs font-bold uppercase tracking-widest text-[var(--color-gray-400)] mb-0.5">
           Ends In
         </p>
         <p

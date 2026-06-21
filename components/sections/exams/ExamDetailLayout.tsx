@@ -50,6 +50,9 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
     return slug;
   };
   const activeNormalized = getNormalizedSlug(sectionSlug);
+  const visibleSubsections = detail.subsections.filter(
+    (sub) => !sub.id.toLowerCase().includes('snapshot')
+  );
 
   return (
     <div className="bg-slate-50/40 min-h-screen flex flex-col font-sans">
@@ -80,13 +83,13 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
             </div>
 
             {/* Local TOC */}
-            {detail.subsections.length > 0 && (
+            {visibleSubsections.length > 0 && (
               <div className="bg-white border border-slate-200 border-l-4 border-l-[#1B6EB5] p-6 rounded-2xl shadow-xs">
                 <span className="block text-slate-800 font-extrabold text-sm mb-4 flex items-center gap-2 font-display">
                   On This Page
                 </span>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 list-none p-0 m-0">
-                  {detail.subsections.map((sub, idx) => (
+                  {visibleSubsections.map((sub, idx) => (
                     <li key={sub.id} className="p-0 m-0">
                       <a
                         href={`#${sub.id}`}
@@ -105,7 +108,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
 
             {/* Subsections Content */}
             <div className="space-y-10">
-              {detail.subsections.map((sub) => (
+              {visibleSubsections.map((sub) => (
                 <section
                   key={sub.id}
                   id={sub.id}
@@ -171,7 +174,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
                 <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
-                <p className="text-white/60 text-[10px] leading-relaxed mb-4">
+                <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>
                 <a

@@ -67,7 +67,7 @@ export default function CAGrid({
           <section className="mb-10" aria-label="Featured updates">
             <div className="flex items-center gap-2 mb-4">
               <Star className="w-4 h-4 text-[var(--color-gold)]" fill="currentColor" />
-              <span className="text-[10px] font-bold uppercase tracking-widest text-gray-400">
+              <span className="text-xs font-bold uppercase tracking-widest text-gray-400">
                 Featured Updates
               </span>
             </div>
@@ -85,7 +85,7 @@ export default function CAGrid({
             {featured.length > 0 && (
               <div className="flex items-center gap-2 mb-4">
                 <Newspaper className="w-4 h-4 text-gray-400" />
-                <span className="text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                <span className="text-xs font-bold uppercase tracking-widest text-gray-400">
                   Latest Updates
                 </span>
               </div>

@@ -60,7 +60,7 @@ export default function SidebarCTA() {
           ].map(item => (
             <li
               key={item}
-              className="text-[11px] font-medium"
+              className="text-xs font-medium"
               style={{ color: 'rgba(255,255,255,0.70)' }}
             >
               {item}

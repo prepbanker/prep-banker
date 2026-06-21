@@ -220,7 +220,7 @@ export default function TestimonialsSection() {
                 <span className="text-slate-400 text-sm font-medium ml-0.5">/5</span>
               </div>
               {/* Count */}
-              <span className="text-slate-400 text-[0.7rem] font-medium">{r.count}</span>
+              <span className="text-slate-400 text-xs font-medium">{r.count}</span>
             </div>
           ))}
         </div>
@@ -345,7 +345,7 @@ function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[
         <p
           style={{
             color: 'var(--color-gray-800)',
-            fontSize: '0.85rem',
+            fontSize: '0.875rem',
             lineHeight: '1.5',
             display: '-webkit-box',
             WebkitLineClamp: 3,
@@ -362,7 +362,7 @@ function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[
       <div className="flex items-center gap-3">
         {/* Avatar Initials */}
         <div
-          className="flex items-center justify-center flex-shrink-0 select-none font-bold text-[0.85rem] tracking-wider"
+          className="flex items-center justify-center flex-shrink-0 select-none font-bold text-xs tracking-wider"
           style={{
             width: '40px',
             height: '40px',
@@ -387,7 +387,7 @@ function TestimonialCard({ testimonial: t }: { testimonial: typeof testimonials[
           >
             {t.name}
           </div>
-          <div style={{ color: 'var(--color-gray-600)', fontSize: '0.72rem', marginTop: 1 }}>
+          <div style={{ color: 'var(--color-gray-600)', fontSize: '0.875rem', marginTop: 1 }}>
             {t.role}
           </div>
         </div>

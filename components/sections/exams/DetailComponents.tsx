@@ -123,7 +123,7 @@ export function InteractiveSyllabus({ data }: { data: SyllabusData }) {
                     {topic.name}
                   </span>
                   <div className="flex items-center gap-3">
-                    <span className="text-[11px] font-bold text-slate-400 bg-slate-100 px-2 py-0.5 rounded-md">
+                    <span className="text-xs font-bold text-slate-400 bg-slate-100 px-2 py-0.5 rounded-md">
                       {topic.weightage}
                     </span>
                     <ChevronDown
@@ -204,13 +204,13 @@ export function DatesTimeline({ events }: { events: TimelineEvent[] }) {
                   }`}
                 />
                 <span className="text-xs sm:text-sm font-bold truncate pr-8">{ev.event}</span>
-                <span className={`text-[10px] font-bold block mt-1 ${isActive ? 'text-white/70' : 'text-slate-400'}`}>
+                <span className={`text-xs font-bold block mt-1 ${isActive ? 'text-white/70' : 'text-slate-400'}`}>
                   {ev.date}
                 </span>
 
                 {/* Status Badge */}
                 <span
-                  className={`absolute right-2 top-2 text-[8px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${
+                  className={`absolute right-2 top-2 text-xs font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${
                     isActive ? 'bg-white/10 border border-white/20 text-white' : statusColors[ev.status]
                   }`}
                 >
@@ -227,12 +227,12 @@ export function DatesTimeline({ events }: { events: TimelineEvent[] }) {
             <div className="space-y-4">
               <div className="flex justify-between items-start flex-wrap gap-2 pb-3 border-b border-slate-150">
                 <div>
-                  <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest">Selected Milestone</span>
+                  <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Selected Milestone</span>
                   <h4 className="font-extrabold text-slate-850 text-base sm:text-lg leading-tight mt-0.5">
                     {currentEvent.event}
                   </h4>
                 </div>
-                <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
+                <span className="inline-flex items-center gap-1 text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
                   <Calendar size={12} className="text-[#1B6EB5]" />
                   {currentEvent.date}
                 </span>
@@ -305,7 +305,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
                 : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
             }`}
           >
-            <span className="block text-[10px] font-bold tracking-widest uppercase opacity-70 mb-0.5">{st.scale}</span>
+            <span className="block text-xs font-bold tracking-widest uppercase opacity-70 mb-0.5">{st.scale}</span>
             <span className="block text-xs sm:text-sm font-extrabold truncate">{st.role.split('(')[0]}</span>
           </button>
         ))}
@@ -316,7 +316,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
         <div className="bg-white border border-slate-200 p-5 sm:p-6 rounded-2xl shadow-xs grid grid-cols-1 sm:grid-cols-[1.2fr_1fr] gap-6">
           <div className="space-y-4">
             <div>
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">{currentStep.scale} Cadre</span>
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block">{currentStep.scale} Cadre</span>
               <h4 className="font-extrabold text-slate-850 text-base sm:text-lg mt-0.5">{currentStep.role}</h4>
             </div>
             <div className="space-y-2.5">
@@ -330,7 +330,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
           <div className="bg-slate-50 border border-slate-150 p-5 rounded-2xl flex flex-col justify-between">
             <div className="space-y-4">
               <div>
-                <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block flex items-center gap-1">
+                <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block flex items-center gap-1">
                   <DollarSign size={10} className="text-[#1B6EB5]" />
                   Base Basic Scale Salary
                 </span>
@@ -339,7 +339,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
                 </span>
               </div>
               <div>
-                <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block flex items-center gap-1">
+                <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block flex items-center gap-1">
                   <Clock size={10} className="text-[#D4A017]" />
                   Average Promotion Timeframe
                 </span>
@@ -348,7 +348,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
                 </span>
               </div>
             </div>
-            <div className="border-t border-slate-200 pt-3.5 mt-5 text-[10px] text-slate-400 flex items-center gap-1.5 font-semibold">
+            <div className="border-t border-slate-200 pt-3.5 mt-5 text-xs text-slate-400 flex items-center gap-1.5 font-semibold">
               <Award size={12} className="text-[var(--color-gold)]" />
               <span>Promotional examinations are conducted annually for fast-track routes.</span>
             </div>
@@ -408,7 +408,7 @@ export function InteractivePattern({ prelims, mains }: { prelims: PhaseData; mai
             <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">{currentPhase.phase} Structure</h4>
             <span className="text-xs text-slate-400 font-semibold block mt-0.5">{currentPhase.info}</span>
           </div>
-          <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
+          <span className="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
             Sectional Timers Apply
           </span>
         </div>
@@ -438,7 +438,7 @@ export function InteractivePattern({ prelims, mains }: { prelims: PhaseData; mai
 
         {/* Phase Notes */}
         <div className="bg-slate-50 border border-slate-150 p-4 rounded-xl">
-          <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">Important Phase Regulations</span>
+          <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Important Phase Regulations</span>
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {currentPhase.notes.map((note, idx) => (
               <li key={idx} className="flex gap-2 items-start text-xs sm:text-sm text-slate-600 font-normal">
@@ -562,7 +562,7 @@ export function StrategyRoadmap({ phases }: { phases: StrategyPhase[] }) {
                 : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
             }`}
           >
-            <span className="block text-[9px] font-bold uppercase tracking-wider opacity-70 mb-0.5">
+            <span className="block text-xs font-bold uppercase tracking-wider opacity-70 mb-0.5">
               Phase {idx + 1}
             </span>
             <span className="block text-xs sm:text-sm font-extrabold truncate">{ph.focus}</span>
@@ -575,12 +575,12 @@ export function StrategyRoadmap({ phases }: { phases: StrategyPhase[] }) {
         <div className="bg-white border border-slate-200 p-5 sm:p-6 rounded-2xl shadow-xs">
           <div className="pb-3 border-b border-slate-150 mb-4 flex justify-between items-start flex-wrap gap-2">
             <div>
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Roadmap Stage {activePhase + 1}</span>
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block">Roadmap Stage {activePhase + 1}</span>
               <h4 className="font-extrabold text-slate-850 text-base sm:text-lg mt-0.5">
                 {currentPhase?.month} — Focus: {currentPhase?.focus}
               </h4>
             </div>
-            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
+            <span className="inline-flex items-center gap-1 text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
               <Clock size={12} className="text-[#1B6EB5]" />
               {activePhase === 0 ? 'Foundation' : activePhase === 1 ? 'Practice Speed' : 'Sprint Mock'}
             </span>

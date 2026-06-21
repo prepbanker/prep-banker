@@ -66,7 +66,7 @@ export default function CAHighlightCard({ ca }: Props) {
         <div className="absolute inset-0 bg-black/10 transition-opacity group-hover:opacity-0" />
         <div className="relative z-10 flex flex-col items-center gap-2 text-center">
           <span className="text-4xl filter drop-shadow">{icon}</span>
-          <span className="text-[10px] tracking-wider uppercase font-extrabold text-white/85 bg-white/10 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/10">
+          <span className="text-xs tracking-wider uppercase font-extrabold text-white/85 bg-white/10 px-2 py-0.5 rounded-full backdrop-blur-sm border border-white/10">
             {ca.category}
           </span>
         </div>
@@ -79,7 +79,7 @@ export default function CAHighlightCard({ ca }: Props) {
       <div className="p-6 flex flex-col justify-between flex-grow gap-4">
         <div className="space-y-2">
           {/* Header row */}
-          <div className="flex items-center justify-between text-[10px] font-bold text-slate-400">
+          <div className="flex items-center justify-between text-xs font-bold text-slate-400">
             <span className="inline-flex items-center gap-1 bg-amber-50 text-amber-600 px-2.5 py-0.5 rounded-full border border-amber-100">
               <Star className="w-3 h-3 fill-current" /> Highlight
             </span>
@@ -103,7 +103,7 @@ export default function CAHighlightCard({ ca }: Props) {
 
         {/* Footer row */}
         <div className="flex items-center justify-between border-t border-slate-100 pt-4 mt-2">
-          <span className="text-[10px] font-semibold text-slate-450 flex items-center gap-1">
+          <span className="text-xs font-semibold text-slate-450 flex items-center gap-1">
             <Calendar className="w-3.5 h-3.5" /> {ca.date}
           </span>
 

@@ -260,7 +260,7 @@ export default function IBPSPOContent() {
                 'Central Bank of India', 'Indian Bank', 'Indian Overseas Bank',
                 'Punjab & Sind Bank', 'Punjab National Bank', 'UCO Bank', 'Union Bank of India'
               ].map((bank) => (
-                <li key={bank} className="bg-slate-100 border border-slate-200 text-slate-700 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow-xs">
+                <li key={bank} className="bg-slate-100 border border-slate-200 text-slate-700 text-xs font-semibold px-2.5 py-1 rounded-md shadow-xs">
                   {bank}
                 </li>
               ))}
@@ -308,7 +308,7 @@ export default function IBPSPOContent() {
                   <tr className="bg-amber-50/30">
                     <td className="px-4 py-3 font-bold text-slate-800 flex items-center gap-2">
                       IBPS PO Prelims Exam
-                      <span className="bg-amber-100 text-amber-800 text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">Milestone</span>
+                      <span className="bg-amber-100 text-amber-800 text-xs font-bold px-1.5 py-0.5 rounded uppercase">Milestone</span>
                     </td>
                     <td className="px-4 py-3 text-slate-800 font-bold">October 2026</td>
                   </tr>
@@ -323,7 +323,7 @@ export default function IBPSPOContent() {
                   <tr className="bg-amber-50/30">
                     <td className="px-4 py-3 font-bold text-slate-800 flex items-center gap-2">
                       IBPS PO Mains Exam
-                      <span className="bg-amber-100 text-amber-800 text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">Milestone</span>
+                      <span className="bg-amber-100 text-amber-800 text-xs font-bold px-1.5 py-0.5 rounded uppercase">Milestone</span>
                     </td>
                     <td className="px-4 py-3 text-slate-800 font-bold">November 2026</td>
                   </tr>
@@ -338,7 +338,7 @@ export default function IBPSPOContent() {
                   <tr className="bg-amber-50/30">
                     <td className="px-4 py-3 font-bold text-slate-800 flex items-center gap-2">
                       Interview Dates
-                      <span className="bg-amber-100 text-amber-800 text-[9px] font-bold px-1.5 py-0.5 rounded uppercase">Milestone</span>
+                      <span className="bg-amber-100 text-amber-800 text-xs font-bold px-1.5 py-0.5 rounded uppercase">Milestone</span>
                     </td>
                     <td className="px-4 py-3 text-slate-800 font-bold">January–February 2027</td>
                   </tr>
@@ -350,7 +350,7 @@ export default function IBPSPOContent() {
               </table>
             </div>
             
-            <p className="text-[11px] text-slate-400 italic">
+            <p className="text-xs text-slate-400 italic">
               * Note: Dates are indicative based on the official IBPS PO 2025 cycle. Always verify on the official website <a href="https://ibps.in" target="_blank" rel="noopener noreferrer" className="text-[var(--color-blue)] underline">ibps.in</a>.
             </p>
           </section>
@@ -447,7 +447,7 @@ export default function IBPSPOContent() {
             
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-2 flex items-center gap-1.5">
-                <span className="px-2 py-0.5 rounded text-[10px] bg-blue-100 text-blue-800 font-bold uppercase">Phase 1</span>
+                <span className="px-2 py-0.5 rounded text-xs bg-blue-100 text-blue-800 font-bold uppercase">Phase 1</span>
                 Prelims Exam Pattern
               </h3>
               <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-sm mb-3">
@@ -500,7 +500,7 @@ export default function IBPSPOContent() {
 
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-2 flex items-center gap-1.5">
-                <span className="px-2 py-0.5 rounded text-[10px] bg-purple-100 text-purple-800 font-bold uppercase">Phase 2</span>
+                <span className="px-2 py-0.5 rounded text-xs bg-purple-100 text-purple-800 font-bold uppercase">Phase 2</span>
                 Mains Exam Pattern (Objective)
               </h3>
               <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-sm">
@@ -551,7 +551,7 @@ export default function IBPSPOContent() {
 
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-2 flex items-center gap-1.5">
-                <span className="px-2 py-0.5 rounded text-[10px] bg-purple-100 text-purple-800 font-bold uppercase">Phase 2</span>
+                <span className="px-2 py-0.5 rounded text-xs bg-purple-100 text-purple-800 font-bold uppercase">Phase 2</span>
                 Mains Descriptive Test
               </h3>
               <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-sm">
@@ -584,7 +584,7 @@ export default function IBPSPOContent() {
 
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-2 flex items-center gap-1.5">
-                <span className="px-2 py-0.5 rounded text-[10px] bg-green-100 text-green-800 font-bold uppercase">Phase 3</span>
+                <span className="px-2 py-0.5 rounded text-xs bg-green-100 text-green-800 font-bold uppercase">Phase 3</span>
                 Interview & Final Merit
               </h3>
               <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-sm">
@@ -1217,7 +1217,7 @@ export default function IBPSPOContent() {
                 <div>
                   <span className="text-blue-600 font-black text-lg">01</span>
                   <h4 className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 1 — Prelims</h4>
-                  <p className="text-slate-500 text-[11px] leading-relaxed">
+                  <p className="text-slate-500 text-xs leading-relaxed">
                     Online CBT featuring 100 questions, 100 marks, and a 60-minute duration. This stage is qualifying in nature.
                   </p>
                 </div>
@@ -1226,7 +1226,7 @@ export default function IBPSPOContent() {
                 <div>
                   <span className="text-purple-600 font-black text-lg">02</span>
                   <h4 className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 2 — Mains</h4>
-                  <p className="text-slate-500 text-[11px] leading-relaxed">
+                  <p className="text-slate-500 text-xs leading-relaxed">
                     155 objective questions plus descriptive writing. This stage carries **80%** weightage of the final merit ranking.
                   </p>
                 </div>
@@ -1235,7 +1235,7 @@ export default function IBPSPOContent() {
                 <div>
                   <span className="text-green-600 font-black text-lg">03</span>
                   <h4 className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 3 — Interview</h4>
-                  <p className="text-slate-500 text-[11px] leading-relaxed">
+                  <p className="text-slate-500 text-xs leading-relaxed">
                     Personal Interview scoring 100 marks. Carries **20%** weightage in the final merit allocation.
                   </p>
                 </div>
@@ -1358,9 +1358,9 @@ export default function IBPSPOContent() {
               {/* 3 Month Cards */}
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
-                  <span className="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Month 1</span>
+                  <span className="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-0.5 rounded-full uppercase">Month 1</span>
                   <h4 className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Foundation (Days 1–30)</h4>
-                  <ul className="list-disc list-inside text-[11px] text-slate-500 space-y-1">
+                  <ul className="list-disc list-inside text-xs text-slate-500 space-y-1">
                     <li>Reasoning: Prelims topics</li>
                     <li>Quant: Basic arithmetic</li>
                     <li>English: Vocab & RC daily</li>
@@ -1369,9 +1369,9 @@ export default function IBPSPOContent() {
                   </ul>
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
-                  <span className="bg-purple-100 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Month 2</span>
+                  <span className="bg-purple-100 text-purple-800 text-xs font-bold px-2 py-0.5 rounded-full uppercase">Month 2</span>
                   <h4 className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Mock Tests (Days 31–60)</h4>
-                  <ul className="list-disc list-inside text-[11px] text-slate-500 space-y-1">
+                  <ul className="list-disc list-inside text-xs text-slate-500 space-y-1">
                     <li>2 full Prelims mocks weekly</li>
                     <li>Deep review of score</li>
                     <li>Track accuracy & time</li>
@@ -1379,9 +1379,9 @@ export default function IBPSPOContent() {
                   </ul>
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
-                  <span className="bg-green-100 text-green-800 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Month 3</span>
+                  <span className="bg-green-100 text-green-800 text-xs font-bold px-2 py-0.5 rounded-full uppercase">Month 3</span>
                   <h4 className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Speed & Mains (Days 61–90)</h4>
-                  <ul className="list-disc list-inside text-[11px] text-slate-500 space-y-1">
+                  <ul className="list-disc list-inside text-xs text-slate-500 space-y-1">
                     <li>1 Prelims mock every 2 days</li>
                     <li>2 full Mains mocks weekly</li>
                     <li>Computer Aptitude</li>
@@ -1401,28 +1401,28 @@ export default function IBPSPOContent() {
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
                   <h4 className="font-extrabold text-slate-800 text-xs mb-1">English Language</h4>
-                  <p className="text-[11px] text-slate-500 leading-relaxed mb-2">
+                  <p className="text-xs text-slate-500 leading-relaxed mb-2">
                     Target Attempts: **22-25**
                   </p>
-                  <p className="text-[10px] text-slate-400 leading-relaxed">
+                  <p className="text-xs text-slate-400 leading-relaxed">
                     Prioritize error spotting, cloze tests, and fill in the blanks. Save reading comprehension for the last 8 minutes.
                   </p>
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
                   <h4 className="font-extrabold text-slate-800 text-xs mb-1">Quantitative Aptitude</h4>
-                  <p className="text-[11px] text-slate-500 leading-relaxed mb-2">
+                  <p className="text-xs text-slate-500 leading-relaxed mb-2">
                     Target Attempts: **24-28**
                   </p>
-                  <p className="text-[10px] text-slate-400 leading-relaxed">
+                  <p className="text-xs text-slate-400 leading-relaxed">
                     First complete number series, simplifications, and quadratic equations. Then solve DI sets, leaving word problems for last.
                   </p>
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
                   <h4 className="font-extrabold text-slate-800 text-xs mb-1">Reasoning Ability</h4>
-                  <p className="text-[11px] text-slate-500 leading-relaxed mb-2">
+                  <p className="text-xs text-slate-500 leading-relaxed mb-2">
                     Target Attempts: **26-30**
                   </p>
-                  <p className="text-[10px] text-slate-400 leading-relaxed">
+                  <p className="text-xs text-slate-400 leading-relaxed">
                     Quickly secure marks in inequality, coding, syllogisms, and blood relations. Allocate remaining time for seating and puzzles.
                   </p>
                 </li>
@@ -1492,7 +1492,7 @@ export default function IBPSPOContent() {
                   <details className="group">
                     <summary className="flex items-center justify-between gap-4 px-5 py-4 font-bold text-slate-800 text-xs sm:text-sm cursor-pointer select-none focus:outline-none list-none [&::-webkit-details-marker]:hidden">
                       <span className="flex items-center gap-3">
-                        <span className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center text-[10px] text-slate-400 group-open:bg-[var(--color-blue)] group-open:text-white transition-all">
+                        <span className="w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center text-xs text-slate-400 group-open:bg-[var(--color-blue)] group-open:text-white transition-all">
                           {String(idx + 1).padStart(2, '0')}
                         </span>
                         {item.q}
@@ -1557,7 +1557,7 @@ export default function IBPSPOContent() {
                   <button
                     key={item.id}
                     onClick={() => handleNavClick(item.id)}
-                    className={`group flex items-center justify-between py-2 px-3.5 rounded-lg text-[13px] text-left transition-all duration-150 border-l-[3px] ${
+                    className={`group flex items-center justify-between py-2 px-3.5 rounded-lg text-xs text-left transition-all duration-150 border-l-[3px] ${
                       isActive
                         ? 'bg-blue-50/80 text-[var(--color-blue)] font-bold border-[var(--color-blue)]'
                         : 'border-transparent text-slate-600 hover:bg-slate-50 hover:text-slate-800'
@@ -1588,7 +1588,7 @@ export default function IBPSPOContent() {
               </p>
             </div>
 
-            <div className="relative z-10 py-1 border-y border-white/10 flex justify-between text-[11px] text-white/70">
+            <div className="relative z-10 py-1 border-y border-white/10 flex justify-between text-xs text-white/70">
               <span>👥 50K+ Students</span>
               <span>📝 500+ Tests</span>
             </div>

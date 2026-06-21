@@ -27,7 +27,7 @@ export default function SalarySection({ exam }: { exam: ExamDetailData }) {
 
         <div style={{ display:'grid',gridTemplateColumns:'1fr 1fr',gap:'1.1rem' }}>
           <div>
-            <div style={{ fontWeight:700,fontSize:'0.8rem',color:T.blue,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9 }}>
+            <div style={{ fontWeight:700,fontSize:'0.875rem',color:T.blue,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9 }}>
               Allowances
             </div>
             <div style={{ display:'flex',flexDirection:'column',gap:6 }}>
@@ -39,7 +39,7 @@ export default function SalarySection({ exam }: { exam: ExamDetailData }) {
             </div>
           </div>
           <div>
-            <div style={{ fontWeight:700,fontSize:'0.8rem',color:T.blue,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9 }}>
+            <div style={{ fontWeight:700,fontSize:'0.875rem',color:T.blue,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9 }}>
               Perks
             </div>
             <div style={{ display:'flex',flexDirection:'column',gap:6 }}>

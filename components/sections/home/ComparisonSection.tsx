@@ -89,7 +89,7 @@ export default function ComparisonSection() {
               
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-lg border border-slate-100 bg-slate-50/30 p-2.5">
-                  <span className="block text-[0.62rem] font-bold text-blue-500 uppercase tracking-wider mb-0.5">
+                  <span className="block text-xs font-bold text-blue-500 uppercase tracking-wider mb-0.5">
                     SBI PO
                   </span>
                   <span className={`text-xs font-semibold text-slate-800 ${row.isHighlighted ? 'text-blue-700 font-bold' : ''}`}>
@@ -98,7 +98,7 @@ export default function ComparisonSection() {
                 </div>
                 
                 <div className="rounded-lg border border-slate-100 bg-slate-50/30 p-2.5">
-                  <span className="block text-[0.62rem] font-bold text-amber-500 uppercase tracking-wider mb-0.5">
+                  <span className="block text-xs font-bold text-amber-500 uppercase tracking-wider mb-0.5">
                     IBPS PO
                   </span>
                   <span className={`text-xs font-semibold text-slate-800 ${row.isHighlighted ? 'text-amber-700 font-bold' : ''}`}>

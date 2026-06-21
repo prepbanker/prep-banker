@@ -723,7 +723,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     }
                   ].map((item) => (
                     <div key={item.step} className="relative">
-                      <div className="absolute -left-[35px] top-1.5 w-[18px] h-[18px] rounded-full bg-white border-2 border-[#1B6EB5] flex items-center justify-center font-bold text-[9px] text-[#1B6EB5]">
+                      <div className="absolute -left-[35px] top-1.5 w-[18px] h-[18px] rounded-full bg-white border-2 border-[#1B6EB5] flex items-center justify-center font-bold text-xs text-[#1B6EB5]">
                         {item.step}
                       </div>
                       <div>
@@ -778,7 +778,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     }
                   ].map((item, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 hover:shadow-xs transition-shadow">
-                      <span className="text-[10px] font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.step}</span>
+                      <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.step}</span>
                       <h4 className="font-extrabold text-slate-855 text-sm sm:text-base mb-1.5">{item.title}</h4>
                       <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">{item.desc}</p>
                     </div>
@@ -3417,7 +3417,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       }
                     ].map((item, idx) => (
                       <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 hover:shadow-xs transition-shadow">
-                        <span className="text-[10px] font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.step}</span>
+                        <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.step}</span>
                         <h4 className="font-extrabold text-slate-855 text-sm sm:text-base mb-1.5">{item.title}</h4>
                         <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">{item.desc}</p>
                       </div>
@@ -4915,7 +4915,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                               <Calendar size={12} />
                               {ev.date}
                             </span>
-                            <span className={`px-2.5 py-0.5 rounded-md border text-[10px] uppercase tracking-wider ${colorScheme.pill}`}>
+                            <span className={`px-2.5 py-0.5 rounded-md border text-xs uppercase tracking-wider ${colorScheme.pill}`}>
                               {ev.status}
                             </span>
                           </div>
@@ -4933,7 +4933,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                           {/* Action Checklist */}
                           {ev.checklist.length > 0 && (
                             <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl space-y-2 mt-2">
-                              <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-widest">Action Checklist</span>
+                              <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Action Checklist</span>
                               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-600">
                                 {ev.checklist.map((item, cidx) => (
                                   <li key={cidx} className="flex gap-2 items-start font-normal">
@@ -5008,7 +5008,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-2 font-normal">
                       Start with Fill in the Blanks and Error Detection — they are the fastest. Attempt Cloze Test next. Save RC for last — read the questions first, then find answers in the passage.
                     </p>
-                    <span className="inline-block text-[11px] font-bold text-slate-700 bg-white border border-slate-250 px-2 py-0.5 rounded">
+                    <span className="inline-block text-xs font-bold text-slate-700 bg-white border border-slate-250 px-2 py-0.5 rounded">
                       Target: 22–25 attempts with 85–90% accuracy
                     </span>
                   </div>
@@ -5017,7 +5017,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-2 font-normal">
                       Start with Simplification (fastest marks). Move to Number Series, then Quadratic Equations. Attempt DI last — pick the easiest set first. Skip any question that takes more than 90 seconds.
                     </p>
-                    <span className="inline-block text-[11px] font-bold text-slate-700 bg-white border border-slate-250 px-2 py-0.5 rounded">
+                    <span className="inline-block text-xs font-bold text-slate-700 bg-white border border-slate-250 px-2 py-0.5 rounded">
                       Target: 22–25 attempts with 80%+ accuracy
                     </span>
                   </div>
@@ -5026,7 +5026,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-2 font-normal">
                       Do not start with puzzles if they look complex — they can consume the entire slot. Start with Inequalities, Syllogisms, and Coding-Decoding. Attempt puzzles only if time permits.
                     </p>
-                    <span className="inline-block text-[11px] font-bold text-slate-700 bg-white border border-slate-250 px-2 py-0.5 rounded">
+                    <span className="inline-block text-xs font-bold text-slate-700 bg-white border border-slate-250 px-2 py-0.5 rounded">
                       Target: 22–25 attempts with 85%+ accuracy
                     </span>
                   </div>
@@ -9852,7 +9852,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     }
                   ].map((item) => (
                     <div key={item.step} className="relative">
-                      <div className="absolute -left-[35px] top-1.5 w-[18px] h-[18px] rounded-full bg-white border-2 border-[#1B6EB5] flex items-center justify-center font-bold text-[9px] text-[#1B6EB5]">
+                      <div className="absolute -left-[35px] top-1.5 w-[18px] h-[18px] rounded-full bg-white border-2 border-[#1B6EB5] flex items-center justify-center font-bold text-xs text-[#1B6EB5]">
                         {item.step}
                       </div>
                       <div>
@@ -9902,7 +9902,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     }
                   ].map((item, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 hover:shadow-xs transition-shadow">
-                      <span className="text-[10px] font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.label}</span>
+                      <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.label}</span>
                       <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">{item.desc}</p>
                     </div>
                   ))}

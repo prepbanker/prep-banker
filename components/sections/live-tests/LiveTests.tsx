@@ -3,12 +3,12 @@
 
 'use client';
 
-import { useMemo, useState } from 'react';
-import { Users, Search } from 'lucide-react';
+import { useMemo } from 'react';
+import { Users } from 'lucide-react';
 import { liveTests } from '@/lib/data/live-tests';
 import { useLiveTimers } from '@/components/sections/live-tests/hooks/useLiveTimers';
-import { useLiveTestFilters, CATEGORIES_LIST } from '@/components/sections/live-tests/hooks/useLiveTestFilters';
-import LiveTestsFilters from './filters/LiveTestsFilters';
+import { useLiveTestFilters } from '@/components/sections/live-tests/hooks/useLiveTestFilters';
+import LiveTestsHero from './hero/LiveTestsHero';
 import LiveTestsGrid from './grid/LiveTestsGrid';
 import Pagination from './pagination/pagination';
 import LiveTestsSEOContent from './seo/LiveTestsSEOContent';
@@ -32,15 +32,6 @@ export default function LiveTests() {
     pagination,
     filteredTotal,
   } = useLiveTestFilters();
-
-  const [categorySearchQuery, setCategorySearchQuery] = useState('');
-
-  // Filter categories shown in sidebar based on category search input
-  const filteredCategories = useMemo(() => {
-    return CATEGORIES_LIST.filter(cat =>
-      cat.toLowerCase().includes(categorySearchQuery.toLowerCase())
-    );
-  }, [categorySearchQuery]);
 
   // Count how many total live tests are still active/live
   const liveCount = useMemo(
@@ -67,22 +58,50 @@ export default function LiveTests() {
   return (
     <div className="bg-white min-h-screen">
 
-      {/* ── Sticky search bar ── */}
-      <LiveTestsFilters
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
-        liveCount={liveCount}
-      />
+      <LiveTestsHero />
 
       {/* ── Content Grid ── */}
-      <div className="container-custom py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
+      <div className="container-custom pt-10 pb-16">
+
+        {/* ── Category Filter Tabs ── */}
+        <div className="mb-6 mt-8 flex flex-wrap items-center gap-2.5 pb-2">
+          {[
+            { id: 'All', label: 'All Tests' },
+            { id: 'SBI PO', label: 'SBI PO' },
+            { id: 'IBPS PO', label: 'IBPS PO' },
+          ].map((tab) => {
+            const isActive = tab.id === 'All'
+              ? selectedCategories.length === 0
+              : selectedCategories.includes(tab.id);
+            return (
+              <button
+                key={tab.id}
+                onClick={() => {
+                  if (tab.id === 'All') {
+                    clearCategories();
+                  } else {
+                    setSelectedCategories([tab.id]);
+                    setPage(1);
+                  }
+                }}
+                className={`px-5 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all duration-200 border ${isActive
+                  ? 'bg-[var(--color-navy)] border-[var(--color-navy)] text-white shadow-sm font-extrabold'
+                  : 'bg-white border-slate-200 text-slate-650 hover:border-slate-350 hover:text-[var(--color-navy)] hover:bg-slate-50'
+                  }`}
+              >
+                {tab.label}
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="flex flex-col lg:flex-row  gap-8">
 
           {/* ── Left Column: Cards Grid + Results Count + Pagination ── */}
-          <div className="flex-grow lg:w-3/4 order-2 lg:order-1 flex flex-col gap-6">
+          <div className="flex-grow lg:w-3/4 order-2 lg:order-1 flex flex-col gap-6 mb-6">
 
             {/* Results meta row */}
-            <div className="flex items-center justify-between pb-2 border-b border-slate-100">
+            <div className="flex items-center justify-between pb-1">
               <div className="text-xs text-[var(--color-gray-400)]">
                 Showing{' '}
                 <span className="font-bold text-[var(--color-navy)]">{visibleTests.length}</span>{' '}
@@ -132,57 +151,12 @@ export default function LiveTests() {
           {/* ── Right Column: Sidebar (Category Checklist & Promo Subscription) ── */}
           <aside className="w-full lg:w-1/4 lg:max-w-[300px] flex-shrink-0 order-1 lg:order-2 flex flex-col gap-6 lg:sticky lg:top-[160px] self-start">
 
-            {/* Category Box */}
-            <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex flex-col">
-              <h3 className="text-sm font-extrabold text-slate-800 mb-4 font-display">
-                Exam Category
-              </h3>
 
-              {/* Category Search Input */}
-              <div className="relative mb-4">
-                <span className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Search className="h-3.5 w-3.5 text-slate-400" />
-                </span>
-                <input
-                  type="text"
-                  value={categorySearchQuery}
-                  onChange={(e) => setCategorySearchQuery(e.target.value)}
-                  placeholder="Search Exam Category"
-                  className="w-full pl-9 pr-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-lg text-slate-800 placeholder-slate-400 focus:bg-white focus:border-[var(--color-blue)] focus:ring-1 focus:ring-[var(--color-blue)]/25 focus-visible:outline-none"
-                />
-              </div>
-
-              {/* Checkbox List */}
-              <ul className="space-y-3 max-h-[220px] overflow-y-auto pr-1 scrollbar-thin">
-                {filteredCategories.map(cat => {
-                  const isChecked = selectedCategories.includes(cat);
-                  return (
-                    <li key={cat} className="flex items-center gap-2.5 text-xs font-medium text-slate-700 hover:text-slate-900">
-                      <input
-                        type="checkbox"
-                        id={`cat-checkbox-${cat}`}
-                        checked={isChecked}
-                        onChange={() => toggleCategory(cat)}
-                        className="w-4 h-4 text-[var(--color-blue)] bg-white border-slate-350 rounded focus:ring-[var(--color-blue)] focus:ring-2 cursor-pointer transition-colors"
-                      />
-                      <label htmlFor={`cat-checkbox-${cat}`} className="cursor-pointer select-none">
-                        {cat}
-                      </label>
-                    </li>
-                  );
-                })}
-                {filteredCategories.length === 0 && (
-                  <li className="text-xs text-slate-400 text-center py-2">
-                    No categories found
-                  </li>
-                )}
-              </ul>
-            </div>
 
             {/* Promo Subscription Banner */}
             <div className="bg-[#07102A] rounded-xl p-5 text-white relative overflow-hidden border border-slate-800 shadow-md">
               {/* Badge */}
-              <div className="absolute top-0 right-0 bg-[#FBBF24] text-[#07102A] text-[9px] font-extrabold px-2 py-0.5 rounded-bl uppercase tracking-wide">
+              <div className="absolute top-0 right-0 bg-[#FBBF24] text-[#07102A] text-xs font-extrabold px-2 py-0.5 rounded-bl uppercase tracking-wide">
                 64% OFF
               </div>
 
@@ -191,11 +165,11 @@ export default function LiveTests() {
               </h4>
 
               <div className="mt-4 flex items-baseline gap-2">
-                <span className="text-[11px] text-slate-450 line-through">₹549.00</span>
+                <span className="text-xs text-slate-450 line-through">₹549.00</span>
                 <span className="text-lg font-extrabold text-[#FBBF24]">₹199/-</span>
               </div>
 
-              <p className="text-[10px] text-slate-300 mt-2 leading-snug">
+              <p className="text-xs text-slate-300 mt-2 leading-snug">
                 7 Months Validity | Unlock all exams and tests
               </p>
 

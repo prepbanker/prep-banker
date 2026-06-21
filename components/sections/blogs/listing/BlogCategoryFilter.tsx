@@ -67,7 +67,7 @@ router.push(`/blogs?${params.toString()}`, { scroll: false });
           cursor: 'pointer',
         }}
       >
-        <span className="flex-1 text-left text-[0.825rem]">
+        <span className="flex-1 text-left text-xs">
           {activeCategory === 'All' ? 'All Articles' : activeCategory}
         </span>
         <ChevronDown
@@ -101,7 +101,7 @@ router.push(`/blogs?${params.toString()}`, { scroll: false });
                 style={{
                   background: isActive ? 'var(--color-sky)' : '#fff',
                   color: isActive ? 'var(--color-blue)' : 'var(--color-navy)',
-                  fontSize: '0.825rem',
+                  fontSize: '0.875rem',
                   fontWeight: isActive ? 600 : 400,
                   border: 'none',
                   cursor: 'pointer',

@@ -47,13 +47,13 @@ const CALENDAR_DATA: CalendarEvent[] = [
                   <th className="py-4 px-6 w-[29%]">
                     <div className="flex flex-col">
                       <span className="text-xs font-extrabold uppercase tracking-wider text-blue-700">🏦 SBI PO 2026</span>
-                      <span className="text-[10px] text-blue-500 font-bold mt-0.5">2000+ Vacancies</span>
+                      <span className="text-xs text-blue-500 font-bold mt-0.5">2000+ Vacancies</span>
                     </div>
                   </th>
                   <th className="py-4 px-6 w-[29%]">
                     <div className="flex flex-col">
                       <span className="text-xs font-extrabold uppercase tracking-wider text-amber-700">🏦 IBPS PO 2026</span>
-                      <span className="text-[10px] text-amber-600 font-bold mt-0.5">3500+ Vacancies</span>
+                      <span className="text-xs text-amber-600 font-bold mt-0.5">3500+ Vacancies</span>
                     </div>
                   </th>
                 </tr>
@@ -77,7 +77,7 @@ const CALENDAR_DATA: CalendarEvent[] = [
                         <div className="flex items-center gap-2">
                           <span className={`text-sm font-semibold ${row.isImportant ? 'text-slate-900 font-bold' : 'text-slate-700'}`}>{row.event}</span>
                           {row.isImportant && (
-                            <span className="inline-flex items-center rounded bg-amber-500/10 text-amber-600 px-1.5 py-0.5 text-[0.62rem] font-black uppercase tracking-wider">
+                            <span className="inline-flex items-center rounded bg-amber-500/10 text-amber-600 px-1.5 py-0.5 text-xs font-black uppercase tracking-wider">
                               Key
                             </span>
                           )}
@@ -106,7 +106,7 @@ const CALENDAR_DATA: CalendarEvent[] = [
         {/* Mobile Compact List (Hidden on Desktop) */}
         <div className="md:hidden space-y-2">
           {/* Mobile Header / Legend */}
-          <div className="flex items-center justify-between text-[10px] font-extrabold text-slate-400 uppercase tracking-wider mb-2 px-1">
+          <div className="flex items-center justify-between text-xs font-extrabold text-slate-400 uppercase tracking-wider mb-2 px-1">
             <span>Event Name</span>
             <div className="flex gap-3">
               <span className="text-blue-600">SBI PO</span>
@@ -131,7 +131,7 @@ const CALENDAR_DATA: CalendarEvent[] = [
                 <div className="min-w-0 flex items-center gap-1.5">
                   <span className={`text-xs font-bold text-slate-800 truncate`}>{row.event}</span>
                   {row.isImportant && (
-                    <span className="inline-block rounded bg-amber-500/10 text-amber-600 px-1 py-0.2 text-[0.55rem] font-extrabold uppercase">
+                    <span className="inline-block rounded bg-amber-500/10 text-amber-600 px-1 py-0.2 text-xs font-extrabold uppercase">
                       ★
                     </span>
                   )}
@@ -139,10 +139,10 @@ const CALENDAR_DATA: CalendarEvent[] = [
               </div>
               {/* Right: SBI & IBPS dates side-by-side */}
               <div className="flex items-center gap-2 shrink-0 ml-3">
-                <span className="inline-block rounded bg-blue-50 border border-blue-100 px-2 py-0.5 text-[10px] font-bold text-blue-700">
+                <span className="inline-block rounded bg-blue-50 border border-blue-100 px-2 py-0.5 text-xs font-bold text-blue-700">
                   {row.sbiDate.replace(' 2026', '')}
                 </span>
-                <span className="inline-block rounded bg-amber-50 border border-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-700">
+                <span className="inline-block rounded bg-amber-50 border border-amber-100 px-2 py-0.5 text-xs font-bold text-amber-700">
                   {row.ibpsDate.replace(' 2026', '').replace(' 2027', '')}
                 </span>
               </div>

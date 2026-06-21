@@ -5,11 +5,11 @@ import type { DetailSectionContent } from './detailContentMap';
 
 export const sbiPoSalaryContent: DetailSectionContent = {
   title: "SBI PO Salary 2026: In-Hand Pay, Allowances, and Perks Explained",
-  overview: "An SBI PO's starting basic pay in 2026 is ₹41,960 per month under the JMG Scale I pay structure. After adding Dearness Allowance (DA), House Rent Allowance (HRA), and other components — and accounting for NPS and tax deductions — the in-hand salary comes to approximately ₹52,000–₹58,000 per month depending on posting city. The gross annual CTC is approximately ₹8.20–₹10 lakh.",
+  overview: "An SBI PO's starting basic pay in 2026 is ₹41,960 per month under the JMG Scale I pay structure. After adding Dearness Allowance (DA), House Rent Allowance (HRA), and other components — and accounting for NPS and tax deductions — the starting in-hand salary comes to approximately ₹63,000 per month depending on posting city. The gross annual CTC is approximately ₹8.20–₹10 lakh.",
   ctaText: "Explore Mock Tests to Crack SBI PO",
   ctaHref: "https://app.prepgrind.com/register",
   metaTitle: "SBI PO Salary 2026: In-Hand Pay, Allowances & Perks",
-  metaDescription: "SBI PO salary in 2026 starts at ₹41,960/month basic. See full in-hand pay, allowances, perks, and how salary grows after probation. Free mock tests on PrepBanker.",
+  metaDescription: "SBI PO salary in 2026 starts at ₹63,000/month starting in-hand. See full in-hand pay, allowances, perks, and how salary grows after probation. Free mock tests on PrepBanker.",
   customSchemas: (
     <>
       {/* BreadcrumbList Schema */}
@@ -106,7 +106,7 @@ export const sbiPoSalaryContent: DetailSectionContent = {
                 "name": "What is the in-hand salary of SBI PO per month in 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "An SBI PO's in-hand salary in 2026 is approximately ₹52,000–₹58,000 per month depending on posting city. The basic pay starts at ₹41,960 and after adding DA (currently around 46%), HRA (based on city), and other allowances — and deducting NPS, income tax, and professional tax — the net take-home lands in this range."
+                  "text": "An SBI PO's starting in-hand salary in 2026 is approximately ₹63,000 per month. The basic pay starts at ₹41,960 and after adding DA (currently around 46%), HRA (based on city), and other allowances — and deducting NPS, income tax, and professional tax — the net take-home ranges from ₹60,500 to ₹63,000 depending on the posting city."
                 }
               },
               {
@@ -194,11 +194,11 @@ export const sbiPoSalaryContent: DetailSectionContent = {
       content: (
         <div className="space-y-4">
           <HighlightBox type="info" title="Quick Summary">
-            <ul className="text-xs sm:text-sm text-slate-650 space-y-2.5 my-2 font-normal">
+            <ul className="text-xs sm:text-sm text-slate-655 space-y-2.5 my-2 font-normal">
               <li><strong>Post:</strong> Probationary Officer (PO) — Junior Management Grade Scale I (JMG Scale I)</li>
               <li><strong>Starting Basic Pay:</strong> ₹41,960/month</li>
               <li><strong>Pay Scale:</strong> ₹41,960 – ₹1,29,100</li>
-              <li><strong>Approximate In-Hand Salary:</strong> ₹52,000–₹58,000/month (varies by city)</li>
+              <li><strong>Approximate In-Hand Salary:</strong> ₹63,000/month (starting in-hand)</li>
               <li><strong>Approximate Gross CTC:</strong> ₹8.20–₹10 LPA</li>
               <li><strong>Dearness Allowance (DA):</strong> ~46% of basic (revised quarterly by IBA)</li>
               <li><strong>HRA:</strong> 9–10% of basic (rural) to 15% (metro), varies by city tier</li>
@@ -389,13 +389,13 @@ export const sbiPoSalaryContent: DetailSectionContent = {
                 </tr>
                 <tr className="font-black text-white bg-slate-900">
                   <td className="px-4 py-3 font-extrabold">Net In-Hand Salary (Metro)</td>
-                  <td className="px-4 py-3 font-extrabold">~₹60,500–₹62,000</td>
+                  <td className="px-4 py-3 font-extrabold">~₹63,000</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-            For non-metro postings, HRA and CCA are lower, pulling in-hand down to the ₹52,000–₹56,000 range.
+            For non-metro postings, HRA and CCA are lower, with starting take-home ranging from ₹58,000 to ₹63,000 per month depending on the posting tier.
           </p>
           <HighlightBox type="success" title="Pro Tip: Special Allowance Comparison">
             The Special Allowance component is where SBI tends to be more generous than IBPS PO banks. For the same basic pay scale, an SBI PO typically takes home ₹2,000–₹4,000 more per month than an officer at a nationalised bank, purely due to a higher Special Allowance percentage negotiated in SBI's internal agreements.
@@ -723,7 +723,7 @@ export const sbiPoSalaryContent: DetailSectionContent = {
   faqs: [
     {
       q: "What is the in-hand salary of SBI PO per month in 2026?",
-      a: "An SBI PO's in-hand (net take-home) salary in 2026 is approximately ₹52,000–₹62,000 per month, depending on the city of posting. Metro postings (Mumbai, Delhi) yield higher HRA and CCA, pushing in-hand to the upper end. The gross salary at starting basic is approximately ₹73,000–₹75,000; deductions for NPS (₹6,100), income tax, and professional tax bring net pay to this range."
+      a: "An SBI PO's starting in-hand (net take-home) salary in 2026 is approximately ₹63,000 per month, depending on the posting city. Metro postings (Mumbai, Delhi) yield higher HRA and CCA, pushing gross starting salary to ~₹73,000; deductions for NPS (~₹6,100), income tax, and professional tax bring net pay to the ₹60,500–₹63,000 range."
     },
     {
       q: "What is the SBI PO pay scale in 2026?",

@@ -18,8 +18,17 @@ import { formatTimer, randomCountdown } from '@/lib/utils';
 // ─────────────────────────────────────────
 // Module-scoped initial timers (stable across re-renders)
 const INITIAL_TIMERS: Record<string, number> = {};
-liveTestsData.forEach((t) => {
-  INITIAL_TIMERS[t.id] = randomCountdown(1, 7);
+liveTestsData.forEach((t, i) => {
+  if (i === 2) {
+    // 3rd card: Test ended
+    INITIAL_TIMERS[t.id] = 0;
+  } else if (i === 0) {
+    // 1st card: Increased timing (18 to 36 hours)
+    INITIAL_TIMERS[t.id] = randomCountdown(18, 36);
+  } else {
+    // Other cards: Active timer (2 to 8 hours)
+    INITIAL_TIMERS[t.id] = randomCountdown(2, 8);
+  }
 });
 
 // ─────────────────────────────────────────
@@ -48,7 +57,7 @@ export default function LiveTestsSection() {
   useEffect(() => {
     let initial: Record<string, number> = {};
     try {
-      const saved = localStorage.getItem('pb_live_timers_light');
+      const saved = localStorage.getItem('pb_live_timers_light_v2');
       if (saved) {
         const parsed = JSON.parse(saved) as Record<string, number>;
         if (liveTestsData.every((t) => parsed[t.id] >= 0)) {
@@ -74,7 +83,7 @@ export default function LiveTestsSection() {
           if (next[k] > 0) next[k]--;
         });
         try {
-          localStorage.setItem('pb_live_timers_light', JSON.stringify(next));
+          localStorage.setItem('pb_live_timers_light_v2', JSON.stringify(next));
         } catch {
           /* ignore */
         }
@@ -100,13 +109,13 @@ export default function LiveTestsSection() {
           'linear-gradient(160deg, #f0f5ff 0%, #e8f0fb 50%, #f5f7ff 100%)',
       }}
     >
-      <div className="max-w-[1280px] mx-auto px-6">
+      <div className="max-w-[1350px] mx-auto px-6">
 
         {/* ── Header ── */}
         <div className="flex items-end justify-between flex-wrap gap-4 mb-6">
           <div>
             {/* Live Now pill */}
-            <span className="inline-flex items-center gap-1.5 bg-white border border-slate-200 rounded-full px-3 py-1 text-[0.72rem] font-bold text-red-500 uppercase tracking-wider mb-3 shadow-sm">
+            <span className="inline-flex items-center gap-1.5 bg-white border border-slate-200 rounded-full px-3 py-1 text-xs font-bold text-red-500 uppercase tracking-wider mb-3 shadow-sm">
               <span className="live-dot" />
               Live Now
             </span>
@@ -203,21 +212,21 @@ export default function LiveTestsSection() {
                 {/* Top Badges */}
                 <div className="flex gap-1.5 flex-wrap p-[0.85rem] pb-0">
                   {test.isFree && (
-                    <span className="bg-green-50 text-green-700 border border-green-200 rounded-full text-[0.65rem] font-bold px-2 py-0.5 tracking-wide uppercase">
+                    <span className="bg-green-50 text-green-700 border border-green-200 rounded-full text-xs font-bold px-2 py-0.5 tracking-wide uppercase">
                       FREE
                     </span>
                   )}
                   {!isExpired ? (
-                    <span className="bg-red-50 text-red-700 border border-red-200 rounded-full text-[0.65rem] font-bold px-2 py-0.5 flex items-center gap-1 uppercase">
+                    <span className="bg-red-50 text-red-700 border border-red-200 rounded-full text-xs font-bold px-2 py-0.5 flex items-center gap-1 uppercase">
                       <span className="live-dot" style={{ width: 5, height: 5 }} />
                       LIVE
                     </span>
                   ) : (
-                    <span className="bg-slate-100 text-slate-500 border border-slate-200 rounded-full text-[0.65rem] font-bold px-2 py-0.5 uppercase">
+                    <span className="bg-slate-100 text-slate-500 border border-slate-200 rounded-full text-xs font-bold px-2 py-0.5 uppercase">
                       COMPLETED
                     </span>
                   )}
-                  <span className="bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-[0.65rem] font-bold px-2 py-0.5 uppercase">
+                  <span className="bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-xs font-bold px-2 py-0.5 uppercase">
                     {test.type}
                   </span>
                 </div>
@@ -225,7 +234,7 @@ export default function LiveTestsSection() {
                 {/* Title */}
                 <div className="px-[0.85rem] pt-[0.6rem]">
                   <h3
-                    className="text-[#0D1B3E] font-bold text-[0.86rem] leading-[1.35]"
+                    className="text-[#0D1B3E] font-bold text-xs leading-[1.35]"
                     style={{
                       display: '-webkit-box',
                       WebkitLineClamp: 2,
@@ -257,7 +266,7 @@ export default function LiveTestsSection() {
                       >
                         {s.value}
                       </div>
-                      <div className="text-slate-400 text-[0.6rem] mt-0.5">
+                      <div className="text-slate-400 text-xs mt-0.5">
                         {s.label}
                       </div>
                     </li>
@@ -279,7 +288,7 @@ export default function LiveTestsSection() {
                       }}
                     >
                       <div>
-                        <div className="text-[0.58rem] text-slate-400 uppercase tracking-wider mb-0.5">
+                        <div className="text-xs text-slate-400 uppercase tracking-wider mb-0.5">
                           Ends In
                         </div>
                         <div
@@ -306,7 +315,7 @@ export default function LiveTestsSection() {
                       </div>
                     </div>
                   ) : (
-                    <div className="flex items-center justify-center gap-1.5 text-slate-400 text-[0.78rem] py-2">
+                    <div className="flex items-center justify-center gap-1.5 text-slate-400 text-xs py-2">
                       <CheckCircle2 size={13} strokeWidth={2} />
                       Test Completed
                     </div>
@@ -316,7 +325,7 @@ export default function LiveTestsSection() {
                 {/* Difficulty + Languages */}
                 <div className="px-[0.85rem] py-2 flex gap-1.5 flex-wrap items-center">
                   <span
-                    className={`text-[0.62rem] font-bold uppercase px-2 py-0.5 rounded-full border ${dc.bg} ${dc.text} ${dc.border}`}
+                    className={`text-xs font-bold uppercase px-2 py-0.5 rounded-full border ${dc.bg} ${dc.text} ${dc.border}`}
                   >
                     {test.difficulty}
                   </span>
@@ -324,7 +333,7 @@ export default function LiveTestsSection() {
                     {test.languages.map((l) => (
                       <li
                         key={l}
-                        className="text-[0.62rem] text-slate-500 bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5"
+                        className="text-xs text-slate-500 bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5"
                       >
                         {l}
                       </li>
@@ -340,20 +349,16 @@ export default function LiveTestsSection() {
                     rel="noopener noreferrer"
                     aria-disabled={isExpired}
                     className={[
-                      'flex items-center justify-center gap-1.5 w-full py-2.5 rounded-[9px] text-[0.82rem] font-bold transition-all duration-200',
+                      'flex items-center justify-center gap-1.5 w-full py-2.5 rounded-[9px] text-xs font-bold transition-all duration-200',
                       isExpired
                         ? 'bg-slate-100 text-slate-400 cursor-not-allowed pointer-events-none'
-                        : 'text-white hover:brightness-110 hover:-translate-y-0.5',
+                        : 'text-slate-900 hover:brightness-95 hover:-translate-y-0.5',
                     ].join(' ')}
                     style={
                       !isExpired
                         ? {
-                            background: isUrgent
-                              ? 'linear-gradient(135deg, #ef4444, #b91c1c)'
-                              : 'linear-gradient(135deg, #1B6EB5, #0D1B3E)',
-                            boxShadow: isUrgent
-                              ? '0 4px 14px rgba(239,68,68,.3)'
-                              : '0 4px 14px rgba(27,110,181,.3)',
+                            background: 'var(--color-gold-bright)',
+                            boxShadow: '0 4px 14px rgba(240, 180, 41, 0.3)',
                           }
                         : undefined
                     }
@@ -377,7 +382,7 @@ export default function LiveTestsSection() {
         <div className="text-center mt-8">
           <a
             href="/live-tests"
-            className="inline-flex items-center gap-2 px-7 py-2.5 rounded-full border-[1.5px] border-[#1B6EB5] text-[#1B6EB5] text-[0.85rem] font-bold transition-all duration-200 hover:bg-[#1B6EB5] hover:text-white"
+            className="inline-flex items-center gap-2 px-7 py-2.5 rounded-full border-[1.5px] border-[#1B6EB5] text-[#1B6EB5] text-xs font-bold transition-all duration-200 hover:bg-[#1B6EB5] hover:text-white"
           >
             View All Live Tests
             <ArrowRight size={14} strokeWidth={2.5} />

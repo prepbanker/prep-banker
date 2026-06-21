@@ -76,17 +76,17 @@ export default function BlogCard({ blog }: Props) {
         {/* Footer */}
         <div className="flex items-center justify-between pt-3" style={{ borderTop: '1px solid var(--color-gray-100)' }}>
           <div>
-            <p className="text-[11px] font-semibold leading-none" style={{ color: 'var(--color-navy)' }}>
+            <p className="text-xs font-semibold leading-none" style={{ color: 'var(--color-navy)' }}>
               {blog.author.name}
             </p>
-            <p className="text-[10px] mt-0.5" style={{ color: 'var(--color-gray-400)' }}>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--color-gray-400)' }}>
               {formatBlogDate(blog.publishedAt)}
             </p>
           </div>
 
           <div className="flex items-center gap-1" style={{ color: 'var(--color-gray-400)' }}>
             <Clock className="w-3 h-3" aria-hidden />
-            <span className="text-[10px]">{blog.readTimeMinutes} min read</span>
+            <span className="text-xs">{blog.readTimeMinutes} min read</span>
           </div>
 
           <span
