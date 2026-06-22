@@ -206,7 +206,7 @@ export default function SalarySection() {
                     {/* Right block (mobile layout and desktop odd indices) */}
                     <div className="pl-10 md:pl-8 md:w-1/2 text-left">
                       <div className="md:hidden mb-1">
-                        <span className="inline-block rounded-full bg-slate-100 border border-slate-200 px-2 py-0.5 text-[0.65rem] font-bold text-slate-500">
+                        <span className="inline-block rounded-full bg-slate-100 border border-slate-200 px-2 py-0.5 text-xs font-bold text-slate-500">
                           {step.years}
                         </span>
                       </div>

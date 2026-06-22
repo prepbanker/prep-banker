@@ -19,8 +19,8 @@ export default function DatesSection({ exam }: { exam: ExamDetailData }) {
             <div className="epg-date-item" key={d.event}>
               <div className={'epg-dot epg-dot-' + d.status} />
               <div>
-                <div style={{ fontSize:'0.81rem',fontWeight:700,color:T.navy }}>{d.event}</div>
-                <div style={{ fontSize:'0.76rem',color:exam.id === 'ibps-po' ? T.gold : T.blue,fontWeight:600,marginTop:2 }}>
+                <div style={{ fontSize: '0.875rem',fontWeight:700,color:T.navy }}>{d.event}</div>
+                <div style={{ fontSize: '0.875rem',color:exam.id === 'ibps-po' ? T.gold : T.blue,fontWeight:600,marginTop:2 }}>
                   {d.date}
                 </div>
               </div>
@@ -29,7 +29,7 @@ export default function DatesSection({ exam }: { exam: ExamDetailData }) {
         </div>
         <div className="epg-warn-box">
           <AlertCircle size={14} style={{ color:'#D97706',flexShrink:0,marginTop:1 }} />
-          <p style={{ fontSize:'0.76rem',color:'#92400E',lineHeight:1.5 }}>
+          <p style={{ fontSize: '0.875rem',color:'#92400E',lineHeight:1.5 }}>
             Dates are tentative based on previous year trends. Always verify on the official SBI / IBPS website.
           </p>
         </div>

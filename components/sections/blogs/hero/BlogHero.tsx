@@ -95,7 +95,7 @@ export default function BlogHero() {
           {['SBI PO', 'IBPS PO', 'RBI Grade B', 'Quantitative Aptitude', 'English', 'Current Affairs', 'Interview Tips'].map((tag) => (
             <span
               key={tag}
-              className="text-[11px] font-semibold px-3 py-1 rounded-full"
+              className="text-xs font-semibold px-3 py-1 rounded-full"
               style={{
                 background: 'rgba(255,255,255,0.08)',
                 border: '1px solid rgba(255,255,255,0.14)',
@@ -128,7 +128,7 @@ export default function BlogHero() {
               <div>
                 <p className="text-base font-bold text-white leading-none">{value}</p>
                 <p
-                  className="text-[10px] font-medium mt-0.5"
+                  className="text-xs font-medium mt-0.5"
                   style={{ color: 'rgba(255,255,255,0.55)' }}
                 >
                   {label}

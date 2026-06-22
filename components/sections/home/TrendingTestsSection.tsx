@@ -56,7 +56,7 @@ function Stars({ rating }: { rating: number }) {
           strokeWidth={1.5}
         />
       ))}
-      <span className="ml-1 text-[0.7rem] font-semibold text-slate-400">{rating}</span>
+      <span className="ml-1 text-xs font-semibold text-slate-400">{rating}</span>
     </div>
   );
 }
@@ -82,7 +82,7 @@ export default function TrendingTestsSection() {
             {/* Label pill */}
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1">
               <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
-              <span className="text-[0.65rem] font-bold uppercase tracking-widest text-slate-500">
+              <span className="text-xs font-bold uppercase tracking-widest text-slate-500">
                 Test Series
               </span>
             </div>
@@ -134,7 +134,7 @@ export default function TrendingTestsSection() {
               <div className="relative rounded-t-2xl bg-gradient-to-br from-slate-800 to-slate-900 px-4 pt-4 pb-3">
                 {/* Live dot */}
                 {test.isLive && (
-                  <span className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-red-500/20 px-2 py-0.5 text-[0.6rem] font-bold text-red-400">
+                  <span className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-red-500/20 px-2 py-0.5 text-xs font-bold text-red-400">
                     <span className="live-dot h-1.5 w-1.5 rounded-full bg-red-400" />
                     LIVE
                   </span>
@@ -144,7 +144,7 @@ export default function TrendingTestsSection() {
                 <div className="mb-2.5 flex items-center justify-between">
                   <span
                     className={[
-                      'rounded-full px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
+                      'rounded-full px-2.5 py-0.5 text-xs font-bold uppercase tracking-wide',
                       test.exam === 'SBI-PO'
                         ? 'bg-blue-500/20 text-blue-300'
                         : 'bg-amber-500/20 text-amber-300',
@@ -178,7 +178,7 @@ export default function TrendingTestsSection() {
                 ].map(s => (
                   <li key={s.label} className="flex flex-col items-center py-3 px-1">
                     <span className="text-base font-extrabold text-amber-500">{s.value}</span>
-                    <span className="mt-0.5 text-center text-[0.58rem] font-medium uppercase tracking-wide text-slate-400">
+                    <span className="mt-0.5 text-center text-xs font-medium uppercase tracking-wide text-slate-400">
                       {s.label}
                     </span>
                   </li>
@@ -192,7 +192,7 @@ export default function TrendingTestsSection() {
                   <li>
                     <span
                       className={[
-                        'rounded-full border px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
+                        'rounded-full border px-2.5 py-0.5 text-xs font-bold uppercase tracking-wide',
                         DIFF_CLASS[test.difficulty] ?? 'bg-slate-50 text-slate-600 border-slate-200',
                       ].join(' ')}
                     >
@@ -202,7 +202,7 @@ export default function TrendingTestsSection() {
                   <li>
                     <span
                       className={[
-                        'rounded-full border px-2.5 py-0.5 text-[0.62rem] font-bold uppercase tracking-wide',
+                        'rounded-full border px-2.5 py-0.5 text-xs font-bold uppercase tracking-wide',
                         TYPE_CLASS[test.type] ?? 'bg-slate-50 text-slate-600 border-slate-200',
                       ].join(' ')}
                     >
@@ -216,7 +216,7 @@ export default function TrendingTestsSection() {
                   {test.languages.map(l => (
                     <li key={l}>
                       <span
-                        className="rounded border border-slate-100 bg-slate-50 px-2 py-0.5 text-[0.62rem] font-medium text-slate-500"
+                        className="rounded border border-slate-100 bg-slate-50 px-2 py-0.5 text-xs font-medium text-slate-500"
                       >
                         {l}
                       </span>
@@ -229,7 +229,7 @@ export default function TrendingTestsSection() {
                   {test.tags.slice(0, 2).map(tag => (
                     <li key={tag}>
                       <span
-                        className="text-[0.62rem] font-semibold text-amber-500"
+                        className="text-xs font-semibold text-amber-500"
                       >
                         #{tag.replace(/^#/, '').replace(/\s/g, '')}
                       </span>
@@ -244,9 +244,9 @@ export default function TrendingTestsSection() {
                   href="https://app.prepgrind.com/register"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-blue-500 py-2.5 text-sm font-bold text-white shadow-sm shadow-blue-200 transition-all hover:from-blue-700 hover:to-blue-600 hover:shadow-md"
+                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-[var(--color-gold-bright)] py-2.5 text-sm font-bold text-slate-900 shadow-sm shadow-amber-200/50 transition-all hover:bg-[var(--color-gold)] hover:shadow-md"
                 >
-                  <Play className="h-3.5 w-3.5 fill-white" />
+                  <Play className="h-3.5 w-3.5 fill-slate-900 text-slate-900" />
                   Start Practicing
                 </a>
               </div>

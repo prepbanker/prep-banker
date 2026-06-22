@@ -52,7 +52,7 @@ export default function OverviewSection({ exam }: { exam: ExamDetailData }) {
         </div>
       </div>
       <div style={{ padding:'0.875rem 1.75rem',borderTop:'1px solid ' + T.gray100,display:'flex',flexWrap:'wrap',gap:4,alignItems:'center' }}>
-        <span style={{ fontSize:'0.72rem',color:T.gray400,fontWeight:600,marginRight:4 }}>Tags:</span>
+        <span style={{ fontSize:'0.875rem',color:T.gray400,fontWeight:600,marginRight:4 }}>Tags:</span>
         {exam.tags.map(tag => <span key={tag} className="epg-tag-pill">{tag}</span>)}
       </div>
     </div>

@@ -3,7 +3,6 @@
 import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import LiveTestsHero from '@/components/sections/live-tests/hero/LiveTestsHero';
 import LiveTests from '@/components/sections/live-tests/LiveTests';
 import LiveTestsFAQ from '@/components/sections/live-tests/faq/LiveTestsFAQ';
 import { BreadcrumbSchema, FAQSchema, WebPageSchema, ItemListSchema } from '@/components/seo';
@@ -62,9 +61,6 @@ export default function LiveTestsPage() {
       <Header />
 
       <main>
-        {/* Hero with breadcrumb, headline, and stat strip */}
-        <LiveTestsHero />
-
         {/* Sticky filter bar + paginated card grid */}
         <LiveTests />
 

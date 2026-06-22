@@ -133,7 +133,7 @@ export default function CADetailContentClient({
         {/* Share / PDF actions */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-6 pt-4 border-t border-white/10">
           <div className="flex items-center gap-2">
-            <span className="text-[10px] uppercase font-extrabold text-white/50 mr-1 hidden lg:inline flex-shrink-0">Share</span>
+            <span className="text-xs uppercase font-extrabold text-white/50 mr-1 hidden lg:inline flex-shrink-0">Share</span>
 
             {/* WhatsApp */}
             <a
@@ -191,7 +191,7 @@ export default function CADetailContentClient({
                 <Link2 className="w-4.5 h-4.5" />
               )}
               {copied && (
-                <span className="absolute -top-8 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-[9px] font-bold py-1 px-2 rounded shadow-md whitespace-nowrap z-50">
+                <span className="absolute -top-8 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs font-bold py-1 px-2 rounded shadow-md whitespace-nowrap z-50">
                   Copied!
                 </span>
               )}
@@ -249,11 +249,11 @@ export default function CADetailContentClient({
                   Important Highlights
                 </h2>
                 <div className="bg-amber-50/20 border border-amber-100/60 p-6 rounded-2xl space-y-4">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-amber-600 bg-amber-50 border border-amber-150 px-2 py-0.5 rounded">Quick Reference Key Facts</span>
+                  <span className="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 border border-amber-150 px-2 py-0.5 rounded">Quick Reference Key Facts</span>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                     {article.quickFacts.map((fact: string, i: number) => (
                       <div key={i} className="bg-white border border-slate-100 p-3.5 rounded-xl flex items-center gap-3">
-                        <span className="flex-shrink-0 flex items-center justify-center w-5 h-5 bg-amber-50 text-amber-500 rounded text-[9px] font-black">✓</span>
+                        <span className="flex-shrink-0 flex items-center justify-center w-5 h-5 bg-amber-50 text-amber-500 rounded text-xs font-black">✓</span>
                         <span className="text-xs font-bold text-slate-700">{fact}</span>
                       </div>
                     ))}
@@ -269,7 +269,7 @@ export default function CADetailContentClient({
                   Key Points Summary
                 </h2>
                 <div className="bg-white border border-slate-150 p-6 rounded-2xl shadow-sm space-y-4">
-                  <span className="text-[10px] font-extrabold uppercase tracking-wider text-[var(--color-blue)] bg-blue-50 px-2.5 py-0.5 rounded">Core Takeaways</span>
+                  <span className="text-xs font-extrabold uppercase tracking-wider text-[var(--color-blue)] bg-blue-50 px-2.5 py-0.5 rounded">Core Takeaways</span>
                   <ul className="space-y-3.5">
                     {article.keyPoints.map((point: string, i: number) => (
                       <li key={i} className="flex gap-3 text-xs text-slate-655 leading-relaxed items-start">
@@ -306,7 +306,7 @@ export default function CADetailContentClient({
             <section className="bg-[#07102A] text-white rounded-3xl p-6 sm:p-8 relative overflow-hidden border border-slate-800 shadow-md">
               <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="space-y-2 max-w-xl">
-                  <span className="inline-flex text-[9px] font-bold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20 uppercase tracking-widest">Interactive Practice</span>
+                  <span className="inline-flex text-xs font-bold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20 uppercase tracking-widest">Interactive Practice</span>
                   <h3 className="text-base sm:text-lg font-extrabold text-slate-100">
                     Test your recall capacity on this article
                   </h3>
@@ -381,8 +381,8 @@ export default function CADetailContentClient({
                     <ChevronLeft className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block">Previous</span>
-                    <span className="text-[11px] font-bold text-slate-800 line-clamp-1 group-hover:text-[var(--color-blue)] transition-colors">{prevArticle.title}</span>
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest block">Previous</span>
+                    <span className="text-xs font-bold text-slate-800 line-clamp-1 group-hover:text-[var(--color-blue)] transition-colors">{prevArticle.title}</span>
                   </div>
                 </Link>
               ) : (
@@ -398,8 +398,8 @@ export default function CADetailContentClient({
                     <ChevronRight className="w-4 h-4" />
                   </div>
                   <div className="order-1">
-                    <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block">Next Article</span>
-                    <span className="text-[11px] font-bold text-slate-800 line-clamp-1 group-hover:text-[var(--color-blue)] transition-colors">{nextArticle.title}</span>
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest block">Next Article</span>
+                    <span className="text-xs font-bold text-slate-800 line-clamp-1 group-hover:text-[var(--color-blue)] transition-colors">{nextArticle.title}</span>
                   </div>
                 </Link>
               ) : (
@@ -416,14 +416,14 @@ export default function CADetailContentClient({
                 {similarArticles.map(art => (
                   <div key={art.id} className="bg-white border border-slate-150 p-4 rounded-xl flex flex-col justify-between hover:shadow-sm hover:border-[var(--color-blue)]/30 transition-all group">
                     <div className="space-y-2">
-                      <span className="text-[9px] font-bold text-[var(--color-blue)] uppercase tracking-wider bg-blue-50 px-2 py-0.5 rounded">
+                      <span className="text-xs font-bold text-[var(--color-blue)] uppercase tracking-wider bg-blue-50 px-2 py-0.5 rounded">
                         {art.category}
                       </span>
                       <h4 className="text-[11.5px] font-extrabold text-slate-800 leading-snug group-hover:text-[var(--color-blue)] transition-colors line-clamp-2">
                         <Link href={`/current-affairs/${art.id}`}>{art.title}</Link>
                       </h4>
                     </div>
-                    <span className="text-[10px] text-slate-400 font-semibold block mt-4">{art.date}</span>
+                    <span className="text-xs text-slate-400 font-semibold block mt-4">{art.date}</span>
                   </div>
                 ))}
               </div>
@@ -509,7 +509,7 @@ export default function CADetailContentClient({
                         <h4 className="text-[11.5px] font-bold text-slate-700 leading-snug group-hover:text-[var(--color-blue)] transition-colors">
                           <Link href={`/current-affairs/${art.id}`}>{art.title}</Link>
                         </h4>
-                        <span className="text-[9px] font-bold text-slate-400 block">{art.date}</span>
+                        <span className="text-xs font-bold text-slate-400 block">{art.date}</span>
                       </div>
                     </div>
                   );

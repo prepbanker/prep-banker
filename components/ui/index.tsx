@@ -54,7 +54,7 @@ const VARIANT_STYLES: Record<ButtonVariant, CSSProperties> = {
 };
 
 const SIZE_STYLES: Record<ButtonSize, CSSProperties> = {
-  sm: { padding: '8px 16px', fontSize: '0.8rem',  borderRadius: '8px' },
+  sm: { padding: '8px 16px', fontSize: '0.875rem',  borderRadius: '8px' },
   md: { padding: '11px 24px', fontSize: '0.9rem', borderRadius: '10px' },
   lg: { padding: '14px 32px', fontSize: '1rem',   borderRadius: '12px' },
 };
@@ -159,7 +159,7 @@ export function SectionTitle({ label, title, highlight, subtitle, align = 'cente
           color: 'var(--color-gold)',
           padding: '5px 14px',
           borderRadius: '999px',
-          fontSize: '0.72rem',
+          fontSize: '0.875rem',
           fontWeight: 700,
           letterSpacing: '0.1em',
           textTransform: 'uppercase',
@@ -236,7 +236,7 @@ export function Badge({ children, variant = 'blue', size = 'sm', dot }: BadgePro
       gap: 4,
       padding: size === 'sm' ? '2px 9px' : '4px 12px',
       borderRadius: 999,
-      fontSize: size === 'sm' ? '0.68rem' : '0.75rem',
+      fontSize: '0.875rem',
       fontWeight: 700,
       letterSpacing: '0.04em',
       textTransform: 'uppercase',
@@ -267,7 +267,7 @@ export function StarRating({ rating, max = 5, size = 14 }: { rating: number; max
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
         </svg>
       ))}
-      <span style={{ fontSize: size * 0.8, color: 'var(--color-gray-600)', marginLeft: 4 }}>{rating.toFixed(1)}</span>
+      <span style={{ fontSize: Math.max(14, size * 0.8), color: 'var(--color-gray-600)', marginLeft: 4 }}>{rating.toFixed(1)}</span>
     </div>
   );
 }
@@ -279,7 +279,7 @@ interface BreadcrumbItem { label: string; href?: string; }
 
 export function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
   return (
-    <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', flexWrap: 'wrap' }}>
+    <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.875rem', flexWrap: 'wrap' }}>
       {items.map((item, i) => (
         <span key={i} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
           {item.href ? (

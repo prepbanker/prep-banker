@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import HeroSection            from '@/components/sections/home/HeroSection';
+import ExamTabExplorer        from '@/components/sections/home/ExamTabExplorer';
 import ExamHighlightsSection  from '@/components/sections/home/ExamHighlightsSection';
 import TrendingTestsSection   from '@/components/sections/home/TrendingTestsSection';
 import ExamCalendarSection    from '@/components/sections/home/ExamCalendarSection';
 import CutOffsSection         from '@/components/sections/home/CutOffsSection';
-import SalarySection          from '@/components/sections/home/SalarySection';
 import ComparisonSection      from '@/components/sections/home/ComparisonSection';
 import CurrentAffairsSection  from '@/components/sections/home/CurrentAffairsSection';
 import LiveTestsSection       from '@/components/sections/home/LiveTestsSection';
@@ -80,6 +80,7 @@ export default function HomePage() {
       <main>
         {/* 1. Hero + Exam Tab Explorer */}
         <HeroSection />
+        <ExamTabExplorer />
 
         {/* 2. Exam Highlights / Cards */}
         <ExamHighlightsSection />
@@ -92,9 +93,6 @@ export default function HomePage() {
 
         {/* Previous Year Cut-offs Section */}
         <CutOffsSection />
-
-        {/* Salary & Career Growth Section */}
-        <SalarySection />
 
         {/* SBI PO vs IBPS PO Comparison Section */}
         <ComparisonSection />

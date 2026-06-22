@@ -1,83 +1,129 @@
-// PATH: components/sections/WhyPrepBankerSection.tsx
+// PATH: components/sections/home/WhyPrepBankerSection.tsx
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import {
   Users,
   FileText,
   Star,
-  ThumbsUp,
   HelpCircle,
-  CalendarDays,
   Target,
   BarChart2,
   Zap,
   Trophy,
   Newspaper,
   BookOpen,
-  Zap as ZapIcon,
+  Clock,
 } from 'lucide-react';
-import { SectionTitle, Button } from '@/components/ui';
 import { whyPrepBanker } from '@/lib/data';
 
 // ─────────────────────────────────────────
-// Platform Stats
+// Platform Stats Data for Running Counter
 // ─────────────────────────────────────────
 const PLATFORM_STATS = [
   {
-    value: '50K+',
+    target: 50,
+    decimals: 0,
+    suffix: 'K+',
     label: 'Active Aspirants',
     icon: <Users size={22} strokeWidth={1.8} />,
     iconBg: '#dbeafe',
     iconColor: '#1B6EB5',
   },
   {
-    value: '2M+',
+    target: 2,
+    decimals: 0,
+    suffix: 'M+',
     label: 'Questions Attempted',
     icon: <FileText size={22} strokeWidth={1.8} />,
     iconBg: '#ede9fe',
     iconColor: '#7c3aed',
   },
   {
-    value: '4.8★',
+    target: 4.8,
+    decimals: 1,
+    suffix: '★',
     label: 'Average Rating',
     icon: <Star size={22} strokeWidth={1.8} />,
     iconBg: '#fef9c3',
     iconColor: '#D4A017',
   },
   {
-    value: '95%',
-    label: 'Student Satisfaction',
-    icon: <ThumbsUp size={22} strokeWidth={1.8} />,
-    iconBg: '#dcfce7',
-    iconColor: '#16a34a',
-  },
-  {
-    value: '500+',
+    target: 500,
+    decimals: 0,
+    suffix: '+',
     label: 'Mock Tests & Quizzes',
     icon: <HelpCircle size={22} strokeWidth={1.8} />,
     iconBg: '#ffedd5',
     iconColor: '#ea580c',
   },
-  {
-    value: '365',
-    label: 'Days of Current Affairs Updates',
-    icon: <CalendarDays size={22} strokeWidth={1.8} />,
-    iconBg: '#e0f2fe',
-    iconColor: '#0284c7',
-  },
 ];
+
+// ─────────────────────────────────────────
+// Smooth Running Counter Component using requestAnimationFrame
+// ─────────────────────────────────────────
+function RunningCounter({ target, decimals = 0, suffix = '', duration = 1500 }: { target: number; decimals?: number; suffix?: string; duration?: number }) {
+  const [count, setCount] = useState(0);
+  const elementRef = useRef<HTMLSpanElement>(null);
+  const startedRef = useRef(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !startedRef.current) {
+          startedRef.current = true;
+          const startTime = performance.now();
+
+          const animate = (currentTime: number) => {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+
+            // Ease out quad
+            const easeProgress = progress * (2 - progress);
+            const currentVal = easeProgress * target;
+
+            setCount(currentVal);
+
+            if (progress < 1) {
+              requestAnimationFrame(animate);
+            } else {
+              setCount(target);
+            }
+          };
+
+          requestAnimationFrame(animate);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [target, duration]);
+
+  return (
+    <span ref={elementRef}>
+      {count.toFixed(decimals)}
+      {suffix}
+    </span>
+  );
+}
 
 // ─────────────────────────────────────────
 // Feature icons mapped to data order
 // ─────────────────────────────────────────
 const FEAT_META: { icon: React.ReactNode; color: string }[] = [
-  { icon: <Target size={20} strokeWidth={1.9} />,     color: '#1B6EB5' },
-  { icon: <BarChart2 size={20} strokeWidth={1.9} />,  color: '#7c3aed' },
-  { icon: <Zap size={20} strokeWidth={1.9} />,        color: '#D4A017' },
-  { icon: <Trophy size={20} strokeWidth={1.9} />,     color: '#16a34a' },
-  { icon: <Newspaper size={20} strokeWidth={1.9} />,  color: '#0284c7' },
-  { icon: <BookOpen size={20} strokeWidth={1.9} />,   color: '#ea580c' },
+  { icon: <Target size={20} strokeWidth={1.9} />, color: '#1B6EB5' },
+  { icon: <BarChart2 size={20} strokeWidth={1.9} />, color: '#7c3aed' },
+  { icon: <Zap size={20} strokeWidth={1.9} />, color: '#D4A017' },
+  { icon: <Trophy size={20} strokeWidth={1.9} />, color: '#16a34a' },
+  { icon: <Newspaper size={20} strokeWidth={1.9} />, color: '#0284c7' },
+  { icon: <BookOpen size={20} strokeWidth={1.9} />, color: '#ea580c' },
+  { icon: <Clock size={20} strokeWidth={1.9} />, color: '#06b6d4' },
+  { icon: <HelpCircle size={20} strokeWidth={1.9} />, color: '#ec4899' },
 ];
 
 // ─────────────────────────────────────────
@@ -105,12 +151,12 @@ export default function WhyPrepBankerSection() {
         style={{ background: 'rgba(27,110,181,.05)' }}
       />
 
-      <div className="max-w-[1280px] mx-auto px-6 relative">
+      <div className="max-w-[1350px] mx-auto px-6 relative">
 
         {/* ── Section Title ── */}
         <div className="text-center mb-12">
           <span
-            className="inline-flex items-center gap-1.5 rounded-full px-4 py-1 text-[0.72rem] font-bold uppercase tracking-wider mb-4"
+            className="inline-flex items-center gap-1.5 rounded-full px-4 py-1 text-xs font-bold uppercase tracking-wider mb-4"
             style={{
               background: '#fef9e7',
               border: '1px solid #fde68a',
@@ -153,16 +199,16 @@ export default function WhyPrepBankerSection() {
         </div>
 
         {/* ── Stats Cards ── */}
-        <ul className="flex flex-wrap justify-center gap-4 mb-14">
+        <ul className="flex flex-wrap justify-center gap-5 mb-14 list-none">
           {PLATFORM_STATS.map((stat, i) => (
             <li
               key={i}
-              className="flex flex-col items-center gap-2 rounded-2xl px-6 py-5 border border-[#1A2D5A] bg-[#0D1B3E] text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#07102A] hover:shadow-[0_8px_28px_rgba(13,27,62,.25)]"
-              style={{ flex: '1 1 130px', maxWidth: 170 }}
+              className="flex flex-col items-center gap-3.5 rounded-2xl px-6 py-8 border border-[#1a2d5a] bg-[#0D1B3E] text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(13,27,62,0.22)]"
+              style={{ flex: '1 1 160px', maxWidth: 220 }}
             >
               {/* Icon badge */}
               <div
-                className="w-12 h-12 rounded-[14px] flex items-center justify-center"
+                className="w-12 h-12 rounded-[14px]  flex items-center justify-center"
                 style={{
                   background: stat.iconBg,
                   color: stat.iconColor,
@@ -173,14 +219,18 @@ export default function WhyPrepBankerSection() {
 
               {/* Value */}
               <span
-                className="font-bold text-[1.65rem] text-[#ffffff] leading-none tracking-tight"
+                className="font-extrabold text-[2.3rem] text-[#ffffff] leading-none tracking-tight"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                {stat.value}
+                <RunningCounter
+                  target={stat.target}
+                  decimals={stat.decimals}
+                  suffix={stat.suffix}
+                />
               </span>
 
               {/* Label */}
-              <span className="text-slate-300 text-[0.72rem] font-semibold text-center leading-snug">
+              <span className="text-slate-300 text-xs font-semibold text-center leading-snug">
                 {stat.label}
               </span>
             </li>
@@ -228,7 +278,7 @@ export default function WhyPrepBankerSection() {
                   <h3 className="font-bold text-[0.95rem] text-[#0D1B3E] mb-1 leading-snug">
                     {item.title}
                   </h3>
-                  <p className="text-slate-500 text-[0.81rem] leading-relaxed">
+                  <p className="text-slate-500 text-xs leading-relaxed">
                     {item.description}
                   </p>
                 </div>
@@ -264,12 +314,12 @@ export default function WhyPrepBankerSection() {
                 className="absolute inset-0 pointer-events-none rounded-[50px]"
                 style={{ animation: 'wb-shimmer 2.5s infinite' }}
               />
-              <ZapIcon size={16} strokeWidth={2.5} className="relative z-10" />
+              <Zap size={16} strokeWidth={2.5} className="relative z-10" />
               <span className="relative z-10">Start Preparing Free Today</span>
             </a>
           </div>
 
-          <p className="text-slate-400 text-[0.78rem] mt-3">
+          <p className="text-slate-400 text-xs mt-3">
             No credit card required · Free mock tests available
           </p>
         </div>

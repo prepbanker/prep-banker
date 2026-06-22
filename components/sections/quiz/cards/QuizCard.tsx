@@ -37,12 +37,12 @@ function QuizCard({ quiz }: Props) {
       <div className="px-4 pt-4 pb-2 flex items-center justify-between gap-2">
         <div className="flex items-center gap-1.5 flex-wrap">
           {/* Category Pill */}
-          <span className="inline-flex items-center justify-center px-2.5 py-0.5 rounded text-[10px] font-bold bg-[#E8F4FD] text-[var(--color-blue)] tracking-wide">
+          <span className="inline-flex items-center justify-center px-2.5 py-0.5 rounded text-xs font-bold bg-[#E8F4FD] text-[var(--color-blue)] tracking-wide">
             {categoryBadgeText(quiz.category)}
           </span>
 
           {/* Rating */}
-          <span className="inline-flex items-center gap-0.5 text-[11px] font-bold text-amber-500">
+          <span className="inline-flex items-center gap-0.5 text-xs font-bold text-amber-500">
             <Star className="w-3.5 h-3.5 fill-current" />
             {quiz.rating.toFixed(1)}
           </span>
@@ -51,11 +51,11 @@ function QuizCard({ quiz }: Props) {
         {/* Free / Premium Badge & Download button */}
         <div className="flex items-center gap-2">
           {isFree ? (
-            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-bold bg-[#16A34A] text-white tracking-wide">
+            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-xs font-bold bg-[#16A34A] text-white tracking-wide">
               Free
             </span>
           ) : (
-            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-bold bg-[#D4A017] text-white tracking-wide">
+            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-xs font-bold bg-[#D4A017] text-white tracking-wide">
               Premium
             </span>
           )}
@@ -84,7 +84,7 @@ function QuizCard({ quiz }: Props) {
 
       {/* ── Double-Column Meta Grid ── */}
       <div className="px-4 pb-4 border-t border-slate-100 pt-3">
-        <div className="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[11px] text-slate-500">
+        <div className="grid grid-cols-2 gap-y-2.5 gap-x-2 text-xs text-slate-500">
           {/* Duration */}
           <div className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
@@ -122,7 +122,7 @@ function QuizCard({ quiz }: Props) {
       </div>
 
       {/* ── Quiz Practice Bar ── */}
-      <div className="text-center py-2 bg-[#E8F4FD]/50 border-t border-slate-100 text-[11px] font-bold text-[var(--color-blue)] flex items-center justify-center gap-1">
+      <div className="text-center py-2 bg-[#E8F4FD]/50 border-t border-slate-100 text-xs font-bold text-[var(--color-blue)] flex items-center justify-center gap-1">
         <span>🎯</span>
         <span>Self-Paced Practice Quiz</span>
       </div>

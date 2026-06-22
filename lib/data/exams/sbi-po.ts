@@ -190,15 +190,14 @@ export const sbiPoData: ExamDetailData = {
   },
   salary: {
     basic: '₹41,960/month',
-    gross: '₹63,000 – ₹95,000/month',
-    ctc: '₹10 – 12 LPA',
+    gross: '₹73,000/month (starting gross)',
+    ctc: '₹8 – 12 LPA',
     allowances: [
-      'Dearness Allowance (DA) — ~₹17,200',
-      'House Rent Allowance — Metro: ₹9,030',
-      'House Rent Allowance — Urban: ₹6,300',
-      'House Rent Allowance — Semi-urban: ₹4,500',
-      'Special Allowance — ₹5,500',
-      'Transport Allowance — ₹1,200',
+      'Dearness Allowance (DA) — ~₹19,300',
+      'House Rent Allowance (Metro) — ~₹6,300',
+      'Special Allowance — ~₹4,500',
+      'City Compensatory Allowance — ~₹870',
+      'Medical Aid — ~₹350',
     ],
     perks: [
       'Mediclaim for self & family (₹6 lakh cover)',
@@ -291,7 +290,7 @@ export const sbiPoData: ExamDetailData = {
     },
     {
       q: 'What is the in-hand salary of SBI PO in 2026?',
-      a: 'SBI PO in-hand salary is approximately ₹63,000–₹68,000 per month in non-metro cities and ₹82,000–₹95,000 per month in metro cities, depending on HRA slab. The annual CTC is approximately ₹10–12 LPA.',
+      a: 'SBI PO starting in-hand salary is approximately ₹63,000 per month. Depending on the posting location and HRA slab, the starting gross salary is around ₹73,000 per month in metro cities. The annual starting CTC ranges between ₹8–12 LPA, depending on the perks and allowances availed.',
     },
     {
       q: 'How to prepare for SBI PO in 3 months?',

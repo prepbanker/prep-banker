@@ -4,7 +4,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Building2, BadgeCheck } from 'lucide-react';
+import { Building2, BadgeCheck, Users, DollarSign, Award, TrendingUp, HelpCircle } from 'lucide-react';
 import type { ExamDetailData } from '@/types/exam';
 import Breadcrumb from '@/components/shared/Breadcrumb';
 
@@ -15,6 +15,14 @@ interface Props {
 }
 
 const DESC_LIMIT = 180;
+
+const ICON_MAP: Record<string, React.ElementType> = {
+  Users,
+  DollarSign,
+  Award,
+  TrendingUp,
+  HelpCircle,
+};
 
 export default function ExamHero({ exam, title, description }: Props) {
   const pathname    = usePathname();
@@ -36,7 +44,7 @@ export default function ExamHero({ exam, title, description }: Props) {
     <div
       className="relative overflow-hidden"
       style={{
-        paddingTop: '3rem',
+        paddingTop: '2.5rem',
         background: isIbps
           ? 'linear-gradient(135deg, #3D2A00 0%, #07102A 100%)'
           : 'linear-gradient(135deg, #07102A 0%, #1A2D5A 100%)'
@@ -70,7 +78,7 @@ export default function ExamHero({ exam, title, description }: Props) {
         />
       </div>
 
-      <div className="epg-container relative z-10">
+      <div className="epg-container relative z-10 pb-8">
 
         {/* ── Breadcrumb ── */}
         <Breadcrumb
@@ -91,81 +99,118 @@ export default function ExamHero({ exam, title, description }: Props) {
           linkColor={isIbps ? '#F0B429' : '#60B4FF'}
         />
 
-        {/* ── Exam switcher ── */}
-        {!title && (
-          <div className="epg-switcher mt-8">
-            <Link
-              href={sbiHref}
-              className={'epg-sw-btn' + (pathname.startsWith('/sbi-po') ? ' active-sbi' : '')}
-            >
-              <Building2 size={13} />SBI PO
-            </Link>
-            <Link
-              href={ibpsHref}
-              className={'epg-sw-btn' + (pathname.startsWith('/ibps-po') ? ' active-ibps' : '')}
-            >
-              <BadgeCheck size={13} />IBPS PO
-            </Link>
-          </div>
-        )}
-
-        {/* ── Hero copy ── */}
-        <div style={{ maxWidth: 800, marginTop: title ? '1.25rem' : '0', paddingBottom: '2.25rem' }}>
-
-          {/* Status badge */}
-          <div
-            className="epg-status-badge"
-            style={{
-              background: exam.tagColor + '22',
-              border: '1px solid ' + exam.tagColor + '55',
-              color: exam.tagColor,
-            }}
-          >
-            <span style={{
-              width: 6, height: 6,
-              borderRadius: '50%',
-              background: exam.tagColor,
-              display: 'inline-block',
-            }} />
-            {exam.tag}
-          </div>
-
-          {/* Headline */}
-          <h1 style={{
-            fontFamily: 'var(--font-display)',
-            fontWeight: 800,
-            fontSize: 'clamp(1.6rem, 3vw, 2.4rem)',
-            color: '#fff',
-            lineHeight: 1.15,
-            marginBottom: '0.875rem',
-          }}>
-            {title ? (
-              title
-            ) : (
-              <>
-                {exam.shortName}{' '}
-                <span className="text-gold-gradient">
-                  Recruitment 2026
-                </span>{' '}
-                Notification
-              </>
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mt-6">
+          {/* Left Column: Copy & Switcher */}
+          <div className="flex-1 max-w-2xl text-left">
+            {/* ── Exam switcher ── */}
+            {!title && (
+              <div className="epg-switcher mb-5">
+                <Link
+                  href={sbiHref}
+                  className={'epg-sw-btn' + (pathname.startsWith('/sbi-po') ? ' active-sbi' : '')}
+                >
+                  <Building2 size={13} />SBI PO
+                </Link>
+                <Link
+                  href={ibpsHref}
+                  className={'epg-sw-btn' + (pathname.startsWith('/ibps-po') ? ' active-ibps' : '')}
+                >
+                  <BadgeCheck size={13} />IBPS PO
+                </Link>
+              </div>
             )}
-          </h1>
 
-          {/* Description */}
-          <p style={{ color: 'rgba(255,255,255,0.62)', fontSize: '1rem', lineHeight: 1.7 }}>
-            {displayDesc}
-          </p>
-
-          {hasMore && (
-            <button
-              className="epg-read-more-btn"
-              onClick={() => setExpanded(v => !v)}
-              style={{ color: readMoreColor, marginTop: 8 }}
+            {/* Status badge */}
+            <div
+              className="epg-status-badge mb-4 inline-flex items-center gap-1.5"
+              style={{
+                background: exam.tagColor + '22',
+                border: '1px solid ' + exam.tagColor + '55',
+                color: exam.tagColor,
+              }}
             >
-              {expanded ? 'Read less ↑' : 'Read more ↓'}
-            </button>
-          )}
+              <span style={{
+                width: 6, height: 6,
+                borderRadius: '50%',
+                background: exam.tagColor,
+                display: 'inline-block',
+              }} />
+              {exam.tag}
+            </div>
+
+            {/* Headline */}
+            <h1 style={{
+              fontFamily: 'var(--font-display)',
+              fontWeight: 800,
+              fontSize: 'clamp(1.6rem, 3vw, 2.4rem)',
+              color: '#fff',
+              lineHeight: 1.15,
+              marginBottom: '0.875rem',
+            }}>
+              {title ? (
+                title
+              ) : (
+                <>
+                  {exam.shortName}{' '}
+                  <span className="text-gold-gradient">
+                    Recruitment 2026
+                  </span>{' '}
+                  Notification
+                </>
+              )}
+            </h1>
+
+            {/* Description */}
+            <p style={{ color: 'rgba(255,255,255,0.62)', fontSize: '1rem', lineHeight: 1.7 }}>
+              {displayDesc}
+            </p>
+
+            {hasMore && (
+              <button
+                className="epg-read-more-btn font-bold underline hover:text-white transition-colors"
+                onClick={() => setExpanded(v => !v)}
+                style={{ color: readMoreColor, marginTop: 8 }}
+              >
+                {expanded ? 'Read less ↑' : 'Read more ↓'}
+              </button>
+            )}
+          </div>
+
+          {/* Right Column: 4 Stats Cards in 2x2 Grid */}
+          <div className="flex-shrink-0 w-full lg:w-auto mt-6 lg:mt-0">
+            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-3 max-w-[290px] sm:max-w-none lg:max-w-[300px] mx-auto lg:mx-0">
+              {exam.summaryCards.slice(0, 4).map((card) => {
+                const Icon = ICON_MAP[card.iconKey] ?? Users;
+                return (
+                  <div
+                    key={card.label}
+                    className="flex flex-col items-start p-3.5 rounded-xl border w-full h-auto text-left transition-all"
+                    style={{
+                      background: 'rgba(255,255,255,0.06)',
+                      border: '1px solid rgba(255,255,255,0.10)',
+                      backdropFilter: 'blur(6px)',
+                    }}
+                  >
+                    <div className="flex items-center gap-2 mb-1.5 w-full">
+                      <span
+                        className="p-1.5 rounded-md flex-shrink-0"
+                        style={{ background: 'rgba(255,255,255,0.08)' }}
+                      >
+                        <Icon className="w-4 h-4 text-[var(--color-gold-bright)]" aria-hidden />
+                      </span>
+                      <p className="text-base font-black text-white leading-none break-words min-w-0">{card.value}</p>
+                    </div>
+                    <p
+                      className="text-xs font-semibold mt-0.5 leading-tight"
+                      style={{ color: 'rgba(255,255,255,0.55)' }}
+                    >
+                      {card.label}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
 
       </div>

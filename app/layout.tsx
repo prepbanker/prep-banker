@@ -1,13 +1,6 @@
 // PATH: app/layout.tsx
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-});
 
 
 // ─────────────────────────────────────────
@@ -88,24 +81,12 @@ export const viewport: Viewport = {
 };
 
 import StickyBottomCTA from '@/components/shared/StickyBottomCTA';
+import Script from 'next/script';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4MJ8ENML7" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-C4MJ8ENML7');
-            `,
-          }}
-        />
         {/* Organization Schema */}
         <script
           type="application/ld+json"
@@ -127,7 +108,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className={inter.variable} suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        {/* Google Analytics (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-C4MJ8ENML7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-C4MJ8ENML7');
+          `}
+        </Script>
         {children}
         <StickyBottomCTA />
       </body>

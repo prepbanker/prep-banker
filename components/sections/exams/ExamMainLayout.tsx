@@ -26,6 +26,7 @@ import {
   BookOpen,
   X,
   ShieldAlert,
+  Users,
 } from 'lucide-react';
 import type { ExamDetailData } from '@/types/exam';
 import Header from '@/components/layout/Header';
@@ -41,6 +42,14 @@ interface Props {
 export default function ExamMainLayout({ exam }: Props) {
   const isSbi = exam.id === 'sbi-po';
   const brandColor = isSbi ? '#1B6EB5' : '#F0B429';
+
+  const ICON_MAP: Record<string, React.ElementType> = {
+    Users,
+    DollarSign,
+    Award,
+    TrendingUp,
+    HelpCircle,
+  };
 
   const [syllabusTab, setSyllabusTab] = useState<'prelims' | 'mains'>('prelims');
   const [patternTab, setPatternTab] = useState<'prelims' | 'mains'>('prelims');
@@ -264,8 +273,8 @@ export default function ExamMainLayout({ exam }: Props) {
         className="w-full rounded-lg border border-slate-200 bg-white p-2.5 flex items-start gap-2 text-slate-700 text-left font-sans"
       >
         <div className="flex flex-col gap-0.5 break-words min-w-0 flex-1 leading-normal">
-          <span className="text-[11px] font-bold text-slate-800">{mainText}</span>
-          {subText && <span className="text-[9px] font-normal text-slate-400 leading-tight">{subText}</span>}
+          <span className="text-xs font-bold text-slate-800">{mainText}</span>
+          {subText && <span className="text-xs font-normal text-slate-400 leading-tight">{subText}</span>}
         </div>
       </div>
     );
@@ -278,7 +287,7 @@ export default function ExamMainLayout({ exam }: Props) {
       {/* Hero Section */}
       <section
         id="hero"
-        className="relative overflow-hidden text-white pt-12 pb-7"
+        className="relative overflow-hidden text-white pt-10 pb-8"
         style={{
           background: isSbi
             ? 'linear-gradient(135deg, #07102A 0%, #1A2D5A 100%)'
@@ -318,73 +327,99 @@ export default function ExamMainLayout({ exam }: Props) {
             />
           </div>
 
-          {/* Status badge */}
-          <span
-            className="inline-flex items-center gap-1 border px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3"
-            style={{
-              backgroundColor: `${exam.tagColor}1F`,
-              borderColor: `${exam.tagColor}4D`,
-              color: exam.tagColor,
-            }}
-          >
-            <span className="w-2 h-2 rounded-full bg-[currentColor] animate-pulse" />
-            {exam.tag}
-          </span>
-
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold font-display leading-tight max-w-4xl mb-2.5 tracking-tight">
-            {exam.name}
-          </h1>
-
-          {isSbi && (
-            <h2 className="text-lg sm:text-xl font-bold text-white/90 mb-3 font-display">
-              Crack SBI PO 2026 with India's Most Complete Prep Platform
-            </h2>
-          )}
-
-          <p className="text-white/70 text-sm sm:text-base max-w-3xl mb-5 leading-relaxed font-normal">
-            {displayDesc}{' '}
-            {hasMoreDesc && (
-              <button
-                onClick={() => setDescExpanded(v => !v)}
-                className="font-bold underline hover:text-white transition-colors ml-1 focus:outline-none text-xs sm:text-[13px]"
-                style={{ color: isSbi ? '#60B4FF' : '#F0B429' }}
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mt-4 pb-4">
+            {/* Left Column: Copy & Switcher */}
+            <div className="flex-1 max-w-2xl">
+              {/* Status badge */}
+              <span
+                className="inline-flex items-center gap-1.5 border px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4"
+                style={{
+                  backgroundColor: `${exam.tagColor}1F`,
+                  borderColor: `${exam.tagColor}4D`,
+                  color: exam.tagColor,
+                }}
               >
-                {descExpanded ? 'Read Less ↑' : 'Read More ↓'}
-              </button>
-            )}
-          </p>
+                <span className="w-2 h-2 rounded-full bg-[currentColor] animate-pulse" />
+                {exam.tag}
+              </span>
 
-          {/* 4 Stat Pills */}
-          <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mb-6">
-            {exam.summaryCards.slice(0, 4).map((card) => (
-              <li
-                key={card.label}
-                className="bg-white/5 border border-white/15 px-4 py-3.5 rounded-xl backdrop-blur-sm flex flex-col justify-between min-h-[5.5rem] sm:min-h-[6rem] transition-all hover:bg-white/10"
-              >
-                <span className="block text-[var(--color-gold-bright)] text-sm sm:text-base md:text-lg font-black tracking-tight leading-snug break-words whitespace-pre-wrap">
-                  {card.value}
-                </span>
-                <span className="text-xs sm:text-sm text-white/70 block font-semibold mt-1.5">{card.label}</span>
-              </li>
-            ))}
-          </ul>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold font-display leading-tight mb-2.5 tracking-tight text-white">
+                {exam.name}
+              </h1>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-wrap gap-3 justify-start items-center">
-            <a
-              href="https://app.prepgrind.com/register"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-sm sm:text-base tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
-            >
-              Start Free Mock Test →
-            </a>
-            <a
-              href="#sectional-tests"
-              className="px-4 py-2.5 rounded-lg border border-white/30 hover:border-white text-white font-bold text-sm sm:text-base tracking-wide text-center transition-all hover:bg-white/5"
-            >
-              View {exam.shortName} Sectional Tests →
-            </a>
+              {isSbi && (
+                <h2 className="text-lg sm:text-xl font-bold text-white/90 mb-3 font-display">
+                  Crack SBI PO 2026 with India's Most Complete Prep Platform
+                </h2>
+              )}
+
+              <p className="text-white/70 text-sm sm:text-base mb-5 leading-relaxed font-normal">
+                {displayDesc}{' '}
+                {hasMoreDesc && (
+                  <button
+                    onClick={() => setDescExpanded(v => !v)}
+                    className="font-bold underline hover:text-white transition-colors ml-1 focus:outline-none text-xs sm:text-xs"
+                    style={{ color: isSbi ? '#60B4FF' : '#F0B429' }}
+                  >
+                    {descExpanded ? 'Read Less ↑' : 'Read More ↓'}
+                  </button>
+                )}
+              </p>
+
+              {/* CTA Buttons */}
+              <div className="flex flex-wrap gap-3 justify-start items-center">
+                <a
+                  href="https://app.prepgrind.com/register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-sm sm:text-base tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
+                >
+                  Start Free Mock Test →
+                </a>
+                <a
+                  href="#sectional-tests"
+                  className="px-4 py-2.5 rounded-lg border border-white/30 hover:border-white text-white font-bold text-sm sm:text-base tracking-wide text-center transition-all hover:bg-white/5"
+                >
+                  View {exam.shortName} Sectional Tests →
+                </a>
+              </div>
+            </div>
+
+            {/* Right Column: 4 Stats Cards in 2x2 Grid */}
+            <div className="flex-shrink-0 w-full lg:w-auto mt-6 lg:mt-0">
+              <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-3 max-w-[290px] sm:max-w-none lg:max-w-[300px] mx-auto lg:mx-0">
+                {exam.summaryCards.slice(0, 4).map((card) => {
+                  const Icon = ICON_MAP[card.iconKey] ?? Users;
+                  return (
+                    <div
+                      key={card.label}
+                      className="flex flex-col items-start p-3.5 rounded-xl border w-full h-auto text-left transition-all"
+                      style={{
+                        background: 'rgba(255,255,255,0.06)',
+                        border: '1px solid rgba(255,255,255,0.10)',
+                        backdropFilter: 'blur(6px)',
+                      }}
+                    >
+                      <div className="flex items-center gap-2 mb-1.5 w-full">
+                        <span
+                          className="p-1.5 rounded-md flex-shrink-0"
+                          style={{ background: 'rgba(255,255,255,0.08)' }}
+                        >
+                          <Icon className="w-4 h-4 text-[var(--color-gold-bright)]" aria-hidden />
+                        </span>
+                        <p className="text-base font-black text-white leading-none break-words min-w-0">{card.value}</p>
+                      </div>
+                      <p
+                        className="text-xs font-semibold mt-0.5 leading-tight"
+                        style={{ color: 'rgba(255,255,255,0.55)' }}
+                      >
+                        {card.label}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -392,51 +427,43 @@ export default function ExamMainLayout({ exam }: Props) {
       {/* Horizontal Overview Card / Highlights Bar */}
       <div className="container-custom">
         <section className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs scroll-mt-20 relative overflow-hidden" style={{ marginTop: '1.25rem', marginBottom: '1.25rem' }}>
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 relative z-10">
-
-            {/* Left Column: Dates & Vacancies info */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 flex-1 w-full">
-              <div>
-                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
-                <span className="block text-sm sm:text-base font-bold text-slate-800">
-                  {isSbi ? 'April 2026 (Expected)' : 'August 2026 (Expected)'}
-                </span>
-              </div>
-              <div>
-                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
-                <span className="block text-sm sm:text-base font-bold text-slate-800">
-                  {isSbi ? '2,000+ Posts' : '3,500+ Posts'}
-                </span>
-              </div>
-              <div>
-                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
-                <span className="block text-sm sm:text-base font-bold text-slate-800">
-                  {isSbi ? 'June 2026' : 'October 2026'}
-                </span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 items-center w-full relative z-10">
+            <div>
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Online Registration Date</span>
+              <span className="block text-sm sm:text-base font-bold text-slate-800">
+                {isSbi ? 'April 2026 (Expected)' : 'August 2026 (Expected)'}
+              </span>
+            </div>
+            <div>
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Expected Vacancies</span>
+              <span className="block text-sm sm:text-base font-bold text-slate-800">
+                {isSbi ? '2,000+ Posts' : '3,500+ Posts'}
+              </span>
+            </div>
+            <div>
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Prelims Exam Date</span>
+              <span className="block text-sm sm:text-base font-bold text-slate-800">
+                {isSbi ? 'June 2026' : 'October 2026'}
+              </span>
+            </div>
+            <div className="flex flex-col sm:items-start md:items-center">
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1 w-full md:text-center md:hidden lg:block">Exam Status</span>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-emerald-50/70 border border-emerald-200 text-emerald-800 font-bold text-xs rounded-xl shadow-xs">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0 animate-pulse" />
+                {exam.tag}
               </div>
             </div>
-
-            {/* Vertical divider on desktop */}
-            <div className="hidden md:block w-px bg-slate-200 self-stretch" />
-
-            {/* Right Column: Status & Official Website */}
-            <div className="flex flex-col gap-2.5 w-full md:w-auto shrink-0 items-start md:items-end">
-              <div className="flex items-center gap-2 px-4 py-2 bg-emerald-50/70 border border-emerald-200 text-emerald-800 font-bold text-sm rounded-xl shadow-xs">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" style={{ animation: 'pulse-live 1.5s infinite' }} />
-                Status: {exam.tag}
-              </div>
-              <span className="text-xs sm:text-sm text-slate-400 flex items-center gap-1 font-semibold">
-                Official Website:{' '}
-                <a
-                  href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[var(--color-blue)] hover:underline flex items-center gap-0.5 font-bold"
-                >
-                  {isSbi ? 'sbi.co.in' : 'ibps.in'}
-                  <ExternalLink size={8} />
-                </a>
-              </span>
+            <div className="flex flex-col sm:items-start md:items-end w-full">
+              <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1 w-full md:text-right md:hidden lg:block">Official Portal</span>
+              <a
+                href={isSbi ? 'https://sbi.co.in' : 'https://ibps.in'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 font-bold text-xs rounded-xl hover:bg-slate-100 hover:text-slate-900 transition-colors"
+              >
+                {isSbi ? 'sbi.co.in' : 'ibps.in'}
+                <ExternalLink size={12} />
+              </a>
             </div>
           </div>
         </section>
@@ -500,63 +527,40 @@ export default function ExamMainLayout({ exam }: Props) {
               {isSbi ? 'SBI PO 2026 at a Glance' : `${exam.shortName} Overview Highlights`}
             </h2>
             {isSbi ? (
-              <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                  <thead>
-                    <tr className="bg-slate-900 text-white font-bold">
-                      <th className="px-4 py-2.5">Parameter</th>
-                      <th className="px-4 py-2.5">Details</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-slate-100 text-slate-650">
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-slate-800">Full Name</td>
-                      <td className="px-4 py-3">State Bank of India Probationary Officer</td>
-                    </tr>
-                    <tr className="bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Conducting Body</td>
-                      <td className="px-4 py-3">State Bank of India (SBI)</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-slate-800">Notification</td>
-                      <td className="px-4 py-3">April 2026</td>
-                    </tr>
-                    <tr className="bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Total Vacancies</td>
-                      <td className="px-4 py-3">2,000+ (Expected)</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-slate-800">Application Mode</td>
-                      <td className="px-4 py-3">Online — sbi.co.in</td>
-                    </tr>
-                    <tr className="bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Exam Mode</td>
-                      <td className="px-4 py-3">Computer Based Test (CBT)</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-slate-800">Selection Stages</td>
-                      <td className="px-4 py-3">Prelims → Mains → Group Exercise → Interview</td>
-                    </tr>
-                    <tr className="bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay</td>
-                      <td className="px-4 py-3">₹41,960/month</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-slate-800">Gross Salary</td>
-                      <td className="px-4 py-3">₹63,000 – ₹95,000/month</td>
-                    </tr>
-                    <tr className="bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Job Location</td>
-                      <td className="px-4 py-3">Pan India</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-slate-800">Official Website</td>
-                      <td className="px-4 py-3">
-                        <a href="https://sbi.co.in" target="_blank" rel="noopener noreferrer" className="text-[#1B6EB5] hover:underline font-bold">sbi.co.in</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { label: 'Full Name', value: 'State Bank of India Probationary Officer' },
+                  { label: 'Conducting Body', value: 'State Bank of India (SBI)' },
+                  { label: 'Notification', value: 'April 2026' },
+                  { label: 'Total Vacancies', value: '2,000+ (Expected)' },
+                  { label: 'Application Mode', value: 'Online — sbi.co.in' },
+                  { label: 'Exam Mode', value: 'Computer Based Test (CBT)' },
+                  { label: 'Selection Stages', value: 'Prelims → Mains → GE → Interview' },
+                  { label: 'Basic Pay', value: '₹41,960/month' },
+                  { label: 'Gross Salary', value: '₹63,000 – ₹95,000/month' },
+                  { label: 'Job Location', value: 'Pan India' },
+                  { label: 'Official Website', value: 'sbi.co.in', isLink: true, href: 'https://sbi.co.in' },
+                ].map((item) => (
+                  <div
+                    key={item.label}
+                    className="bg-white border border-slate-150 p-4 rounded-xl border-l-4 shadow-xs"
+                    style={{ borderLeftColor: brandColor }}
+                  >
+                    <span className="block text-xs sm:text-sm font-bold text-slate-400 uppercase tracking-wider">{item.label}</span>
+                    {item.isLink ? (
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block text-sm sm:text-base font-extrabold text-[#1B6EB5] hover:underline mt-1"
+                      >
+                        {item.value}
+                      </a>
+                    ) : (
+                      <span className="block text-sm sm:text-base font-extrabold text-slate-850 mt-1">{item.value}</span>
+                    )}
+                  </div>
+                ))}
               </div>
             ) : (
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -584,83 +588,17 @@ export default function ExamMainLayout({ exam }: Props) {
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-3">
                   Never miss a deadline. Below are the expected key dates for SBI PO 2026 based on the official notification and previous year patterns.
                 </p>
-                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                    <thead>
-                      <tr className="bg-slate-900 text-white font-bold">
-                        <th className="px-4 py-2.5">Event</th>
-                        <th className="px-4 py-2.5">Expected Date</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100 text-slate-650">
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Official Notification Release</td>
-                        <td className="px-4 py-3">April 2026</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Online Application Opens</td>
-                        <td className="px-4 py-3">April 2026</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Application Deadline</td>
-                        <td className="px-4 py-3">May 2026</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Application Fee Payment Last Date</td>
-                        <td className="px-4 py-3">May 2026</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Prelims Admit Card Download</td>
-                        <td className="px-4 py-3">May–June 2026</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Prelims Exam</td>
-                        <td className="px-4 py-3">June 2026</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Prelims Result Declaration</td>
-                        <td className="px-4 py-3">July 2026</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Mains Admit Card Download</td>
-                        <td className="px-4 py-3">July 2026</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Mains Exam</td>
-                        <td className="px-4 py-3">August 2026</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Mains Result Declaration</td>
-                        <td className="px-4 py-3">September 2026</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">Group Exercise & Interview</td>
-                        <td className="px-4 py-3">October–November 2026</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">Final Result & Merit List</td>
-                        <td className="px-4 py-3">November–December 2026</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <p className="text-sm text-slate-500 italic mt-2">
-                  "These dates are indicative based on the SBI PO 2025 cycle. Official dates will be confirmed at sbi.co.in upon notification release. BankerPrep will update this page immediately."
-                </p>
-              </div>
-            ) : (
-              <>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
                   {exam.dates.slice(0, 6).map((date) => {
                     const isUpcoming = date.status === 'upcoming';
                     return (
-                      <div key={date.event} className="bg-slate-50/50 border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
+                      <div key={date.event} className="bg-white border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
                         <div className="space-y-1">
                           <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
                           <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</h4>
                           <span className="block text-sm font-bold text-[#1B6EB5]">{date.date}</span>
                         </div>
-                        <span className={`text-[10px] sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
+                        <span className={`text-xs sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
                           }`}>
                           {date.status}
                         </span>
@@ -668,7 +606,34 @@ export default function ExamMainLayout({ exam }: Props) {
                     );
                   })}
                 </div>
-              </>
+                <p className="text-sm text-slate-500 italic mt-2">
+                  "These dates are indicative based on the SBI PO 2025 cycle. Official dates will be confirmed at sbi.co.in upon notification release. BankerPrep will update this page immediately."
+                </p>
+              </div>
+            ) : (
+              <div className="space-y-4">
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-3">
+                  Never miss a deadline. Below are the expected key dates for IBPS PO 2026 based on the official notification and previous year patterns.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                  {exam.dates.slice(0, 6).map((date) => {
+                    const isUpcoming = date.status === 'upcoming';
+                    return (
+                      <div key={date.event} className="bg-white border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
+                        <div className="space-y-1">
+                          <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
+                          <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</h4>
+                          <span className="block text-sm font-bold text-[#1B6EB5]">{date.date}</span>
+                        </div>
+                        <span className={`text-xs sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
+                          }`}>
+                          {date.status}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             )}
             <div className="mt-4">
               <Link
@@ -695,93 +660,61 @@ export default function ExamMainLayout({ exam }: Props) {
                   <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal">{exam.eligibility.education}</p>
                 </div>
 
-                <div className="space-y-3">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Age Limit Table</h4>
+                <div className="space-y-4">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Age Limit & Relaxation</h4>
                   <p className="text-xs text-slate-400">Note: Age is calculated as of 1st April 2026.</p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Category</th>
-                          <th className="px-4 py-2.5">Minimum Age</th>
-                          <th className="px-4 py-2.5">Maximum Age</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">General / UR</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">30 years</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">OBC (Non-Creamy Layer)</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">33 years</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">SC / ST</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">35 years</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">EWS</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">30 years</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD (General/EWS)</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">40 years</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD (OBC)</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">43 years</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD (SC/ST)</td>
-                          <td className="px-4 py-3">21 years</td>
-                          <td className="px-4 py-3">45 years</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Ex-Servicemen</td>
-                          <td className="px-4 py-3">As per govt norms</td>
-                          <td className="px-4 py-3">—</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    {[
+                      { category: 'General / UR', age: '21 – 30 years', note: 'Standard age range' },
+                      { category: 'OBC (Non-Creamy)', age: '21 – 33 years', note: '3 years relaxation' },
+                      { category: 'SC / ST', age: '21 – 35 years', note: '5 years relaxation' },
+                      { category: 'EWS', age: '21 – 30 years', note: 'No age relaxation' },
+                      { category: 'PwBD (General/EWS)', age: '21 – 40 years', note: '10 years relaxation' },
+                      { category: 'PwBD (OBC)', age: '21 – 43 years', note: '13 years relaxation' },
+                      { category: 'PwBD (SC/ST)', age: '21 – 45 years', note: '15 years relaxation' },
+                      { category: 'Ex-Servicemen', age: 'As per Govt Norms', note: 'Relaxation based on service' },
+                    ].map((item) => (
+                      <div
+                        key={item.category}
+                        className="bg-white border border-slate-150 p-4 rounded-xl shadow-xs hover:border-[#1B6EB5] transition-colors"
+                      >
+                        <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">{item.category}</span>
+                        <span className="block text-base font-extrabold text-slate-850 mt-1.5">{item.age}</span>
+                        <span className="block text-xs text-slate-500 mt-1 font-semibold">{item.note}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
 
-                <div className="space-y-3">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Number of Attempts Table</h4>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Category</th>
-                          <th className="px-4 py-2.5">Maximum Attempts</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">General / EWS</td>
-                          <td className="px-4 py-3">4</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">OBC (Non-Creamy Layer)</td>
-                          <td className="px-4 py-3">7</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">SC / ST</td>
-                          <td className="px-4 py-3">Unlimited (within age limit)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD</td>
-                          <td className="px-4 py-3">Unlimited (within age limit)</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                <div className="space-y-4">
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Number of Attempts Cap</h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    {[
+                      { category: 'General / EWS', attempts: '4 Attempts', note: 'Counted for Prelims/Mains' },
+                      { category: 'OBC (Non-Creamy)', attempts: '7 Attempts', note: 'Counted for Prelims/Mains' },
+                      { category: 'SC / ST', attempts: 'Unlimited', note: 'No attempt caps' },
+                      { category: 'PwBD (General/OBC/EWS)', attempts: '7 Attempts', note: 'General/OBC/EWS PwBD' },
+                    ].map((item) => {
+                      const isUnlimited = item.attempts === 'Unlimited';
+                      return (
+                        <div
+                          key={item.category}
+                          className="bg-white border border-slate-150 p-4 rounded-xl shadow-xs flex flex-col justify-between"
+                        >
+                          <div>
+                            <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">{item.category}</span>
+                            <span className="block text-xs text-slate-500 mt-1.5 leading-snug">{item.note}</span>
+                          </div>
+                          <div className="mt-3.5">
+                            <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${
+                              isUnlimited ? 'bg-emerald-50 text-emerald-800 border border-emerald-200' : 'bg-amber-50 text-amber-800 border border-amber-200'
+                            }`}>
+                              {item.attempts}
+                            </span>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
@@ -999,7 +932,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     {exam.syllabus['English Language']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
                       href={`/${exam.id}/syllabus`}
-                      className="text-[10px] font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      className="text-xs font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
                     >
                       + View All Syllabus Topics
                     </Link>
@@ -1013,7 +946,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     {exam.syllabus['Quantitative Aptitude']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
                       href={`/${exam.id}/syllabus`}
-                      className="text-[10px] font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      className="text-xs font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
                     >
                       + View All Syllabus Topics
                     </Link>
@@ -1027,7 +960,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     {exam.syllabus['Reasoning Ability']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
                       href={`/${exam.id}/syllabus`}
-                      className="text-[10px] font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      className="text-xs font-extrabold text-[#1B6EB5] hover:text-[#2481CC] bg-blue-50/50 hover:bg-blue-50 border border-blue-100/50 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
                     >
                       + View All Syllabus Topics
                     </Link>
@@ -1046,7 +979,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       : ['Puzzles & Seating', 'Machine Input-Output', 'Data Sufficiency', 'Computer Networks'].map((t) => renderTopicBadge(t))}
                     <Link
                       href={`/${exam.id}/syllabus`}
-                      className="text-[10px] font-extrabold hover:text-slate-800 bg-amber-50 hover:bg-amber-100 border border-amber-100 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      className="text-xs font-extrabold hover:text-slate-800 bg-amber-50 hover:bg-amber-100 border border-amber-100 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
                       style={{
                         color: isSbi ? '#1B6EB5' : '#7A5200',
                         borderColor: isSbi ? '#bfdbfe' : '#fef3c7',
@@ -1067,7 +1000,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       : exam.syllabus['General/Banking Awareness']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
                       href={`/${exam.id}/syllabus`}
-                      className="text-[10px] font-extrabold hover:text-slate-800 bg-amber-50 hover:bg-amber-100 border border-amber-100 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
+                      className="text-xs font-extrabold hover:text-slate-800 bg-amber-50 hover:bg-amber-100 border border-amber-100 px-2.5 py-1.5 rounded-lg text-center cursor-pointer transition-colors block w-full mt-1.5 text-center no-underline"
                       style={{
                         color: isSbi ? '#1B6EB5' : '#7A5200',
                         borderColor: isSbi ? '#bfdbfe' : '#fef3c7',
@@ -1181,7 +1114,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     20 high-fidelity test simulations matching the current difficulty trends, designed with sectional timers.
                   </p>
                   <div className="mt-4 flex items-center justify-between">
-                    <span className="text-[11px] font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">5 Mocks Free</span>
+                    <span className="text-xs font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">5 Mocks Free</span>
                     <span className="text-xs font-bold text-slate-500">20 Total Mocks</span>
                   </div>
                 </div>
@@ -1192,7 +1125,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     15 advanced level full mocks testing analytical ability and descriptive writing simulation answers.
                   </p>
                   <div className="mt-4 flex items-center justify-between">
-                    <span className="text-[11px] font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">3 Mocks Free</span>
+                    <span className="text-xs font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">3 Mocks Free</span>
                     <span className="text-xs font-bold text-slate-500">15 Total Mocks</span>
                   </div>
                 </div>
@@ -1726,7 +1659,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
                         Start with Fill in the Blanks and Error Detection. Attempt Cloze Test next. Save RC for last.
                       </p>
-                      <span className="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
+                      <span className="text-xs font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
                         Target: 22–25 attempts (85–90% acc.)
                       </span>
                     </div>
@@ -1736,7 +1669,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
                         Start with Simplification, Number Series, then Quadratic Equations. Attempt DI last. Skip tough Qs.
                       </p>
-                      <span className="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
+                      <span className="text-xs font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
                         Target: 22–25 attempts (80%+ acc.)
                       </span>
                     </div>
@@ -1746,7 +1679,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
                         Start with Inequalities, Syllogisms, and Coding-Decoding. Attempt puzzles only if time permits.
                       </p>
-                      <span className="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
+                      <span className="text-xs font-bold text-slate-700 bg-white border border-slate-200 px-2 py-0.5 rounded block w-fit">
                         Target: 22–25 attempts (85%+ acc.)
                       </span>
                     </div>
@@ -1927,7 +1860,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     const heightPercent = Math.min(100, Math.round((score / 80) * 100));
                     return (
                       <div key={cutoff.year} className="flex flex-col items-center gap-2 w-16 group">
-                        <span className="text-[11px] font-black text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded shadow-xs opacity-90 group-hover:scale-105 transition-transform">
+                        <span className="text-xs font-black text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded shadow-xs opacity-90 group-hover:scale-105 transition-transform">
                           {score} M
                         </span>
                         <div
@@ -2094,35 +2027,35 @@ export default function ExamMainLayout({ exam }: Props) {
                 <div className="bg-gradient-to-br from-slate-900 to-[#1e293b] border border-slate-850 p-5 rounded-2xl text-white shadow-md mb-5">
                   <div className="flex justify-between items-center border-b border-slate-800 pb-3 mb-4 flex-wrap gap-2">
                     <div>
-                      <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-widest">Post Cadre: Scale I</span>
+                      <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Post Cadre: Scale I</span>
                       <h4 className="font-extrabold text-xs sm:text-sm mt-0.5">{exam.shortName} Entry Level Salary Structure</h4>
                     </div>
-                    <span className="text-[10px] font-black text-[#1B6EB5] bg-blue-50/10 border border-blue-50/20 px-2.5 py-1 rounded-md uppercase tracking-wider">
+                    <span className="text-xs font-black text-[#1B6EB5] bg-blue-50/10 border border-blue-50/20 px-2.5 py-1 rounded-md uppercase tracking-wider">
                       Confirmed Post
                     </span>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-3">
                       <div>
-                        <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-widest">Basic Starting Pay</span>
+                        <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Basic Starting Pay</span>
                         <span className="block text-xl sm:text-2xl font-black text-[var(--color-gold-bright)] mt-0.5">{exam.salary.basic}</span>
                       </div>
                       <div>
-                        <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-widest">Metro City Gross In-Hand</span>
+                        <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Metro City Gross In-Hand</span>
                         <span className="block text-xl sm:text-2xl font-black text-white mt-0.5">{exam.salary.gross}</span>
                       </div>
                     </div>
                     <div className="bg-white/5 border border-white/10 p-4 rounded-xl flex flex-col justify-between">
-                      <span className="block text-[9px] font-bold text-slate-300 uppercase tracking-widest border-b border-white/10 pb-1 mb-2">
+                      <span className="block text-xs font-bold text-slate-300 uppercase tracking-widest border-b border-white/10 pb-1 mb-2">
                         Key Allowance Benefits
                       </span>
                       <div className="flex flex-wrap gap-1.5">
                         {exam.salary.allowances.slice(0, 4).map((allow) => (
-                          <span key={allow} className="text-[9px] sm:text-[10px] font-bold bg-white/10 text-slate-200 px-2 py-0.5 rounded">
+                          <span key={allow} className="text-xs sm:text-xs font-bold bg-white/10 text-slate-200 px-2 py-0.5 rounded">
                             {allow}
                           </span>
                         ))}
-                        <span className="text-[9px] sm:text-[10px] font-extrabold text-[#F0B429] bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded">
+                        <span className="text-xs sm:text-xs font-extrabold text-[#F0B429] bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded">
                           + leased HRA
                         </span>
                       </div>
@@ -2391,7 +2324,7 @@ export default function ExamMainLayout({ exam }: Props) {
             <div className="relative z-10">
               <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
               <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
-              <p className="text-white/60 text-[10px] leading-relaxed mb-4">
+              <p className="text-white/60 text-xs leading-relaxed mb-4">
                 Join 50k+ banking aspirants practicing with BankerPrep mocks.
               </p>
               <a
@@ -2595,7 +2528,7 @@ export default function ExamMainLayout({ exam }: Props) {
                         <td className="px-4 py-2.5 font-semibold text-slate-800 flex items-center gap-1">
                           <span>{salLease ? 'Leased Housing Benefit' : 'House Rent Allowance (HRA)'}</span>
                           {salLease && (
-                            <span className="text-[9px] text-[#1B6EB5] font-bold">
+                            <span className="text-xs text-[#1B6EB5] font-bold">
                               *(Paid to landlord)
                             </span>
                           )}
@@ -2613,7 +2546,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 {/* Deductions & Net Pay */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-rose-50/50 border border-rose-100 p-4 rounded-xl space-y-1">
-                    <span className="block text-[9px] font-bold text-rose-600 uppercase tracking-wider">Mandatory Deductions</span>
+                    <span className="block text-xs font-bold text-rose-600 uppercase tracking-wider">Mandatory Deductions</span>
                     <div className="flex justify-between text-xs font-semibold text-slate-650 mt-1">
                       <span>NPS Contribution (10%):</span>
                       <span>₹{sal.nps.toLocaleString()}</span>
@@ -2630,7 +2563,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
                   <div className="bg-green-50 border border-green-200 p-4 rounded-xl flex flex-col justify-between">
                     <div>
-                      <span className="block text-[9px] font-bold text-green-700 uppercase tracking-wider">
+                      <span className="block text-xs font-bold text-green-700 uppercase tracking-wider">
                         {salLease ? 'Estimated Cash In Hand' : 'Net Take-Home Monthly'}
                       </span>
                       <span className="block text-2xl font-black text-green-800 mt-1">
@@ -2638,7 +2571,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       </span>
                     </div>
                     {salLease && (
-                      <p className="text-[9px] text-green-700 font-semibold leading-normal mt-1.5">
+                      <p className="text-xs text-green-700 font-semibold leading-normal mt-1.5">
                         *Excludes housing lease of ₹{sal.leaseAmount.toLocaleString()} paid directly to landlord. You get free accommodation!
                       </p>
                     )}

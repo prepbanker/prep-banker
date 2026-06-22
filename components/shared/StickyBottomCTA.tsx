@@ -44,7 +44,7 @@ export default function StickyBottomCTA() {
       className={`fixed bottom-0 left-0 right-0 z-50 w-full bg-gradient-to-r from-[#1B6EB5] via-[#1A2D5A] to-[#0D1B3E] text-white py-2 sm:py-3.5 px-4 sm:px-6 shadow-[0_-8px_30px_rgba(13,27,62,0.25)] border-t border-[#1B6EB5]/30 transition-all duration-500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0 pointer-events-none'
         }`}
     >
-      <div className="max-w-7xl mx-auto flex flex-row items-center justify-between gap-3 sm:gap-6">
+      <div className="max-w-[1350px] mx-auto flex flex-row items-center justify-between gap-3 sm:gap-6">
 
         {/* Left Side: Icon & Headline */}
         <div className="flex items-center gap-2 sm:gap-3 text-left">
@@ -65,7 +65,7 @@ export default function StickyBottomCTA() {
             href="https://app.prepgrind.com/register"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-3 py-1.5 sm:px-6 sm:py-2.5 rounded-lg bg-[var(--color-yellow)] text-[#07102A] font-extrabold text-[10px] sm:text-xs tracking-wider uppercase transition-all duration-200 shadow-sm hover:shadow-md hover:brightness-105 active:scale-98"
+            className="px-3 py-1.5 sm:px-6 sm:py-2.5 rounded-lg bg-[var(--color-yellow)] text-[#07102A] font-extrabold text-xs sm:text-xs tracking-wider uppercase transition-all duration-200 shadow-sm hover:shadow-md hover:brightness-105 active:scale-98"
           >
             Enroll Now
           </a>

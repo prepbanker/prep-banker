@@ -20,10 +20,10 @@ export const ibpsPoData: ExamDetailData = {
   summaryCards: [
     { iconKey: 'FileText',   label: 'Notification', value: 'IBPS/REC/CRP/PO-XVI' },
     { iconKey: 'MapPin',     label: 'Exam Level',   value: 'National Level' },
-    { iconKey: 'Users',      label: 'Posts',        value: '3,500+ (Expected)' },
+    { iconKey: 'Users',      label: 'Expected Vacancies', value: '3,500+' },
     { iconKey: 'Clipboard',  label: 'Mode',         value: 'Online (CBT)' },
     { iconKey: 'ListChecks', label: 'Selection',    value: 'Prelims → Mains → Interview' },
-    { iconKey: 'DollarSign', label: 'Salary',       value: '₹36,000 – ₹63,840/mo' },
+    { iconKey: 'DollarSign', label: 'Starting Salary', value: '₹52,000/month' },
   ],
   dates: [
     { event: 'Official Notification', date: 'August 2026 (Expected)',  status: 'upcoming' },
@@ -79,8 +79,8 @@ export const ibpsPoData: ExamDetailData = {
   },
   salary: {
     basic:      '₹36,000/month (11th Bipartite Settlement)',
-    gross:      '₹64,000 – ₹82,000/month (metro cities)',
-    ctc:        '₹7–10 LPA (first year)',
+    gross:      '₹57,000/month (starting gross)',
+    ctc:        '₹7.5–10 LPA',
     allowances: ['Dearness Allowance (DA)','House Rent Allowance (HRA)','Special Allowance','City Compensatory Allowance','Medical Insurance','Pension (NPS)'],
     perks:      ['Home loan at concessional rates','Vehicle loan benefits','Staff quarters/HRA','Annual leave travel concession','Annual performance bonus'],
   },

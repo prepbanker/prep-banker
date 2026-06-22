@@ -87,7 +87,7 @@ export default function BlogContent({ content }: Props) {
           height: 22px;
           background: linear-gradient(135deg, var(--color-blue), var(--color-navy-light));
           color: #fff;
-          font-size: 0.72rem;
+          font-size: 0.875rem;
           font-weight: 700;
           border-radius: 50%;
           display: flex;
@@ -129,7 +129,7 @@ export default function BlogContent({ content }: Props) {
           font-weight: 600;
           padding: 10px 14px;
           text-align: left;
-          font-size: 0.8rem;
+          font-size: 0.875rem;
           letter-spacing: 0.03em;
         }
         .blog-prose table td {

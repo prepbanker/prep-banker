@@ -13,6 +13,7 @@ interface CAHeroProps {
   BadgeIcon?: ElementType;
   title: ReactNode;
   description?: ReactNode;
+  alignRightChildren?: boolean;
   children?: ReactNode;
 }
 
@@ -23,6 +24,7 @@ export default function CAHero({
   BadgeIcon,
   title,
   description,
+  alignRightChildren = false,
   children,
 }: CAHeroProps) {
   return (
@@ -59,38 +61,84 @@ export default function CAHero({
         {/* ── Breadcrumb ── */}
         <Breadcrumb items={breadcrumbs} />
 
-        {/* ── Badge ── */}
-        {badgeText && (
-          <div className="mt-4 mb-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/25">
-            {BadgeIcon && <BadgeIcon className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" aria-hidden />}
-            <span className="text-xs font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
-              {badgeText}
-            </span>
+        {alignRightChildren ? (
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mt-4">
+            
+            {/* Left Column: Title and description */}
+            <div className="flex-1 max-w-2xl">
+              {/* ── Badge ── */}
+              {badgeText && (
+                <div className="mb-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/25">
+                  {BadgeIcon && <BadgeIcon className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" aria-hidden />}
+                  <span className="text-xs font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
+                    {badgeText}
+                  </span>
+                </div>
+              )}
+
+              {/* ── Headline ── */}
+              <h1
+                className="font-extrabold leading-tight text-white"
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: 'clamp(1.75rem, 4vw, 2.75rem)',
+                }}
+              >
+                {title}
+              </h1>
+
+              {description && (
+                <div
+                  className="mt-3 text-sm leading-relaxed"
+                  style={{ color: 'rgba(255,255,255,0.7)' }}
+                >
+                  {description}
+                </div>
+              )}
+            </div>
+
+            {/* Right Column: Dynamic Content / Children (Stats grid) */}
+            <div className="flex-shrink-0 w-full lg:w-auto mt-6 lg:mt-0">
+              {children}
+            </div>
+
           </div>
+        ) : (
+          <>
+            {/* ── Badge ── */}
+            {badgeText && (
+              <div className="mt-4 mb-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/25">
+                {BadgeIcon && <BadgeIcon className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" aria-hidden />}
+                <span className="text-xs font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
+                  {badgeText}
+                </span>
+              </div>
+            )}
+
+            {/* ── Headline ── */}
+            <h1
+              className="font-extrabold leading-tight text-white"
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1.75rem, 4vw, 2.75rem)',
+              }}
+            >
+              {title}
+            </h1>
+
+            {description && (
+              <div
+                className="mt-3 max-w-2xl text-sm leading-relaxed"
+                style={{ color: 'rgba(255,255,255,0.7)' }}
+              >
+                {description}
+              </div>
+            )}
+
+            {/* ── Dynamic Content / Children ── */}
+            {children}
+          </>
         )}
-
-        {/* ── Headline ── */}
-        <h1
-          className="font-extrabold leading-tight text-white"
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(1.75rem, 4vw, 2.75rem)',
-          }}
-        >
-          {title}
-        </h1>
-
-        {description && (
-          <div
-            className="mt-3 max-w-2xl text-sm leading-relaxed"
-            style={{ color: 'rgba(255,255,255,0.7)' }}
-          >
-            {description}
-          </div>
-        )}
-
-        {/* ── Dynamic Content / Children (Stats, share controls, etc.) ── */}
-        {children}
 
       </div>
 

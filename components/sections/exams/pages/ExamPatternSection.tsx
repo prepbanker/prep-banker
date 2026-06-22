@@ -32,7 +32,7 @@ export default function ExamPatternSection({ exam }: { exam: ExamDetailData }) {
                   {phase.badge}
                 </span>
               </div>
-              <span style={{ fontSize:'0.76rem',color:T.gray600,fontWeight:500 }}>{phase.info}</span>
+              <span style={{ fontSize: '0.875rem',color:T.gray600,fontWeight:500 }}>{phase.info}</span>
             </div>
 
             <div className="w-full overflow-x-auto border border-slate-150 rounded-xl bg-white shadow-xs">
@@ -54,7 +54,7 @@ export default function ExamPatternSection({ exam }: { exam: ExamDetailData }) {
                         {s.marks}
                       </td>
                       <td style={{ textAlign:'center' }}>
-                        <span style={{ background:T.sky,color:T.blue,padding:'2px 8px',borderRadius:999,fontSize:'0.72rem',fontWeight:600 }}>
+                        <span style={{ background:T.sky,color:T.blue,padding:'2px 8px',borderRadius:999,fontSize:'0.875rem',fontWeight:600 }}>
                           {s.time}
                         </span>
                       </td>

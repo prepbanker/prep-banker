@@ -40,7 +40,7 @@ function QuizPagination({ page, totalPages, onPage }: Props) {
       <button
         onClick={() => onPage(page - 1)}
         disabled={page === 1}
-        className="inline-flex items-center gap-1 px-3.5 py-2 text-[11px] font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
+        className="inline-flex items-center gap-1 px-3.5 py-2 text-xs font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
         aria-label="Previous page"
       >
         <ChevronLeft className="w-3.5 h-3.5" />
@@ -78,7 +78,7 @@ function QuizPagination({ page, totalPages, onPage }: Props) {
       <button
         onClick={() => onPage(page + 1)}
         disabled={page === totalPages}
-        className="inline-flex items-center gap-1 px-3.5 py-2 text-[11px] font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
+        className="inline-flex items-center gap-1 px-3.5 py-2 text-xs font-bold text-slate-500 hover:text-slate-800 border border-slate-200 rounded-lg disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-50 active:scale-[0.98] transition-all"
         aria-label="Next page"
       >
         Next

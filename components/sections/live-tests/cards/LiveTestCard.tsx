@@ -48,18 +48,18 @@ const LiveTestCard = memo(function LiveTestCard({ test, timeLeft }: Props) {
         <div className="flex items-center gap-1.5">
           {/* Free Badge */}
           {test.isFree && (
-            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-bold bg-[#16A34A] text-white tracking-wide">
+            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-xs font-bold bg-[#16A34A] text-white tracking-wide">
               Free
             </span>
           )}
 
           {/* Live / Completed Badge */}
           {!isExpired ? (
-            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-bold bg-[#EF4444] text-white tracking-wide gap-1">
+            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-xs font-bold bg-[#EF4444] text-white tracking-wide gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" /> Live
             </span>
           ) : (
-            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-bold bg-slate-400 text-white tracking-wide">
+            <span className="inline-flex items-center justify-center px-2 py-0.5 rounded text-xs font-bold bg-slate-400 text-white tracking-wide">
               Ended
             </span>
           )}
@@ -84,7 +84,7 @@ const LiveTestCard = memo(function LiveTestCard({ test, timeLeft }: Props) {
 
       {/* ── Meta Grid ── */}
       <div className="px-4 pb-4 border-t border-slate-100 pt-3">
-        <div className="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[11px] text-slate-500">
+        <div className="grid grid-cols-2 gap-y-2.5 gap-x-2 text-xs text-slate-500">
           {/* Duration */}
           <div className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5 text-slate-400 flex-shrink-0" />
@@ -120,7 +120,7 @@ const LiveTestCard = memo(function LiveTestCard({ test, timeLeft }: Props) {
       </div>
 
       {/* ── Timer Row ── */}
-      <div className="text-center py-2 bg-[#F8FAFC] border-t border-slate-100 text-[11px] font-bold">
+      <div className="text-center py-2 bg-[#F8FAFC] border-t border-slate-100 text-xs font-bold">
         {!isExpired ? (
           <span className="text-[#16A34A]">
             Test will end in {isMounted ? formatTimer(timeLeft) : '--:--:--'}

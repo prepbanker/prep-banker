@@ -55,14 +55,14 @@ function QuizSecondaryFilter({
 
           {/* Exam pills */}
           <div className="flex items-center gap-1.5 flex-shrink-0">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--color-gray-400)] mr-0.5 hidden sm:block">Exam</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-[var(--color-gray-400)] mr-0.5 hidden sm:block">Exam</span>
             {EXAM_TABS.map(({ label, activeStyle }) => {
               const isActive = examFilter === label;
               return (
                 <button
                   key={label}
                   onClick={() => onExam(label)}
-                  className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all duration-200 ${
+                  className={`px-3 py-1.5 rounded-full text-xs font-bold border transition-all duration-200 ${
                     isActive
                       ? (activeStyle ?? 'bg-[var(--color-navy)] text-white border-[var(--color-navy)]')
                       : 'border-[var(--color-gray-200)] bg-white text-[var(--color-gray-600)] hover:border-[var(--color-gray-300)] hover:bg-[var(--color-gray-50)]'
@@ -79,14 +79,14 @@ function QuizSecondaryFilter({
 
           {/* Difficulty pills */}
           <div className="flex items-center gap-1.5 flex-shrink-0">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--color-gray-400)] mr-0.5 hidden sm:block">Level</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-[var(--color-gray-400)] mr-0.5 hidden sm:block">Level</span>
             {DIFFICULTY_OPTS.map(({ label, textCls }) => {
               const isActive = levelFilter === label;
               return (
                 <button
                   key={label}
                   onClick={() => onLevel(label)}
-                  className={`px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all duration-200 ${
+                  className={`px-3 py-1.5 rounded-full text-xs font-bold border transition-all duration-200 ${
                     isActive
                       ? 'bg-[var(--color-navy)] text-white border-[var(--color-navy)]'
                       : `border-[var(--color-gray-200)] bg-white hover:border-[var(--color-gray-300)] hover:bg-[var(--color-gray-50)] ${textCls || 'text-[var(--color-gray-600)]'}`
@@ -104,7 +104,7 @@ function QuizSecondaryFilter({
           {/* Free Only toggle */}
           <button
             onClick={onFreeOnly}
-            className={`flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all duration-200 ${
+            className={`flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold border transition-all duration-200 ${
               freeOnly
                 ? 'bg-emerald-600 text-white border-emerald-600'
                 : 'border-[var(--color-gray-200)] bg-white text-[var(--color-gray-600)] hover:border-emerald-300 hover:text-emerald-700 hover:bg-emerald-50'
@@ -160,7 +160,7 @@ function QuizSecondaryFilter({
           {hasActive && (
             <button
               onClick={onReset}
-              className="text-[11px] font-semibold text-[var(--color-blue)] hover:underline"
+              className="text-xs font-semibold text-[var(--color-blue)] hover:underline"
             >
               Clear all filters
             </button>

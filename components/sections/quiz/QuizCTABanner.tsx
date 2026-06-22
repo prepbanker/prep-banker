@@ -3,8 +3,8 @@ import { Zap } from 'lucide-react';
 
 export default function QuizCTABanner() {
   return (
-    <section className="bg-white border-t border-[var(--color-gray-100)]">
-      <div className="container-custom py-10">
+    <section className=" bg-white border-t border-[var(--color-gray-100)]">
+      <div className="container-custom py-10 ">
         <div
           className="relative overflow-hidden rounded-2xl px-6 py-10 sm:px-12 flex flex-col sm:flex-row items-center justify-between gap-6"
           style={{
@@ -20,8 +20,8 @@ export default function QuizCTABanner() {
           />
 
           {/* Text */}
-          <div className="relative z-10 text-center sm:text-left">
-            <p className="text-[11px] font-bold uppercase tracking-widest text-[var(--color-gold-bright)] mb-2">
+          <div className="relative z-10 text-center sm:text-left ">
+            <p className="text-xs font-bold uppercase tracking-widest text-[var(--color-gold-bright)] mb-2">
               Ready to crack SBI / IBPS PO?
             </p>
             <h2

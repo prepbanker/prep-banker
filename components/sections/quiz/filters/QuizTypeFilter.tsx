@@ -34,7 +34,7 @@ function QuizTypeFilter({ active, onChange, typeCounts, trendingCount }: Props) 
           {/* Trending pill */}
           {trendingCount > 0 && (
             <>
-              <span className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-100 text-[11px] font-bold text-amber-600 whitespace-nowrap">
+              <span className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-100 text-xs font-bold text-amber-600 whitespace-nowrap">
                 <TrendingUp className="w-3 h-3" />
                 {trendingCount} Trending
               </span>
@@ -51,7 +51,7 @@ function QuizTypeFilter({ active, onChange, typeCounts, trendingCount }: Props) 
               <button
                 key={label}
                 onClick={() => onChange(label)}
-                className={`flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold whitespace-nowrap transition-all duration-200 ${
+                className={`flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all duration-200 ${
                   isActive
                     ? 'text-white shadow-sm'
                     : 'border border-[var(--color-gray-200)] text-[var(--color-gray-600)] bg-white hover:text-[var(--color-navy)] hover:border-[var(--color-gray-300)] hover:bg-[var(--color-gray-50)]'
@@ -62,7 +62,7 @@ function QuizTypeFilter({ active, onChange, typeCounts, trendingCount }: Props) 
               >
                 <Icon className="w-3.5 h-3.5 flex-shrink-0" />
                 {label}
-                <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded-full flex-shrink-0 ${
+                <span className={`text-xs font-bold px-1.5 py-0.5 rounded-full flex-shrink-0 ${
                   isActive
                     ? 'bg-white/25 text-white'
                     : 'bg-[var(--color-gray-100)] text-[var(--color-gray-400)]'

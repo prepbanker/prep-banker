@@ -58,10 +58,10 @@ function CACard({ ca }: { ca: typeof currentAffairs[0] }) {
     >
       {/* Top row: Category + Date */}
       <div className="flex items-center justify-between gap-2 flex-wrap">
-        <span className="text-[0.65rem] font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
+        <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
           {ca.category}
         </span>
-        <span className="text-[0.68rem] text-slate-400 font-medium">
+        <span className="text-xs text-slate-400 font-medium">
           {ca.date}
         </span>
       </div>
@@ -78,7 +78,7 @@ function CACard({ ca }: { ca: typeof currentAffairs[0] }) {
 
       {/* Footer */}
       <div className="flex items-center justify-between mt-auto pt-3 border-t border-slate-50">
-        <span className="text-[0.68rem] text-slate-400 font-medium">
+        <span className="text-xs text-slate-400 font-medium">
           ⏱ {ca.readTime} min read
         </span>
         

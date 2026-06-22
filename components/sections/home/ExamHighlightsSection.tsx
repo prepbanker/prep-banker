@@ -106,7 +106,7 @@ export default function ExamHighlightsSection() {
                 {/* Badge */}
                 <span
                   className={[
-                    'absolute top-4 right-4 rounded-full px-3 py-0.5 text-[0.67rem] font-bold',
+                    'absolute top-4 right-4 rounded-full px-3 py-0.5 text-xs font-bold',
                     exam.badgeColor,
                   ].join(' ')}
                 >
@@ -119,7 +119,7 @@ export default function ExamHighlightsSection() {
                     <Building2 className="h-5 w-5 text-white/80" />
                   </div>
                   <div>
-                    <p className="text-[0.62rem] font-bold uppercase tracking-widest text-white/50">
+                    <p className="text-xs font-bold uppercase tracking-widest text-white/50">
                       Banking Exam
                     </p>
                     <h3 className="text-xl font-extrabold leading-tight text-white">
@@ -129,7 +129,7 @@ export default function ExamHighlightsSection() {
                 </div>
 
                 {/* Description */}
-                <p className="text-[0.8rem] leading-relaxed text-white/70">
+                <p className="text-xs leading-relaxed text-white/70">
                   {exam.description}
                 </p>
               </div>
@@ -144,9 +144,20 @@ export default function ExamHighlightsSection() {
                     { label: 'Salary', value: exam.salary },
                     { label: 'Difficulty', value: exam.difficulty },
                   ].map((m) => (
-                    <li key={m.label} className="px-3 py-2.5 text-center">
-                      <p className="text-sm font-bold text-slate-800">{m.value}</p>
-                      <p className="mt-0.5 text-[0.6rem] font-bold uppercase tracking-wider text-slate-400">
+                    <li key={m.label} className="px-1.5 py-2.5 text-center flex flex-col justify-between min-w-0">
+                      <div className="text-sm font-bold text-slate-800 leading-tight">
+                        {m.label === 'Salary' && m.value.includes('/') ? (
+                          <div className="flex flex-col items-center justify-center">
+                            <span>{m.value.split('/')[0]}</span>
+                            <span className="text-[10px] font-medium text-slate-500 mt-0.5">
+                              /{m.value.split('/')[1]}
+                            </span>
+                          </div>
+                        ) : (
+                          m.value
+                        )}
+                      </div>
+                      <p className="mt-1 text-[10px] font-bold uppercase tracking-wider text-slate-400 leading-none">
                         {m.label}
                       </p>
                     </li>
@@ -156,7 +167,7 @@ export default function ExamHighlightsSection() {
                 {/* Highlights */}
                 <ul className="flex flex-col gap-2">
                   {exam.highlights.map((h) => (
-                    <li key={h} className="flex items-center gap-2.5 text-[0.82rem] text-slate-600">
+                    <li key={h} className="flex items-center gap-2.5 text-xs text-slate-600">
                       <Check className="h-3.5 w-3.5 flex-shrink-0 text-blue-500" strokeWidth={3} />
                       {h}
                     </li>

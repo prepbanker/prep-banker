@@ -24,7 +24,7 @@ export default function QuizHowItWorks() {
                 </span>
                 <div className="flex items-center gap-1.5 min-w-0">
                   <Icon className="w-3.5 h-3.5 flex-shrink-0 text-[var(--color-blue)]" />
-                  <span className="text-[12px] font-semibold text-[var(--color-navy)] whitespace-nowrap">
+                  <span className="text-xs font-semibold text-[var(--color-navy)] whitespace-nowrap">
                     {text}
                   </span>
                 </div>

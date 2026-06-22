@@ -62,14 +62,10 @@ export default function Footer() {
     }}>
       {/* ── Main Footer ─────────────────────── */}
       <div className="container-custom" style={{ padding: '4rem 1.5rem 2rem' }}>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))',
-          gap: '2.5rem',
-        }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-10">
 
           {/* Brand Column */}
-          <div style={{ gridColumn: 'span 2' }}>
+          <div className="col-span-1 sm:col-span-2">
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1.25rem' }}>
               <div style={{
                 position: 'relative',
@@ -95,7 +91,7 @@ export default function Footer() {
                 <div style={{ fontFamily: 'var(--font-display)', fontWeight: 805, fontSize: '1.3rem', color: '#fff', lineHeight: 1.15 }}>
                   Prep<span className="text-[var(--color-yellow)]">Banker</span>
                 </div>
-                <div style={{ fontSize: '0.62rem', color: 'var(--color-gray-400)', letterSpacing: '0.08em', textTransform: 'uppercase', marginTop: '3px' }}>
+                <div style={{ fontSize: '0.875rem', color: 'var(--color-gray-400)', letterSpacing: '0.08em', textTransform: 'uppercase', marginTop: '3px' }}>
                   Banking Exam Prep
                 </div>
               </div>
@@ -132,7 +128,7 @@ export default function Footer() {
             <div key={title}>
               <h4 style={{
                 color: 'var(--color-yellow)',
-                fontSize: '0.8rem',
+                fontSize: '0.875rem',
                 fontWeight: 700,
                 letterSpacing: '0.1em',
                 textTransform: 'uppercase',
@@ -169,7 +165,7 @@ export default function Footer() {
           justifyContent: 'space-between',
           flexWrap: 'wrap',
           gap: '1rem',
-          fontSize: '0.8rem',
+          fontSize: '0.875rem',
         }}>
           <p style={{ color: 'rgba(255,255,255,0.4)' }}>
             © {new Date().getFullYear()} PrepBanker. All rights reserved.

@@ -10,12 +10,7 @@ import {
   RefreshCw,
   TrendingUp,
   ShieldCheck,
-  Calendar,
-  Compass,
-  ArrowRight,
-  BookOpen,
   CheckCircle2,
-  Clock,
   Sparkles
 } from 'lucide-react';
 
@@ -124,7 +119,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
                   <item.icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-sm font-bold text-[var(--color-navy)] mb-2">{item.title}</h3>
-                <p className="text-xs text-slate-500 leading-relaxed">{item.desc}</p>
+                <p className="text-[14px] text-slate-500 leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -153,10 +148,10 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
               <div key={idx} className="bg-white border border-slate-150 rounded-2xl p-5 hover:border-[var(--color-blue)] transition-all flex flex-col justify-between">
                 <div>
                   <div className="text-3xl font-extrabold text-slate-200 mb-3">0{idx + 1}</div>
-                  <h3 className="text-[13px] font-bold text-[var(--color-navy)] mb-1 leading-snug">
+                  <h3 className="text-[14px] font-bold text-[var(--color-navy)] mb-1 leading-snug">
                     {item.title} <span className="block text-slate-400 font-semibold">{item.subtitle}</span>
                   </h3>
-                  <p className="text-xs text-slate-500 leading-relaxed mt-2.5">{item.desc}</p>
+                  <p className="text-[14px] text-slate-500 leading-relaxed mt-2.5">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -171,7 +166,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
               <h2 className="text-xl sm:text-2xl font-extrabold text-[var(--color-navy)] tracking-tight">
                 Topic-Wise Quiz Preparation
               </h2>
-              <p className="text-xs text-slate-500 mt-1 max-w-xl leading-relaxed">
+              <p className="text-[14px] text-slate-500 mt-1 max-w-xl leading-relaxed">
                 Banking exams test specific focus areas. Toggle the categories below to understand the key syllabus modules and prioritize your preparation.
               </p>
             </div>
@@ -182,7 +177,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 ${
+                  className={`px-4 py-2 rounded-xl text-[14px] font-bold transition-all duration-200 ${
                     activeTab === tab.id
                       ? 'bg-[var(--color-blue)] text-white shadow-sm'
                       : 'bg-slate-100 text-slate-650 hover:bg-slate-200'
@@ -198,11 +193,11 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-2">
             {currentTabContent?.topics.map((topic, index) => (
               <div key={index} className="bg-slate-50 border border-slate-150 p-5 rounded-2xl hover:bg-white hover:border-[var(--color-blue)]/40 hover:shadow-sm transition-all duration-200">
-                <span className="inline-flex items-center justify-center w-6 h-6 bg-[var(--color-blue)]/10 text-[var(--color-blue)] text-xs font-bold rounded-lg mb-3">
+                <span className="inline-flex items-center justify-center w-6 h-6 bg-[var(--color-blue)]/10 text-[var(--color-blue)] text-[14px] font-bold rounded-lg mb-3">
                   {index + 1}
                 </span>
                 <h3 className="text-sm font-bold text-[var(--color-navy)] mb-1.5">{topic.name}</h3>
-                <p className="text-xs text-slate-500 leading-relaxed">{topic.desc}</p>
+                <p className="text-[14px] text-slate-500 leading-relaxed">{topic.desc}</p>
               </div>
             ))}
           </div>
@@ -258,8 +253,8 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
             ].map((step, idx) => (
               <div key={idx} className="relative z-10 bg-white border border-slate-150 rounded-2xl p-6 hover:shadow-md transition-shadow">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400">Phase</span>
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-800 text-white text-xs font-bold">
+                  <span className="text-[14px] font-extrabold uppercase tracking-wider text-slate-400">Phase</span>
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-800 text-white text-[14px] font-bold">
                     {step.step}
                   </span>
                 </div>
@@ -268,7 +263,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
                 </h3>
                 <ul className="space-y-4">
                   {step.bullets.map((bullet, bulletIdx) => (
-                    <li key={bulletIdx} className="flex items-start gap-2.5 text-xs text-slate-655 leading-relaxed">
+                    <li key={bulletIdx} className="flex items-start gap-2.5 text-[14px] text-slate-655 leading-relaxed">
                       <span className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[var(--color-blue)]" />
                       <div>
                         <strong className="text-slate-800 block font-semibold">{bullet.title}</strong>
@@ -283,51 +278,10 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
         </div>
 
 
-        {/* ── SECTION 5: Popular Quiz Categories ── */}
-        <div className="space-y-10">
-          <div className="text-center max-w-2xl mx-auto space-y-3">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[var(--color-navy)] tracking-tight">
-              Popular Quiz Categories
-            </h2>
-            <p className="text-sm text-slate-650 leading-relaxed">
-              Directly target specific banking syllabus sections. Click any category below to immediately filter matching active quizzes.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
-            {[
-              { label: 'SBI PO Quizzes', key: 'sbi' as const, bg: 'hover:border-blue-400 hover:bg-blue-50/30' },
-              { label: 'IBPS PO Quizzes', key: 'ibps' as const, bg: 'hover:border-indigo-400 hover:bg-indigo-50/30' },
-              { label: 'Quantitative Aptitude', key: 'quant' as const, bg: 'hover:border-amber-400 hover:bg-amber-50/30' },
-              { label: 'Reasoning Ability', key: 'reasoning' as const, bg: 'hover:border-purple-400 hover:bg-purple-50/30' },
-              { label: 'English Language', key: 'english' as const, bg: 'hover:border-rose-400 hover:bg-rose-50/30' },
-              { label: 'Current Affairs', key: 'current' as const, bg: 'hover:border-emerald-400 hover:bg-emerald-50/30' },
-              { label: 'Banking Awareness', key: 'banking' as const, bg: 'hover:border-cyan-400 hover:bg-cyan-50/30' }
-            ].map((cat, idx) => (
-              <button
-                key={idx}
-                onClick={() => onSelectCategory(cat.key)}
-                className={`border border-slate-200 bg-white rounded-xl p-4 transition-all duration-300 text-center flex flex-col items-center justify-center gap-2 group cursor-pointer ${cat.bg}`}
-              >
-                <div className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Compass className="w-4 h-4 text-slate-500 group-hover:text-[var(--color-blue)]" />
-                </div>
-                <span className="text-[11.5px] font-bold text-slate-700 leading-snug group-hover:text-slate-900">
-                  {cat.label}
-                </span>
-                <span className="text-[9px] text-slate-400 flex items-center gap-0.5 group-hover:text-[var(--color-blue)] font-bold uppercase tracking-wider mt-1">
-                  Explore <ArrowRight className="w-2.5 h-2.5" />
-                </span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-
-        {/* ── SECTION 6: Quiz-Based Learning Advantages ── */}
+        {/* ── SECTION 5: Quiz-Based Learning Advantages ── */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-150 text-[10px] font-bold text-emerald-600 uppercase tracking-wider">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-150 text-[14px] font-bold text-emerald-600 uppercase tracking-wider">
               <Sparkles className="w-3 h-3" />
               Empirical Results
             </div>
@@ -345,7 +299,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
               ].map((adv, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <CheckCircle2 className="w-4.5 h-4.5 text-emerald-500 flex-shrink-0 mt-0.5" />
-                  <span className="text-xs text-slate-700 leading-relaxed">{adv}</span>
+                  <span className="text-[14px] text-slate-700 leading-relaxed">{adv}</span>
                 </div>
               ))}
             </div>
@@ -355,29 +309,29 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-white border border-slate-150 p-6 rounded-2xl text-center space-y-2">
               <div className="text-3xl font-black text-[var(--color-blue)]">92%</div>
-              <h3 className="text-xs font-bold text-[var(--color-navy)]">Active Learning Retention</h3>
-              <p className="text-[10px] text-slate-400 leading-relaxed">Compared to only 15% retention when simply reading conceptual notes.</p>
+              <h3 className="text-[14px] font-bold text-[var(--color-navy)]">Active Learning Retention</h3>
+              <p className="text-[14px] text-slate-400 leading-relaxed">Compared to only 15% retention when simply reading conceptual notes.</p>
             </div>
             <div className="bg-white border border-slate-150 p-6 rounded-2xl text-center space-y-2">
               <div className="text-3xl font-black text-emerald-500">2.5x</div>
-              <h3 className="text-xs font-bold text-[var(--color-navy)]">Speed Improvement</h3>
-              <p className="text-[10px] text-slate-400 leading-relaxed">Aspirants practicing timed quizzes daily resolve equations 2.5 times faster.</p>
+              <h3 className="text-[14px] font-bold text-[var(--color-navy)]">Speed Improvement</h3>
+              <p className="text-[14px] text-slate-400 leading-relaxed">Aspirants practicing timed quizzes daily resolve equations 2.5 times faster.</p>
             </div>
             <div className="bg-white border border-slate-150 p-6 rounded-2xl text-center space-y-2 col-span-2">
-              <h3 className="text-xs font-bold text-slate-650 flex items-center justify-center gap-1.5 mb-2">
+              <h3 className="text-[14px] font-bold text-slate-650 flex items-center justify-center gap-1.5 mb-2">
                 <TrendingUp className="w-3.5 h-3.5 text-[var(--color-blue)]" /> Weekly Progress Velocity
               </h3>
               {/* Simulated Chart visual */}
               <div className="flex justify-between items-end h-16 pt-2 px-6">
                 {[20, 35, 45, 60, 85].map((h, i) => (
-                  <div key={i} className="flex flex-col items-center gap-1.5 w-8">
+                  <div key={i} className="flex flex-col justify-end items-center gap-1.5 w-8 h-full">
                     <div
                       className={`w-full rounded-t-sm transition-all duration-500 ${
                         i === 4 ? 'bg-[var(--color-blue)]' : 'bg-slate-200'
                       }`}
                       style={{ height: `${h}%` }}
                     />
-                    <span className="text-[8px] text-slate-400 font-bold uppercase">W0{i+1}</span>
+                    <span className="text-[14px] text-slate-400 font-bold uppercase">W0{i+1}</span>
                   </div>
                 ))}
               </div>
@@ -386,7 +340,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
         </div>
 
 
-        {/* ── SECTION 7: Recommended Practice Strategy ── */}
+        {/* ── SECTION 6: Recommended Practice Strategy ── */}
         <div className="space-y-10">
           <div className="text-center max-w-2xl mx-auto space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[var(--color-navy)] tracking-tight">
@@ -429,14 +383,14 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
             ].map((step, idx) => (
               <div key={idx} className={`relative z-10 bg-white border rounded-2xl p-6 transition-all duration-300 hover:shadow-md ${step.color}`}>
                 <div className="flex items-center justify-between mb-4">
-                  <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${step.badgeBg}`}>
+                  <span className={`text-[14px] font-black uppercase px-2 py-0.5 rounded ${step.badgeBg}`}>
                     {step.badge}
                   </span>
                   <ShieldCheck className="w-5 h-5 text-slate-300" />
                 </div>
-                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">{step.level}</h3>
+                <h3 className="text-[14px] font-bold text-slate-400 uppercase tracking-wider mb-1">{step.level}</h3>
                 <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-3">{step.title}</h4>
-                <p className="text-xs text-slate-500 leading-relaxed">{step.desc}</p>
+                <p className="text-[14px] text-slate-500 leading-relaxed">{step.desc}</p>
               </div>
             ))}
           </div>

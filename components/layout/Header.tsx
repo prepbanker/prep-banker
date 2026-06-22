@@ -39,16 +39,16 @@ export default function Header() {
   return (
     <header
       suppressHydrationWarning
-      className={`sticky top-0 z-[100] bg-white transition-all duration-300 ${
+      className={`sticky top-0 left-0 right-0 w-full z-[100] bg-white transition-all duration-300 ${
         scrolled
           ? 'border-b border-[rgba(13,27,62,0.1)] shadow-[0_2px_20px_rgba(13,27,62,0.08)]'
           : 'border-b border-[rgba(13,27,62,0.07)]'
       }`}
     >
-      <div className="container-custom flex items-center h-16 gap-4 lg:gap-8">
+      <div className="container-custom flex items-center h-16 gap-2 sm:gap-4 lg:gap-8">
 
         {/* ── Logo ── */}
-        <Link href="/" className="flex items-center gap-2.5 shrink-0 no-underline">
+        <Link href="/" className="flex items-center gap-1.5 sm:gap-2.5 shrink-0 no-underline">
           <div className="relative w-9 h-9 sm:w-10 sm:h-10 shrink-0">
             <Image
               src={Logo}
@@ -69,8 +69,8 @@ export default function Header() {
             >
               Prep<span className="text-[var(--color-gold-bright)]">Banker</span>
             </div>
-            <div className="text-[var(--color-gray-400)] uppercase tracking-widest leading-none mt-0.5"
-              style={{ fontSize: 'clamp(0.5rem, 1.2vw, 0.58rem)' }}
+            <div className="hidden sm:block text-[var(--color-gray-400)] uppercase tracking-widest leading-none mt-0.5"
+              style={{ fontSize: '0.875rem' }}
             >
               Banking Exam Prep
             </div>
@@ -94,7 +94,7 @@ export default function Header() {
 
                 {link.badge && (
                   <span
-                    className="inline-flex items-center gap-1 text-white text-[0.6rem] font-black px-1.5 py-0.5 rounded-full uppercase tracking-wide leading-none"
+                    className="inline-flex items-center gap-1 text-white text-[14px] font-black px-2 py-0.5 rounded-full uppercase tracking-wide leading-none"
                     style={badgeStyle(link.badge)}
                   >
                     {link.badge === 'LIVE' && (
@@ -134,7 +134,7 @@ export default function Header() {
         <div className="flex-1 lg:hidden" />
 
         {/* ── CTA + Hamburger ── */}
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <a
             href="https://app.prepgrind.com/register"
             target="_blank"
@@ -142,19 +142,19 @@ export default function Header() {
             suppressHydrationWarning
             className="
               inline-flex items-center justify-center
-              px-3 sm:px-5 py-2 sm:py-2.5
+              px-2.5 sm:px-5 py-2 sm:py-2.5
               rounded-xl font-bold no-underline whitespace-nowrap
               text-[var(--color-navy-deep)]
               transition-all duration-200
               hover:-translate-y-px
-              text-xs sm:text-sm
+              text-[14px] sm:text-sm
             "
             style={{
               background: 'var(--color-yellow)',
               boxShadow: '0 3px 12px rgba(251,191,36,0.35)',
             }}
           >
-            <span className="hidden sm:inline" suppressHydrationWarning>Start Free</span>
+            <span className="hidden sm:inline" suppressHydrationWarning>Register Free</span>
             <span className="sm:hidden" suppressHydrationWarning>Sign Up free</span>
           </a>
 
@@ -196,7 +196,7 @@ export default function Header() {
                     {link.label}
                     {link.badge && (
                       <span
-                        className="inline-flex items-center gap-1 text-white text-[0.6rem] font-black px-2 py-0.5 rounded-full uppercase tracking-wide"
+                        className="inline-flex items-center gap-1 text-white text-[14px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wide"
                         style={badgeStyle(link.badge)}
                       >
                         {link.badge === 'LIVE' && (

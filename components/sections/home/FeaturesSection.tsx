@@ -90,7 +90,7 @@ export default function FeaturesSection() {
                   <h3 className="font-bold text-base text-[var(--color-navy)] mb-1.5 leading-snug">
                     {feat.title}
                     {feat.isPremium && (
-                      <span className="ml-1.5 text-[10px] bg-[var(--color-gold-light)] text-[#7A5200] px-2 py-0.5 rounded-full font-bold align-middle">
+                      <span className="ml-1.5 text-xs bg-[var(--color-gold-light)] text-[#7A5200] px-2 py-0.5 rounded-full font-bold align-middle">
                         PRO
                       </span>
                     )}

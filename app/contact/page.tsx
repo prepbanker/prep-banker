@@ -63,7 +63,7 @@ export default function ContactPage() {
                   <a href={`mailto:${c.desc}`} style={{ color: 'var(--color-blue)', fontWeight: 600, marginBottom: '6px', fontSize: '1.05rem', textDecoration: 'none', display: 'block' }}>
                     {c.desc}
                   </a>
-                  <p style={{ color: 'var(--color-gray-400)', fontSize: '0.85rem' }}>{c.sub}</p>
+                  <p style={{ color: 'var(--color-gray-400)', fontSize: '0.875rem' }}>{c.sub}</p>
                 </div>
               ))}
             </div>

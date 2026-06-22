@@ -25,7 +25,7 @@ export default function SelectionSection({ exam }: { exam: ExamDetailData }) {
                     <Icon size={14} style={{ color: accent }} />
                     <span style={{ fontWeight:700,fontSize:'0.88rem',color:T.navy }}>{title}</span>
                   </div>
-                  <p style={{ fontSize:'0.81rem',color:T.gray600,lineHeight:1.6 }}>{desc}</p>
+                  <p style={{ fontSize: '0.875rem',color:T.gray600,lineHeight:1.6 }}>{desc}</p>
                 </div>
               </div>
             );

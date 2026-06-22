@@ -77,7 +77,7 @@ export default function BlogDetailHero({ blog }: Props) {
           {/* Author */}
           <div className="flex items-center gap-2">
             <div
-              className="w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold"
+              className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold"
               style={{ background: 'rgba(255,255,255,0.15)', color: '#fff' }}
             >
               {blog.author.name.split(' ').map(p => p[0]).join('').slice(0, 2)}

@@ -54,7 +54,7 @@ export default function TermsPage() {
                 <p style={{ color: 'var(--color-gray-600)', fontSize: '0.9rem', lineHeight: 1.7 }}>{section.body}</p>
               </div>
             ))}
-            <p style={{ color: 'var(--color-gray-400)', fontSize: '0.8rem' }}>
+            <p style={{ color: 'var(--color-gray-400)', fontSize: '0.875rem' }}>
               For questions about these terms, contact us at prepbanker@gmail.com
             </p>
           </div>

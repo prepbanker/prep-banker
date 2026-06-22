@@ -90,7 +90,7 @@ function CACard({ ca }: CACardProps) {
         </div>
 
         {/* Category tag overlaid */}
-        <div className="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[9px] font-extrabold uppercase px-2 py-0.5 rounded tracking-wide">
+        <div className="absolute top-3 left-3 bg-black/60 backdrop-blur-md text-white text-[14px] font-extrabold uppercase px-2.5 py-0.5 rounded tracking-wide">
           {ca.category}
         </div>
       </div>
@@ -98,11 +98,11 @@ function CACard({ ca }: CACardProps) {
       <div className="p-4 flex flex-col flex-1 justify-between gap-3">
         <div>
           {/* Date & Read time */}
-          <div className="flex items-center gap-3 text-[11px] text-slate-400 font-bold mb-1.5">
+          <div className="flex items-center gap-3 text-[14px] text-slate-400 font-bold mb-1.5">
             <span>{formatShortDate(ca.date)}</span>
             <span className="w-1 h-1 rounded-full bg-slate-300" />
             <span className="flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5 text-slate-450" />
+              <Clock className="w-4 h-4 text-slate-450" />
               {ca.readTime} Min
             </span>
           </div>
@@ -113,14 +113,14 @@ function CACard({ ca }: CACardProps) {
           </h3>
 
           {/* Summary / Excerpt */}
-          <p className="text-[11.5px] text-slate-500 leading-relaxed mt-1 mb-2 line-clamp-2">
+          <p className="text-[14px] text-slate-500 leading-relaxed mt-1 mb-2 line-clamp-2">
             {ca.summary}
           </p>
         </div>
 
         {/* Read More button */}
         <div className="border-t border-slate-100 pt-3 flex items-center justify-between">
-          <span className="text-[11.5px] font-extrabold text-[var(--color-blue)] group-hover:underline transition-all">
+          <span className="text-[14px] font-extrabold text-[var(--color-blue)] group-hover:underline transition-all">
             Read More
           </span>
         </div>
