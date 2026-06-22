@@ -15,6 +15,7 @@ export default function PrivacyPage() {
     <>
       <Header />
       <main>
+        {/* Hero Section */}
         <section style={{
           background: 'linear-gradient(135deg, var(--color-navy-deep), var(--color-navy-mid))',
           padding: '3rem 0',
@@ -31,30 +32,81 @@ export default function PrivacyPage() {
               Privacy <span className="text-gold-gradient">Policy</span>
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.6)', marginTop: '0.75rem' }}>
-              Last updated: May 2026
+              Last updated: 22/6/2026
             </p>
           </div>
         </section>
 
+        {/* Content Section */}
         <section className="section-padding" style={{ background: '#fff' }}>
-          <div className="container-custom" style={{ maxWidth: 780 }}>
-            {[
-              { title: '1. Information We Collect', body: 'We collect information you provide directly: name, email, phone number during registration. We also collect usage data including test performance, practice history, and device information for improving our services.' },
-              { title: '2. How We Use Your Information', body: 'Your information is used to provide personalized preparation insights, send exam notifications and current affairs updates, improve our platform, and communicate about PrepBanker features.' },
-              { title: '3. Data Storage & Security', body: 'Your data is stored on secure servers in India. We implement industry-standard encryption (SSL/TLS) and follow best practices for data security. We do not store payment card information.' },
-              { title: '4. Sharing of Information', body: 'We do not sell your personal information. We may share anonymized, aggregated data for research. We work with trusted service providers (payment processors, email services) bound by strict data agreements.' },
-              { title: '5. Cookies', body: 'We use cookies to maintain your session, remember preferences, and analyze platform usage. You can control cookies through your browser settings. Disabling cookies may affect platform functionality.' },
-              { title: '6. Your Rights', body: 'You have the right to access, correct, or delete your personal data. You may opt out of marketing communications at any time. Contact prepbanker@gmail.com to exercise your rights.' },
-              { title: '7. Children\'s Privacy', body: 'PrepBanker is intended for users 18 years and older. We do not knowingly collect information from minors. If we discover we have collected such information, it will be deleted.' },
-              { title: '8. Contact Us', body: 'For privacy-related questions, contact our Privacy Officer at prepbanker@gmail.com or write to: PrepBanker Privacy Team, India.' },
-            ].map(section => (
-              <div key={section.title} style={{ marginBottom: '2rem', paddingBottom: '2rem', borderBottom: '1px solid var(--color-gray-100)' }}>
-                <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.1rem', marginBottom: '0.75rem' }}>
-                  {section.title}
-                </h2>
-                <p style={{ color: 'var(--color-gray-600)', fontSize: '0.9rem', lineHeight: 1.7 }}>{section.body}</p>
+          <div className="container-custom" style={{ maxWidth: 780, color: 'var(--color-navy)', fontSize: '0.95rem', lineHeight: 1.8 }}>
+            
+            {/* Section: Information We Collect */}
+            <div style={{ marginBottom: '2rem', paddingBottom: '1.5rem', borderBottom: '1px solid var(--color-gray-100)' }}>
+              <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.25rem', marginBottom: '0.75rem' }}>
+                Information We Collect
+              </h2>
+              <p style={{ color: 'var(--color-gray-650)', marginBottom: '1rem' }}>
+                We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This includes:
+              </p>
+              <ul style={{ paddingLeft: '1.25rem', color: 'var(--color-gray-600)', listStyleType: 'disc', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <li>Name and contact information</li>
+                <li>Account credentials</li>
+                <li>Payment information</li>
+                <li>Usage data and preferences</li>
+              </ul>
+            </div>
+
+            {/* Section: How We Use Your Information */}
+            <div style={{ marginBottom: '2rem', paddingBottom: '1.5rem', borderBottom: '1px solid var(--color-gray-100)' }}>
+              <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.25rem', marginBottom: '0.75rem' }}>
+                How We Use Your Information
+              </h2>
+              <p style={{ color: 'var(--color-gray-650)', marginBottom: '1rem' }}>
+                We use the information we collect to provide, maintain, and improve our services, including:
+              </p>
+              <ul style={{ paddingLeft: '1.25rem', color: 'var(--color-gray-600)', listStyleType: 'disc', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                <li>Provide and personalize our services</li>
+                <li>Process payments and transactions</li>
+                <li>Send you technical notices and support messages</li>
+                <li>Communicate with you about products, services, and promotions</li>
+              </ul>
+            </div>
+
+            {/* Section: Information Sharing */}
+            <div style={{ marginBottom: '2rem', paddingBottom: '1.5rem', borderBottom: '1px solid var(--color-gray-100)' }}>
+              <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.25rem', marginBottom: '0.75rem' }}>
+                Information Sharing
+              </h2>
+              <p style={{ color: 'var(--color-gray-600)' }}>
+                We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.
+              </p>
+            </div>
+
+            {/* Section: Data Security */}
+            <div style={{ marginBottom: '2rem', paddingBottom: '1.5rem', borderBottom: '1px solid var(--color-gray-100)' }}>
+              <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.25rem', marginBottom: '0.75rem' }}>
+                Data Security
+              </h2>
+              <p style={{ color: 'var(--color-gray-600)' }}>
+                We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
+              </p>
+            </div>
+
+            {/* Section: Contact Us */}
+            <div style={{ marginBottom: '2rem', paddingBottom: '1.5rem' }}>
+              <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', fontSize: '1.25rem', marginBottom: '0.75rem' }}>
+                Contact Us
+              </h2>
+              <p style={{ color: 'var(--color-gray-600)', marginBottom: '0.75rem' }}>
+                If you have any questions about this Privacy Policy, please contact us at:
+              </p>
+              <div style={{ background: 'var(--color-gray-50)', padding: '1rem 1.25rem', borderRadius: '12px', border: '1px solid var(--color-gray-100)', color: 'var(--color-navy-light)', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                <div><strong>Email:</strong> <a href="mailto:prepbanker@gmail.com" style={{ color: 'var(--color-blue)', textDecoration: 'none' }}>prepbanker@gmail.com</a></div>
+                <div><strong>Address:</strong> PrepBanker, Your Learning Companion</div>
               </div>
-            ))}
+            </div>
+
           </div>
         </section>
       </main>

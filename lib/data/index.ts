@@ -19,8 +19,10 @@ export const navLinks: NavLink[] = [
     ],
   },
   { label: 'Live Tests',      href: '/live-tests', badge: 'LIVE' },
+  { label: 'Previous Year Papers', href: '/previous-year-papers' },
   { label: 'Current Affairs', href: '/current-affairs' },
   { label: 'Quiz Practice',   href: '/quiz',  badge: 'NEW' },
+  { label: 'Pricing',         href: '/pricing' },
 ];
 
 // ─── Exam Highlights ─────────────────────
