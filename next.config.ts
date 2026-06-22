@@ -51,6 +51,8 @@ const nextConfig: NextConfig = {
   // ── Experimental ────────────────────────
   experimental: {
     optimizePackageImports: ['@/components'],
+    cpus: 2,
+    webpackMemoryOptimizations: true,
   },
 };
 
