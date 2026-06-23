@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import ExamMainLayout from '@/components/sections/exams/ExamMainLayout';
 import { getExamData } from '@/lib/data/exams/detailContentMap';
 
-import { BreadcrumbSchema, CourseSchema } from '@/components/seo';
+import { BreadcrumbSchema, CourseSchema, ProductSchema } from '@/components/seo';
 
 interface PageProps {
   params: Promise<{ examId: string }>;
@@ -73,6 +73,17 @@ export default async function ExamPage({ params }: PageProps) {
         description={exam.description}
         url={`https://prepbanker.com/${examId}`}
       />
+      {examId === 'sbi-po' && (
+        <ProductSchema
+          name="SBI PO Mock Test Series 2026"
+          description="Prepare for SBI PO 2026 with free mock tests, sectional practice tests, topic-wise practice questions, current affairs, and study material. Full syllabus, exam pattern, cutoffs & preparation strategy — all in one place."
+          url="https://prepbanker.com/sbi-po"
+          price="0"
+          currency="INR"
+          ratingValue="4.8"
+          reviewCount="8500"
+        />
+      )}
       <ExamMainLayout exam={exam} />
     </>
   );

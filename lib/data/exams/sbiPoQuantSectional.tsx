@@ -20,7 +20,7 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO Quantitative Aptitude Test 2026 – Free Mock Practice",
-            "url": "https://app.prepbanker.com/sbi-po/quantitative-aptitude-test",
+            "url": "https://prepbanker.com/sbi-po/quantitative-aptitude-test",
             "description": "Attempt free SBI PO Quantitative Aptitude tests 2026 on PrepBanker. Topic-wise quizzes, full-length mocks & previous year questions.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -28,9 +28,9 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-                { "@type": "ListItem", "position": 3, "name": "Quantitative Aptitude Test", "item": "https://app.prepbanker.com/sbi-po/quantitative-aptitude-test" }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                { "@type": "ListItem", "position": 3, "name": "Quantitative Aptitude Test", "item": "https://prepbanker.com/sbi-po/quantitative-aptitude-test" }
               ]
             }
           })
@@ -44,9 +44,9 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-              { "@type": "ListItem", "position": 3, "name": "Quantitative Aptitude Test 2026", "item": "https://app.prepbanker.com/sbi-po/quantitative-aptitude-test" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+              { "@type": "ListItem", "position": 3, "name": "Quantitative Aptitude Test 2026", "item": "https://prepbanker.com/sbi-po/quantitative-aptitude-test" }
             ]
           })
         }}
@@ -60,11 +60,11 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
             "@type": "Course",
             "name": "SBI PO Quantitative Aptitude Test Series 2026",
             "description": "Comprehensive quantitative aptitude practice for SBI PO Prelims and Mains 2026. Includes sectional mocks, topic-wise quizzes, DPPs, and previous year question sets covering all quant topics.",
-            "url": "https://app.prepbanker.com/sbi-po/quantitative-aptitude-test",
+            "url": "https://prepbanker.com/sbi-po/quantitative-aptitude-test",
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "educationalLevel": "Undergraduate",
             "courseMode": "online",
@@ -92,7 +92,7 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
             "@type": "Quiz",
             "name": "SBI PO Quantitative Aptitude Sectional Test 2026",
             "description": "Free SBI PO Quant sectional test covering Simplification, Number Series, Data Interpretation, Quadratic Equations, Arithmetic and Data Sufficiency topics as per the 2026 exam pattern.",
-            "url": "https://app.prepbanker.com/sbi-po/quantitative-aptitude-test",
+            "url": "https://prepbanker.com/sbi-po/quantitative-aptitude-test",
             "educationalAlignment": {
               "@type": "AlignmentObject",
               "alignmentType": "educationalSubject",
@@ -107,7 +107,7 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -700,3 +700,4 @@ export const sbiPoQuantSectionalContent: DetailSectionContent = {
     }
   ]
 };
+

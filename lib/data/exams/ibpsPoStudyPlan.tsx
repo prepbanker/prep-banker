@@ -20,9 +20,9 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.prepbanker.in" },
-              { "@type": "ListItem", "position": 2, "name": "IBPS PO", "item": "https://www.prepbanker.in/ibps-po" },
-              { "@type": "ListItem", "position": 3, "name": "IBPS PO Study Plan 2026", "item": "https://www.prepbanker.in/ibps-po/study-plan" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+              { "@type": "ListItem", "position": 2, "name": "IBPS PO", "item": "https://prepbanker.com/ibps-po" },
+              { "@type": "ListItem", "position": 3, "name": "IBPS PO Study Plan 2026", "item": "https://prepbanker.com/ibps-po/study-plan" }
             ]
           })
         }}
@@ -35,7 +35,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "IBPS PO Study Plan 2026 – 3-Month Preparation Guide",
-            "url": "https://www.prepbanker.in/ibps-po/study-plan",
+            "url": "https://prepbanker.com/ibps-po/study-plan",
             "description": "Follow this IBPS PO study plan 2026 to prepare for Prelims and Mains in 90 days. Week-wise schedule, topic priority, mock test strategy, and daily routine included.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-12",
@@ -43,8 +43,8 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://www.prepbanker.in",
-              "logo": { "@type": "ImageObject", "url": "https://www.prepbanker.in/logo.png" }
+              "url": "https://prepbanker.com",
+              "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/logo.png" }
             }
           })
         }}
@@ -58,20 +58,20 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             "@type": "Article",
             "headline": "IBPS PO Study Plan 2026 – 3-Month Preparation Guide",
             "description": "A complete 90-day IBPS PO study plan covering Prelims and Mains — week-wise topic schedule, daily study hours, mock test strategy, and subject-wise preparation approach.",
-            "url": "https://www.prepbanker.in/ibps-po/study-plan",
+            "url": "https://prepbanker.com/ibps-po/study-plan",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-12",
             "inLanguage": "en-IN",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://www.prepbanker.in"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://www.prepbanker.in",
-              "logo": { "@type": "ImageObject", "url": "https://www.prepbanker.in/logo.png" }
+              "url": "https://prepbanker.com",
+              "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/logo.png" }
             },
             "about": { "@type": "Thing", "name": "IBPS PO Preparation" }
           })
@@ -86,11 +86,11 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             "@type": "Course",
             "name": "IBPS PO Complete Preparation Plan 2026",
             "description": "A structured 90-day IBPS PO preparation course covering Quantitative Aptitude, Reasoning Ability, English Language, General Awareness, and Computer Knowledge — with daily schedules, mock test integration, and subject-wise strategy.",
-            "url": "https://www.prepbanker.in/ibps-po/study-plan",
+            "url": "https://prepbanker.com/ibps-po/study-plan",
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://www.prepbanker.in"
+              "url": "https://prepbanker.com"
             },
             "educationalLevel": "Competitive Exam",
             "inLanguage": "en-IN",
@@ -876,3 +876,4 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
     }
   ]
 };
+

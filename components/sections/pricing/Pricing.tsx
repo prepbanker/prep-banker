@@ -21,8 +21,8 @@ const TRUST_SIGNALS = [
   { icon: Award, label: 'Used by 50K+ Aspirants' }
 ];
 
-// ─── FAQ Data ────────────────────────────────────────────────────
-const FAQ_ITEMS = [
+// FAQ Data
+const FAQ_ITEMS = [ 
   {
     question: 'What do I get in the Premium plan?',
     answer: 'The Premium plan unlocks complete access to the PrepBanker repository. You get all 500+ full-length mock tests for SBI PO and IBPS PO (both Prelims and Mains), all Previous Year Papers (2018–2024), live exams with real-time leaderboards, AI-driven performance reports identifying your weak areas, sectional & topic-wise quizzes, a comprehensive current affairs archive, and priority customer support.'

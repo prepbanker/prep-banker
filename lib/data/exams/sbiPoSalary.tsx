@@ -24,19 +24,19 @@ export const sbiPoSalaryContent: DetailSectionContent = {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://app.prepbanker.com"
+                "item": "https://prepbanker.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "SBI PO",
-                "item": "https://app.prepbanker.com/sbi-po"
+                "item": "https://prepbanker.com/sbi-po"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "SBI PO Salary 2026",
-                "item": "https://app.prepbanker.com/sbi-po/salary"
+                "item": "https://prepbanker.com/sbi-po/salary"
               }
             ]
           })
@@ -50,7 +50,7 @@ export const sbiPoSalaryContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO Salary 2026: In-Hand Pay, Allowances & Perks",
-            "url": "https://app.prepbanker.com/sbi-po/salary",
+            "url": "https://prepbanker.com/sbi-po/salary",
             "description": "Complete breakdown of SBI PO salary in 2026 — basic pay, DA, HRA, in-hand amount, CTC, perks, and how salary grows over time.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -58,7 +58,7 @@ export const sbiPoSalaryContent: DetailSectionContent = {
             "isPartOf": {
               "@type": "WebSite",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -71,24 +71,24 @@ export const sbiPoSalaryContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "SBI PO Salary 2026: In-Hand Pay, Allowances & Perks",
-            "url": "https://app.prepbanker.com/sbi-po/salary",
+            "url": "https://prepbanker.com/sbi-po/salary",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://app.prepbanker.com/logo.png"
+                "url": "https://prepbanker.com/logo.png"
               }
             },
             "description": "Complete breakdown of SBI PO salary in 2026 — basic pay, DA, HRA, in-hand amount, CTC, perks, and how salary grows over time.",
-            "mainEntityOfPage": "https://app.prepbanker.com/sbi-po/salary",
+            "mainEntityOfPage": "https://prepbanker.com/sbi-po/salary",
             "keywords": "SBI PO salary 2026, SBI PO in-hand salary, SBI PO pay scale, SBI PO allowances, SBI PO CTC"
           })
         }}
@@ -767,3 +767,4 @@ export const sbiPoSalaryContent: DetailSectionContent = {
     }
   ]
 };
+

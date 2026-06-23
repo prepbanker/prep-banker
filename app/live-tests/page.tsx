@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     url: 'https://prepbanker.com/live-tests',
     type: 'website',
   },
+  alternates: {
+    canonical: 'https://prepbanker.com/live-tests',
+  },
 };
 
 export default function LiveTestsPage() {

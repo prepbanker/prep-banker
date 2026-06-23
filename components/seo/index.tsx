@@ -122,15 +122,24 @@ export function ProductSchema({
 }
 
 // ── WebsiteSchema ────────────────────────
-export function WebsiteSchema() {
+export function WebsiteSchema({
+  name = 'PrepBanker',
+  url = 'https://prepbanker.com',
+  description = "India's Number 1 Banking Exam Preparation Platform for SBI PO and IBPS PO",
+}: {
+  name?: string;
+  url?: string;
+  description?: string;
+} = {}) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    url: 'https://prepbanker.com',
-    name: 'PrepBanker',
+    url,
+    name,
+    description,
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://prepbanker.com/search?q={search_term_string}',
+      target: `${url}/search?q={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
   };

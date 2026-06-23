@@ -24,19 +24,19 @@ export const sbiPoMockTestContent: DetailSectionContent = {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://app.prepbanker.com"
+                "item": "https://prepbanker.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "SBI PO",
-                "item": "https://app.prepbanker.com/sbi-po"
+                "item": "https://prepbanker.com/sbi-po"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "SBI PO Mock Test 2026",
-                "item": "https://app.prepbanker.com/sbi-po/mock-test"
+                "item": "https://prepbanker.com/sbi-po/mock-test"
               }
             ]
           })
@@ -50,7 +50,7 @@ export const sbiPoMockTestContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO Mock Test 2026: Free Full-Length Tests Online",
-            "url": "https://app.prepbanker.com/sbi-po/mock-test",
+            "url": "https://prepbanker.com/sbi-po/mock-test",
             "description": "Attempt free SBI PO mock tests 2026 on PrepBanker — full-length Prelims and Mains tests with section-wise analytics, detailed solutions, and all-India rank.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -58,7 +58,7 @@ export const sbiPoMockTestContent: DetailSectionContent = {
             "isPartOf": {
               "@type": "WebSite",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -71,7 +71,7 @@ export const sbiPoMockTestContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Quiz",
             "name": "SBI PO Mock Test 2026",
-            "url": "https://app.prepbanker.com/sbi-po/mock-test",
+            "url": "https://prepbanker.com/sbi-po/mock-test",
             "description": "Full-length SBI PO Prelims and Mains mock tests for 2026 exam preparation — 100 questions (Prelims) and 155 + Descriptive (Mains), with detailed solutions and section-wise performance analytics.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -83,7 +83,7 @@ export const sbiPoMockTestContent: DetailSectionContent = {
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -96,12 +96,12 @@ export const sbiPoMockTestContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "SBI PO 2026 Mock Test Series",
-            "url": "https://app.prepbanker.com/sbi-po/mock-test",
+            "url": "https://prepbanker.com/sbi-po/mock-test",
             "description": "Complete SBI PO 2026 mock test series covering Prelims and Mains — exam-pattern tests, sectional tests, chapter-wise quizzes, and PYQ sets with detailed performance analytics.",
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "hasCourseInstance": {
               "@type": "CourseInstance",
@@ -220,24 +220,24 @@ export const sbiPoMockTestContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "SBI PO Mock Test 2026: Free Full-Length Tests Online",
-            "url": "https://app.prepbanker.com/sbi-po/mock-test",
+            "url": "https://prepbanker.com/sbi-po/mock-test",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://app.prepbanker.com/logo.png"
+                "url": "https://prepbanker.com/logo.png"
               }
             },
             "description": "Complete guide to SBI PO mock tests 2026 — how many to attempt, how to analyse results, free vs paid options, and platform-specific guidance for Prelims and Mains.",
-            "mainEntityOfPage": "https://app.prepbanker.com/sbi-po/mock-test",
+            "mainEntityOfPage": "https://prepbanker.com/sbi-po/mock-test",
             "keywords": "SBI PO mock test 2026, free SBI PO mock test, SBI PO Prelims mock, SBI PO Mains mock, best mock test SBI PO"
           })
         }}
@@ -715,3 +715,4 @@ export const sbiPoMockTestContent: DetailSectionContent = {
     }
   ]
 };
+

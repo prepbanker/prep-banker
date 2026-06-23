@@ -19,7 +19,14 @@ export const navLinks: NavLink[] = [
     ],
   },
   { label: 'Live Tests',      href: '/live-tests', badge: 'LIVE' },
-  { label: 'Previous Year Papers', href: '/previous-year-papers' },
+  {
+    label: 'Previous Year Papers',
+    href: '/previous-year-papers',
+    children: [
+      { label: 'SBI PO Papers', href: '/sbi-po-previous-year-question-papers' },
+      { label: 'IBPS PO Papers', href: '/ibps-po-previous-year-question-papers' },
+    ],
+  },
   { label: 'Current Affairs', href: '/current-affairs' },
   { label: 'Quiz Practice',   href: '/quiz',  badge: 'NEW' },
   { label: 'Pricing',         href: '/pricing' },

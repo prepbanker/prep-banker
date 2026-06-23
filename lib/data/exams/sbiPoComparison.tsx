@@ -20,7 +20,7 @@ export const sbiPoComparisonContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO vs IBPS PO 2026 – Exam Difference Explained",
-            "url": "https://app.prepbanker.com/sbi-po/sbi-po-vs-ibps-po",
+            "url": "https://prepbanker.com/sbi-po/sbi-po-vs-ibps-po",
             "description": "Complete SBI PO vs IBPS PO 2026 comparison — salary, exam pattern, difficulty, vacancies, cut-offs, and which exam to prioritise for banking aspirants.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -28,9 +28,9 @@ export const sbiPoComparisonContent: DetailSectionContent = {
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-                { "@type": "ListItem", "position": 3, "name": "SBI PO vs IBPS PO", "item": "https://app.prepbanker.com/sbi-po/sbi-po-vs-ibps-po" }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                { "@type": "ListItem", "position": 3, "name": "SBI PO vs IBPS PO", "item": "https://prepbanker.com/sbi-po/sbi-po-vs-ibps-po" }
               ]
             }
           })
@@ -44,9 +44,9 @@ export const sbiPoComparisonContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-              { "@type": "ListItem", "position": 3, "name": "SBI PO vs IBPS PO 2026", "item": "https://app.prepbanker.com/sbi-po/sbi-po-vs-ibps-po" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+              { "@type": "ListItem", "position": 3, "name": "SBI PO vs IBPS PO 2026", "item": "https://prepbanker.com/sbi-po/sbi-po-vs-ibps-po" }
             ]
           })
         }}
@@ -60,27 +60,27 @@ export const sbiPoComparisonContent: DetailSectionContent = {
             "@type": "Article",
             "headline": "SBI PO vs IBPS PO 2026 – Complete Exam Comparison",
             "description": "Detailed comparison of SBI PO and IBPS PO 2026 covering exam pattern, difficulty, salary, vacancies, cut-offs, and preparation strategy for banking aspirants.",
-            "url": "https://app.prepbanker.com/sbi-po/sbi-po-vs-ibps-po",
+            "url": "https://prepbanker.com/sbi-po/sbi-po-vs-ibps-po",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
             "inLanguage": "en-IN",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker Expert Team",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com",
+              "url": "https://prepbanker.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://app.prepbanker.com/assets/logo.png"
+                "url": "https://prepbanker.com/assets/logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://app.prepbanker.com/sbi-po/sbi-po-vs-ibps-po"
+              "@id": "https://prepbanker.com/sbi-po/sbi-po-vs-ibps-po"
             }
           })
         }}
@@ -782,3 +782,4 @@ export const sbiPoComparisonContent: DetailSectionContent = {
     }
   ]
 };
+

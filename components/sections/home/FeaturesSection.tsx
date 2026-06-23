@@ -13,7 +13,7 @@ import {
   Smartphone,
   Check,
 } from 'lucide-react';
-import { SectionTitle, Button } from '@/components/ui';
+import { SectionTitle } from '@/components/ui';
 import { features } from '@/lib/data';
 
 // ─────────────────────────────────────────
@@ -131,19 +131,6 @@ export default function FeaturesSection() {
             );
           })}
         </ul>
-
-        {/* Bottom CTA */}
-        <div className="text-center p-10 bg-gradient-to-br from-[var(--color-navy-deep)] to-[var(--color-navy-mid)] rounded-3xl">
-          <h3 className="font-display font-bold text-xl md:text-2xl lg:text-3xl text-white mb-3 tracking-tight">
-            Ready to Experience All Features?
-          </h3>
-          <p className="text-white/60 text-sm md:text-base mb-6 max-w-lg mx-auto leading-relaxed">
-            Join 50,000+ aspirants already on their banking exam preparation journey.
-          </p>
-          <Button href="https://app.prepgrind.com/register" variant="gold" size="lg" external>
-            Start Your Preparation →
-          </Button>
-        </div>
       </div>
     </section>
   );

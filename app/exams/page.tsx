@@ -11,6 +11,9 @@ import { BreadcrumbSchema, ItemListSchema } from '@/components/seo';
 export const metadata: Metadata = {
   title: 'Banking Exams 2026 – SBI PO & IBPS PO Guides | PrepBanker',
   description: 'Explore SBI PO and IBPS PO 2026 exam guides with syllabus, exam pattern, dates, cutoffs, and free mock tests on PrepBanker.',
+  alternates: {
+    canonical: 'https://prepbanker.com/exams',
+  },
 };
 
 const EXAMS = [sbiPoData, ibpsPoData];

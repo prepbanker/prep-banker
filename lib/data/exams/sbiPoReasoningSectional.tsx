@@ -20,7 +20,7 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO Reasoning Ability Test 2026 – Free Mock Practice",
-            "url": "https://app.prepbanker.com/sbi-po/reasoning-ability-test",
+            "url": "https://prepbanker.com/sbi-po/reasoning-ability-test",
             "description": "Attempt free SBI PO Reasoning Ability sectional tests on PrepBanker. Covers puzzles, seating arrangement, syllogism, coding-decoding, and all topics as per 2026 exam pattern.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -28,9 +28,9 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-                { "@type": "ListItem", "position": 3, "name": "Reasoning Ability Test", "item": "https://app.prepbanker.com/sbi-po/reasoning-ability-test" }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                { "@type": "ListItem", "position": 3, "name": "Reasoning Ability Test", "item": "https://prepbanker.com/sbi-po/reasoning-ability-test" }
               ]
             }
           })
@@ -44,9 +44,9 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-              { "@type": "ListItem", "position": 3, "name": "Reasoning Ability Test 2026", "item": "https://app.prepbanker.com/sbi-po/reasoning-ability-test" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+              { "@type": "ListItem", "position": 3, "name": "Reasoning Ability Test 2026", "item": "https://prepbanker.com/sbi-po/reasoning-ability-test" }
             ]
           })
         }}
@@ -60,11 +60,11 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
             "@type": "Course",
             "name": "SBI PO Reasoning Ability Test Series 2026",
             "description": "Comprehensive reasoning ability practice for SBI PO Prelims and Mains 2026. Includes sectional mocks, topic-wise quizzes, DPPs, and previous year question sets covering puzzles, seating arrangement, syllogism, coding-decoding, inequalities, and all Mains reasoning topics.",
-            "url": "https://app.prepbanker.com/sbi-po/reasoning-ability-test",
+            "url": "https://prepbanker.com/sbi-po/reasoning-ability-test",
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "educationalLevel": "Undergraduate",
             "courseMode": "online",
@@ -92,7 +92,7 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
             "@type": "Quiz",
             "name": "SBI PO Reasoning Ability Sectional Test 2026",
             "description": "Free SBI PO Reasoning Ability sectional test covering Puzzles & Seating Arrangement, Syllogism, Coding-Decoding, Inequalities, Blood Relations, Direction Sense, and Input-Output as per the 2026 Prelims and Mains exam pattern.",
-            "url": "https://app.prepbanker.com/sbi-po/reasoning-ability-test",
+            "url": "https://prepbanker.com/sbi-po/reasoning-ability-test",
             "educationalAlignment": {
               "@type": "AlignmentObject",
               "alignmentType": "educationalSubject",
@@ -107,7 +107,7 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -724,3 +724,4 @@ export const sbiPoReasoningSectionalContent: DetailSectionContent = {
     }
   ]
 };
+

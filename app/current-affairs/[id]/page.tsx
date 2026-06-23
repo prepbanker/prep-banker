@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${article.title} | Banking Current Affairs 2026`,
     description: article.summary,
     alternates: {
-      canonical: `/current-affairs/${article.id}`
+      canonical: `https://prepbanker.com/current-affairs/${article.id}`
     },
     openGraph: {
       title: article.title,

@@ -24,19 +24,19 @@ export const sbiPoEligibilityContent: DetailSectionContent = {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://app.prepbanker.com"
+                "item": "https://prepbanker.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "SBI PO",
-                "item": "https://app.prepbanker.com/sbi-po"
+                "item": "https://prepbanker.com/sbi-po"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "SBI PO Eligibility 2026",
-                "item": "https://app.prepbanker.com/sbi-po/eligibility"
+                "item": "https://prepbanker.com/sbi-po/eligibility"
               }
             ]
           })
@@ -50,7 +50,7 @@ export const sbiPoEligibilityContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO Eligibility 2026: Age Limit, Educational Qualification & Number of Attempts",
-            "url": "https://app.prepbanker.com/sbi-po/eligibility",
+            "url": "https://prepbanker.com/sbi-po/eligibility",
             "description": "Complete SBI PO Eligibility Criteria 2026 — age limit 21–30 years, any graduation degree, category-wise age relaxation, attempt limits, nationality, and application conditions.",
             "inLanguage": "en-IN",
             "datePublished": "2026-05-01",
@@ -58,7 +58,7 @@ export const sbiPoEligibilityContent: DetailSectionContent = {
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -71,27 +71,27 @@ export const sbiPoEligibilityContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "SBI PO Eligibility 2026: Age Limit, Qualification, Attempts & Who Can Apply",
-            "url": "https://app.prepbanker.com/sbi-po/eligibility",
+            "url": "https://prepbanker.com/sbi-po/eligibility",
             "description": "Detailed SBI PO 2026 eligibility breakdown — age 21–30, any graduation stream, category-wise age relaxation, attempt limits (4 for General, 7 for OBC, unlimited for SC/ST), and final year student rules.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker Editorial Team",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com",
+              "url": "https://prepbanker.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://app.prepbanker.com/logo.png"
+                "url": "https://prepbanker.com/logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://app.prepbanker.com/sbi-po/eligibility"
+              "@id": "https://prepbanker.com/sbi-po/eligibility"
             }
           })
         }}
@@ -700,3 +700,4 @@ export const sbiPoEligibilityContent: DetailSectionContent = {
     }
   ]
 };
+

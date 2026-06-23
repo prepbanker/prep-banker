@@ -24,25 +24,25 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://app.prepbanker.com"
+                "item": "https://prepbanker.com"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "SBI PO",
-                "item": "https://app.prepbanker.com/sbi-po"
+                "item": "https://prepbanker.com/sbi-po"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "SBI PO Mock Tests",
-                "item": "https://app.prepbanker.com/sbi-po/mock-test"
+                "item": "https://prepbanker.com/sbi-po/mock-test"
               },
               {
                 "@type": "ListItem",
                 "position": 4,
                 "name": "SBI PO English Sectional Test 2026",
-                "item": "https://app.prepbanker.com/sbi-po/english-sectional-test"
+                "item": "https://prepbanker.com/sbi-po/english-sectional-test"
               }
             ]
           })
@@ -56,7 +56,7 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO English Sectional Test 2026: Free Practice Tests",
-            "url": "https://app.prepbanker.com/sbi-po/english-sectional-test",
+            "url": "https://prepbanker.com/sbi-po/english-sectional-test",
             "description": "Free SBI PO English Language sectional tests for 2026 — topic-wise practice for Reading Comprehension, Cloze Test, Error Spotting, Para Jumbles, and more. Detailed solutions and analytics included.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -64,7 +64,7 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
             "isPartOf": {
               "@type": "WebSite",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -77,7 +77,7 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Quiz",
             "name": "SBI PO English Language Sectional Test 2026",
-            "url": "https://app.prepbanker.com/sbi-po/english-sectional-test",
+            "url": "https://prepbanker.com/sbi-po/english-sectional-test",
             "description": "Sectional practice tests for the SBI PO English Language section — covering Reading Comprehension, Cloze Test, Error Spotting, Sentence Improvement, Para Jumbles, Fill in the Blanks, and Vocabulary.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -89,7 +89,7 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             }
           })
         }}
@@ -102,12 +102,12 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "SBI PO English Language Section — Sectional Test Series 2026",
-            "url": "https://app.prepbanker.com/sbi-po/english-sectional-test",
+            "url": "https://prepbanker.com/sbi-po/english-sectional-test",
             "description": "Complete sectional test series for SBI PO English Language 2026 — topic-wise tests, full-section timed tests, PYQ-based sets, and detailed solutions for Prelims and Mains English preparation.",
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "hasCourseInstance": {
               "@type": "CourseInstance",
@@ -225,24 +225,24 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "SBI PO English Sectional Test 2026: Free Practice Tests",
-            "url": "https://app.prepbanker.com/sbi-po/english-sectional-test",
+            "url": "https://prepbanker.com/sbi-po/english-sectional-test",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://app.prepbanker.com/logo.png"
+                "url": "https://prepbanker.com/logo.png"
               }
             },
             "description": "Complete guide to SBI PO English Language sectional test preparation — topic weightage, strategy, sectional cut offs, and how to use PrepBanker's topic-wise tests.",
-            "mainEntityOfPage": "https://app.prepbanker.com/sbi-po/english-sectional-test",
+            "mainEntityOfPage": "https://prepbanker.com/sbi-po/english-sectional-test",
             "keywords": "SBI PO English sectional test 2026, SBI PO English language practice, SBI PO reading comprehension, SBI PO English cut off, SBI PO English preparation"
           })
         }}
@@ -649,3 +649,4 @@ export const sbiPoEnglishSectionalContent: DetailSectionContent = {
     }
   ]
 };
+

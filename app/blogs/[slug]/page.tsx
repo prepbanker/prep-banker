@@ -54,7 +54,7 @@ export async function generateMetadata(
       description: blog.metaDescription ?? blog.excerpt,
       images:      [blog.featuredImage],
     },
-    alternates: { canonical: `/blogs/${blog.slug}` },
+    alternates: { canonical: `https://prepbanker.com/blogs/${blog.slug}` },
   };
 }
 

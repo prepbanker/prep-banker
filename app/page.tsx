@@ -15,7 +15,8 @@ import WhyPrepBankerSection   from '@/components/sections/home/WhyPrepBankerSect
 import FeaturesSection        from '@/components/sections/home/FeaturesSection';
 import TestimonialsSection    from '@/components/sections/home/TestimonialsSection';
 import FAQSection             from '@/components/sections/home/FAQSection';
-import { ProductSchema, WebsiteSchema } from '@/components/seo';
+import { ProductSchema, WebsiteSchema, FAQSchema } from '@/components/seo';
+import { HOME_FAQS } from '@/lib/data/homeFaqs';
 
 // ─────────────────────────────────────────
 // Homepage Metadata
@@ -73,6 +74,7 @@ export default function HomePage() {
       {/* Structured Data */}
       <ProductSchema />
       <WebsiteSchema />
+      <FAQSchema items={HOME_FAQS} />
 
       {/* Layout */}
       <Header />
@@ -117,52 +119,6 @@ export default function HomePage() {
       </main>
 
       <Footer />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "PrepBanker",
-            "url": "https://prepbanker.com",
-            "description": "India's Number 1 Banking Exam Preparation Platform for SBI PO and IBPS PO",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://prepbanker.com/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          })
-        }}
-      />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is the best way to prepare for SBI PO 2026?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Practice with full-length SBI PO Mock Tests, sectional tests, and topic-wise quizzes on PrepBanker."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Are the mock tests on PrepBanker free?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, PrepBanker offers 500+ free mock tests for SBI PO and IBPS PO exam preparation."
-                }
-              }
-            ]
-          })
-        }}
-      />
     </>
   );
 }

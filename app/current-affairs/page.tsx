@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     type:        'website',
     url:         'https://prepbanker.com/current-affairs',
   },
+  alternates: {
+    canonical: 'https://prepbanker.com/current-affairs',
+  },
 };
 
 // ─── Page ─────────────────────────────────

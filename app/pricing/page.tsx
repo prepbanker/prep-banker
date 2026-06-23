@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     url: 'https://prepbanker.com/pricing',
     type: 'website',
   },
+  alternates: {
+    canonical: 'https://prepbanker.com/pricing',
+  },
 };
 
 // --- FAQ Schema Data ---

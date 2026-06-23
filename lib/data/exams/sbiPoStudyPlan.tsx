@@ -20,7 +20,7 @@ export const sbiPoStudyPlanContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "SBI PO Study Plan 2026 – 3-Month Preparation Strategy",
-            "url": "https://app.prepbanker.com/sbi-po/study-plan",
+            "url": "https://prepbanker.com/sbi-po/study-plan",
             "description": "Complete SBI PO study plan 2026 with week-by-week schedule for Prelims and Mains. Covers topic priority order, daily study targets, and mock test timetable for all types of aspirants.",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
@@ -28,9 +28,9 @@ export const sbiPoStudyPlanContent: DetailSectionContent = {
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-                { "@type": "ListItem", "position": 3, "name": "Study Plan 2026", "item": "https://app.prepbanker.com/sbi-po/study-plan" }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+                { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                { "@type": "ListItem", "position": 3, "name": "Study Plan 2026", "item": "https://prepbanker.com/sbi-po/study-plan" }
               ]
             }
           })
@@ -44,9 +44,9 @@ export const sbiPoStudyPlanContent: DetailSectionContent = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://app.prepbanker.com" },
-              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://app.prepbanker.com/sbi-po" },
-              { "@type": "ListItem", "position": 3, "name": "SBI PO Study Plan 2026", "item": "https://app.prepbanker.com/sbi-po/study-plan" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
+              { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+              { "@type": "ListItem", "position": 3, "name": "SBI PO Study Plan 2026", "item": "https://prepbanker.com/sbi-po/study-plan" }
             ]
           })
         }}
@@ -60,27 +60,27 @@ export const sbiPoStudyPlanContent: DetailSectionContent = {
             "@type": "Article",
             "headline": "SBI PO Study Plan 2026 – Complete 3-Month Preparation Strategy",
             "description": "Week-by-week SBI PO study plan for Prelims and Mains 2026, covering topic prioritisation, daily study targets, mock test schedule, and preparation strategies for students, working professionals, and repeaters.",
-            "url": "https://app.prepbanker.com/sbi-po/study-plan",
+            "url": "https://prepbanker.com/sbi-po/study-plan",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-11",
             "inLanguage": "en-IN",
             "author": {
               "@type": "Organization",
               "name": "PrepBanker Expert Team",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com",
+              "url": "https://prepbanker.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://app.prepbanker.com/assets/logo.png"
+                "url": "https://prepbanker.com/assets/logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://app.prepbanker.com/sbi-po/study-plan"
+              "@id": "https://prepbanker.com/sbi-po/study-plan"
             }
           })
         }}
@@ -94,11 +94,11 @@ export const sbiPoStudyPlanContent: DetailSectionContent = {
             "@type": "Course",
             "name": "SBI PO Complete Preparation Plan 2026",
             "description": "Structured SBI PO preparation plan for 2026 covering Prelims and Mains. Includes topic-wise study schedule, daily practice sets, sectional mock tests, and full-length mocks aligned to the official SBI PO exam pattern.",
-            "url": "https://app.prepbanker.com/sbi-po/study-plan",
+            "url": "https://prepbanker.com/sbi-po/study-plan",
             "provider": {
               "@type": "Organization",
               "name": "PrepBanker",
-              "url": "https://app.prepbanker.com"
+              "url": "https://prepbanker.com"
             },
             "educationalLevel": "Undergraduate",
             "courseMode": "online",
@@ -703,3 +703,4 @@ export const sbiPoStudyPlanContent: DetailSectionContent = {
     }
   ]
 };
+

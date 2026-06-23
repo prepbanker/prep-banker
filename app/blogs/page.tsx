@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Expert exam strategy, current affairs, and study tips for SBI PO & IBPS PO aspirants.',
     type: 'website',
   },
-  alternates: { canonical: '/blogs' },
+  alternates: { canonical: 'https://prepbanker.com/blogs' },
 };
 
 interface PageProps {
