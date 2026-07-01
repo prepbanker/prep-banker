@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Logo from "../../public/images/prepbanker-logo-2.png"
 
 export default function Header() {
-  const [scrolled,       setScrolled]       = useState(false);
+  const [scrolled,       setScrolled]       = useState(false);  
   const [mobileOpen,     setMobileOpen]     = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 

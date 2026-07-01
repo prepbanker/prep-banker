@@ -7,7 +7,10 @@ import {
   Lock,
   Download,
   ArrowRight,
-  ArrowDown
+  ArrowDown,
+  Search,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react';
 import Breadcrumb from '@/components/shared/Breadcrumb';
 import FAQSection from '@/components/shared/FAQSection';
@@ -43,8 +46,15 @@ export default function PreviousYearPapersLayout({
   faqs,
   children
 }: PreviousYearPapersLayoutProps) {
-  const [stageFilter, setStageFilter] = useState<'All' | 'Prelims' | 'Mains'>('All');
-  const [visibleCount, setVisibleCount] = useState<number>(6);
+  // Extract unique years from the papers array for year dropdown
+  const availableYears = useMemo(() => {
+    const years = Array.from(new Set(papers.map((p) => p.year)));
+    return years.sort((a, b) => b - a);
+  }, [papers]);
+
+  const [yearFilter, setYearFilter] = useState<number | 'All'>('All');
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const papersPerPage = 5;
   const [selectedPdf, setSelectedPdf] = useState<{ url: string; title: string } | null>(null);
 
   // Lock scroll when PDF viewer modal is open
@@ -67,28 +77,33 @@ export default function PreviousYearPapersLayout({
     setSelectedPdf(null);
   };
 
-  // Filter papers by stage (Prelims / Mains)
+  // Reset page to 1 when filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [yearFilter]);
+
+  // Filter papers based on current selector dropdown
   const filteredPapers = useMemo(() => {
     return papers.filter((paper) => {
-      if (stageFilter === 'All') return true;
-      return paper.stage === stageFilter;
+      if (yearFilter !== 'All' && paper.year !== yearFilter) return false;
+      return true;
     });
-  }, [papers, stageFilter]);
+  }, [papers, yearFilter]);
 
-  // Reset pagination when filter changes
-  const handleFilterChange = (filter: 'All' | 'Prelims' | 'Mains') => {
-    setStageFilter(filter);
-    setVisibleCount(6);
-  };
+  // Paginated papers array
+  const totalPages = Math.max(1, Math.ceil(filteredPapers.length / papersPerPage));
+  const paginatedPapers = useMemo(() => {
+    const startIndex = (currentPage - 1) * papersPerPage;
+    return filteredPapers.slice(startIndex, startIndex + papersPerPage);
+  }, [filteredPapers, currentPage, papersPerPage]);
 
-  const visiblePapers = useMemo(() => {
-    return filteredPapers.slice(0, visibleCount);
-  }, [filteredPapers, visibleCount]);
-
-  const hasMore = filteredPapers.length > visibleCount;
-
-  const handleLoadMore = () => {
-    setVisibleCount((prev) => Math.min(prev + 6, filteredPapers.length));
+  // Authentic file naming helper matching sscdrishti.com reference style
+  const getPaperFileName = (paper: PYQPaper) => {
+    const examPart = paper.exam.replace(/\s+/g, '-');
+    const stagePart = paper.stage;
+    const yearPart = paper.year;
+    const shiftPart = paper.shift ? paper.shift.replace(/\s+/g, '-') : 'Official-Paper';
+    return `${examPart}-${stagePart}-Question-Paper-${yearPart}-${shiftPart}`;
   };
 
   // Derive stats for hero cards
@@ -228,166 +243,132 @@ export default function PreviousYearPapersLayout({
       <section id="papers-list" className="bg-slate-50 py-16 scroll-mt-20">
         <div className="container-custom">
           
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[var(--color-navy)] tracking-tight">
-              Download {examName} Question Papers
-            </h2>
-            <div className="h-1 w-16 bg-gradient-to-r from-[var(--color-gold)] to-[var(--color-blue)] mx-auto mt-3 rounded-full" />
-            <p className="text-[var(--color-gray-600)] text-sm mt-3">
-              Practice official papers stage-wise to understand actual questions, time management, and topic distribution.
-            </p>
+          {/* Screenshot Title and Quiz Button Row */}
+          <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
+            <h3 className="text-base sm:text-lg font-bold text-[var(--color-navy)] font-display">
+              Choose Subject for PYQ PDF
+            </h3>
+            <a
+              href="https://app.prepgrind.com/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-[#2D3E6B] hover:bg-[#1E2B50] text-white text-xs font-bold rounded transition-colors"
+            >
+              Go to PYQ Quiz
+            </a>
           </div>
 
-          {/* Tab / Stage Filter */}
-          <div className="flex justify-center mb-10">
-            <div className="bg-slate-200/60 border border-slate-300/40 p-1.5 rounded-xl flex gap-1">
-              {(['All', 'Prelims', 'Mains'] as const).map((filter) => (
-                <button
-                  key={filter}
-                  onClick={() => handleFilterChange(filter)}
-                  className={`px-6 py-2.5 rounded-lg text-xs font-bold transition-all duration-200 cursor-pointer ${
-                    stageFilter === filter
-                      ? 'bg-white text-[var(--color-navy-deep)] shadow-sm'
-                      : 'text-slate-600 hover:text-slate-900 hover:bg-white/50'
-                  }`}
-                >
-                  {filter === 'All' ? 'All Stages' : `${filter} Only`}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Two-Column Grid Layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full items-start">
+          {/* Main Card Wrapper (Full Width) */}
+          <div className="bg-white border border-[#DFE5EE] rounded-2xl p-6 sm:p-8 shadow-[0_4px_20px_rgba(13,27,62,0.02)] w-full">
             
-            {/* Left Column: Row-wise List View (Compact spacing) */}
-            <div className="lg:col-span-2 flex flex-col gap-3">
-              {visiblePapers.map((paper) => {
-                const displayTitle = `${paper.exam} ${paper.stage} ${paper.year} ${paper.shift ? `– ${paper.shift}` : ''}`;
-                return (
-                  <div
-                    key={paper.id}
-                    className={`flex flex-col sm:flex-row sm:items-center justify-between py-3.5 px-5 bg-white border border-slate-200 rounded-xl transition-all duration-300 hover:shadow-[0_4px_16px_rgba(13,27,62,0.03)] hover:border-slate-305 ${
-                      paper.locked ? 'border-l-4 border-slate-350' : 'border-l-4 border-green-600'
-                    }`}
-                    style={{
-                      borderLeftWidth: '4px',
-                      borderLeftStyle: 'solid',
-                      borderLeftColor: paper.locked ? '#CBD5E1' : '#16A34A'
-                    }}
-                  >
-                    {/* Left details */}
-                    <div className="flex-1 min-w-0 pr-4">
-                      <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                        {/* Compact Badge pills */}
-                        <span className="text-[9px] font-extrabold text-blue-600 bg-blue-50/70 border border-blue-100/50 px-1.5 py-0.5 rounded uppercase tracking-wide">
-                          {paper.year}
-                        </span>
-                        <span className="text-[9px] font-extrabold text-amber-600 bg-amber-50/70 border border-amber-100/50 px-1.5 py-0.5 rounded uppercase tracking-wide">
-                          {paper.stage}
-                        </span>
-                        {paper.shift && (
-                          <span className="text-[9px] font-extrabold text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded uppercase tracking-wide">
-                            {paper.shift}
-                          </span>
-                        )}
-                        {/* Title */}
-                        <h4 className="text-sm sm:text-base font-bold text-[var(--color-navy)] truncate leading-tight ml-1">
-                          {paper.exam} {paper.stage} {paper.year}
-                        </h4>
-                      </div>
+            {/* Year Selector Row inside the card */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5 mb-6">
+              <span className="text-sm font-bold text-[var(--color-navy)]">Select Year</span>
+              <select
+                value={yearFilter}
+                onChange={(e) => setYearFilter(e.target.value === 'All' ? 'All' : Number(e.target.value))}
+                className="px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs font-bold text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/10 focus:border-blue-400 transition-all cursor-pointer shadow-xs min-w-[160px]"
+              >
+                <option value="All">All Years</option>
+                {availableYears.map((year) => (
+                  <option key={year} value={year}>
+                    {examName} {year}
+                  </option>
+                ))}
+              </select>
+            </div>
 
-                      {/* Stats meta */}
-                      <p className="text-[11px] text-slate-400 font-semibold flex items-center gap-1.5 mt-1">
-                        <span>{paper.totalQuestions} Questions</span>
-                        <span className="w-1 h-1 rounded-full bg-slate-300" />
-                        <span>{paper.totalMarks} Marks</span>
-                        <span className="w-1 h-1 rounded-full bg-slate-300" />
-                        <span>{paper.duration}</span>
-                      </p>
-                    </div>
-
-                    {/* Actions Right */}
-                    <div className="mt-3 sm:mt-0 flex items-center gap-2 shrink-0 self-end sm:self-center">
-                      {paper.locked ? (
-                        <>
-                          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-slate-50 text-slate-500 text-[10px] font-bold border border-slate-150">
-                            <Lock className="w-3 h-3" />
-                            Locked
-                          </span>
-                          <a
-                            href="https://app.prepgrind.com/register"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-3.5 py-1.5 text-xs font-bold bg-[var(--color-navy)] hover:bg-[var(--color-blue)] text-white rounded-lg transition-all duration-200 flex items-center gap-1 shadow-sm"
-                          >
-                            Unlock Free
-                            <ArrowRight className="w-3 h-3" />
-                          </a>
-                        </>
-                      ) : (
-                        <button
-                          onClick={() => handleOpenPdf(paper.pdfPath || '/pdfs/pyp.pdf', displayTitle)}
-                          className="flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-green-600 hover:bg-green-700 text-white text-xs font-bold transition-colors shadow-sm cursor-pointer"
-                        >
-                          <Download className="w-3.5 h-3.5" />
-                          Download PDF
-                        </button>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-
-              {/* Load More Button */}
-              {hasMore && (
-                <div className="text-center mt-6">
-                  <button
-                    onClick={handleLoadMore}
-                    className="px-6 py-2.5 text-xs font-bold text-slate-700 bg-transparent border border-slate-300 hover:border-slate-400 hover:bg-slate-50 rounded-lg transition-colors cursor-pointer"
-                  >
-                    Load More Papers
-                  </button>
+            {/* List block matching sscdrishti.com reference exactly */}
+            <div className="border border-[#DFE5EE] rounded-lg overflow-hidden divide-y divide-[#DFE5EE]">
+              {paginatedPapers.length === 0 ? (
+                <div className="bg-white p-12 text-center">
+                  <h3 className="text-sm font-bold text-slate-500">No papers found for the selected year.</h3>
                 </div>
+              ) : (
+                paginatedPapers.map((paper) => {
+                  const fileName = getPaperFileName(paper);
+                  const displayTitle = `${paper.exam} ${paper.stage} ${paper.year} ${paper.shift ? `– ${paper.shift}` : ''}`;
+                  return (
+                    <div
+                      key={paper.id}
+                      className="flex flex-col sm:flex-row sm:items-center justify-between py-4 px-5 bg-[#F2F6FC]/60 hover:bg-[#EAF0F9] transition-colors gap-4"
+                    >
+                      {/* Left: Hyphenated File Name */}
+                      <span className="text-xs sm:text-sm font-bold text-[#3E4E7C] tracking-tight leading-normal break-all">
+                        {fileName}
+                      </span>
+
+                      {/* Right: Actions */}
+                      <div className="flex items-center gap-2 shrink-0 self-end sm:self-center">
+                        {paper.locked ? (
+                          <>
+                            <span className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded bg-slate-100 text-slate-500 text-[10px] font-bold border border-slate-200">
+                              <Lock className="w-3.5 h-3.5" />
+                              Locked
+                            </span>
+                            <a
+                              href="https://app.prepgrind.com/register"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="px-6 py-3 text-xs font-bold bg-[#2D3E6B] hover:bg-[#1E2B50] text-white rounded transition-colors shadow-xs"
+                            >
+                              Unlock Free
+                            </a>
+                          </>
+                        ) : (
+                          <button
+                            onClick={() => handleOpenPdf(paper.pdfPath || '/pdfs/pyp.pdf', displayTitle)}
+                            className="flex items-center justify-center gap-1.5 px-6 py-3 rounded bg-[#2D3E6B] hover:bg-[#1E2B50] text-white text-xs font-bold transition-colors shadow-xs cursor-pointer"
+                          >
+                            <FileText className="w-3.5 h-3.5 text-white" />
+                            Download PDF
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })
               )}
             </div>
 
-            {/* Right Column: Sticky Registration CTA Card */}
-            <div className="lg:col-span-1 lg:sticky lg:top-24">
-              <div
-                className="bg-gradient-to-br from-[var(--color-navy-deep)] to-[var(--color-navy-mid)] text-white p-6 rounded-2xl border border-white/10 shadow-[0_12px_36px_rgba(7,16,42,0.15)]"
-              >
-                <div className="mb-4 inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/10 text-[var(--color-gold-bright)] text-xl font-bold">
-                  🎯
-                </div>
-                <h3 className="text-lg font-extrabold text-white tracking-tight">Register Free</h3>
-                <p className="text-xs text-slate-300 mt-1 leading-relaxed">
-                  Get access to all {examName} Previous Year Papers
-                </p>
-                <ul className="mt-5 space-y-3 text-xs text-slate-200">
-                  <li className="flex items-center gap-2">
-                    <span className="text-[var(--color-gold-bright)] font-bold">✔</span> Download all PDFs
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-[var(--color-gold-bright)] font-bold">✔</span> Track progress
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-[var(--color-gold-bright)] font-bold">✔</span> Get exam updates
-                  </li>
-                </ul>
-                <a
-                  href="https://app.prepgrind.com/register"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block mt-6 w-full text-center py-3 bg-[var(--color-yellow)] hover:bg-amber-500 text-[var(--color-navy-deep)] text-xs font-bold uppercase tracking-wider rounded-xl transition-all duration-200 hover:-translate-y-0.5 shadow-lg shadow-yellow-500/10 cursor-pointer"
+            {/* Numbered Pagination (only if more than 1 page) */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-1.5 mt-6 pt-4 border-t border-slate-100">
+                <button
+                  onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                  disabled={currentPage === 1}
+                  className="p-2 rounded border border-slate-200 text-slate-500 hover:bg-slate-100 disabled:opacity-40 disabled:hover:bg-transparent transition-all cursor-pointer bg-white"
+                  aria-label="Previous Page"
                 >
-                  Register Now
-                </a>
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                  <button
+                    key={page}
+                    onClick={() => setCurrentPage(page)}
+                    className={`w-9 h-9 rounded text-xs font-bold transition-all duration-200 cursor-pointer ${
+                      currentPage === page
+                        ? 'bg-[#2D3E6B] text-white shadow-xs'
+                        : 'border border-slate-200 text-slate-650 hover:bg-slate-100 bg-white'
+                    }`}
+                  >
+                    {page}
+                  </button>
+                ))}
+
+                <button
+                  onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
+                  disabled={currentPage === totalPages}
+                  className="p-2 rounded border border-slate-200 text-slate-500 hover:bg-slate-100 disabled:opacity-40 disabled:hover:bg-transparent transition-all cursor-pointer bg-white"
+                  aria-label="Next Page"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
               </div>
-            </div>
+            )}
 
           </div>
-
         </div>
       </section>
 

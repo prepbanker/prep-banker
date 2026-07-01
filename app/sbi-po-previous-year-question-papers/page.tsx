@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PreviousYearPapersLayout, { PYQPaper } from '@/components/sections/previous-year-papers/PreviousYearPapersLayout';
+import { Lightbulb, Calendar, Compass, Search, Clock, FileEdit, RefreshCw, Trophy, Columns, Link } from 'lucide-react';
 
 // --- SEO Metadata ---
 export const metadata: Metadata = {
@@ -421,14 +422,16 @@ export default function SBIPOPapersPage() {
             </table>
           </div>
           <div className="bg-gradient-to-r from-amber-50/60 to-orange-50/30 border-l-4 border-[var(--color-yellow)] p-5 rounded-r-2xl text-xs sm:text-sm text-amber-900 leading-relaxed shadow-[0_2px_8px_rgba(245,158,11,0.05)] flex items-start gap-3">
-            <span className="text-lg">💡</span>
+            <Lightbulb className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
             <div>
               <strong>Key Strategy Takeaway:</strong> Prelims is speed-based, while Mains requires deep conceptual understanding and descriptive articulation. Spend 70% of your prep time targeting Mains-level DI and puzzles.
             </div>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">📅</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Calendar className="w-4 h-4" />
+            </span>
             How SBI PO Previous Year Papers Have Changed Over the Years (2016–2025)
           </h2>
           <p className="text-slate-600 leading-relaxed mb-6 text-sm sm:text-base">
@@ -489,54 +492,9 @@ export default function SBIPOPapersPage() {
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">🎯</span>
-            What Topics Show Up Most Often in SBI PO Papers?
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-6">
-            {[
-              {
-                title: 'Quantitative Aptitude',
-                icon: '📊',
-                bgColor: 'bg-blue-50/60 text-blue-600 border-blue-100',
-                borderHover: 'hover:border-blue-300',
-                desc: 'Data Interpretation (tabular, caselets, bar graphs), Quadratic Equations, Approximation, and Number Series.'
-              },
-              {
-                title: 'Reasoning Ability',
-                icon: '🧠',
-                bgColor: 'bg-indigo-50/60 text-indigo-600 border-indigo-100',
-                borderHover: 'hover:border-indigo-300',
-                desc: 'Seating Arrangements (combined linear/circular), Puzzle-based Coding, Syllogisms, and Blood Relations.'
-              },
-              {
-                title: 'English Language',
-                icon: '🔤',
-                bgColor: 'bg-amber-50/60 text-amber-600 border-amber-100',
-                borderHover: 'hover:border-amber-300',
-                desc: 'Reading Comprehension, Cloze Tests, Para Jumbles, and Error Detection.'
-              },
-              {
-                title: 'General/Banking Awareness',
-                icon: '💼',
-                bgColor: 'bg-emerald-50/60 text-emerald-600 border-emerald-100',
-                borderHover: 'hover:border-emerald-300',
-                desc: 'Current financial affairs (last 6 months), RBI monetary policy updates, and banking sector news.'
-              }
-            ].map((card, i) => (
-              <div key={i} className={`p-5 bg-white border border-slate-200 rounded-2xl shadow-[0_2px_12px_rgba(13,27,62,0.015)] transition-all duration-200 ${card.borderHover} hover:-translate-y-0.5 flex gap-4`}>
-                <div className={`w-10 h-10 rounded-xl ${card.bgColor} border flex items-center justify-center text-lg font-bold shrink-0 shadow-xs`}>
-                  {card.icon}
-                </div>
-                <div>
-                  <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">{card.title}</h4>
-                  <p className="text-xs text-slate-500 leading-relaxed">{card.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">🗺</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Compass className="w-4 h-4" />
+            </span>
             How to Use SBI PO Previous Year Question Papers: A 6-Step Strategy
           </h2>
           <p className="text-slate-600 leading-relaxed mb-6 text-sm sm:text-base">
@@ -544,30 +502,35 @@ export default function SBIPOPapersPage() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-6">
             {[
-              { num: '01', title: 'Diagnose Baseline', icon: '🔍', desc: 'Attempt one full previous year paper under strict timed conditions to establish your baseline score.' },
-              { num: '02', title: 'Segment Sections', icon: '✂', desc: 'Isolate specific sections (e.g., Quant DI) across 5 years to find recurring topic vulnerabilities.' },
-              { num: '03', title: 'Time-Box Practice', icon: '⏱', desc: 'Solve papers with hard sectional timers rather than combined limits to calibrate your pacing.' },
-              { num: '04', title: 'Log Errors', icon: '📝', desc: 'Document every incorrect answer in an error sheet, tracking calculation errors vs. timing slips.' },
-              { num: '05', title: 'Re-Attempt Slips', icon: '🔄', desc: 'Re-solve only the logged incorrect questions a week later without referring to the solutions.' },
-              { num: '06', title: 'Simulate Live Mocks', icon: '🏁', desc: 'Pivot to timed mock tests once your topic accuracy on previous papers consistently clears cutoffs.' }
-            ].map((step, i) => (
-              <div key={i} className="bg-white border border-slate-200 p-5 rounded-2xl relative shadow-[0_2px_12px_rgba(13,27,62,0.02)] hover:shadow-[0_8px_24px_rgba(13,27,62,0.06)] hover:border-slate-300 hover:-translate-y-0.5 transition-all duration-200 flex flex-col justify-between overflow-hidden group">
-                <div className="absolute top-2 right-3 text-4xl font-black text-slate-100/70 select-none font-display leading-none group-hover:text-slate-200/50 transition-colors">
-                  {step.num}
-                </div>
-                <div>
-                  <div className="text-xl mb-3 w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center shadow-xs border border-slate-100">
-                    {step.icon}
+              { num: '01', title: 'Diagnose Baseline', icon: Search, desc: 'Attempt one full previous year paper under strict timed conditions to establish your baseline score.' },
+              { num: '02', title: 'Segment Sections', icon: Columns, desc: 'Isolate specific sections (e.g., Quant DI) across 5 years to find recurring topic vulnerabilities.' },
+              { num: '03', title: 'Time-Box Practice', icon: Clock, desc: 'Solve papers with hard sectional timers rather than combined limits to calibrate your pacing.' },
+              { num: '04', title: 'Log Errors', icon: FileEdit, desc: 'Document every incorrect answer in an error sheet, tracking calculation errors vs. timing slips.' },
+              { num: '05', title: 'Re-Attempt Slips', icon: RefreshCw, desc: 'Re-solve only the logged incorrect questions a week later without referring to the solutions.' },
+              { num: '06', title: 'Simulate Live Mocks', icon: Trophy, desc: 'Pivot to timed mock tests once your topic accuracy on previous papers consistently clears cutoffs.' }
+            ].map((step, i) => {
+              const StepIcon = step.icon;
+              return (
+                <div key={i} className="bg-white border border-slate-200 p-5 rounded-2xl relative shadow-[0_2px_12px_rgba(13,27,62,0.02)] hover:shadow-[0_8px_24px_rgba(13,27,62,0.06)] hover:border-slate-300 hover:-translate-y-0.5 transition-all duration-200 flex flex-col justify-between overflow-hidden group">
+                  <div className="absolute top-2 right-3 text-4xl font-black text-slate-100/70 select-none font-display leading-none group-hover:text-slate-200/50 transition-colors">
+                    {step.num}
                   </div>
-                  <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</h4>
-                  <p className="text-xs text-slate-500 mt-2 leading-relaxed">{step.desc}</p>
+                  <div>
+                    <div className="mb-3 w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center shadow-xs border border-slate-100 text-[var(--color-blue)]">
+                      <StepIcon className="w-4 h-4" />
+                    </div>
+                    <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</h4>
+                    <p className="text-xs text-slate-500 mt-2 leading-relaxed">{step.desc}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs font-bold">🔗</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Link className="w-4 h-4" />
+            </span>
             Also Explore on PrepBanker
           </h2>
           <p className="text-slate-650 leading-relaxed mb-4 text-sm sm:text-base">

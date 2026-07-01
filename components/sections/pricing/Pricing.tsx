@@ -93,7 +93,7 @@ export default function Pricing() {
               <div className="mb-5 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-white/20 transition-all duration-200">
                 <CreditCard className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" aria-hidden />
                 <span className="text-xs font-bold text-slate-300 uppercase tracking-widest">
-                  💳 Simple, Honest Pricing
+                Simple, Honest Pricing
                 </span>
               </div>
 

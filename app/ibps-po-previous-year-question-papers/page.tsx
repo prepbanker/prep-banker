@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PreviousYearPapersLayout, { PYQPaper } from '@/components/sections/previous-year-papers/PreviousYearPapersLayout';
+import { Lightbulb, Calendar, Compass, Search, Clock, FileEdit, RefreshCw, Trophy, Columns, Link, Scale, BarChart3, Star, Brain, BookOpen, Briefcase, Laptop, Check } from 'lucide-react';
 
 // --- SEO Metadata ---
 export const metadata: Metadata = {
@@ -360,15 +361,21 @@ export default function IBPSPOPapersPage() {
                 <h4 className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-3.5">Sectional Lock & Time Pressures</h4>
                 <ul className="space-y-3.5 text-xs sm:text-sm text-slate-600">
                   <li className="flex gap-2.5 items-start">
-                    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 text-xs shrink-0 font-bold">✔</span>
+                    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 shrink-0">
+                      <Check className="w-3 h-3" />
+                    </span>
                     <span><strong>Sectional Lock constraint:</strong> You cannot transfer time from one section to another. Prelims locks each section at 20 minutes strictly.</span>
                   </li>
                   <li className="flex gap-2.5 items-start">
-                    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 text-xs shrink-0 font-bold">✔</span>
+                    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 shrink-0">
+                      <Check className="w-3 h-3" />
+                    </span>
                     <span><strong>Select Preferences:</strong> Recruiting for 11 banks changes vacancy calculations and registration strategy.</span>
                   </li>
                   <li className="flex gap-2.5 items-start">
-                    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 text-xs shrink-0 font-bold">✔</span>
+                    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 shrink-0">
+                      <Check className="w-3 h-3" />
+                    </span>
                     <span><strong>Realistic Benchmarks:</strong> Solving recent papers gives a clear map of what topics show up and how sections are timed.</span>
                   </li>
                 </ul>
@@ -377,7 +384,9 @@ export default function IBPSPOPapersPage() {
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">⚖</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Scale className="w-4 h-4" />
+            </span>
             IBPS PO Prelims vs Mains: What's the Real Difference?
           </h2>
           <p className="text-slate-650 leading-relaxed mb-4 text-sm sm:text-base">
@@ -417,14 +426,16 @@ export default function IBPSPOPapersPage() {
             </table>
           </div>
           <div className="bg-gradient-to-r from-amber-50/60 to-orange-50/30 border-l-4 border-[var(--color-yellow)] p-5 rounded-r-2xl text-xs sm:text-sm text-amber-900 leading-relaxed shadow-[0_2px_8px_rgba(245,158,11,0.05)] flex items-start gap-3">
-            <span className="text-lg">💡</span>
+            <Lightbulb className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
             <div>
               <strong>Key Strategy Takeaway:</strong> Reasoning & Computer Aptitude in Mains carries 45 questions for 60 marks, while Data Analysis carries 35 questions for 60 marks. The final merit list combines Mains (80%) with Interview (20%). Invest early in Mains-level data interpretation and multi-floor reasoning sets.
             </div>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">📅</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Calendar className="w-4 h-4" />
+            </span>
             How IBPS PO Previous Year Papers Have Changed Over the Years (2016–2025)
           </h2>
           <p className="text-slate-600 leading-relaxed mb-6 text-sm sm:text-base">
@@ -484,14 +495,16 @@ export default function IBPSPOPapersPage() {
           </div>
           
           <div className="bg-gradient-to-r from-blue-50/60 to-indigo-50/30 border-l-4 border-[var(--color-blue)] p-4 rounded-r-2xl text-xs sm:text-sm text-slate-700 mb-6 flex items-start gap-3 shadow-[0_2px_8px_rgba(27,110,181,0.03)]">
-            <span className="text-lg">💡</span>
+            <Lightbulb className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
             <div>
               <strong>Pro Tip:</strong> When solving older papers (2016–2020), do not gauge your preparation readiness solely by your score. Use them for general topic familiarity, and reserve newer papers (2023–2025) for accurate performance benchmarking.
             </div>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">📊</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <BarChart3 className="w-4 h-4" />
+            </span>
             IBPS PO Vacancy & Cut-Off Trends
           </h2>
           <p className="text-slate-650 leading-relaxed mb-4 text-sm sm:text-base">
@@ -532,96 +545,108 @@ export default function IBPSPOPapersPage() {
             <div className="bg-gradient-to-br from-indigo-900 to-[var(--color-navy-deep)] text-white border border-white/5 rounded-2xl p-5 shadow-lg flex flex-col justify-between h-full">
               <div>
                 <h4 className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-3 flex items-center gap-1.5">
-                  ⭐ Target Benchmark
+                  <Star className="w-3 h-3 text-[var(--color-gold-bright)] fill-[var(--color-gold-bright)] shrink-0" /> Target Benchmark
                 </h4>
                 <div className="text-3xl font-black text-white mb-2">55+</div>
                 <p className="text-xs text-slate-350 leading-relaxed">
-                  Don\'t anchor to the lowest cut-off (48.50 in 2024). Target the highest recent cut-off (54.25 in 2023) as your minimum goal to account for vacancy drops or easier papers.
+                  Don't anchor to the lowest cut-off (48.50 in 2024). Target the highest recent cut-off (54.25 in 2023) as your minimum goal to account for vacancy drops or easier papers.
                 </p>
               </div>
             </div>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">🎯</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Trophy className="w-4 h-4" />
+            </span>
             What Topics Show Up Most Often in IBPS PO Papers?
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-6">
             {[
               {
                 title: 'Quantitative Aptitude',
-                icon: '📊',
+                icon: BarChart3,
                 bgColor: 'bg-blue-50/60 text-blue-600 border-blue-100',
                 borderHover: 'hover:border-blue-300',
                 desc: 'Data Interpretation (tabular, line graph, caselet), Simplification/Approximation, Quadratic Equations, and Number Series.'
               },
               {
                 title: 'Reasoning Ability',
-                icon: '🧠',
+                icon: Brain,
                 bgColor: 'bg-indigo-50/60 text-indigo-600 border-indigo-100',
                 borderHover: 'hover:border-indigo-300',
                 desc: 'Puzzles (linear, circular, floor-based, hybrid setups), Syllogism, Inequality, and Coding-Decoding.'
               },
               {
                 title: 'English Language',
-                icon: '🔤',
+                icon: BookOpen,
                 bgColor: 'bg-amber-50/60 text-amber-600 border-amber-100',
                 borderHover: 'hover:border-amber-300',
                 desc: 'Reading Comprehension, Cloze Tests, Sentence Rearrangement, and Error Spotting.'
               },
               {
                 title: 'General/Banking Awareness',
-                icon: '💼',
+                icon: Briefcase,
                 bgColor: 'bg-emerald-50/60 text-emerald-600 border-emerald-100',
                 borderHover: 'hover:border-emerald-300',
                 desc: 'Recent RBI monetary policy, government banking schemes, static banking GK, and financial abbreviations.'
               }
-            ].map((card, i) => (
-              <div key={i} className={`p-5 bg-white border border-slate-200 rounded-2xl shadow-[0_2px_12px_rgba(13,27,62,0.015)] transition-all duration-200 ${card.borderHover} hover:-translate-y-0.5 flex gap-4`}>
-                <div className={`w-10 h-10 rounded-xl ${card.bgColor} border flex items-center justify-center text-lg font-bold shrink-0 shadow-xs`}>
-                  {card.icon}
+            ].map((card, i) => {
+              const CardIcon = card.icon;
+              return (
+                <div key={i} className={`p-5 bg-white border border-slate-200 rounded-2xl shadow-[0_2px_12px_rgba(13,27,62,0.015)] transition-all duration-200 ${card.borderHover} hover:-translate-y-0.5 flex gap-4`}>
+                  <div className={`w-10 h-10 rounded-xl ${card.bgColor} border flex items-center justify-center shadow-xs shrink-0`}>
+                    <CardIcon className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">{card.title}</h4>
+                    <p className="text-xs text-slate-500 leading-relaxed">{card.desc}</p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">{card.title}</h4>
-                  <p className="text-xs text-slate-500 leading-relaxed">{card.desc}</p>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">🗺</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Compass className="w-4 h-4" />
+            </span>
             How to Use IBPS PO Previous Year Question Papers: A 6-Step Strategy
           </h2>
-          <p className="text-slate-650 leading-relaxed mb-6 text-sm sm:text-base">
+          <p className="text-slate-655 leading-relaxed mb-6 text-sm sm:text-base">
             Follow this visual, step-by-step progression roadmap to optimize your scores using historical papers:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-6">
             {[
-              { num: '01', title: 'Attempt Cold Mock', icon: '🔍', desc: 'Attempt one full previous year paper cold, under strict sectional time limits, to get an honest diagnostic score.' },
-              { num: '02', title: 'Categorize Errors', icon: '✂', desc: 'Separate your errors into three buckets: conceptual gaps, calculation mistakes, and time pressure slips.' },
-              { num: '03', title: 'Build Focus Speed', icon: '⏱', desc: 'Re-solve only the Quant and Reasoning sections from 4–5 different years back-to-back to build topic speed.' },
-              { num: '04', title: 'Strict Timers', icon: '📝', desc: 'Apply official sectional time limits strictly, not a single combined timer, to practice handling sectional locks.' },
-              { num: '05', title: 'Log Progress', icon: '🔄', desc: 'Track sectional accuracy week over week in a simple log; aim to clear sectional cut-offs comfortably.' },
-              { num: '06', title: 'Mock Simulation', icon: '🏁', desc: 'Move to full-length mock tests once your PYQ accuracy crosses the previous year’s cut-off consistently.' }
-            ].map((step, i) => (
-              <div key={i} className="bg-white border border-slate-200 p-5 rounded-2xl relative shadow-[0_2px_12px_rgba(13,27,62,0.02)] hover:shadow-[0_8px_24px_rgba(13,27,62,0.06)] hover:border-slate-300 hover:-translate-y-0.5 transition-all duration-200 flex flex-col justify-between overflow-hidden group">
-                <div className="absolute top-2 right-3 text-4xl font-black text-slate-100/70 select-none font-display leading-none group-hover:text-slate-200/50 transition-colors">
-                  {step.num}
-                </div>
-                <div>
-                  <div className="text-xl mb-3 w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center shadow-xs border border-slate-100">
-                    {step.icon}
+              { num: '01', title: 'Attempt Cold Mock', icon: Search, desc: 'Attempt one full previous year paper cold, under strict sectional time limits, to get an honest diagnostic score.' },
+              { num: '02', title: 'Categorize Errors', icon: Columns, desc: 'Separate your errors into three buckets: conceptual gaps, calculation mistakes, and time pressure slips.' },
+              { num: '03', title: 'Build Focus Speed', icon: Clock, desc: 'Re-solve only the Quant and Reasoning sections from 4–5 different years back-to-back to build topic speed.' },
+              { num: '04', title: 'Strict Timers', icon: FileEdit, desc: 'Apply official sectional time limits strictly, not a single combined timer, to practice handling sectional locks.' },
+              { num: '05', title: 'Log Progress', icon: RefreshCw, desc: 'Track sectional accuracy week over week in a simple log; aim to clear sectional cut-offs comfortably.' },
+              { num: '06', title: 'Mock Simulation', icon: Trophy, desc: 'Move to full-length mock tests once your PYQ accuracy crosses the previous year’s cut-off consistently.' }
+            ].map((step, i) => {
+              const StepIcon = step.icon;
+              return (
+                <div key={i} className="bg-white border border-slate-200 p-5 rounded-2xl relative shadow-[0_2px_12px_rgba(13,27,62,0.02)] hover:shadow-[0_8px_24px_rgba(13,27,62,0.06)] hover:border-slate-300 hover:-translate-y-0.5 transition-all duration-200 flex flex-col justify-between overflow-hidden group">
+                  <div className="absolute top-2 right-3 text-4xl font-black text-slate-100/70 select-none font-display leading-none group-hover:text-slate-200/50 transition-colors">
+                    {step.num}
                   </div>
-                  <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</h4>
-                  <p className="text-xs text-slate-500 mt-2 leading-relaxed">{step.desc}</p>
+                  <div>
+                    <div className="mb-3 w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center shadow-xs border border-slate-100 text-[var(--color-blue)]">
+                      <StepIcon className="w-4 h-4" />
+                    </div>
+                    <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</h4>
+                    <p className="text-xs text-slate-500 mt-2 leading-relaxed">{step.desc}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs">💻</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Laptop className="w-4 h-4" />
+            </span>
             How to Use PrepBanker for IBPS PO Preparation
           </h2>
           <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-[0_4px_20px_rgba(13,27,62,0.02)] space-y-4 my-6">
@@ -629,7 +654,7 @@ export default function IBPSPOPapersPage() {
               Landing on this page, you can select a paper — say IBPS PO Prelims 2024 — and choose to attempt the interactive quiz version that mirrors the actual IBPS testing interface, including the same sectional lock and on-screen timer behavior.
             </p>
             <p className="text-slate-655 leading-relaxed text-sm sm:text-base">
-              Once you submit the quiz, PrepBanker shows your performance broken down section by section and topic by topic. You\'ll immediately see whether your Reasoning puzzle accuracy or your DI speed is the real bottleneck, benchmarked against the all-India average.
+              Once you submit the quiz, PrepBanker shows your performance broken down section by section and topic by topic. You'll immediately see whether your Reasoning puzzle accuracy or your DI speed is the real bottleneck, benchmarked against the all-India average.
             </p>
             <p className="text-slate-655 leading-relaxed text-sm sm:text-base">
               From there, the platform routes you to a focused practice path: if you are weak in seating arrangements, it directs you straight to topic-specific sectional tests and Daily Practice Problem (DPP) sets to diagnose, isolate, and retry until your scores increase.
@@ -637,7 +662,9 @@ export default function IBPSPOPapersPage() {
           </div>
 
           <h2 className="text-xl sm:text-2xl font-black text-[var(--color-navy)] mt-12 mb-6 flex items-center gap-2.5 font-display">
-            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] text-base shadow-xs font-bold">🔗</span>
+            <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-blue-50 text-[var(--color-blue)] shadow-xs">
+              <Link className="w-4 h-4" />
+            </span>
             Also Explore on PrepBanker
           </h2>
           <p className="text-slate-650 leading-relaxed mb-4 text-sm sm:text-base">
