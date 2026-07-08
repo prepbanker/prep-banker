@@ -1,0 +1,224 @@
+----------------------------------------
+Topic: Order & Ranking
+Subtopic: Linear Ranking
+----------------------------------------
+
+Directions (Q1–Q5): Answer the questions based on the basic linear arrangement formulas.
+
+Q1. In a row of 40 students facing North, Amit is 15th from the left end. What is his rank from the right end?
+(A) 24th
+(B) 25th
+(C) 26th
+(D) 27th
+
+Answer: C
+Explanation:
+Rank from Right = Total - Rank from Left + 1
+Rank = 40 - 15 + 1 = 26th.
+
+----------------------------------------
+
+Q2. Rahul is 12th from the left end and 20th from the right end in a row of boys. How many boys are there in the row?
+(A) 30
+(B) 31
+(C) 32
+(D) 33
+
+Answer: B
+Explanation:
+Total = Left + Right - 1
+Total = 12 + 20 - 1 = 31.
+
+----------------------------------------
+
+Q3. In a queue, Priya is 8th from the front and Riya is 12th from the back. If there are 5 people standing strictly between them, what is the total number of people in the queue? (Assume non-overlapping).
+(A) 23
+(B) 24
+(C) 25
+(D) 26
+
+Answer: C
+Explanation:
+In a non-overlapping scenario: Total = Front + Back + Between
+Total = 8 + 12 + 5 = 25.
+
+----------------------------------------
+
+Q4. In a row of 50 students, Esha is 20th from the left and Farah is 15th from the right. How many students are sitting between them?
+(A) 14
+(B) 15
+(C) 16
+(D) 17
+
+Answer: B
+Explanation:
+Sum of ranks = 20 + 15 = 35. Since 35 < 50, it is a non-overlapping case.
+Students between = Total - Sum of Ranks = 50 - 35 = 15.
+
+----------------------------------------
+
+Q5. Gautam is exactly in the middle of a row containing 31 students. What is his rank from the left end?
+(A) 15th
+(B) 16th
+(C) 17th
+(D) 18th
+
+Answer: B
+Explanation:
+For an odd number of students (N), the exact middle position is (N + 1) / 2.
+Rank = (31 + 1) / 2 = 16th.
+
+----------------------------------------
+
+Directions (Q6–Q10): Study the interchanging and shifting scenarios carefully.
+
+Q6. A is 12th from the left and B is 18th from the right. When they interchange their positions, A becomes 25th from the left. What is the total number of students in the row?
+(A) 40
+(B) 41
+(C) 42
+(D) 43
+
+Answer: C
+Explanation:
+A's new position is the same physical seat as B's old position. 
+So, this seat is 25th from the left and 18th from the right.
+Total = Left + Right - 1 = 25 + 18 - 1 = 42.
+
+----------------------------------------
+
+Q7. In the previous question (Q6), what will be B's new position from the right end after the interchange?
+(A) 30th
+(B) 31st
+(C) 32nd
+(D) 33rd
+
+Answer: B
+Explanation:
+B's new seat is A's old seat, which is 12th from the left. 
+We know Total = 42.
+B's Rank from Right = Total - Left Rank + 1 = 42 - 12 + 1 = 31st.
+Alternatively, shift difference: A shifted 25 - 12 = +13 places. B also shifts +13 places: 18 + 13 = 31st.
+
+----------------------------------------
+
+Q8. P is 15th from the left end. If he shifts 5 places to his right, he becomes exactly in the middle of the row. What is the total number of people in the row?
+(A) 38
+(B) 39
+(C) 40
+(D) 41
+
+Answer: B
+Explanation:
+New position of P from left = 15 + 5 = 20th.
+Since he is exactly in the middle, there are 19 people to his left and 19 to his right.
+Total = 19 + 1 + 19 = 39.
+
+----------------------------------------
+
+Q9. Q is 14th from the right end. If he shifts 4 places to his left, he becomes 18th from the left end. What is the total number of students?
+(A) 34
+(B) 35
+(C) 36
+(D) 37
+
+Answer: B
+Explanation:
+Shifting 4 places to the left from the right end means his rank from the right increases.
+New Rank from right = 14 + 4 = 18th.
+His rank from left is given as 18th.
+Total = 18 + 18 - 1 = 35.
+
+----------------------------------------
+
+Q10. In a row of 60 students, R is 25th from the left and S is 30th from the right. T sits exactly between them. What is T's position from the left end?
+(A) 27th
+(B) 28th
+(C) 29th
+(D) 30th
+
+Answer: B
+Explanation:
+S is 30th from right -> (60 - 30 + 1) = 31st from left.
+R is 25th from left. 
+T is exactly midway between the 25th and 31st positions.
+T's rank = (25 + 31) / 2 = 56 / 2 = 28th from the left.
+
+----------------------------------------
+
+Directions (Q11–Q15): Study the overlapping and complex ranking scenarios carefully.
+
+Q11. X is 25th from the left and Y is 30th from the right. If there are 10 students between them, what is the minimum possible total number of students in the row?
+(A) 41
+(B) 43
+(C) 45
+(D) 55
+
+Answer: B
+Explanation:
+To find the minimum, we must assume an overlapping scenario.
+Formula for overlap: Total = (Sum of Ranks) - (Between) - 2
+Total = (25 + 30) - 10 - 2 = 55 - 12 = 43.
+
+----------------------------------------
+
+Q12. In a row, M is 15th from the left and N is 22nd from the right. O is exactly between them. If O is 26th from the left, find the total number of students (assuming non-overlapping).
+(A) 55
+(B) 58
+(C) 60
+(D) 62
+
+Answer: B
+Explanation:
+M is 15th from left. O is 26th from left.
+Number of students strictly between M and O = 26 - 15 - 1 = 10.
+Since O is exactly midway, there are also 10 students strictly between O and N.
+Total students between M and N = 10 (left of O) + 1 (O) + 10 (right of O) = 21.
+Total = Left(M) + Right(N) + Between = 15 + 22 + 21 = 58.
+
+----------------------------------------
+
+Refer to diagram: SVG/Q13.svg for a visual representation.
+
+Q13. In a row of 50 students, A is 35th from the left and B is 40th from the right. How many students are sitting between A and B?
+(A) 20
+(B) 21
+(C) 23
+(D) 25
+
+Answer: C
+Explanation:
+Sum of ranks = 35 + 40 = 75. 
+Since 75 > 50, they overlap.
+In overlap: Between = Sum of ranks - Total - 2
+Between = 75 - 50 - 2 = 23 students.
+
+----------------------------------------
+
+Q14. In a row of 80 students, the ratio of girls to boys is 3:5. Ram, a boy, is 25th from the left end. If there are 10 girls to the left of Ram, how many boys are to his right?
+(A) 33
+(B) 34
+(C) 35
+(D) 36
+
+Answer: C
+Explanation:
+Total = 80. Girls = (3/8)*80 = 30. Boys = (5/8)*80 = 50.
+Ram is 25th, so 24 students are to his left.
+Out of 24, 10 are girls, meaning 14 are boys.
+Ram himself is a boy (15th boy from left).
+Remaining boys to his right = Total boys (50) - 14 (left) - 1 (Ram) = 35.
+
+----------------------------------------
+
+Q15. In a queue of 65 people, A is 18th from the front and B is 25th from the back. C is strictly in the middle of the queue. How many people are standing strictly between B and C?
+(A) 7
+(B) 8
+(C) 9
+(D) 10
+
+Answer: A
+Explanation:
+C is in the middle of 65 -> Rank = (65 + 1) / 2 = 33rd from the front.
+B is 25th from the back -> Rank = 65 - 25 + 1 = 41st from the front.
+Number of people between C (33) and B (41) = 41 - 33 - 1 = 7.
+----------------------------------------

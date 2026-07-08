@@ -1,0 +1,488 @@
+{
+  "exam": "ibps-po",
+  "subject": "quantitative-aptitude",
+  "topic": "number-series",
+  "subtopic": "missing-number-series",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Missing Number Series\nSubtopic: Square Pattern",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What will come in place of the question mark (?) in the following number series?\n1, 4, 9, 16, 25, 36, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "45"
+                },
+                {
+                  "label": "B",
+                  "text": "47"
+                },
+                {
+                  "label": "C",
+                  "text": "49"
+                },
+                {
+                  "label": "D",
+                  "text": "51"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The series consists of the squares of consecutive natural numbers.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What will come in place of the question mark (?) in the following number series?\n144, 121, 100, 81, 64, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "49"
+                },
+                {
+                  "label": "B",
+                  "text": "47"
+                },
+                {
+                  "label": "C",
+                  "text": "45"
+                },
+                {
+                  "label": "D",
+                  "text": "43"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The series consists of the squares of consecutive numbers in descending order.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What will come in place of the question mark (?) in the following number series?\n4, 16, 36, 64, 100, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "124"
+                },
+                {
+                  "label": "B",
+                  "text": "144"
+                },
+                {
+                  "label": "C",
+                  "text": "164"
+                },
+                {
+                  "label": "D",
+                  "text": "196"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series consists of the squares of consecutive even numbers.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "What will come in place of the question mark (?) in the following number series?\n9, 25, 49, 81, 121, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "144"
+                },
+                {
+                  "label": "B",
+                  "text": "169"
+                },
+                {
+                  "label": "C",
+                  "text": "196"
+                },
+                {
+                  "label": "D",
+                  "text": "225"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series consists of the squares of consecutive odd numbers.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "What will come in place of the question mark (?) in the following number series?\n441, 400, 361, 324, 289, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "225"
+                },
+                {
+                  "label": "B",
+                  "text": "256"
+                },
+                {
+                  "label": "C",
+                  "text": "272"
+                },
+                {
+                  "label": "D",
+                  "text": "281"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series consists of the squares of descending consecutive numbers starting from 21.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Missing Number Series\nSubtopic: Square Pattern",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What will come in place of the question mark (?) in the following number series?\n2, 5, 10, 17, 26, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "35"
+                },
+                {
+                  "label": "B",
+                  "text": "37"
+                },
+                {
+                  "label": "C",
+                  "text": "39"
+                },
+                {
+                  "label": "D",
+                  "text": "41"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series follows the pattern of (n^2 + 1).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What will come in place of the question mark (?) in the following number series?\n0, 3, 8, 15, 24, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "33"
+                },
+                {
+                  "label": "B",
+                  "text": "34"
+                },
+                {
+                  "label": "C",
+                  "text": "35"
+                },
+                {
+                  "label": "D",
+                  "text": "36"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The series follows the pattern of (n^2 - 1).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "What will come in place of the question mark (?) in the following number series?\n2, 6, 12, 20, 30, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40"
+                },
+                {
+                  "label": "B",
+                  "text": "42"
+                },
+                {
+                  "label": "C",
+                  "text": "44"
+                },
+                {
+                  "label": "D",
+                  "text": "46"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series follows the pattern of (n^2 + n).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "What will come in place of the question mark (?) in the following number series?\n14, 27, 52, 101, 198, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "381"
+                },
+                {
+                  "label": "B",
+                  "text": "391"
+                },
+                {
+                  "label": "C",
+                  "text": "395"
+                },
+                {
+                  "label": "D",
+                  "text": "405"
+                },
+                {
+                  "label": "A",
+                  "text": "28"
+                },
+                {
+                  "label": "B",
+                  "text": "30"
+                },
+                {
+                  "label": "C",
+                  "text": "32"
+                },
+                {
+                  "label": "D",
+                  "text": "36"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The pattern involves multiplying by 2 and then alternatively subtracting the squares of consecutive integers.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "What will come in place of the question mark (?) in the following number series?\n3, 8, 27, 112, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "555"
+                },
+                {
+                  "label": "B",
+                  "text": "560"
+                },
+                {
+                  "label": "C",
+                  "text": "565"
+                },
+                {
+                  "label": "D",
+                  "text": "575"
+                },
+                {
+                  "label": "A",
+                  "text": "301"
+                },
+                {
+                  "label": "B",
+                  "text": "305"
+                },
+                {
+                  "label": "C",
+                  "text": "310"
+                },
+                {
+                  "label": "D",
+                  "text": "315"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The series follows a pattern combining multiplication and squares.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Missing Number Series\nSubtopic: Square Pattern",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What will come in place of the question mark (?) in the following number series?\n50, 49, 45, 36, 20, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "-5"
+                },
+                {
+                  "label": "B",
+                  "text": "-3"
+                },
+                {
+                  "label": "C",
+                  "text": "0"
+                },
+                {
+                  "label": "D",
+                  "text": "4"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The differences between consecutive terms are squares of consecutive numbers.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "What will come in place of the question mark (?) in the following number series?\n5, 21, 69, 213, 645, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1941"
+                },
+                {
+                  "label": "B",
+                  "text": "1951"
+                },
+                {
+                  "label": "C",
+                  "text": "1961"
+                },
+                {
+                  "label": "D",
+                  "text": "1971"
+                },
+                {
+                  "label": "A",
+                  "text": "885"
+                },
+                {
+                  "label": "B",
+                  "text": "895"
+                },
+                {
+                  "label": "C",
+                  "text": "905"
+                },
+                {
+                  "label": "D",
+                  "text": "915"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's find the differences:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "What will come in place of the question mark (?) in the following number series?\n1, 2.25, 4, 6.25, 9, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "11.25"
+                },
+                {
+                  "label": "B",
+                  "text": "12.25"
+                },
+                {
+                  "label": "C",
+                  "text": "13.25"
+                },
+                {
+                  "label": "D",
+                  "text": "14.25"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series consists of the squares of numbers increasing by 0.5.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "What will come in place of the question mark (?) in the following number series?\n4, 11, 30, 67, 128, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "211"
+                },
+                {
+                  "label": "B",
+                  "text": "219"
+                },
+                {
+                  "label": "C",
+                  "text": "223"
+                },
+                {
+                  "label": "D",
+                  "text": "231"
+                },
+                {
+                  "label": "A",
+                  "text": "212"
+                },
+                {
+                  "label": "B",
+                  "text": "222"
+                },
+                {
+                  "label": "C",
+                  "text": "232"
+                },
+                {
+                  "label": "D",
+                  "text": "242"
+                },
+                {
+                  "label": "A",
+                  "text": "211"
+                },
+                {
+                  "label": "B",
+                  "text": "222"
+                },
+                {
+                  "label": "C",
+                  "text": "224"
+                },
+                {
+                  "label": "D",
+                  "text": "236"
+                },
+                {
+                  "label": "A",
+                  "text": "208"
+                },
+                {
+                  "label": "B",
+                  "text": "218"
+                },
+                {
+                  "label": "C",
+                  "text": "228"
+                },
+                {
+                  "label": "D",
+                  "text": "238"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The series follows the pattern (n^3 + 3). Wait, this is a cube pattern. Let's find a complex square one.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 
 import { Lock, RefreshCw, BarChart2, CheckCircle2, XCircle, AlertCircle, ArrowRight } from 'lucide-react';
 import { QuizResult, QuizQuestion, UserAnswer, Language } from '@/types/quiz.types';
+import QuizStepTracker from './QuizStepTracker';
 
 interface ResultsPageProps {
   result: QuizResult;
@@ -80,18 +81,7 @@ export default function ResultsPage({ result, questions, answers, language, onRe
       `}} />
       
       {/* ── STEP PROGRESS TRACKER ── */}
-      <div className="flex justify-center mb-4">
-        <div className="flex items-center gap-2">
-          <span className="w-6 h-6 rounded-full bg-emerald-500 text-white text-xs font-bold flex items-center justify-center">✓</span>
-          <span className="text-xs font-bold text-emerald-600">Exam Type</span>
-          <span className="w-12 h-0.5 bg-emerald-500" />
-          <span className="w-6 h-6 rounded-full bg-emerald-500 text-white text-xs font-bold flex items-center justify-center">✓</span>
-          <span className="text-xs font-bold text-emerald-600">Topic Selection</span>
-          <span className="w-12 h-0.5 bg-emerald-500" />
-          <span className="w-6 h-6 rounded-full bg-emerald-500 text-white text-xs font-bold flex items-center justify-center">✓</span>
-          <span className="text-xs font-bold text-emerald-600">Quiz Completed</span>
-        </div>
-      </div>
+      <QuizStepTracker currentStep="results" />
 
       <div className="text-center">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-[var(--color-navy)]">Quiz Performance Report</h2>

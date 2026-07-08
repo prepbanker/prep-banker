@@ -28,7 +28,7 @@ export const navLinks: NavLink[] = [
     ],
   },
   { label: 'Current Affairs', href: '/current-affairs' },
-  { label: 'Quiz Practice',   href: '/quiz',  badge: 'NEW' },
+  { label: 'Quiz Practice',   href: '/sbi-po-ibps-po-quiz',  badge: 'NEW' },
   { label: 'Pricing',         href: '/pricing' },
 ];
 

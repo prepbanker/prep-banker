@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "match-the-column",
+  "subtopic": "sentence-matching",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Match the Column\nSubtopic: Sentence Matching",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The bank has drastically lowered interest rates\nB. Even though the presentation was hastily prepared\nC. The municipal corporation initiated a massive drive\n\nColumn II:\nD. it successfully conveyed the core message to the stakeholders.\nE. to plant ten thousand saplings across the urban parks.\nF. to stimulate borrowing and rejuvenate the stagnant economy.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "C",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (lowered interest rates -> to stimulate borrowing).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Before submitting your final application form\nB. The rapid melting of polar ice caps\nC. The newly introduced software application\n\nColumn II:\nD. poses an existential threat to low-lying coastal cities.\nE. is designed to seamlessly integrate with legacy database systems.\nF. ensure that all mandatory fields have been correctly filled.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-E, B-D, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with F (Before submitting -> ensure fields are filled).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Despite implementing strict austerity measures\nB. The archeologists uncovered a hidden chamber\nC. Unless the company diversifies its product portfolio\n\nColumn II:\nD. it will struggle to survive in the highly competitive market.\nE. containing perfectly preserved artifacts from the Bronze Age.\nF. the national deficit continued to grow at an alarming rate.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "C",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-F, C-D"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A matches with F (Despite austerity measures -> deficit continued to grow).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Not only did the hurricane destroy hundreds of homes\nB. The sudden resignation of the chief financial officer\nC. By adopting sustainable agricultural practices\n\nColumn II:\nD. sent shockwaves throughout the global stock markets.\nE. but it also caused widespread power outages across the state.\nF. farmers can significantly reduce topsoil erosion and water waste.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-D, C-F"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "A matches with E (Not only... but it also).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The diplomatic negotiations reached a complete standstill\nB. Only after the exhaustive internal audit was completed\nC. The relentless pursuit of short-term quarterly profits\n\nColumn II:\nD. did the board realize the magnitude of the financial discrepancies.\nE. often compromises the long-term strategic vision of an organization.\nF. because neither nation was willing to compromise on territorial claims.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (negotiations reached standstill -> because neither was willing to compromise).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Match the Column\nSubtopic: Sentence Matching",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Had the intelligence agencies coordinated their efforts effectively\nB. The proliferation of deeply convincing synthetic media\nC. The government heavily subsidized the renewable energy sector\n\nColumn II:\nD. in order to accelerate the country's transition away from fossil fuels.\nE. raises profound ethical questions regarding truth in journalism.\nF. they might have successfully thwarted the coordinated cyber-attack.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (Had they coordinated -> they might have thwarted).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The sheer magnitude of the logistical challenge\nB. Lest the proprietary algorithms fall into the hands of competitors\nC. While the macroeconomic indicators point toward an imminent recession\n\nColumn II:\nD. consumer spending in the luxury automotive sector paradoxically remains robust.\nE. the corporation isolated its core research servers from the main network.\nF. required the mobilization of resources across three different continents.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-D, B-E, C-F"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A matches with F (magnitude of challenge -> required mobilization).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Scarcely had the central bank announced the stimulus package\nB. The phenomenon of quantum entanglement\nC. Providing equitable access to high-speed internet\n\nColumn II:\nD. is now considered a fundamental human right by several international bodies.\nE. when the major stock indices rallied to record highs.\nF. continues to baffle physicists with its counter-intuitive implications.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-D, C-F"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with E (Scarcely... when).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. An overriding reliance on subjective human intuition\nB. Under no circumstances should the volatile chemical compounds\nC. The symbiotic relationship between the fungi and the tree roots\n\nColumn II:\nD. facilitates the exchange of vital nutrients essential for survival in harsh conditions.\nE. be exposed to direct sunlight or sudden shifts in ambient atmospheric pressure.\nF. often leads to catastrophic errors in complex statistical and financial forecasting.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (reliance on intuition -> leads to errors).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The treaty was intentionally drafted with highly ambiguous language\nB. Driven by an insatiable curiosity about the cosmos\nC. The diplomatic deadlock was eventually broken\n\nColumn II:\nD. the brilliant astrophysicist dedicated her life to studying dark matter.\nE. when a neutral third-party mediator proposed a viable territorial concession.\nF. allowing participating nations to interpret it to their domestic political advantage.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (ambiguous language -> interpret to political advantage).",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Match the Column\nSubtopic: Sentence Matching",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Hardly had the CEO begun outlining his visionary restructuring plan\nB. The pervasive influence of algorithmic echo chambers\nC. Implementing universal basic income on a national scale\n\nColumn II:\nD. necessitates a radical overhaul of the existing taxation framework.\nE. threatens to further polarize an already deeply divided electorate.\nF. when a group of dissenting shareholders loudly interrupted the presentation.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (Hardly... when).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The paradoxical nature of the placebo effect\nB. So devastating was the impact of the prolonged drought\nC. By deliberately manipulating the currency exchange rates\n\nColumn II:\nD. that entire agricultural communities were forced into mass migration.\nE. the authoritarian regime artificially boosted its export competitiveness.\nF. underscores the profound connection between psychological belief and physiological healing.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (placebo effect -> connection between belief and healing).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The inherent volatility of decentralized cryptocurrencies\nB. Not only must the defense attorney dismantle the prosecution's timeline\nC. Acknowledging the systemic biases embedded within the hiring process\n\nColumn II:\nD. is the crucial first step toward fostering genuine corporate diversity.\nE. but she must also present a compelling alternative narrative to the jury.\nF. makes them an incredibly risky asset class for conservative retail investors.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (volatility of cryptocurrencies -> risky asset class).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The sudden implosion of the highly leveraged hedge fund\nB. Rather than succumb to the aggressive hostile takeover bid\nC. The esoteric terminology utilized in the legal briefing\n\nColumn II:\nD. the board of directors initiated a highly controversial \"poison pill\" strategy.\nE. rendered it entirely incomprehensible to the lay members of the jury.\nF. triggered a cascading liquidity crisis across multiple tier-one investment banks.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "A",
+                  "text": "A-E, B-D, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-F, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (implosion of hedge fund -> triggered liquidity crisis).",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+----------------------------------------
+Topic: Inequality
+Subtopic: Direct Inequality
+----------------------------------------
+
+Directions (Q1–Q5): In these questions, relationship between different elements is shown in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer.
+
+Q1. 
+Statements: P ≥ Q = R > S > T
+Conclusions:
+I. P > S
+II. Q > T
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+From the statements, P ≥ Q = R > S. Comparing P and S, we get P > S. Thus, Conclusion I follows.
+Comparing Q and T, we get Q = R > S > T, which leads to Q > T. Thus, Conclusion II follows.
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q2. 
+Statements: A < B ≤ C = D, E ≥ D
+Conclusions:
+I. A < E
+II. C ≤ E
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Combining the statements: A < B ≤ C = D ≤ E.
+For Conclusion I: A < B ≤ C = D ≤ E → A < E. Thus, Conclusion I follows.
+For Conclusion II: C = D ≤ E → C ≤ E. Thus, Conclusion II follows.
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q3. 
+Statements: M ≥ N = O < P, Q > P
+Conclusions:
+I. M > O
+II. N < Q
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: B
+Explanation:
+Combining the statements: M ≥ N = O < P < Q.
+For Conclusion I: M ≥ N = O → M ≥ O. The relationship is 'greater than or equal to', not strictly 'greater than'. Thus, Conclusion I does not follow.
+For Conclusion II: N = O < P < Q → N < Q. Thus, Conclusion II follows.
+Answer: Only conclusion II follows → (B)
+
+----------------------------------------
+
+Q4. 
+Statements: W = X ≥ Y > Z, Y ≤ A < B
+Conclusions:
+I. W > Z
+II. X ≥ A
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: A
+Explanation:
+For Conclusion I: W = X ≥ Y > Z → W > Z. Thus, Conclusion I follows.
+For Conclusion II: Comparing X and A via Y: X ≥ Y ≤ A. Because the signs face opposite directions (≥ and ≤), no definite relation can be established between X and A. Thus, Conclusion II does not follow.
+Answer: Only conclusion I follows → (A)
+
+----------------------------------------
+
+Q5. 
+Statements: G > H ≤ I = J < K
+Conclusions:
+I. G > I
+II. H < K
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: B
+Explanation:
+For Conclusion I: G > H ≤ I. The opposite signs (> and ≤) between G and I mean no direct relation can be established. Thus, Conclusion I does not follow.
+For Conclusion II: H ≤ I = J < K → H < K. Thus, Conclusion II follows.
+Answer: Only conclusion II follows → (B)
+
+----------------------------------------
+
+Directions (Q6–Q10): In these questions, the statements are separated by commas. Combine the statements logically to evaluate the conclusions.
+
+Q6. 
+Statements: A > B ≥ C, C = D < E, E ≤ F
+Conclusions:
+I. A > D
+II. B < F
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Neither conclusion I nor II follows
+
+Answer: A
+Explanation:
+Combined chain for A and D: A > B ≥ C = D → A > D. Thus, Conclusion I follows.
+Combined chain for B and F: B ≥ C = D < E ≤ F. Since the signs are opposite (≥ and <) between B and F, no relation can be established. Thus, Conclusion II does not follow.
+Answer: Only conclusion I follows → (A)
+
+----------------------------------------
+
+Q7. 
+Statements: P ≤ Q = R, S > R ≥ T, U < T
+Conclusions:
+I. S > P
+II. Q > U
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Combined chain for S and P: S > R = Q ≥ P → S > P. Thus, Conclusion I follows.
+Combined chain for Q and U: Q = R ≥ T > U → Q > U. Thus, Conclusion II follows.
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q8. 
+Statements: J = K < L, M ≥ L = N, O > N
+Conclusions:
+I. J < M
+II. K < O
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Combined chain for J and M: J = K < L ≤ M → J < M. Thus, Conclusion I follows.
+Combined chain for K and O: K < L = N < O → K < O. Thus, Conclusion II follows.
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q9. 
+Statements: X > Y ≥ Z, W = Z < V, U ≤ W
+Conclusions:
+I. X > U
+II. Y < V
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: A
+Explanation:
+Combined chain for X and U: X > Y ≥ Z = W ≥ U → X > U. Thus, Conclusion I follows.
+Combined chain for Y and V: Y ≥ Z = W < V. The opposite signs (≥ and <) mean no definite relation exists between Y and V. Thus, Conclusion II does not follow.
+Answer: Only conclusion I follows → (A)
+
+----------------------------------------
+
+Q10. 
+Statements: D ≥ E = F, G < F ≤ H, I > H
+Conclusions:
+I. D > G
+II. E < I
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Combined chain for D and G: D ≥ E = F > G → D > G. Thus, Conclusion I follows.
+Combined chain for E and I: E = F ≤ H < I → E < I. Thus, Conclusion II follows.
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Directions (Q11–Q15): Study the complex multi-statement inequalities to evaluate the given conclusions, paying special attention to Either-Or cases.
+
+Q11. 
+Statements: M = N ≥ O < P, Q ≤ O = R, S > R
+Conclusions:
+I. M ≥ Q
+II. P > S
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Neither conclusion I nor II follows
+
+Answer: A
+Explanation:
+Combined chain for M and Q: M = N ≥ O ≥ Q → M ≥ Q. Thus, Conclusion I follows.
+Combined chain for P and S: P > O = R < S. The opposite signs (> and <) block any direct relation between P and S. Thus, Conclusion II does not follow.
+Answer: Only conclusion I follows → (A)
+
+----------------------------------------
+
+Q12. 
+Statements: K ≥ L = M > N, O ≤ M = P
+Conclusions:
+I. K > O
+II. K = O
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Combined chain for K and O: K ≥ L = M = P ≥ O → K ≥ O.
+Since the definite relation between K and O is K ≥ O, it means K is either strictly greater than O OR exactly equal to O.
+Since both possibilities are presented independently in Conclusions I and II, this forms a perfect "Either-Or" condition.
+Answer: Either conclusion I or II follows → (C)
+
+----------------------------------------
+
+Q13. 
+Statements: D ≤ E < F = G, H > G ≥ I, J = F
+Conclusions:
+I. D > H
+II. J < I
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Neither conclusion I nor II follows
+
+Answer: D
+Explanation:
+Combined chain for D and H: D ≤ E < F = G < H → D < H. Conclusion I states D > H, which is definitely false.
+Combined chain for J and I: J = F = G ≥ I → J ≥ I. Conclusion II states J < I, which is false.
+Since both conclusions are independently false, neither follows.
+Answer: Neither conclusion I nor II follows → (D)
+
+----------------------------------------
+
+Q14. 
+Statements: P < Q = R ≥ S, T > R ≤ U, V = T
+Conclusions:
+I. V > S
+II. U ≥ Q
+III. P < U
+(A) Only I and II follow
+(B) Only II and III follow
+(C) All I, II, and III follow
+(D) Only I and III follow
+
+Answer: C
+Explanation:
+Combined chain for V and S: V = T > R ≥ S → V > S. (Conclusion I is True).
+Combined chain for U and Q: U ≥ R = Q → U ≥ Q. (Conclusion II is True).
+Combined chain for P and U: P < Q = R ≤ U → P < U. (Conclusion III is True).
+Answer: All I, II, and III follow → (C)
+
+----------------------------------------
+
+Q15. 
+Statements: A ≤ B < C = D, E ≥ D < F, G = E > H
+Conclusions:
+I. G > C
+II. F > B
+III. A < E
+(A) Only I and II follow
+(B) Only II and III follow
+(C) Only I and III follow
+(D) All I, II, and III follow
+
+Answer: B
+Explanation:
+Combined chain for G and C: G = E ≥ D = C → G ≥ C. Conclusion I states G > C, which lacks the '=' possibility, so it is false.
+Combined chain for F and B: F > D = C > B → F > B. (Conclusion II is True).
+Combined chain for A and E: A ≤ B < C = D ≤ E → A < E. (Conclusion III is True).
+Answer: Only II and III follow → (B)
+
+----------------------------------------

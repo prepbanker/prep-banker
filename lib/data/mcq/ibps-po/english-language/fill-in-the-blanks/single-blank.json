@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "fill-in-the-blanks",
+  "subtopic": "single-blank",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Fill in the Blanks\nSubtopic: Single Blank",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the correct word to fill in the blank: The aggressive marketing campaign was designed to ________ a sense of urgency among potential buyers.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "alleviate"
+                },
+                {
+                  "label": "B",
+                  "text": "generate"
+                },
+                {
+                  "label": "C",
+                  "text": "suppress"
+                },
+                {
+                  "label": "D",
+                  "text": "eradicate"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The goal of an aggressive marketing campaign is to create or \"generate\" urgency. Alleviate, suppress, and eradicate mean to reduce or destroy.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the correct word to fill in the blank: The notoriously strict professor was completely ________ by the student's brilliant, unconventional theory.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "indifferent"
+                },
+                {
+                  "label": "B",
+                  "text": "intrigued"
+                },
+                {
+                  "label": "C",
+                  "text": "repelled"
+                },
+                {
+                  "label": "D",
+                  "text": "apathetic"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A brilliant, unconventional theory would capture interest. \"Intrigued\" means to arouse curiosity or interest. Indifferent and apathetic mean uncaring.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the correct word to fill in the blank: The sudden drop in global oil prices will severely ________ the economic growth of nations heavily reliant on petroleum exports.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "accelerate"
+                },
+                {
+                  "label": "B",
+                  "text": "stimulate"
+                },
+                {
+                  "label": "C",
+                  "text": "impede"
+                },
+                {
+                  "label": "D",
+                  "text": "facilitate"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "If nations rely on exporting oil, a drop in prices will harm their economy. \"Impede\" means to delay or prevent someone or something by obstructing them.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the correct word to fill in the blank: Despite the CEO's desperate attempts to reassure the board, the company's financial situation remained dangerously ________.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "secure"
+                },
+                {
+                  "label": "B",
+                  "text": "prosperous"
+                },
+                {
+                  "label": "C",
+                  "text": "precarious"
+                },
+                {
+                  "label": "D",
+                  "text": "robust"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "If the CEO has to make desperate attempts to reassure the board, the situation is not good. \"Precarious\" means not securely held; dangerously likely to fall or collapse.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the correct word to fill in the blank: The defense attorney attempted to ________ the credibility of the key witness by exposing inconsistencies in his previous testimonies.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "bolster"
+                },
+                {
+                  "label": "B",
+                  "text": "undermine"
+                },
+                {
+                  "label": "C",
+                  "text": "elevate"
+                },
+                {
+                  "label": "D",
+                  "text": "validate"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "An attorney would try to damage the credibility of an opposing witness. \"Undermine\" means to lessen the effectiveness, power, or ability of something.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Fill in the Blanks\nSubtopic: Single Blank",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the correct word to fill in the blank: The ancient manuscript was so faded and fragmented that deciphering its true meaning proved to be a highly ________ task for the linguistic scholars.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "trivial"
+                },
+                {
+                  "label": "B",
+                  "text": "effortless"
+                },
+                {
+                  "label": "C",
+                  "text": "formidable"
+                },
+                {
+                  "label": "D",
+                  "text": "mundane"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A faded, fragmented manuscript makes deciphering it very difficult. \"Formidable\" means inspiring fear or respect through being impressively large, powerful, intense, or capable (often used for difficult tasks).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the correct word to fill in the blank: The corrupt politician tried to ________ his illicit wealth by funneling it through a complex web of offshore shell companies.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "flaunt"
+                },
+                {
+                  "label": "B",
+                  "text": "obfuscate"
+                },
+                {
+                  "label": "C",
+                  "text": "declare"
+                },
+                {
+                  "label": "D",
+                  "text": "squander"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A corrupt politician would want to hide illicit wealth. \"Obfuscate\" means to render obscure, unclear, or unintelligible.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the correct word to fill in the blank: The scientific community dismissed his radical new theory as pure ________, pointing out its blatant disregard for established laws of physics.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "genius"
+                },
+                {
+                  "label": "B",
+                  "text": "pragmatism"
+                },
+                {
+                  "label": "C",
+                  "text": "charlatanism"
+                },
+                {
+                  "label": "D",
+                  "text": "orthodoxy"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "If a theory disregards established laws, the community will reject it as fake. \"Charlatanism\" is the practice of making false claims to knowledge or skill (quackery).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the correct word to fill in the blank: The unrelenting heatwave ________ the agricultural output of the entire region, leading to massive food shortages.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "augmented"
+                },
+                {
+                  "label": "B",
+                  "text": "decimated"
+                },
+                {
+                  "label": "C",
+                  "text": "sustained"
+                },
+                {
+                  "label": "D",
+                  "text": "galvanized"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A heatwave causing food shortages means the output was destroyed. \"Decimated\" means to kill, destroy, or remove a large percentage or part of.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the correct word to fill in the blank: Rather than offering a clear, definitive solution, the committee's final report was filled with ________ statements that confused everyone.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "equivocal"
+                },
+                {
+                  "label": "B",
+                  "text": "lucid"
+                },
+                {
+                  "label": "C",
+                  "text": "dogmatic"
+                },
+                {
+                  "label": "D",
+                  "text": "categorical"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Statements that confuse rather than offer clear solutions are ambiguous. \"Equivocal\" means open to more than one interpretation; ambiguous.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Fill in the Blanks\nSubtopic: Single Blank",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the correct word to fill in the blank: Her ________ refusal to compromise on even the smallest details eventually alienated her most loyal supporters.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "flexible"
+                },
+                {
+                  "label": "B",
+                  "text": "tractable"
+                },
+                {
+                  "label": "C",
+                  "text": "intransigent"
+                },
+                {
+                  "label": "D",
+                  "text": "accommodating"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Refusing to compromise characterizes stubbornness. \"Intransigent\" means unwilling or refusing to change one's views or to agree about something.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the correct word to fill in the blank: The seasoned detective immediately recognized the suspect's elaborate alibi as a cleverly constructed ________ designed to mislead the investigation.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "panacea"
+                },
+                {
+                  "label": "B",
+                  "text": "subterfuge"
+                },
+                {
+                  "label": "C",
+                  "text": "paradigm"
+                },
+                {
+                  "label": "D",
+                  "text": "veracity"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "An elaborate alibi designed to mislead is a trick. \"Subterfuge\" is deceit used in order to achieve one's goal.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the correct word to fill in the blank: Despite his outward display of arrogant confidence, he suffered from a deeply ________ sense of inadequacy that plagued his daily life.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "ephemeral"
+                },
+                {
+                  "label": "B",
+                  "text": "peripheral"
+                },
+                {
+                  "label": "C",
+                  "text": "ingrained"
+                },
+                {
+                  "label": "D",
+                  "text": "ostentatious"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A sense of inadequacy that plagues daily life is deeply rooted. \"Ingrained\" (of a habit, belief, or attitude) means firmly fixed or established; difficult to change.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the correct word to fill in the blank: The corporation's decision to drastically cut employee healthcare benefits was met with ________ outrage from the labor union.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "tepid"
+                },
+                {
+                  "label": "B",
+                  "text": "vociferous"
+                },
+                {
+                  "label": "C",
+                  "text": "muted"
+                },
+                {
+                  "label": "D",
+                  "text": "latent"
+                },
+                {
+                  "label": "A",
+                  "text": "empathy"
+                },
+                {
+                  "label": "B",
+                  "text": "euphoria"
+                },
+                {
+                  "label": "C",
+                  "text": "ennui"
+                },
+                {
+                  "label": "D",
+                  "text": "perspicacity"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A drastic cut to benefits would result in loud, aggressive outrage. \"Vociferous\" (especially of a person or speech) means crying out noisily; clamorous.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

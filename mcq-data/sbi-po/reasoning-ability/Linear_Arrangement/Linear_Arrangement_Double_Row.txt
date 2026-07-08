@@ -1,0 +1,298 @@
+----------------------------------------
+Topic: Linear Arrangement
+Subtopic: Double Row
+----------------------------------------
+
+Directions (Q1–Q5): Read the following information carefully and answer the questions.
+
+Eight persons sit in two parallel rows containing four persons each, in such a way that there is an equal distance between adjacent persons.
+In Row 1: A, B, C, and D sit facing South.
+In Row 2: P, Q, R, and S sit facing North.
+Therefore, in the given seating arrangement, each member seated in a row faces another member of the other row.
+
+• A sits at the extreme right end of the row.
+• A faces P.
+• R sits second to the right of P.
+• The person facing R sits to the immediate left of D.
+• B sits to the left of C.
+• Q does not face B.
+
+Q1. Who faces S?
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: B
+Explanation:
+Step 1: Row 1 faces South (Left means viewer's right, Right means viewer's left). Row 2 faces North. Positions are 1 to 4 from viewer's left to right.
+Step 2: A sits at the extreme right end of Row 1 → Pos 1 (viewer's left).
+Step 3: A faces P → P is at Pos 1 in Row 2.
+Step 4: R is 2nd right of P (North facing) → R is at Pos 3.
+Step 5: The person facing R is at Pos 3. This person sits immediate left of D. For South facing, immediate left is towards viewer's right. So D must be at Pos 2 (left of D is Pos 3).
+Step 6: B sits to the left of C (Row 1). For South facing, left is viewer's right. Empty spots: 3, 4. So C=3, B=4. (Row 1: A, D, C, B).
+Step 7: Q does not face B(4). Empty in Row 2: 2, 4. So Q=2, S=4. (Row 2: P, Q, R, S).
+Final Arrangement (L to R):
+Row 1 (South): A, D, C, B
+Row 2 (North): P, Q, R, S
+S is at Pos 4, facing B.
+Answer: B → (B)
+
+----------------------------------------
+
+Q2. What is the position of Q with respect to R?
+(A) Immediate left
+(B) Immediate right
+(C) Second to the left
+(D) Second to the right
+
+Answer: A
+Explanation:
+Row 2: P, Q, R, S (facing North).
+Q is at Pos 2, R is at Pos 3.
+Q is to the immediate left of R.
+Answer: Immediate left → (A)
+
+----------------------------------------
+
+Q3. Which of the following pairs sit at the extreme ends of their respective rows?
+(A) A, B and P, R
+(B) A, C and Q, S
+(C) D, B and P, S
+(D) A, B and P, S
+
+Answer: D
+Explanation:
+Row 1 ends: A (Pos 1) and B (Pos 4).
+Row 2 ends: P (Pos 1) and S (Pos 4).
+Answer: A, B and P, S → (D)
+
+----------------------------------------
+
+Q4. How many persons sit between A and C?
+(A) None
+(B) One
+(C) Two
+(D) Three
+
+Answer: B
+Explanation:
+Row 1: A(1), D(2), C(3), B(4).
+Only one person (D) sits between A and C.
+Answer: One → (B)
+
+----------------------------------------
+
+Q5. Who sits to the immediate right of the person who faces D?
+(A) P
+(B) Q
+(C) R
+(D) S
+
+Answer: C
+Explanation:
+D is at Pos 2 and faces Q (Row 2, Pos 2).
+Q faces North, so the person to the immediate right of Q is R (Pos 3).
+Answer: R → (C)
+
+----------------------------------------
+
+Directions (Q6–Q10): Read the following information carefully and answer the questions.
+
+Ten persons sit in two parallel rows containing five persons each.
+In Row 1: U, V, W, X, and Y sit facing South.
+In Row 2: F, G, H, I, and J sit facing North.
+Each person in Row 1 faces a person in Row 2.
+
+• W sits third to the right of Y, who sits at an extreme end of the row.
+• The person facing W sits second to the left of I.
+• Only one person sits between I and F.
+• V faces the person who sits to the immediate right of F.
+• X sits to the right of U.
+• H sits to the immediate left of the person who faces U.
+• G does not face Y.
+
+Refer to diagram: SVG/Q3.svg
+
+Q6. Who faces X?
+(A) G
+(B) F
+(C) H
+(D) J
+
+Answer: A
+Explanation:
+Step 1: Row 1 faces South. Y is at an extreme end. If Y=Pos 1(Left), right is off the grid. So Y must be at Pos 5(Right). 3rd right of Y is Pos 2 → W=2.
+Step 2: Person facing W is at Pos 2. This person is 2nd left of I (North facing) → I=4.
+Step 3: One person between I(4) and F → F=2.
+Step 4: Immediate right of F(2) is Pos 3. V faces Pos 3 → V=3.
+Step 5: X is right of U (South facing: right is viewer's left). Empty spots in Row 1: 1, 4. So X=1, U=4.
+Step 6: U(4) faces Pos 4 (which is I). H is immediate left of I → H=3.
+Step 7: G does not face Y(5). Empty in Row 2: 1, 5. So G=1, J=5.
+Final Arrangement (L to R):
+Row 1 (South): X, W, V, U, Y
+Row 2 (North): G, F, H, I, J
+X is at Pos 1 and faces G.
+Answer: G → (A)
+
+----------------------------------------
+
+Q7. What is the position of V with respect to Y?
+(A) Second to the left
+(B) Third to the right
+(C) Immediate right
+(D) Second to the right
+
+Answer: D
+Explanation:
+Row 1: X(1), W(2), V(3), U(4), Y(5). They face South.
+Left/Right is inverted for the viewer. Y is at 5. The right of Y is 4, 3, 2, 1.
+V is at 3, which is 2 positions to the right of Y.
+Answer: Second to the right → (D)
+
+----------------------------------------
+
+Q8. Four of the following five are alike in a certain way and so form a group. Which is the one that does not belong to that group?
+(A) X
+(B) Y
+(C) G
+(D) H
+
+Answer: D
+Explanation:
+X(1), Y(5), and G(1) sit at the extreme ends of their respective rows.
+H(3) sits exactly in the middle of Row 2.
+Answer: H → (D)
+
+----------------------------------------
+
+Q9. Who sits exactly in the middle of Row 2?
+(A) F
+(B) H
+(C) I
+(D) G
+
+Answer: B
+Explanation:
+Row 2: G(1), F(2), H(3), I(4), J(5).
+The middle position (Pos 3) is occupied by H.
+Answer: H → (B)
+
+----------------------------------------
+
+Q10. How many persons sit between the one who faces V and J?
+(A) None
+(B) One
+(C) Two
+(D) Three
+
+Answer: B
+Explanation:
+V(3) faces H(3). J is at Pos 5.
+Persons between H(3) and J(5) is only I(4).
+Answer: One → (B)
+
+----------------------------------------
+
+Directions (Q11–Q15): Read the following information carefully and answer the questions.
+
+Fourteen persons sit in two parallel rows containing seven persons each.
+In Row 1: A, B, C, D, E, F, and G sit facing South.
+In Row 2: P, Q, R, S, T, U, and V sit facing North.
+
+• P sits third to the right of S, and neither of them sits at an extreme end.
+• The person facing P sits second to the left of B.
+• Only two persons sit between B and A. A does not sit at an extreme end.
+• C sits to the immediate right of A.
+• The person facing C sits to the immediate left of V.
+• U sits second to the left of T.
+• Q does not sit at an extreme end.
+• The person facing T sits to the immediate right of D.
+• E sits to the left of F but to the right of G.
+
+Refer to diagram: SVG/Q11.svg
+
+Q11. Who faces F?
+(A) Q
+(B) V
+(C) R
+(D) U
+
+Answer: C
+Explanation:
+Step 1: Row 2 faces North. S and P are not at ends. P is 3rd right of S. Possibilities: S=2,P=5 or S=3,P=6.
+If S=3, P=6: Facing P is Pos 6. 2nd left of B (South facing, left is viewer's right) is 6 → B=4. Two between B(4) and A → A=1 or 7. But A is not at an end. So S=3 is invalid.
+Step 2: S=2, P=5. Facing P is Pos 5. 2nd left of B is 5 → B=3.
+Step 3: Two between B(3) and A → A=6. (Valid, not an end).
+Step 4: C is immediate right of A(6). For South, right is viewer's left → C=5.
+Step 5: Person facing C(5) is P(5). P sits immediate left of V → V=6.
+Step 6: U 2nd left of T. Empty in Row 2: 1, 3, 4, 7. T cannot be 4 (U=2 taken by S), T cannot be 7 (U=5 taken by P). So T=3, U=1.
+Step 7: Q is not at an end → Q=4. Remaining for Row 2 is R(7). Row 2: U, S, T, Q, P, V, R.
+Step 8: Person facing T(3) is B(3). B sits immediate right of D. For South, right is viewer's left → D=4.
+Step 9: Empty in Row 1: 1, 2, 7. E is left of F (viewer's right) and right of G (viewer's left). Viewer order: G, E, F → G=1, E=2, F=7.
+Final Row 1: G, E, B, D, C, A, F.
+F is at Pos 7, facing R(7).
+Answer: R → (C)
+
+----------------------------------------
+
+Q12. What is the position of D with respect to E?
+(A) Immediate right
+(B) Immediate left
+(C) Second to the left
+(D) Second to the right
+
+Answer: C
+Explanation:
+Row 1: G(1), E(2), B(3), D(4), C(5), A(6), F(7). (Facing South).
+D is at Pos 4, E is at Pos 2.
+For South facing, Left hand points to viewer's right. So Pos 4 is to the left of Pos 2.
+Since it is two spots away, D is second to the left of E.
+Answer: Second to the left → (C)
+
+----------------------------------------
+
+Q13. How many persons sit between U and the person who faces A?
+(A) Two
+(B) Three
+(C) Four
+(D) Five
+
+Answer: C
+Explanation:
+U is at Pos 1 (Row 2). A is at Pos 6 (Row 1), so A faces V(6) in Row 2.
+Persons sitting between U(1) and V(6) are S(2), T(3), Q(4), and P(5). Total = 4 persons.
+Answer: Four → (C)
+
+----------------------------------------
+
+Q14. Four of the following five are alike based on the given seating arrangement. Which one does not belong to the group?
+(A) G
+(B) U
+(C) F
+(D) C
+
+Answer: D
+Explanation:
+G(1), U(1), and F(7) sit at the extreme ends of their respective rows.
+C(5) sits in the middle segment, not at an extreme end.
+Answer: C → (D)
+
+----------------------------------------
+
+Q15. Which of the following statements is true regarding Q?
+(A) Q faces D
+(B) Q sits adjacent to U
+(C) Q sits second to the right of V
+(D) Exactly one person sits between Q and R
+
+Answer: A
+Explanation:
+Arrangement checks:
+(A) Q is at Pos 4 in Row 2, D is at Pos 4 in Row 1. Q faces D (True).
+(B) Q(4) is adjacent to T(3) and P(5), not U(1) (False).
+(C) Q(4) is second to the left of V(6), not right (False).
+(D) Q(4) and R(7) have two persons between them (P, V) (False).
+Answer: Q faces D → (A)
+
+----------------------------------------

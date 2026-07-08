@@ -1,0 +1,219 @@
+Topic: Simplification
+Subtopic: BODMAS
+
+Q1. What will come in place of question mark (?) in the following question?
+120 / 4 + 15 * 3 - ? = 40
+(A) 35
+(B) 40
+(C) 45
+(D) 50
+Answer: A
+Explanation: 
+Using BODMAS rule:
+(120 / 4) + (15 * 3) - ? = 40
+30 + 45 - ? = 40
+75 - ? = 40
+? = 75 - 40 = 35.
+
+Q2. What is the value of 18 + 12 / 3 * 2 - 4?
+(A) 22
+(B) 16
+(C) 20
+(D) 24
+Answer: A
+Explanation: 
+Using BODMAS rule:
+Division first: 12 / 3 = 4
+Multiplication next: 4 * 2 = 8
+Then addition and subtraction: 18 + 8 - 4
+26 - 4 = 22.
+
+Q3. Find the value of (?): (24 / 6) * (18 / 3) + 12 = ?
+(A) 34
+(B) 36
+(C) 38
+(D) 40
+Answer: B
+Explanation: 
+Solve brackets first:
+(24 / 6) = 4
+(18 / 3) = 6
+Equation becomes: 4 * 6 + 12
+Multiply: 24 + 12 = 36.
+
+Q4. Solve for (?): 45 - [38 - {60 / 3 - (6 - 9 / 3)}] = ?
+(A) 22
+(B) 24
+(C) 26
+(D) 28
+Answer: B
+Explanation: 
+Solve inner bracket first: (6 - 9 / 3) = 6 - 3 = 3.
+Curly bracket: {60 / 3 - 3} = {20 - 3} = 17.
+Square bracket: [38 - 17] = 21.
+Final: 45 - 21 = 24.
+
+Q5. What will come in place of (?): 150 / 15 * 2 + 10 - 20 = ?
+(A) 10
+(B) 15
+(C) 20
+(D) 0
+Answer: A
+Explanation: 
+Division: 150 / 15 = 10.
+Multiplication: 10 * 2 = 20.
+Add/Sub: 20 + 10 - 20 = 10.
+
+Q6. Solve: 3/4 of 120 + 4/5 of 150 - ? = 110
+(A) 90
+(B) 100
+(C) 110
+(D) 120
+Answer: B
+Explanation: 
+'of' means multiplication.
+(3/4 * 120) + (4/5 * 150) - ? = 110
+(3 * 30) + (4 * 30) - ? = 110
+90 + 120 - ? = 110
+210 - ? = 110
+? = 210 - 110 = 100.
+
+Q7. What is the value of (?): (18^2 / 9) * 4 - 32 = ?
+(A) 108
+(B) 112
+(C) 118
+(D) 124
+Answer: B
+Explanation: 
+18^2 = 324.
+(324 / 9) * 4 - 32
+36 * 4 - 32
+144 - 32 = 112.
+
+Q8. Solve: 16 * 12 / 8 + 14 * 5 - 30 = ?
+(A) 64
+(B) 68
+(C) 72
+(D) 76
+Answer: A
+Explanation: 
+Division: 12 / 8 = 1.5.
+Multiplication: 16 * 1.5 = 24.
+Second multiplication: 14 * 5 = 70.
+Add/Sub: 24 + 70 - 30 = 94 - 30 = 64.
+
+Q9. What will come in place of (?): (4/7) of 350 + (3/8) of 640 = ? - 150
+(A) 570
+(B) 590
+(C) 610
+(D) 630
+Answer: B
+Explanation: 
+(4/7) * 350 = 4 * 50 = 200.
+(3/8) * 640 = 3 * 80 = 240.
+Equation: 200 + 240 = ? - 150
+440 = ? - 150
+? = 440 + 150 = 590.
+
+Q10. Solve: 25% of 400 + 35% of 600 - ? = 150
+(A) 140
+(B) 160
+(C) 180
+(D) 200
+Answer: B
+Explanation: 
+25% of 400 = (25/100) * 400 = 100.
+35% of 600 = (35/100) * 600 = 210.
+100 + 210 - ? = 150
+310 - ? = 150
+? = 310 - 150 = 160.
+
+Q11. What will come in place of (?): [(18 * 14 - 12 * 11) / (5^2 - 1)] * 15 = ?
+(A) 65
+(B) 70
+(C) 75
+(D) 80
+Answer: C
+Explanation: 
+Solve numerator: (18 * 14) - (12 * 11) = 252 - 132 = 120.
+Solve denominator: 25 - 1 = 24.
+Bracket value: 120 / 24 = 5.
+Multiply: 5 * 15 = 75.
+
+Q12. Solve: √1024 * (1/4) of 320 + 15% of 4800 = ? * 4
+(A) 820
+(B) 840
+(C) 860
+(D) 880
+Answer: A
+Explanation: 
+√1024 = 32.
+(1/4) of 320 = 80.
+First term: 32 * 80 = 2560.
+15% of 4800 = 15 * 48 = 720.
+Equation: 2560 + 720 = ? * 4
+3280 = ? * 4
+? = 3280 / 4 = 820.
+
+Q13. What will come in place of (?): (45% of 1600 + 12 * 35) / 8 = ? - 25
+(A) 165
+(B) 167
+(C) 169
+(D) 171
+Answer: B
+Explanation: 
+45% of 1600 = 45 * 16 = 720.
+12 * 35 = 420.
+Numerator: 720 + 420 = 1140.
+Divide by 8: 1140 / 8 = 142.5.
+142.5 = ? - 25
+? = 142.5 + 25 = 167.5. (Wait, let me adjust the numbers so the answer is an integer).
+Let's change 1600 to 1680? No, 12 * 36? Let's use 12 * 35 = 420.
+If numerator is 1120, then 1120 / 8 = 140.
+Let's make it 45% of 1600 (720) + 12 * X = 1120. 12 * X = 400 (not integer).
+Let's change 45% of 1600 to 45% of 1520 (45 * 15.2)? Let's just use 40% of 1750 = 700.
+700 + 420 = 1120.
+Let's re-write the question.
+
+Q13 (Updated Text):
+Q13. What will come in place of (?): (40% of 1750 + 12 * 35) / 8 = ? - 25
+(A) 165
+(B) 167
+(C) 169
+(D) 171
+Answer: A
+Explanation: 
+40% of 1750 = (40/100) * 1750 = 700.
+12 * 35 = 420.
+Numerator: 700 + 420 = 1120.
+Bracket value: 1120 / 8 = 140.
+140 = ? - 25
+? = 140 + 25 = 165.
+
+Q14. Solve: (2.5 * 4.4 + 3.6 * 5.5) / 0.2 = ? * 5
+(A) 29.8
+(B) 30.8
+(C) 31.8
+(D) 32.8
+Answer: B
+Explanation: 
+2.5 * 4.4 = 11.0.
+3.6 * 5.5 = 19.8.
+Numerator sum: 11 + 19.8 = 30.8.
+Divide by 0.2: 30.8 / 0.2 = 308 / 2 = 154.
+Equation: 154 = ? * 5
+? = 154 / 5 = 30.8.
+
+Q15. What will come in place of (?): (16^2 / 8) * (14^2 / 28) - 120 = ? * 4
+(A) 22
+(B) 24
+(C) 26
+(D) 28
+Answer: C
+Explanation: 
+16^2 / 8 = 256 / 8 = 32.
+14^2 / 28 = 196 / 28 = 7.
+Multiply terms: 32 * 7 = 224.
+Equation: 224 - 120 = ? * 4
+104 = ? * 4
+? = 104 / 4 = 26.

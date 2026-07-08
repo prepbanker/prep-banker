@@ -1,0 +1,239 @@
+----------------------------------------
+Topic: Direction Sense
+Subtopic: Distance & Direction
+----------------------------------------
+
+Directions (Q1–Q5): Study the following information carefully and answer the questions given below.
+- Point A is 9m West of Point B.
+- Point C is 12m South of Point B.
+- Point D is 16m East of Point C.
+- Point E is 20m North of Point D.
+- Point F is 16m West of Point E.
+- Point G is 9m West of Point F.
+
+Refer to diagram: SVG/Q2.svg for a visual representation.
+
+Q1. What is the shortest distance between Point A and Point G?
+(A) 5m
+(B) 8m
+(C) 10m
+(D) 12m
+
+Answer: B
+Explanation:
+Let's assign coordinates (x, y) starting with B at (0,0).
+A = (-9, 0)
+C = (0, -12)
+D = (16, -12)
+E = (16, 8)  [since 20m North of D: -12 + 20 = 8]
+F = (0, 8)   [16m West of E: 16 - 16 = 0]
+G = (-9, 8)  [9m West of F: 0 - 9 = -9]
+Point A is at (-9, 0) and Point G is at (-9, 8). The horizontal coordinates are the same, so the shortest distance is the vertical difference: 8 - 0 = 8m.
+
+----------------------------------------
+
+Q2. Point E is in which direction with respect to Point B?
+(A) North-East
+(B) North-West
+(C) South-East
+(D) South-West
+
+Answer: A
+Explanation:
+B is at (0,0) and E is at (16, 8). Since both the x and y coordinates of E are positive relative to B, E is in the North-East direction with respect to B.
+
+----------------------------------------
+
+Q3. What is the shortest distance between Point C and Point F?
+(A) 16m
+(B) 18m
+(C) 20m
+(D) 24m
+
+Answer: C
+Explanation:
+C is at (0, -12) and F is at (0, 8). Both lie on the same vertical line (y-axis). The total vertical distance is 8 - (-12) = 20m.
+
+----------------------------------------
+
+Q4. Point D is in which direction with respect to Point A?
+(A) East
+(B) South-East
+(C) South-West
+(D) North-East
+
+Answer: B
+Explanation:
+A is at (-9, 0) and D is at (16, -12). Point D is to the right (East) and below (South) Point A. Therefore, D is South-East of A.
+
+----------------------------------------
+
+Q5. If Point H is 5m East of Point C, then what is the shortest distance between Point B and Point H?
+(A) 12m
+(B) 13m
+(C) 15m
+(D) 17m
+
+Answer: B
+Explanation:
+C is at (0, -12). Point H is 5m East of C, so H is at (5, -12). 
+B is at (0,0).
+Using the Pythagorean theorem: Distance = √((5 - 0)² + (-12 - 0)²) = √(25 + 144) = √169 = 13m.
+
+----------------------------------------
+
+Directions (Q6–Q10): Study the following information carefully and answer the questions given below.
+Rahul starts from Point P, walks 10m towards the North to reach Point Q. Then he takes a right turn and walks 15m to reach Point R. Then he takes a right turn, walks 14m to reach Point S, and stops.
+Simultaneously, Amit starts from Point M, which is 24m East of Point P. Amit walks 17m towards the North to reach Point N. He takes a left turn and walks 9m to reach Point O. Then he takes a left turn, walks 21m to reach Point T, and stops.
+
+Refer to diagram: SVG/Q8.svg for a visual representation.
+
+Q6. What is the shortest distance between Point Q and Point N?
+(A) 24m
+(B) 25m
+(C) 26m
+(D) 28m
+
+Answer: B
+Explanation:
+Let P be (0,0). 
+Rahul's path: Q=(0, 10). R=(15, 10). S=(15, -4).
+Amit's path: M=(24, 0). N=(24, 17). O=(15, 17). T=(15, -4).
+Point Q is (0, 10) and Point N is (24, 17). 
+Shortest distance = √((24 - 0)² + (17 - 10)²) = √(24² + 7²) = √(576 + 49) = √625 = 25m.
+
+----------------------------------------
+
+Q7. In which direction is Point M with respect to Point R?
+(A) South-East
+(B) South-West
+(C) North-East
+(D) North-West
+
+Answer: A
+Explanation:
+Point M is at (24, 0) and Point R is at (15, 10). M is to the right (East) and below (South) R. Thus, M is South-East of R.
+
+----------------------------------------
+
+Q8. What is the shortest distance between Rahul's final position and Amit's final position?
+(A) 5m
+(B) 10m
+(C) 15m
+(D) 0m
+
+Answer: D
+Explanation:
+Rahul's final position is S (15, -4). Amit's final position is T (15, -4). Since both their coordinates are exactly the same, they meet at the same point. The distance is 0m.
+
+----------------------------------------
+
+Q9. In which direction is Point O with respect to Point P?
+(A) North-West
+(B) North-East
+(C) South-East
+(D) South-West
+
+Answer: B
+Explanation:
+P is at (0,0) and O is at (15, 17). Both x and y coordinates are positive, meaning O is in the North-East direction with respect to P.
+
+----------------------------------------
+
+Q10. If Point Y is 10m South of Point R, what is the distance between Point P and Point Y?
+(A) 10m
+(B) 12m
+(C) 15m
+(D) 20m
+
+Answer: C
+Explanation:
+R is at (15, 10). Point Y is 10m South of R, which places Y at (15, 0). Point P is at (0,0). Since both lie on the x-axis, the distance is simply 15 - 0 = 15m.
+
+----------------------------------------
+
+Directions (Q11–Q15): Study the following information carefully and answer the questions given below.
+'A @(X) B' means 'A is X m East of B'
+'A #(X) B' means 'A is X m West of B'
+'A $(X) B' means 'A is X m North of B'
+'A %(X) B' means 'A is X m South of B'
+
+For Q11 to Q13, consider the following expression:
+P @(15) Q $(12) R #(20) S %(18) T @(5) U
+
+Refer to diagram: SVG/Q11.svg for a visual representation.
+
+Q11. What is the shortest distance between Point P and Point U?
+(A) 5m
+(B) 6m
+(C) 8m
+(D) 10m
+
+Answer: B
+Explanation:
+Decoding the expression:
+P @(15) Q → P is 15m East of Q. Let Q=(0,0), so P=(15,0).
+Q $(12) R → Q is 12m North of R. R=(0,-12).
+R #(20) S → R is 20m West of S. S=(20,-12).
+S %(18) T → S is 18m South of T. T=(20,6).
+T @(5) U → T is 5m East of U. U=(15,6).
+P is at (15,0) and U is at (15,6). Both lie on the same vertical line. Shortest distance = 6 - 0 = 6m.
+
+----------------------------------------
+
+Q12. In which direction is Point Q with respect to Point S?
+(A) North-East
+(B) North-West
+(C) South-East
+(D) South-West
+
+Answer: B
+Explanation:
+Q is at (0,0) and S is at (20, -12). Q is to the left (West) and above (North) S. Therefore, Q is North-West of S.
+
+----------------------------------------
+
+Q13. If Point W is 12m North of Point S, then what is the shortest distance between Point P and Point W?
+(A) 4m
+(B) 5m
+(C) 6m
+(D) 8m
+
+Answer: B
+Explanation:
+S is at (20, -12). Point W is 12m North of S, so W=(20, 0). 
+P is at (15, 0). Since both lie on the same horizontal line, the distance is 20 - 15 = 5m.
+
+----------------------------------------
+
+Directions (Q14–Q15): For the following questions, consider the new expression:
+M #(8) N %(15) O @(17) P $(15) Q
+
+Q14. In the new expression, what is the shortest distance between Point M and Point Q?
+(A) 7m
+(B) 8m
+(C) 9m
+(D) 10m
+
+Answer: C
+Explanation:
+Decoding the new expression:
+P $(15) Q → P is 15m North of Q. Let Q=(0,0), so P=(0,15).
+O @(17) P → O is 17m East of P. O=(17,15).
+N %(15) O → N is 15m South of O. N=(17,0).
+M #(8) N → M is 8m West of N. M=(9,0).
+M is at (9,0) and Q is at (0,0). The shortest distance is 9m.
+
+----------------------------------------
+
+Q15. In the new expression, in which direction is Point P with respect to Point M?
+(A) North-East
+(B) North-West
+(C) South-East
+(D) South-West
+
+Answer: B
+Explanation:
+P is at (0, 15) and M is at (9, 0). Point P is to the left (West) and above (North) M. Therefore, P is North-West of M.
+
+----------------------------------------

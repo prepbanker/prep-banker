@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="350" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="650" height="350" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <text x="325" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#212121">Voter Demographics (Total = 24,000)</text>
+
+  <!-- Pie Chart Center: 220, 200, Radius: 110 -->
+  <!-- Age Groups:
+       18-25: 35%
+       26-35: 25%
+       36-45: 20%
+       46-55: 12%
+       56+: 8%
+  -->
+  
+  <g transform="translate(220, 200)">
+    <!-- 18-25: 35% (126 deg) -->
+    <!-- X = 110 * Sin(126) = 110 * 0.809 = 88.99, Y = -110 * Cos(126) = -110 * -0.587 = 64.57 -->
+    <path d="M 0 0 L 0 -110 A 110 110 0 0 1 88.99 64.57 Z" fill="#5c6bc0" stroke="#fff" stroke-width="2"/>
+    <text x="50" y="-30" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">35%</text>
+    
+    <!-- 26-35: 25% (90 deg). Ends at 126+90=216 deg -->
+    <!-- X = 110 * Sin(216) = -64.57, Y = -110 * Cos(216) = 88.99 -->
+    <path d="M 0 0 L 88.99 64.57 A 110 110 0 0 1 -64.57 88.99 Z" fill="#26a69a" stroke="#fff" stroke-width="2"/>
+    <text x="20" y="70" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">25%</text>
+    
+    <!-- 36-45: 20% (72 deg). Ends at 288 deg (-72) -->
+    <!-- X = 110 * Sin(288) = -104.61, Y = -110 * Cos(288) = -33.99 -->
+    <path d="M 0 0 L -64.57 88.99 A 110 110 0 0 1 -104.61 -33.99 Z" fill="#ffca28" stroke="#fff" stroke-width="2"/>
+    <text x="-65" y="40" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">20%</text>
+    
+    <!-- 46-55: 12% (43.2 deg). Ends at 331.2 deg (-28.8) -->
+    <!-- X = 110 * Sin(331.2) = -53, Y = -110 * Cos(331.2) = -96.4 -->
+    <path d="M 0 0 L -104.61 -33.99 A 110 110 0 0 1 -53 -96.4 Z" fill="#ef5350" stroke="#fff" stroke-width="2"/>
+    <text x="-65" y="-45" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">12%</text>
+    
+    <!-- 56+: 8% (28.8 deg). Ends at 360 (0) -->
+    <path d="M 0 0 L -53 -96.4 A 110 110 0 0 1 0 -110 Z" fill="#8d6e63" stroke="#fff" stroke-width="2"/>
+    <text x="-25" y="-80" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">8%</text>
+  </g>
+
+  <!-- Legend Box -->
+  <rect x="420" y="100" width="160" height="150" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1" rx="5"/>
+  <g font-size="13" fill="#424242">
+    <rect x="435" y="115" width="15" height="15" fill="#5c6bc0"/>
+    <text x="460" y="128">18 - 25 years</text>
+    
+    <rect x="435" y="140" width="15" height="15" fill="#26a69a"/>
+    <text x="460" y="153">26 - 35 years</text>
+    
+    <rect x="435" y="165" width="15" height="15" fill="#ffca28"/>
+    <text x="460" y="178">36 - 45 years</text>
+    
+    <rect x="435" y="190" width="15" height="15" fill="#ef5350"/>
+    <text x="460" y="203">46 - 55 years</text>
+    
+    <rect x="435" y="215" width="15" height="15" fill="#8d6e63"/>
+    <text x="460" y="228">56+ years</text>
+  </g>
+</svg>

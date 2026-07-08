@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="312" font-family="Arial, sans-serif">
+
+  <!-- Header Row -->
+  <rect x="15" y="10" width="130" height="36" fill="#283593" rx="3"/>
+  <rect x="155" y="10" width="120" height="36" fill="#283593" rx="3"/>
+  <rect x="285" y="10" width="160" height="36" fill="#283593" rx="3"/>
+  <text x="80"  y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Month</text>
+  <text x="215" y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Person</text>
+  <text x="365" y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Sport</text>
+
+  <!-- January -->
+  <rect x="15" y="46" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="46" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="46" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="69" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">January</text>
+  <text x="215" y="69" text-anchor="middle" font-size="12" fill="#333">Esha</text>
+  <text x="365" y="69" text-anchor="middle" font-size="12" fill="#333">Cricket</text>
+
+  <!-- February -->
+  <rect x="15" y="82" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="82" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="82" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="105" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">February</text>
+  <text x="215" y="105" text-anchor="middle" font-size="12" fill="#333">Chetan</text>
+  <text x="365" y="105" text-anchor="middle" font-size="12" fill="#333">Basketball</text>
+
+  <!-- March -->
+  <rect x="15" y="118" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="118" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="118" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="141" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">March</text>
+  <text x="215" y="141" text-anchor="middle" font-size="12" fill="#333">Bina</text>
+  <text x="365" y="141" text-anchor="middle" font-size="12" fill="#333">Football</text>
+
+  <!-- April -->
+  <rect x="15" y="154" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="154" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="154" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="177" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">April</text>
+  <text x="215" y="177" text-anchor="middle" font-size="12" fill="#333">Deepa</text>
+  <text x="365" y="177" text-anchor="middle" font-size="12" fill="#333">Volleyball</text>
+
+  <!-- May -->
+  <rect x="15" y="190" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="190" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="190" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="213" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">May</text>
+  <text x="215" y="213" text-anchor="middle" font-size="12" fill="#333">Farhan</text>
+  <text x="365" y="213" text-anchor="middle" font-size="12" fill="#333">Badminton</text>
+
+  <!-- June -->
+  <rect x="15" y="226" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="226" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="226" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="249" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">June</text>
+  <text x="215" y="249" text-anchor="middle" font-size="12" fill="#333">Geeta</text>
+  <text x="365" y="249" text-anchor="middle" font-size="12" fill="#333">Tennis</text>
+
+  <!-- July -->
+  <rect x="15" y="262" width="130" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="155" y="262" width="120" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="285" y="262" width="160" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="80"  y="285" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">July</text>
+  <text x="215" y="285" text-anchor="middle" font-size="12" fill="#333">Ajay</text>
+  <text x="365" y="285" text-anchor="middle" font-size="12" fill="#333">Hockey</text>
+
+</svg>

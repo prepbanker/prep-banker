@@ -1,0 +1,399 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "sentence-improvement",
+  "subtopic": "grammar-improvement",
+  "totalQuestions": 13,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Sentence Improvement\nSubtopic: Grammar Improvement",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: The committee have decided to unanimously reject the highly controversial proposal submitted by the urban development board last week.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The committee has decided to unanimously reject the highly controversial proposal"
+                },
+                {
+                  "label": "B",
+                  "text": "The committee have decided unanimously rejecting the highly controversial proposal"
+                },
+                {
+                  "label": "C",
+                  "text": "The committee has decide to unanimously reject the highly controversial proposal"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"Committee\" is a collective noun. The word \"unanimously\" indicates they are acting as a single, undivided unit. Therefore, it must take the singular verb \"has decided\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: No sooner he had entered the dimly lit room than the heavy oak door slammed shut behind him.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "No sooner did he entered the dimly lit room than"
+                },
+                {
+                  "label": "B",
+                  "text": "No sooner had he entered the dimly lit room than"
+                },
+                {
+                  "label": "C",
+                  "text": "No sooner he entered the dimly lit room when"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When a sentence begins with \"No sooner\", it requires an inverted word order (auxiliary verb before the subject). \"No sooner had he entered\" is the correct grammatical structure.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: I would have definitely helped you complete the assignment if you would have asked me earlier.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "if you had asked me earlier."
+                },
+                {
+                  "label": "B",
+                  "text": "if you have asked me earlier."
+                },
+                {
+                  "label": "C",
+                  "text": "if you asked me earlier."
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "In a third conditional sentence (unreal past), the \"if\" clause must be in the past perfect tense (\"if you had asked\"), while the main clause uses \"would have + past participle\". \"If you would have\" is a common but incorrect phrasing.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: One of the most significant challenge faced by the developing nation is the severe lack of clean drinking water.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One of the most significant challenges faced by the developing nation are"
+                },
+                {
+                  "label": "B",
+                  "text": "One of the most significant challenges faced by the developing nation is"
+                },
+                {
+                  "label": "C",
+                  "text": "One of the most significant challenge faced by the developing nations is"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"One of the\" is always followed by a plural noun (\"challenges\"), but because the actual subject is \"One\", the main verb must be singular (\"is\").",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: Despite of his immense wealth and global influence, the eccentric billionaire lived a remarkably solitary and miserable life.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "In spite his immense wealth and global influence,"
+                },
+                {
+                  "label": "B",
+                  "text": "Despite his immense wealth and global influence,"
+                },
+                {
+                  "label": "C",
+                  "text": "Although of his immense wealth and global influence,"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The preposition \"despite\" takes a noun or gerund directly without the preposition \"of\". (\"In spite of\" is correct, but \"Despite of\" is always wrong).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Sentence Improvement\nSubtopic: Grammar Improvement",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: The brilliant scientist, along with her entire team of researchers, were honored at the international gala.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "along with her entire team of researchers, are honored"
+                },
+                {
+                  "label": "B",
+                  "text": "along with her entire team of researchers, was honored"
+                },
+                {
+                  "label": "C",
+                  "text": "along with her entire team of researchers, have been honored"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When subjects are connected by phrases like \"along with\", the verb must agree with the first subject (\"The brilliant scientist\", which is singular). Therefore, \"was honored\" is correct.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: Having finished the incredibly complex project, the manager allowed the exhausted team to leave early.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Having finish the incredibly complex project,"
+                },
+                {
+                  "label": "B",
+                  "text": "Have finished the incredibly complex project,"
+                },
+                {
+                  "label": "C",
+                  "text": "After having finished the incredibly complex project,"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"Having finished\" is a perfect participle correctly indicating an action completed before the main verb's action. The sentence is grammatically flawless as written.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: He is not only an exceptionally talented musician but also plays tennis at a professional level.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Not only is he an exceptionally talented musician but he also plays tennis"
+                },
+                {
+                  "label": "B",
+                  "text": "He not only is an exceptionally talented musician but also plays tennis"
+                },
+                {
+                  "label": "C",
+                  "text": "He is not only an exceptionally talented musician but also a professional tennis player."
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Correlative conjunctions like \"not only... but also\" require parallel structure. In the original, \"an exceptionally talented musician\" (a noun phrase) is paired with \"plays tennis\" (a verb phrase). Option C perfectly balances two noun phrases.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: The number of cyberattacks targeting financial institutions have increased exponentially over the last decade.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A number of cyberattacks targeting financial institutions has increased"
+                },
+                {
+                  "label": "B",
+                  "text": "The number of cyberattacks targeting financial institutions has increased"
+                },
+                {
+                  "label": "C",
+                  "text": "The numbers of cyberattacks targeting financial institutions have increased"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"The number of\" (referring to a specific mathematical quantity) always takes a singular verb (\"has increased\"), unlike \"A number of\", which takes a plural verb.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: Unless you do not apologize for your highly unprofessional behavior, the board will terminate your contract immediately.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Unless you will not apologize for your highly unprofessional behavior,"
+                },
+                {
+                  "label": "B",
+                  "text": "If you do not apologize for your highly unprofessional behavior,"
+                },
+                {
+                  "label": "C",
+                  "text": "Unless you apologize for your highly unprofessional behavior,"
+                },
+                {
+                  "label": "D",
+                  "text": "Both B and C are correct improvements."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"Unless\" inherently means \"if not\", so it cannot be followed by a negative word like \"not\" (\"Unless you do not\" is a double negative). Both \"If you do not apologize\" and \"Unless you apologize\" are grammatically correct and convey the identical meaning.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q13",
+      "groups": [
+        {
+          "directions": "Topic: Sentence Improvement\nSubtopic: Grammar Improvement",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: The intricate details of the historical treaty is not fully understood by most modern political analysts.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The intricate details of the historical treaty are not fully understood"
+                },
+                {
+                  "label": "B",
+                  "text": "The intricate detail of the historical treaty are not fully understood"
+                },
+                {
+                  "label": "C",
+                  "text": "The intricate details of the historical treaty has not fully understood"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The true subject of the sentence is \"details\" (plural). \"Of the historical treaty\" is just a prepositional phrase modifying the subject. Therefore, the plural verb \"are\" must be used.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: I look forward to meet you at the upcoming global technology summit in San Francisco.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "I look forward to have met you at"
+                },
+                {
+                  "label": "B",
+                  "text": "I look forward to meeting you at"
+                },
+                {
+                  "label": "C",
+                  "text": "I am looking forward to meet you at"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"look forward to\" ends with a preposition (\"to\"), so the verb following it must be in the gerund form (\"meeting\").",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the grammatically correct sentence that improves upon the original.\nOriginal: The newly constructed bridge is much more stronger than the older one that collapsed last year.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "is much stronger than the older one"
+                },
+                {
+                  "label": "B",
+                  "text": "is more stronger than the older one"
+                },
+                {
+                  "label": "C",
+                  "text": "is much more strong than the older one"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                },
+                {
+                  "label": "A",
+                  "text": "Neither the employees nor the department manager has been informed"
+                },
+                {
+                  "label": "B",
+                  "text": "Neither the employee nor the department managers has been informed"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither the employees or the department manager have been informed"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                },
+                {
+                  "label": "A",
+                  "text": "takes strictly action against"
+                },
+                {
+                  "label": "B",
+                  "text": "took strict action against"
+                },
+                {
+                  "label": "C",
+                  "text": "will take strict action against"
+                },
+                {
+                  "label": "D",
+                  "text": "The original sentence is correct."
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"Stronger\" is already in the comparative degree. Using \"more\" with it creates an incorrect double comparative (\"more stronger\"). \"Much\" can correctly modify a comparative (\"much stronger\").",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

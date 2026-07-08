@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="276" font-family="Arial, sans-serif">
+
+  <!-- Header Row -->
+  <rect x="20" y="10" width="100" height="36" fill="#283593" rx="3"/>
+  <rect x="130" y="10" width="100" height="36" fill="#283593" rx="3"/>
+  <rect x="240" y="10" width="140" height="36" fill="#283593" rx="3"/>
+  <text x="70"  y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Position</text>
+  <text x="180" y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Box</text>
+  <text x="310" y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Item</text>
+
+  <!-- Position 6 (Top) -->
+  <rect x="20" y="46" width="100" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="46" width="100" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="240" y="46" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="70"  y="69" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">6 (Top)</text>
+  <text x="180" y="69" text-anchor="middle" font-size="12" fill="#333">Box L</text>
+  <text x="310" y="69" text-anchor="middle" font-size="12" fill="#333">Pen</text>
+
+  <!-- Position 5 -->
+  <rect x="20" y="82" width="100" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="82" width="100" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="240" y="82" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="70"  y="105" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">5</text>
+  <text x="180" y="105" text-anchor="middle" font-size="12" fill="#333">Box N</text>
+  <text x="310" y="105" text-anchor="middle" font-size="12" fill="#333">Sharpener</text>
+
+  <!-- Position 4 -->
+  <rect x="20" y="118" width="100" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="118" width="100" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="240" y="118" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="70"  y="141" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">4</text>
+  <text x="180" y="141" text-anchor="middle" font-size="12" fill="#333">Box K</text>
+  <text x="310" y="141" text-anchor="middle" font-size="12" fill="#333">Book</text>
+
+  <!-- Position 3 -->
+  <rect x="20" y="154" width="100" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="154" width="100" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="240" y="154" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="70"  y="177" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">3</text>
+  <text x="180" y="177" text-anchor="middle" font-size="12" fill="#333">Box J</text>
+  <text x="310" y="177" text-anchor="middle" font-size="12" fill="#333">Ruler</text>
+
+  <!-- Position 2 -->
+  <rect x="20" y="190" width="100" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="190" width="100" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="240" y="190" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="70"  y="213" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">2</text>
+  <text x="180" y="213" text-anchor="middle" font-size="12" fill="#333">Box M</text>
+  <text x="310" y="213" text-anchor="middle" font-size="12" fill="#333">Pencil</text>
+
+  <!-- Position 1 (Bottom) -->
+  <rect x="20" y="226" width="100" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="226" width="100" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="240" y="226" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="70"  y="249" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">1 (Bottom)</text>
+  <text x="180" y="249" text-anchor="middle" font-size="12" fill="#333">Box O</text>
+  <text x="310" y="249" text-anchor="middle" font-size="12" fill="#333">Eraser</text>
+
+</svg>

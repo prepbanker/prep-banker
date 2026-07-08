@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "arithmetic",
+  "subtopic": "percentage",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Arithmetic\nSubtopic: Percentage",
+          "questions": [
+            {
+              "id": 1,
+              "text": "If 40% of a number is equal to two-third of another number, what is the ratio of the first number to the second number?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2 : 5"
+                },
+                {
+                  "label": "B",
+                  "text": "3 : 7"
+                },
+                {
+                  "label": "C",
+                  "text": "5 : 3"
+                },
+                {
+                  "label": "D",
+                  "text": "7 : 3"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Let the first number be x and the second number be y.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "The price of an article is increased by 20% and then decreased by 20%. The final price of the article is what percentage of the original price?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "96%"
+                },
+                {
+                  "label": "B",
+                  "text": "100%"
+                },
+                {
+                  "label": "C",
+                  "text": "104%"
+                },
+                {
+                  "label": "D",
+                  "text": "90%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let original price = 100.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "In an election between two candidates, one got 55% of the total valid votes. 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got was:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2700"
+                },
+                {
+                  "label": "B",
+                  "text": "2900"
+                },
+                {
+                  "label": "C",
+                  "text": "3000"
+                },
+                {
+                  "label": "D",
+                  "text": "3100"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total votes = 7500.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "If A's salary is 25% more than B's salary, then B's salary is how much percent less than A's salary?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "20%"
+                },
+                {
+                  "label": "B",
+                  "text": "25%"
+                },
+                {
+                  "label": "C",
+                  "text": "16.66%"
+                },
+                {
+                  "label": "D",
+                  "text": "33.33%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let B's salary = 100.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "A student has to obtain 33% of the total marks to pass. He got 125 marks and failed by 40 marks. The maximum marks are:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "300"
+                },
+                {
+                  "label": "B",
+                  "text": "500"
+                },
+                {
+                  "label": "C",
+                  "text": "800"
+                },
+                {
+                  "label": "D",
+                  "text": "1000"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Passing marks = Marks obtained + Failed by",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Arithmetic\nSubtopic: Percentage",
+          "questions": [
+            {
+              "id": 6,
+              "text": "The price of sugar is increased by 25%. If a family wants to keep its expenditure on sugar the same as before, by what percentage should the family decrease its consumption of sugar?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "16.66%"
+                },
+                {
+                  "label": "B",
+                  "text": "20%"
+                },
+                {
+                  "label": "C",
+                  "text": "25%"
+                },
+                {
+                  "label": "D",
+                  "text": "30%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Let original price = Rs. 100/kg and original consumption = 100 kg.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In a fraction, if the numerator is increased by 40% and the denominator is decreased by 20%, the resulting fraction becomes 7/8. What is the original fraction?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1/2"
+                },
+                {
+                  "label": "B",
+                  "text": "3/4"
+                },
+                {
+                  "label": "C",
+                  "text": "5/8"
+                },
+                {
+                  "label": "D",
+                  "text": "2/3"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let original fraction be x/y.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "A man spends 60% of his income. His income increases by 15% and his expenditure increases by 5%. By what percentage does his savings increase?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "15%"
+                },
+                {
+                  "label": "B",
+                  "text": "20%"
+                },
+                {
+                  "label": "C",
+                  "text": "25%"
+                },
+                {
+                  "label": "D",
+                  "text": "30%"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Let original income = 100.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In an examination, 35% of candidates failed in Mathematics and 25% failed in English. If 10% failed in both subjects, what percentage of candidates passed in both subjects?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "50%"
+                },
+                {
+                  "label": "B",
+                  "text": "55%"
+                },
+                {
+                  "label": "C",
+                  "text": "60%"
+                },
+                {
+                  "label": "D",
+                  "text": "45%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let Total = 100%.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "The population of a town is 1,20,000. It increases by 10% during the first year, decreases by 20% during the second year, and increases by 25% during the third year. What will be the population after 3 years?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1,32,000"
+                },
+                {
+                  "label": "B",
+                  "text": "1,25,000"
+                },
+                {
+                  "label": "C",
+                  "text": "1,20,000"
+                },
+                {
+                  "label": "D",
+                  "text": "1,35,000"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Population after 1st year = 1,20,000 × 1.10 = 1,32,000.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Arithmetic\nSubtopic: Percentage",
+          "questions": [
+            {
+              "id": 11,
+              "text": "In an election involving three candidates A, B, and C, 10% of the voters on the voter list did not cast their votes and 5% of the votes cast were declared invalid. A got 30% of the valid votes, B got 40% of the valid votes, and C got the rest. If B won the election by 2565 votes more than C, find the total number of voters on the voter list.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40000"
+                },
+                {
+                  "label": "B",
+                  "text": "30000"
+                },
+                {
+                  "label": "C",
+                  "text": "35000"
+                },
+                {
+                  "label": "D",
+                  "text": "50000"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Let total voters = 100x.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "A solution of salt and water contains 15% salt by weight. From this, 30 kg of water evaporates, and the solution now contains 20% salt. What was the original weight of the solution?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "100 kg"
+                },
+                {
+                  "label": "B",
+                  "text": "120 kg"
+                },
+                {
+                  "label": "C",
+                  "text": "150 kg"
+                },
+                {
+                  "label": "D",
+                  "text": "90 kg"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Let original weight = x kg.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In an examination, a student who gets 20% marks fails by 30 marks. Another student who gets 32% marks scores 42 marks more than the passing marks. What is the passing percentage?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "25%"
+                },
+                {
+                  "label": "B",
+                  "text": "28%"
+                },
+                {
+                  "label": "C",
+                  "text": "30%"
+                },
+                {
+                  "label": "D",
+                  "text": "24%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let max marks = x.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "The price of raw materials has gone up by 15%, and the labor cost has also increased from 25% of the cost of raw material to 30% of the cost of raw material. By how much percentage should there be a reduction in the usage of raw material so as to keep the total cost the same?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "16.3%"
+                },
+                {
+                  "label": "B",
+                  "text": "17%"
+                },
+                {
+                  "label": "C",
+                  "text": "19.5%"
+                },
+                {
+                  "label": "D",
+                  "text": "15%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let initial raw material quantity = 100 units, price = Rs. 100/unit.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "In a survey of 500 students of a college, it was found that 49% liked watching football, 53% liked watching cricket, and 62% liked watching tennis. 27% liked watching both football and cricket, 29% liked both cricket and tennis, and 28% liked both football and tennis. 5% liked none of these games. What percentage of students liked watching all three games?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12%"
+                },
+                {
+                  "label": "B",
+                  "text": "15%"
+                },
+                {
+                  "label": "C",
+                  "text": "10%"
+                },
+                {
+                  "label": "D",
+                  "text": "18%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total = 100%. None = 5%.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

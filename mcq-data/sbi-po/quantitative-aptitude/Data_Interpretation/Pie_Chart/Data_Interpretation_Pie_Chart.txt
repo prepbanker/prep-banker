@@ -1,0 +1,223 @@
+----------------------------------------
+Topic: Data Interpretation
+Subtopic: Pie Chart
+----------------------------------------
+
+Directions (Q1–Q5): Refer to diagram: SVG/Q1.svg.
+The pie chart shows the percentage distribution of 15,000 students enrolled across 5 different schools (A, B, C, D, E).
+
+Q1. What is the total number of students enrolled in School C?
+(A) 4000
+(B) 4200
+(C) 4500
+(D) 4800
+
+Answer: C
+Explanation:
+School C = 30% of Total.
+Total students = 15,000.
+30% of 15000 = (30/100) × 15000 = 4500.
+
+----------------------------------------
+
+Q2. What is the difference between the number of students in School A and School D?
+(A) 700
+(B) 750
+(C) 800
+(D) 850
+
+Answer: B
+Explanation:
+School A = 25%. School D = 20%.
+Difference in % = 25% - 20% = 5%.
+Difference in number = 5% of 15000 = (5/100) × 15000 = 750.
+
+----------------------------------------
+
+Q3. The number of students in School B is what percentage of the number of students in School E?
+(A) 120%
+(B) 125%
+(C) 150%
+(D) 175%
+
+Answer: C
+Explanation:
+School B = 15%.
+School E = 10%.
+Percentage = (15 / 10) × 100 = 150%.
+
+----------------------------------------
+
+Q4. If 40% of the students in School A are females, what is the number of male students in School A?
+(A) 2250
+(B) 2150
+(C) 2350
+(D) 2450
+
+Answer: A
+Explanation:
+Total students in A = 25% of 15000 = 3750.
+Male students = (100% - 40%) = 60%.
+60% of 3750 = 0.6 × 3750 = 2250.
+
+----------------------------------------
+
+Q5. What is the ratio of the number of students in Schools C and D together to the number of students in Schools B and E together?
+(A) 2 : 1
+(B) 3 : 1
+(C) 4 : 3
+(D) 5 : 2
+
+Answer: A
+Explanation:
+Schools (C + D) % = 30% + 20% = 50%.
+Schools (B + E) % = 15% + 10% = 25%.
+Ratio = 50% : 25% = 2 : 1.
+
+----------------------------------------
+
+Directions (Q6–Q10): Refer to diagram: SVG/Q6.svg.
+The pie chart gives the distribution of a family's monthly income (Rs. 60,000) across various categories. The distribution is given in terms of central angles (in degrees).
+
+Q6. What is the amount spent by the family on Food?
+(A) Rs. 16,000
+(B) Rs. 18,000
+(C) Rs. 20,000
+(D) Rs. 22,000
+
+Answer: B
+Explanation:
+Central angle for Food = 108°.
+Amount = (108° / 360°) × 60000 = (3 / 10) × 60000 = Rs. 18,000.
+
+----------------------------------------
+
+Q7. The amount saved by the family is what percentage of the amount spent on Education?
+(A) 120%
+(B) 133.33%
+(C) 125%
+(D) 150%
+
+Answer: B
+Explanation:
+Central angle for Savings = 72°.
+Central angle for Education = 54°.
+Percentage = (72 / 54) × 100 = (4 / 3) × 100 = 133.33%.
+
+----------------------------------------
+
+Q8. How much more does the family spend on Rent than on Miscellaneous expenses?
+(A) Rs. 3,000
+(B) Rs. 2,500
+(C) Rs. 3,500
+(D) Rs. 4,000
+
+Answer: A
+Explanation:
+Angle for Rent = 72°.
+Angle for Misc = 54°.
+Difference in angle = 72° - 54° = 18°.
+Difference in amount = (18 / 360) × 60000 = (1 / 20) × 60000 = Rs. 3,000.
+
+----------------------------------------
+
+Q9. What is the total amount spent on Food and Rent together?
+(A) Rs. 32,000
+(B) Rs. 28,000
+(C) Rs. 30,000
+(D) Rs. 36,000
+
+Answer: C
+Explanation:
+Total angle = 108° (Food) + 72° (Rent) = 180°.
+Since 180° is exactly half of a circle (360°),
+Amount = 50% of 60000 = Rs. 30,000.
+
+----------------------------------------
+
+Q10. If the income of the family increases by 20% in the next month and the central angle for Savings remains the same, what will be the new amount saved?
+(A) Rs. 15,400
+(B) Rs. 14,400
+(C) Rs. 12,000
+(D) Rs. 16,800
+
+Answer: B
+Explanation:
+New Income = 60000 × 1.20 = 72000.
+Savings angle = 72° (which is 72/360 = 20% of the total).
+New Savings = 20% of 72000 = Rs. 14,400.
+
+----------------------------------------
+
+Directions (Q11–Q15): Refer to diagram: SVG/Q11.svg.
+The pie chart provides the demographic breakdown (by age groups) of a town's registered voters (Total = 24,000).
+
+Q11. What is the total number of registered voters in the age group of 36 - 45 years?
+(A) 4200
+(B) 4800
+(C) 5000
+(D) 4600
+
+Answer: B
+Explanation:
+Age 36-45 = 20%.
+Voters = 20% of 24000 = 4800.
+
+----------------------------------------
+
+Q12. The number of voters in the 18 - 25 years group is what percentage more than the number of voters in the 26 - 35 years group?
+(A) 40%
+(B) 35%
+(C) 25%
+(D) 30%
+
+Answer: A
+Explanation:
+18 - 25 = 35%.
+26 - 35 = 25%.
+Difference = 10%.
+Percentage more = (10 / 25) × 100 = 40%.
+
+----------------------------------------
+
+Q13. What is the central angle for the sector representing voters aged 56+ years?
+(A) 26.8°
+(B) 28.8°
+(C) 32.4°
+(D) 24.5°
+
+Answer: B
+Explanation:
+56+ years = 8%.
+Central angle = (8 / 100) × 360° = 28.8°.
+
+----------------------------------------
+
+Q14. What is the total number of voters who are 36 years old or above?
+(A) 9600
+(B) 8400
+(C) 9200
+(D) 8800
+
+Answer: A
+Explanation:
+Groups 36-45 (20%), 46-55 (12%), and 56+ (8%).
+Total percentage = 20 + 12 + 8 = 40%.
+Number of voters = 40% of 24000 = 9600.
+
+----------------------------------------
+
+Q15. If 40% of the voters in the 18-25 age group and 60% of the voters in the 26-35 age group cast their votes, what is the total number of votes cast by these two age groups combined?
+(A) 6960
+(B) 6840
+(C) 6720
+(D) 7080
+
+Answer: A
+Explanation:
+18-25 group = 35% of 24000 = 8400.
+Votes cast = 40% of 8400 = 3360.
+26-35 group = 25% of 24000 = 6000.
+Votes cast = 60% of 6000 = 3600.
+Total votes = 3360 + 3600 = 6960.
+----------------------------------------

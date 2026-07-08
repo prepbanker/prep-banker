@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <rect width="100%" height="100%" fill="#ffffff" />
+    <g font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">
+        <!-- Gen 1 -->
+        <rect x="120" y="30" width="40" height="40" fill="#e0f7fa" stroke="#006064" stroke-width="2" />
+        <text x="140" y="55">A(+)</text>
+        
+        <circle cx="260" cy="50" r="20" fill="#fce4ec" stroke="#880e4f" stroke-width="2" />
+        <text x="260" y="55">B(-)</text>
+        
+        <line x1="160" y1="50" x2="240" y2="50" stroke="#333" stroke-width="2" stroke-dasharray="5,5" />
+        <line x1="200" y1="50" x2="200" y2="90" stroke="#333" stroke-width="2" />
+        
+        <!-- Gen 2 -->
+        <line x1="120" y1="90" x2="280" y2="90" stroke="#333" stroke-width="2" />
+        
+        <line x1="120" y1="90" x2="120" y2="120" stroke="#333" stroke-width="2" />
+        <rect x="100" y="120" width="40" height="40" fill="#e0f7fa" stroke="#006064" stroke-width="2" />
+        <text x="120" y="145">C(+)</text>
+        
+        <line x1="280" y1="90" x2="280" y2="120" stroke="#333" stroke-width="2" />
+        <rect x="260" y="120" width="40" height="40" fill="#e0f7fa" stroke="#006064" stroke-width="2" />
+        <text x="280" y="145">F(+)</text>
+
+        <!-- Spouses Gen 2 -->
+        <circle cx="50" cy="140" r="20" fill="#fce4ec" stroke="#880e4f" stroke-width="2" />
+        <text x="50" y="145">E(-)</text>
+        <line x1="70" y1="140" x2="100" y2="140" stroke="#333" stroke-width="2" stroke-dasharray="5,5" />
+        
+        <circle cx="350" cy="140" r="20" fill="#fce4ec" stroke="#880e4f" stroke-width="2" />
+        <text x="350" y="145">D(-)</text>
+        <line x1="300" y1="140" x2="330" y2="140" stroke="#333" stroke-width="2" stroke-dasharray="5,5" />
+        
+        <!-- Gen 3 -->
+        <line x1="85" y1="140" x2="85" y2="190" stroke="#333" stroke-width="2" />
+        <circle cx="85" cy="210" r="20" fill="#f5f5f5" stroke="#333" stroke-width="2" />
+        <text x="85" y="215">H(?)</text>
+        
+        <line x1="315" y1="140" x2="315" y2="190" stroke="#333" stroke-width="2" />
+        <circle cx="315" cy="210" r="20" fill="#f5f5f5" stroke="#333" stroke-width="2" />
+        <text x="315" y="215">G(?)</text>
+    </g>
+</svg>

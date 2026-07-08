@@ -1,0 +1,149 @@
+----------------------------------------
+Topic: Grammar
+Subtopic: Noun
+----------------------------------------
+
+Q1. Choose the grammatically correct sentence:
+(A) He gave me a lot of informations about the project.
+(B) He gave me many information about the project.
+(C) He gave me much information about the project.
+(D) He gave me a lots of informations about the project.
+
+Answer: C
+Explanation: "Information" is an uncountable noun. It does not take an 's' to become plural, and it is modified by "much" or "a lot of" rather than "many".
+
+Q2. Choose the correct noun form to fill in the blank: The ________ of the Himalayas is truly breathtaking.
+(A) sceneries
+(B) scenery
+(C) scene
+(D) scenic
+
+Answer: B
+Explanation: "Scenery" is an uncountable noun and does not have a plural form ("sceneries" is incorrect). "Scene" refers to a specific incident or location, while "scenery" refers to the general landscape.
+
+Q3. Choose the grammatically correct sentence:
+(A) All the luggages were loaded onto the train.
+(B) All the luggage were loaded onto the train.
+(C) All the luggage was loaded onto the train.
+(D) All the luggages was loaded onto the train.
+
+Answer: C
+Explanation: "Luggage" is an uncountable noun. It is always singular and takes a singular verb ("was").
+
+Q4. Choose the correct noun to fill in the blank: The shepherd was grazing his ________ of sheep in the valley.
+(A) herd
+(B) pack
+(C) flock
+(D) swarm
+
+Answer: C
+Explanation: The collective noun used for a group of sheep is a "flock".
+
+Q5. Choose the grammatically correct sentence:
+(A) The committee are divided on this issue.
+(B) The committee is divided on this issue.
+(C) The committees is divided on this issue.
+(D) The committee has divided on this issue.
+
+Answer: A
+Explanation: "Committee" is a collective noun. When the members act individually or are divided in opinion, it takes a plural verb ("are").
+
+Q6. Choose the grammatically correct sentence:
+(A) My trouser is too tight for me.
+(B) My trousers is too tight for me.
+(C) My trousers are too tight for me.
+(D) My trouser are too tight for me.
+
+Answer: C
+Explanation: Certain nouns denoting garments consisting of two parts (trousers, scissors, spectacles) are always plural and take a plural verb.
+
+Q7. Choose the correct noun phrase to fill in the blank: He bought two ________ from the market.
+(A) dozens apple
+(B) dozen apples
+(C) dozens apples
+(D) dozen apple
+
+Answer: B
+Explanation: When words like "dozen", "hundred", "thousand" are preceded by a definite numeral (like "two"), they do not take an 's' in the plural form. The noun following them is plural ("apples").
+
+Q8. Choose the grammatically correct sentence:
+(A) The measles have broken out in the city.
+(B) The measles are broken out in the city.
+(C) The measles has broken out in the city.
+(D) The measle has broken out in the city.
+
+Answer: C
+Explanation: Names of certain diseases ending in 's' (like measles, mumps, rickets) are singular and take a singular verb ("has").
+
+Q9. Choose the correct noun form to fill in the blank: The ________ of the old temple were discovered by the archeologists.
+(A) remain
+(B) remaining
+(C) remains
+(D) remained
+
+Answer: C
+Explanation: In this context, "remains" is a plural noun meaning the parts left over after other parts have been removed, used, or destroyed (historical ruins).
+
+Q10. Choose the grammatically correct sentence:
+(A) He read five pages of the book, but the rest are unread.
+(B) He read five page of the book, but the rest is unread.
+(C) He read five pages of the book, but the rests are unread.
+(D) He read five pages of the book, but the rest is unread.
+
+Answer: D
+Explanation: "Rest" is used with singular verbs when referring to an uncountable amount, but here it refers to remaining pages (countable). Wait, "the rest of the pages" takes a plural verb. Let's fix this question to make it unambiguous.
+
+Corrected Q10: Choose the grammatically correct sentence:
+(A) The cattle is grazing in the field.
+(B) The cattles are grazing in the field.
+(C) The cattle are grazing in the field.
+(D) The cattles is grazing in the field.
+
+Answer: C
+Explanation: "Cattle" is a collective noun that looks singular but is plural in meaning. It takes a plural verb and does not take an 's'.
+
+Q11. Choose the grammatically correct sentence:
+(A) The commander-in-chiefs held a meeting yesterday.
+(B) The commanders-in-chief held a meeting yesterday.
+(C) The commander-in-chief's held a meeting yesterday.
+(D) The commanders-in-chiefs held a meeting yesterday.
+
+Answer: B
+Explanation: For compound nouns composed of a noun and a prepositional phrase, the plural is formed by adding 's' to the principal word (commander -> commanders).
+
+Q12. Choose the correct noun to fill in the blank: The manager requires a dedicated workforce of ________ to complete the project on time.
+(A) men servant
+(B) man servants
+(C) men servants
+(D) man servant
+
+Answer: C
+Explanation: For compound nouns containing "man" or "woman" where both parts are principal, both parts must be pluralized (men servants, women doctors).
+
+Q13. Choose the grammatically correct sentence:
+(A) She has a five-rupees note in her pocket.
+(B) She has a five-rupee notes in her pocket.
+(C) She has a five-rupee note in her pocket.
+(D) She has a five-rupees notes in her pocket.
+
+Answer: C
+Explanation: When a noun acts as an adjective modifying another noun (five-rupee modifying note), it remains in the singular form.
+
+Q14. Choose the correct noun to fill in the blank: The poet's profound understanding of human emotions is evident in all his ________.
+(A) poetry
+(B) poetries
+(C) poem
+(D) poems
+
+Answer: D
+Explanation: "Poetry" is an uncountable noun referring to the art form and has no plural form. "Poems" is the correct countable plural. (He could have written many poems, representing his poetry).
+
+15. Choose the grammatically correct sentence:
+(A) The alumni of the university is gathering for the annual reunion.
+(B) The alumnus of the university are gathering for the annual reunion.
+(C) The alumni of the university are gathering for the annual reunion.
+(D) The alumnuses of the university are gathering for the annual reunion.
+
+Answer: C
+Explanation: "Alumni" is the plural form of the Latin noun "alumnus" (a male graduate). Because it is plural, it takes the plural verb "are".
+----------------------------------------

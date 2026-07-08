@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "inequality",
+  "subtopic": "direct-inequality",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Inequality\nSubtopic: Direct Inequality",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Statements: A > B ≥ C = D < E\nConclusions:\nI. A > D\nII. B < E",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "From the statement, we have A > B ≥ C = D. Connecting these, A > D. Hence, conclusion I is true. For conclusion II, we look at B ≥ C = D < E. Since there are opposite signs (≥ and <) between B and E, no definite relation can be established. Hence, conclusion II is false. Only conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Statements: P ≤ Q = R < S ≥ T\nConclusions:\nI. P < S\nII. Q ≥ T",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither I nor II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "For conclusion I, P ≤ Q = R < S implies P < S. So, I is true. For conclusion II, Q = R < S ≥ T. Opposite signs (< and ≥) exist between Q and T. No definite relation can be established. So, II is false. Only conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Statements: M ≥ N > O = P ≤ Q\nConclusions:\nI. M > P\nII. N > Q",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "For conclusion I, M ≥ N > O = P implies M > P. So, I is true. For conclusion II, N > O = P ≤ Q. Opposite signs (> and ≤) exist between N and Q. No definite relation can be established. So, II is false. Only conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Statements: W = X ≤ Y < Z > V\nConclusions:\nI. W < Z\nII. Y > V",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "For conclusion I, W = X ≤ Y < Z implies W < Z. So, I is true. For conclusion II, Y < Z > V. Opposite signs (< and >) exist between Y and V. No relation can be established. So, II is false. Only conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Statements: E < F ≤ G = H ≥ I\nConclusions:\nI. F ≤ H\nII. G ≥ I",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "For conclusion I, F ≤ G = H implies F ≤ H. So, I is true. For conclusion II, G = H ≥ I implies G ≥ I. So, II is true. Both conclusions follow.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Inequality\nSubtopic: Direct Inequality",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Statements: A ≥ B = C > D, D ≤ E < F\nConclusions:\nI. A > D\nII. C < F",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combining the statements: A ≥ B = C > D ≤ E < F. For conclusion I, A ≥ B = C > D implies A > D. So, I is true. For conclusion II, C > D ≤ E < F. Opposite signs (> and ≤) between C and F. No relation can be established. So, II is false. Only conclusion I follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Statements: J < K ≤ L = M, M > N ≥ O\nConclusions:\nI. J < M\nII. L > O",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combining the statements: J < K ≤ L = M > N ≥ O. For conclusion I, J < K ≤ L = M implies J < M. So, I is true. For conclusion II, L = M > N ≥ O implies L > O. So, II is true. Both I and II follow.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Statements: P = Q ≥ R, R < S ≤ T, T = U > V\nConclusions:\nI. P > S\nII. Q < T",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Combining: P = Q ≥ R < S ≤ T = U > V. For conclusion I, P = Q ≥ R < S has opposite signs between P and S. So, I is false. For conclusion II, Q ≥ R < S ≤ T has opposite signs between Q and T. So, II is false. Neither I nor II follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Statements: A ≤ B < C = D, D ≥ E > F, F < G\nConclusions:\nI. A < D\nII. C > F",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combining: A ≤ B < C = D ≥ E > F < G. For conclusion I, A ≤ B < C = D implies A < D. So, I is true. For conclusion II, C = D ≥ E > F implies C > F. So, II is true. Both I and II follow.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Statements: H > I = J ≤ K, K > L = M, M < N\nConclusions:\nI. H > K\nII. J > M",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Combining: H > I = J ≤ K > L = M < N. For conclusion I, H > I = J ≤ K has opposite signs (> and ≤) between H and K. So, I is false. For conclusion II, J ≤ K > L = M has opposite signs (≤ and >) between J and M. So, II is false. Neither I nor II follows.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Inequality\nSubtopic: Direct Inequality",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Statements: M ≥ N = O > P, P ≤ Q < R, R = S ≥ T\nConclusions:\nI. M > P\nII. N ≤ R\nIII. Q < S",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All I, II and III follow"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combining: M ≥ N = O > P ≤ Q < R = S ≥ T. For I, M ≥ N = O > P implies M > P. So, I is true. For II, N = O > P ≤ Q < R. Opposite signs (> and ≤) exist between N and R. So, II is false. For III, Q < R = S implies Q < S. So, III is true. Only I and III follow.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Statements: W < X ≤ Y = Z, Z > A ≥ B, B = C < D\nConclusions:\nI. W < Z\nII. Y > B\nIII. A < D",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "None follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combining: W < X ≤ Y = Z > A ≥ B = C < D. For I, W < X ≤ Y = Z implies W < Z. So, I is true. For II, Y = Z > A ≥ B implies Y > B. So, II is true. For III, A ≥ B = C < D. Opposite signs (≥ and <) exist between A and D. So, III is false. Only I and II follow.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Statements: E = F > G ≥ H, H < I ≤ J, J = K > L\nConclusions:\nI. E > H\nII. G < J\nIII. F > L",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combining: E = F > G ≥ H < I ≤ J = K > L. For I, E = F > G ≥ H implies E > H. So, I is true. For II, G ≥ H < I ≤ J. Opposite signs (≥ and <) exist between G and J. So, II is false. For III, F > G ≥ H < I ≤ J = K > L. Opposite signs exist between F and L. So, III is false. Only I follows.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Statements: A > B ≥ C = D, D ≤ E < F, F = G > H\nConclusions:\nI. A > D\nII. C < F\nIII. E > H",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combining: A > B ≥ C = D ≤ E < F = G > H. For I, A > B ≥ C = D implies A > D. So, I is true. For II, C = D ≤ E < F implies C < F. So, II is true. For III, E < F = G > H. Opposite signs (< and >) exist between E and H. So, III is false. Only I and II follow.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Statements: P ≤ Q = R < S, S ≥ T > U, U = V < W\nConclusions:\nI. P < S\nII. R ≥ U\nIII. T < W",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "None follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combining: P ≤ Q = R < S ≥ T > U = V < W. For I, P ≤ Q = R < S implies P < S. So, I is true. For II, R < S ≥ T > U. Opposite signs (< and ≥) exist between R and U. So, II is false. For III, T > U = V < W. Opposite signs (> and <) exist between T and W. So, III is false. Only I follows.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

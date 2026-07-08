@@ -1,0 +1,408 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "fill-in-the-blanks",
+  "subtopic": "single-blank",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Fill in the Blanks\nSubtopic: Single Blank",
+          "questions": [
+            {
+              "id": 1,
+              "text": "The sudden resignation of the CEO left the company in a state of complete ________.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "prosperity"
+                },
+                {
+                  "label": "B",
+                  "text": "tranquility"
+                },
+                {
+                  "label": "C",
+                  "text": "turmoil"
+                },
+                {
+                  "label": "D",
+                  "text": "elation"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The sudden resignation of a top leader typically causes chaos or confusion. \"Turmoil\" means a state of great disturbance or uncertainty, which fits perfectly.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Despite the heavy rain, the football match proceeded as ________.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "scheduled"
+                },
+                {
+                  "label": "B",
+                  "text": "cancelled"
+                },
+                {
+                  "label": "C",
+                  "text": "postponed"
+                },
+                {
+                  "label": "D",
+                  "text": "delayed"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The word \"Despite\" introduces a contrast. Even though it was raining heavily, the match happened anyway. \"Scheduled\" correctly completes the phrase \"proceeded as scheduled\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "The teacher asked the students to ________ from talking during the final examination.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "engage"
+                },
+                {
+                  "label": "B",
+                  "text": "refrain"
+                },
+                {
+                  "label": "C",
+                  "text": "participate"
+                },
+                {
+                  "label": "D",
+                  "text": "indulge"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The context is an examination where talking is not allowed. \"Refrain\" means to stop oneself from doing something, and it correctly takes the preposition \"from\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Her exceptional performance in the interview ________ her a lucrative job offer.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "forfeited"
+                },
+                {
+                  "label": "B",
+                  "text": "revoked"
+                },
+                {
+                  "label": "C",
+                  "text": "secured"
+                },
+                {
+                  "label": "D",
+                  "text": "diminished"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "An exceptional performance would lead to gaining a job offer. \"Secured\" means succeeded in obtaining or achieving something.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "The government has launched a new initiative to ________ poverty in rural areas.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "cultivate"
+                },
+                {
+                  "label": "B",
+                  "text": "eradicate"
+                },
+                {
+                  "label": "C",
+                  "text": "nourish"
+                },
+                {
+                  "label": "D",
+                  "text": "amplify"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Poverty is a negative condition that a government would want to remove or destroy. \"Eradicate\" means to destroy completely or put an end to.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Fill in the Blanks\nSubtopic: Single Blank",
+          "questions": [
+            {
+              "id": 6,
+              "text": "The author's latest novel is highly ________, drawing heavily from esoteric philosophical concepts.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "lucid"
+                },
+                {
+                  "label": "B",
+                  "text": "superficial"
+                },
+                {
+                  "label": "C",
+                  "text": "opaque"
+                },
+                {
+                  "label": "D",
+                  "text": "engaging"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The sentence mentions the novel draws from \"esoteric\" (obscure, hard to understand) concepts. \"Opaque\" in this context means hard to understand or not transparent, aligning with \"esoteric\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In an effort to ________ the growing public outrage, the mayor issued a public apology.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "incite"
+                },
+                {
+                  "label": "B",
+                  "text": "mollify"
+                },
+                {
+                  "label": "C",
+                  "text": "provoke"
+                },
+                {
+                  "label": "D",
+                  "text": "instigate"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The mayor issued an apology to calm or reduce the public outrage. \"Mollify\" means to appease the anger or anxiety of someone.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "The scientist's findings were met with skepticism, as they seemed to ________ established physical laws.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "corroborate"
+                },
+                {
+                  "label": "B",
+                  "text": "substantiate"
+                },
+                {
+                  "label": "C",
+                  "text": "contradict"
+                },
+                {
+                  "label": "D",
+                  "text": "emulate"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Findings are met with skepticism if they go against what is already known. \"Contradict\" means to be in conflict with.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Her argument was so ________ that even her fiercest opponents were forced to agree with her.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "vacuous"
+                },
+                {
+                  "label": "B",
+                  "text": "compelling"
+                },
+                {
+                  "label": "C",
+                  "text": "frivolous"
+                },
+                {
+                  "label": "D",
+                  "text": "redundant"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "An argument that forces opponents to agree must be very strong and convincing. \"Compelling\" means evoking interest, attention, or admiration in a powerfully irresistible way.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "The company’s financial records were intentionally ________ to hide the massive embezzlement.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "audited"
+                },
+                {
+                  "label": "B",
+                  "text": "verified"
+                },
+                {
+                  "label": "C",
+                  "text": "obfuscated"
+                },
+                {
+                  "label": "D",
+                  "text": "streamlined"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "To hide embezzlement, records must be made unclear or confusing. \"Obfuscated\" means rendered obscure, unclear, or unintelligible.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Fill in the Blanks\nSubtopic: Single Blank",
+          "questions": [
+            {
+              "id": 11,
+              "text": "The diplomat’s ________ remarks during the press conference nearly triggered an international crisis.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "judicious"
+                },
+                {
+                  "label": "B",
+                  "text": "incendiary"
+                },
+                {
+                  "label": "C",
+                  "text": "pacifying"
+                },
+                {
+                  "label": "D",
+                  "text": "innocuous"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Remarks that trigger an international crisis must be highly provocative. \"Incendiary\" means designed to cause fires, or in this context, tending to stir up conflict.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Despite his ________ demeanor in public, he was known to be quite ruthless in the boardroom.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "aggressive"
+                },
+                {
+                  "label": "B",
+                  "text": "draconian"
+                },
+                {
+                  "label": "C",
+                  "text": "affable"
+                },
+                {
+                  "label": "D",
+                  "text": "imperious"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The word \"Despite\" indicates a contrast with \"ruthless\". We need a word meaning friendly or good-natured. \"Affable\" means friendly, good-natured, or easy to talk to.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "The committee rejected the proposal, stating that the project was fundamentally ________ and bound to fail.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "viable"
+                },
+                {
+                  "label": "B",
+                  "text": "pragmatic"
+                },
+                {
+                  "label": "C",
+                  "text": "flawed"
+                },
+                {
+                  "label": "D",
+                  "text": "infallible"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "If the project is \"bound to fail,\" it must have serious errors. \"Flawed\" means having a blemish or imperfection; fundamentally incorrect.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "The ancient civilization was characterized by a deeply ________ society, where social mobility was virtually impossible.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "egalitarian"
+                },
+                {
+                  "label": "B",
+                  "text": "stratified"
+                },
+                {
+                  "label": "C",
+                  "text": "democratic"
+                },
+                {
+                  "label": "D",
+                  "text": "fluid"
+                },
+                {
+                  "label": "A",
+                  "text": "compliance"
+                },
+                {
+                  "label": "B",
+                  "text": "obduracy"
+                },
+                {
+                  "label": "C",
+                  "text": "flexibility"
+                },
+                {
+                  "label": "D",
+                  "text": "prudence"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A society where social mobility is impossible is divided into rigid classes. \"Stratified\" means arranged in layers or classes.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

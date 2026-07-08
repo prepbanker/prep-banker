@@ -1,0 +1,170 @@
+----------------------------------------
+Topic: Connectors
+Subtopic: Logical Connectors
+----------------------------------------
+
+Q1. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: He was severely injured in the accident.
+Sentence 2: He managed to drag himself to safety.
+(A) Therefore
+(B) Nevertheless
+(C) Furthermore
+(D) Consequently
+
+Answer: B
+Explanation: The two sentences show a contrast. Being severely injured usually prevents someone from moving, but he managed to move anyway. "Nevertheless" perfectly indicates this unexpected contrast.
+
+Q2. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The company has seen a significant decline in revenue this quarter.
+Sentence 2: They are planning to lay off twenty percent of their workforce.
+(A) However
+(B) Consequently
+(C) In contrast
+(D) Moreover
+
+Answer: B
+Explanation: The second sentence is a direct result or consequence of the first sentence (decline in revenue leads to layoffs). "Consequently" is the correct connector.
+
+Q3. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: You must submit the application by Friday.
+Sentence 2: Your candidacy will not be considered for the position.
+(A) Otherwise
+(B) Furthermore
+(C) Likewise
+(D) Hence
+
+Answer: A
+Explanation: The second sentence presents a negative alternative or consequence if the condition in the first sentence is not met. "Otherwise" expresses this condition correctly.
+
+Q4. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The novel is highly praised for its intricate plot.
+Sentence 2: It is admired for its deep character development.
+(A) On the contrary
+(B) Furthermore
+(C) Nevertheless
+(D) Alternatively
+
+Answer: B
+Explanation: The second sentence adds another positive point to the first positive point. "Furthermore" is used to add more information of a similar nature.
+
+Q5. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The traffic was heavily congested on the main highway.
+Sentence 2: We took a scenic detour through the countryside.
+(A) Hence
+(B) Despite
+(C) In addition
+(D) Similarly
+
+Answer: A
+Explanation: Taking a detour was the result of the heavy traffic. "Hence" means "as a consequence" or "for this reason".
+
+Q6. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: She prepared diligently for the entrance examination for months.
+Sentence 2: She failed to achieve the minimum qualifying score.
+(A) Thus
+(B) Conversely
+(C) Yet
+(D) Moreover
+
+Answer: C
+Explanation: There is a strong contrast between preparing diligently and failing. "Yet" acts as a coordinating conjunction indicating contrast (meaning "but nevertheless").
+
+Q7. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The diet requires you to cut out all processed sugars.
+Sentence 2: You must drink at least three liters of water daily.
+(A) Rather
+(B) Additionally
+(C) Instead
+(D) Consequently
+
+Answer: B
+Explanation: The second sentence adds another rule or requirement to the diet. "Additionally" serves to add this supplementary information.
+
+Q8. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The climate in this region is incredibly harsh and arid.
+Sentence 2: Certain species of cacti thrive here all year round.
+(A) Accordingly
+(B) Even so
+(C) Similarly
+(D) Subsequently
+
+Answer: B
+Explanation: The harsh climate makes survival difficult, but cacti survive anyway. "Even so" means "in spite of that" and introduces a surprising contrast.
+
+Q9. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: Artificial intelligence has automated many rudimentary tasks.
+Sentence 2: It has inadvertently created a demand for highly skilled data scientists.
+(A) Simultaneously
+(B) Otherwise
+(C) To conclude
+(D) On the contrary
+
+Answer: A
+Explanation: The two effects of artificial intelligence (automating tasks and creating demand) are happening at the same time. "Simultaneously" correctly connects these parallel events.
+
+Q10. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: He lacked the formal educational qualifications required for the job.
+Sentence 2: His vast practical experience made him the ideal candidate.
+(A) Because
+(B) Henceforth
+(C) On the other hand
+(D) Subsequently
+
+Answer: C
+Explanation: The two sentences present two contrasting perspectives on his suitability for the job. "On the other hand" is used to introduce a contrasting point of view.
+
+Q11. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The central bank drastically lowered the interest rates.
+Sentence 2: The inflation rate soared to an unprecedented high.
+(A) Provided that
+(B) Subsequent to
+(C) As a corollary
+(D) In spite of this
+
+Answer: C
+Explanation: "As a corollary" means as a direct or natural consequence or result. If inflation soared as a result of lowering interest rates, this connector fits perfectly. (Wait, let's look at the options. Is it a consequence? Lowering interest rates causes inflation. Yes, it's a consequence).
+
+Q12. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The proposal was extremely lucrative and beneficial for the firm.
+Sentence 2: The board of directors vetoed it over ethical concerns.
+(A) Accordingly
+(B) Ergo
+(C) Notwithstanding
+(D) Albeit
+
+Answer: C
+Explanation: The proposal was good, but it was vetoed. "Notwithstanding" means "in spite of this" or "nevertheless", which correctly bridges the contrast. (Note: "Albeit" means although, but it connects clauses internally, not two independent sentences easily without restructuring).
+
+Q13. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The initial trials of the vaccine showed an 80% efficacy rate.
+Sentence 2: Further testing revealed dangerous long-term side effects.
+(A) Consequently
+(B) Conversely
+(C) Similarly
+(D) Inherently
+
+Answer: B
+Explanation: The first sentence is highly positive (high efficacy). The second sentence is highly negative (dangerous side effects). "Conversely" introduces a statement or idea which reverses one that has just been made.
+
+Q14. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: Stringent cybersecurity protocols were implemented across the network.
+Sentence 2: A massive data breach compromised millions of user accounts.
+(A) Ergo
+(B) Henceforth
+(C) Nonetheless
+(D) Thus
+
+Answer: C
+Explanation: Strict protocols were put in place, but a breach happened anyway. "Nonetheless" means "in spite of that", serving as the perfect contrast connector.
+
+15. Choose the most appropriate logical connector to join the sentences.
+Sentence 1: The historical manuscript is heavily fragmented and severely damaged.
+Sentence 2: Scholars have managed to decipher the core philosophical arguments.
+(A) Given that
+(B) Ergo
+(C) In contrast
+(D) Be that as it may
+
+Answer: D
+Explanation: The manuscript is damaged (a negative fact). However, scholars still deciphered it. "Be that as it may" means "despite that" or "accepting that that is true", which perfectly links the concession to the achievement.
+----------------------------------------

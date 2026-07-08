@@ -1,0 +1,203 @@
+----------------------------------------
+Topic: Word Swap
+Subtopic: Single Word Swap
+----------------------------------------
+
+Q1. In the following sentence, two words are given in bold. They may or may not be in their correct positions. Select the option that gives the correct interchange to make the sentence grammatically and contextually correct.
+The government decided to **abolish** (A) the outdated law and **implement** (B) a modern framework.
+(A) Both A and B are correct in their current positions
+(B) Swap A and B
+(C) Change 'abolish' to 'create'
+(D) Change 'implement' to 'destroy'
+
+Answer: A
+Explanation: The sentence is logically sound. You "abolish" an outdated law and "implement" a modern framework. No swap is needed.
+
+Q2. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The sudden **prosperity** (A) of the banking sector led to widespread economic **collapse** (B).
+(A) Swap A and B
+(B) Change 'prosperity' to 'growth'
+(C) Change 'collapse' to 'boom'
+(D) Both A and B are correct
+
+Answer: A
+Explanation: Prosperity leading to collapse makes no logical sense. Swapping them makes it: "The sudden collapse of the banking sector led to widespread economic prosperity." Wait, that's still illogical. A collapse leading to prosperity?
+Let's rewrite Q2 for a proper word swap context.
+Corrected Q2: The doctor tried to **aggravate** (A) the patient's severe pain rather than **alleviate** (B) it.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'aggravate' to 'worsen'
+(D) Change 'alleviate' to 'soothe'
+
+Answer: A
+Explanation: A doctor's duty is to alleviate (reduce) pain, not aggravate (worsen) it. Therefore, swapping A and B makes the sentence logically correct: "The doctor tried to alleviate the patient's severe pain rather than aggravate it."
+
+Q3. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+To accurately **obscure** (A) the data, the analyst had to completely **interpret** (B) all the anomalous outliers.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'obscure' to 'hide'
+(D) Change 'interpret' to 'ignore'
+
+Answer: A
+Explanation: An analyst's job is to "interpret" data, not obscure it. To do so, they might "obscure" (or hide/remove) the anomalous outliers. Swapping them gives: "To accurately interpret the data, the analyst had to completely obscure all the anomalous outliers."
+
+Q4. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The heavy monsoon rains helped to **deplete** (A) the city's rapidly shrinking reservoirs and **replenish** (B) the overall water supply.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'deplete' to 'drain'
+(D) Change 'replenish' to 'pollute'
+
+Answer: A
+Explanation: Heavy rains would "replenish" (fill up) reservoirs, not deplete (empty) them. Thus, swapping A and B makes the sentence correct: "replenish the... reservoirs and deplete the overall..." Wait. If you replenish reservoirs, you don't deplete the water supply.
+Let's rewrite Q4.
+Corrected Q4: The relentless drought helped to **replenish** (A) the city's rapidly shrinking reservoirs and completely **deplete** (B) the overall water supply.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'replenish' to 'fill'
+(D) Change 'deplete' to 'increase'
+
+Answer: A
+Explanation: A drought would "deplete" reservoirs, not replenish them. Swapping A and B gives: "The relentless drought helped to deplete the city's rapidly shrinking reservoirs and completely replenish..." Wait, drought doesn't replenish anything.
+Let's use a standard two-word swap.
+Corrected Q4 (Attempt 3): The company decided to **terminate** (A) the underperforming employees and **promote** (B) the top sales executives.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'terminate' to 'fire'
+(D) Change 'promote' to 'demote'
+
+Answer: B
+Explanation: The sentence is logically perfectly sound as is. You terminate underperformers and promote top executives. No swap is needed.
+
+Q5. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The lawyer tried to **condemn** (A) his client’s actions to the jury, hoping they would ultimately **justify** (B) him of all charges.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'condemn' to 'criticize'
+(D) Change 'justify' to 'convict'
+
+Answer: A
+Explanation: A lawyer tries to "justify" his client's actions, hoping the jury will not "condemn" (or rather, the other way around). Actually, a better pair is "defend" and "convict". Let's try: "The lawyer tried to **justify** (A) his client's actions to the jury, hoping they would not ultimately **condemn** (B) him."
+If the original is: The lawyer tried to **condemn** (A) his client’s actions to the jury, hoping they would ultimately **justify** (B) him.
+Swapping makes it: The lawyer tried to justify his client's actions... hoping they would ultimately condemn him. Still doesn't make sense (why would he hope they condemn him?).
+
+Let's do a strict A-B swap that fixes a broken sentence.
+Corrected Q5: The torrential storm served to **hinder** (A) the rescue efforts, while the clear skies the next day helped to **facilitate** (B) them.
+(A) Swap A and B
+(B) Both A and B are correct in their current positions
+(C) Change 'hinder' to 'stop'
+(D) Change 'facilitate' to 'block'
+
+Answer: B
+Explanation: A storm hinders (delays/blocks) rescue efforts, while clear skies facilitate (make easy) them. The words are correct in their current positions.
+
+Q6. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The new educational policy aims to **discourage** (A) rote learning and heavily **promote** (B) critical thinking skills among students.
+(A) Swap A and B
+(B) Both A and B are correct in their current positions
+(C) Change 'discourage' to 'encourage'
+(D) Change 'promote' to 'hinder'
+
+Answer: B
+Explanation: An educational policy would naturally aim to discourage rote (memorization) learning and promote critical thinking. No swap is needed.
+
+Q7. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+By adopting a highly **extravagant** (A) lifestyle, the billionaire managed to quickly become entirely **frugal** (B) and bankrupt.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'frugal' to 'destitute'
+(D) Change 'extravagant' to 'cheap'
+
+Answer: C
+Explanation: If someone adopts an extravagant lifestyle, they become bankrupt, but not "frugal". Frugal means careful with money. Swapping them doesn't work ("frugal lifestyle... become extravagant and bankrupt" is contradictory). The correct action is to change the word "frugal" to a word matching bankrupt, like "destitute".
+
+Q8. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The relentless interrogation finally caused the suspect to **confess** (A) to the crime he had desperately tried to **conceal** (B).
+(A) Swap A and B
+(B) Both A and B are correct in their current positions
+(C) Change 'confess' to 'deny'
+(D) Change 'conceal' to 'reveal'
+
+Answer: B
+Explanation: Interrogation leads to a confession of something previously concealed. The words are perfectly placed.
+
+Q9. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+In order to **exacerbate** (A) the tense diplomatic situation, the ambassador attempted to **soothe** (B) the angry delegates with a compromise.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'exacerbate' to 'worsen'
+(D) Change 'soothe' to 'aggravate'
+
+Answer: A
+Explanation: An ambassador using a compromise intends to "soothe" a tense situation, not "exacerbate" (worsen) it. Swapping the words gives: "In order to soothe the tense diplomatic situation, the ambassador attempted to exacerbate the angry delegates..." Still broken.
+Let's fix this.
+Corrected Q9: The ambassador's harsh words served to **soothe** (A) the tense diplomatic situation, rather than to **exacerbate** (B) it as intended by the peace treaty.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'soothe' to 'calm'
+(D) Change 'exacerbate' to 'worsen'
+
+Answer: A
+Explanation: Harsh words exacerbate (worsen) a situation; a peace treaty intends to soothe it. Swapping A and B makes the sentence logically sound: "harsh words served to exacerbate... rather than to soothe..."
+
+Q10. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The central bank decided to **inflate** (A) interest rates in a desperate bid to **curb** (B) the skyrocketing inflation.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'inflate' to 'raise'
+(D) Change 'curb' to 'increase'
+
+Answer: C
+Explanation: Central banks "raise" interest rates to curb inflation. You do not "inflate" an interest rate in standard financial terminology. The swap (curb interest rates to inflate inflation) is logically wrong.
+
+Q11. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The notoriously **lenient** (A) judge handed down a remarkably **draconian** (B) sentence to the repeat offender.
+(A) Swap A and B
+(B) Both A and B are correct in their current positions
+(C) Change 'lenient' to 'strict'
+(D) Change 'draconian' to 'mild'
+
+Answer: B
+Explanation: The sentence uses contrast perfectly. A usually "lenient" (merciful) judge did something unexpected by handing down a "draconian" (excessively harsh) sentence. No swap is required.
+
+Q12. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The intricate security system was designed to **facilitate** (A) unauthorized access and completely **prevent** (B) the smooth flow of legitimate employees.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'facilitate' to 'allow'
+(D) Change 'prevent' to 'stop'
+
+Answer: A
+Explanation: A security system should "prevent" unauthorized access and "facilitate" (make easy) the flow of legitimate employees. Swapping A and B corrects the logic.
+
+Q13. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+The massive influx of foreign aid managed to **destabilize** (A) the local economy, which had been struggling to **recover** (B) from the devastating earthquake.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'destabilize' to 'stabilize'
+(D) Change 'recover' to 'collapse'
+
+Answer: C
+Explanation: Foreign aid after an earthquake is meant to "stabilize" an economy, not destabilize it. Swapping them ("recover the local economy... struggling to destabilize") is grammatically incorrect. Therefore, changing 'destabilize' to 'stabilize' is the correct fix.
+
+Q14. In the following sentence, two words are given in bold. Select the option that gives the correct interchange.
+In a deeply **patriarchal** (A) society, women often face systemic barriers that heavily **empower** (B) their professional advancement.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'patriarchal' to 'egalitarian'
+(D) Change 'empower' to 'hinder'
+
+Answer: D
+Explanation: Systemic barriers in a patriarchal society would "hinder" or restrict women's advancement, not empower them. A swap doesn't work grammatically.
+
+15. Choose the correct word swap for the following sentence:
+The complex software update was intended to **introduce** (A) existing bugs, but it inadvertently managed to **resolve** (B) a host of new, critical vulnerabilities.
+(A) Swap A and B
+(B) Both A and B are correct
+(C) Change 'introduce' to 'create'
+(D) Change 'resolve' to 'fix'
+
+Answer: A
+Explanation: An update intends to "resolve" (fix) existing bugs, but can inadvertently "introduce" new vulnerabilities. Swapping A and B makes the sentence perfectly logical.
+----------------------------------------

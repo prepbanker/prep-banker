@@ -1,0 +1,422 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "puzzles",
+  "subtopic": "box-puzzle",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFive boxes — P, Q, R, S, and T — are stacked one above the other from Position 1 (bottom) to Position 5 (top). Only one box occupies each position.\n\n• Box Q is at the top.\n• Box T is at the bottom.\n• Box P is immediately above Box T.\n• Box S is immediately below Box Q.\n• Box R is placed between Box P and Box S (not adjacent to either).",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Which box is placed at Position 3?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Box P"
+                },
+                {
+                  "label": "B",
+                  "text": "Box R"
+                },
+                {
+                  "label": "C",
+                  "text": "Box S"
+                },
+                {
+                  "label": "D",
+                  "text": "Box T"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: Box T is at the bottom → Position 1.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "How many boxes are placed between Box T and Box Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "1"
+                },
+                {
+                  "label": "D",
+                  "text": "4"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Box T is at Position 1 and Box Q is at Position 5.",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFive boxes — Box A, Box B, Box C, Box D, and Box E — are stacked from Position 1 (bottom) to Position 5 (top). Each box is of a different colour: Blue, Red, Green, Yellow, and White.\n\n• Box E is at the top and is Red.\n• Box A is immediately below Box E and is Green.\n• Box C is at the bottom and is Yellow.\n• Box D is immediately above Box C and is Blue.\n• Box B is placed between Box D and Box A and is White.\n\nRefer to diagram: SVG/Q3.svg",
+          "questions": [
+            {
+              "id": 3,
+              "text": "Which box is placed at Position 3?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Box A"
+                },
+                {
+                  "label": "B",
+                  "text": "Box D"
+                },
+                {
+                  "label": "C",
+                  "text": "Box B"
+                },
+                {
+                  "label": "D",
+                  "text": "Box C"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: Box C (Yellow) is at Position 1. Box D (Blue) is immediately above C → D at Position 2.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "What colour is the box placed at Position 2?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Red"
+                },
+                {
+                  "label": "B",
+                  "text": "Green"
+                },
+                {
+                  "label": "C",
+                  "text": "White"
+                },
+                {
+                  "label": "D",
+                  "text": "Blue"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "From the arrangement: Position 2 = Box D, and Box D is Blue.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "How many boxes are placed above Box B?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1"
+                },
+                {
+                  "label": "B",
+                  "text": "2"
+                },
+                {
+                  "label": "C",
+                  "text": "3"
+                },
+                {
+                  "label": "D",
+                  "text": "0"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Box B is at Position 3. Boxes above Position 3: Box A (Position 4) and Box E (Position 5) → 2 boxes.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nSix boxes — J, K, L, M, N, and O — are stacked from Position 1 (bottom) to Position 6 (top). Each box contains a different item: Book, Pen, Ruler, Eraser, Pencil, and Sharpener.\n\n• Box O is at Position 1 and contains an Eraser.\n• Box M is at Position 2 and contains a Pencil.\n• Box J is at Position 3 and contains a Ruler.\n• Box K is immediately above Box J and contains a Book.\n• Box L is at the top and contains a Pen.\n• Box N is immediately below Box L and contains a Sharpener.\n\nRefer to diagram: SVG/Q6.svg",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Which box is placed at Position 5?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Box K"
+                },
+                {
+                  "label": "B",
+                  "text": "Box L"
+                },
+                {
+                  "label": "C",
+                  "text": "Box N"
+                },
+                {
+                  "label": "D",
+                  "text": "Box M"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: O(1), M(2), J(3) are directly given.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What item does Box K contain?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Ruler"
+                },
+                {
+                  "label": "B",
+                  "text": "Book"
+                },
+                {
+                  "label": "C",
+                  "text": "Pen"
+                },
+                {
+                  "label": "D",
+                  "text": "Sharpener"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Box K is at Position 4 and contains a Book (stated in the clues).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Which box contains the Pen?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Box L"
+                },
+                {
+                  "label": "B",
+                  "text": "Box N"
+                },
+                {
+                  "label": "C",
+                  "text": "Box K"
+                },
+                {
+                  "label": "D",
+                  "text": "Box O"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Box L is at Position 6 (top) and contains the Pen (as given in clues).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "How many boxes are placed between Box M and Box L?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "1"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Box M is at Position 2; Box L is at Position 6.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Eight boxes are stacked from Position 1 (bottom) to Position 8 (top). Box W is placed exactly 3 positions above Box X. Box X is at Position 2. Box Y is placed immediately above Box W. Which position does Box Y occupy?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Position 6"
+                },
+                {
+                  "label": "B",
+                  "text": "Position 5"
+                },
+                {
+                  "label": "C",
+                  "text": "Position 4"
+                },
+                {
+                  "label": "D",
+                  "text": "Position 7"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: Box X is at Position 2.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nSeven boxes — A, B, C, D, E, F, and G — are stacked from Position 1 (bottom) to Position 7 (top). Each box contains a different fruit: Apple, Mango, Banana, Orange, Grapes, Papaya, and Guava.\n\n• Box G is at the top and contains Apple.\n• Box A is at Position 1 and contains Mango.\n• Box F is immediately below Box G and contains Grapes.\n• Box B is at Position 4 and contains Papaya.\n• Box C is immediately above Box A and contains Orange.\n• Box E is immediately below Box B and contains Banana.\n• Box D is immediately below Box F and contains Guava.\n\nRefer to diagram: SVG/Q11.svg",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Which box is placed at Position 5?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Box D"
+                },
+                {
+                  "label": "B",
+                  "text": "Box F"
+                },
+                {
+                  "label": "C",
+                  "text": "Box B"
+                },
+                {
+                  "label": "D",
+                  "text": "Box E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: A at Position 1. C immediately above A → C at Position 2.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Which fruit is contained in Box C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Mango"
+                },
+                {
+                  "label": "B",
+                  "text": "Banana"
+                },
+                {
+                  "label": "C",
+                  "text": "Orange"
+                },
+                {
+                  "label": "D",
+                  "text": "Guava"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Box C is at Position 2 (immediately above Box A) and contains Orange, as stated in the clues.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many boxes are placed between Box E and Box G?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "1"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Box E is at Position 3; Box G is at Position 7.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Which box is placed immediately above Box D?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Box B"
+                },
+                {
+                  "label": "B",
+                  "text": "Box G"
+                },
+                {
+                  "label": "C",
+                  "text": "Box F"
+                },
+                {
+                  "label": "D",
+                  "text": "Box E"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Box D is at Position 5. The box at Position 6 (immediately above) is Box F.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Eight boxes are stacked from Position 1 (bottom) to Position 8 (top). The weights of the boxes are 10 kg, 15 kg, 20 kg, 25 kg, 30 kg, 35 kg, 40 kg, and 45 kg (each weight used exactly once).\n\n• The 10 kg box is at Position 1.\n• The 15 kg box is immediately above the 10 kg box.\n• The 20 kg box is at Position 3.\n• The 35 kg box is at Position 4.\n• The 30 kg box is at Position 5.\n• The 25 kg box is immediately above the 30 kg box.\n• The 45 kg box is at Position 8.\n• The 40 kg box is immediately below the 45 kg box.\n\nIf the boxes at Positions 3 to 6 are rearranged such that the heaviest box among them is placed at Position 3 and the lightest is placed at Position 6 (weights decreasing upward within this range), what will be the weight of the box at Position 4 after rearrangement?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "35 kg"
+                },
+                {
+                  "label": "B",
+                  "text": "25 kg"
+                },
+                {
+                  "label": "C",
+                  "text": "30 kg"
+                },
+                {
+                  "label": "D",
+                  "text": "20 kg"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: Derive original arrangement:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

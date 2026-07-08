@@ -1,0 +1,175 @@
+Topic: Data Interpretation
+Subtopic: Pie Chart
+
+Directions (Q1-Q5): Study the given pie chart carefully and answer the following questions.
+Refer to diagram: SVG/Q1.svg
+The pie chart shows the percentage distribution of 2500 students in 5 different schools (A, B, C, D, E).
+
+Q1. What is the total number of students in School A and School C together?
+(A) 900
+(B) 950
+(C) 1000
+(D) 1050
+Answer: B
+Explanation: 
+Percentage in A = 20%.
+Percentage in C = 18%.
+Total percentage = 38%.
+Total students = 38% of 2500 = 0.38 * 2500 = 950.
+
+Q2. The number of students in School D is what percent more or less than the number of students in School B?
+(A) 20% more
+(B) 25% more
+(C) 20% less
+(D) 25% less
+Answer: A
+Explanation: 
+Percentage in D = 30%.
+Percentage in B = 25%.
+Difference = 5%.
+% more = (5 / 25) * 100 = 20% more.
+
+Q3. What is the central angle corresponding to School E?
+(A) 25.2°
+(B) 28.8°
+(C) 32.4°
+(D) 36.0°
+Answer: A
+Explanation: 
+Percentage in E = 7%. (Since A=20, B=25, C=18, D=30. Total = 93. So E = 7%).
+Central angle = 7% of 360° = (7 / 100) * 360 = 25.2°.
+
+Q4. Find the ratio of the number of students in School A to the number of students in School E.
+(A) 15 : 7
+(B) 20 : 7
+(C) 25 : 7
+(D) 30 : 7
+Answer: B
+Explanation: 
+Percentage in A = 20%.
+Percentage in E = 7%.
+Ratio of students = Ratio of percentages = 20 : 7.
+
+Q5. If 40% of the students in School D are girls, find the number of boys in School D.
+(A) 400
+(B) 450
+(C) 500
+(D) 550
+Answer: B
+Explanation: 
+Total students in D = 30% of 2500 = 750.
+Girls = 40%, so boys = 60%.
+Number of boys = 60% of 750 = 0.6 * 750 = 450.
+
+Directions (Q6-Q10): Study the given pie chart carefully and answer the following questions.
+Refer to diagram: SVG/Q6.svg
+The pie chart shows the percentage distribution of monthly expenses of a family on various items. Total monthly income is Rs. 40,000.
+(Rent: 22%, Food: 35%, Education: 15%, Travel: 10%, Savings: 18%)
+
+Q6. What is the amount spent by the family on Food?
+(A) Rs. 12000
+(B) Rs. 13000
+(C) Rs. 14000
+(D) Rs. 15000
+Answer: C
+Explanation: 
+Amount on Food = 35% of 40000 = 0.35 * 40000 = 14000.
+
+Q7. The amount spent on Rent and Travel together is equal to what fraction of the total income?
+(A) 7/25
+(B) 8/25
+(C) 9/25
+(D) 2/5
+Answer: B
+Explanation: 
+Rent = 22%, Travel = 10%.
+Total = 32%.
+Fraction = 32 / 100 = 8 / 25.
+
+Q8. How much more does the family spend on Education than on Travel?
+(A) Rs. 1500
+(B) Rs. 2000
+(C) Rs. 2500
+(D) Rs. 3000
+Answer: B
+Explanation: 
+Education = 15%, Travel = 10%.
+Difference = 5%.
+Amount = 5% of 40000 = 2000.
+
+Q9. The central angle for the sector representing Savings is:
+(A) 54.8°
+(B) 60.5°
+(C) 64.8°
+(D) 72.0°
+Answer: C
+Explanation: 
+Savings = 18%.
+Central angle = 18% of 360° = 18 * 3.6 = 64.8°.
+
+Q10. If the income of the family increases by 10% and the percentage distribution remains the same, what will be the new savings amount?
+(A) Rs. 7520
+(B) Rs. 7920
+(C) Rs. 8320
+(D) Rs. 8720
+Answer: B
+Explanation: 
+New Income = 40000 * 1.10 = 44000.
+Savings = 18% of 44000 = 0.18 * 44000 = 7920.
+
+Directions (Q11-Q15): Study the given pie chart carefully and answer the following questions.
+Refer to diagram: SVG/Q11.svg
+The pie chart shows the percentage distribution of 1800 teachers who teach 5 different subjects (Math, Physics, Chemistry, Biology, English).
+(Math: 25%, Physics: 20%, Chemistry: 15%, Biology: 10%, English: 30%)
+
+Q11. What is the total number of teachers teaching Physics and Chemistry together?
+(A) 580
+(B) 600
+(C) 630
+(D) 650
+Answer: C
+Explanation: 
+Physics = 20%, Chemistry = 15%. Total = 35%.
+Teachers = 35% of 1800 = 0.35 * 1800 = 630.
+
+Q12. The number of English teachers is how much more than the number of Math teachers?
+(A) 90
+(B) 100
+(C) 110
+(D) 120
+Answer: A
+Explanation: 
+English = 30%, Math = 25%.
+Difference = 5%.
+Teachers = 5% of 1800 = 90.
+
+Q13. Find the ratio of the number of teachers teaching Biology to the number of teachers teaching Chemistry.
+(A) 2 : 3
+(B) 3 : 4
+(C) 4 : 5
+(D) 5 : 6
+Answer: A
+Explanation: 
+Biology = 10%. Chemistry = 15%.
+Ratio = 10 : 15 = 2 : 3.
+
+Q14. The central angle for the sector representing Math teachers is:
+(A) 75°
+(B) 80°
+(C) 90°
+(D) 105°
+Answer: C
+Explanation: 
+Math = 25%.
+Central angle = 25% of 360° = (1/4) * 360° = 90°.
+
+Q15. If 20% of the English teachers resign, what will be the new total number of teachers teaching in the school?
+(A) 1680
+(B) 1692
+(C) 1708
+(D) 1720
+Answer: B
+Explanation: 
+English teachers = 30% of 1800 = 540.
+Resigning = 20% of 540 = 108.
+New total = 1800 - 108 = 1692.

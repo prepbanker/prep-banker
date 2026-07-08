@@ -1,0 +1,281 @@
+Topic: Alphabet Test
+Subtopic: Alphabet Series
+
+Q1. What will come in place of the question mark (?) in the following series?
+A, C, F, J, ?
+(A) M
+(B) N
+(C) O
+(D) P
+Answer: C
+Explanation: 
+A(+2) = C. C(+3) = F. F(+4) = J. J(+5) = O. The missing letter is O.
+
+Q2. Find the missing term in the series: Z, W, S, P, L, I, E, ?
+(A) B
+(B) D
+(C) F
+(D) K
+Answer: A
+Explanation: 
+The series follows a pattern of alternating differences: -3, -4, -3, -4...
+Z(-3) = W. W(-4) = S. S(-3) = P. P(-4) = L. L(-3) = I. I(-4) = E. E(-3) = B.
+
+Q3. What will come next in the series: AB, DEF, HIJK, ?
+(A) LMNO
+(B) LMNOP
+(C) MNOPQ
+(D) NOPQR
+Answer: C
+Explanation: 
+The length of terms increases: 2, 3, 4, 5.
+AB (ends at B). Skips C.
+DEF (ends at F). Skips G.
+HIJK (ends at K). Skips L.
+Next should start with M and have 5 letters: MNOPQ.
+
+Q4. Which term comes next? BZA, DYC, FXE, ?, JVI
+(A) HUG
+(B) HWG
+(C) UHG
+(D) WHG
+Answer: B
+Explanation: 
+First letter: B(+2)=D(+2)=F(+2)=H(+2)=J.
+Second letter: Z(-1)=Y(-1)=X(-1)=W(-1)=V.
+Third letter: A(+2)=C(+2)=E(+2)=G(+2)=I.
+The missing term is HWG.
+
+Q5. Next term in the series: QAR, RAS, SAT, TAU, ?
+(A) UAV
+(B) UAT
+(C) TAS
+(D) TAT
+Answer: A
+Explanation: 
+First letter: Q, R, S, T, U.
+Second letter: A is constant.
+Third letter: R, S, T, U, V.
+Missing term is UAV.
+
+Q6. Find the missing term: C4X, F9U, I16R, ?
+(A) K25P
+(B) L25P
+(C) L25O
+(D) L27P
+Answer: C
+Explanation: 
+First letter: C(+3)=F(+3)=I(+3)=L.
+Number: 2^2=4, 3^2=9, 4^2=16, 5^2=25.
+Third letter: X(-3)=U(-3)=R(-3)=O. (Notice C and X are opposites, F and U opposites, I and R opposites, L and O opposites).
+The missing term is L25O.
+
+Q7. Complete the series: 2Z5, 7Y7, 14X9, 23W11, 34V13, ?
+(A) 27U24
+(B) 47U15
+(C) 45U15
+(D) 47V14
+Answer: B
+Explanation: 
+First number: 2(+5)=7(+7)=14(+9)=23(+11)=34(+13)=47.
+Letter: Z(-1)=Y(-1)=X(-1)=W(-1)=V(-1)=U.
+Second number: 5(+2)=7(+2)=9(+2)=11(+2)=13(+2)=15.
+Missing term is 47U15.
+
+Q8. What comes next in the sequence? AZ, GT, MN, ?, YB
+(A) KF
+(B) RX
+(C) SH
+(D) TS
+Answer: C
+Explanation: 
+These are pairs of opposite letters.
+First letters: A(+6)=G(+6)=M(+6)=S(+6)=Y.
+Second letters are simply the opposites: Z, T, N, H, B.
+The missing pair is SH.
+
+Q9. In the series: AYBZC, DWEXF, GUHVI, JSKTL, ?
+(A) MQNRO
+(B) MQORN
+(C) MQNQM
+(D) MQPRN
+Answer: A
+Explanation: 
+The terms have 5 letters each. Let's analyze the first letters of each term: A, D, G, J (+3 pattern). Next is M.
+Second letters: Y, W, U, S (-2 pattern). Next is Q.
+Third letters: B, E, H, K (+3 pattern). Next is N.
+Fourth letters: Z, X, V, T (-2 pattern). Next is R.
+Fifth letters: C, F, I, L (+3 pattern). Next is O.
+Missing term is MQNRO.
+
+Q10. Which group of letters should come in the blank? _ b a a _ b b _ a b _ a
+(A) b a a b
+(B) b a b a
+(C) a a b b
+(D) a b a b
+Answer: A
+Explanation: 
+Let's try breaking the sequence into blocks of 3 or 4.
+_ b a / a _ b / b _ a / b _ a (Not working).
+Let's try block of 4: _ b a a / _ b b _ / a b _ a
+If we fill with option A: (b) b a a / (a) b b (a) / a b (b) a. No clear pattern.
+Let's try another logic. What if the pattern is 'a b a a b b'?
+b b a a / a b b a / a b b a
+Let's fill option C (a a b b):
+(a) b a a / (a) b b (b) / a b (b) a. -> a b a a a b b b a b b a. (No).
+Let's find the repeating unit.
+_ b a a _ b b _ a b _ a
+Notice 'b a a', 'b b', 'a b _ a'.
+What if the pattern is 'a b a / a b b / a b a / a b b'?
+Fill with a, b, a, b.
+Sequence: (a) b a / a (b) b / (a) a b / (b) a. No.
+What if it is 'b b a a b b a a...'?
+(b) b a a / (b) b b (a) -> no.
+What if it is 'a b a a b a a b a a b a'?
+(a) b a a / (b) b a a / (a) b a a? No, 2nd block is _ b b _.
+The standard pattern could be: a b a a / a b b a / a b a a / a b b a?
+_ b a a / _ b b _ / a b _ a
+If block 1 is 'a b a a', block 2 is 'b b b b'? No.
+What if the sequence is 'b b a a b b a a b b a a'?
+(b) b a a / (b) b (a) (a) / (b) (b) (a) a.
+Wait: The blanks are 4. Total letters = 12.
+_ b a a | _ b b _ | a b _ a.
+If pattern is a b a a | b b b b | a b a a. Then blanks are a, b, b, a. (Not in options).
+Let's try the sequence 'b a b a' -> (b) b a a / (a) b b (b) / a b (a) a -> bbaa abbab abaa.
+Let's reconsider option A: b, a, a, b.
+(b) b a a / (a) b b (a) / a b (b) a
+b b a a / a b b a / a b b a.
+Notice the pattern: bbaa, abba, abba. It's symmetric.
+Let's reconsider the string: _ b a a | _ b b _ | a b _ a
+What if the pattern is 'a b a b'?
+(a) b a a / (b) b b (a) / a b (b) a.
+Let's change this question to a more mathematically sound series to avoid ambiguity.
+
+Q10 (Updated Text):
+Q10. Complete the series: 3F, 6G, 11I, 18L, ?
+(A) 21O
+(B) 25N
+(C) 27P
+(D) 29P
+Answer: C
+Explanation: 
+Numbers: 3(+3)=6(+5)=11(+7)=18(+9)=27.
+Letters: F(+1)=G(+2)=I(+3)=L(+4)=P.
+Missing term is 27P.
+
+Q11. What is the next term in the series: CGL, HMR, MRW, ?
+(A) RWX
+(B) RVZ
+(C) RWV
+(D) RWB
+Answer: D
+Explanation: 
+First letter: C(+5)=H(+5)=M(+5)=R.
+Second letter: G(+6)=M(+5)=R(+5)? No. G(7), M(13) is +6. R(18) is +5.
+Wait, let's check the letters inside each term.
+CGL: C(3), G(7), L(12) -> +4, +5.
+HMR: H(8), M(13), R(18) -> +5, +5.
+MRW: M(13), R(18), W(23) -> +5, +5.
+Let's re-examine CGL. Maybe C(+5)=H(+5)=M(+5)=R.
+G(+6)=M(+5)=R(+5)=W? No, G(7), M(13)[+6], R(18)[+5]? Let's fix the series.
+Let's use BGL, GMR.
+B(2), G(7), L(12) -> +5, +5.
+G(7), M(13), R(18) -> +6, +5. Still inconsistent.
+Let's use an exact +5 series.
+C(+5)=H, H(+5)=M, M(+5)=R.
+G(+5)=L, L(+5)=Q, Q(+5)=V.
+L(+5)=Q, Q(+5)=V, V(+5)=A.
+So series: CGL, HLQ, MQV, RVA.
+
+Q11 (Updated Text):
+Q11. What is the next term in the series: CGL, HLQ, MQV, ?
+(A) RVA
+(B) RVB
+(C) RWA
+(D) QVA
+Answer: A
+Explanation: 
+First letter: C(+5)=H(+5)=M(+5)=R.
+Second letter: G(+5)=L(+5)=Q(+5)=V.
+Third letter: L(+5)=Q(+5)=V(+5)=A.
+The next term is RVA.
+
+Q12. Find the missing term: W-144, ?, S-100, Q-81, O-64
+(A) U-121
+(B) V-121
+(C) U-122
+(D) V-128
+Answer: A
+Explanation: 
+Letters: W(23), ?, S(19), Q(17), O(15). The pattern is -2. So missing is U(21).
+Numbers: 144(12^2), ?, 100(10^2), 81(9^2), 64(8^2). So missing is 121(11^2).
+Term is U-121.
+
+Q13. In the series ZA5, Y4B, XC6, W3D, ?
+(A) VE7
+(B) E7V
+(C) V2E
+(D) VE5
+Answer: A
+Explanation: 
+First letter: Z, Y, X, W, V.
+Second part: A5, 4B, C6, 3D...
+Notice the alternating structure:
+Term 1: Letter(Z), Letter(A), Number(5)
+Term 2: Letter(Y), Number(4), Letter(B)
+Term 3: Letter(X), Letter(C), Number(6)
+Term 4: Letter(W), Number(3), Letter(D)
+Term 5 should be: Letter(V), Letter(E), Number(?).
+The numbers are 5, 4, 6, 3, ?. This looks like two interleaved series: 5, 6, 7 and 4, 3, 2.
+Since Term 5 belongs to the first group, it should be 7.
+Missing term is VE7.
+
+Q14. Find the wrong term in the series: G4T, J10R, M20P, P43N, S90L
+(A) G4T
+(B) J10R
+(C) M20P
+(D) S90L
+Answer: C
+Explanation: 
+First letter: G(+3)=J(+3)=M(+3)=P(+3)=S. (Correct).
+Third letter: T(-2)=R(-2)=P(-2)=N(-2)=L. (Correct).
+Number: 4, 10, 20, 43, 90.
+Let's find the pattern in numbers.
+4 × 2 + 2 = 10
+10 × 2 + 1 = 21 (If 21, then 21 × 2 + 1 = 43? No. 21 × 2 + 1 = 43. And 43 × 2 + 4 = 90?)
+Wait. Pattern: 4×2+2=10. 10×2+1=21. 21×2+1=43?
+Let's try another pattern.
+Differences: 6, 10, 23, 47. Not a clean series.
+What if pattern is: 4 × 2 + 2 = 10; 10 × 2 + 0 = 20; 20 × 2 + 3 = 43; 43 × 2 + 4 = 90.
+Or maybe: 4 × 2 + 2 = 10; 10 × 2 + 2 = 22; 22 × 2 - 1 = 43?
+Let's create a clear pattern: 4, 10, 22, 46, 94. (×2+2).
+Let me change the series to: G4T, J10R, M22P, P46N, S90L. (S90L is wrong, should be S94L).
+
+Q14 (Updated Text):
+Q14. Find the wrong term in the series: G4T, J10R, M22P, P46N, S90L
+(A) J10R
+(B) M22P
+(C) P46N
+(D) S90L
+Answer: D
+Explanation: 
+First letter: G(+3)=J(+3)=M(+3)=P(+3)=S.
+Third letter: T(-2)=R(-2)=P(-2)=N(-2)=L.
+Number: The pattern is ×2 + 2.
+4 × 2 + 2 = 10
+10 × 2 + 2 = 22
+22 × 2 + 2 = 46
+46 × 2 + 2 = 94.
+The term S90L has 90 instead of 94. Hence, S90L is the wrong term.
+
+Q15. Find the next term in the series: B2D, E3H, I4M, ?
+(A) N5R
+(B) N5S
+(C) M5R
+(D) N5T
+Answer: B
+Explanation: 
+First letter: B(2), E(5), I(9). The differences are +3, +4. The next difference should be +5. I(9) + 5 = 14(N).
+Numbers: 2, 3, 4. The next number is 5.
+Third letter: D(4), H(8), M(13). The differences are +4, +5. The next difference should be +6. M(13) + 6 = 19(S).
+The next term is N5S.

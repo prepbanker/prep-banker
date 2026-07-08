@@ -1,0 +1,362 @@
+----------------------------------------
+Topic: Syllogism
+Subtopic: Basic Syllogism
+----------------------------------------
+
+Directions (Q1–Q5): In each of the questions below, two statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts.
+
+Q1. 
+Statements:
+Some cats are dogs.
+All dogs are birds.
+Conclusions:
+I. Some cats are birds.
+II. Some birds are dogs.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Both conclusion I and II follow
+
+Answer: D
+Explanation:
+Statement 1: 'Some cats are dogs' means there is an intersection between Cats and Dogs.
+Statement 2: 'All dogs are birds' means the Dogs circle is entirely inside the Birds circle.
+Conclusion I: Since Cats intersect Dogs, and all Dogs are Birds, the intersection of Cats and Dogs is also part of Birds. Thus, some cats are definitely birds. (True)
+Conclusion II: Since all dogs are birds, it naturally implies that some part of birds is dogs. Thus, some birds are dogs. (True)
+Answer: Both conclusion I and II follow → (D)
+
+----------------------------------------
+
+Q2. 
+Statements:
+All pens are pencils.
+No pencil is an eraser.
+Conclusions:
+I. No pen is an eraser.
+II. Some pens are erasers.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Neither conclusion I nor II follows
+(D) Both conclusion I and II follow
+
+Answer: A
+Explanation:
+Statement 1: 'All pens are pencils' means the Pens circle is entirely inside the Pencils circle.
+Statement 2: 'No pencil is an eraser' means the Pencils circle is completely disjoint from the Erasers circle.
+Conclusion I: Since all pens are inside pencils, and no pencil can touch erasers, pens can never touch erasers. Thus, no pen is an eraser. (True)
+Conclusion II: As established above, there can be no overlap. (False)
+Answer: Only conclusion I follows → (A)
+
+----------------------------------------
+
+Q3. 
+Statements:
+Some tables are chairs.
+Some chairs are beds.
+Conclusions:
+I. Some tables are beds.
+II. No table is a bed.
+(A) Only conclusion I follows
+(B) Either conclusion I or II follows
+(C) Neither conclusion I nor II follows
+(D) Both conclusion I and II follow
+
+Answer: B
+Explanation:
+Statement 1: Tables intersect Chairs.
+Statement 2: Chairs intersect Beds.
+There is no direct relationship given between Tables and Beds. They might intersect or they might not.
+Conclusion I: 'Some tables are beds' is a possibility, but not a certainty. (False)
+Conclusion II: 'No table is a bed' is a possibility, but not a certainty. (False)
+However, these two conclusions form a complementary pair (Some + No) involving the same subjects (tables and beds). Therefore, either they intersect (Some) or they don't (No).
+Answer: Either conclusion I or II follows → (B)
+
+----------------------------------------
+
+Q4. 
+Statements:
+All apples are bananas.
+All bananas are cherries.
+Conclusions:
+I. All apples are cherries.
+II. Some cherries are apples.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Both conclusion I and II follow
+
+Answer: D
+Explanation:
+Statement 1 & 2: Apples are inside Bananas, which are inside Cherries. (Concentric circles).
+Conclusion I: Since Apples are deep inside Cherries, all apples are cherries. (True)
+Conclusion II: The large Cherries circle covers the Apples circle, meaning some part of cherries is apples. (True)
+Answer: Both conclusion I and II follow → (D)
+
+----------------------------------------
+
+Q5. 
+Statements:
+Some cars are buses.
+No bus is a train.
+Conclusions:
+I. Some cars are not trains.
+II. All cars are trains.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either conclusion I or II follows
+(D) Neither conclusion I nor II follows
+
+Refer to diagram: SVG/Q5.svg
+
+Answer: A
+Explanation:
+Statement 1: Cars intersect Buses.
+Statement 2: Buses are disjoint from Trains.
+Conclusion I: The portion of Cars that overlaps with Buses can never be Trains (since no Bus is a Train). Thus, some cars are definitely not trains. (True)
+Conclusion II: Since some cars are definitely not trains, it is impossible for all cars to be trains. (False)
+Answer: Only conclusion I follows → (A)
+
+----------------------------------------
+
+Directions (Q6–Q10): In each of the questions below, three statements are given followed by some conclusions. Decide which of the given conclusions logically follows.
+
+Q6. 
+Statements:
+All rains are clouds.
+Some clouds are storms.
+No storm is a thunder.
+Conclusions:
+I. Some rains being storms is a possibility.
+II. Some clouds are not thunders.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Conclusion I: Rains are inside Clouds. Clouds intersect Storms. There is no direct negative relation between Rains and Storms, so they can intersect. Thus, possibility is True.
+Conclusion II: Clouds intersect Storms, and no Storm is Thunder. The part of Clouds that is Storms can never be Thunders. Thus, some clouds are not thunders. (True)
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q7. 
+Statements:
+Some books are pages.
+All pages are covers.
+Some covers are words.
+Conclusions:
+I. Some books are covers.
+II. Some pages being words is a possibility.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Conclusion I: Books intersect Pages, and all Pages are inside Covers. Therefore, the intersection of Books and Pages is also inside Covers. Thus, some books are covers. (True)
+Conclusion II: Pages are inside Covers, and Covers intersect Words. There is no negative statement preventing Pages from intersecting Words. Thus, possibility is True.
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q8. 
+Statements:
+No blue is red.
+All red are green.
+Some green are yellow.
+Conclusions:
+I. Some green are not blue.
+II. All blue being green is a possibility.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both conclusion I and II follow
+(D) Neither conclusion I nor II follows
+
+Answer: C
+Explanation:
+Conclusion I: All Red are Green. This means a part of Green is Red. Since no Red is Blue, that specific part of Green (which is Red) can never be Blue. Thus, some green are not blue. (True)
+Conclusion II: While Red cannot be Blue, Blue can easily sit entirely inside the Green circle (in the non-Red portion). Thus, all blue being green is a possibility. (True)
+Answer: Both conclusion I and II follow → (C)
+
+----------------------------------------
+
+Q9. 
+Statements:
+All waters are oceans.
+All oceans are rivers.
+No river is a lake.
+Conclusions:
+I. No ocean is a lake.
+II. Some rivers are waters.
+III. All waters being lakes is a possibility.
+(A) Only I and II follow
+(B) Only I and III follow
+(C) Only II and III follow
+(D) All I, II, and III follow
+
+Refer to diagram: SVG/Q9.svg
+
+Answer: A
+Explanation:
+Conclusion I: Oceans are entirely inside Rivers. Since no River is a Lake, Oceans cannot touch Lakes. Thus, no ocean is a lake. (True)
+Conclusion II: Waters are inside Oceans, which are inside Rivers. The Rivers circle covers the Waters circle. Thus, some rivers are waters. (True)
+Conclusion III: Waters are inside Rivers. Since Rivers cannot be Lakes, Waters can never be Lakes. The possibility is False.
+Answer: Only I and II follow → (A)
+
+----------------------------------------
+
+Q10. 
+Statements:
+Some tigers are lions.
+No lion is a cheetah.
+Some cheetahs are panthers.
+Conclusions:
+I. Some tigers are not cheetahs.
+II. Some panthers are not lions.
+III. No tiger is a panther.
+(A) Only conclusion I follows
+(B) Only I and II follow
+(C) Only II and III follow
+(D) All conclusions follow
+
+Answer: B
+Explanation:
+Conclusion I: Tigers intersect Lions, and no Lion is a Cheetah. The part of Tigers that is Lions cannot be Cheetahs. Thus, some tigers are not cheetahs. (True)
+Conclusion II: Panthers intersect Cheetahs, and no Cheetah is a Lion. The part of Panthers that is Cheetahs cannot be Lions. Thus, some panthers are not lions. (True)
+Conclusion III: There is no direct negative relationship given between Tigers and Panthers. They could potentially intersect. Thus, no tiger is a panther is False.
+Answer: Only I and II follow → (B)
+
+----------------------------------------
+
+Directions (Q11–Q15): In each of the questions below, four statements are given followed by some conclusions. Decide which of the given conclusions logically follows.
+
+Q11. 
+Statements:
+All stars are moons.
+Some moons are planets.
+No planet is a sun.
+All suns are galaxies.
+Conclusions:
+I. Some galaxies are not planets.
+II. All stars being suns is a possibility.
+III. Some moons are not suns.
+(A) Only I and II follow
+(B) Only II and III follow
+(C) Only I and III follow
+(D) All I, II, and III follow
+
+Answer: D
+Explanation:
+Conclusion I: Suns are inside Galaxies. Since no Sun is a Planet, the part of Galaxies that is Suns can never be Planets. Thus, some galaxies are not planets. (True)
+Conclusion II: Stars are inside Moons. Moons intersect Planets. Planets cannot be Suns. However, there is no negative restriction between Stars and Suns. Stars could entirely overlap with Suns. Thus, possibility is True.
+Conclusion III: Moons intersect Planets. Since no Planet is a Sun, the portion of Moons overlapping with Planets cannot be Suns. Thus, some moons are not suns. (True)
+Answer: All I, II, and III follow → (D)
+
+----------------------------------------
+
+Q12. 
+Statements:
+Some metals are irons.
+All irons are steels.
+No steel is copper.
+Some coppers are zincs.
+Conclusions:
+I. Some metals are not coppers.
+II. Some zincs are not steels.
+III. All irons being zincs is a possibility.
+(A) Only I and II follow
+(B) Only II and III follow
+(C) Only I and III follow
+(D) All I, II, and III follow
+
+Answer: D
+Explanation:
+Conclusion I: Metals intersect Irons, which are entirely inside Steels. So, Metals intersect Steels. Since no Steel is Copper, the part of Metals overlapping with Steels cannot be Coppers. Thus, some metals are not coppers. (True)
+Conclusion II: Zincs intersect Coppers. Since no Copper is Steel, the part of Zincs that is Coppers cannot be Steels. Thus, some zincs are not steels. (True)
+Conclusion III: Irons are inside Steels. Steels cannot touch Coppers. However, Zincs can be drawn large enough to encompass the Irons circle while still maintaining its required intersection with Coppers and disjointness from Steels. Thus, possibility is True.
+Answer: All I, II, and III follow → (D)
+
+----------------------------------------
+
+Q13. 
+Statements:
+No apple is an orange.
+Some oranges are grapes.
+All grapes are melons.
+No melon is a banana.
+Conclusions:
+I. Some grapes are not apples.
+II. No orange is a banana.
+III. Some melons are not apples.
+IV. All bananas being apples is a possibility.
+(A) Only I, III, and IV follow
+(B) Only I and II follow
+(C) Only I, II, and III follow
+(D) All follow
+
+Answer: A
+Explanation:
+Conclusion I: Grapes intersect Oranges. Since no Orange is an Apple, the part of Grapes that is Oranges cannot be Apples. (True)
+Conclusion II: Oranges intersect Grapes, which are inside Melons. Melons cannot touch Bananas. However, the remaining portion of Oranges outside of Melons COULD touch Bananas. Thus, it is not a certainty. (False)
+Conclusion III: Melons completely contain Grapes, which intersect Oranges. Therefore, Melons intersect Oranges. The part of Melons overlapping with Oranges cannot be Apples. (True)
+Conclusion IV: Bananas are entirely disjoint from Melons. Apples are entirely disjoint from Oranges. There is no restriction between Bananas and Apples. Thus, the entire Bananas circle can be placed inside Apples. (True)
+Answer: Only I, III, and IV follow → (A)
+
+----------------------------------------
+
+Q14. 
+Statements:
+All squares are circles.
+Some circles are rectangles.
+All rectangles are triangles.
+No triangle is a cone.
+Conclusions:
+I. Some squares are rectangles.
+II. All circles being triangles is a possibility.
+III. Some circles are not cones.
+IV. No rectangle is a cone.
+(A) Only II, III, and IV follow
+(B) Only I, II, and III follow
+(C) Only II and III follow
+(D) Only III and IV follow
+
+Refer to diagram: SVG/Q14.svg
+
+Answer: A
+Explanation:
+Conclusion I: Squares are inside Circles. Circles intersect Rectangles. There is no direct link to prove Squares intersect Rectangles. (False)
+Conclusion II: Circles can be drawn entirely inside Triangles while still containing Squares and intersecting Rectangles. Thus, the possibility is True.
+Conclusion III: Circles intersect Rectangles, which are inside Triangles. So, Circles intersect Triangles. Since no Triangle is a Cone, the part of Circles that is Triangles cannot be Cones. (True)
+Conclusion IV: Rectangles are inside Triangles. Since no Triangle is a Cone, Rectangles can never be Cones. (True)
+Answer: Only II, III, and IV follow → (A)
+
+----------------------------------------
+
+Q15. 
+Statements:
+Some phones are laptops.
+No laptop is a tablet.
+All tablets are computers.
+Some computers are devices.
+Conclusions:
+I. Some phones are not tablets.
+II. Some computers are not laptops.
+III. All devices being tablets is a possibility.
+IV. All phones being computers is a possibility.
+(A) Only I, II, and III follow
+(B) Only I, II, and IV follow
+(C) Only II, III, and IV follow
+(D) All I, II, III, and IV follow
+
+Answer: D
+Explanation:
+Conclusion I: Phones intersect Laptops. Since no Laptop is a Tablet, the intersection part of Phones cannot be Tablets. (True)
+Conclusion II: Tablets are inside Computers. Since no Tablet is a Laptop, the part of Computers that is Tablets cannot be Laptops. (True)
+Conclusion III: Devices intersect Computers. Tablets are inside Computers. There is no negative statement preventing Devices from being entirely inside Tablets. (True)
+Conclusion IV: Phones intersect Laptops. Laptops cannot touch Tablets. Computers contain Tablets. The Computers circle can expand to contain the entire Phones circle without forcing Laptops to touch Tablets. (True)
+Answer: All I, II, III, and IV follow → (D)
+
+----------------------------------------

@@ -1,0 +1,155 @@
+----------------------------------------
+Topic: Error Detection
+Subtopic: Subject-Verb Agreement
+----------------------------------------
+
+Q1. Read the sentence to find out whether there is any grammatical error in it. The error, if any, will be in one part of the sentence. Mark that part as your answer.
+(A) The prominent board of directors, / (B) along with the newly appointed CEO, / (C) have decided to completely restructure / (D) the company's international supply chain.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: When two subjects are joined by "along with", the verb must agree with the first subject ("The prominent board of directors" - functioning here as a singular collective entity, or more simply, "board" is singular). Therefore, "have decided" should be "has decided".
+
+Q2. Read the sentence to find out whether there is any grammatical error in it.
+(A) Neither the aggressive marketing campaigns / (B) nor the highly anticipated product launch / (C) were able to successfully salvage / (D) the massive corporation from imminent bankruptcy.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: In a "Neither... nor" construction, the verb agrees with the subject closest to it. The closest subject is "product launch" (singular). Therefore, "were able" should be "was able".
+
+Q3. Read the sentence to find out whether there is any grammatical error in it.
+(A) A significant number of the undergraduate students / (B) participating in the rigorous research program / (C) has expressed deep dissatisfaction / (D) with the outdated laboratory equipment.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: The phrase "A number of" always takes a plural noun and a plural verb. Therefore, "has expressed" should be "have expressed". (Contrast with "The number of", which takes a singular verb).
+
+Q4. Read the sentence to find out whether there is any grammatical error in it.
+(A) The vast majority of the critical information / (B) provided by the anonymous whistleblower / (C) were entirely fabricated to deliberately / (D) sabotage the ongoing federal investigation.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: The phrase "The vast majority of" takes a verb based on the noun that follows it. "Information" is an uncountable, singular noun. Therefore, "were entirely fabricated" should be "was entirely fabricated".
+
+Q5. Read the sentence to find out whether there is any grammatical error in it.
+(A) Each of the highly sophisticated autonomous vehicles / (B) deployed during the extensive beta testing phase / (C) are equipped with state-of-the-art / (D) LiDAR sensors and predictive AI.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: The subject of the sentence is "Each" (singular pronoun), not "vehicles". Phrases starting with "Each of" always take a singular verb. Therefore, "are equipped" should be "is equipped".
+
+Q6. Read the sentence to find out whether there is any grammatical error in it.
+(A) Not only the junior entry-level analysts / (B) but also the senior regional manager / (C) have been strictly reprimanded for the / (D) catastrophic data breach last Tuesday.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: In a "Not only... but also" structure, the verb agrees with the subject closest to it. The closest subject is "the senior regional manager" (singular). Therefore, "have been strictly reprimanded" should be "has been strictly reprimanded".
+
+Q7. Read the sentence to find out whether there is any grammatical error in it.
+(A) The percentage of high school graduates / (B) successfully enrolling in four-year universities / (C) have steadily declined over / (D) the past five tumultuous years.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: The phrase "The percentage of" always takes a singular verb, regardless of the noun that follows it. Therefore, "have steadily declined" should be "has steadily declined".
+
+Q8. Read the sentence to find out whether there is any grammatical error in it.
+(A) Economics, despite its heavy reliance on complex mathematics, / (B) are fundamentally a social science / (C) dealing with human behavior and / (D) the allocation of scarce resources.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: B
+Explanation: "Economics" is a singular noun denoting a field of study, despite ending in an 's'. Therefore, the plural verb "are" is incorrect and should be replaced with the singular verb "is".
+
+Q9. Read the sentence to find out whether there is any grammatical error in it.
+(A) More than one esteemed academic scholar / (B) have publicly criticized the government's / (C) highly controversial decision to drastically / (D) slash public education funding.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: B
+Explanation: The phrase "More than one" is grammatically followed by a singular noun ("scholar") and must take a singular verb, even though its meaning is plural. Therefore, "have publicly criticized" should be "has publicly criticized".
+
+Q10. Read the sentence to find out whether there is any grammatical error in it.
+(A) It is arguably you who / (B) is entirely responsible for the / (C) massive logistical failure that ruined / (D) the highly anticipated charity event.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: B
+Explanation: The relative pronoun "who" refers back to its antecedent "you". The verb following "who" must agree with the antecedent. Since the verb for "you" is "are", "is entirely responsible" should be "are entirely responsible".
+
+Q11. Read the sentence to find out whether there is any grammatical error in it.
+(A) The renowned author and the distinguished poet / (B) has finally arrived at the grand auditorium / (C) to officially inaugurate the prestigious / (D) annual international literature festival.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: B
+Explanation: When two distinct nouns are joined by "and", and both are preceded by an article ("The author and the poet"), they refer to two different individuals, making a plural subject. Therefore, "has finally arrived" should be "have finally arrived".
+
+Q12. Read the sentence to find out whether there is any grammatical error in it.
+(A) Many a reckless young driver / (B) have lost their life prematurely / (C) due to entirely preventable / (D) high-speed highway collisions.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: B
+Explanation: The idiomatic phrase "Many a" is always followed by a singular noun ("driver") and must take a singular verb. Therefore, "have lost" should be "has lost". (Note: The pronoun "their" in everyday use is accepted as singular gender-neutral, but in strict grammar, it should be "his/her". However, the glaring error is the plural verb "have").
+
+Q13. Read the sentence to find out whether there is any grammatical error in it.
+(A) The staggering amount of toxic industrial waste / (B) illegally dumped into the pristine river / (C) are causing an unprecedented and / (D) devastating ecological disaster.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: The true subject of the sentence is "The staggering amount" (singular). "of toxic industrial waste..." is a prepositional phrase. Therefore, the verb must be singular. "are causing" should be "is causing".
+
+Q14. Read the sentence to find out whether there is any grammatical error in it.
+(A) Three-quarters of the massive corporate budget / (B) heavily allocated for research and development / (C) were immediately slashed during / (D) the aggressive executive restructuring.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: C
+Explanation: Fractions (Three-quarters) take a singular or plural verb depending on the noun they modify. Here, it modifies "budget" (a singular, uncountable entity). Therefore, the verb must be singular. "were immediately slashed" should be "was immediately slashed".
+
+15. Read the sentence to find out whether there is any grammatical error in it.
+(A) There appears to be several / (B) glaring inconsistencies in the highly / (C) anticipated forensic report submitted / (D) by the lead detective yesterday.
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: A
+Explanation: In sentences beginning with "There", the verb must agree with the real subject that follows it. The real subject is "several glaring inconsistencies" (plural). Therefore, the singular verb "appears" must be changed to the plural "appear" ("There appear to be several...").
+----------------------------------------

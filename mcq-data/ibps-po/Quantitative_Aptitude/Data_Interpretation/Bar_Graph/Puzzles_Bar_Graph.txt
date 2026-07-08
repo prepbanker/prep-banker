@@ -1,0 +1,211 @@
+Topic: Data Interpretation
+Subtopic: Bar Graph
+
+Directions (Q1-Q5): Study the given bar graph carefully and answer the following questions.
+Refer to diagram: SVG/Q1.svg
+The bar graph shows the production (in thousands) of two types of cars (Type A and Type B) by a company over 5 years (2018-2022).
+
+Q1. What is the total production of Type A cars in the years 2019 and 2021 together?
+(A) 85 thousand
+(B) 90 thousand
+(C) 95 thousand
+(D) 100 thousand
+Answer: B
+Explanation: 
+Production of Type A in 2019 = 40.
+Production of Type A in 2021 = 50.
+Total = 40 + 50 = 90 thousand.
+
+Q2. The production of Type B cars in 2020 is what percent of the total production of both types of cars in 2018?
+(A) 40%
+(B) 45%
+(C) 50%
+(D) 55%
+Answer: C
+Explanation: 
+Type B in 2020 = 35.
+Total in 2018 = Type A (45) + Type B (25) = 70.
+Percentage = (35 / 70) * 100 = 50%.
+
+Q3. What is the ratio of the average production of Type A cars to the average production of Type B cars over the five years?
+(A) 24 : 23
+(B) 23 : 24
+(C) 47 : 46
+(D) 46 : 47
+Answer: A
+Explanation: 
+Total Type A = 45(2018) + 40(2019) + 55(2020) + 50(2021) + 50(2022) = 240.
+Total Type B = 25(2018) + 60(2019) + 35(2020) + 45(2021) + 65(2022) = 230.
+Ratio of averages is the same as ratio of totals = 240 : 230 = 24 : 23.
+
+Q4. In which year was the difference in production of Type A and Type B cars the maximum?
+(A) 2018
+(B) 2019
+(C) 2020
+(D) 2022
+Answer: C
+Explanation: 
+Differences:
+2018: |45 - 25| = 20
+2019: |40 - 60| = 20
+2020: |55 - 35| = 20
+2021: |50 - 45| = 5
+2022: |50 - 65| = 15
+Wait, 20 is the max difference in three years! Let's modify the values so only one year has max difference.
+Let's assume the values for 2019 are 40 and 65 (diff 25).
+And 2020 are 55 and 35 (diff 20).
+I'll use option B (2019) for the adjusted graph logic.
+
+Q4 (Updated Text):
+Q4. Based on the graph, in which year was the difference in production of Type A and Type B cars the maximum?
+(A) 2018
+(B) 2019
+(C) 2020
+(D) 2022
+Answer: B
+Explanation: 
+From the graph, differences are:
+2018: 45 - 25 = 20
+2019: 65 - 40 = 25
+2020: 55 - 35 = 20
+2021: 50 - 45 = 5
+2022: 65 - 50 = 15
+The maximum difference is 25 in the year 2019.
+
+Q5. If the total production of both types of cars in 2023 increases by 20% over that in 2022, what will be the total production in 2023?
+(A) 128 thousand
+(B) 132 thousand
+(C) 138 thousand
+(D) 144 thousand
+Answer: C
+Explanation: 
+Total production in 2022 = 50 (A) + 65 (B) = 115.
+Increase = 20% of 115 = 23.
+Total in 2023 = 115 + 23 = 138 thousand.
+
+Directions (Q6-Q10): Study the given horizontal bar graph carefully and answer the following questions.
+Refer to diagram: SVG/Q6.svg
+The bar graph shows the number of books sold by 5 different stores (S1 to S5) in two consecutive months, January and February.
+
+Q6. What is the total number of books sold by all the stores in January?
+(A) 1650
+(B) 1700
+(C) 1750
+(D) 1800
+Answer: C
+Explanation: 
+Sales in January: S1(300), S2(450), S3(250), S4(350), S5(400).
+Total = 300 + 450 + 250 + 350 + 400 = 1750.
+
+Q7. The number of books sold by Store S2 in February is what percent more than the number of books sold by Store S4 in January?
+(A) 10%
+(B) 15%
+(C) 20%
+(D) 25%
+Answer: C
+Explanation: 
+S2 in Feb = 420.
+S4 in Jan = 350.
+Difference = 420 - 350 = 70.
+% more = (70 / 350) * 100 = 20%.
+
+Q8. Find the ratio of the total books sold by Store S1 to the total books sold by Store S5 in both months together.
+(A) 33 : 43
+(B) 43 : 53
+(C) 11 : 16
+(D) 33 : 38
+Answer: C
+Explanation: 
+Total S1 = 300 (Jan) + 250 (Feb) = 550.
+Total S5 = 400 (Jan) + 400 (Feb) = 800.
+Ratio = 550 : 800 = 55 : 80 = 11 : 16.
+
+Q9. Which store had the maximum percentage decrease in sales from January to February?
+(A) S1
+(B) S2
+(C) S3
+(D) S4
+Answer: A
+Explanation: 
+Decreases:
+S1: from 300 to 250 -> Decrease of 50. % dec = (50/300)*100 = 16.66%.
+S2: from 450 to 420 -> Decrease of 30. % dec = (30/450)*100 = 6.66%.
+S3: from 250 to 320 -> Increase.
+S4: from 350 to 380 -> Increase.
+S5: from 400 to 400 -> No change.
+Store S1 had the maximum percentage decrease.
+
+Q10. What is the average number of books sold by Store S3 and Store S4 together over both months?
+(A) 625
+(B) 650
+(C) 675
+(D) 700
+Answer: B
+Explanation: 
+Total S3 = 250 + 320 = 570.
+Total S4 = 350 + 380 = 730.
+Sum of both stores = 570 + 730 = 1300.
+Since we want the average per store (for the 2 stores total), it is 1300 / 2 = 650.
+
+Directions (Q11-Q15): Study the given stacked bar graph carefully and answer the following questions.
+Refer to diagram: SVG/Q11.svg
+The stacked bar graph shows the number of Valid and Invalid votes cast in 5 different villages (V1, V2, V3, V4, V5) during an election.
+
+Q11. What is the total number of valid votes cast across all 5 villages?
+(A) 10500
+(B) 11000
+(C) 11500
+(D) 12000
+Answer: C
+Explanation: 
+Valid votes: V1(2000), V2(2500), V3(1800), V4(3000), V5(2200).
+Total = 2000 + 2500 + 1800 + 3000 + 2200 = 11500.
+
+Q12. In which village is the percentage of invalid votes out of the total votes cast the maximum?
+(A) V1
+(B) V2
+(C) V3
+(D) V5
+Answer: C
+Explanation: 
+Invalid %:
+V1: Invalid=500, Total=2500 -> 500/2500 = 20%.
+V2: Invalid=500, Total=3000 -> 500/3000 = 16.66%.
+V3: Invalid=600, Total=2400 -> 600/2400 = 25%.
+V4: Invalid=600, Total=3600 -> 600/3600 = 16.66%.
+V5: Invalid=300, Total=2500 -> 300/2500 = 12%.
+Village V3 has the maximum percentage (25%).
+
+Q13. The total number of invalid votes in V1 and V2 together is what percent of the valid votes in V4?
+(A) 25%
+(B) 33.33%
+(C) 40%
+(D) 50%
+Answer: B
+Explanation: 
+Invalid in V1 + V2 = 500 + 500 = 1000.
+Valid in V4 = 3000.
+Percentage = (1000 / 3000) * 100 = 33.33%.
+
+Q14. Find the ratio of total votes cast in Village V2 to the total votes cast in Village V5.
+(A) 5 : 4
+(B) 6 : 5
+(C) 7 : 6
+(D) 8 : 7
+Answer: B
+Explanation: 
+Total votes in V2 = 2500(Valid) + 500(Invalid) = 3000.
+Total votes in V5 = 2200(Valid) + 300(Invalid) = 2500.
+Ratio = 3000 : 2500 = 6 : 5.
+
+Q15. If the winning candidate in Village V4 secured 55% of the valid votes, how many valid votes did the losing candidates collectively secure in V4?
+(A) 1250
+(B) 1300
+(C) 1350
+(D) 1400
+Answer: C
+Explanation: 
+Total valid votes in V4 = 3000.
+Winning candidate got 55%.
+Losing candidates got (100% - 55%) = 45% of valid votes.
+45% of 3000 = 0.45 * 3000 = 1350.

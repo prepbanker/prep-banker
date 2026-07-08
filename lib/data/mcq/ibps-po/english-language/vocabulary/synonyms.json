@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "vocabulary",
+  "subtopic": "synonyms",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Vocabulary\nSubtopic: Synonyms",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the exact synonym for the word: **AMICABLE**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Hostile"
+                },
+                {
+                  "label": "B",
+                  "text": "Friendly"
+                },
+                {
+                  "label": "C",
+                  "text": "Jealous"
+                },
+                {
+                  "label": "D",
+                  "text": "Indifferent"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Amicable\" means characterized by friendliness and absence of discord. \"Friendly\" is its exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the exact synonym for the word: **BRIEF**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Lengthy"
+                },
+                {
+                  "label": "B",
+                  "text": "Concise"
+                },
+                {
+                  "label": "C",
+                  "text": "Detailed"
+                },
+                {
+                  "label": "D",
+                  "text": "Massive"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Brief\" means of short duration or concise in expression. \"Concise\" is the exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the exact synonym for the word: **FEEBLE**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Strong"
+                },
+                {
+                  "label": "B",
+                  "text": "Weak"
+                },
+                {
+                  "label": "C",
+                  "text": "Brave"
+                },
+                {
+                  "label": "D",
+                  "text": "Sturdy"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Feeble\" means lacking physical strength, especially as a result of age or illness. \"Weak\" is the exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the exact synonym for the word: **ABUNDANT**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Scarce"
+                },
+                {
+                  "label": "B",
+                  "text": "Plentiful"
+                },
+                {
+                  "label": "C",
+                  "text": "Rare"
+                },
+                {
+                  "label": "D",
+                  "text": "Depleted"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Abundant\" means existing or available in large quantities. \"Plentiful\" is its exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the exact synonym for the word: **DEFER**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Accelerate"
+                },
+                {
+                  "label": "B",
+                  "text": "Postpone"
+                },
+                {
+                  "label": "C",
+                  "text": "Cancel"
+                },
+                {
+                  "label": "D",
+                  "text": "Accomplish"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Defer\" means to put off (an action or event) to a later time. \"Postpone\" is the exact synonym.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Vocabulary\nSubtopic: Synonyms",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the exact synonym for the word: **LUCID**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Confusing"
+                },
+                {
+                  "label": "B",
+                  "text": "Opaque"
+                },
+                {
+                  "label": "C",
+                  "text": "Clear"
+                },
+                {
+                  "label": "D",
+                  "text": "Muddy"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Lucid\" means expressed clearly or easy to understand. \"Clear\" is the exact synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the exact synonym for the word: **VINDICATE**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Accuse"
+                },
+                {
+                  "label": "B",
+                  "text": "Justify"
+                },
+                {
+                  "label": "C",
+                  "text": "Condemn"
+                },
+                {
+                  "label": "D",
+                  "text": "Ignore"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Vindicate\" means to clear someone of blame or suspicion, or to show or prove to be right, reasonable, or justified. \"Justify\" is the closest synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the exact synonym for the word: **METICULOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Careless"
+                },
+                {
+                  "label": "B",
+                  "text": "Hasty"
+                },
+                {
+                  "label": "C",
+                  "text": "Fastidious"
+                },
+                {
+                  "label": "D",
+                  "text": "Sloppy"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Meticulous\" means showing great attention to detail; very careful and precise. \"Fastidious\" is the closest synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the exact synonym for the word: **DILIGENT**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Lazy"
+                },
+                {
+                  "label": "B",
+                  "text": "Assiduous"
+                },
+                {
+                  "label": "C",
+                  "text": "Lethargic"
+                },
+                {
+                  "label": "D",
+                  "text": "Indolent"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Diligent\" means having or showing care and conscientiousness in one's work. \"Assiduous\" is the exact synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the exact synonym for the word: **EPHEMERAL**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Permanent"
+                },
+                {
+                  "label": "B",
+                  "text": "Transient"
+                },
+                {
+                  "label": "C",
+                  "text": "Eternal"
+                },
+                {
+                  "label": "D",
+                  "text": "Lasting"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Ephemeral\" means lasting for a very short time. \"Transient\" is the exact synonym.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Vocabulary\nSubtopic: Synonyms",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the exact synonym for the word: **OBSEQUIOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Domineering"
+                },
+                {
+                  "label": "B",
+                  "text": "Arrogant"
+                },
+                {
+                  "label": "C",
+                  "text": "Sycophantic"
+                },
+                {
+                  "label": "D",
+                  "text": "Assertive"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Obsequious\" means obedient or attentive to an excessive or servile degree. \"Sycophantic\" is the exact synonym.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the exact synonym for the word: **PERNICIOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Beneficial"
+                },
+                {
+                  "label": "B",
+                  "text": "Deleterious"
+                },
+                {
+                  "label": "C",
+                  "text": "Salutary"
+                },
+                {
+                  "label": "D",
+                  "text": "Innocent"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Pernicious\" means having a harmful effect, especially in a gradual or subtle way. \"Deleterious\" (causing harm or damage) is its exact synonym.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the exact synonym for the word: **ESOTERIC**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Common"
+                },
+                {
+                  "label": "B",
+                  "text": "Abstruse"
+                },
+                {
+                  "label": "C",
+                  "text": "Familiar"
+                },
+                {
+                  "label": "D",
+                  "text": "Obvious"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Esoteric\" means intended for or likely to be understood by only a small number of people with a specialized knowledge. \"Abstruse\" (difficult to understand) is the closest synonym.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the exact synonym for the word: **TRUCULENT**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Amiable"
+                },
+                {
+                  "label": "B",
+                  "text": "Peaceful"
+                },
+                {
+                  "label": "C",
+                  "text": "Pugnacious"
+                },
+                {
+                  "label": "D",
+                  "text": "Docile"
+                },
+                {
+                  "label": "A",
+                  "text": "Harmony"
+                },
+                {
+                  "label": "B",
+                  "text": "Dissonance"
+                },
+                {
+                  "label": "C",
+                  "text": "Melody"
+                },
+                {
+                  "label": "D",
+                  "text": "Symphony"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Truculent\" means eager or quick to argue or fight. \"Pugnacious\" is its exact synonym.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

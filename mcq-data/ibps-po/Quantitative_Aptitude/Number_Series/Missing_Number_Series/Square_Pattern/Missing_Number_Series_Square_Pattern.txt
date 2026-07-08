@@ -1,0 +1,372 @@
+----------------------------------------
+Topic: Missing Number Series
+Subtopic: Square Pattern
+----------------------------------------
+
+Q1. What will come in place of the question mark (?) in the following number series?
+1, 4, 9, 16, 25, 36, ?
+(A) 45
+(B) 47
+(C) 49
+(D) 51
+
+Answer: C
+Explanation:
+The series consists of the squares of consecutive natural numbers.
+1^2 = 1
+2^2 = 4
+3^2 = 9
+4^2 = 16
+5^2 = 25
+6^2 = 36
+7^2 = 49
+
+Q2. What will come in place of the question mark (?) in the following number series?
+144, 121, 100, 81, 64, ?
+(A) 49
+(B) 47
+(C) 45
+(D) 43
+
+Answer: A
+Explanation:
+The series consists of the squares of consecutive numbers in descending order.
+12^2 = 144
+11^2 = 121
+10^2 = 100
+9^2 = 81
+8^2 = 64
+7^2 = 49
+
+Q3. What will come in place of the question mark (?) in the following number series?
+4, 16, 36, 64, 100, ?
+(A) 124
+(B) 144
+(C) 164
+(D) 196
+
+Answer: B
+Explanation:
+The series consists of the squares of consecutive even numbers.
+2^2 = 4
+4^2 = 16
+6^2 = 36
+8^2 = 64
+10^2 = 100
+12^2 = 144
+
+Q4. What will come in place of the question mark (?) in the following number series?
+9, 25, 49, 81, 121, ?
+(A) 144
+(B) 169
+(C) 196
+(D) 225
+
+Answer: B
+Explanation:
+The series consists of the squares of consecutive odd numbers.
+3^2 = 9
+5^2 = 25
+7^2 = 49
+9^2 = 81
+11^2 = 121
+13^2 = 169
+
+Q5. What will come in place of the question mark (?) in the following number series?
+441, 400, 361, 324, 289, ?
+(A) 225
+(B) 256
+(C) 272
+(D) 281
+
+Answer: B
+Explanation:
+The series consists of the squares of descending consecutive numbers starting from 21.
+21^2 = 441
+20^2 = 400
+19^2 = 361
+18^2 = 324
+17^2 = 289
+16^2 = 256
+
+Q6. What will come in place of the question mark (?) in the following number series?
+2, 5, 10, 17, 26, ?
+(A) 35
+(B) 37
+(C) 39
+(D) 41
+
+Answer: B
+Explanation:
+The series follows the pattern of (n^2 + 1).
+1^2 + 1 = 2
+2^2 + 1 = 5
+3^2 + 1 = 10
+4^2 + 1 = 17
+5^2 + 1 = 26
+6^2 + 1 = 37
+
+Q7. What will come in place of the question mark (?) in the following number series?
+0, 3, 8, 15, 24, ?
+(A) 33
+(B) 34
+(C) 35
+(D) 36
+
+Answer: C
+Explanation:
+The series follows the pattern of (n^2 - 1).
+1^2 - 1 = 0
+2^2 - 1 = 3
+3^2 - 1 = 8
+4^2 - 1 = 15
+5^2 - 1 = 24
+6^2 - 1 = 35
+
+Q8. What will come in place of the question mark (?) in the following number series?
+2, 6, 12, 20, 30, ?
+(A) 40
+(B) 42
+(C) 44
+(D) 46
+
+Answer: B
+Explanation:
+The series follows the pattern of (n^2 + n).
+1^2 + 1 = 2
+2^2 + 2 = 6
+3^2 + 3 = 12
+4^2 + 4 = 20
+5^2 + 5 = 30
+6^2 + 6 = 42
+
+Q9. What will come in place of the question mark (?) in the following number series?
+14, 27, 52, 101, 198, ?
+(A) 381
+(B) 391
+(C) 395
+(D) 405
+
+Answer: C
+Explanation:
+The pattern involves multiplying by 2 and then alternatively subtracting the squares of consecutive integers.
+14 x 2 - 1^2 = 28 - 1 = 27
+27 x 2 - 2^2 = 54 - 4 = 52
+52 x 2 - 3^2 = 104 - 9 = 95 (Wait, 95 is not 101).
+Let's find the correct pattern.
+Differences:
+27 - 14 = 13
+52 - 27 = 25
+101 - 52 = 49
+198 - 101 = 97
+Second differences:
+25 - 13 = 12
+49 - 25 = 24
+97 - 49 = 48
+This is geometric difference! Let's rewrite Q9 to fit Square Patterns.
+
+Corrected Q9: What will come in place of the question mark (?) in the following number series?
+0, 2, 6, 12, 20, ?
+(A) 28
+(B) 30
+(C) 32
+(D) 36
+
+Answer: B
+Explanation:
+The series follows the pattern of (n^2 - n).
+1^2 - 1 = 0
+2^2 - 2 = 2
+3^2 - 3 = 6
+4^2 - 4 = 12
+5^2 - 5 = 20
+6^2 - 6 = 30
+
+Q10. What will come in place of the question mark (?) in the following number series?
+3, 8, 27, 112, ?
+(A) 555
+(B) 560
+(C) 565
+(D) 575
+
+Answer: C
+Explanation:
+The series follows a pattern combining multiplication and squares.
+3 x 1 + 1^2 = 3 + 1 = 4. (Incorrect for 8).
+Let's try:
+3 x 2 + 2 = 8
+8 x 3 + 3 = 27
+27 x 4 + 4 = 112
+112 x 5 + 5 = 565.
+This doesn't use squares explicitly, though it's n*m+m. Let's make one strictly square based.
+
+Corrected Q10: What will come in place of the question mark (?) in the following number series?
+20, 29, 54, 103, 184, ?
+(A) 301
+(B) 305
+(C) 310
+(D) 315
+
+Answer: B
+Explanation:
+Let's check the differences between terms.
+29 - 20 = 9 (3^2)
+54 - 29 = 25 (5^2)
+103 - 54 = 49 (7^2)
+184 - 103 = 81 (9^2)
+The differences are squares of consecutive odd numbers.
+Next difference = 11^2 = 121.
+Next term = 184 + 121 = 305.
+
+Q11. What will come in place of the question mark (?) in the following number series?
+50, 49, 45, 36, 20, ?
+(A) -5
+(B) -3
+(C) 0
+(D) 4
+
+Answer: A
+Explanation:
+The differences between consecutive terms are squares of consecutive numbers.
+50 - 1^2 = 49
+49 - 2^2 = 45
+45 - 3^2 = 36
+36 - 4^2 = 20
+20 - 5^2 = 20 - 25 = -5
+
+Q12. What will come in place of the question mark (?) in the following number series?
+5, 21, 69, 213, 645, ?
+(A) 1941
+(B) 1951
+(C) 1961
+(D) 1971
+
+Answer: A
+Explanation:
+Let's find the differences:
+21 - 5 = 16 (4^2)
+69 - 21 = 48 (16 x 3)
+213 - 69 = 144 (48 x 3)
+645 - 213 = 432 (144 x 3)
+This is geometric difference. Let's replace this with a square pattern.
+
+Corrected Q12: What will come in place of the question mark (?) in the following number series?
+2, 3, 10, 39, 172, ?
+(A) 885
+(B) 895
+(C) 905
+(D) 915
+
+Answer: A
+Explanation:
+The pattern combines multiplication and addition of squares.
+2 x 1 + 1^2 = 2 + 1 = 3
+3 x 2 + 2^2 = 6 + 4 = 10
+10 x 3 + 3^2 = 30 + 9 = 39
+39 x 4 + 4^2 = 156 + 16 = 172
+172 x 5 + 5^2 = 860 + 25 = 885
+
+Q13. What will come in place of the question mark (?) in the following number series?
+1, 2.25, 4, 6.25, 9, ?
+(A) 11.25
+(B) 12.25
+(C) 13.25
+(D) 14.25
+
+Answer: B
+Explanation:
+The series consists of the squares of numbers increasing by 0.5.
+1.0^2 = 1
+1.5^2 = 2.25
+2.0^2 = 4
+2.5^2 = 6.25
+3.0^2 = 9
+3.5^2 = 12.25
+
+Q14. What will come in place of the question mark (?) in the following number series?
+4, 11, 30, 67, 128, ?
+(A) 211
+(B) 219
+(C) 223
+(D) 231
+
+Answer: B
+Explanation:
+The series follows the pattern (n^3 + 3). Wait, this is a cube pattern. Let's find a complex square one.
+
+Corrected Q14: What will come in place of the question mark (?) in the following number series?
+12, 16, 32, 68, 132, ?
+(A) 212
+(B) 222
+(C) 232
+(D) 242
+
+Answer: C
+Explanation:
+Let's find the differences:
+16 - 12 = 4 (2^2)
+32 - 16 = 16 (4^2)
+68 - 32 = 36 (6^2)
+132 - 68 = 64 (8^2)
+The differences are the squares of consecutive even numbers.
+Next difference = 10^2 = 100.
+Next term = 132 + 100 = 232.
+
+15. What will come in place of the question mark (?) in the following number series?
+10, 11, 15, 31, 80, ?
+(A) 211
+(B) 222
+(C) 224
+(D) 236
+
+Answer: C
+Explanation:
+Let's check the differences between the numbers.
+11 - 10 = 1
+15 - 11 = 4
+31 - 15 = 16
+80 - 31 = 49
+The differences are 1, 4, 16, 49.
+Notice that these are squares: 1^2, 2^2, 4^2, 7^2.
+The sequence of the bases being squared is: 1, 2, 4, 7...
+The difference between the bases is:
+2 - 1 = 1
+4 - 2 = 2
+7 - 4 = 3
+So the next base should be 7 + 4 = 11.
+The next difference in the main series will be 11^2 = 121.
+Next term = 80 + 121 = 201.
+Wait, 201 is not in the options. Let's rewrite the differences to be simpler.
+Let's do differences of: 1^2, 2^2, 3^2, 4^2... no, that's too easy for Q15.
+Let's use squares of prime numbers: 2^2, 3^2, 5^2, 7^2, 11^2.
+Corrected 15:
+10, 14, 23, 48, 97, ?
+Differences:
+14 - 10 = 4 (2^2)
+23 - 14 = 9 (3^2)
+48 - 23 = 25 (5^2)
+97 - 48 = 49 (7^2)
+The differences are squares of consecutive prime numbers.
+The next prime number is 11.
+Next difference = 11^2 = 121.
+Next term = 97 + 121 = 218.
+
+Let's write this cleanly:
+15. What will come in place of the question mark (?) in the following number series?
+10, 14, 23, 48, 97, ?
+(A) 208
+(B) 218
+(C) 228
+(D) 238
+
+Answer: B
+Explanation:
+The differences between consecutive terms are the squares of consecutive prime numbers.
+14 - 10 = 4 (2^2)
+23 - 14 = 9 (3^2)
+48 - 23 = 25 (5^2)
+97 - 48 = 49 (7^2)
+The next prime number is 11.
+Next difference = 11^2 = 121.
+Next term = 97 + 121 = 218.
+----------------------------------------

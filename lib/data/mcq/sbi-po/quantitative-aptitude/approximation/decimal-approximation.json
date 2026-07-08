@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "approximation",
+  "subtopic": "decimal-approximation",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "What approximate value will come in place of the question mark (?) in the following equations? (You are not expected to calculate the exact value).",
+          "questions": [
+            {
+              "id": 1,
+              "text": "14.98 × 12.01 + 24.89 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "205"
+                },
+                {
+                  "label": "B",
+                  "text": "235"
+                },
+                {
+                  "label": "C",
+                  "text": "185"
+                },
+                {
+                  "label": "D",
+                  "text": "190"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the values to nearest whole numbers:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "124.95 + 175.05 - 89.92 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "210"
+                },
+                {
+                  "label": "B",
+                  "text": "190"
+                },
+                {
+                  "label": "C",
+                  "text": "220"
+                },
+                {
+                  "label": "D",
+                  "text": "230"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the values:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "44.98 × 3.99 - 59.95 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "110"
+                },
+                {
+                  "label": "B",
+                  "text": "120"
+                },
+                {
+                  "label": "C",
+                  "text": "130"
+                },
+                {
+                  "label": "D",
+                  "text": "140"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating the values:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "(25.01)² - (14.99)² = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "380"
+                },
+                {
+                  "label": "B",
+                  "text": "410"
+                },
+                {
+                  "label": "C",
+                  "text": "400"
+                },
+                {
+                  "label": "D",
+                  "text": "390"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating the values:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "119.98 ÷ 4.02 × 5.95 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "160"
+                },
+                {
+                  "label": "B",
+                  "text": "180"
+                },
+                {
+                  "label": "C",
+                  "text": "200"
+                },
+                {
+                  "label": "D",
+                  "text": "150"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating the values:",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "What approximate value will come in place of the question mark (?) in the following equations? (You are not expected to calculate the exact value).",
+          "questions": [
+            {
+              "id": 6,
+              "text": "39.95 × 14.98 + 24.99 × 16.02 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "800"
+                },
+                {
+                  "label": "B",
+                  "text": "900"
+                },
+                {
+                  "label": "C",
+                  "text": "1000"
+                },
+                {
+                  "label": "D",
+                  "text": "1100"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating the values:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "(18.01)² + (11.95)² - (9.98)² = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "358"
+                },
+                {
+                  "label": "B",
+                  "text": "368"
+                },
+                {
+                  "label": "C",
+                  "text": "378"
+                },
+                {
+                  "label": "D",
+                  "text": "388"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating the values:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "719.95 ÷ 8.99 + 119.99 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "200"
+                },
+                {
+                  "label": "B",
+                  "text": "220"
+                },
+                {
+                  "label": "C",
+                  "text": "180"
+                },
+                {
+                  "label": "D",
+                  "text": "240"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the values:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "√(1023.99) + √(1224.98) - 15.01 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "62"
+                },
+                {
+                  "label": "B",
+                  "text": "42"
+                },
+                {
+                  "label": "C",
+                  "text": "52"
+                },
+                {
+                  "label": "D",
+                  "text": "72"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating the square roots:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "84.95 × 12.01 - 25.01 × 13.98 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "670"
+                },
+                {
+                  "label": "B",
+                  "text": "650"
+                },
+                {
+                  "label": "C",
+                  "text": "690"
+                },
+                {
+                  "label": "D",
+                  "text": "710"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the values:",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "What approximate value will come in place of the question mark (?) in the following equations? (You are not expected to calculate the exact value).",
+          "questions": [
+            {
+              "id": 11,
+              "text": "(29.98)² - (20.02)² + (15.05)² = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "725"
+                },
+                {
+                  "label": "B",
+                  "text": "715"
+                },
+                {
+                  "label": "C",
+                  "text": "735"
+                },
+                {
+                  "label": "D",
+                  "text": "745"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the values:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "1249.99 ÷ 24.95 × 15.02 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "730"
+                },
+                {
+                  "label": "B",
+                  "text": "750"
+                },
+                {
+                  "label": "C",
+                  "text": "770"
+                },
+                {
+                  "label": "D",
+                  "text": "790"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating the values:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "45.05 × 2.99 + 13.01 × 11.95 - 49.98 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "221"
+                },
+                {
+                  "label": "B",
+                  "text": "231"
+                },
+                {
+                  "label": "C",
+                  "text": "241"
+                },
+                {
+                  "label": "D",
+                  "text": "251"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating the values:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "∛(4095.95) + √(2303.99) - 17.98 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "46"
+                },
+                {
+                  "label": "B",
+                  "text": "44"
+                },
+                {
+                  "label": "C",
+                  "text": "48"
+                },
+                {
+                  "label": "D",
+                  "text": "42"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the roots:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "134.99 × 4.02 ÷ 26.98 + 115.01 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "135"
+                },
+                {
+                  "label": "B",
+                  "text": "145"
+                },
+                {
+                  "label": "C",
+                  "text": "125"
+                },
+                {
+                  "label": "D",
+                  "text": "155"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating the values:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

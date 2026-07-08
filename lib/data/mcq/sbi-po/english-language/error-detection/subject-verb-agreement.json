@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "error-detection",
+  "subtopic": "subject-verb-agreement",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Error Detection\nSubtopic: Subject Verb Agreement",
+          "questions": [
+            {
+              "id": 1,
+              "text": "The introduction of tea, coffee, and such other beverages (A) / have not been without (B) / some effect on the health of the citizens. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The introduction of tea, coffee, and such other beverages"
+                },
+                {
+                  "label": "B",
+                  "text": "have not been without"
+                },
+                {
+                  "label": "C",
+                  "text": "some effect on the health of the citizens."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The subject of the sentence is \"The introduction\" (singular), not the beverages. Therefore, the singular verb \"has\" should be used instead of \"have\". The correct phrase is \"has not been without\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Each of the students in the computer science class (A) / has to type their own research paper (B) / this semester. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Each of the students in the computer science class"
+                },
+                {
+                  "label": "B",
+                  "text": "has to type their own research paper"
+                },
+                {
+                  "label": "C",
+                  "text": "this semester."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Each\" is a singular pronoun and takes a singular verb (\"has\"), which is correct. However, the subsequent pronoun must also be singular (\"his or her\" instead of \"their\"). Thus, the error lies in part (B).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "A vast majority of the voters (A) / in the state has decided (B) / to vote for the incumbent governor. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A vast majority of the voters"
+                },
+                {
+                  "label": "B",
+                  "text": "in the state has decided"
+                },
+                {
+                  "label": "C",
+                  "text": "to vote for the incumbent governor."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When \"majority of\" is followed by a plural noun (\"voters\"), the verb should be plural. It should be \"have decided\" instead of \"has decided\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Neither the size nor the color (A) / of the clothes which I purchased (B) / were right for me. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Neither the size nor the color"
+                },
+                {
+                  "label": "B",
+                  "text": "of the clothes which I purchased"
+                },
+                {
+                  "label": "C",
+                  "text": "were right for me."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "In a \"Neither...nor\" construction, the verb agrees with the subject closest to it. \"Color\" is singular, so the verb should be \"was\", not \"were\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "The rise and fall of the tide (A) / are due to (B) / lunar influence. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The rise and fall of the tide"
+                },
+                {
+                  "label": "B",
+                  "text": "are due to"
+                },
+                {
+                  "label": "C",
+                  "text": "lunar influence."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"The rise and fall\" is considered a singular concept or phenomenon. Therefore, it takes a singular verb. \"Are\" should be replaced with \"is\".",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Error Detection\nSubtopic: Subject Verb Agreement",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Many a man (A) / have succumbed to (B) / this temptation in the past. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Many a man"
+                },
+                {
+                  "label": "B",
+                  "text": "have succumbed to"
+                },
+                {
+                  "label": "C",
+                  "text": "this temptation in the past."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"Many a\" takes a singular noun (\"man\") and a singular verb. Therefore, \"have\" should be changed to \"has\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Not only the principal (A) / but also the teachers (B) / was held responsible for the dispute. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Not only the principal"
+                },
+                {
+                  "label": "B",
+                  "text": "but also the teachers"
+                },
+                {
+                  "label": "C",
+                  "text": "was held responsible for the dispute."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "In a \"not only...but also\" sentence, the verb agrees with the nearest subject. \"The teachers\" is plural, so the verb should be \"were\" instead of \"was\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "One of my firmest belief (A) / is that hard work (B) / pays off in the long run. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One of my firmest belief"
+                },
+                {
+                  "label": "B",
+                  "text": "is that hard work"
+                },
+                {
+                  "label": "C",
+                  "text": "pays off in the long run."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"One of\" is always followed by a plural noun. Therefore, \"belief\" should be pluralized to \"beliefs\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Ten miles are (A) / a long distance to cover (B) / on foot in a single day. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Ten miles are"
+                },
+                {
+                  "label": "B",
+                  "text": "a long distance to cover"
+                },
+                {
+                  "label": "C",
+                  "text": "on foot in a single day."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "When a plural noun denotes a specific quantity, distance, time, or amount as a whole unit, the verb is singular. \"Ten miles\" represents a single distance, so \"are\" should be \"is\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "The committee (A) / has debated the issue (B) / and have finally reached a consensus. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The committee"
+                },
+                {
+                  "label": "B",
+                  "text": "has debated the issue"
+                },
+                {
+                  "label": "C",
+                  "text": "and have finally reached a consensus."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The collective noun \"committee\" is acting as a single unit, hence it takes a singular verb (\"has\"). The second verb must also be singular for parallel agreement. \"Have\" should be changed to \"has\".",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Error Detection\nSubtopic: Subject Verb Agreement",
+          "questions": [
+            {
+              "id": 11,
+              "text": "The Arabian Nights (A) / are an interesting book (B) / that every child should read. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The Arabian Nights"
+                },
+                {
+                  "label": "B",
+                  "text": "are an interesting book"
+                },
+                {
+                  "label": "C",
+                  "text": "that every child should read."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"The Arabian Nights\" is the title of a single book, so it takes a singular verb. \"Are\" should be replaced with \"is\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Economics, as well as political science, (A) / are taught by the new professor (B) / who joined the faculty last week. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Economics, as well as political science,"
+                },
+                {
+                  "label": "B",
+                  "text": "are taught by the new professor"
+                },
+                {
+                  "label": "C",
+                  "text": "who joined the faculty last week."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When two subjects are connected by \"as well as\", the verb agrees with the first subject. \"Economics\" is a singular subject, so the verb should be \"is\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "More than one successful candidate (A) / have taken the interview (B) / for this prestigious position. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "More than one successful candidate"
+                },
+                {
+                  "label": "B",
+                  "text": "have taken the interview"
+                },
+                {
+                  "label": "C",
+                  "text": "for this prestigious position."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"More than one\" is always followed by a singular noun and takes a singular verb. Therefore, \"have\" should be replaced with \"has\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "The number of students (A) / who have opted for the course (B) / are exceptionally large this year. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The number of students"
+                },
+                {
+                  "label": "B",
+                  "text": "who have opted for the course"
+                },
+                {
+                  "label": "C",
+                  "text": "are exceptionally large this year."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The phrase \"The number of\" takes a plural noun but a singular verb, because it refers to the specific count as a singular concept. Therefore, \"are\" should be \"is\". (Note: \"A number of\" takes a plural verb).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Either the CEO or the board members (A) / is going to have to take the blame (B) / for the catastrophic financial loss. (C) / No error (D)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Either the CEO or the board members"
+                },
+                {
+                  "label": "B",
+                  "text": "is going to have to take the blame"
+                },
+                {
+                  "label": "C",
+                  "text": "for the catastrophic financial loss."
+                },
+                {
+                  "label": "D",
+                  "text": "No error"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "In an \"either...or\" construction, the verb must agree with the noun closest to it. Since \"board members\" is plural, the verb must be plural. \"Is\" should be changed to \"are\".",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

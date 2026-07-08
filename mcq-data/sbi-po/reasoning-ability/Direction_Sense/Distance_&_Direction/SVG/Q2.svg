@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" font-family="Arial, sans-serif">
+  
+  <rect x="10" y="10" width="580" height="380" fill="#fafafa" stroke="#bdbdbd" stroke-width="2" rx="4" />
+  
+  <text x="300" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#263238">Direction Sense Mapping</text>
+  
+  <!-- Base Coordinates mapping
+       B(0,0) mapped to (300, 200)
+       Scale: 1m = 10px
+  -->
+
+  <g stroke="#607d8b" stroke-width="3" fill="none" stroke-linejoin="round">
+    <!-- A(-90,0) to B(0,0) -->
+    <line x1="210" y1="200" x2="300" y2="200" />
+    
+    <!-- B(0,0) to C(0, 120) -->
+    <line x1="300" y1="200" x2="300" y2="320" />
+    
+    <!-- C(0, 120) to D(160, 120) -->
+    <line x1="300" y1="320" x2="460" y2="320" />
+    
+    <!-- D(160, 120) to E(160, -80) -->
+    <line x1="460" y1="320" x2="460" y2="120" />
+    
+    <!-- E(160, -80) to F(0, -80) -->
+    <line x1="460" y1="120" x2="300" y2="120" />
+    
+    <!-- F(0, -80) to G(-90, -80) -->
+    <line x1="300" y1="120" x2="210" y2="120" />
+    
+    <!-- Projected distance A to G (Question 1) -->
+    <line x1="210" y1="200" x2="210" y2="120" stroke="#d32f2f" stroke-width="2" stroke-dasharray="6,6" />
+  </g>
+
+  <!-- Distance Labels -->
+  <g font-size="14" fill="#37474f" font-weight="bold">
+    <text x="250" y="195">9m</text>
+    <text x="310" y="265">12m</text>
+    <text x="370" y="315">16m</text>
+    <text x="470" y="225">20m</text>
+    <text x="370" y="115">16m</text>
+    <text x="250" y="115">9m</text>
+    <text x="180" y="165" fill="#d32f2f">8m</text>
+  </g>
+
+  <!-- Node Points -->
+  <g fill="#1565c0" stroke="#ffffff" stroke-width="2">
+    <!-- A -->
+    <circle cx="210" cy="200" r="6"/>
+    <!-- B -->
+    <circle cx="300" cy="200" r="6"/>
+    <!-- C -->
+    <circle cx="300" cy="320" r="6"/>
+    <!-- D -->
+    <circle cx="460" cy="320" r="6"/>
+    <!-- E -->
+    <circle cx="460" cy="120" r="6"/>
+    <!-- F -->
+    <circle cx="300" cy="120" r="6"/>
+    <!-- G -->
+    <circle cx="210" cy="120" r="6" fill="#d32f2f"/>
+  </g>
+
+  <!-- Node Labels -->
+  <g font-size="16" font-weight="bold" fill="#0d47a1">
+    <text x="190" y="205">A</text>
+    <text x="310" y="195">B</text>
+    <text x="280" y="335">C</text>
+    <text x="475" y="335">D</text>
+    <text x="475" y="115">E</text>
+    <text x="280" y="115">F</text>
+    <text x="190" y="115" fill="#c2185b">G</text>
+  </g>
+
+</svg>

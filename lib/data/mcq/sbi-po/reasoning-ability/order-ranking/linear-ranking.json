@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "order-ranking",
+  "subtopic": "linear-ranking",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Answer the questions based on the basic linear arrangement formulas.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "In a row of 40 students facing North, Amit is 15th from the left end. What is his rank from the right end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24th"
+                },
+                {
+                  "label": "B",
+                  "text": "25th"
+                },
+                {
+                  "label": "C",
+                  "text": "26th"
+                },
+                {
+                  "label": "D",
+                  "text": "27th"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Rank from Right = Total - Rank from Left + 1",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Rahul is 12th from the left end and 20th from the right end in a row of boys. How many boys are there in the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "30"
+                },
+                {
+                  "label": "B",
+                  "text": "31"
+                },
+                {
+                  "label": "C",
+                  "text": "32"
+                },
+                {
+                  "label": "D",
+                  "text": "33"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total = Left + Right - 1",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "In a queue, Priya is 8th from the front and Riya is 12th from the back. If there are 5 people standing strictly between them, what is the total number of people in the queue? (Assume non-overlapping).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "23"
+                },
+                {
+                  "label": "B",
+                  "text": "24"
+                },
+                {
+                  "label": "C",
+                  "text": "25"
+                },
+                {
+                  "label": "D",
+                  "text": "26"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "In a non-overlapping scenario: Total = Front + Back + Between",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In a row of 50 students, Esha is 20th from the left and Farah is 15th from the right. How many students are sitting between them?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "14"
+                },
+                {
+                  "label": "B",
+                  "text": "15"
+                },
+                {
+                  "label": "C",
+                  "text": "16"
+                },
+                {
+                  "label": "D",
+                  "text": "17"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sum of ranks = 20 + 15 = 35. Since 35 < 50, it is a non-overlapping case.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Gautam is exactly in the middle of a row containing 31 students. What is his rank from the left end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "15th"
+                },
+                {
+                  "label": "B",
+                  "text": "16th"
+                },
+                {
+                  "label": "C",
+                  "text": "17th"
+                },
+                {
+                  "label": "D",
+                  "text": "18th"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "For an odd number of students (N), the exact middle position is (N + 1) / 2.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the interchanging and shifting scenarios carefully.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "A is 12th from the left and B is 18th from the right. When they interchange their positions, A becomes 25th from the left. What is the total number of students in the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40"
+                },
+                {
+                  "label": "B",
+                  "text": "41"
+                },
+                {
+                  "label": "C",
+                  "text": "42"
+                },
+                {
+                  "label": "D",
+                  "text": "43"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A's new position is the same physical seat as B's old position.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In the previous question (Q6), what will be B's new position from the right end after the interchange?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "30th"
+                },
+                {
+                  "label": "B",
+                  "text": "31st"
+                },
+                {
+                  "label": "C",
+                  "text": "32nd"
+                },
+                {
+                  "label": "D",
+                  "text": "33rd"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "B's new seat is A's old seat, which is 12th from the left.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "P is 15th from the left end. If he shifts 5 places to his right, he becomes exactly in the middle of the row. What is the total number of people in the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "38"
+                },
+                {
+                  "label": "B",
+                  "text": "39"
+                },
+                {
+                  "label": "C",
+                  "text": "40"
+                },
+                {
+                  "label": "D",
+                  "text": "41"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "New position of P from left = 15 + 5 = 20th.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Q is 14th from the right end. If he shifts 4 places to his left, he becomes 18th from the left end. What is the total number of students?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "34"
+                },
+                {
+                  "label": "B",
+                  "text": "35"
+                },
+                {
+                  "label": "C",
+                  "text": "36"
+                },
+                {
+                  "label": "D",
+                  "text": "37"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Shifting 4 places to the left from the right end means his rank from the right increases.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "In a row of 60 students, R is 25th from the left and S is 30th from the right. T sits exactly between them. What is T's position from the left end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "27th"
+                },
+                {
+                  "label": "B",
+                  "text": "28th"
+                },
+                {
+                  "label": "C",
+                  "text": "29th"
+                },
+                {
+                  "label": "D",
+                  "text": "30th"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "S is 30th from right -> (60 - 30 + 1) = 31st from left.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the overlapping and complex ranking scenarios carefully.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "X is 25th from the left and Y is 30th from the right. If there are 10 students between them, what is the minimum possible total number of students in the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "41"
+                },
+                {
+                  "label": "B",
+                  "text": "43"
+                },
+                {
+                  "label": "C",
+                  "text": "45"
+                },
+                {
+                  "label": "D",
+                  "text": "55"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "To find the minimum, we must assume an overlapping scenario.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In a row, M is 15th from the left and N is 22nd from the right. O is exactly between them. If O is 26th from the left, find the total number of students (assuming non-overlapping).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "55"
+                },
+                {
+                  "label": "B",
+                  "text": "58"
+                },
+                {
+                  "label": "C",
+                  "text": "60"
+                },
+                {
+                  "label": "D",
+                  "text": "62"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "M is 15th from left. O is 26th from left.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In a row of 50 students, A is 35th from the left and B is 40th from the right. How many students are sitting between A and B?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "20"
+                },
+                {
+                  "label": "B",
+                  "text": "21"
+                },
+                {
+                  "label": "C",
+                  "text": "23"
+                },
+                {
+                  "label": "D",
+                  "text": "25"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Sum of ranks = 35 + 40 = 75.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In a row of 80 students, the ratio of girls to boys is 3:5. Ram, a boy, is 25th from the left end. If there are 10 girls to the left of Ram, how many boys are to his right?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "33"
+                },
+                {
+                  "label": "B",
+                  "text": "34"
+                },
+                {
+                  "label": "C",
+                  "text": "35"
+                },
+                {
+                  "label": "D",
+                  "text": "36"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total = 80. Girls = (3/8)*80 = 30. Boys = (5/8)*80 = 50.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "In a queue of 65 people, A is 18th from the front and B is 25th from the back. C is strictly in the middle of the queue. How many people are standing strictly between B and C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7"
+                },
+                {
+                  "label": "B",
+                  "text": "8"
+                },
+                {
+                  "label": "C",
+                  "text": "9"
+                },
+                {
+                  "label": "D",
+                  "text": "10"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "C is in the middle of 65 -> Rank = (65 + 1) / 2 = 33rd from the front.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

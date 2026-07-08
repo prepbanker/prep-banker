@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" font-family="Arial, sans-serif">
+  <!-- All Squares are Circles -->
+  <circle cx="150" cy="300" r="45" fill="rgba(0, 150, 136, 0.1)" stroke="#00796b" stroke-width="3"/>
+  <text x="150" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#004d40">Square</text>
+  
+  <!-- Some Circles are Rectangles -->
+  <circle cx="150" cy="300" r="95" fill="rgba(76, 175, 80, 0.1)" stroke="#388e3c" stroke-width="3"/>
+  <text x="150" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#1b5e20">Circle</text>
+  
+  <!-- All Rectangles are Triangles (Rectangle intersects Circle) -->
+  <circle cx="280" cy="300" r="55" fill="rgba(255, 152, 0, 0.1)" stroke="#f57c00" stroke-width="3"/>
+  <text x="280" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#e65100">Rectangle</text>
+  
+  <circle cx="290" cy="300" r="90" fill="rgba(255, 87, 34, 0.1)" stroke="#e64a19" stroke-width="3"/>
+  <text x="290" y="230" text-anchor="middle" font-size="16" font-weight="bold" fill="#bf360c">Triangle</text>
+  
+  <!-- No Triangle is a Cone -->
+  <circle cx="500" cy="300" r="65" fill="rgba(156, 39, 176, 0.1)" stroke="#7b1fa2" stroke-width="3"/>
+  <text x="500" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a148c">Cone</text>
+  
+  <!-- Disjoint Line and Cross -->
+  <line x1="380" y1="300" x2="435" y2="300" stroke="#d32f2f" stroke-width="3"/>
+  <path d="M 402.5 295 L 412.5 305 M 402.5 305 L 412.5 295" stroke="#d32f2f" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,440 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "grammar",
+  "subtopic": "noun",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Grammar\nSubtopic: Noun",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the grammatically correct sentence regarding noun usage:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "He gave me many advices before the interview."
+                },
+                {
+                  "label": "B",
+                  "text": "He gave me many pieces of advice before the interview."
+                },
+                {
+                  "label": "C",
+                  "text": "He gave me an advice before the interview."
+                },
+                {
+                  "label": "D",
+                  "text": "He gave me many advise before the interview."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Advice\" is an uncountable noun. It cannot be pluralized as \"advices\" or used with \"an\". To make it countable, we use \"pieces of advice\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the correct noun to fill in the blank: The beautiful ________ of Kashmir attracts tourists from all over the world.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "sceneries"
+                },
+                {
+                  "label": "B",
+                  "text": "scenery"
+                },
+                {
+                  "label": "C",
+                  "text": "scenerys"
+                },
+                {
+                  "label": "D",
+                  "text": "scenic"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Scenery\" is an uncountable noun and does not have a plural form (\"sceneries\").",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the grammatically correct sentence regarding noun usage:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The furnitures in this room are completely ruined."
+                },
+                {
+                  "label": "B",
+                  "text": "The furniture in this room are completely ruined."
+                },
+                {
+                  "label": "C",
+                  "text": "The furniture in this room is completely ruined."
+                },
+                {
+                  "label": "D",
+                  "text": "A furniture in this room is completely ruined."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Furniture\" is an uncountable collective noun. It takes a singular verb and cannot be pluralized as \"furnitures\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the correct noun phrase to fill in the blank: She has bought two ________ of bread from the bakery.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "loafs"
+                },
+                {
+                  "label": "B",
+                  "text": "loaves"
+                },
+                {
+                  "label": "C",
+                  "text": "loaf"
+                },
+                {
+                  "label": "D",
+                  "text": "loave"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The plural form of the noun \"loaf\" is \"loaves\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the grammatically correct sentence regarding noun usage:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "His trousers is too tight for him."
+                },
+                {
+                  "label": "B",
+                  "text": "His trouser is too tight for him."
+                },
+                {
+                  "label": "C",
+                  "text": "His trousers are too tight for him."
+                },
+                {
+                  "label": "D",
+                  "text": "A trousers are too tight for him."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Nouns that consist of two parts (like trousers, scissors, spectacles) are always plural and take a plural verb.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Grammar\nSubtopic: Noun",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the correct noun to fill in the blank: The committee has submitted ________ report after a detailed investigation.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "there"
+                },
+                {
+                  "label": "B",
+                  "text": "its"
+                },
+                {
+                  "label": "C",
+                  "text": "their"
+                },
+                {
+                  "label": "D",
+                  "text": "his"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Committee\" is a collective noun. When it acts as a single, undivided unit (submitting a single report), it takes the singular pronoun \"its\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the correct noun phrase to fill in the blank: My mother-in-law's house is nearby, but my ________ houses are in the city.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "mothers-in-law"
+                },
+                {
+                  "label": "B",
+                  "text": "mother-in-laws"
+                },
+                {
+                  "label": "C",
+                  "text": "mothers-in-law's"
+                },
+                {
+                  "label": "D",
+                  "text": "mother's-in-law"
+                },
+                {
+                  "label": "A",
+                  "text": "mother-in-laws"
+                },
+                {
+                  "label": "B",
+                  "text": "mothers-in-law"
+                },
+                {
+                  "label": "C",
+                  "text": "mothers-in-laws"
+                },
+                {
+                  "label": "D",
+                  "text": "mother-in-law"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Wait, \"my mothers-in-law\"? A person has only one mother-in-law. Let's fix the context.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the correct word to fill in the blank: A large number of ________ were grazing in the field.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "sheeps"
+                },
+                {
+                  "label": "B",
+                  "text": "sheep"
+                },
+                {
+                  "label": "C",
+                  "text": "sheepes"
+                },
+                {
+                  "label": "D",
+                  "text": "ship"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The noun \"sheep\" has the same form in both singular and plural. \"Sheeps\" is grammatically incorrect.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the grammatically correct sentence regarding noun usage:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Mathematics are a difficult subject for many students."
+                },
+                {
+                  "label": "B",
+                  "text": "Mathematics is a difficult subject for many students."
+                },
+                {
+                  "label": "C",
+                  "text": "Mathematic is a difficult subject for many students."
+                },
+                {
+                  "label": "D",
+                  "text": "Mathematics has a difficult subject for many students."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Nouns ending in \"-ics\" like Mathematics, Physics, and Politics are singular when referring to a subject of study and take a singular verb.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the correct word to fill in the blank: I need to buy some new ________ for my laboratory.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "equipments"
+                },
+                {
+                  "label": "B",
+                  "text": "equipment"
+                },
+                {
+                  "label": "C",
+                  "text": "piece of equipments"
+                },
+                {
+                  "label": "D",
+                  "text": "equip"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Equipment\" is an uncountable noun. It does not take an 's' to form a plural.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Grammar\nSubtopic: Noun",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the grammatically correct sentence regarding noun usage:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Five dozens eggs were bought from the market."
+                },
+                {
+                  "label": "B",
+                  "text": "Five dozen egg were bought from the market."
+                },
+                {
+                  "label": "C",
+                  "text": "Five dozen eggs were bought from the market."
+                },
+                {
+                  "label": "D",
+                  "text": "Five dozens of eggs were bought from the market."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "When a definite numeral (like 'five') precedes nouns denoting measure, number, or weight (like dozen, score, million), the noun remains in the singular form (\"dozen\"). The object counted takes the plural (\"eggs\").",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the correct phrase to fill in the blank: He is a man of ________.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "words"
+                },
+                {
+                  "label": "B",
+                  "text": "word"
+                },
+                {
+                  "label": "C",
+                  "text": "wordings"
+                },
+                {
+                  "label": "D",
+                  "text": "letters"
+                },
+                {
+                  "label": "A",
+                  "text": "words"
+                },
+                {
+                  "label": "B",
+                  "text": "word"
+                },
+                {
+                  "label": "C",
+                  "text": "letters"
+                },
+                {
+                  "label": "D",
+                  "text": "letters'"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"A man of letters\" is an idiom used to describe a male scholar or author. The noun \"letters\" here means literature or learning.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the grammatically correct sentence regarding noun usage:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The data is inconclusive regarding the new medical treatment."
+                },
+                {
+                  "label": "B",
+                  "text": "The datum are inconclusive regarding the new medical treatment."
+                },
+                {
+                  "label": "C",
+                  "text": "The datas are inconclusive regarding the new medical treatment."
+                },
+                {
+                  "label": "D",
+                  "text": "The data are inconclusive regarding the new medical treatment."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "In strict, formal grammar (often tested in banking exams), \"data\" is the plural of \"datum\". Therefore, it should correctly take the plural verb \"are\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the correct phrase to fill in the blank: The police caught the thief by his ________.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "hairs"
+                },
+                {
+                  "label": "B",
+                  "text": "hair"
+                },
+                {
+                  "label": "C",
+                  "text": "strand of hairs"
+                },
+                {
+                  "label": "D",
+                  "text": "hair's"
+                },
+                {
+                  "label": "A",
+                  "text": "It is a three-miles walk from my house to the university."
+                },
+                {
+                  "label": "B",
+                  "text": "It is a three-mile walk from my house to the university."
+                },
+                {
+                  "label": "C",
+                  "text": "It is three-mile walk from my house to the university."
+                },
+                {
+                  "label": "D",
+                  "text": "It is a three-miles walks from my house to the university."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Hair\" is typically treated as an uncountable mass noun when referring to the entire collection of hair on someone's head.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

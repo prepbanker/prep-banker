@@ -1,0 +1,355 @@
+----------------------------------------
+Topic: Missing Number Series
+Subtopic: Cube Pattern
+----------------------------------------
+
+Directions (Q1–Q15): What will come in place of the question mark (?) in the following number series?
+
+Q1. 1, 8, 27, 64, ?
+(A) 100
+(B) 125
+(C) 81
+(D) 121
+
+Answer: B
+Explanation:
+The series consists of consecutive perfect cubes: 1³, 2³, 3³, 4³.
+Next is 5³ = 125.
+
+----------------------------------------
+
+Q2. 2, 9, 28, 65, 126, ?
+(A) 217
+(B) 216
+(C) 215
+(D) 218
+
+Answer: A
+Explanation:
+The pattern is (n³ + 1).
+1³ + 1 = 2
+2³ + 1 = 9
+3³ + 1 = 28
+4³ + 1 = 65
+5³ + 1 = 126
+Next is 6³ + 1 = 217.
+
+----------------------------------------
+
+Q3. 0, 7, 26, 63, 124, ?
+(A) 215
+(B) 216
+(C) 214
+(D) 217
+
+Answer: A
+Explanation:
+The pattern is (n³ - 1).
+1³ - 1 = 0
+2³ - 1 = 7
+3³ - 1 = 26
+4³ - 1 = 63
+5³ - 1 = 124
+Next is 6³ - 1 = 215.
+
+----------------------------------------
+
+Q4. 12, 13, 21, 48, 112, ?
+(A) 237
+(B) 235
+(C) 227
+(D) 247
+
+Answer: A
+Explanation:
+Differences are perfect cubes:
+13 - 12 = 1 (1³)
+21 - 13 = 8 (2³)
+48 - 21 = 27 (3³)
+112 - 48 = 64 (4³)
+Next difference is 125 (5³).
+112 + 125 = 237.
+
+----------------------------------------
+
+Q5. 1, 10, 37, 101, 226, ?
+(A) 441
+(B) 442
+(C) 440
+(D) 445
+
+Answer: B
+Explanation:
+Wait, let's check differences:
+10 - 1 = 9
+37 - 10 = 27
+101 - 37 = 64
+226 - 101 = 125.
+Differences are 9, 27, 64, 125.
+Wait, 9 is 3², not 2³.
+Let's modify Q5 to make differences consecutive cubes starting from 2³.
+1 + 8 = 9.
+9 + 27 = 36.
+36 + 64 = 100.
+100 + 125 = 225.
+Next difference = 216 (6³).
+225 + 216 = 441.
+
+Q5. 1, 9, 36, 100, 225, ?
+(A) 441
+(B) 442
+(C) 440
+(D) 445
+
+Answer: A
+Explanation:
+Differences are consecutive perfect cubes:
+9 - 1 = 8 (2³)
+36 - 9 = 27 (3³)
+100 - 36 = 64 (4³)
+225 - 100 = 125 (5³)
+Next difference is 216 (6³).
+225 + 216 = 441.
+
+----------------------------------------
+
+Q6. 2, 10, 30, 68, 130, ?
+(A) 216
+(B) 220
+(C) 222
+(D) 224
+
+Answer: C
+Explanation:
+The pattern is (n³ + n).
+1³ + 1 = 2
+2³ + 2 = 10
+3³ + 3 = 30
+4³ + 4 = 68
+5³ + 5 = 130
+Next is 6³ + 6 = 216 + 6 = 222.
+
+----------------------------------------
+
+Q7. 0, 6, 24, 60, 120, ?
+(A) 216
+(B) 210
+(C) 200
+(D) 190
+
+Answer: B
+Explanation:
+The pattern is (n³ - n).
+1³ - 1 = 0
+2³ - 2 = 6
+3³ - 3 = 24
+4³ - 4 = 60
+5³ - 5 = 120
+Next is 6³ - 6 = 216 - 6 = 210.
+
+----------------------------------------
+
+Q8. 6, 25, 62, 123, 214, ?
+(A) 341
+(B) 343
+(C) 339
+(D) 345
+
+Answer: A
+Explanation:
+The pattern is (n³ - 2).
+2³ - 2 = 6
+3³ - 2 = 25
+4³ - 2 = 62
+5³ - 2 = 123
+6³ - 2 = 214
+Next is 7³ - 2 = 343 - 2 = 341.
+
+----------------------------------------
+
+Q9. 4, 31, 156, 499, ?
+(A) 1230
+(B) 1228
+(C) 1235
+(D) 1225
+
+Answer: B
+Explanation:
+Differences:
+31 - 4 = 27 (3³)
+156 - 31 = 125 (5³)
+499 - 156 = 343 (7³)
+The differences are cubes of consecutive odd numbers (3, 5, 7).
+Next difference is 9³ = 729.
+499 + 729 = 1228.
+
+----------------------------------------
+
+Q10. 15, 23, 87, 212, 555, ?
+(A) 895
+(B) 899
+(C) 890
+(D) 891
+
+Answer: B
+Explanation:
+Wait, let's check differences.
+23 - 15 = 8 (2³)
+87 - 23 = 64 (4³)
+212 - 87 = 125 (5³). Wait, 2, 4, 5? Pattern breaks.
+Let's fix it. Cubes of even numbers: 2³, 4³, 6³, 8³.
+15 + 8 (2³) = 23.
+23 + 64 (4³) = 87.
+87 + 216 (6³) = 303.
+303 + 512 (8³) = 815.
+Let's use these numbers.
+
+Q10. 15, 23, 87, 303, ?
+(A) 815
+(B) 825
+(C) 805
+(D) 835
+
+Answer: A
+Explanation:
+Differences are cubes of consecutive even numbers:
+23 - 15 = 8 (2³)
+87 - 23 = 64 (4³)
+303 - 87 = 216 (6³)
+Next difference is 512 (8³).
+303 + 512 = 815.
+
+----------------------------------------
+
+Q11. 2, 12, 36, 80, 150, ?
+(A) 252
+(B) 258
+(C) 260
+(D) 250
+
+Answer: A
+Explanation:
+The pattern is (n³ + n²).
+1³ + 1² = 1 + 1 = 2
+2³ + 2² = 8 + 4 = 12
+3³ + 3² = 27 + 9 = 36
+4³ + 4² = 64 + 16 = 80
+5³ + 5² = 125 + 25 = 150
+Next is 6³ + 6² = 216 + 36 = 252.
+
+----------------------------------------
+
+Refer to diagram: SVG/Q12.svg for a visual representation.
+
+Q12. 0, 4, 18, 48, 100, ?
+(A) 180
+(B) 190
+(C) 196
+(D) 200
+
+Answer: A
+Explanation:
+The pattern is (n³ - n²).
+1³ - 1² = 1 - 1 = 0
+2³ - 2² = 8 - 4 = 4
+3³ - 3² = 27 - 9 = 18
+4³ - 4² = 64 - 16 = 48
+5³ - 5² = 125 - 25 = 100
+Next is 6³ - 6² = 216 - 36 = 180.
+
+----------------------------------------
+
+Q13. 1, 11, 35, 79, 149, ?
+(A) 255
+(B) 245
+(C) 251
+(D) 241
+
+Answer: C
+Explanation:
+Let's check the logic:
+(n³ + n²) doesn't fit.
+Let's check differences:
+11 - 1 = 10
+35 - 11 = 24
+79 - 35 = 44
+149 - 79 = 70
+Second differences: 14, 20, 26.
+Third differences: 6, 6.
+So it's a cubic polynomial, but this is arithmetic mixed.
+Let's replace Q13 with a direct cubic relation.
+
+Q13. 5, 24, 61, 122, 213, ?
+(A) 340
+(B) 338
+(C) 342
+(D) 336
+
+Answer: A
+Explanation:
+The pattern is (n³ - 3) starting from n = 2.
+2³ - 3 = 5
+3³ - 3 = 24
+4³ - 3 = 61
+5³ - 3 = 122
+6³ - 3 = 213
+Next is 7³ - 3 = 343 - 3 = 340.
+
+----------------------------------------
+
+Q14. 3, 28, 153, 496, 1225, ?
+(A) 2556
+(B) 2552
+(C) 2550
+(D) 2560
+
+Answer: A
+Explanation:
+Differences:
+28 - 3 = 25
+153 - 28 = 125 (5³)
+496 - 153 = 343 (7³)
+1225 - 496 = 729 (9³)
+Wait, 28 - 3 = 25 is not a cube.
+Let's rewrite the series so the first difference is 27 (3³).
+3 + 27 = 30.
+30 + 125 = 155.
+155 + 343 = 498.
+498 + 729 = 1227.
+
+Q14. 3, 30, 155, 498, 1227, ?
+(A) 2558
+(B) 2556
+(C) 2552
+(D) 2560
+
+Answer: A
+Explanation:
+Differences are cubes of odd numbers (3³, 5³, 7³, 9³).
+30 - 3 = 27 (3³)
+155 - 30 = 125 (5³)
+498 - 155 = 343 (7³)
+1227 - 498 = 729 (9³)
+Next difference is 1331 (11³).
+1227 + 1331 = 2558.
+
+----------------------------------------
+
+Q15. 1331, 2197, 3375, 4913, ?
+(A) 6859
+(B) 5832
+(C) 6851
+(D) 6869
+
+Answer: A
+Explanation:
+The series consists of cubes of consecutive prime numbers.
+Wait: 1331 (11³). 2197 (13³). 3375 (15³). 15 is not prime.
+It's cubes of consecutive odd numbers starting from 11.
+11³ = 1331
+13³ = 2197
+15³ = 3375
+17³ = 4913
+Next odd number is 19.
+19³ = 6859.
+----------------------------------------

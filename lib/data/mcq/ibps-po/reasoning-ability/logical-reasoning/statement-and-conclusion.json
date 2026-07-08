@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "logical-reasoning",
+  "subtopic": "statement-and-conclusion",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "In each question below, one or more statements are given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true, then consider the two conclusions together and decide which of them logically follows beyond a reasonable doubt from the information given in the statement.\n\nOptions for all questions:\n(A) If only conclusion I follows\n(B) If only conclusion II follows\n(C) If either I or II follows\n(D) If neither I nor II follows (Wait, usually there is 'Both I and II follow'. I'll adjust options per question).\n\nLet's use specific 4 options for each question to strictly adhere to the standard format.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Statement: \"To keep myself updated, I always read the evening newspaper.\" - Rohan to his friend.\nConclusions:\nI. Rohan does not read the morning newspaper.\nII. Evening newspapers provide updated information.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I doesn't follow because we don't know if he reads the morning newspaper or not. He states what he does to keep updated.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Statement: The Government has appealed to all citizens to use water carefully as the reservoir levels are critically low.\nConclusions:\nI. People may ignore the government's appeal and continue wasting water.\nII. People may understand the severity and start using water carefully.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither I nor II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When an appeal or notice is issued, it is logically assumed that people will pay attention to it and follow it (otherwise, issuing it would be pointless in logical reasoning frameworks). Hence, conclusion II follows. Conclusion I is a negative assumption which does not logically follow as the intended outcome.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Statement: All those who have a valid ticket will be allowed to enter the stadium.\nConclusions:\nI. Those without a ticket will not be allowed to enter.\nII. Only tickets guarantee entry into the stadium.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The statement sets a condition for entry (having a valid ticket). Thus, those without it will not enter (Conclusion I follows). Conclusion II uses the word 'only', which means nothing else is checked (e.g., security check). Since we only know about tickets, we cannot say 'only' tickets guarantee entry. So, I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Statement: A large majority of the workforce in company X is facing health issues due to extreme stress.\nConclusions:\nI. The company X should immediately reduce the working hours for all employees.\nII. Stress is a major factor contributing to the health issues of employees in company X.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I is an action or suggestion, not a direct logical conclusion from the statement. A conclusion must be a fact deduced from the statement.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Statement: \"Buy pure and natural honey of brand X.\" - An advertisement in a newspaper.\nConclusions:\nI. Artificial honey can be prepared.\nII. People do not mind paying more for pure and natural honey.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The ad highlights \"pure and natural\" honey, which implies there exists honey that is NOT pure and natural (i.e., artificial). Hence, I follows.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "In each question below, one or more statements are given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true, then consider the two conclusions together and decide which of them logically follows beyond a reasonable doubt from the information given in the statement.\n\nOptions for all questions:\n(A) If only conclusion I follows\n(B) If only conclusion II follows\n(C) If either I or II follows\n(D) If neither I nor II follows (Wait, usually there is 'Both I and II follow'. I'll adjust options per question).\n\nLet's use specific 4 options for each question to strictly adhere to the standard format.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Statement: Good health is an essential requirement for higher productivity.\nConclusions:\nI. A sick person cannot be highly productive.\nII. Good health guarantees higher productivity.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The statement says good health is \"essential\" (necessary condition) for higher productivity. Thus, without it (sick person), one cannot be highly productive. So, I follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Statement: Over-usage of smartphones before bedtime leads to severe sleep deprivation among teenagers.\nConclusions:\nI. Teenagers who do not use smartphones before bedtime never face sleep deprivation.\nII. Sleep deprivation among teenagers can be reduced by limiting smartphone usage before bedtime.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I is extreme (\"never face\"). Sleep deprivation could be caused by other factors.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Statement: Company ABC has decided to give a 15% bonus to all its employees this Diwali.\nConclusions:\nI. The company made a huge profit this year.\nII. The employees of company ABC will be motivated to work harder.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Conclusion I is a mere assumption; bonuses can be given for other reasons (retention, standard policy) regardless of huge profits.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Statement: The literacy rate in state Y has increased significantly due to the implementation of the new free education policy.\nConclusions:\nI. Free education policies always increase literacy rates.\nII. State Y had a lower literacy rate prior to the implementation of this policy.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I uses the absolute word \"always\", which cannot be deduced from one specific case (State Y).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Statement: No country is absolutely self-dependent these days.\nConclusions:\nI. It is impossible to grow and produce all that a country needs.\nII. Countrymen in general have become lazy.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The statement asserts that absolute self-dependence is absent today. This logically implies that countries cannot produce/grow everything they need (Conclusion I follows).",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "In each question below, one or more statements are given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true, then consider the two conclusions together and decide which of them logically follows beyond a reasonable doubt from the information given in the statement.\n\nOptions for all questions:\n(A) If only conclusion I follows\n(B) If only conclusion II follows\n(C) If either I or II follows\n(D) If neither I nor II follows (Wait, usually there is 'Both I and II follow'. I'll adjust options per question).\n\nLet's use specific 4 options for each question to strictly adhere to the standard format.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Statement: \"Those who score less than 60% in the entrance exam will not be shortlisted for the interview.\" - A notice by Institute Z.\nConclusions:\nI. Scoring 60% or more guarantees a selection in the interview.\nII. No candidate scoring less than 60% will attend the interview.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I is false because scoring 60% or more only gets you shortlisted, it does not guarantee final selection in the interview.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Statement: Reading books expands the mind and improves cognitive abilities.\nConclusions:\nI. Those who do not read books have poor cognitive abilities.\nII. Watching television shrinks the mind.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Conclusion I does not follow because while reading improves cognitive abilities, it doesn't mean those who don't read have \"poor\" abilities (they might improve them via other methods).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Statement: Economic growth is heavily dependent on technological advancements.\nConclusions:\nI. A country without technological advancements will face economic stagnation or decline.\nII. All developed countries have advanced technology.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Since economic growth is \"heavily dependent\" on technology, the lack of technology logically leads to a lack of growth (stagnation). Thus, I follows.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Statement: \"Invest in mutual funds for high returns, but be aware of market risks.\" - Financial Advisor.\nConclusions:\nI. Mutual funds always give high returns.\nII. There is a possibility of losing money in mutual funds.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I is wrong because the advisor says to \"be aware of market risks\", meaning returns are not guaranteed or \"always\" high.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Statement: Due to heavy fog, all flights originating from City A have been delayed indefinitely.\nConclusions:\nI. Fog makes visibility too poor for safe flight operations.\nII. Passengers traveling from City A will reach their destinations late.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Conclusion I logically follows because fog causing flight delays implies it affects safe operations (visibility).",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

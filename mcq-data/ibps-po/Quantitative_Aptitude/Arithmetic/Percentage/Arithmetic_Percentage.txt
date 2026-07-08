@@ -1,0 +1,247 @@
+----------------------------------------
+Topic: Arithmetic
+Subtopic: Percentage
+----------------------------------------
+
+Q1. If 30% of a number is 120, what is 75% of that number?
+(A) 250
+(B) 300
+(C) 350
+(D) 400
+
+Answer: B
+Explanation:
+Let the number be 'x'.
+30% of x = 120
+(30/100) * x = 120
+x = (120 * 100) / 30 = 400
+Now, 75% of x = (75/100) * 400 = 75 * 4 = 300.
+
+Q2. The price of an article is first increased by 20% and then decreased by 10%. What is the net percentage change in the price?
+(A) 8% increase
+(B) 10% increase
+(C) 8% decrease
+(D) 12% increase
+
+Answer: A
+Explanation:
+Let the initial price be 100.
+After 20% increase, price = 100 + 20 = 120.
+After 10% decrease on 120, decrease = 10% of 120 = 12.
+New price = 120 - 12 = 108.
+Net change = 108 - 100 = +8.
+So, the net percentage change is an 8% increase.
+Alternatively, use formula: A + B + (AB/100) = 20 - 10 + (20*-10)/100 = 10 - 2 = 8% increase.
+
+Q3. In an election between two candidates, the winner got 60% of the total valid votes and won by a majority of 2400 votes. If there were no invalid votes, what is the total number of votes polled?
+(A) 8000
+(B) 10000
+(C) 12000
+(D) 14000
+
+Answer: C
+Explanation:
+Let the total votes be 100%.
+Winner got 60%, so the loser got (100% - 60%) = 40%.
+Majority difference = 60% - 40% = 20%.
+Given, 20% of total votes = 2400.
+Total votes (100%) = (2400 / 20) * 100 = 12000.
+
+Q4. If A's salary is 25% more than B's salary, then by what percentage is B's salary less than A's salary?
+(A) 15%
+(B) 20%
+(C) 25%
+(D) 33.33%
+
+Answer: B
+Explanation:
+Let B's salary be 100.
+Then, A's salary = 100 + 25 = 125.
+Difference = 125 - 100 = 25.
+Percentage by which B's salary is less than A's = (Difference / A's salary) * 100
+= (25 / 125) * 100
+= (1 / 5) * 100 = 20%.
+
+Q5. A student has to secure 40% marks to pass an examination. He gets 180 marks and fails by 20 marks. Find the maximum marks of the examination.
+(A) 400
+(B) 450
+(C) 500
+(D) 600
+
+Answer: C
+Explanation:
+Passing marks = Marks obtained + Marks failed by
+Passing marks = 180 + 20 = 200.
+Given that the passing marks are 40% of the maximum marks.
+Let maximum marks be 'M'.
+40% of M = 200
+(40/100) * M = 200
+M = (200 * 100) / 40 = 500.
+
+Q6. In a town, 65% of the population reads English newspaper, 45% reads Hindi newspaper, and 20% reads both. What percentage of the population does not read either of the two newspapers?
+(A) 5%
+(B) 10%
+(C) 15%
+(D) 20%
+
+Answer: B
+Explanation:
+Let the total population be 100%.
+Percentage reading at least one newspaper = (Read English) + (Read Hindi) - (Read Both)
+= 65% + 45% - 20%
+= 110% - 20% = 90%.
+Percentage reading neither = 100% - 90% = 10%.
+
+Q7. The price of petrol increases by 25%. By what percentage must a person reduce his consumption so that his expenditure on petrol remains the same?
+(A) 15%
+(B) 20%
+(C) 25%
+(D) 30%
+
+Answer: B
+Explanation:
+Let original price be Rs. 100/liter and consumption be 100 liters.
+Original expenditure = 100 * 100 = 10000.
+New price = Rs. 125/liter. Let new consumption be 'C' liters.
+New expenditure = 125 * C = 10000.
+C = 10000 / 125 = 80 liters.
+Reduction in consumption = 100 - 80 = 20 liters.
+Percentage reduction = (20 / 100) * 100 = 20%.
+Shortcut: (R / (100+R)) * 100 = (25 / 125) * 100 = 20%.
+
+Q8. A man spends 30% of his income on food, 20% of the remaining on rent, and 25% of the still remaining on education. If he saves Rs. 4200, what is his total income?
+(A) Rs. 8000
+(B) Rs. 10000
+(C) Rs. 12000
+(D) Rs. 15000
+
+Answer: B
+Explanation:
+Let his total income be 'x'.
+After spending 30% on food, remaining = 70% of x = 0.7x.
+After spending 20% of remaining on rent, new remaining = 80% of 0.7x = 0.56x.
+After spending 25% of the rest on education, final remaining (savings) = 75% of 0.56x.
+0.75 * 0.56x = 4200
+(3/4) * (56/100) * x = 4200
+(42/100) * x = 4200
+x = (4200 * 100) / 42 = 10000.
+
+Q9. In an examination, a candidate got 30% marks and failed by 30 marks. Another candidate got 45% marks and got 15 marks more than the minimum pass marks. Find the passing percentage.
+(A) 35%
+(B) 38%
+(C) 40%
+(D) 42%
+
+Answer: C
+Explanation:
+Let total maximum marks be 'M'.
+Passing marks = 30% of M + 30
+Passing marks = 45% of M - 15
+Equating the two:
+(30/100)M + 30 = (45/100)M - 15
+(15/100)M = 45
+M = (45 * 100) / 15 = 300.
+Passing marks = 30% of 300 + 30 = 90 + 30 = 120.
+Passing percentage = (120 / 300) * 100 = 40%.
+
+Q10. The population of a city increases by 10% annually. If the present population is 1,33,100, what was the population 3 years ago?
+(A) 80,000
+(B) 90,000
+(C) 1,00,000
+(D) 1,10,000
+
+Answer: C
+Explanation:
+Let the population 3 years ago be 'P'.
+Present Population = P * (1 + R/100)^n
+1,33,100 = P * (1 + 10/100)^3
+1,33,100 = P * (11/10)^3
+1,33,100 = P * (1331 / 1000)
+P = (1,33,100 * 1000) / 1331
+P = 100 * 1000 = 1,00,000.
+
+Q11. Fresh fruit contains 68% water and dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruits?
+(A) 32 kg
+(B) 40 kg
+(C) 48 kg
+(D) 52 kg
+
+Answer: B
+Explanation:
+The quantity of fruit pulp remains constant whether the fruit is fresh or dry.
+In 100 kg of fresh fruit, water = 68%, so pulp = 32% of 100 kg = 32 kg.
+Let the total weight of dry fruit obtained be 'x' kg.
+In dry fruit, water = 20%, so pulp = 80% of 'x'.
+Since pulp quantity is constant:
+80% of x = 32
+(80/100) * x = 32
+x = (32 * 100) / 80 = 40 kg.
+
+Q12. A solution of salt and water contains 5% salt by weight. If 20 liters of water evaporates, the salt concentration increases to 15%. Find the original volume of the solution.
+(A) 25 liters
+(B) 30 liters
+(C) 35 liters
+(D) 40 liters
+
+Answer: B
+Explanation:
+Let the original volume of the solution be 'V' liters.
+Amount of salt initially = 5% of V = 0.05V.
+When 20 liters of water evaporates, the new volume is (V - 20) liters.
+The amount of salt remains the same, but it is now 15% of the new volume.
+15% of (V - 20) = 0.05V
+0.15(V - 20) = 0.05V
+0.15V - 3 = 0.05V
+0.10V = 3
+V = 3 / 0.10 = 30 liters.
+
+Q13. In a class, 70% of the students passed in Mathematics, 80% passed in Science, and 10% failed in both subjects. If 144 students passed in both subjects, what is the total number of students in the class?
+(A) 180
+(B) 240
+(C) 300
+(D) 360
+
+Answer: B
+Explanation:
+Let total students be 100%.
+Failed in both = 10%. Thus, students who passed in at least one subject = 100% - 10% = 90%.
+Passed in Math (M) = 70%, Passed in Science (S) = 80%.
+n(M U S) = n(M) + n(S) - n(M ∩ S)
+90% = 70% + 80% - n(M ∩ S)
+n(M ∩ S) = 150% - 90% = 60%.
+So, 60% of students passed in both subjects.
+Given that 60% of Total = 144.
+Total students = (144 / 60) * 100 = 240.
+
+Q14. An employer reduces the number of his employees in the ratio 9:8 and increases their wages in the ratio 14:15. If the original total wage bill was Rs. 18,900, what is the new total wage bill?
+(A) Rs. 17,500
+(B) Rs. 18,000
+(C) Rs. 18,500
+(D) Rs. 19,000
+
+Answer: B
+Explanation:
+Let the initial number of employees be 9x and the new number be 8x.
+Let the initial wage per employee be 14y and the new wage be 15y.
+Initial total wage bill = 9x * 14y = 126xy.
+New total wage bill = 8x * 15y = 120xy.
+We know that 126xy = 18,900.
+xy = 18900 / 126 = 150.
+New wage bill = 120 * 150 = 18,000.
+
+15. Mr. X gave 40% of his money to his wife, 20% of the remaining to his son, and half of the remaining to his daughter. After this, he donated 50% of what was left and finally had Rs. 12,000 remaining. How much money did he have initially?
+(A) Rs. 80,000
+(B) Rs. 1,00,000
+(C) Rs. 1,20,000
+(D) Rs. 1,50,000
+
+Answer: B
+Explanation:
+Let initial money be M.
+After giving 40% to wife, remaining = 60% of M = 0.6M.
+Gave 20% of remaining to son, new remaining = 80% of 0.6M = 0.48M.
+Gave half (50%) of remaining to daughter, new remaining = 50% of 0.48M = 0.24M.
+Donated 50% of the rest, final remaining = 50% of 0.24M = 0.12M.
+0.12M = 12,000
+M = 12,000 / 0.12 = 1,00,000.
+----------------------------------------

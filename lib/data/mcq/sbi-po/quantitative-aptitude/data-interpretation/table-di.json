@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "data-interpretation",
+  "subtopic": "table-di",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q2.svg.\nThe table gives the number of different items (Laptops, Mobiles, Tablets, Smartwatches) sold by 5 different stores (A, B, C, D, E) in a month.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the total number of items sold by Store C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "715"
+                },
+                {
+                  "label": "B",
+                  "text": "685"
+                },
+                {
+                  "label": "C",
+                  "text": "745"
+                },
+                {
+                  "label": "D",
+                  "text": "725"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total items sold by C = 90 (Laptops) + 380 (Mobiles) + 160 (Tablets) + 85 (Smartwatches)",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What is the ratio of the number of Mobiles sold by Store A to the number of Laptops sold by Store E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "5 : 2"
+                },
+                {
+                  "label": "B",
+                  "text": "2 : 5"
+                },
+                {
+                  "label": "C",
+                  "text": "7 : 3"
+                },
+                {
+                  "label": "D",
+                  "text": "3 : 7"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Mobiles sold by A = 450",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "The number of Tablets sold by Store D is approximately what percentage of the total number of items sold by Store D?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24%"
+                },
+                {
+                  "label": "B",
+                  "text": "20%"
+                },
+                {
+                  "label": "C",
+                  "text": "22%"
+                },
+                {
+                  "label": "D",
+                  "text": "26%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total items sold by D = 210 + 610 + 240 + 140 = 1200",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "What is the difference between the average number of Mobiles sold by all stores and the average number of Smartwatches sold by all stores?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "390"
+                },
+                {
+                  "label": "B",
+                  "text": "380"
+                },
+                {
+                  "label": "C",
+                  "text": "375"
+                },
+                {
+                  "label": "D",
+                  "text": "385"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total Mobiles = 450 + 520 + 380 + 610 + 490 = 2450",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "The total number of items sold by Store B is what percentage more than the total number of items sold by Store A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "15%"
+                },
+                {
+                  "label": "B",
+                  "text": "16.66%"
+                },
+                {
+                  "label": "C",
+                  "text": "20%"
+                },
+                {
+                  "label": "D",
+                  "text": "12.5%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total items by B = 150 + 520 + 200 + 110 = 980",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q8.svg.\nThe table gives data regarding 5 universities (P, Q, R, S, T) - Total students, % of Males, % of students in Science stream, and % of students in Arts stream. (Note: Total students = Science + Arts. Total students = Males + Females).",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Find the total number of Female students in University Q and S together.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "6180"
+                },
+                {
+                  "label": "B",
+                  "text": "6080"
+                },
+                {
+                  "label": "C",
+                  "text": "6280"
+                },
+                {
+                  "label": "D",
+                  "text": "6380"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "University Q: Total = 6000, Males = 45%, Females = 55%.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In University R, the ratio of Male to Female students in the Science stream is 7 : 6. Find the number of Female students in the Arts stream in University R.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "820"
+                },
+                {
+                  "label": "B",
+                  "text": "840"
+                },
+                {
+                  "label": "C",
+                  "text": "880"
+                },
+                {
+                  "label": "D",
+                  "text": "920"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "University R: Total = 5200.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "What is the central angle corresponding to the Science students of University P if a pie chart is drawn for the total students of University P?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "120°"
+                },
+                {
+                  "label": "B",
+                  "text": "135°"
+                },
+                {
+                  "label": "C",
+                  "text": "144°"
+                },
+                {
+                  "label": "D",
+                  "text": "150°"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "In University P, Science students constitute 40% of the total.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Find the ratio of the number of Arts students in University T to the number of Male students in University P.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "70 : 33"
+                },
+                {
+                  "label": "B",
+                  "text": "35 : 11"
+                },
+                {
+                  "label": "C",
+                  "text": "75 : 31"
+                },
+                {
+                  "label": "D",
+                  "text": "33 : 14"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Arts students in T = 70% of 7500 = 5250.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "If the number of Male students in the Arts stream in University S is 1200, then what percentage of the Science students in University S are Females?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "66.66%"
+                },
+                {
+                  "label": "B",
+                  "text": "70%"
+                },
+                {
+                  "label": "C",
+                  "text": "75%"
+                },
+                {
+                  "label": "D",
+                  "text": "60%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "University S: Total = 4800.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q13.svg.\nThe table gives data regarding 4 IT Companies (TCS, Infosys, Wipro, HCL) - Total employees, Male to Female ratio, % of employees in IT Department, and % of employees in HR Department. (Assume employees belong only to IT, HR, or 'Other' departments).",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the total number of Female employees in Infosys and Wipro together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7400"
+                },
+                {
+                  "label": "B",
+                  "text": "7600"
+                },
+                {
+                  "label": "C",
+                  "text": "7800"
+                },
+                {
+                  "label": "D",
+                  "text": "7200"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Infosys: Total = 9600. M : F = 7 : 5 (Total 12 units).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "The number of employees in the 'Other' department of TCS is approximately what percentage of the total Male employees in TCS?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "33.33%"
+                },
+                {
+                  "label": "B",
+                  "text": "40%"
+                },
+                {
+                  "label": "C",
+                  "text": "25%"
+                },
+                {
+                  "label": "D",
+                  "text": "41.66%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "TCS Total = 12000.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In HCL, if 60% of the HR department employees are females, find the number of Male employees in the HR department of HCL.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "440"
+                },
+                {
+                  "label": "B",
+                  "text": "420"
+                },
+                {
+                  "label": "C",
+                  "text": "460"
+                },
+                {
+                  "label": "D",
+                  "text": "480"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "HCL Total = 10500.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Find the difference between the total number of IT employees in TCS and Wipro together, and the total number of Male employees in HCL.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "5900"
+                },
+                {
+                  "label": "B",
+                  "text": "6100"
+                },
+                {
+                  "label": "C",
+                  "text": "5800"
+                },
+                {
+                  "label": "D",
+                  "text": "6200"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "TCS IT employees = 60% of 12000 = 7200.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "The total HR employees in all four companies is approximately what percentage of the total employees in all four companies?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "17%"
+                },
+                {
+                  "label": "B",
+                  "text": "15%"
+                },
+                {
+                  "label": "C",
+                  "text": "19%"
+                },
+                {
+                  "label": "D",
+                  "text": "16%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total employees = 12000 + 9600 + 8400 + 10500 = 40500.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

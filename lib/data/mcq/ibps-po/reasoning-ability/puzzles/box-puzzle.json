@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "puzzles",
+  "subtopic": "box-puzzle",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nSeven boxes – A, B, C, D, E, F, and G are placed one above another in a stack. The bottommost position is numbered 1 and the topmost position is numbered 7.\n- Box C is placed immediately above box A.\n- Three boxes are placed between C and F.\n- Box E is placed immediately below box F.\n- Box D is placed at the topmost position.\n- Box B is placed somewhere above box G but below box A.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Which box is kept at the bottommost position?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "E"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "G"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: D is at the topmost position (7).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "How many boxes are kept between D and B?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "None"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Boxes C and A are kept between D (7th) and B (4th). Thus, exactly two boxes are between them.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Which of the following box is kept immediately above G?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "B"
+                },
+                {
+                  "label": "B",
+                  "text": "A"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "C"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Box B is placed at the 4th position, which is immediately above Box G at the 3rd position.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "D - A"
+                },
+                {
+                  "label": "B",
+                  "text": "C - B"
+                },
+                {
+                  "label": "C",
+                  "text": "A - G"
+                },
+                {
+                  "label": "D",
+                  "text": "F - C"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "In options A, B, and C, there is exactly one box between the two given boxes (D and A have C; C and B have A; A and G have B). However, between F and C, there are three boxes. Thus, F - C is the odd one out.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If all boxes are arranged alphabetically from top to bottom, whose position will remain unchanged?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "D"
+                },
+                {
+                  "label": "C",
+                  "text": "G"
+                },
+                {
+                  "label": "D",
+                  "text": "None"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Original (Top to Bottom): D, C, A, B, G, F, E.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nEight boxes P, Q, R, S, T, U, V, and W are placed one above another. They contain different items: Pen, Pencil, Eraser, Scale, Book, Copy, Marker, and Chalk.\n- Box U contains Chalk and is placed at the bottommost position.\n- Three boxes are placed between U and T, which contains Pencil.\n- Box R contains Scale and is placed immediately below T.\n- Box V contains Book and is placed at the topmost position.\n- Only one box is placed between V and Q, and both are placed above T.\n- Box S contains Eraser and is placed immediately above Q.\n- Box P contains Marker and is placed immediately above W.\n- Box Q contains Pen.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Which box is placed immediately below the box containing Marker?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "W"
+                },
+                {
+                  "label": "C",
+                  "text": "U"
+                },
+                {
+                  "label": "D",
+                  "text": "R"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: U contains Chalk and is at the bottom (1st).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What does box W contain?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Marker"
+                },
+                {
+                  "label": "B",
+                  "text": "Copy"
+                },
+                {
+                  "label": "C",
+                  "text": "Pen"
+                },
+                {
+                  "label": "D",
+                  "text": "Scale"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "As per the final arrangement, Box W contains Copy.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "How many boxes are placed between S and P?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Refer to diagram: SVG/Q8.svg",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Which of the following combination is correct?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q - Pencil - 6th from bottom"
+                },
+                {
+                  "label": "B",
+                  "text": "R - Scale - 4th from bottom"
+                },
+                {
+                  "label": "C",
+                  "text": "P - Copy - 3rd from bottom"
+                },
+                {
+                  "label": "D",
+                  "text": "W - Marker - 2nd from bottom"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "R contains Scale and is placed at the 4th position from the bottom.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "V - Eraser"
+                },
+                {
+                  "label": "B",
+                  "text": "S - Pen"
+                },
+                {
+                  "label": "C",
+                  "text": "Q - Pencil"
+                },
+                {
+                  "label": "D",
+                  "text": "T - Marker"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "In options A, B, and C, the item belongs to the box placed immediately below the given box. But for T (5th position) and Marker (3rd position), there is a gap of one box. Thus, D is the odd one out.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nEight boxes – A, B, C, D, E, F, G, and H are placed in a stack of 9 positions where one position is empty. Each box has a different weight (10kg, 20kg, 30kg, 40kg, 50kg, 60kg, 70kg, and 80kg).\n- The topmost position contains a box that weighs 30kg.\n- There are two positions between the box weighing 30kg and box D.\n- The empty position is an odd-numbered position above D.\n- The box immediately above the empty position weighs 80kg.\n- Three positions are between the empty position and box B.\n- F is placed immediately below H.\n- H is placed immediately below B.\n- Box E is placed somewhere between D and B.\n- Box A is placed immediately above B.\n- Box B weighs one-fourth of Box G.\n- Box A weighs 20kg more than B.\n- The total weight of boxes F and H is 70kg, and H is heavier than F.\n- Box D weighs 50kg.\n- Box E weighs more than H.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Which position is empty?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "3rd"
+                },
+                {
+                  "label": "B",
+                  "text": "5th"
+                },
+                {
+                  "label": "C",
+                  "text": "7th"
+                },
+                {
+                  "label": "D",
+                  "text": "9th"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: Topmost position (9th) has 30kg box.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "What is the weight of Box E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "60kg"
+                },
+                {
+                  "label": "B",
+                  "text": "70kg"
+                },
+                {
+                  "label": "C",
+                  "text": "80kg"
+                },
+                {
+                  "label": "D",
+                  "text": "50kg"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Refer to diagram: SVG/Q12.svg",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many boxes are placed between G and A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "G is at the 8th position and A is at the 4th position.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Which box is placed immediately above H?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "E"
+                },
+                {
+                  "label": "B",
+                  "text": "A"
+                },
+                {
+                  "label": "C",
+                  "text": "B"
+                },
+                {
+                  "label": "D",
+                  "text": "F"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Box B is placed at the 3rd position, which is immediately above Box H at the 2nd position.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "C - 80kg"
+                },
+                {
+                  "label": "B",
+                  "text": "D - 70kg"
+                },
+                {
+                  "label": "C",
+                  "text": "A - 20kg"
+                },
+                {
+                  "label": "D",
+                  "text": "E - 60kg"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "In options A, B, and C, the weight corresponds to the box placed immediately below the given box.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

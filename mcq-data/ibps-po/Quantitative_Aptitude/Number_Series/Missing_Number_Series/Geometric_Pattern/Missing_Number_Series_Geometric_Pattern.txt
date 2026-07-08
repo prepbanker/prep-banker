@@ -1,0 +1,305 @@
+----------------------------------------
+Topic: Missing Number Series
+Subtopic: Geometric Pattern
+----------------------------------------
+
+Q1. What will come in place of the question mark (?) in the following number series?
+3, 6, 12, 24, 48, ?
+(A) 84
+(B) 90
+(C) 96
+(D) 102
+
+Answer: C
+Explanation:
+The series follows a constant multiplication pattern of x2.
+3 x 2 = 6
+6 x 2 = 12
+12 x 2 = 24
+24 x 2 = 48
+48 x 2 = 96
+
+Q2. What will come in place of the question mark (?) in the following number series?
+2, 6, 18, 54, ?, 486
+(A) 152
+(B) 162
+(C) 172
+(D) 182
+
+Answer: B
+Explanation:
+The series follows a constant multiplication pattern of x3.
+2 x 3 = 6
+6 x 3 = 18
+18 x 3 = 54
+54 x 3 = 162
+162 x 3 = 486
+
+Q3. What will come in place of the question mark (?) in the following number series?
+1280, 640, 320, 160, 80, ?
+(A) 20
+(B) 30
+(C) 40
+(D) 50
+
+Answer: C
+Explanation:
+The series follows a constant division pattern of ÷2 (or x 0.5).
+1280 ÷ 2 = 640
+640 ÷ 2 = 320
+320 ÷ 2 = 160
+160 ÷ 2 = 80
+80 ÷ 2 = 40
+
+Q4. What will come in place of the question mark (?) in the following number series?
+5, 25, 125, 625, ?
+(A) 3125
+(B) 3150
+(C) 3225
+(D) 3250
+
+Answer: A
+Explanation:
+The series follows a constant multiplication pattern of x5.
+5 x 5 = 25
+25 x 5 = 125
+125 x 5 = 625
+625 x 5 = 3125
+
+Q5. What will come in place of the question mark (?) in the following number series?
+2430, 810, 270, 90, ?
+(A) 15
+(B) 20
+(C) 30
+(D) 45
+
+Answer: C
+Explanation:
+The series follows a constant division pattern of ÷3.
+2430 ÷ 3 = 810
+810 ÷ 3 = 270
+270 ÷ 3 = 90
+90 ÷ 3 = 30
+
+Q6. What will come in place of the question mark (?) in the following number series?
+4, 6, 12, 30, 90, ?
+(A) 270
+(B) 315
+(C) 330
+(D) 360
+
+Answer: B
+Explanation:
+The multiplier is increasing progressively (+0.5).
+4 x 1.5 = 6
+6 x 2.0 = 12
+12 x 2.5 = 30
+30 x 3.0 = 90
+90 x 3.5 = 315
+
+Q7. What will come in place of the question mark (?) in the following number series?
+16, 8, 8, 12, 24, ?
+(A) 48
+(B) 60
+(C) 72
+(D) 84
+
+Answer: B
+Explanation:
+The multiplier is increasing by 0.5 at each step.
+16 x 0.5 = 8
+8 x 1 = 8
+8 x 1.5 = 12
+12 x 2 = 24
+24 x 2.5 = 60
+
+Q8. What will come in place of the question mark (?) in the following number series?
+2, 3, 6, 18, 108, ?
+(A) 1944
+(B) 1954
+(C) 1964
+(D) 1984
+
+Answer: A
+Explanation:
+The pattern involves multiplying the previous two terms to get the next term.
+2 x 3 = 6
+3 x 6 = 18
+6 x 18 = 108
+18 x 108 = 1944
+
+Q9. What will come in place of the question mark (?) in the following number series?
+9, 18, 54, 216, 1080, ?
+(A) 6480
+(B) 6580
+(C) 6680
+(D) 6780
+
+Answer: A
+Explanation:
+The multiplier is increasing by consecutive integers.
+9 x 2 = 18
+18 x 3 = 54
+54 x 4 = 216
+216 x 5 = 1080
+1080 x 6 = 6480
+
+Q10. What will come in place of the question mark (?) in the following number series?
+6, 9, 27, 135, ?, 6750
+(A) 745
+(B) 875
+(C) 945
+(D) 1025
+
+Answer: C
+Explanation:
+The multiplier follows a sequence of odd numbers.
+6 x 1.5 = 9
+9 x 3 = 27
+27 x 5 = 135
+135 x 7 = 945
+945 x 9 = 8505. Wait, 945 x 9 is not 6750.
+Let's re-evaluate the multipliers:
+6 x 1.5 = 9
+9 x 3 = 27
+27 x 5 = 135
+Let's check the sequence of multipliers: 1.5, 3, 5, ... this is not consistent.
+Let's try:
+6 x 1.5 = 9
+9 x 3 = 27
+27 x 5 is wrong. 27 x 5 = 135. Yes.
+Multipliers: 1.5, 3, 5, ...
+Difference of multipliers: 3 - 1.5 = 1.5.
+5 - 3 = 2.0.
+Next difference = 2.5? So 5 + 2.5 = 7.5.
+135 x 7.5 = 1012.5. Doesn't match options.
+Let's try another geometric logic.
+6 x 1.5 = 9
+9 x 3 (which is 1.5 x 2) = 27
+27 x 5 (wait, 1.5, 3, 5? Maybe it's 1.5, 3.0, 5.0? No).
+Let's rewrite Q10 with a solid geometric pattern.
+
+Corrected Q10:
+Q10. What will come in place of the question mark (?) in the following number series?
+7, 14, 42, 168, 840, ?
+(A) 4800
+(B) 5040
+(C) 5240
+(D) 5400
+
+Answer: B
+Explanation:
+The multiplier is increasing by consecutive integers starting from 2.
+7 x 2 = 14
+14 x 3 = 42
+42 x 4 = 168
+168 x 5 = 840
+840 x 6 = 5040
+
+Q11. What will come in place of the question mark (?) in the following number series?
+8, 4, 6, 15, 52.5, ?
+(A) 236.25
+(B) 246.25
+(C) 256.25
+(D) 266.25
+
+Answer: A
+Explanation:
+The multiplier is increasing exponentially/progressively.
+8 x 0.5 = 4
+4 x 1.5 = 6
+6 x 2.5 = 15
+15 x 3.5 = 52.5
+52.5 x 4.5 = 236.25
+
+Q12. What will come in place of the question mark (?) in the following number series?
+12, 12, 18, 45, 180, ?
+(A) 1040
+(B) 1080
+(C) 1120
+(D) 1160
+
+Answer: B
+Explanation:
+Let's check the multipliers:
+12 x 1 = 12
+12 x 1.5 = 18
+18 x 2.5 = 45
+45 x 4 = 180
+Multipliers are: 1, 1.5, 2.5, 4.
+Differences of multipliers: 0.5, 1, 1.5, 2.
+So the next multiplier = 4 + 2 = 6.
+180 x 6 = 1080.
+
+Q13. What will come in place of the question mark (?) in the following number series?
+14, 21, 52.5, 183.75, ?
+(A) 826.875
+(B) 836.875
+(C) 846.875
+(D) 856.875
+
+Answer: A
+Explanation:
+The multiplier itself is increasing geometrically.
+14 x 1.5 = 21
+21 x 2.5 = 52.5
+52.5 x 3.5 = 183.75
+183.75 x 4.5 = 826.875
+
+Q14. What will come in place of the question mark (?) in the following number series?
+2048, 512, 256, 128, 128, ?
+(A) 128
+(B) 192
+(C) 256
+(D) 512
+
+Answer: C
+Explanation:
+Let's check the division/multiplication factors:
+2048 / 4 = 512 (or x 0.25)
+512 / 2 = 256 (or x 0.5)
+256 / 2 = 128 (or x 0.5) -- wait, 0.25, 0.5, 0.5?
+Let's rewrite the logic for Q14.
+Corrected Q14:
+4096, 512, 128, 64, 64, ?
+Factors:
+4096 ÷ 8 = 512
+512 ÷ 4 = 128
+128 ÷ 2 = 64
+64 ÷ 1 = 64
+64 ÷ 0.5 = 128.
+Let's frame this.
+Q14. What will come in place of the question mark (?) in the following number series?
+4096, 512, 128, 64, 64, ?
+(A) 64
+(B) 96
+(C) 128
+(D) 256
+
+Answer: C
+Explanation:
+The series follows a division pattern where the divisor halves at each step.
+4096 ÷ 8 = 512
+512 ÷ 4 = 128
+128 ÷ 2 = 64
+64 ÷ 1 = 64
+64 ÷ 0.5 = 128 (Dividing by 0.5 is equivalent to multiplying by 2).
+
+15. What will come in place of the question mark (?) in the following number series?
+1, 1, 2, 6, 24, 120, 720, ?
+(A) 4040
+(B) 5040
+(C) 6040
+(D) 7040
+
+Answer: B
+Explanation:
+The series represents factorials, or multiplying by consecutive integers.
+1 x 1 = 1 (1!)
+1 x 2 = 2 (2!)
+2 x 3 = 6 (3!)
+6 x 4 = 24 (4!)
+24 x 5 = 120 (5!)
+120 x 6 = 720 (6!)
+720 x 7 = 5040 (7!)
+----------------------------------------

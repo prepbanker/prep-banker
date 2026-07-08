@@ -1,0 +1,408 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "phrase-replacement",
+  "subtopic": "grammar-based",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Phrase Replacement\nSubtopic: Grammar Based",
+          "questions": [
+            {
+              "id": 1,
+              "text": "He is **one of the best player** in the entire tournament this year.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "one of the best players"
+                },
+                {
+                  "label": "B",
+                  "text": "one of best player"
+                },
+                {
+                  "label": "C",
+                  "text": "the best of player"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"one of\" is always followed by a plural noun. Therefore, \"player\" must be pluralized to \"players\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "If I **would have known** about the traffic, I would have left earlier.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "had known"
+                },
+                {
+                  "label": "B",
+                  "text": "will have known"
+                },
+                {
+                  "label": "C",
+                  "text": "have known"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "In a third conditional sentence (unreal past), the \"if\" clause must use the past perfect tense (\"had known\"). \"Would have\" is only used in the main clause.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "The jury **were divided in its** opinion regarding the final verdict.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "was divided in its"
+                },
+                {
+                  "label": "B",
+                  "text": "were divided in their"
+                },
+                {
+                  "label": "C",
+                  "text": "was divided in their"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The collective noun \"jury\" takes a plural verb (\"were\") and a plural pronoun (\"their\") when the members are acting individually or disagreeing.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Scarcely had she finished reading the book **than the phone rang**.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "then the phone rang"
+                },
+                {
+                  "label": "B",
+                  "text": "when the phone rang"
+                },
+                {
+                  "label": "C",
+                  "text": "while the phone rang"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The correlative conjunction \"scarcely\" is always followed by \"when\", not \"than\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Neither the manager nor the employees **is willing to compromise** on the new policy.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "are willing to compromise"
+                },
+                {
+                  "label": "B",
+                  "text": "has willing to compromise"
+                },
+                {
+                  "label": "C",
+                  "text": "was willing to compromise"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "In a \"neither...nor\" construction, the verb must agree with the subject closest to it. \"Employees\" is plural, so the verb should be \"are\".",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Phrase Replacement\nSubtopic: Grammar Based",
+          "questions": [
+            {
+              "id": 6,
+              "text": "The new software is highly superior **than the older version** we were using last year.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "than the old version"
+                },
+                {
+                  "label": "B",
+                  "text": "over the older version"
+                },
+                {
+                  "label": "C",
+                  "text": "to the older version"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Adjectives ending in \"-ior\" (such as superior, inferior, senior, junior) are followed by the preposition \"to\", not the conjunction \"than\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Despite of **his rigorous training**, he failed to qualify for the finals.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Despite his rigorous training"
+                },
+                {
+                  "label": "B",
+                  "text": "In spite his rigorous training"
+                },
+                {
+                  "label": "C",
+                  "text": "Despite with his rigorous training"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The word \"despite\" takes no preposition. \"In spite of\" is the correct alternative, but \"despite of\" is grammatically incorrect.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "She prefers reading classical literature **than to watch** contemporary movies.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "rather than watch"
+                },
+                {
+                  "label": "B",
+                  "text": "to watching"
+                },
+                {
+                  "label": "C",
+                  "text": "than watching"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When using the verb \"prefer\" to compare two gerunds or nouns, the preposition \"to\" must be used. Both elements being compared must be gerunds: \"reading... to watching\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Hardly I had stepped out of the house **when it started** raining heavily.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Hardly had I stepped out of the house"
+                },
+                {
+                  "label": "B",
+                  "text": "Hardly I stepped out of the house"
+                },
+                {
+                  "label": "C",
+                  "text": "Hard had I stepped out of the house"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "When a sentence begins with a negative adverb like \"Hardly,\" the subject and auxiliary verb must be inverted. It should be \"Hardly had I\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "It is high time that the government **takes strict action** against tax evaders.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "took strict action"
+                },
+                {
+                  "label": "B",
+                  "text": "take strict action"
+                },
+                {
+                  "label": "C",
+                  "text": "will take strict action"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"It is high time\" is followed by a clause in the simple past tense to indicate something that should have been done already. \"Takes\" should be \"took\".",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Phrase Replacement\nSubtopic: Grammar Based",
+          "questions": [
+            {
+              "id": 11,
+              "text": "The committee has discussed the matter at length, but **have not reached** a conclusion yet.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "has not reached"
+                },
+                {
+                  "label": "B",
+                  "text": "having not reached"
+                },
+                {
+                  "label": "C",
+                  "text": "had not reached"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The collective noun \"committee\" acts as a single unit here, as shown by the first verb \"has\". The second verb must maintain parallel subject-verb agreement. Therefore, \"have\" should be \"has\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "I look forward **to meet you** at the annual conference next month.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "to meeting you"
+                },
+                {
+                  "label": "B",
+                  "text": "for meeting you"
+                },
+                {
+                  "label": "C",
+                  "text": "to have met you"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"look forward to\" ends with a preposition (\"to\"), which must be followed by a noun or a gerund (-ing form). Therefore, \"meet\" must be \"meeting\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Not only did he break the law, **but he also destroys** the evidence.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "but he also destroyed"
+                },
+                {
+                  "label": "B",
+                  "text": "but he destroys also"
+                },
+                {
+                  "label": "C",
+                  "text": "and he also destroyed"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "To maintain parallel tense structure, since the first clause is in the past tense (\"did he break\"), the second clause must also be in the past tense (\"destroyed\").",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "The reason why he was rejected from the job **was because he lacked** the necessary communication skills.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "is because he lacked"
+                },
+                {
+                  "label": "B",
+                  "text": "was that he lacked"
+                },
+                {
+                  "label": "C",
+                  "text": "was due to he lacked"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                },
+                {
+                  "label": "A",
+                  "text": "will have died"
+                },
+                {
+                  "label": "B",
+                  "text": "would die"
+                },
+                {
+                  "label": "C",
+                  "text": "is going to die"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"The reason why\" implies cause, making the word \"because\" redundant. It should be followed by a \"that\" clause.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

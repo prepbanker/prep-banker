@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="276" font-family="Arial, sans-serif">
+
+  <!-- Header Row -->
+  <rect x="20" y="10" width="140" height="36" fill="#283593" rx="3"/>
+  <rect x="170" y="10" width="90"  height="36" fill="#283593" rx="3"/>
+  <rect x="270" y="10" width="110" height="36" fill="#283593" rx="3"/>
+  <text x="90"  y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Month</text>
+  <text x="215" y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Person</text>
+  <text x="325" y="33" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Date</text>
+
+  <!-- January -->
+  <rect x="20" y="46" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="170" y="46" width="90"  height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="46" width="110" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="90"  y="69" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">January</text>
+  <text x="215" y="69" text-anchor="middle" font-size="12" fill="#333">F</text>
+  <text x="325" y="69" text-anchor="middle" font-size="12" fill="#333">25th</text>
+
+  <!-- February -->
+  <rect x="20" y="82" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="170" y="82" width="90"  height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="82" width="110" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="90"  y="105" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">February</text>
+  <text x="215" y="105" text-anchor="middle" font-size="12" fill="#333">D</text>
+  <text x="325" y="105" text-anchor="middle" font-size="12" fill="#333">25th</text>
+
+  <!-- March -->
+  <rect x="20" y="118" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="170" y="118" width="90"  height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="118" width="110" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="90"  y="141" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">March</text>
+  <text x="215" y="141" text-anchor="middle" font-size="12" fill="#333">A</text>
+  <text x="325" y="141" text-anchor="middle" font-size="12" fill="#333">10th</text>
+
+  <!-- April -->
+  <rect x="20" y="154" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="170" y="154" width="90"  height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="154" width="110" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="90"  y="177" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">April</text>
+  <text x="215" y="177" text-anchor="middle" font-size="12" fill="#333">C</text>
+  <text x="325" y="177" text-anchor="middle" font-size="12" fill="#333">25th</text>
+
+  <!-- May -->
+  <rect x="20" y="190" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="170" y="190" width="90"  height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="190" width="110" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="90"  y="213" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">May</text>
+  <text x="215" y="213" text-anchor="middle" font-size="12" fill="#333">E</text>
+  <text x="325" y="213" text-anchor="middle" font-size="12" fill="#333">10th</text>
+
+  <!-- June -->
+  <rect x="20" y="226" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="170" y="226" width="90"  height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="226" width="110" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="90"  y="249" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">June</text>
+  <text x="215" y="249" text-anchor="middle" font-size="12" fill="#333">B</text>
+  <text x="325" y="249" text-anchor="middle" font-size="12" fill="#333">10th</text>
+
+</svg>

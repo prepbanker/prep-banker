@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" font-family="Arial, sans-serif">
+  
+  <rect x="10" y="10" width="580" height="230" fill="#fafafa" stroke="#bdbdbd" stroke-width="2" rx="4" />
+  
+  <text x="300" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#263238">Alphanumeric Transformation Logic (Q9)</text>
+  
+  <!-- Original Series Blocks -->
+  <g font-size="20" font-weight="bold" fill="#424242">
+    <text x="80" y="120" text-anchor="middle">D4V</text>
+    <text x="190" y="120" text-anchor="middle">G9T</text>
+    <text x="300" y="120" text-anchor="middle">J16R</text>
+    <text x="410" y="120" text-anchor="middle">M25P</text>
+    <text x="520" y="120" text-anchor="middle" fill="#d32f2f">P36N</text>
+  </g>
+
+  <!-- Shift Arcs Top (Letter 1) -->
+  <g stroke="#1565c0" stroke-width="2" fill="none" marker-end="url(#arrow-blue)">
+    <defs>
+      <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+      </marker>
+    </defs>
+    <path d="M 80 95 Q 135 60 185 95" />
+    <path d="M 190 95 Q 245 60 295 95" />
+    <path d="M 300 95 Q 355 60 405 95" />
+    <path d="M 410 95 Q 465 60 515 95" />
+  </g>
+  <g font-size="12" font-weight="bold" fill="#1565c0">
+    <text x="135" y="70" text-anchor="middle">+3</text>
+    <text x="245" y="70" text-anchor="middle">+3</text>
+    <text x="355" y="70" text-anchor="middle">+3</text>
+    <text x="465" y="70" text-anchor="middle">+3</text>
+  </g>
+
+  <!-- Shift Arcs Bottom (Letter 3) -->
+  <g stroke="#e65100" stroke-width="2" fill="none" marker-end="url(#arrow-orange)">
+    <defs>
+      <marker id="arrow-orange" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/>
+      </marker>
+    </defs>
+    <path d="M 80 130 Q 135 170 185 130" />
+    <path d="M 190 130 Q 245 170 295 130" />
+    <path d="M 300 130 Q 355 170 405 130" />
+    <path d="M 410 130 Q 465 170 515 130" />
+  </g>
+  <g font-size="12" font-weight="bold" fill="#e65100">
+    <text x="135" y="165" text-anchor="middle">-2</text>
+    <text x="245" y="165" text-anchor="middle">-2</text>
+    <text x="355" y="165" text-anchor="middle">-2</text>
+    <text x="465" y="165" text-anchor="middle">-2</text>
+  </g>
+
+  <!-- Explanation for Numbers -->
+  <rect x="220" y="195" width="160" height="30" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="4" />
+  <text x="300" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#2e7d32">Numbers: 2², 3², 4², 5², 6²</text>
+
+</svg>

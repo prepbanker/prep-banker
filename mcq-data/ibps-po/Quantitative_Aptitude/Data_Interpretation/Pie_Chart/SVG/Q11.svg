@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 400">
+  <!-- Pie Chart 3: Math(25), Phys(20), Chem(15), Bio(10), Eng(30) -->
+  <!-- Angles: Math(90), Phys(72), Chem(54), Bio(36), Eng(108) -->
+  <!-- Cum angles: 90, 162, 216, 252, 360 -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <text x="275" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">Subject Distribution of Teachers (Total = 1800)</text>
+
+  <!-- Math: 0 to 90 -->
+  <path d="M 220,220 L 340,220 A 120,120 0 0,1 220,340 Z" fill="#8e44ad" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Phys: 90 to 162 -->
+  <path d="M 220,220 L 220,340 A 120,120 0 0,1 105.88,257.08 Z" fill="#e74c3c" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Chem: 162 to 216 -->
+  <path d="M 220,220 L 105.88,257.08 A 120,120 0 0,1 122.92,149.46 Z" fill="#2c3e50" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Bio: 216 to 252 -->
+  <path d="M 220,220 L 122.92,149.46 A 120,120 0 0,1 182.92,105.88 Z" fill="#f39c12" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Eng: 252 to 360 -->
+  <path d="M 220,220 L 182.92,105.88 A 120,120 0 0,1 340,220 Z" fill="#16a085" stroke="#fff" stroke-width="2"/>
+
+  <!-- Legend -->
+  <rect x="400" y="120" width="15" height="15" fill="#8e44ad"/>
+  <text x="425" y="133" font-family="sans-serif" font-size="14">Math (25%)</text>
+
+  <rect x="400" y="150" width="15" height="15" fill="#e74c3c"/>
+  <text x="425" y="163" font-family="sans-serif" font-size="14">Physics (20%)</text>
+
+  <rect x="400" y="180" width="15" height="15" fill="#2c3e50"/>
+  <text x="425" y="193" font-family="sans-serif" font-size="14">Chemistry (15%)</text>
+
+  <rect x="400" y="210" width="15" height="15" fill="#f39c12"/>
+  <text x="425" y="223" font-family="sans-serif" font-size="14">Biology (10%)</text>
+
+  <rect x="400" y="240" width="15" height="15" fill="#16a085"/>
+  <text x="425" y="253" font-family="sans-serif" font-size="14">English (30%)</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="350" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Outer Table Border -->
+  <rect x="30" y="30" width="540" height="280" fill="none" stroke="#37474f" stroke-width="2"/>
+  
+  <!-- Header Background -->
+  <rect x="30" y="30" width="540" height="40" fill="#cfd8dc" stroke="#37474f" stroke-width="1"/>
+  
+  <line x1="138" y1="30" x2="138" y2="310" stroke="#37474f" stroke-width="1"/>
+  <line x1="246" y1="30" x2="246" y2="310" stroke="#37474f" stroke-width="1"/>
+  <line x1="354" y1="30" x2="354" y2="310" stroke="#37474f" stroke-width="1"/>
+  <line x1="462" y1="30" x2="462" y2="310" stroke="#37474f" stroke-width="1"/>
+
+  <line x1="30" y1="70" x2="570" y2="70" stroke="#37474f" stroke-width="2"/>
+  <line x1="30" y1="130" x2="570" y2="130" stroke="#b0bec5" stroke-width="1"/>
+  <line x1="30" y1="190" x2="570" y2="190" stroke="#b0bec5" stroke-width="1"/>
+  <line x1="30" y1="250" x2="570" y2="250" stroke="#b0bec5" stroke-width="1"/>
+
+  <!-- Texts -->
+  <g font-size="14" font-weight="bold" fill="#263238" text-anchor="middle">
+    <text x="84" y="55">Company</text>
+    <text x="192" y="55">Employees</text>
+    <text x="300" y="55">M : F Ratio</text>
+    <text x="408" y="55">% IT Dept</text>
+    <text x="516" y="55">% HR Dept</text>
+  </g>
+
+  <!-- Row Data -->
+  <g font-size="14" fill="#455a64" text-anchor="middle">
+    <text x="84" y="105" font-weight="bold">TCS</text>
+    <text x="192" y="105">12000</text>
+    <text x="300" y="105">5 : 3</text>
+    <text x="408" y="105">60%</text>
+    <text x="516" y="105">15%</text>
+
+    <text x="84" y="165" font-weight="bold">Infosys</text>
+    <text x="192" y="165">9600</text>
+    <text x="300" y="165">7 : 5</text>
+    <text x="408" y="165">55%</text>
+    <text x="516" y="165">20%</text>
+
+    <text x="84" y="225" font-weight="bold">Wipro</text>
+    <text x="192" y="225">8400</text>
+    <text x="300" y="225">4 : 3</text>
+    <text x="408" y="225">50%</text>
+    <text x="516" y="225">25%</text>
+
+    <text x="84" y="285" font-weight="bold">HCL</text>
+    <text x="192" y="285">10500</text>
+    <text x="300" y="285">11 : 10</text>
+    <text x="408" y="285">65%</text>
+    <text x="516" y="285">10%</text>
+  </g>
+</svg>

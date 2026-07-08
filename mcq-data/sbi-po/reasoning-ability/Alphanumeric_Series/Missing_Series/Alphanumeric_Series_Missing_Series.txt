@@ -1,0 +1,276 @@
+----------------------------------------
+Topic: Alphanumeric Series
+Subtopic: Missing Series
+----------------------------------------
+
+Directions (Q1–Q5): Find the missing term in the given alphanumeric series.
+
+Q1. P3C, R5F, T8I, V12L, ?
+(A) X17O
+(B) Y17O
+(C) X16O
+(D) X17P
+
+Answer: A
+Explanation:
+First letter: P (+2) = R (+2) = T (+2) = V (+2) = X.
+Number: 3 (+2) = 5 (+3) = 8 (+4) = 12 (+5) = 17.
+Third letter: C (+3) = F (+3) = I (+3) = L (+3) = O.
+Result: X17O.
+
+----------------------------------------
+
+Q2. 2Z5, 7Y7, 14X9, 23W11, ?
+(A) 34V13
+(B) 32V13
+(C) 34U13
+(D) 34V15
+
+Answer: A
+Explanation:
+First number: 2 (+5) = 7 (+7) = 14 (+9) = 23 (+11) = 34.
+Letter: Z (-1) = Y (-1) = X (-1) = W (-1) = V.
+Second number: 5 (+2) = 7 (+2) = 9 (+2) = 11 (+2) = 13.
+Result: 34V13.
+
+----------------------------------------
+
+Q3. A2B, C4D, E8F, G16H, ?
+(A) I32J
+(B) H32I
+(C) I30J
+(D) I32K
+
+Answer: A
+Explanation:
+First letter: A (+2) = C (+2) = E (+2) = G (+2) = I.
+Number: 2 (x2) = 4 (x2) = 8 (x2) = 16 (x2) = 32.
+Second letter: B (+2) = D (+2) = F (+2) = H (+2) = J.
+Result: I32J.
+
+----------------------------------------
+
+Q4. W144, U121, S100, Q81, ?
+(A) O64
+(B) P64
+(C) O49
+(D) P49
+
+Answer: A
+Explanation:
+Letter: W (-2) = U (-2) = S (-2) = Q (-2) = O.
+Number: 12²=144, 11²=121, 10²=100, 9²=81, 8²=64.
+Result: O64.
+
+----------------------------------------
+
+Q5. 3F, 6G, 11I, 18L, ?
+(A) 27P
+(B) 25P
+(C) 27Q
+(D) 29P
+
+Answer: A
+Explanation:
+Number: 3 (+3) = 6 (+5) = 11 (+7) = 18 (+9) = 27.
+Letter: F (+1) = G (+2) = I (+3) = L (+4) = P.
+Result: 27P.
+
+----------------------------------------
+
+Directions (Q6–Q10): Find the missing alphanumeric block.
+
+Q6. B2D, E3H, I5M, N7S, ?
+(A) T11Z
+(B) T11Y
+(C) S11Z
+(D) T9Z
+
+Answer: A
+Explanation:
+First letter: B (+3) = E (+4) = I (+5) = N (+6) = T.
+Number: Prime numbers in order: 2, 3, 5, 7, 11.
+Second letter: D (+4) = H (+5) = M (+6) = S (+7) = Z.
+Result: T11Z.
+
+----------------------------------------
+
+Q7. Z1A, X2D, V6G, T24J, ?
+(A) R120M
+(B) R100M
+(C) R120N
+(D) S120M
+
+Answer: A
+Explanation:
+First letter: Z (-2) = X (-2) = V (-2) = T (-2) = R.
+Number: 1 (x2) = 2 (x3) = 6 (x4) = 24 (x5) = 120.
+Second letter: A (+3) = D (+3) = G (+3) = J (+3) = M.
+Result: R120M.
+
+----------------------------------------
+
+Q8. 5M3, 8O5, 12Q8, 17S12, ?
+(A) 23U17
+(B) 23V17
+(C) 23U18
+(D) 22U17
+
+Answer: A
+Explanation:
+First number: 5 (+3) = 8 (+4) = 12 (+5) = 17 (+6) = 23.
+Letter: M (+2) = O (+2) = Q (+2) = S (+2) = U.
+Second number: 3 (+2) = 5 (+3) = 8 (+4) = 12 (+5) = 17.
+Result: 23U17.
+
+----------------------------------------
+
+Refer to diagram: SVG/Q9.svg for a visual representation.
+
+Q9. D4V, G9T, J16R, M25P, ?
+(A) P36N
+(B) P36M
+(C) O36N
+(D) P49N
+
+Answer: A
+Explanation:
+First letter: D (+3) = G (+3) = J (+3) = M (+3) = P.
+Number: 2², 3², 4², 5², 6² = 36.
+Third letter: V (-2) = T (-2) = R (-2) = P (-2) = N.
+Result: P36N.
+
+----------------------------------------
+
+Q10. Which term does NOT belong in the series?
+1A2, 3C4, 7F8, 13J14, 21O22, 31T32
+(A) 7F8
+(B) 13J14
+(C) 21O22
+(D) 31T32
+
+Answer: D
+Explanation:
+Let's check the patterns:
+First number: 1 (+2) = 3 (+4) = 7 (+6) = 13 (+8) = 21 (+10) = 31. (Numbers are correct).
+Second number is always First number + 1: 2, 4, 8, 14, 22, 32. (Correct).
+Letter: A (+2) = C (+3) = F (+4) = J (+5) = O (+6) = U.
+The given term is 31T32, but it should be 31U32.
+Therefore, 31T32 is incorrect.
+
+----------------------------------------
+
+Directions (Q11–Q15): Solve the complex continuous logic questions.
+
+Q11. A1Z, E2V, I6R, M24N, ?
+(A) Q120J
+(B) Q100J
+(C) Q120K
+(D) P120J
+
+Answer: A
+Explanation:
+First letter: A (+4) = E (+4) = I (+4) = M (+4) = Q.
+Number: 1 (x2) = 2 (x3) = 6 (x4) = 24 (x5) = 120.
+Second letter is the reverse pair of the first letter (A-Z, E-V, I-R, M-N, Q-J).
+Result: Q120J.
+
+----------------------------------------
+
+Q12. What comes next in the sequence?
+2, B, 4, D, 8, H, 16, P, 32, ?
+(A) F
+(B) G
+(C) H
+(D) J
+
+Answer: A
+Explanation:
+The letters correspond to the alphabetical position of the preceding number, modulo 26 if necessary.
+2 -> B (2nd)
+4 -> D (4th)
+8 -> H (8th)
+16 -> P (16th)
+32 -> 32nd letter = 32 - 26 = 6th letter = F.
+Result: F.
+
+----------------------------------------
+
+Q13. Find the missing block:
+AB1, CD4, EF9, GH16, ?
+(A) IJ20
+(B) IJ25
+(C) IK25
+(D) HI25
+
+Answer: B
+Explanation:
+Letters: Consecutive pairs from A. AB, CD, EF, GH, IJ.
+Numbers: Squares. 1², 2², 3², 4², 5² = 25.
+Result: IJ25.
+
+----------------------------------------
+
+Q14. In the series 4Z, 8X, 16V, 32T, ?, what is the 7th term?
+(A) 256P
+(B) 128R
+(C) 256N
+(D) 128N
+
+Answer: C
+Explanation:
+Let's find the explicit formula.
+Term 1: 4Z (2^2, 26)
+Term 2: 8X (2^3, 24)
+Term 3: 16V (2^4, 22)
+Term 4: 32T (2^5, 20)
+Term n: (2^(n+1)), Letter at (28 - 2n)
+Term 7: Number = 2^(7+1) = 2^8 = 256.
+Letter = 28 - 2(7) = 14th letter = N.
+Result: 256N.
+
+----------------------------------------
+
+Q15. P 8 U 11 C 15 ? ? ?
+(A) R 20 K
+(B) K 20 R
+(C) L 20 R
+(D) R 19 K
+
+Answer: B
+Explanation:
+Look at the sequence: P, 8, U, 11, C, 15...
+Wait, P(16). U(21). C(3).
+Position of P = 16. Next number is 8.
+Position of U = 21. Next number is 11.
+Wait, that is not a clear continuous pattern.
+Let's try: Letter to Letter: P (+5) = U (+8) = C (+8) = K?
+Let's use a standard mixed pattern:
+P (+5) = U (+8) = C (+8) = K.
+8 (+3) = 11 (+4) = 15 (+5) = 20.
+Let's use:
+1st term: P (16)
+2nd term: 8
+3rd term: U (21)
+4th term: 11
+5th term: C (29) - position 3 is 26+3
+6th term: 15
+Letter sequence: 16 (+5) 21 (+8) 29 (+?) -> 5, 8, 11... 29+11 = 40 (N). No.
+Let's stick to an easier pattern for the last hard question:
+Alternate Series 1 (Letters): P (+5) = U (+8) = C (+8) = K.
+Let's fix the gap: P(+5)U. U(+8)C. C(+11)N.
+Let's rewrite Q15 completely.
+
+Q15. M3V, O6S, Q11P, S18M, ?
+(A) U27K
+(B) U27J
+(C) V27J
+(D) U29J
+
+Answer: B
+Explanation:
+First letter: M (+2) = O (+2) = Q (+2) = S (+2) = U.
+Number: 3 (+3) = 6 (+5) = 11 (+7) = 18 (+9) = 27.
+Third letter: V (-3) = S (-3) = P (-3) = M (-3) = J.
+Result: U27J.
+----------------------------------------

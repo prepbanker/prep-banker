@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "data-interpretation",
+  "subtopic": "bar-graph",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q1.svg.\nThe bar graph shows the production of Wheat and Rice (in thousand tons) in a state from 2018 to 2022.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the ratio of the total production of Wheat in 2018 and 2019 to the total production of Rice in 2021 and 2022?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "60 : 91"
+                },
+                {
+                  "label": "B",
+                  "text": "55 : 81"
+                },
+                {
+                  "label": "C",
+                  "text": "60 : 89"
+                },
+                {
+                  "label": "D",
+                  "text": "50 : 79"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Wheat in 2018 = 250. Wheat in 2019 = 350. Total = 600.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "The production of Rice in 2020 is what percentage more than the production of Wheat in 2021?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "18.42%"
+                },
+                {
+                  "label": "B",
+                  "text": "16.5%"
+                },
+                {
+                  "label": "C",
+                  "text": "15.2%"
+                },
+                {
+                  "label": "D",
+                  "text": "20%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Rice in 2020 = 450.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Find the average production of Wheat over the given 5 years.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "365 thousand tons"
+                },
+                {
+                  "label": "B",
+                  "text": "372 thousand tons"
+                },
+                {
+                  "label": "C",
+                  "text": "375 thousand tons"
+                },
+                {
+                  "label": "D",
+                  "text": "380 thousand tons"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total Wheat = 250 + 350 + 400 + 380 + 480 = 1860.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In which year was the percentage increase/decrease in the production of Rice maximum as compared to the previous year?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2019"
+                },
+                {
+                  "label": "B",
+                  "text": "2020"
+                },
+                {
+                  "label": "C",
+                  "text": "2021"
+                },
+                {
+                  "label": "D",
+                  "text": "2022"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "2018 to 2019: 320 to 280 (Decrease = 40/320 = 12.5%)",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If in 2023, the production of Wheat increases by 20% and Rice decreases by 10% as compared to 2022, what will be the total production of both crops in 2023?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1026 thousand tons"
+                },
+                {
+                  "label": "B",
+                  "text": "1056 thousand tons"
+                },
+                {
+                  "label": "C",
+                  "text": "986 thousand tons"
+                },
+                {
+                  "label": "D",
+                  "text": "1016 thousand tons"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Wheat in 2022 = 480. 2023 Wheat = 480 × 1.2 = 576.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q6.svg.\nThe horizontal bar graph shows the number of visitors (in hundreds) to a museum on weekdays (Monday to Friday), categorized into Adults and Children.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What is the total number of visitors to the museum on Wednesday and Friday together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "22000"
+                },
+                {
+                  "label": "B",
+                  "text": "21000"
+                },
+                {
+                  "label": "C",
+                  "text": "23000"
+                },
+                {
+                  "label": "D",
+                  "text": "20000"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Wednesday: Adults = 55, Children = 40. Total = 95 hundreds = 9500.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "The number of Adult visitors on Monday is what percentage of the number of Child visitors on Tuesday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "80%"
+                },
+                {
+                  "label": "B",
+                  "text": "90%"
+                },
+                {
+                  "label": "C",
+                  "text": "110%"
+                },
+                {
+                  "label": "D",
+                  "text": "75%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Adults on Monday = 45.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Find the ratio of the average number of Adult visitors to the average number of Child visitors over the 5 days.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "50 : 41"
+                },
+                {
+                  "label": "B",
+                  "text": "45 : 37"
+                },
+                {
+                  "label": "C",
+                  "text": "48 : 39"
+                },
+                {
+                  "label": "D",
+                  "text": "55 : 43"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total Adults = 45 + 35 + 55 + 40 + 75 = 250.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "If the entry fee for an Adult is Rs. 150 and for a Child is Rs. 100, what is the total revenue generated on Thursday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 8,50,000"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 7,20,000"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 8,20,000"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 9,10,000"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Thursday: Adults = 40 hundreds = 4000.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "By what percentage is the total number of visitors on Friday more than the total number of visitors on Tuesday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "55.55%"
+                },
+                {
+                  "label": "B",
+                  "text": "60%"
+                },
+                {
+                  "label": "C",
+                  "text": "58.82%"
+                },
+                {
+                  "label": "D",
+                  "text": "52.25%"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total on Friday = 75 + 60 = 135.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q11.svg.\nThe bar graph shows two sets of data for 5 departments (A, B, C, D, E). The blue bar represents the percentage of the total company budget (Rs. 50 Crores) allocated to that department. The red bar represents the percentage of that allocated budget which was actually spent by the department.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the unspent amount of Department A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 1.5 Crores"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 2.5 Crores"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 3.0 Crores"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 2.0 Crores"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total Budget = Rs. 50 Crores.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "What is the total amount spent by Departments C and D together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 18.5 Crores"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 17.5 Crores"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 19.5 Crores"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 20.5 Crores"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Allocated to C = 30% of 50 = 15 Cr.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "The amount spent by Department E is what percentage of the total company budget?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12%"
+                },
+                {
+                  "label": "B",
+                  "text": "15%"
+                },
+                {
+                  "label": "C",
+                  "text": "18%"
+                },
+                {
+                  "label": "D",
+                  "text": "10%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Allocated to E = 20%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Find the ratio of the unspent amount of Department B to the unspent amount of Department C.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "3 : 1"
+                },
+                {
+                  "label": "B",
+                  "text": "2 : 1"
+                },
+                {
+                  "label": "C",
+                  "text": "1 : 1"
+                },
+                {
+                  "label": "D",
+                  "text": "4 : 3"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Unspent B: Allocated = 15% of 50 = 7.5 Cr. Spent = 60%. Unspent = 40%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "What is the total unspent amount of all the 5 departments combined?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 8.25 Crores"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 7.50 Crores"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 8.50 Crores"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 9.50 Crores"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Unspent A = 20% of 12.5 = 2.5 Cr.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

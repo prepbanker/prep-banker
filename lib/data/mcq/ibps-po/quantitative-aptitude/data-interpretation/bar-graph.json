@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "quantitative-aptitude",
+  "topic": "data-interpretation",
+  "subtopic": "bar-graph",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the given bar graph carefully and answer the following questions.\nRefer to diagram: SVG/Q1.svg\nThe bar graph shows the production (in thousands) of two types of cars (Type A and Type B) by a company over 5 years (2018-2022).",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the total production of Type A cars in the years 2019 and 2021 together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "85 thousand"
+                },
+                {
+                  "label": "B",
+                  "text": "90 thousand"
+                },
+                {
+                  "label": "C",
+                  "text": "95 thousand"
+                },
+                {
+                  "label": "D",
+                  "text": "100 thousand"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Production of Type A in 2019 = 40.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "The production of Type B cars in 2020 is what percent of the total production of both types of cars in 2018?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40%"
+                },
+                {
+                  "label": "B",
+                  "text": "45%"
+                },
+                {
+                  "label": "C",
+                  "text": "50%"
+                },
+                {
+                  "label": "D",
+                  "text": "55%"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Type B in 2020 = 35.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What is the ratio of the average production of Type A cars to the average production of Type B cars over the five years?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24 : 23"
+                },
+                {
+                  "label": "B",
+                  "text": "23 : 24"
+                },
+                {
+                  "label": "C",
+                  "text": "47 : 46"
+                },
+                {
+                  "label": "D",
+                  "text": "46 : 47"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total Type A = 45(2018) + 40(2019) + 55(2020) + 50(2021) + 50(2022) = 240.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Based on the graph, in which year was the difference in production of Type A and Type B cars the maximum?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2018"
+                },
+                {
+                  "label": "B",
+                  "text": "2019"
+                },
+                {
+                  "label": "C",
+                  "text": "2020"
+                },
+                {
+                  "label": "D",
+                  "text": "2022"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "From the graph, differences are:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If the total production of both types of cars in 2023 increases by 20% over that in 2022, what will be the total production in 2023?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "128 thousand"
+                },
+                {
+                  "label": "B",
+                  "text": "132 thousand"
+                },
+                {
+                  "label": "C",
+                  "text": "138 thousand"
+                },
+                {
+                  "label": "D",
+                  "text": "144 thousand"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total production in 2022 = 50 (A) + 65 (B) = 115.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the given horizontal bar graph carefully and answer the following questions.\nRefer to diagram: SVG/Q6.svg\nThe bar graph shows the number of books sold by 5 different stores (S1 to S5) in two consecutive months, January and February.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What is the total number of books sold by all the stores in January?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1650"
+                },
+                {
+                  "label": "B",
+                  "text": "1700"
+                },
+                {
+                  "label": "C",
+                  "text": "1750"
+                },
+                {
+                  "label": "D",
+                  "text": "1800"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Sales in January: S1(300), S2(450), S3(250), S4(350), S5(400).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "The number of books sold by Store S2 in February is what percent more than the number of books sold by Store S4 in January?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10%"
+                },
+                {
+                  "label": "B",
+                  "text": "15%"
+                },
+                {
+                  "label": "C",
+                  "text": "20%"
+                },
+                {
+                  "label": "D",
+                  "text": "25%"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "S2 in Feb = 420.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Find the ratio of the total books sold by Store S1 to the total books sold by Store S5 in both months together.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "33 : 43"
+                },
+                {
+                  "label": "B",
+                  "text": "43 : 53"
+                },
+                {
+                  "label": "C",
+                  "text": "11 : 16"
+                },
+                {
+                  "label": "D",
+                  "text": "33 : 38"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total S1 = 300 (Jan) + 250 (Feb) = 550.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Which store had the maximum percentage decrease in sales from January to February?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "S1"
+                },
+                {
+                  "label": "B",
+                  "text": "S2"
+                },
+                {
+                  "label": "C",
+                  "text": "S3"
+                },
+                {
+                  "label": "D",
+                  "text": "S4"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Decreases:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "What is the average number of books sold by Store S3 and Store S4 together over both months?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "625"
+                },
+                {
+                  "label": "B",
+                  "text": "650"
+                },
+                {
+                  "label": "C",
+                  "text": "675"
+                },
+                {
+                  "label": "D",
+                  "text": "700"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total S3 = 250 + 320 = 570.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the given stacked bar graph carefully and answer the following questions.\nRefer to diagram: SVG/Q11.svg\nThe stacked bar graph shows the number of Valid and Invalid votes cast in 5 different villages (V1, V2, V3, V4, V5) during an election.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the total number of valid votes cast across all 5 villages?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10500"
+                },
+                {
+                  "label": "B",
+                  "text": "11000"
+                },
+                {
+                  "label": "C",
+                  "text": "11500"
+                },
+                {
+                  "label": "D",
+                  "text": "12000"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Valid votes: V1(2000), V2(2500), V3(1800), V4(3000), V5(2200).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In which village is the percentage of invalid votes out of the total votes cast the maximum?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "V1"
+                },
+                {
+                  "label": "B",
+                  "text": "V2"
+                },
+                {
+                  "label": "C",
+                  "text": "V3"
+                },
+                {
+                  "label": "D",
+                  "text": "V5"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Invalid %:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "The total number of invalid votes in V1 and V2 together is what percent of the valid votes in V4?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "25%"
+                },
+                {
+                  "label": "B",
+                  "text": "33.33%"
+                },
+                {
+                  "label": "C",
+                  "text": "40%"
+                },
+                {
+                  "label": "D",
+                  "text": "50%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Invalid in V1 + V2 = 500 + 500 = 1000.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Find the ratio of total votes cast in Village V2 to the total votes cast in Village V5.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "5 : 4"
+                },
+                {
+                  "label": "B",
+                  "text": "6 : 5"
+                },
+                {
+                  "label": "C",
+                  "text": "7 : 6"
+                },
+                {
+                  "label": "D",
+                  "text": "8 : 7"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total votes in V2 = 2500(Valid) + 500(Invalid) = 3000.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "If the winning candidate in Village V4 secured 55% of the valid votes, how many valid votes did the losing candidates collectively secure in V4?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1250"
+                },
+                {
+                  "label": "B",
+                  "text": "1300"
+                },
+                {
+                  "label": "C",
+                  "text": "1350"
+                },
+                {
+                  "label": "D",
+                  "text": "1400"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total valid votes in V4 = 3000.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

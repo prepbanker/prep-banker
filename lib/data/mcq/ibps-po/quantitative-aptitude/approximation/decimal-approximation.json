@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "quantitative-aptitude",
+  "topic": "approximation",
+  "subtopic": "decimal-approximation",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Approximation\nSubtopic: Decimal Approximation",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What approximate value should come in place of question mark (?) in the following question?\n12.05 * 5.98 + 15.11 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "82"
+                },
+                {
+                  "label": "B",
+                  "text": "87"
+                },
+                {
+                  "label": "C",
+                  "text": "92"
+                },
+                {
+                  "label": "D",
+                  "text": "97"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating the values:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Find the approximate value: 45.02 / 8.99 * 11.95 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "50"
+                },
+                {
+                  "label": "B",
+                  "text": "55"
+                },
+                {
+                  "label": "C",
+                  "text": "60"
+                },
+                {
+                  "label": "D",
+                  "text": "65"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What approximate value will come in place of (?): 124.93 + 75.07 - 49.98 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "140"
+                },
+                {
+                  "label": "B",
+                  "text": "150"
+                },
+                {
+                  "label": "C",
+                  "text": "160"
+                },
+                {
+                  "label": "D",
+                  "text": "170"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Solve approximately: 18.11 * 14.95 - 20.08 * 5.01 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "160"
+                },
+                {
+                  "label": "B",
+                  "text": "170"
+                },
+                {
+                  "label": "C",
+                  "text": "180"
+                },
+                {
+                  "label": "D",
+                  "text": "190"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "What approximate value will come in place of (?): 225.05 / 15.02 + 10.98 * 3.05 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "42"
+                },
+                {
+                  "label": "B",
+                  "text": "48"
+                },
+                {
+                  "label": "C",
+                  "text": "54"
+                },
+                {
+                  "label": "D",
+                  "text": "60"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Approximation\nSubtopic: Decimal Approximation",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Find the approximate value: (34.98 * 14.02) / 6.95 + 12.05 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "82"
+                },
+                {
+                  "label": "B",
+                  "text": "85"
+                },
+                {
+                  "label": "C",
+                  "text": "92"
+                },
+                {
+                  "label": "D",
+                  "text": "95"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What approximate value will come in place of (?): 64.08 * 5.01 / 8.03 + 124.95 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "145"
+                },
+                {
+                  "label": "B",
+                  "text": "155"
+                },
+                {
+                  "label": "C",
+                  "text": "165"
+                },
+                {
+                  "label": "D",
+                  "text": "175"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Solve approximately: 12.05^2 + 14.95^2 - 8.01^2 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "295"
+                },
+                {
+                  "label": "B",
+                  "text": "305"
+                },
+                {
+                  "label": "C",
+                  "text": "315"
+                },
+                {
+                  "label": "D",
+                  "text": "325"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "What approximate value will come in place of (?): √143.95 * √81.05 + 15.01 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "115"
+                },
+                {
+                  "label": "B",
+                  "text": "123"
+                },
+                {
+                  "label": "C",
+                  "text": "131"
+                },
+                {
+                  "label": "D",
+                  "text": "139"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Find the approximate value: 45.05 * 19.98 / 15.01 - 12.05 * 2.99 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24"
+                },
+                {
+                  "label": "B",
+                  "text": "28"
+                },
+                {
+                  "label": "C",
+                  "text": "32"
+                },
+                {
+                  "label": "D",
+                  "text": "36"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Approximating:",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Approximation\nSubtopic: Decimal Approximation",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What approximate value will come in place of (?): (18.05)^2 - (11.95)^2 + 125.05 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "295"
+                },
+                {
+                  "label": "B",
+                  "text": "305"
+                },
+                {
+                  "label": "C",
+                  "text": "315"
+                },
+                {
+                  "label": "D",
+                  "text": "325"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Solve approximately: ∛1330.98 + √255.95 + 15.01 * 4.98 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "92"
+                },
+                {
+                  "label": "B",
+                  "text": "98"
+                },
+                {
+                  "label": "C",
+                  "text": "102"
+                },
+                {
+                  "label": "D",
+                  "text": "108"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "What approximate value will come in place of (?): (55.05 * 18.01) / 11.02 + 12.98^2 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "249"
+                },
+                {
+                  "label": "B",
+                  "text": "259"
+                },
+                {
+                  "label": "C",
+                  "text": "269"
+                },
+                {
+                  "label": "D",
+                  "text": "279"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Approximating:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Find the approximate value: 39.98% of 450.05 + 15.01 * 12.05 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "340"
+                },
+                {
+                  "label": "B",
+                  "text": "350"
+                },
+                {
+                  "label": "C",
+                  "text": "360"
+                },
+                {
+                  "label": "D",
+                  "text": "370"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "What approximate value will come in place of (?): (31.98)^2 - (24.01)^2 + 149.95 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "578"
+                },
+                {
+                  "label": "B",
+                  "text": "588"
+                },
+                {
+                  "label": "C",
+                  "text": "598"
+                },
+                {
+                  "label": "D",
+                  "text": "608"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Approximating:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

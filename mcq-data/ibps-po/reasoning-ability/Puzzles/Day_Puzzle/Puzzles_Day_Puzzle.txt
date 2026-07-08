@@ -1,0 +1,239 @@
+Topic: Puzzles
+Subtopic: Day Puzzle
+
+Directions (Q1-Q5): Study the following information carefully and answer the questions given below.
+Seven friends – M, N, O, P, Q, R, and S attend a seminar on seven different days of the same week starting from Monday to Sunday.
+- O attends the seminar on Thursday.
+- Two persons attend between O and P.
+- M attends immediately before P.
+- Three persons attend between M and N.
+- R attends before S but after Q.
+
+Q1. Who attends the seminar on Monday?
+(A) P
+(B) Q
+(C) R
+(D) S
+
+Answer: B
+Explanation:
+Step 1: O attends on Thursday.
+Step 2: Two persons between O and P means P can attend on Monday or Sunday.
+Step 3: M attends immediately before P. If P is Monday, M would be Sunday (previous week, invalid). So P attends on Sunday and M attends on Saturday.
+Step 4: Three persons between M (Saturday) and N means N attends on Tuesday.
+Step 5: R attends before S but after Q. The remaining days are Monday, Wednesday, and Friday. Thus, Q is on Monday, R on Wednesday, and S on Friday.
+Final Arrangement:
+Monday - Q
+Tuesday - N
+Wednesday - R
+Thursday - O
+Friday - S
+Saturday - M
+Sunday - P
+Therefore, Q attends on Monday.
+
+Q2. How many persons attend between N and S?
+(A) One
+(B) Two
+(C) Three
+(D) None
+
+Answer: B
+Explanation:
+N attends on Tuesday and S attends on Friday.
+R and O attend between them on Wednesday and Thursday. Thus, two persons attend between N and S.
+
+Q3. On which day does R attend the seminar?
+(A) Tuesday
+(B) Wednesday
+(C) Thursday
+(D) Friday
+
+Answer: B
+Explanation:
+According to the final arrangement, R attends on Wednesday.
+
+Q4. Who attends immediately after M?
+(A) N
+(B) O
+(C) P
+(D) Q
+
+Answer: C
+Explanation:
+M attends on Saturday and P attends immediately after on Sunday.
+
+Q5. Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?
+(A) Q - Wednesday
+(B) N - Thursday
+(C) O - Saturday
+(D) R - Saturday
+
+Answer: D
+Explanation:
+Q (Monday) and Wednesday have a gap of one day.
+N (Tuesday) and Thursday have a gap of one day.
+O (Thursday) and Saturday have a gap of one day.
+R (Wednesday) and Saturday have a gap of two days. Thus, R - Saturday is the odd one out.
+
+Directions (Q6-Q10): Study the following information carefully and answer the questions given below.
+Seven people – A, B, C, D, E, F, and G travel to different cities (Delhi, Mumbai, Pune, Goa, Agra, Patna, and Kochi) on seven different days of the same week from Monday to Sunday.
+- C goes to Pune on Thursday.
+- The one who goes to Mumbai goes immediately before F, who goes to Goa.
+- Three persons go between F and A, who goes to Delhi.
+- B goes to Patna immediately after D, who goes to Agra.
+- G does not go to Mumbai.
+
+Q6. Who goes on Friday?
+(A) A
+(B) E
+(C) G
+(D) F
+
+Answer: C
+Explanation:
+Step 1: C goes to Pune on Thursday.
+Step 2: F goes to Goa. The one who goes to Mumbai goes immediately before F. If F is on Sunday, Mumbai is Saturday. Three persons between F(Sunday) and A means A goes on Wednesday (Delhi).
+Step 3: D goes to Agra and B goes to Patna immediately after D. The only consecutive days left are Monday and Tuesday. So D is Monday and B is Tuesday.
+Step 4: The remaining days are Friday and Saturday. The remaining persons are E and G. G does not go to Mumbai, so G goes on Friday and E goes on Saturday (Mumbai).
+Step 5: The only city left is Kochi, which goes to G.
+Final Arrangement:
+Monday - D - Agra
+Tuesday - B - Patna
+Wednesday - A - Delhi
+Thursday - C - Pune
+Friday - G - Kochi
+Saturday - E - Mumbai
+Sunday - F - Goa
+Therefore, G goes on Friday.
+
+Q7. Which city does G go to?
+(A) Kochi
+(B) Mumbai
+(C) Pune
+(D) Goa
+
+Answer: A
+Explanation:
+Refer to diagram: SVG/Q9.svg
+According to the final arrangement, G goes to Kochi.
+
+Q8. How many persons go between D and C?
+(A) One
+(B) Two
+(C) Three
+(D) Four
+
+Answer: B
+Explanation:
+D goes on Monday and C goes on Thursday. B (Tuesday) and A (Wednesday) go between them. Thus, exactly two persons go between D and C.
+
+Q9. Which of the following is correct?
+(A) A - Tuesday - Delhi
+(B) E - Saturday - Mumbai
+(C) B - Wednesday - Patna
+(D) G - Friday - Goa
+
+Answer: B
+Explanation:
+E goes to Mumbai on Saturday. This is the only correct combination among the options.
+
+Q10. Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?
+(A) D - Patna
+(B) A - Pune
+(C) G - Mumbai
+(D) E - Kochi
+
+Answer: D
+Explanation:
+In options A, B, and C, the city belongs to the person traveling on the immediately following day.
+D (Mon) - Patna (Tue)
+A (Wed) - Pune (Thu)
+G (Fri) - Mumbai (Sat)
+However, for option D, E (Sat) and Kochi (Fri), the city is of the previous day. Hence, D is the odd one out.
+
+Directions (Q11-Q15): Study the following information carefully and answer the questions given below.
+Seven persons P, Q, R, S, T, U, and V attend a meeting from Monday to Sunday of the same week. They work in different companies (TCS, Infosys, Wipro, HCL, IBM, TechM, and Cognizant) and like different colors (Red, Blue, Green, Yellow, Black, White, and Pink).
+- S attends on Wednesday and likes Yellow.
+- Three persons attend between S and T.
+- The one who likes Black works in IBM.
+- R likes Green, works in Wipro, and attends on Saturday.
+- Q works in Infosys and attends immediately before R.
+- The one who likes White attends immediately before the one who likes Red.
+- P works in TCS and likes Red.
+- The one who works in TechM attends on Monday.
+- V attends immediately after S and likes Pink.
+- V works in Cognizant.
+
+Q11. Who attends the meeting on Monday?
+(A) P
+(B) U
+(C) T
+(D) S
+
+Answer: B
+Explanation:
+Step 1: S is on Wednesday (Yellow).
+Step 2: Three persons between S and T means T is on Sunday.
+Step 3: V attends immediately after S (Thursday) and likes Pink, works in Cognizant.
+Step 4: R is on Saturday (Green, Wipro). Q attends immediately before R, so Q is on Friday (Infosys).
+Step 5: The one who works in TechM is on Monday.
+Step 6: White is immediately before Red. The only free consecutive days are Monday and Tuesday. So Monday is White and Tuesday is Red.
+Step 7: P works in TCS and likes Red (Tuesday).
+Step 8: The remaining person U must be on Monday (TechM, White).
+Step 9: T is on Sunday. Black works in IBM, so T likes Black and works in IBM.
+Step 10: S (Wednesday) is left with the company HCL.
+Final Arrangement:
+Monday - U - TechM - White
+Tuesday - P - TCS - Red
+Wednesday - S - HCL - Yellow
+Thursday - V - Cognizant - Pink
+Friday - Q - Infosys - Blue (Blue is the remaining color)
+Saturday - R - Wipro - Green
+Sunday - T - IBM - Black
+Therefore, U attends on Monday.
+
+Q12. Which company does S work in?
+(A) HCL
+(B) IBM
+(C) TechM
+(D) Infosys
+
+Answer: A
+Explanation:
+Refer to diagram: SVG/Q13.svg
+Based on the final arrangement, S works in HCL.
+
+Q13. How many persons attend between P and Q?
+(A) One
+(B) Two
+(C) Three
+(D) Four
+
+Answer: B
+Explanation:
+P attends on Tuesday and Q attends on Friday. S (Wednesday) and V (Thursday) attend between them. Hence, there are two persons.
+
+Q14. Which of the following combination is correct?
+(A) P - Infosys - Red
+(B) U - TechM - White
+(C) R - IBM - Green
+(D) T - Wipro - Black
+
+Answer: B
+Explanation:
+Looking at the derived table, U attends on Monday, works in TechM, and likes White.
+
+Q15. Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?
+(A) U - TCS
+(B) S - Cognizant
+(C) V - Infosys
+(D) R - HCL
+
+Answer: D
+Explanation:
+In options A, B, and C, the company mentioned belongs to the person attending on the immediately next day.
+U (Mon) - TCS (Tue)
+S (Wed) - Cognizant (Thu)
+V (Thu) - Infosys (Fri)
+For R (Sat) and HCL (Wed), they do not follow this consecutive pattern. Thus, D is the odd one out.

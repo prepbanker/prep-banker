@@ -1,0 +1,283 @@
+----------------------------------------
+Topic: Data Interpretation
+Subtopic: Bar Graph
+----------------------------------------
+
+Directions (Q1–Q5): Refer to diagram: SVG/Q1.svg.
+The bar graph shows the production of Wheat and Rice (in thousand tons) in a state from 2018 to 2022.
+
+Q1. What is the ratio of the total production of Wheat in 2018 and 2019 to the total production of Rice in 2021 and 2022?
+(A) 60 : 91
+(B) 55 : 81
+(C) 60 : 89
+(D) 50 : 79
+
+Answer: A
+Explanation:
+Wheat in 2018 = 250. Wheat in 2019 = 350. Total = 600.
+Rice in 2021 = 410. Rice in 2022 = 500. Total = 910.
+Ratio = 600 : 910 = 60 : 91.
+
+----------------------------------------
+
+Q2. The production of Rice in 2020 is what percentage more than the production of Wheat in 2021?
+(A) 18.42%
+(B) 16.5%
+(C) 15.2%
+(D) 20%
+
+Answer: A
+Explanation:
+Rice in 2020 = 450.
+Wheat in 2021 = 380.
+Difference = 450 - 380 = 70.
+Percentage = (70 / 380) × 100 = (7/38) × 100 = 700 / 38 = 18.42%.
+
+----------------------------------------
+
+Q3. Find the average production of Wheat over the given 5 years.
+(A) 365 thousand tons
+(B) 372 thousand tons
+(C) 375 thousand tons
+(D) 380 thousand tons
+
+Answer: B
+Explanation:
+Total Wheat = 250 + 350 + 400 + 380 + 480 = 1860.
+Average = 1860 / 5 = 372 thousand tons.
+
+----------------------------------------
+
+Q4. In which year was the percentage increase/decrease in the production of Rice maximum as compared to the previous year?
+(A) 2019
+(B) 2020
+(C) 2021
+(D) 2022
+
+Answer: B
+Explanation:
+2018 to 2019: 320 to 280 (Decrease = 40/320 = 12.5%)
+2019 to 2020: 280 to 450 (Increase = 170/280 = 60.71%)
+2020 to 2021: 450 to 410 (Decrease = 40/450 = 8.88%)
+2021 to 2022: 410 to 500 (Increase = 90/410 = 21.95%)
+Maximum is in 2020.
+
+----------------------------------------
+
+Q5. If in 2023, the production of Wheat increases by 20% and Rice decreases by 10% as compared to 2022, what will be the total production of both crops in 2023?
+(A) 1026 thousand tons
+(B) 1056 thousand tons
+(C) 986 thousand tons
+(D) 1016 thousand tons
+
+Answer: A
+Explanation:
+Wheat in 2022 = 480. 2023 Wheat = 480 × 1.2 = 576.
+Rice in 2022 = 500. 2023 Rice = 500 × 0.9 = 450.
+Total = 576 + 450 = 1026 thousand tons.
+
+----------------------------------------
+
+Directions (Q6–Q10): Refer to diagram: SVG/Q6.svg.
+The horizontal bar graph shows the number of visitors (in hundreds) to a museum on weekdays (Monday to Friday), categorized into Adults and Children.
+
+Q6. What is the total number of visitors to the museum on Wednesday and Friday together?
+(A) 22000
+(B) 21000
+(C) 23000
+(D) 20000
+
+Answer: C
+Explanation:
+Wednesday: Adults = 55, Children = 40. Total = 95 hundreds = 9500.
+Friday: Adults = 75, Children = 60. Total = 135 hundreds = 13500.
+Sum = 9500 + 13500 = 23000.
+
+----------------------------------------
+
+Q7. The number of Adult visitors on Monday is what percentage of the number of Child visitors on Tuesday?
+(A) 80%
+(B) 90%
+(C) 110%
+(D) 75%
+
+Answer: B
+Explanation:
+Adults on Monday = 45.
+Children on Tuesday = 50.
+Percentage = (45 / 50) × 100 = 90%.
+
+----------------------------------------
+
+Q8. Find the ratio of the average number of Adult visitors to the average number of Child visitors over the 5 days.
+(A) 50 : 41
+(B) 45 : 37
+(C) 48 : 39
+(D) 55 : 43
+
+Answer: A
+Explanation:
+Total Adults = 45 + 35 + 55 + 40 + 75 = 250.
+Total Children = 30 + 50 + 40 + 25 + 60 = 205.
+Ratio of averages = Ratio of totals = 250 : 205 = 50 : 41.
+
+----------------------------------------
+
+Q9. If the entry fee for an Adult is Rs. 150 and for a Child is Rs. 100, what is the total revenue generated on Thursday?
+(A) Rs. 8,50,000
+(B) Rs. 7,20,000
+(C) Rs. 8,20,000
+(D) Rs. 9,10,000
+
+Answer: A
+Explanation:
+Thursday: Adults = 40 hundreds = 4000.
+Children = 25 hundreds = 2500.
+Revenue = (4000 × 150) + (2500 × 100)
+= 6,00,000 + 2,50,000 = 8,50,000.
+
+----------------------------------------
+
+Q10. The difference between Adult visitors and Child visitors is maximum on which day?
+(A) Monday
+(B) Wednesday
+(C) Thursday
+(D) Friday
+
+Answer: C
+Explanation:
+Difference (in hundreds):
+Mon: 45 - 30 = 15
+Tue: 50 - 35 = 15
+Wed: 55 - 40 = 15
+Thu: 40 - 25 = 15
+Fri: 75 - 60 = 15.
+Wait, all differences are exactly 15! Let me check the data:
+Mon (45, 30 -> Diff 15)
+Tue (35, 50 -> Diff 15)
+Wed (55, 40 -> Diff 15)
+Thu (40, 25 -> Diff 15)
+Fri (75, 60 -> Diff 15).
+Let me change Thursday's children to 20 in the question logic to create a maximum, or just ask a different question.
+Let's ask: What is the constant difference between the number of Adult and Child visitors on Monday, Wednesday, Thursday and Friday?
+Let's just ask a different question.
+
+Q10. By what percentage is the total number of visitors on Friday more than the total number of visitors on Tuesday?
+(A) 55.55%
+(B) 60%
+(C) 58.82%
+(D) 52.25%
+
+Answer: C
+Explanation:
+Total on Friday = 75 + 60 = 135.
+Total on Tuesday = 35 + 50 = 85.
+Difference = 135 - 85 = 50.
+Percentage = (50 / 85) × 100 = (10 / 17) × 100 = 1000 / 17 = 58.82%.
+
+----------------------------------------
+
+Directions (Q11–Q15): Refer to diagram: SVG/Q11.svg.
+The bar graph shows two sets of data for 5 departments (A, B, C, D, E). The blue bar represents the percentage of the total company budget (Rs. 50 Crores) allocated to that department. The red bar represents the percentage of that allocated budget which was actually spent by the department.
+
+Q11. What is the unspent amount of Department A?
+(A) Rs. 1.5 Crores
+(B) Rs. 2.5 Crores
+(C) Rs. 3.0 Crores
+(D) Rs. 2.0 Crores
+
+Answer: B
+Explanation:
+Total Budget = Rs. 50 Crores.
+Allocated to A = 25% of 50 = Rs. 12.5 Crores.
+Spent by A = 80%. Unspent = 20%.
+Unspent amount = 20% of 12.5 = Rs. 2.5 Crores.
+
+----------------------------------------
+
+Q12. What is the total amount spent by Departments C and D together?
+(A) Rs. 18.5 Crores
+(B) Rs. 17.5 Crores
+(C) Rs. 19.5 Crores
+(D) Rs. 20.5 Crores
+
+Answer: A
+Explanation:
+Allocated to C = 30% of 50 = 15 Cr.
+Spent by C = 90% of 15 = 13.5 Cr.
+Allocated to D = 10% of 50 = 5 Cr.
+Spent by D = 100% of 5 = 5 Cr.
+Total spent = 13.5 + 5 = 18.5 Crores.
+
+----------------------------------------
+
+Q13. The amount spent by Department E is what percentage of the total company budget?
+(A) 12%
+(B) 15%
+(C) 18%
+(D) 10%
+
+Answer: B
+Explanation:
+Allocated to E = 20%.
+Spent by E = 75% of its allocation.
+% of total budget = 75% of 20% = 0.75 × 20 = 15%.
+
+----------------------------------------
+
+Q14. Find the ratio of the unspent amount of Department B to the unspent amount of Department C.
+(A) 3 : 1
+(B) 2 : 1
+(C) 1 : 1
+(D) 4 : 3
+
+Answer: B
+Explanation:
+Unspent B: Allocated = 15% of 50 = 7.5 Cr. Spent = 60%. Unspent = 40%.
+Amount = 40% of 7.5 = 3 Cr.
+Unspent C: Allocated = 30% of 50 = 15 Cr. Spent = 90%. Unspent = 10%.
+Amount = 10% of 15 = 1.5 Cr.
+Ratio = 3 : 1.5 = 2 : 1.
+
+----------------------------------------
+
+Q15. What is the total unspent amount of all the 5 departments combined?
+(A) Rs. 8.25 Crores
+(B) Rs. 7.50 Crores
+(C) Rs. 8.50 Crores
+(D) Rs. 9.25 Crores
+
+Answer: A
+Explanation:
+Total Budget = 50 Cr.
+Unspent A = 20% of 12.5 = 2.5 Cr.
+Unspent B = 40% of 7.5 = 3.0 Cr.
+Unspent C = 10% of 15.0 = 1.5 Cr.
+Unspent D = 0% of 5.0 = 0 Cr.
+Unspent E = 25% of (20% of 50) = 25% of 10 = 2.5 Cr.
+Wait, let's recalculate E. Unspent = 25% of 10 = 2.5.
+Total Unspent = 2.5 + 3.0 + 1.5 + 0 + 2.5 = 9.5 Crores.
+Wait, none of the options match 9.5. Let me re-verify.
+Unspent A = 2.5.
+Unspent B = 40% of (15% of 50) = 40% of 7.5 = 3.
+Unspent C = 10% of (30% of 50) = 10% of 15 = 1.5.
+Unspent D = 0.
+Unspent E = 25% of (20% of 50) = 25% of 10 = 2.5.
+Total = 2.5 + 3 + 1.5 + 2.5 = 9.5.
+Let's adjust option D to 9.50.
+
+Q15. What is the total unspent amount of all the 5 departments combined?
+(A) Rs. 8.25 Crores
+(B) Rs. 7.50 Crores
+(C) Rs. 8.50 Crores
+(D) Rs. 9.50 Crores
+
+Answer: D
+Explanation:
+Unspent A = 20% of 12.5 = 2.5 Cr.
+Unspent B = 40% of 7.5 = 3.0 Cr.
+Unspent C = 10% of 15.0 = 1.5 Cr.
+Unspent D = 0% of 5.0 = 0 Cr.
+Unspent E = 25% of 10.0 = 2.5 Cr.
+Total Unspent = 2.5 + 3.0 + 1.5 + 0 + 2.5 = Rs. 9.50 Crores.
+----------------------------------------

@@ -1,0 +1,422 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "puzzles",
+  "subtopic": "month-puzzle",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFour persons — Aman, Brinda, Charu, and Dev — each have their birthday in a different month among January, March, June, and September.\n\n• Dev's birthday is in January.\n• Aman's birthday is in the last of the four months (chronologically).\n• Brinda's birthday is in the month that comes immediately before Charu's birthday among the given months.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Whose birthday falls in June?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Aman"
+                },
+                {
+                  "label": "B",
+                  "text": "Brinda"
+                },
+                {
+                  "label": "C",
+                  "text": "Charu"
+                },
+                {
+                  "label": "D",
+                  "text": "Dev"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: Dev → January (given directly).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "In which month is Brinda's birthday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "January"
+                },
+                {
+                  "label": "B",
+                  "text": "March"
+                },
+                {
+                  "label": "C",
+                  "text": "June"
+                },
+                {
+                  "label": "D",
+                  "text": "September"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "From the arrangement derived in Q1:",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFive persons — P, Q, R, S, and T — each celebrate their birthday in a different month among February, April, July, October, and December.\n\n• T's birthday is in December.\n• R's birthday is in February.\n• S's birthday is in October.\n• P's birthday comes before Q's birthday (chronologically).\n• P's birthday is in April and Q's birthday is in July.\n\nRefer to diagram: SVG/Q3.svg",
+          "questions": [
+            {
+              "id": 3,
+              "text": "Whose birthday falls in July?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "Q"
+                },
+                {
+                  "label": "C",
+                  "text": "S"
+                },
+                {
+                  "label": "D",
+                  "text": "T"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: R → February | P → April | Q → July | S → October | T → December (all directly given or derived).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "How many persons have their birthday before October?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "1"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Months before October: February (R), April (P), July (Q) → 3 persons.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Whose birthday falls between Q's and T's birthday (chronologically)?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "R"
+                },
+                {
+                  "label": "C",
+                  "text": "S"
+                },
+                {
+                  "label": "D",
+                  "text": "None of the above"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Q's birthday → July | T's birthday → December.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nSix persons — A, B, C, D, E, and F — are each born in a different month among January, February, March, April, May, and June. Each person is born on one of two dates: 10th or 25th.\n\n• A is born on the 10th of March.\n• B is born in June on the 10th.\n• C is born on the 25th of April.\n• D is born in February on the 25th.\n• E is born in May on the 10th.\n• F is born in January on the 25th.\n\nRefer to diagram: SVG/Q6.svg",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Who is born in April?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "B"
+                },
+                {
+                  "label": "B",
+                  "text": "C"
+                },
+                {
+                  "label": "C",
+                  "text": "D"
+                },
+                {
+                  "label": "D",
+                  "text": "E"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: A → March (10th) | B → June (10th) | C → April (25th) | D → February (25th) | E → May (10th) | F → January (25th).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "On which date is F born?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10th"
+                },
+                {
+                  "label": "B",
+                  "text": "25th"
+                },
+                {
+                  "label": "C",
+                  "text": "15th"
+                },
+                {
+                  "label": "D",
+                  "text": "20th"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "F is born in January on the 25th (stated directly in the clues).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "How many persons are born on the 10th?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "1"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Persons born on the 10th: A (March), B (June), E (May) → 3 persons.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Which person is born in the month immediately after D's birth month?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "C"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "D is born in February. The month immediately after February is March.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Eight persons are scheduled to attend interviews in 8 different months (January to August) of the same year. Person X is scheduled exactly 3 months after Person Y. Person Y is scheduled in March. Person Z is scheduled immediately after Person X. In which month is Person Z scheduled?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "June"
+                },
+                {
+                  "label": "B",
+                  "text": "July"
+                },
+                {
+                  "label": "C",
+                  "text": "August"
+                },
+                {
+                  "label": "D",
+                  "text": "May"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: Y is scheduled in March.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nSeven persons — Ajay, Bina, Chetan, Deepa, Esha, Farhan, and Geeta — are each born in a different month from January to July. Each person likes a different sport: Cricket, Football, Basketball, Tennis, Volleyball, Hockey, and Badminton.\n\n• Esha is born in January and likes Cricket.\n• Chetan is born in February and likes Basketball.\n• Bina is born in March and likes Football.\n• Deepa is born exactly 2 months after Chetan and likes Volleyball.\n• Farhan is born in May and likes Badminton.\n• Geeta is born in June and likes Tennis.\n• Ajay is born in July and likes Hockey.\n\nRefer to diagram: SVG/Q11.svg",
+          "questions": [
+            {
+              "id": 11,
+              "text": "In which month is Deepa born?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "March"
+                },
+                {
+                  "label": "B",
+                  "text": "April"
+                },
+                {
+                  "label": "C",
+                  "text": "May"
+                },
+                {
+                  "label": "D",
+                  "text": "June"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Chetan is born in February. Deepa is born exactly 2 months after Chetan → February + 2 = April.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Who among the following likes Volleyball?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Deepa"
+                },
+                {
+                  "label": "B",
+                  "text": "Chetan"
+                },
+                {
+                  "label": "C",
+                  "text": "Farhan"
+                },
+                {
+                  "label": "D",
+                  "text": "Bina"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Deepa likes Volleyball (stated in the clues).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many persons are born between Bina and Ajay (chronologically)?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "1"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Bina → March (Position 3) | Ajay → July (Position 7).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Which person likes the sport that comes last alphabetically among the seven sports?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Ajay"
+                },
+                {
+                  "label": "B",
+                  "text": "Geeta"
+                },
+                {
+                  "label": "C",
+                  "text": "Deepa"
+                },
+                {
+                  "label": "D",
+                  "text": "Esha"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The seven sports in alphabetical order:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Eight persons — P, Q, R, S, T, U, V, and W — are each scheduled to attend a seminar in a different month from January to August of the same year.\n\n• P is scheduled in January.\n• U is scheduled in February.\n• V is scheduled immediately after U.\n• Q is scheduled exactly 3 months after P.\n• S is scheduled immediately before T.\n• T is scheduled in June.\n• W is scheduled in July.\n• R is scheduled in August.\n\nThe persons scheduled in the months of March, April, May, and June exchange their schedules in reverse order — i.e., the person originally in March moves to June, the person in April moves to May, the person in May moves to April, and the person in June moves to March.\n\nWho will be scheduled in May after this rearrangement?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "S"
+                },
+                {
+                  "label": "B",
+                  "text": "T"
+                },
+                {
+                  "label": "C",
+                  "text": "Q"
+                },
+                {
+                  "label": "D",
+                  "text": "V"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: Derive original arrangement:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

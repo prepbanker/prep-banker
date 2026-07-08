@@ -1,0 +1,237 @@
+----------------------------------------
+Topic: Blood Relations
+Subtopic: Family Tree
+----------------------------------------
+
+Directions (Q1–Q5): Study the following information carefully and answer the questions given below.
+A family consists of six members: P, Q, R, S, T, and U. There are two married couples in the family.
+P is the father of R and the grandfather of U.
+Q is the mother-in-law of S.
+S is the mother of T.
+T is the sister of U.
+U is a male.
+R is a male.
+
+Q1. How is P related to T?
+(A) Father
+(B) Grandfather
+(C) Uncle
+(D) Brother
+
+Answer: B
+Explanation:
+P is the father of R, and R is married to S (since Q is S's mother-in-law, Q and P are a couple). S is the mother of T. Therefore, R is the father of T, making P the grandfather of T.
+
+----------------------------------------
+
+Q2. How is S related to Q?
+(A) Daughter
+(B) Sister-in-law
+(C) Daughter-in-law
+(D) Niece
+
+Answer: C
+Explanation:
+The statement explicitly says "Q is the mother-in-law of S". This means S is the daughter-in-law of Q.
+
+----------------------------------------
+
+Q3. How is R related to U?
+(A) Brother
+(B) Uncle
+(C) Grandfather
+(D) Father
+
+Answer: D
+Explanation:
+S is the mother of T, and T is the sister of U. This means S is the mother of U. Since R is married to S, R is the father of U.
+
+----------------------------------------
+
+Q4. How many male members are there in the family?
+(A) 2
+(B) 3
+(C) 4
+(D) Cannot be determined
+
+Refer to diagram: SVG/Q4.svg
+
+Answer: B
+Explanation:
+The male members are:
+P (father of R),
+R (male, explicitly stated),
+U (male, explicitly stated).
+Thus, there are 3 male members in the family.
+
+----------------------------------------
+
+Q5. Who among the following is the spouse of P?
+(A) S
+(B) R
+(C) Q
+(D) T
+
+Answer: C
+Explanation:
+Since P is the father of R, and Q is the mother-in-law of R's wife (S), Q must be the mother of R. Therefore, P and Q are a married couple, making Q the spouse of P.
+
+----------------------------------------
+
+Directions (Q6–Q10): Study the following information carefully and answer the questions given below.
+In a family of 8 members, there are 3 generations and 2 married couples.
+B is the husband of A.
+D is the only son of B.
+C is the sister of D.
+E is the wife of D.
+H is the father of E.
+F is the sister of E.
+G is the daughter of D.
+
+Q6. How is C related to E?
+(A) Sister
+(B) Sister-in-law
+(C) Cousin
+(D) Mother-in-law
+
+Answer: B
+Explanation:
+C is the sister of D, and D is the husband of E. Therefore, C is the sister-in-law of E.
+
+----------------------------------------
+
+Q7. How is H related to G?
+(A) Paternal Grandfather
+(B) Maternal Grandfather
+(C) Uncle
+(D) Father
+
+Answer: B
+Explanation:
+H is the father of E, and E is the mother of G (since G is D's daughter and E is D's wife). Therefore, H is the maternal grandfather of G.
+
+----------------------------------------
+
+Q8. How many female members are there in the family?
+(A) 3
+(B) 4
+(C) 5
+(D) 6
+
+Answer: C
+Explanation:
+The female members are:
+A (wife of B),
+C (sister of D),
+E (wife of D),
+F (sister of E),
+G (daughter of D).
+Thus, there are 5 female members.
+
+----------------------------------------
+
+Q9. How is F related to D?
+(A) Sister
+(B) Sister-in-law
+(C) Cousin
+(D) Aunt
+
+Refer to diagram: SVG/Q9.svg
+
+Answer: B
+Explanation:
+F is the sister of E, and E is the wife of D. Therefore, F is the sister-in-law of D.
+
+----------------------------------------
+
+Q10. Who is the mother-in-law of E?
+(A) A
+(B) C
+(C) F
+(D) H
+
+Answer: A
+Explanation:
+E is married to D. D is the son of B and A. Since B is the husband of A, A is the mother of D. Thus, A is the mother-in-law of E.
+
+----------------------------------------
+
+Directions (Q11–Q15): Study the following information carefully and answer the questions given below.
+In a family of 9 members, there are three generations and three married couples.
+U is the father of S.
+Q is the only sister of S.
+R is the brother-in-law of T.
+P is the mother-in-law of V.
+O is the nephew of V.
+M is the granddaughter of U.
+T does not have any siblings and is a female.
+V is a male.
+S has only two children, and O is not a female.
+
+Q11. How is P related to R?
+(A) Grandmother
+(B) Mother
+(C) Aunt
+(D) Sister
+
+Answer: B
+Explanation:
+U is the father of S, and Q is the only sister of S. Since P is the mother-in-law of V (who is a male), and Q is the only sister, V must be married to Q. This makes P the wife of U. R is the brother-in-law of T (who is married to S), meaning R is S's brother. Since P is the mother of S, Q, and R, P is the mother of R.
+
+----------------------------------------
+
+Q12. How is M related to Q?
+(A) Daughter
+(B) Sister
+(C) Niece
+(D) Cousin
+
+Answer: C
+Explanation:
+M is the granddaughter of U and child of S. Q is the sister of S. Therefore, M is the niece of Q.
+
+----------------------------------------
+
+Q13. How many male members are there in the family?
+(A) 4
+(B) 5
+(C) 6
+(D) Cannot be determined
+
+Answer: B
+Explanation:
+The male members are:
+U (father of S),
+S (husband of T),
+R (brother of S),
+V (husband of Q),
+O (nephew of V, explicitly stated as not a female).
+Thus, there are 5 male members.
+
+----------------------------------------
+
+Q14. How is R related to O?
+(A) Maternal Uncle
+(B) Paternal Uncle
+(C) Father
+(D) Brother
+
+Refer to diagram: SVG/Q14.svg
+
+Answer: B
+Explanation:
+R is the brother of S, and S is the father of O. Therefore, R is the paternal uncle of O.
+
+----------------------------------------
+
+Q15. Who among the following is the spouse of V?
+(A) T
+(B) P
+(C) Q
+(D) M
+
+Answer: C
+Explanation:
+P is the mother-in-law of V. V is a male. S, Q, and R are the children of P. Since T is married to S and R is a male, V must be married to the daughter Q. Thus, Q is the spouse of V.
+
+----------------------------------------

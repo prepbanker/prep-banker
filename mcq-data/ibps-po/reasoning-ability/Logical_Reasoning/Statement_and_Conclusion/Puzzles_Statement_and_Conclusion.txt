@@ -1,0 +1,206 @@
+Topic: Logical Reasoning
+Subtopic: Statement & Conclusion
+
+Directions (Q1-Q15): In each question below, one or more statements are given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true, then consider the two conclusions together and decide which of them logically follows beyond a reasonable doubt from the information given in the statement.
+
+Options for all questions:
+(A) If only conclusion I follows
+(B) If only conclusion II follows
+(C) If either I or II follows
+(D) If neither I nor II follows (Wait, usually there is 'Both I and II follow'. I'll adjust options per question).
+
+Let's use specific 4 options for each question to strictly adhere to the standard format.
+
+Q1. Statement: "To keep myself updated, I always read the evening newspaper." - Rohan to his friend.
+Conclusions:
+I. Rohan does not read the morning newspaper.
+II. Evening newspapers provide updated information.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either I or II follows
+(D) Both I and II follow
+Answer: B
+Explanation: 
+Conclusion I doesn't follow because we don't know if he reads the morning newspaper or not. He states what he does to keep updated.
+Conclusion II follows because he explicitly states he reads it "to keep myself updated," which logically assumes that evening newspapers contain updated information.
+
+Q2. Statement: The Government has appealed to all citizens to use water carefully as the reservoir levels are critically low.
+Conclusions:
+I. People may ignore the government's appeal and continue wasting water.
+II. People may understand the severity and start using water carefully.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Neither I nor II follows
+(D) Both I and II follow
+Answer: B
+Explanation: 
+When an appeal or notice is issued, it is logically assumed that people will pay attention to it and follow it (otherwise, issuing it would be pointless in logical reasoning frameworks). Hence, conclusion II follows. Conclusion I is a negative assumption which does not logically follow as the intended outcome.
+
+Q3. Statement: All those who have a valid ticket will be allowed to enter the stadium.
+Conclusions:
+I. Those without a ticket will not be allowed to enter.
+II. Only tickets guarantee entry into the stadium.
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+The statement sets a condition for entry (having a valid ticket). Thus, those without it will not enter (Conclusion I follows). Conclusion II uses the word 'only', which means nothing else is checked (e.g., security check). Since we only know about tickets, we cannot say 'only' tickets guarantee entry. So, I follows.
+
+Q4. Statement: A large majority of the workforce in company X is facing health issues due to extreme stress.
+Conclusions:
+I. The company X should immediately reduce the working hours for all employees.
+II. Stress is a major factor contributing to the health issues of employees in company X.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: B
+Explanation: 
+Conclusion I is an action or suggestion, not a direct logical conclusion from the statement. A conclusion must be a fact deduced from the statement. 
+Conclusion II is a direct deduction because the statement explicitly says health issues are "due to extreme stress."
+
+Q5. Statement: "Buy pure and natural honey of brand X." - An advertisement in a newspaper.
+Conclusions:
+I. Artificial honey can be prepared.
+II. People do not mind paying more for pure and natural honey.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+The ad highlights "pure and natural" honey, which implies there exists honey that is NOT pure and natural (i.e., artificial). Hence, I follows. 
+Conclusion II talks about cost/paying more, which is not mentioned in the advertisement. Hence, II does not follow.
+
+Q6. Statement: Good health is an essential requirement for higher productivity.
+Conclusions:
+I. A sick person cannot be highly productive.
+II. Good health guarantees higher productivity.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+The statement says good health is "essential" (necessary condition) for higher productivity. Thus, without it (sick person), one cannot be highly productive. So, I follows. 
+However, it being "essential" does not mean it is the "only" requirement or that it "guarantees" high productivity (other factors like skill matter). So, II does not follow.
+
+Q7. Statement: Over-usage of smartphones before bedtime leads to severe sleep deprivation among teenagers.
+Conclusions:
+I. Teenagers who do not use smartphones before bedtime never face sleep deprivation.
+II. Sleep deprivation among teenagers can be reduced by limiting smartphone usage before bedtime.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: B
+Explanation: 
+Conclusion I is extreme ("never face"). Sleep deprivation could be caused by other factors.
+Conclusion II logically follows because the statement identifies over-usage as a cause; limiting it would logically reduce the effect.
+
+Q8. Statement: Company ABC has decided to give a 15% bonus to all its employees this Diwali.
+Conclusions:
+I. The company made a huge profit this year.
+II. The employees of company ABC will be motivated to work harder.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: D
+Explanation: 
+Conclusion I is a mere assumption; bonuses can be given for other reasons (retention, standard policy) regardless of huge profits.
+Conclusion II is an expected effect, but not a direct logical "conclusion" drawn from the statement itself (it is an assumption of future behavior). 
+Hence, neither follows.
+
+Q9. Statement: The literacy rate in state Y has increased significantly due to the implementation of the new free education policy.
+Conclusions:
+I. Free education policies always increase literacy rates.
+II. State Y had a lower literacy rate prior to the implementation of this policy.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: B
+Explanation: 
+Conclusion I uses the absolute word "always", which cannot be deduced from one specific case (State Y). 
+Conclusion II follows logically because the statement says the literacy rate has "increased significantly," implying it was lower before.
+
+Q10. Statement: No country is absolutely self-dependent these days.
+Conclusions:
+I. It is impossible to grow and produce all that a country needs.
+II. Countrymen in general have become lazy.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+The statement asserts that absolute self-dependence is absent today. This logically implies that countries cannot produce/grow everything they need (Conclusion I follows). 
+Conclusion II is irrelevant and has no basis in the statement.
+
+Q11. Statement: "Those who score less than 60% in the entrance exam will not be shortlisted for the interview." - A notice by Institute Z.
+Conclusions:
+I. Scoring 60% or more guarantees a selection in the interview.
+II. No candidate scoring less than 60% will attend the interview.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: B
+Explanation: 
+Conclusion I is false because scoring 60% or more only gets you shortlisted, it does not guarantee final selection in the interview. 
+Conclusion II is a direct restatement of the criteria, meaning it strictly follows.
+
+Q12. Statement: Reading books expands the mind and improves cognitive abilities.
+Conclusions:
+I. Those who do not read books have poor cognitive abilities.
+II. Watching television shrinks the mind.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: D
+Explanation: 
+Conclusion I does not follow because while reading improves cognitive abilities, it doesn't mean those who don't read have "poor" abilities (they might improve them via other methods).
+Conclusion II is completely unrelated to the statement.
+
+Q13. Statement: Economic growth is heavily dependent on technological advancements.
+Conclusions:
+I. A country without technological advancements will face economic stagnation or decline.
+II. All developed countries have advanced technology.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+Since economic growth is "heavily dependent" on technology, the lack of technology logically leads to a lack of growth (stagnation). Thus, I follows.
+Conclusion II makes an absolute claim about "all developed countries", which is outside the scope of the given statement.
+
+Q14. Statement: "Invest in mutual funds for high returns, but be aware of market risks." - Financial Advisor.
+Conclusions:
+I. Mutual funds always give high returns.
+II. There is a possibility of losing money in mutual funds.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: B
+Explanation: 
+Conclusion I is wrong because the advisor says to "be aware of market risks", meaning returns are not guaranteed or "always" high.
+Conclusion II follows because "market risks" inherently implies the possibility of financial loss.
+
+Q15. Statement: Due to heavy fog, all flights originating from City A have been delayed indefinitely.
+Conclusions:
+I. Fog makes visibility too poor for safe flight operations.
+II. Passengers traveling from City A will reach their destinations late.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: C
+Explanation: 
+Conclusion I logically follows because fog causing flight delays implies it affects safe operations (visibility).
+Conclusion II logically follows because if flights are delayed indefinitely, passengers will inevitably reach their destinations later than planned. Both follow.

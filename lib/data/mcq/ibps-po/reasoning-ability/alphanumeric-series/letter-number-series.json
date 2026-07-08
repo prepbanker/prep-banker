@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "alphanumeric-series",
+  "subtopic": "letter-number-series",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the following alphanumeric sequence carefully and answer the questions given below:\nH 3 $ K E 5 @ P 1 O # 7 M 9 Q * V 2 T % 4 8 B",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Study the following arrangement carefully: \nM 4 $ K 7 % P 2 @ O 9 # N 3 * J 5 A\nHow many such numbers are there which are immediately preceded by a consonant and immediately followed by a symbol?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Arrangement: M 4 $ K 7 % P 2 @ O 9 # N 3 * J 5 A",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Based on the sequence: A 2 * C 4 # B 5 @ D 7 % E 9 $\nWhich of the following is the 4th element to the right of the 10th element from the left end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7"
+                },
+                {
+                  "label": "B",
+                  "text": "%"
+                },
+                {
+                  "label": "C",
+                  "text": "E"
+                },
+                {
+                  "label": "D",
+                  "text": "9"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "10th element from the left end: A, 2, *, C, 4, #, B, 5, @, D(10th).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "In the sequence: Z 8 & Y 6 @ E 4 # W 2 % V 9 $ U\nHow many vowels are immediately followed by a number?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "None"
+                },
+                {
+                  "label": "B",
+                  "text": "One"
+                },
+                {
+                  "label": "C",
+                  "text": "Two"
+                },
+                {
+                  "label": "D",
+                  "text": "Three"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sequence: Z 8 & Y 6 @ E 4 # W 2 % V 9 $ U",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Sequence: 5 K # 2 R $ 9 A % 7 M @ 4 E * 6\nIf all the symbols are dropped from the above sequence, which element will be 6th from the right end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "9"
+                },
+                {
+                  "label": "B",
+                  "text": "A"
+                },
+                {
+                  "label": "C",
+                  "text": "7"
+                },
+                {
+                  "label": "D",
+                  "text": "M"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sequence without symbols: 5 K 2 R 9 A 7 M 4 E 6 (Total 11 elements)",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Sequence: P 3 @ R 5 # S 7 % T 9 & U 2 *\nWhat should come in place of the question mark in the following series based on the above sequence?\nP3@, R5#, S7%, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "T9&"
+                },
+                {
+                  "label": "B",
+                  "text": "9&U"
+                },
+                {
+                  "label": "C",
+                  "text": "T9U"
+                },
+                {
+                  "label": "D",
+                  "text": "T9*"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's observe the series extracted from the sequence:",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the following alphanumeric sequence carefully and answer the questions given below:\nH 3 $ K E 5 @ P 1 O # 7 M 9 Q * V 2 T % 4 8 B",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Sequence: L 9 @ 4 K $ T 7 # A 5 & E 2 * Q 8\nWhich element is exactly midway between the 4th element from the left and the 6th element from the right?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "T"
+                },
+                {
+                  "label": "B",
+                  "text": "7"
+                },
+                {
+                  "label": "C",
+                  "text": "#"
+                },
+                {
+                  "label": "D",
+                  "text": "A"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sequence length = 17 elements.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Sequence: B 2 # D 4 @ F 6 $ H 8 %\nIf the order of the first six elements is reversed and the order of the last six elements is reversed, which element will be 3rd to the right of the 7th element from the left end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "8"
+                },
+                {
+                  "label": "B",
+                  "text": "%"
+                },
+                {
+                  "label": "C",
+                  "text": "H"
+                },
+                {
+                  "label": "D",
+                  "text": "$"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Total elements = 12.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Sequence: 1 A ! 2 B @ 3 C # 4 D $ 5 E %\nHow many consonants are immediately followed by a symbol and immediately preceded by a number?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Sequence: 1 A ! 2 B @ 3 C # 4 D $ 5 E %",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Sequence: M 8 * 9 K % 3 N # 7 U @ 5 V &\nIf all the numbers are arranged in ascending order from left to right at the beginning of the sequence, followed by all consonants in alphabetical order, followed by all vowels, followed by symbols in their original order, what will be the 10th element from the left?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "V"
+                },
+                {
+                  "label": "B",
+                  "text": "U"
+                },
+                {
+                  "label": "C",
+                  "text": "*"
+                },
+                {
+                  "label": "D",
+                  "text": "N"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Original: M 8 * 9 K % 3 N # 7 U @ 5 V &",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Sequence: P 4 % 9 R $ M 2 N 5 * K 7 &\nWhich of the following is exactly in the middle of 9 and 5 in the given arrangement?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "$"
+                },
+                {
+                  "label": "B",
+                  "text": "M"
+                },
+                {
+                  "label": "C",
+                  "text": "2"
+                },
+                {
+                  "label": "D",
+                  "text": "N"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sequence: P 4 % 9 R $ M 2 N 5 * K 7 &",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the following alphanumeric sequence carefully and answer the questions given below:\nH 3 $ K E 5 @ P 1 O # 7 M 9 Q * V 2 T % 4 8 B",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Sequence: 2 @ A 4 # B 6 $ C 8 % D\nIf every element in the sequence is assigned a positional value from 1 to 12 starting from the left, what is the sum of the positional values of all the letters?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24"
+                },
+                {
+                  "label": "B",
+                  "text": "26"
+                },
+                {
+                  "label": "C",
+                  "text": "28"
+                },
+                {
+                  "label": "D",
+                  "text": "30"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Sequence with positions:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Sequence: W 3 & X 5 @ Y 7 # Z 9 *\nHow many such numbers are there in the sequence which are immediately preceded by a letter and immediately followed by a symbol?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1"
+                },
+                {
+                  "label": "B",
+                  "text": "2"
+                },
+                {
+                  "label": "C",
+                  "text": "3"
+                },
+                {
+                  "label": "D",
+                  "text": "4"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Sequence: W 3 & X 5 @ Y 7 # Z 9 *",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Sequence: 9 A * 8 B % 7 C $ 6 D # 5 E @\nIf all the elements which are at prime positions (1-indexed) are dropped, what will be the 5th element from the left in the new arrangement?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "C"
+                },
+                {
+                  "label": "B",
+                  "text": "$"
+                },
+                {
+                  "label": "C",
+                  "text": "6"
+                },
+                {
+                  "label": "D",
+                  "text": "D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sequence: 9(1) A(2) *(3) 8(4) B(5) %(6) 7(7) C(8) $(9) 6(10) D(11) #(12) 5(13) E(14) @(15)",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Sequence: F 4 $ K 7 % P 2 @ O 9 # N 3 * J 5\nFind the next group in the series: F4$, K7%, P2@, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "O9#"
+                },
+                {
+                  "label": "B",
+                  "text": "9#N"
+                },
+                {
+                  "label": "C",
+                  "text": "O9N"
+                },
+                {
+                  "label": "D",
+                  "text": "O#9"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The series is formed by taking groups of 3 consecutive elements from the given sequence without skipping any element.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Sequence: A * 2 B & 3 C @ 4 D $ 5\nIf we swap the 1st and 2nd element, 3rd and 4th, 5th and 6th, and so on... Which element will be exactly between '2' and '4' in the new sequence?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "B"
+                },
+                {
+                  "label": "B",
+                  "text": "&"
+                },
+                {
+                  "label": "C",
+                  "text": "@"
+                },
+                {
+                  "label": "D",
+                  "text": "C"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Original: A * 2 B & 3 C @ 4 D $ 5",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

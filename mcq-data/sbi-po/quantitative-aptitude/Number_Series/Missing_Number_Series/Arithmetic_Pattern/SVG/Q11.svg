@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" font-family="Arial, sans-serif">
+  
+  <rect x="10" y="10" width="580" height="230" fill="#fafafa" stroke="#bdbdbd" stroke-width="2" rx="4" />
+  
+  <text x="300" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#263238">Double Difference Logic Mapping (Q11)</text>
+  
+  <!-- Base Series -->
+  <g font-size="20" font-weight="bold" fill="#424242">
+    <text x="70" y="90" text-anchor="middle">12</text>
+    <text x="150" y="90" text-anchor="middle">23</text>
+    <text x="230" y="90" text-anchor="middle">45</text>
+    <text x="310" y="90" text-anchor="middle">80</text>
+    <text x="390" y="90" text-anchor="middle">130</text>
+    <text x="470" y="90" text-anchor="middle" fill="#d32f2f">197</text>
+  </g>
+
+  <!-- First Difference Arcs -->
+  <g stroke="#1565c0" stroke-width="2" fill="none" marker-end="url(#arrow-blue)">
+    <defs>
+      <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+      </marker>
+    </defs>
+    <path d="M 70 105 Q 110 135 150 105" />
+    <path d="M 150 105 Q 190 135 230 105" />
+    <path d="M 230 105 Q 270 135 310 105" />
+    <path d="M 310 105 Q 350 135 390 105" />
+    <path d="M 390 105 Q 430 135 470 105" stroke="#d32f2f" marker-end="url(#arrow-red)"/>
+    <defs>
+      <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#d32f2f"/>
+      </marker>
+    </defs>
+  </g>
+
+  <g font-size="14" font-weight="bold" fill="#1565c0">
+    <text x="110" y="145" text-anchor="middle">+11</text>
+    <text x="190" y="145" text-anchor="middle">+22</text>
+    <text x="270" y="145" text-anchor="middle">+35</text>
+    <text x="350" y="145" text-anchor="middle">+50</text>
+    <text x="430" y="145" text-anchor="middle" fill="#d32f2f">+67</text>
+  </g>
+
+  <!-- Second Difference Arcs -->
+  <g stroke="#2e7d32" stroke-width="2" fill="none" marker-end="url(#arrow-green)">
+    <defs>
+      <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+      </marker>
+    </defs>
+    <path d="M 110 155 Q 150 185 190 155" />
+    <path d="M 190 155 Q 230 185 270 155" />
+    <path d="M 270 155 Q 310 185 350 155" />
+    <path d="M 350 155 Q 390 185 430 155" stroke="#ff9800" marker-end="url(#arrow-orange)"/>
+    <defs>
+      <marker id="arrow-orange" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff9800"/>
+      </marker>
+    </defs>
+  </g>
+
+  <g font-size="14" font-weight="bold" fill="#2e7d32">
+    <text x="150" y="195" text-anchor="middle">+11</text>
+    <text x="230" y="195" text-anchor="middle">+13</text>
+    <text x="310" y="195" text-anchor="middle">+15</text>
+    <text x="390" y="195" text-anchor="middle" fill="#ff9800">+17</text>
+  </g>
+
+  <!-- Explanation box -->
+  <rect x="180" y="210" width="240" height="25" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="4" />
+  <text x="300" y="227" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">Second difference is a linear A.P. (+2)</text>
+
+</svg>

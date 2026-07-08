@@ -1,0 +1,433 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "linear-arrangement",
+  "subtopic": "linear-arrangement-double-row.txt",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nEight persons sit in two parallel rows containing four persons each, in such a way that there is an equal distance between adjacent persons.\nIn Row 1: A, B, C, and D sit facing South.\nIn Row 2: P, Q, R, and S sit facing North.\nTherefore, in the given seating arrangement, each member seated in a row faces another member of the other row.\n\n• A sits at the extreme right end of the row.\n• A faces P.\n• R sits second to the right of P.\n• The person facing R sits to the immediate left of D.\n• B sits to the left of C.\n• Q does not face B.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Who faces S?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "B"
+                },
+                {
+                  "label": "C",
+                  "text": "C"
+                },
+                {
+                  "label": "D",
+                  "text": "D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: Row 1 faces South (Left means viewer's right, Right means viewer's left). Row 2 faces North. Positions are 1 to 4 from viewer's left to right.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What is the position of Q with respect to R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Immediate left"
+                },
+                {
+                  "label": "B",
+                  "text": "Immediate right"
+                },
+                {
+                  "label": "C",
+                  "text": "Second to the left"
+                },
+                {
+                  "label": "D",
+                  "text": "Second to the right"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Row 2: P, Q, R, S (facing North).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Which of the following pairs sit at the extreme ends of their respective rows?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A, B and P, R"
+                },
+                {
+                  "label": "B",
+                  "text": "A, C and Q, S"
+                },
+                {
+                  "label": "C",
+                  "text": "D, B and P, S"
+                },
+                {
+                  "label": "D",
+                  "text": "A, B and P, S"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Row 1 ends: A (Pos 1) and B (Pos 4).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "How many persons sit between A and C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "None"
+                },
+                {
+                  "label": "B",
+                  "text": "One"
+                },
+                {
+                  "label": "C",
+                  "text": "Two"
+                },
+                {
+                  "label": "D",
+                  "text": "Three"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Row 1: A(1), D(2), C(3), B(4).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Who sits to the immediate right of the person who faces D?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "Q"
+                },
+                {
+                  "label": "C",
+                  "text": "R"
+                },
+                {
+                  "label": "D",
+                  "text": "S"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "D is at Pos 2 and faces Q (Row 2, Pos 2).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nTen persons sit in two parallel rows containing five persons each.\nIn Row 1: U, V, W, X, and Y sit facing South.\nIn Row 2: F, G, H, I, and J sit facing North.\nEach person in Row 1 faces a person in Row 2.\n\n• W sits third to the right of Y, who sits at an extreme end of the row.\n• The person facing W sits second to the left of I.\n• Only one person sits between I and F.\n• V faces the person who sits to the immediate right of F.\n• X sits to the right of U.\n• H sits to the immediate left of the person who faces U.\n• G does not face Y.\n\nRefer to diagram: SVG/Q3.svg",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Who faces X?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "G"
+                },
+                {
+                  "label": "B",
+                  "text": "F"
+                },
+                {
+                  "label": "C",
+                  "text": "H"
+                },
+                {
+                  "label": "D",
+                  "text": "J"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: Row 1 faces South. Y is at an extreme end. If Y=Pos 1(Left), right is off the grid. So Y must be at Pos 5(Right). 3rd right of Y is Pos 2 → W=2.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What is the position of V with respect to Y?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Second to the left"
+                },
+                {
+                  "label": "B",
+                  "text": "Third to the right"
+                },
+                {
+                  "label": "C",
+                  "text": "Immediate right"
+                },
+                {
+                  "label": "D",
+                  "text": "Second to the right"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Row 1: X(1), W(2), V(3), U(4), Y(5). They face South.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Four of the following five are alike in a certain way and so form a group. Which is the one that does not belong to that group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "X"
+                },
+                {
+                  "label": "B",
+                  "text": "Y"
+                },
+                {
+                  "label": "C",
+                  "text": "G"
+                },
+                {
+                  "label": "D",
+                  "text": "H"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "X(1), Y(5), and G(1) sit at the extreme ends of their respective rows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Who sits exactly in the middle of Row 2?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "F"
+                },
+                {
+                  "label": "B",
+                  "text": "H"
+                },
+                {
+                  "label": "C",
+                  "text": "I"
+                },
+                {
+                  "label": "D",
+                  "text": "G"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Row 2: G(1), F(2), H(3), I(4), J(5).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "How many persons sit between the one who faces V and J?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "None"
+                },
+                {
+                  "label": "B",
+                  "text": "One"
+                },
+                {
+                  "label": "C",
+                  "text": "Two"
+                },
+                {
+                  "label": "D",
+                  "text": "Three"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "V(3) faces H(3). J is at Pos 5.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFourteen persons sit in two parallel rows containing seven persons each.\nIn Row 1: A, B, C, D, E, F, and G sit facing South.\nIn Row 2: P, Q, R, S, T, U, and V sit facing North.\n\n• P sits third to the right of S, and neither of them sits at an extreme end.\n• The person facing P sits second to the left of B.\n• Only two persons sit between B and A. A does not sit at an extreme end.\n• C sits to the immediate right of A.\n• The person facing C sits to the immediate left of V.\n• U sits second to the left of T.\n• Q does not sit at an extreme end.\n• The person facing T sits to the immediate right of D.\n• E sits to the left of F but to the right of G.\n\nRefer to diagram: SVG/Q11.svg",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Who faces F?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q"
+                },
+                {
+                  "label": "B",
+                  "text": "V"
+                },
+                {
+                  "label": "C",
+                  "text": "R"
+                },
+                {
+                  "label": "D",
+                  "text": "U"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: Row 2 faces North. S and P are not at ends. P is 3rd right of S. Possibilities: S=2,P=5 or S=3,P=6.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "What is the position of D with respect to E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Immediate right"
+                },
+                {
+                  "label": "B",
+                  "text": "Immediate left"
+                },
+                {
+                  "label": "C",
+                  "text": "Second to the left"
+                },
+                {
+                  "label": "D",
+                  "text": "Second to the right"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Row 1: G(1), E(2), B(3), D(4), C(5), A(6), F(7). (Facing South).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many persons sit between U and the person who faces A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Two"
+                },
+                {
+                  "label": "B",
+                  "text": "Three"
+                },
+                {
+                  "label": "C",
+                  "text": "Four"
+                },
+                {
+                  "label": "D",
+                  "text": "Five"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "U is at Pos 1 (Row 2). A is at Pos 6 (Row 1), so A faces V(6) in Row 2.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Four of the following five are alike based on the given seating arrangement. Which one does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "G"
+                },
+                {
+                  "label": "B",
+                  "text": "U"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "C"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "G(1), U(1), and F(7) sit at the extreme ends of their respective rows.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Which of the following statements is true regarding Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q faces D"
+                },
+                {
+                  "label": "B",
+                  "text": "Q sits adjacent to U"
+                },
+                {
+                  "label": "C",
+                  "text": "Q sits second to the right of V"
+                },
+                {
+                  "label": "D",
+                  "text": "Exactly one person sits between Q and R"
+                },
+                {
+                  "label": "A",
+                  "text": "Q is at Pos 4 in Row 2, D is at Pos 4 in Row 1. Q faces D (True)."
+                },
+                {
+                  "label": "B",
+                  "text": "Q(4) is adjacent to T(3) and P(5), not U(1) (False)."
+                },
+                {
+                  "label": "C",
+                  "text": "Q(4) is second to the left of V(6), not right (False)."
+                },
+                {
+                  "label": "D",
+                  "text": "Q(4) and R(7) have two persons between them (P, V) (False)."
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Arrangement checks:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

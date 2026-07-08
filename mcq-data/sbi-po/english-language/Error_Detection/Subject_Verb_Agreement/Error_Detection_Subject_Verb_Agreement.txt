@@ -1,0 +1,140 @@
+----------------------------------------
+Topic: Error Detection
+Subtopic: Subject Verb Agreement
+----------------------------------------
+
+Q1. The introduction of tea, coffee, and such other beverages (A) / have not been without (B) / some effect on the health of the citizens. (C) / No error (D)
+(A) The introduction of tea, coffee, and such other beverages
+(B) have not been without
+(C) some effect on the health of the citizens.
+(D) No error
+
+Answer: B
+Explanation: The subject of the sentence is "The introduction" (singular), not the beverages. Therefore, the singular verb "has" should be used instead of "have". The correct phrase is "has not been without".
+
+Q2. Each of the students in the computer science class (A) / has to type their own research paper (B) / this semester. (C) / No error (D)
+(A) Each of the students in the computer science class
+(B) has to type their own research paper
+(C) this semester.
+(D) No error
+
+Answer: B
+Explanation: "Each" is a singular pronoun and takes a singular verb ("has"), which is correct. However, the subsequent pronoun must also be singular ("his or her" instead of "their"). Thus, the error lies in part (B).
+
+Q3. A vast majority of the voters (A) / in the state has decided (B) / to vote for the incumbent governor. (C) / No error (D)
+(A) A vast majority of the voters
+(B) in the state has decided
+(C) to vote for the incumbent governor.
+(D) No error
+
+Answer: B
+Explanation: When "majority of" is followed by a plural noun ("voters"), the verb should be plural. It should be "have decided" instead of "has decided".
+
+Q4. Neither the size nor the color (A) / of the clothes which I purchased (B) / were right for me. (C) / No error (D)
+(A) Neither the size nor the color
+(B) of the clothes which I purchased
+(C) were right for me.
+(D) No error
+
+Answer: C
+Explanation: In a "Neither...nor" construction, the verb agrees with the subject closest to it. "Color" is singular, so the verb should be "was", not "were".
+
+Q5. The rise and fall of the tide (A) / are due to (B) / lunar influence. (C) / No error (D)
+(A) The rise and fall of the tide
+(B) are due to
+(C) lunar influence.
+(D) No error
+
+Answer: B
+Explanation: "The rise and fall" is considered a singular concept or phenomenon. Therefore, it takes a singular verb. "Are" should be replaced with "is".
+
+Q6. Many a man (A) / have succumbed to (B) / this temptation in the past. (C) / No error (D)
+(A) Many a man
+(B) have succumbed to
+(C) this temptation in the past.
+(D) No error
+
+Answer: B
+Explanation: The phrase "Many a" takes a singular noun ("man") and a singular verb. Therefore, "have" should be changed to "has".
+
+Q7. Not only the principal (A) / but also the teachers (B) / was held responsible for the dispute. (C) / No error (D)
+(A) Not only the principal
+(B) but also the teachers
+(C) was held responsible for the dispute.
+(D) No error
+
+Answer: C
+Explanation: In a "not only...but also" sentence, the verb agrees with the nearest subject. "The teachers" is plural, so the verb should be "were" instead of "was".
+
+Q8. One of my firmest belief (A) / is that hard work (B) / pays off in the long run. (C) / No error (D)
+(A) One of my firmest belief
+(B) is that hard work
+(C) pays off in the long run.
+(D) No error
+
+Answer: A
+Explanation: The phrase "One of" is always followed by a plural noun. Therefore, "belief" should be pluralized to "beliefs".
+
+Q9. Ten miles are (A) / a long distance to cover (B) / on foot in a single day. (C) / No error (D)
+(A) Ten miles are
+(B) a long distance to cover
+(C) on foot in a single day.
+(D) No error
+
+Answer: A
+Explanation: When a plural noun denotes a specific quantity, distance, time, or amount as a whole unit, the verb is singular. "Ten miles" represents a single distance, so "are" should be "is".
+
+Q10. The committee (A) / has debated the issue (B) / and have finally reached a consensus. (C) / No error (D)
+(A) The committee
+(B) has debated the issue
+(C) and have finally reached a consensus.
+(D) No error
+
+Answer: C
+Explanation: The collective noun "committee" is acting as a single unit, hence it takes a singular verb ("has"). The second verb must also be singular for parallel agreement. "Have" should be changed to "has".
+
+Q11. The Arabian Nights (A) / are an interesting book (B) / that every child should read. (C) / No error (D)
+(A) The Arabian Nights
+(B) are an interesting book
+(C) that every child should read.
+(D) No error
+
+Answer: B
+Explanation: "The Arabian Nights" is the title of a single book, so it takes a singular verb. "Are" should be replaced with "is".
+
+Q12. Economics, as well as political science, (A) / are taught by the new professor (B) / who joined the faculty last week. (C) / No error (D)
+(A) Economics, as well as political science,
+(B) are taught by the new professor
+(C) who joined the faculty last week.
+(D) No error
+
+Answer: B
+Explanation: When two subjects are connected by "as well as", the verb agrees with the first subject. "Economics" is a singular subject, so the verb should be "is".
+
+Q13. More than one successful candidate (A) / have taken the interview (B) / for this prestigious position. (C) / No error (D)
+(A) More than one successful candidate
+(B) have taken the interview
+(C) for this prestigious position.
+(D) No error
+
+Answer: B
+Explanation: The phrase "More than one" is always followed by a singular noun and takes a singular verb. Therefore, "have" should be replaced with "has".
+
+Q14. The number of students (A) / who have opted for the course (B) / are exceptionally large this year. (C) / No error (D)
+(A) The number of students
+(B) who have opted for the course
+(C) are exceptionally large this year.
+(D) No error
+
+Answer: C
+Explanation: The phrase "The number of" takes a plural noun but a singular verb, because it refers to the specific count as a singular concept. Therefore, "are" should be "is". (Note: "A number of" takes a plural verb).
+
+Q15. Either the CEO or the board members (A) / is going to have to take the blame (B) / for the catastrophic financial loss. (C) / No error (D)
+(A) Either the CEO or the board members
+(B) is going to have to take the blame
+(C) for the catastrophic financial loss.
+(D) No error
+
+Answer: B
+Explanation: In an "either...or" construction, the verb must agree with the noun closest to it. Since "board members" is plural, the verb must be plural. "Is" should be changed to "are".
+----------------------------------------

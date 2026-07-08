@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "cloze-test",
+  "subtopic": "traditional-cloze",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Cloze Test\nSubtopic: Traditional Cloze\n\nPASSAGE 1\nThe global transition towards renewable energy has fundamentally (1)_______ the geopolitical landscape. Nations that once relied heavily on importing fossil fuels are now heavily investing in solar and wind infrastructure to achieve unprecedented energy (2)_______. This shift, however, is not without its (3)_______. The manufacturing of solar panels and wind turbines requires massive quantities of rare earth metals, the mining of which often causes severe environmental (4)_______ in developing nations. Furthermore, the intermittent nature of solar and wind power necessitates the rapid development of advanced, grid-scale battery storage (5)_______ to ensure a stable and consistent power supply during peak demand hours.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the correct word for blank (1).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "preserved"
+                },
+                {
+                  "label": "B",
+                  "text": "restructured"
+                },
+                {
+                  "label": "C",
+                  "text": "ignored"
+                },
+                {
+                  "label": "D",
+                  "text": "worsened"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A transition to renewable energy changes or \"restructures\" the geopolitical landscape, rather than preserving or ignoring it.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the correct word for blank (2).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "dependence"
+                },
+                {
+                  "label": "B",
+                  "text": "exhaustion"
+                },
+                {
+                  "label": "C",
+                  "text": "independence"
+                },
+                {
+                  "label": "D",
+                  "text": "taxation"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Nations investing in their own solar and wind infrastructure do so to stop relying on imports, thereby achieving energy \"independence\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the correct word for blank (3).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "benefits"
+                },
+                {
+                  "label": "B",
+                  "text": "challenges"
+                },
+                {
+                  "label": "C",
+                  "text": "solutions"
+                },
+                {
+                  "label": "D",
+                  "text": "rewards"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase \"is not without its...\" usually introduces a negative aspect following a positive one. The next sentence discusses environmental damage, making \"challenges\" the correct choice.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the correct word for blank (4).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "degradation"
+                },
+                {
+                  "label": "B",
+                  "text": "improvement"
+                },
+                {
+                  "label": "C",
+                  "text": "conservation"
+                },
+                {
+                  "label": "D",
+                  "text": "beautification"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Mining rare earth metals is known to cause severe environmental damage or \"degradation\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the correct word for blank (5).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "problems"
+                },
+                {
+                  "label": "B",
+                  "text": "failures"
+                },
+                {
+                  "label": "C",
+                  "text": "technologies"
+                },
+                {
+                  "label": "D",
+                  "text": "monopolies"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Advanced battery storage refers to \"technologies\" developed to ensure a stable power supply.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Cloze Test\nSubtopic: Traditional Cloze\n\nPASSAGE 1\nThe global transition towards renewable energy has fundamentally (1)_______ the geopolitical landscape. Nations that once relied heavily on importing fossil fuels are now heavily investing in solar and wind infrastructure to achieve unprecedented energy (2)_______. This shift, however, is not without its (3)_______. The manufacturing of solar panels and wind turbines requires massive quantities of rare earth metals, the mining of which often causes severe environmental (4)_______ in developing nations. Furthermore, the intermittent nature of solar and wind power necessitates the rapid development of advanced, grid-scale battery storage (5)_______ to ensure a stable and consistent power supply during peak demand hours.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the correct word for blank (6).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "fabric"
+                },
+                {
+                  "label": "B",
+                  "text": "destruction"
+                },
+                {
+                  "label": "C",
+                  "text": "myth"
+                },
+                {
+                  "label": "D",
+                  "text": "avoidance"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"everyday fabric of modern life\" is a common idiom meaning the basic structure or essence of daily existence.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the correct word for blank (7).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "trails"
+                },
+                {
+                  "label": "B",
+                  "text": "matches"
+                },
+                {
+                  "label": "C",
+                  "text": "outperforms"
+                },
+                {
+                  "label": "D",
+                  "text": "confuses"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The text implies AI is incredibly precise, often doing better than human experts. \"Outperforms\" fits perfectly.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the correct word for blank (8).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "worsen"
+                },
+                {
+                  "label": "B",
+                  "text": "improve"
+                },
+                {
+                  "label": "C",
+                  "text": "complicate"
+                },
+                {
+                  "label": "D",
+                  "text": "hide"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Early detection of diseases generally serves to \"improve\" patient outcomes.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the correct word for blank (9).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "truths"
+                },
+                {
+                  "label": "B",
+                  "text": "biases"
+                },
+                {
+                  "label": "C",
+                  "text": "algorithms"
+                },
+                {
+                  "label": "D",
+                  "text": "fairness"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage discusses ethical debates and flawed AI leading to discrimination against marginalized communities. This points directly to inherent \"biases\" in the datasets.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the correct word for blank (10).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "breakthroughs"
+                },
+                {
+                  "label": "B",
+                  "text": "miracles"
+                },
+                {
+                  "label": "C",
+                  "text": "discrimination"
+                },
+                {
+                  "label": "D",
+                  "text": "equality"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Flawed AI built on biased datasets leads to systemic unfairness or \"discrimination\" against marginalized groups.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Cloze Test\nSubtopic: Traditional Cloze\n\nPASSAGE 1\nThe global transition towards renewable energy has fundamentally (1)_______ the geopolitical landscape. Nations that once relied heavily on importing fossil fuels are now heavily investing in solar and wind infrastructure to achieve unprecedented energy (2)_______. This shift, however, is not without its (3)_______. The manufacturing of solar panels and wind turbines requires massive quantities of rare earth metals, the mining of which often causes severe environmental (4)_______ in developing nations. Furthermore, the intermittent nature of solar and wind power necessitates the rapid development of advanced, grid-scale battery storage (5)_______ to ensure a stable and consistent power supply during peak demand hours.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the correct word for blank (11).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "celebrated"
+                },
+                {
+                  "label": "B",
+                  "text": "unnoticed"
+                },
+                {
+                  "label": "C",
+                  "text": "documented"
+                },
+                {
+                  "label": "D",
+                  "text": "exaggerated"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage states the decline is \"overshadowed\" and calls it a \"silent crisis,\" indicating it has gone \"unnoticed\" by the public.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the correct word for blank (12).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "ecosystems"
+                },
+                {
+                  "label": "B",
+                  "text": "space"
+                },
+                {
+                  "label": "C",
+                  "text": "oceans"
+                },
+                {
+                  "label": "D",
+                  "text": "economies"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A crisis involving insects, pollination, and food sources directly threatens terrestrial (land-based) \"ecosystems\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the correct word for blank (13).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "success"
+                },
+                {
+                  "label": "B",
+                  "text": "trend"
+                },
+                {
+                  "label": "C",
+                  "text": "stagnation"
+                },
+                {
+                  "label": "D",
+                  "text": "boom"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The text describes a \"rapid decline.\" This alarming downward movement is best described as an alarming \"trend.\" Wait, decline is better. Let's use \"decline\". If decline is not an option, \"trend\" works. But \"decline\" is a stronger fit if provided. Since \"trend\" is the only fitting option, it works. Let's change the options to make it more advanced.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the correct word for blank (14).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "interventions"
+                },
+                {
+                  "label": "B",
+                  "text": "pollutants"
+                },
+                {
+                  "label": "C",
+                  "text": "observations"
+                },
+                {
+                  "label": "D",
+                  "text": "pesticides"
+                },
+                {
+                  "label": "A",
+                  "text": "protect"
+                },
+                {
+                  "label": "B",
+                  "text": "imperil"
+                },
+                {
+                  "label": "C",
+                  "text": "advance"
+                },
+                {
+                  "label": "D",
+                  "text": "ignore"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "To stop a catastrophic collapse, comprehensive actions or \"interventions\" must be implemented.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

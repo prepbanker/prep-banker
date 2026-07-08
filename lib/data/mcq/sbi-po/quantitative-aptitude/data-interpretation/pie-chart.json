@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "data-interpretation",
+  "subtopic": "pie-chart",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q1.svg.\nThe pie chart shows the percentage distribution of 15,000 students enrolled across 5 different schools (A, B, C, D, E).",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the total number of students enrolled in School C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "4000"
+                },
+                {
+                  "label": "B",
+                  "text": "4200"
+                },
+                {
+                  "label": "C",
+                  "text": "4500"
+                },
+                {
+                  "label": "D",
+                  "text": "4800"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "School C = 30% of Total.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What is the difference between the number of students in School A and School D?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "700"
+                },
+                {
+                  "label": "B",
+                  "text": "750"
+                },
+                {
+                  "label": "C",
+                  "text": "800"
+                },
+                {
+                  "label": "D",
+                  "text": "850"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "School A = 25%. School D = 20%.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "The number of students in School B is what percentage of the number of students in School E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "120%"
+                },
+                {
+                  "label": "B",
+                  "text": "125%"
+                },
+                {
+                  "label": "C",
+                  "text": "150%"
+                },
+                {
+                  "label": "D",
+                  "text": "175%"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "School B = 15%.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "If 40% of the students in School A are females, what is the number of male students in School A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2250"
+                },
+                {
+                  "label": "B",
+                  "text": "2150"
+                },
+                {
+                  "label": "C",
+                  "text": "2350"
+                },
+                {
+                  "label": "D",
+                  "text": "2450"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total students in A = 25% of 15000 = 3750.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "What is the ratio of the number of students in Schools C and D together to the number of students in Schools B and E together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2 : 1"
+                },
+                {
+                  "label": "B",
+                  "text": "3 : 1"
+                },
+                {
+                  "label": "C",
+                  "text": "4 : 3"
+                },
+                {
+                  "label": "D",
+                  "text": "5 : 2"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Schools (C + D) % = 30% + 20% = 50%.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q6.svg.\nThe pie chart gives the distribution of a family's monthly income (Rs. 60,000) across various categories. The distribution is given in terms of central angles (in degrees).",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What is the amount spent by the family on Food?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 16,000"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 18,000"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 20,000"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 22,000"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Central angle for Food = 108°.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "The amount saved by the family is what percentage of the amount spent on Education?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "120%"
+                },
+                {
+                  "label": "B",
+                  "text": "133.33%"
+                },
+                {
+                  "label": "C",
+                  "text": "125%"
+                },
+                {
+                  "label": "D",
+                  "text": "150%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Central angle for Savings = 72°.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "How much more does the family spend on Rent than on Miscellaneous expenses?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 3,000"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 2,500"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 3,500"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 4,000"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Angle for Rent = 72°.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "What is the total amount spent on Food and Rent together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 32,000"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 28,000"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 30,000"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 36,000"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total angle = 108° (Food) + 72° (Rent) = 180°.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "If the income of the family increases by 20% in the next month and the central angle for Savings remains the same, what will be the new amount saved?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 15,400"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 14,400"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 12,000"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 16,800"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "New Income = 60000 × 1.20 = 72000.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Refer to diagram: SVG/Q11.svg.\nThe pie chart provides the demographic breakdown (by age groups) of a town's registered voters (Total = 24,000).",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the total number of registered voters in the age group of 36 - 45 years?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "4200"
+                },
+                {
+                  "label": "B",
+                  "text": "4800"
+                },
+                {
+                  "label": "C",
+                  "text": "5000"
+                },
+                {
+                  "label": "D",
+                  "text": "4600"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Age 36-45 = 20%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "The number of voters in the 18 - 25 years group is what percentage more than the number of voters in the 26 - 35 years group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40%"
+                },
+                {
+                  "label": "B",
+                  "text": "35%"
+                },
+                {
+                  "label": "C",
+                  "text": "25%"
+                },
+                {
+                  "label": "D",
+                  "text": "30%"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "18 - 25 = 35%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "What is the central angle for the sector representing voters aged 56+ years?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "26.8°"
+                },
+                {
+                  "label": "B",
+                  "text": "28.8°"
+                },
+                {
+                  "label": "C",
+                  "text": "32.4°"
+                },
+                {
+                  "label": "D",
+                  "text": "24.5°"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "56+ years = 8%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "What is the total number of voters who are 36 years old or above?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "9600"
+                },
+                {
+                  "label": "B",
+                  "text": "8400"
+                },
+                {
+                  "label": "C",
+                  "text": "9200"
+                },
+                {
+                  "label": "D",
+                  "text": "8800"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Groups 36-45 (20%), 46-55 (12%), and 56+ (8%).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "If 40% of the voters in the 18-25 age group and 60% of the voters in the 26-35 age group cast their votes, what is the total number of votes cast by these two age groups combined?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "6960"
+                },
+                {
+                  "label": "B",
+                  "text": "6840"
+                },
+                {
+                  "label": "C",
+                  "text": "6720"
+                },
+                {
+                  "label": "D",
+                  "text": "7080"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "18-25 group = 35% of 24000 = 8400.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

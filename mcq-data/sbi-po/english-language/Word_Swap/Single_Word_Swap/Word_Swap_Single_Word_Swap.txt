@@ -1,0 +1,217 @@
+----------------------------------------
+Topic: Word Swap
+Subtopic: Single Word Swap
+----------------------------------------
+
+Q1. The sudden (A) collapse of the bridge was attributed to (B) structural fatigue, causing a massive (C) traffic (D) jam across the city.
+(A) A-B
+(B) C-D
+(C) B-C
+(D) No swap required
+
+Answer: D
+Explanation: "Collapse" perfectly fits as the noun for the bridge falling. "Attributed to" correctly explains the cause. "Massive" appropriately modifies "traffic jam". The sentence is contextually and grammatically correct as is.
+
+Q2. The manager decided to (A) postpone the meeting because several (B) key members were (C) unavailable due to a (D) scheduling conflict.
+(A) A-C
+(B) B-D
+(C) A-B
+(D) No swap required
+
+Answer: D
+Explanation: "Postpone" fits with the infinitive "to". "Key" members makes sense. "Unavailable" fits the context of missing a meeting. "Scheduling conflict" is the correct phrase. No swap is required.
+
+Q3. The government plans to (A) eradicate poverty by providing (B) financial assistance to the most (C) vulnerable sections of (D) society.
+(A) A-B
+(B) B-C
+(C) C-D
+(D) No swap required
+
+Answer: D
+Explanation: "Eradicate" means to remove completely, which fits poverty. "Financial" assistance makes sense. "Vulnerable" describes the sections of "society" perfectly. No swap is needed.
+
+Q4. In order to (A) secure a loan, the applicant must (B) provide a valid (C) identity document and proof of (D) income.
+(A) A-D
+(B) B-C
+(C) C-D
+(D) No swap required
+
+Answer: D
+Explanation: The sentence is completely logical. You "secure" a loan, "provide" documents, need "identity" documents, and proof of "income". No swap required.
+
+Q5. The loud (A) thunder startled the (B) dog, causing it to (C) run under the (D) bed.
+(A) A-C
+(B) B-D
+(C) A-B
+(D) No swap required
+
+Answer: D
+Explanation: "Thunder" is loud. It startled the "dog". The dog would "run" under the "bed". The sentence is correct.
+
+(Wait, the first 5 questions all had "No swap required" as the answer. Let's fix this to ensure variety).
+Let me rewrite Q1 to Q5 to have actual swaps.
+
+Q1. The sudden (A) traffic of the bridge was attributed to (B) structural fatigue, causing a massive (C) collapse (D) jam across the city.
+(A) A-C
+(B) B-D
+(C) A-B
+(D) C-D
+
+Answer: A
+Explanation: A bridge experiences a "collapse", not "traffic". Similarly, a "traffic jam" is the correct phrase, not a "collapse jam". Swapping (A) and (C) makes the sentence: "The sudden collapse of the bridge was attributed to structural fatigue, causing a massive traffic jam across the city."
+
+Q2. The manager decided to (A) scheduling the meeting because several (B) key members were (C) unavailable due to a (D) postpone conflict.
+(A) A-D
+(B) B-C
+(C) A-B
+(D) C-D
+
+Answer: A
+Explanation: The verb after "to" should be the base form "postpone". The word modifying "conflict" should be "scheduling". Swapping (A) and (D) creates: "decided to postpone the meeting" and "due to a scheduling conflict."
+
+Q3. The government plans to (A) vulnerable poverty by providing (B) financial assistance to the most (C) eradicate sections of (D) society.
+(A) A-B
+(B) B-C
+(C) A-C
+(D) C-D
+
+Answer: C
+Explanation: The government plans to "eradicate" poverty, not "vulnerable" poverty. The sections of society are "vulnerable", not "eradicate". Swapping (A) and (C) corrects the sentence.
+
+Q4. In order to (A) income a loan, the applicant must (B) provide a valid (C) identity document and proof of (D) secure.
+(A) A-D
+(B) B-C
+(C) A-B
+(D) C-D
+
+Answer: A
+Explanation: You "secure" a loan, you don't "income" a loan. You provide proof of "income", not proof of "secure". Swapping (A) and (D) makes the sentence logical.
+
+Q5. The loud (A) run startled the (B) dog, causing it to (C) thunder under the (D) bed.
+(A) A-C
+(B) B-D
+(C) A-B
+(D) C-D
+
+Answer: A
+Explanation: What startled the dog? Loud "thunder", not a loud "run". What did the dog do? It started to "run" under the bed, not "thunder" under the bed. Swapping (A) and (C) corrects the sentence.
+
+Q6. Despite the (A) severe warnings from meteorologists, the local (B) residents remained (C) oblivious to the approaching (D) hurricane.
+(A) A-C
+(B) B-D
+(C) C-D
+(D) No swap required
+
+Answer: D
+Explanation: The sentence is logically and grammatically correct. Warnings are "severe", "residents" is appropriate, they remained "oblivious" (unaware), and the "hurricane" was approaching.
+
+Q7. The new software update was intended to (A) bugs the user experience, but it inadvertently introduced several (B) critical (C) enhance that caused the system to (D) crash.
+(A) A-B
+(B) A-C
+(C) B-D
+(D) C-D
+
+Answer: B
+Explanation: The software update was intended to "enhance" (improve) the experience, not "bugs" it. It introduced several critical "bugs", not "enhance". Swapping (A) and (C) fixes the sentence.
+
+Q8. The detective carefully examined the (A) evidence left at the (B) crime scene, hoping to find a (C) suspect that would lead him to the (D) clue.
+(A) A-B
+(B) C-D
+(C) B-C
+(D) A-D
+
+Answer: B
+Explanation: The detective hopes to find a "clue" that leads to the "suspect", not a "suspect" that leads to a "clue". Swapping (C) and (D) creates a logically sound sentence.
+
+Q9. The company's (A) innovative marketing campaign resulted in a (B) significant increase in (C) sales, much to the (D) delight of the shareholders.
+(A) A-D
+(B) B-C
+(C) C-D
+(D) No swap required
+
+Answer: D
+Explanation: The sequence of words makes perfect sense. The campaign was "innovative", there was a "significant" increase in "sales", resulting in the "delight" of the shareholders. No swap is required.
+
+Q10. The professor's (A) lecture was so (B) tedious that many students struggled to (C) awake (D) stay throughout the two-hour class.
+(A) A-B
+(B) C-D
+(C) B-C
+(D) A-D
+
+Answer: B
+Explanation: The phrase should be "stay awake", not "awake stay". Swapping (C) and (D) fixes the grammatical structure of the infinitive phrase.
+
+Q11. The (A) implementation of the new tax policy was met with (B) fierce resistance from the working (C) class, who feared it would (D) exacerbate their financial burdens.
+(A) A-B
+(B) C-D
+(C) B-C
+(D) No swap required
+
+Answer: D
+Explanation: "Implementation" is correct for policy. "Fierce" correctly modifies resistance. Working "class" is a standard noun phrase. "Exacerbate" (make worse) fits the context of financial burdens. No swap required.
+
+Q12. The ancient manuscript, thought to be (A) lost forever, was miraculously (B) discovered in a dusty (C) archive located beneath the (D) monastery.
+(A) A-B
+(B) C-D
+(C) A-C
+(D) No swap required
+
+Answer: D
+Explanation: The manuscript was thought to be "lost", it was "discovered", it was found in an "archive", beneath the "monastery". The sentence is perfectly correct.
+
+Q13. In a desperate attempt to (A) salvage his failing business, the entrepreneur decided to (B) liquidate his personal (C) assets and invest the (D) proceeds back into the company.
+(A) A-D
+(B) B-C
+(C) C-D
+(D) No swap required
+
+Answer: D
+Explanation: "Salvage" means save from ruin. "Liquidate" means convert to cash. "Assets" are what you liquidate. "Proceeds" are the money you get. The sentence is completely correct.
+
+Let me adjust Q11, Q12, and Q13 to actually require swaps to maintain the difficulty and pattern expected in competitive exams, where "No swap required" is less frequent.
+
+Q11. The (A) exacerbate of the new tax policy was met with (B) fierce resistance from the working (C) class, who feared it would (D) implementation their financial burdens.
+(A) A-D
+(B) B-C
+(C) A-B
+(D) C-D
+
+Answer: A
+Explanation: You cannot have "The exacerbate of". "Implementation" is the noun that fits here. Similarly, a policy would "exacerbate" (worsen) financial burdens, acting as the verb. Swapping (A) and (D) fixes the sentence.
+
+Q12. The ancient manuscript, thought to be (A) lost forever, was miraculously (B) archive in a dusty (C) discovered located beneath the (D) monastery.
+(A) A-B
+(B) B-C
+(C) C-D
+(D) A-C
+
+Answer: B
+Explanation: A manuscript is "discovered" in a dusty "archive". Swapping the verb "discovered" (C) with the noun "archive" (B) corrects the sentence structure.
+
+Q13. In a desperate attempt to (A) proceeds his failing business, the entrepreneur decided to (B) liquidate his personal (C) assets and invest the (D) salvage back into the company.
+(A) A-B
+(B) B-C
+(C) A-D
+(D) C-D
+
+Answer: C
+Explanation: He wants to "salvage" (save) his business, and he will invest the "proceeds" (money from liquidation) back into it. Swapping (A) and (D) makes the sentence logical.
+
+Q14. The (A) ubiquitous nature of smartphones has fundamentally (B) altered the way we communicate, rendering traditional (C) landlines virtually (D) obsolete.
+(A) A-B
+(B) C-D
+(C) B-C
+(D) No swap required
+
+Answer: D
+Explanation: "Ubiquitous" means present everywhere, fitting smartphones. "Altered" means changed. "Landlines" are the older technology being replaced. "Obsolete" means no longer produced or used. The sentence requires no swap.
+
+Q15. The diplomatic (A) negotiations were on the brink of (B) collapse due to the (C) intransigence of the rebel leaders, who refused to (D) compromise on their core demands.
+(A) A-B
+(B) C-D
+(C) A-C
+(D) No swap required
+
+Answer: D
+Explanation: "Negotiations" fits after diplomatic. "Collapse" is what negotiations do when they fail. "Intransigence" means stubborn refusal to compromise. "Compromise" is the verb they refused to do. The sentence is perfect as is.
+----------------------------------------

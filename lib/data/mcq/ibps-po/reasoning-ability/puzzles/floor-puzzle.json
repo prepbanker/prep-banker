@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "puzzles",
+  "subtopic": "floor-puzzle",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nSeven persons – A, B, C, D, E, F, and G live on seven different floors of a building but not necessarily in the same order. The lowermost floor of the building is numbered 1, the one above that is numbered 2, and so on till the topmost floor is numbered 7.\n- A lives on an even-numbered floor but not on floor 2.\n- Only two persons live between A and B.\n- C lives immediately above B.\n- D lives on an odd-numbered floor above A.\n- E lives immediately below F.\n- G does not live on the ground floor.\n- F does not live on an even-numbered floor.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Who lives on the topmost floor?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "D"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "E"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: A lives on an even-numbered floor but not on floor 2. So, A can be on floor 4 or 6.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "How many persons live between D and C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "None"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Based on the final arrangement, D lives on floor 5 and C lives on floor 2.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "On which floor does G live?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Floor 3"
+                },
+                {
+                  "label": "B",
+                  "text": "Floor 5"
+                },
+                {
+                  "label": "C",
+                  "text": "Floor 1"
+                },
+                {
+                  "label": "D",
+                  "text": "Floor 4"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "According to the final arrangement derived, G lives on Floor 3.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "F"
+                },
+                {
+                  "label": "B",
+                  "text": "D"
+                },
+                {
+                  "label": "C",
+                  "text": "E"
+                },
+                {
+                  "label": "D",
+                  "text": "B"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "F (floor 7), D (floor 5), and B (floor 1) all live on odd-numbered floors.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If all persons are arranged alphabetically from top to bottom, whose position will remain unchanged?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "D"
+                },
+                {
+                  "label": "C",
+                  "text": "G"
+                },
+                {
+                  "label": "D",
+                  "text": "None"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Original order (Top to Bottom): F, E, D, A, G, C, B.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nEight persons – P, Q, R, S, T, U, V, and W live on an 8-story building. The ground floor is numbered 1, and the topmost floor is numbered 8. Each of them likes a different color: Red, Blue, Green, Yellow, Black, White, Pink, and Orange.\n- V lives on an odd-numbered floor above floor 4 and likes Pink.\n- Three persons live between V and T, who likes White.\n- Q likes Blue and lives immediately above P.\n- P lives immediately above T.\n- The one who likes Black lives immediately below V.\n- S lives on an even-numbered floor above Q.\n- W lives on the topmost floor and likes Orange.\n- R lives immediately above the one who likes Green.\n- P does not like Red.\n- The one who likes Red lives on an even-numbered floor.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Who among the following likes Black?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "S"
+                },
+                {
+                  "label": "B",
+                  "text": "Q"
+                },
+                {
+                  "label": "C",
+                  "text": "R"
+                },
+                {
+                  "label": "D",
+                  "text": "W"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: V lives on an odd floor above 4 (so 5 or 7).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "How many persons live between W and the one who likes Yellow?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Refer to diagram: SVG/Q7.svg",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Which of the following combinations is correctly matched?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P - Green - Floor 4"
+                },
+                {
+                  "label": "B",
+                  "text": "R - Red - Floor 2"
+                },
+                {
+                  "label": "C",
+                  "text": "U - Blue - Floor 1"
+                },
+                {
+                  "label": "D",
+                  "text": "S - Black - Floor 8"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Looking at the final arrangement:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "If all the persons are arranged alphabetically from top to bottom, how many persons' positions remain unchanged?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "None"
+                },
+                {
+                  "label": "B",
+                  "text": "One"
+                },
+                {
+                  "label": "C",
+                  "text": "Two"
+                },
+                {
+                  "label": "D",
+                  "text": "Three"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Original order (Top to Bottom): W, V, S, Q, P, T, R, U.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "W - Black"
+                },
+                {
+                  "label": "B",
+                  "text": "Q - Yellow"
+                },
+                {
+                  "label": "C",
+                  "text": "S - Blue"
+                },
+                {
+                  "label": "D",
+                  "text": "T - Red"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "In options B, C, and D, the color mentioned is liked by the person living immediately below the given person.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nTen persons – A, B, C, D, E, F, G, H, I, and J live in a 5-story building. The lowermost floor is numbered 1 and the topmost floor is numbered 5. Each floor has two flats – Flat P and Flat Q. Flat P is to the west of Flat Q.\n- D lives on an odd-numbered floor in Flat Q.\n- Only one floor is between D and E, and both live in the same flat.\n- A lives immediately above E but in a different flat.\n- There are two floors between A and F, and both live in the same flat.\n- C lives to the east of F.\n- H lives immediately above B in the same flat.\n- B lives on an even-numbered floor.\n- G lives above I in the same flat.\n- J lives to the north-west of G.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Who lives in Flat P of Floor 3?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "B"
+                },
+                {
+                  "label": "B",
+                  "text": "A"
+                },
+                {
+                  "label": "C",
+                  "text": "H"
+                },
+                {
+                  "label": "D",
+                  "text": "J"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: D is on an odd floor in Flat Q (1Q, 3Q, or 5Q).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Which of the following pairs lives on the same floor?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "H, G"
+                },
+                {
+                  "label": "B",
+                  "text": "A, G"
+                },
+                {
+                  "label": "C",
+                  "text": "J, E"
+                },
+                {
+                  "label": "D",
+                  "text": "B, C"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Based on the final arrangement:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many floors are there between J and F?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "None"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Refer to diagram: SVG/Q13.svg",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "What is the direction of E with respect to B?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "North-West"
+                },
+                {
+                  "label": "B",
+                  "text": "North-East"
+                },
+                {
+                  "label": "C",
+                  "text": "South-East"
+                },
+                {
+                  "label": "D",
+                  "text": "South-West"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "E lives in Flat Q on Floor 3.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "J - 5P"
+                },
+                {
+                  "label": "B",
+                  "text": "A - 4P"
+                },
+                {
+                  "label": "C",
+                  "text": "E - 3Q"
+                },
+                {
+                  "label": "D",
+                  "text": "C - 1Q"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "J (Floor 5), E (Floor 3), and C (Floor 1) all live on odd-numbered floors.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

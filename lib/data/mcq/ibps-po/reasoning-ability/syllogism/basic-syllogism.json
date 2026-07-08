@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "syllogism",
+  "subtopic": "basic-syllogism",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Syllogism\nSubtopic: Basic Syllogism",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Statements:\nSome cats are dogs.\nAll dogs are birds.\nConclusions:\nI. Some cats are birds.\nII. All cats are birds.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "From the statements, the area of 'dogs' is entirely inside 'birds'. Since 'some cats' are 'dogs', that overlapping part must also be inside 'birds'. Therefore, 'Some cats are birds' is definitely true. There is no information to suggest that 'All cats are birds', so conclusion II does not follow. Thus, only conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Statements:\nAll pens are pencils.\nNo pencil is an eraser.\nConclusions:\nI. No pen is an eraser.\nII. Some pens are erasers.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither I nor II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "'All pens are pencils' means the circle of pens is completely within the circle of pencils. 'No pencil is an eraser' means there is no intersection between pencils and erasers. Since pens are entirely inside pencils, they can never intersect with erasers. Thus, 'No pen is an eraser' is true, making I true and II false.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Statements:\nSome books are tables.\nSome tables are chairs.\nConclusions:\nI. Some books are chairs.\nII. No book is a chair.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The statements show a possible relationship where books and tables intersect, and tables and chairs intersect. There is no direct connection given between books and chairs. Thus, we cannot definitely say 'Some books are chairs' or 'No book is a chair'. However, these two form a complementary pair (Some + No). Therefore, either some books are chairs or no book is a chair. Either I or II follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Statements:\nAll cars are buses.\nAll buses are trains.\nConclusions:\nI. All cars are trains.\nII. Some trains are cars.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither I nor II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both I and II follow"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "The circle for cars is inside buses, and buses are inside trains. This makes cars completely inside trains. So, 'All cars are trains' is true. Since the cars circle is a part of the trains circle, 'Some trains are cars' is also true. Thus, both conclusions follow.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Statements:\nNo red is blue.\nSome blues are greens.\nConclusions:\nI. Some greens are not red.\nII. Some red are not greens.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "We know no red is blue. And some blues are greens. The part of greens which is blue can never be red. Therefore, 'Some greens are not red' is definitely true. However, we don't have enough information to say 'Some red are not greens', as red could potentially be entirely within the non-blue part of greens. So only conclusion I follows.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Syllogism\nSubtopic: Basic Syllogism",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Statements:\nAll laptops are computers.\nSome computers are tablets.\nNo tablet is a mobile.\nConclusions:\nI. Some laptops are tablets.\nII. No laptop is a mobile.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "We know laptops are inside computers, and computers intersect with tablets. However, the intersection of computers and tablets does not necessarily include laptops. Thus, 'Some laptops are tablets' is not definite. Similarly, while no tablet is a mobile, there is no direct negative relation between laptops and mobiles. So 'No laptop is a mobile' is not definite. Neither conclusion follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Statements:\nSome clouds are rains.\nAll rains are waters.\nNo water is a river.\nConclusions:\nI. Some clouds are not rivers.\nII. No rain is a river.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "'All rains are waters' and 'No water is a river' means 'No rain is a river' is definitely true (Conclusion II follows). 'Some clouds are rains', and since all rains are waters (which cannot be rivers), the part of clouds that is rain can never be a river. Therefore, 'Some clouds are not rivers' is definitely true (Conclusion I follows). Both I and II follow.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Statements:\nAll monkeys are apes.\nSome apes are humans.\nNo human is an alien.\nConclusions:\nI. Some monkeys being humans is a possibility.\nII. Some apes are not aliens.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "There is no direct negative relation between monkeys and humans, so they can intersect. Hence, 'Some monkeys being humans is a possibility' is true. 'Some apes are humans' and 'No human is an alien' means the part of apes that are humans can never be aliens. Therefore, 'Some apes are not aliens' is true. Both I and II follow.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Statements:\nSome apples are oranges.\nSome oranges are grapes.\nAll grapes are bananas.\nConclusions:\nI. Some apples are bananas.\nII. Some oranges are bananas.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The statements state 'Some oranges are grapes' and 'All grapes are bananas'. Since grapes are entirely within bananas, the overlap between oranges and grapes guarantees an overlap between oranges and bananas. Thus, conclusion II is true. There is no direct connection between apples and bananas, so conclusion I is not definite. Only conclusion II follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Statements:\nNo fan is a cooler.\nAll coolers are ACs.\nSome ACs are heaters.\nConclusions:\nI. Some heaters are coolers.\nII. Some ACs are not fans.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The connection is 'All coolers are ACs' and 'Some ACs are heaters'. We don't know if the heater part intersects with the cooler part of ACs, so conclusion I is not definite. We know 'No cooler is a fan' and 'All coolers are ACs'. The part of ACs that are coolers can never be fans. Therefore, 'Some ACs are not fans' is definitely true. Only conclusion II follows.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Syllogism\nSubtopic: Basic Syllogism",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Statements:\nAll doctors are surgeons.\nSome surgeons are dentists.\nNo dentist is a nurse.\nAll nurses are staff.\nConclusions:\nI. Some surgeons are not nurses.\nII. Some staff are not dentists.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Some surgeons are dentists' and 'No dentist is a nurse'. The part of surgeons that are dentists can never be nurses. Thus, conclusion I is true. 'All nurses are staff' and 'No nurse is a dentist'. The part of staff that are nurses can never be dentists. Thus, conclusion II is true. Both conclusions follow.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Statements:\nSome tigers are lions.\nNo lion is a cheetah.\nSome cheetahs are panthers.\nAll panthers are leopards.\nConclusions:\nI. Some tigers are not cheetahs.\nII. Some leopards are not lions.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Some tigers are lions' and 'No lion is a cheetah'. The tigers that are lions can never be cheetahs. Thus, 'Some tigers are not cheetahs' is true. 'Some cheetahs are panthers' and 'All panthers are leopards' implies some cheetahs are leopards. Since 'No cheetah is a lion', the leopards that are cheetahs can never be lions. Thus, 'Some leopards are not lions' is true. Both I and II follow.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Statements:\nAll A are B.\nAll B are C.\nNo C is D.\nSome D are E.\nConclusions:\nI. No A is D.\nII. Some E are not B.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Since all A are inside B, and all B are inside C, A is entirely inside C. Since no C is D, it follows that no A is D. Conclusion I is true. We know some D are E, and no D is C (and consequently no D is B). The part of E that is D can never be B. Thus, conclusion II is true. Both conclusions follow.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Statements:\nSome circles are squares.\nNo square is a triangle.\nAll triangles are rectangles.\nSome rectangles are polygons.\nConclusions:\nI. Some polygons are not squares.\nII. Some rectangles are not squares.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "'All triangles are rectangles' and 'No triangle is a square'. This means the part of rectangles that are triangles can never be squares. Thus, 'Some rectangles are not squares' is definitely true (Conclusion II). We know 'Some rectangles are polygons', but this intersection doesn't guarantee any relation with triangles or squares. Thus, 'Some polygons are not squares' is not definite. Only conclusion II follows.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Statements:\nNo manager is a leader.\nSome leaders are executives.\nAll executives are directors.\nNo director is a clerk.\nConclusions:\nI. Some directors are not managers.\nII. Some executives are not clerks.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Some leaders are executives' and 'All executives are directors' implies some leaders are directors. Since 'No manager is a leader', the directors that are leaders can never be managers. Thus, 'Some directors are not managers' is true. 'All executives are directors' and 'No director is a clerk' implies 'No executive is a clerk'. Therefore, 'Some executives are not clerks' is also logically true (if none are, then some are not is true). Both conclusions follow.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

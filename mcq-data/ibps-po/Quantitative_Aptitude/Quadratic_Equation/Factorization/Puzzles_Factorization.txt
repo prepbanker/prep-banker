@@ -1,0 +1,234 @@
+Topic: Quadratic Equation
+Subtopic: Factorization
+
+Q1. Find the roots of the quadratic equation: x^2 - 11x + 30 = 0
+(A) 5, 6
+(B) -5, -6
+(C) 5, -6
+(D) -5, 6
+Answer: A
+Explanation: 
+x^2 - 11x + 30 = 0
+x^2 - 5x - 6x + 30 = 0
+x(x - 5) - 6(x - 5) = 0
+(x - 5)(x - 6) = 0
+x = 5, 6.
+
+Q2. Find the roots of the quadratic equation: y^2 + 13y + 42 = 0
+(A) 6, 7
+(B) -6, -7
+(C) -6, 7
+(D) 6, -7
+Answer: B
+Explanation: 
+y^2 + 13y + 42 = 0
+y^2 + 6y + 7y + 42 = 0
+y(y + 6) + 7(y + 6) = 0
+(y + 6)(y + 7) = 0
+y = -6, -7.
+
+Q3. Find the roots of the quadratic equation: p^2 - 2p - 35 = 0
+(A) 7, 5
+(B) -7, -5
+(C) 7, -5
+(D) -7, 5
+Answer: C
+Explanation: 
+p^2 - 2p - 35 = 0
+p^2 - 7p + 5p - 35 = 0
+p(p - 7) + 5(p - 7) = 0
+(p - 7)(p + 5) = 0
+p = 7, -5.
+
+Q4. Find the roots of the quadratic equation: q^2 + 4q - 45 = 0
+(A) 9, 5
+(B) -9, 5
+(C) 9, -5
+(D) -9, -5
+Answer: B
+Explanation: 
+q^2 + 4q - 45 = 0
+q^2 + 9q - 5q - 45 = 0
+q(q + 9) - 5(q + 9) = 0
+(q + 9)(q - 5) = 0
+q = -9, 5.
+
+Q5. Find the roots of the quadratic equation: 2x^2 - 9x + 10 = 0
+(A) 2, 2.5
+(B) -2, -2.5
+(C) 2, -2.5
+(D) -2, 2.5
+Answer: A
+Explanation: 
+2x^2 - 9x + 10 = 0
+2x^2 - 4x - 5x + 10 = 0
+2x(x - 2) - 5(x - 2) = 0
+(2x - 5)(x - 2) = 0
+x = 5/2, x = 2
+x = 2.5, 2.
+
+Q6. Find the roots of the quadratic equation: 3y^2 + 14y - 5 = 0
+(A) 1/3, -5
+(B) -1/3, 5
+(C) 1/3, 5
+(D) -1/3, -5
+Answer: A
+Explanation: 
+3y^2 + 14y - 5 = 0
+3y^2 + 15y - y - 5 = 0
+3y(y + 5) - 1(y + 5) = 0
+(3y - 1)(y + 5) = 0
+y = 1/3, -5.
+
+Q7. Find the roots of the quadratic equation: 4p^2 - 19p + 12 = 0
+(A) 4, 3/4
+(B) -4, -3/4
+(C) 4, -3/4
+(D) -4, 3/4
+Answer: A
+Explanation: 
+4p^2 - 19p + 12 = 0
+4p^2 - 16p - 3p + 12 = 0
+4p(p - 4) - 3(p - 4) = 0
+(4p - 3)(p - 4) = 0
+p = 3/4, 4.
+
+Q8. Find the roots of the quadratic equation: 5q^2 + 13q + 6 = 0
+(A) -2, -0.6
+(B) 2, 0.6
+(C) -2, 0.6
+(D) 2, -0.6
+Answer: A
+Explanation: 
+5q^2 + 13q + 6 = 0
+5q^2 + 10q + 3q + 6 = 0
+5q(q + 2) + 3(q + 2) = 0
+(5q + 3)(q + 2) = 0
+q = -3/5, -2
+q = -0.6, -2.
+
+Q9. Find the roots of the quadratic equation: 6x^2 - 11x - 35 = 0
+(A) 3.5, -1.66
+(B) -3.5, 1.66
+(C) 2.5, -1.66
+(D) -2.5, 1.66
+Answer: A
+Explanation: 
+6x^2 - 11x - 35 = 0
+6x^2 - 21x + 10x - 35 = 0
+3x(2x - 7) + 5(2x - 7) = 0
+(3x + 5)(2x - 7) = 0
+x = -5/3, 7/2
+x = -1.66, 3.5.
+
+Q10. Find the roots of the quadratic equation: 8y^2 + 26y + 15 = 0
+(A) -0.75, -2.5
+(B) 0.75, 2.5
+(C) -0.75, 2.5
+(D) 0.75, -2.5
+Answer: A
+Explanation: 
+8y^2 + 26y + 15 = 0
+8y^2 + 20y + 6y + 15 = 0
+4y(2y + 5) + 3(2y + 5) = 0
+(4y + 3)(2y + 5) = 0
+y = -3/4, -5/2
+y = -0.75, -2.5.
+
+Q11. Find the roots of the quadratic equation: 12p^2 - 47p + 45 = 0
+(A) 2.25, 1.66
+(B) -2.25, -1.66
+(C) 2.5, 1.33
+(D) -2.5, -1.33
+Answer: A
+Explanation: 
+12p^2 - 47p + 45 = 0
+Product = 12 * 45 = 540. Sum = -47.
+Factors: -20, -27.
+12p^2 - 27p - 20p + 45 = 0
+3p(4p - 9) - 5(4p - 9) = 0
+(3p - 5)(4p - 9) = 0
+p = 5/3, 9/4
+p = 1.66..., 2.25.
+
+Q12. Find the roots of the quadratic equation: 20q^2 + 41q + 20 = 0
+(A) -0.8, -1.25
+(B) 0.8, 1.25
+(C) -0.6, -1.5
+(D) 0.6, 1.5
+Answer: A
+Explanation: 
+20q^2 + 41q + 20 = 0
+Product = 400. Sum = 41.
+Factors: 16, 25.
+20q^2 + 16q + 25q + 20 = 0
+4q(5q + 4) + 5(5q + 4) = 0
+(4q + 5)(5q + 4) = 0
+q = -5/4, -4/5
+q = -1.25, -0.8.
+
+Q13. Find the roots of the quadratic equation: 15x^2 - 44x - 36 = 0
+(A) 3.6, -0.66
+(B) -3.6, 0.66
+(C) 3.6, -0.8
+(D) -3.6, 0.8
+Answer: A
+Explanation: 
+15x^2 - 44x - 36 = 0
+Product = 15 * -36 = -540. Sum = -44.
+Factors: -54, 10.
+15x^2 - 54x + 10x - 36 = 0
+3x(5x - 18) + 2(5x - 18) = 0
+(3x + 2)(5x - 18) = 0
+x = -2/3, 18/5
+x = -0.66..., 3.6.
+
+Q14. Find the roots of the quadratic equation: 18y^2 + 9y - 14 = 0
+(A) -1.16, 0.66
+(B) 1.16, -0.66
+(C) -1.2, 0.5
+(D) 1.2, -0.5
+Answer: A
+Explanation: 
+18y^2 + 9y - 14 = 0
+Product = 18 * -14 = -252. Sum = 9.
+Factors: 21, -12.
+18y^2 + 21y - 12y - 14 = 0
+3y(6y + 7) - 2(6y + 7) = 0
+(3y - 2)(6y + 7) = 0
+y = 2/3, -7/6
+y = 0.66..., -1.166...
+
+Q15. Find the roots of the quadratic equation: 21p^2 - 59p + 40 = 0
+(A) 1.6, 1.19
+(B) 1.8, 1.2
+(C) 1.5, 1.33
+(D) 1.4, 1.25
+Answer: A
+Explanation: 
+21p^2 - 59p + 40 = 0
+Product = 840. Sum = -59.
+Factors: -24, -35.
+21p^2 - 35p - 24p + 40 = 0
+7p(3p - 5) - 8(3p - 5) = 0
+(7p - 8)(3p - 5) = 0
+p = 8/7, 5/3
+p = 1.142..., 1.666...
+Wait, 8/7 is ~1.14. Option A is 1.6, 1.19? No, 5/3 is ~1.66.
+Let's use fractions for the options to be exact.
+
+Q15 (Updated Text):
+Q15. Find the roots of the quadratic equation: 21p^2 - 59p + 40 = 0
+(A) 8/7, 5/3
+(B) 7/8, 3/5
+(C) 8/5, 7/3
+(D) 5/8, 3/7
+Answer: A
+Explanation: 
+21p^2 - 59p + 40 = 0
+Product = 21 * 40 = 840. Sum = -59.
+Factors: -35 and -24.
+21p^2 - 35p - 24p + 40 = 0
+7p(3p - 5) - 8(3p - 5) = 0
+(7p - 8)(3p - 5) = 0
+p = 8/7, 5/3.

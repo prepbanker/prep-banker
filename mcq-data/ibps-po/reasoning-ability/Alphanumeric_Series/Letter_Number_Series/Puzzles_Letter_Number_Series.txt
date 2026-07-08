@@ -1,0 +1,477 @@
+Topic: Alphanumeric Series
+Subtopic: Letter-Number Series
+
+Directions (Q1-Q5): Study the following alphanumeric sequence carefully and answer the questions given below:
+H 3 $ K E 5 @ P 1 O # 7 M 9 Q * V 2 T % 4 8 B
+
+Q1. How many such numbers are there in the given sequence which are immediately preceded by a consonant and immediately followed by a symbol?
+(A) One
+(B) Two
+(C) Three
+(D) Four
+Answer: C
+Explanation: 
+Sequence: H 3 $ K E 5 @ P 1 O # 7 M 9 Q * V 2 T % 4 8 B
+Let's find numbers preceded by consonant and followed by symbol (Consonant - Number - Symbol).
+1. H 3 $ (H is consonant, 3 is number, $ is symbol) -> Matches!
+2. E 5 @ (E is vowel) -> No.
+3. P 1 O (O is letter) -> No.
+4. M 9 Q (Q is letter) -> No.
+5. V 2 T (T is letter) -> No.
+6. T % 4 (T is consonant, % is symbol) wait! The pattern is Consonant-Number-Symbol.
+Let's check T % 4 8: 4 is preceded by % (symbol). No.
+So only 1! Wait, options say 1, 2, 3, 4. I need to make the sequence have 3.
+Let me modify the sequence for the questions.
+
+New Sequence (Q1-Q5):
+H 3 $ K 5 @ P 1 % O 7 * M 9 # Q V 2 & T 4 8 B
+
+Let's check Consonant-Number-Symbol:
+1. H 3 $ -> Yes.
+2. K 5 @ -> Yes.
+3. P 1 % -> Yes.
+4. M 9 # -> Yes.
+5. V 2 & -> Yes.
+That's 5!
+Okay, I will just write independent questions for each, it's safer and better for variety.
+
+Q1 (Updated Text):
+Q1. Study the following arrangement carefully: 
+M 4 $ K 7 % P 2 @ O 9 # N 3 * J 5 &
+How many such numbers are there which are immediately preceded by a consonant and immediately followed by a symbol?
+(A) One
+(B) Two
+(C) Three
+(D) Four
+Answer: D
+Explanation: 
+Arrangement: M 4 $ K 7 % P 2 @ O 9 # N 3 * J 5 &
+Pattern to find: Consonant - Number - Symbol.
+1. M 4 $ (Matches)
+2. K 7 % (Matches)
+3. P 2 @ (Matches)
+4. O 9 # (O is a vowel. No.)
+5. N 3 * (Matches)
+6. J 5 & (Matches)
+Wait, that is 5 matches! M4$, K7%, P2@, N3*, J5&. 
+Let me change J 5 & to J 5 A to reduce it to 4.
+
+Q1 (Final Text):
+Q1. Study the following arrangement carefully: 
+M 4 $ K 7 % P 2 @ O 9 # N 3 * J 5 A
+How many such numbers are there which are immediately preceded by a consonant and immediately followed by a symbol?
+(A) One
+(B) Two
+(C) Three
+(D) Four
+Answer: D
+Explanation: 
+Arrangement: M 4 $ K 7 % P 2 @ O 9 # N 3 * J 5 A
+Pattern to find: Consonant - Number - Symbol.
+Let's check all numbers:
+1. 4 is preceded by M (Consonant) and followed by $ (Symbol). -> (1)
+2. 7 is preceded by K (Consonant) and followed by % (Symbol). -> (2)
+3. 2 is preceded by P (Consonant) and followed by @ (Symbol). -> (3)
+4. 9 is preceded by O (Vowel - not a consonant). -> No.
+5. 3 is preceded by N (Consonant) and followed by * (Symbol). -> (4)
+6. 5 is preceded by J (Consonant) but followed by A (Letter). -> No.
+Total such numbers = 4.
+
+Q2. Based on the sequence: A 2 * C 4 # B 5 @ D 7 % E 9 $
+Which of the following is the 5th element to the right of the 10th element from the left end?
+(A) 7
+(B) %
+(C) E
+(D) 9
+Answer: D
+Explanation: 
+10th element from the left end:
+A(1), 2(2), *(3), C(4), 4(5), #(6), B(7), 5(8), @(9), D(10).
+10th element is 'D'.
+5th element to the right of 'D':
+7(1), %(2), E(3), 9(4), $(5).
+The 5th element to the right of the 10th from left is 10 + 5 = 15th from left, which is '$'.
+Wait, option D is 9. Let me recount.
+Total elements: A(1) 2(2) *(3) C(4) 4(5) #(6) B(7) 5(8) @(9) D(10) 7(11) %(12) E(13) 9(14) $(15).
+If I want 9, it should be 4th element to the right of the 10th.
+Let me update the question to ask for the 4th element.
+
+Q2 (Updated Text):
+Q2. Based on the sequence: A 2 * C 4 # B 5 @ D 7 % E 9 $
+Which of the following is the 4th element to the right of the 10th element from the left end?
+(A) 7
+(B) %
+(C) E
+(D) 9
+Answer: D
+Explanation: 
+10th element from the left end: A, 2, *, C, 4, #, B, 5, @, D(10th).
+4th element to the right of the 10th element is (10 + 4) = 14th element from the left.
+Counting from D: 7(1st), %(2nd), E(3rd), 9(4th).
+The element is 9.
+
+Q3. In the sequence: Z 8 & Y 6 @ X 4 # W 2 % V 9 $ U
+How many vowels are immediately followed by a number?
+(A) None
+(B) One
+(C) Two
+(D) Three
+Answer: B
+Explanation: 
+Sequence: Z 8 & Y 6 @ X 4 # W 2 % V 9 $ U
+Vowels in the sequence: U.
+U is at the end, so it is not followed by anything.
+Wait, option B is One. Let me add a vowel followed by a number.
+Sequence: Z 8 & Y 6 @ E 4 # W 2 % V 9 $ U
+Vowels: E, U.
+E is followed by 4 (a number). U is followed by nothing.
+Number of such vowels = 1.
+
+Q3 (Updated Text):
+Q3. In the sequence: Z 8 & Y 6 @ E 4 # W 2 % V 9 $ U
+How many vowels are immediately followed by a number?
+(A) None
+(B) One
+(C) Two
+(D) Three
+Answer: B
+Explanation: 
+Sequence: Z 8 & Y 6 @ E 4 # W 2 % V 9 $ U
+Pattern to find: Vowel - Number.
+Let's find the vowels:
+1. E -> followed by 4 (Number). -> (1)
+2. U -> at the end, followed by nothing. -> No.
+Total such vowels = 1.
+
+Q4. Sequence: 5 K # 2 R $ 9 A % 7 M @ 4 E * 6
+If all the symbols are dropped from the above sequence, which element will be 6th from the right end?
+(A) 9
+(B) A
+(C) 7
+(D) M
+Answer: B
+Explanation: 
+Sequence without symbols: 5 K 2 R 9 A 7 M 4 E 6 (Total 11 elements)
+6th from the right end:
+1st(6), 2nd(E), 3rd(4), 4th(M), 5th(7), 6th(A).
+The element is A.
+
+Q5. Sequence: P 3 @ R 5 # S 7 % T 9 & U 2 *
+What should come in place of the question mark in the following series based on the above sequence?
+P3@, R5#, S7%, ?
+(A) T9&
+(B) 9&U
+(C) T9U
+(D) T9*
+Answer: A
+Explanation: 
+Let's observe the series extracted from the sequence:
+P 3 @ (1st, 2nd, 3rd elements)
+R 5 # (4th, 5th, 6th elements)
+S 7 % (7th, 8th, 9th elements)
+The next logical group taking consecutive elements 3 at a time is T 9 & (10th, 11th, 12th elements).
+The answer is T9&.
+
+Q6. Sequence: L 9 @ 4 K $ T 7 # A 5 & E 2 * Q 8 %
+Which element is exactly exactly midway between the 4th element from the left and the 6th element from the right?
+(A) T
+(B) 7
+(C) #
+(D) A
+Answer: C
+Explanation: 
+Total elements: L(1) 9(2) @(3) 4(4) K(5) $(6) T(7) 7(8) #(9) A(10) 5(11) &(12) E(13) 2(14) *(15) Q(16) 8(17) %(18). Total 18.
+4th from left = 4.
+6th from right = 18 - 6 + 1 = 13th from left = E.
+Elements between 4th and 13th (positions 4 and 13):
+Positions: 5, 6, 7, 8, 9, 10, 11, 12. (Total 8 elements).
+Since there is an even number of elements, there is no exact middle!
+Let's adjust the sequence to have an odd number of elements between them.
+Sequence: L 9 @ 4 K $ T 7 # A 5 & E 2 * Q 8 (Total 17)
+6th from right = 17 - 6 + 1 = 12th from left = &.
+Elements between 4th (4) and 12th (&): positions 5 to 11 (7 elements).
+Middle position = (4 + 12) / 2 = 16 / 2 = 8th from left.
+The 8th element is 7.
+
+Q6 (Updated Text):
+Q6. Sequence: L 9 @ 4 K $ T 7 # A 5 & E 2 * Q 8
+Which element is exactly midway between the 4th element from the left and the 6th element from the right?
+(A) T
+(B) 7
+(C) #
+(D) A
+Answer: B
+Explanation: 
+Sequence length = 17 elements.
+4th element from the left is '4' (position 4).
+6th element from the right is (17 - 6 + 1) = 12th from the left, which is '&'.
+The element exactly midway is at position (4 + 12) / 2 = 8.
+The 8th element from the left is '7'.
+
+Q7. Sequence: B 2 # D 4 @ F 6 $ H 8 % J 0 &
+If the order of the first six elements is reversed and the order of the last six elements is reversed, which element will be 5th to the right of the 8th element from the left end?
+(A) 8
+(B) %
+(C) F
+(D) $
+Answer: A
+Explanation: 
+Sequence length = 12 elements.
+First 6: B 2 # D 4 @ -> Reversed: @ 4 D # 2 B
+Last 6: F 6 $ H 8 % J 0 & (Wait, that's 9 elements!).
+Let's adjust sequence length to exactly 12.
+Sequence: B 2 # D 4 @ F 6 $ H 8 %
+Last 6: F 6 $ H 8 % -> Reversed: % 8 H $ 6 F
+New sequence: @ 4 D # 2 B % 8 H $ 6 F
+8th element from left is 8.
+5th to the right of the 8th from left = 13th from left. But total is 12!
+Let's change the question: "3rd to the right of the 7th element from the left".
+7th + 3 = 10th from left.
+10th element in new sequence: H is 9, $ is 10.
+Let's use Option D ($).
+
+Q7 (Updated Text):
+Q7. Sequence: B 2 # D 4 @ F 6 $ H 8 %
+If the order of the first six elements is reversed and the order of the last six elements is reversed, which element will be 3rd to the right of the 7th element from the left end?
+(A) 8
+(B) %
+(C) H
+(D) $
+Answer: D
+Explanation: 
+Total elements = 12.
+First 6 reversed: @, 4, D, #, 2, B.
+Last 6 reversed: %, 8, H, $, 6, F.
+New Sequence: @ 4 D # 2 B % 8 H $ 6 F
+We need the 3rd element to the right of the 7th element from the left = 7 + 3 = 10th element from the left.
+Counting from left: @(1), 4(2), D(3), #(4), 2(5), B(6), %(7), 8(8), H(9), $(10).
+The 10th element is '$'.
+
+Q8. Sequence: 1 A ! 2 B @ 3 C # 4 D $ 5 E %
+How many consonants are immediately followed by a symbol and immediately preceded by a number?
+(A) One
+(B) Two
+(C) Three
+(D) Four
+Answer: C
+Explanation: 
+Sequence: 1 A ! 2 B @ 3 C # 4 D $ 5 E %
+Pattern: Number - Consonant - Symbol
+1. 1 A ! -> A is a vowel. (No)
+2. 2 B @ -> B is a consonant. (Yes, 1)
+3. 3 C # -> C is a consonant. (Yes, 2)
+4. 4 D $ -> D is a consonant. (Yes, 3)
+5. 5 E % -> E is a vowel. (No)
+Total = 3.
+
+Q9. Sequence: M 8 * 9 K % 3 N # 7 U @ 5 V &
+If all the numbers are arranged in ascending order from left to right at the beginning of the sequence, followed by all consonants in alphabetical order, followed by all vowels in alphabetical order, followed by all symbols as they appear, what will be the 9th element from the left?
+(A) U
+(B) V
+(C) @
+(D) *
+Answer: A
+Explanation: 
+Original: M 8 * 9 K % 3 N # 7 U @ 5 V &
+Numbers: 8, 9, 3, 7, 5 -> Ascending: 3, 5, 7, 8, 9 (5 elements)
+Consonants: M, K, N, V -> Alphabetical: K, M, N, V (4 elements)
+Vowels: U -> Alphabetical: U (1 element)
+Symbols: *, %, #, @, & (5 elements)
+New Sequence: 3 5 7 8 9 K M N V U * % # @ &
+We need the 9th element from the left.
+Since there are 5 numbers, the 9th element will be the 4th consonant.
+The 4th consonant is V.
+Wait, option A is U. Let me correct the answer.
+
+Q9 (Updated Text):
+Q9. Sequence: M 8 * 9 K % 3 N # 7 U @ 5 V &
+If all the numbers are arranged in ascending order from left to right at the beginning of the sequence, followed by all consonants in alphabetical order, followed by all vowels, followed by symbols in their original order, what will be the 10th element from the left?
+(A) V
+(B) U
+(C) *
+(D) N
+Answer: B
+Explanation: 
+Original: M 8 * 9 K % 3 N # 7 U @ 5 V &
+Numbers (ascending): 3, 5, 7, 8, 9 (5 elements)
+Consonants (alphabetical): K, M, N, V (4 elements)
+Vowels: U (1 element)
+Symbols (original order): *, %, #, @, &
+New Sequence: 3 5 7 8 9 K M N V U * % # @ &
+The 10th element from the left is 'U'.
+
+Q10. Sequence: P 4 % 9 R $ M 2 @ N 5 * K 7 &
+Which of the following is exactly in the middle of 9 and 5 in the given arrangement?
+(A) R
+(B) $
+(C) M
+(D) 2
+Answer: C
+Explanation: 
+Sequence: P 4 % 9 R $ M 2 @ N 5 * K 7 &
+Elements between '9' and '5': R, $, M, 2, @, N (6 elements).
+Since there is an even number, there is no exact middle!
+Let me modify the sequence: P 4 % 9 R $ M 2 N 5 * K 7 &
+Between 9 and 5: R, $, M, 2, N (5 elements).
+The middle element of these 5 is 'M'.
+
+Q10 (Updated Text):
+Q10. Sequence: P 4 % 9 R $ M 2 N 5 * K 7 &
+Which of the following is exactly in the middle of 9 and 5 in the given arrangement?
+(A) $
+(B) M
+(C) 2
+(D) N
+Answer: B
+Explanation: 
+Sequence: P 4 % 9 R $ M 2 N 5 * K 7 &
+The elements strictly between '9' and '5' are: R, $, M, 2, N.
+There are 5 elements. The exact middle one (3rd) is 'M'.
+
+Q11. Sequence: 2 @ A 4 # B 6 $ C 8 % D
+If every element in the sequence is assigned a positional value from 1 to 12 starting from the left, what is the sum of the positional values of all the letters?
+(A) 24
+(B) 26
+(C) 28
+(D) 30
+Answer: B
+Explanation: 
+Sequence: 2(1) @(2) A(3) 4(4) #(5) B(6) 6(7) $(8) C(9) 8(10) %(11) D(12)
+Letters and their positions:
+A -> 3
+B -> 6
+C -> 9
+D -> 12
+Sum = 3 + 6 + 9 + 12 = 30.
+Wait, option B is 26, D is 30. I will answer D.
+
+Q11 (Updated Text):
+Q11. Sequence: 2 @ A 4 # B 6 $ C 8 % D
+If every element in the sequence is assigned a positional value from 1 to 12 starting from the left, what is the sum of the positional values of all the letters?
+(A) 24
+(B) 26
+(C) 28
+(D) 30
+Answer: D
+Explanation: 
+Sequence with positions: 
+2(1) @(2) A(3) 4(4) #(5) B(6) 6(7) $(8) C(9) 8(10) %(11) D(12)
+The letters are A, B, C, D.
+Their positions are 3, 6, 9, 12 respectively.
+Sum = 3 + 6 + 9 + 12 = 30.
+
+Q12. Sequence: W 3 & X 5 @ Y 7 # Z 9 *
+How many such pairs of elements are there in the sequence, which have exactly two elements between them in the sequence and one of them is a number and the other is a symbol?
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+Answer: C
+Explanation: 
+Sequence: W 3 & X 5 @ Y 7 # Z 9 *
+Let's check pairs with 2 elements between them (i.e. elements at indices i and i+3).
+Pairs with exactly two elements between:
+W and X (Letter, Letter)
+3 and 5 (Number, Number)
+& and @ (Symbol, Symbol)
+X and Y (Letter, Letter)
+5 and 7 (Number, Number)
+@ and # (Symbol, Symbol)
+Y and Z (Letter, Letter)
+7 and 9 (Number, Number)
+# and * (Symbol, Symbol)
+None of these are (Number, Symbol) pairs!
+Let me modify the question to match the sequence.
+Question: How many such numbers are there which are immediately preceded by a letter and immediately followed by a symbol?
+W 3 & (Yes)
+X 5 @ (Yes)
+Y 7 # (Yes)
+Z 9 * (Yes)
+That's 4.
+
+Q12 (Updated Text):
+Q12. Sequence: W 3 & X 5 @ Y 7 # Z 9 *
+How many such numbers are there in the sequence which are immediately preceded by a letter and immediately followed by a symbol?
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+Answer: D
+Explanation: 
+Sequence: W 3 & X 5 @ Y 7 # Z 9 *
+Pattern: Letter - Number - Symbol
+1. W 3 & (Matches)
+2. X 5 @ (Matches)
+3. Y 7 # (Matches)
+4. Z 9 * (Matches)
+Total 4 such numbers.
+
+Q13. Sequence: 9 A * 8 B % 7 C $ 6 D # 5 E @
+If all the elements which are at prime positions (1-indexed) are dropped, what will be the 5th element from the left in the new arrangement?
+(A) C
+(B) $
+(C) 6
+(D) D
+Answer: B
+Explanation: 
+Sequence: 9(1) A(2) *(3) 8(4) B(5) %(6) 7(7) C(8) $(9) 6(10) D(11) #(12) 5(13) E(14) @(15)
+Prime positions to drop: 2(A), 3(*), 5(B), 7(7), 11(D), 13(5).
+Note: 1 is NOT a prime number.
+Remaining elements (positions 1, 4, 6, 8, 9, 10, 12, 14, 15):
+1: 9
+4: 8
+6: %
+8: C
+9: $
+10: 6
+12: #
+14: E
+15: @
+New sequence: 9 8 % C $ 6 # E @
+The 5th element from the left is '$'.
+
+Q14. Sequence: F 4 $ K 7 % P 2 @ O 9 # N 3 * J 5
+Find the next group in the series: F4$, K7%, P2@, ?
+(A) O9#
+(B) 9#N
+(C) O9N
+(D) O#9
+Answer: A
+Explanation: 
+The series is formed by taking groups of 3 consecutive elements from the given sequence without skipping any element.
+Group 1: F 4 $ (elements 1,2,3)
+Group 2: K 7 % (elements 4,5,6)
+Group 3: P 2 @ (elements 7,8,9)
+Following this pattern, Group 4 will be elements 10,11,12, which are O 9 #.
+
+Q15. Sequence: A * 2 B & 3 C @ 4 D $ 5
+If we swap the 1st and 2nd element, 3rd and 4th, 5th and 6th, and so on... Which element will be exactly between 2 and 4 in the new sequence?
+(A) B
+(B) &
+(C) 3
+(D) C
+Answer: C
+Explanation: 
+Original: A * 2 B & 3 C @ 4 D $ 5 (12 elements)
+Swapped pairs: (* A) (B 2) (3 &) (@ C) (D 4) (5 $)
+New Sequence: * A B 2 3 & @ C D 4 5 $
+We need the element exactly between '2' and '4'.
+Elements between '2' and '4' in new sequence: 3, &, @, C, D (5 elements).
+The exact middle element of these 5 is '@'.
+Wait, option C is 3. I will change option C to @.
+
+Q15 (Updated Text):
+Q15. Sequence: A * 2 B & 3 C @ 4 D $ 5
+If we swap the 1st and 2nd element, 3rd and 4th, 5th and 6th, and so on... Which element will be exactly between '2' and '4' in the new sequence?
+(A) B
+(B) &
+(C) @
+(D) C
+Answer: C
+Explanation: 
+Original: A * 2 B & 3 C @ 4 D $ 5
+Swapping adjacent pairs: 
+(*, A), (B, 2), (3, &), (@, C), (D, 4), (5, $)
+New Sequence: * A B 2 3 & @ C D 4 5 $
+Elements between '2' and '4' are: 3, &, @, C, D.
+There are 5 elements. The one exactly in the middle is '@'.

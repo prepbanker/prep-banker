@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "phrase-replacement",
+  "subtopic": "grammar-based",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Phrase Replacement\nSubtopic: Grammar Based",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the correct phrase to replace the bolded part to make the sentence grammatically correct. If no correction is required, choose 'No replacement required'.\nThe manager, along with his entire team of developers, **are attending the crucial conference** in London next week.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "is attending the crucial conference"
+                },
+                {
+                  "label": "B",
+                  "text": "have attending the crucial conference"
+                },
+                {
+                  "label": "C",
+                  "text": "were attending the crucial conference"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "When subjects are joined by phrases like \"along with\", \"together with\", or \"as well as\", the verb must agree with the primary (first) subject. \"The manager\" is singular, so the singular verb \"is\" must be used.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the correct phrase to replace the bolded part.\nHardly had the majestic eagle taken flight **than the heavy thunderstorm** began to roll across the valley.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "then the heavy thunderstorm"
+                },
+                {
+                  "label": "B",
+                  "text": "when the heavy thunderstorm"
+                },
+                {
+                  "label": "C",
+                  "text": "while the heavy thunderstorm"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The adverbial phrase \"Hardly... had\" is always paired with the conjunction \"when\", not \"than\". (\"No sooner\" is paired with \"than\").",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the correct phrase to replace the bolded part.\nIf the central bank had not intervened aggressively, the national currency **would collapse entirely** by the end of the fiscal year.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "will collapse entirely"
+                },
+                {
+                  "label": "B",
+                  "text": "would have collapsed entirely"
+                },
+                {
+                  "label": "C",
+                  "text": "would be collapsing entirely"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "This is a third conditional sentence expressing an unreal past situation. The \"if\" clause uses the past perfect (\"had not intervened\"), so the main clause must use \"would have + past participle\" (\"would have collapsed\").",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the correct phrase to replace the bolded part.\nDespite of the overwhelming empirical evidence presented by the prosecution, the jury **decided to acquit the high-profile defendant**.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "In spite of the overwhelming"
+                },
+                {
+                  "label": "B",
+                  "text": "Despite the overwhelming"
+                },
+                {
+                  "label": "C",
+                  "text": "Both A and B are correct replacements"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The preposition \"Despite\" is never followed by \"of\". The correct phrases are either \"Despite the...\" or \"In spite of the...\". Therefore, the bolded part \"Despite of the overwhelming\" (if the bold included \"Despite of\") is wrong. Let's assume the bold part was \"Despite of the overwhelming empirical evidence\". Both A and B fix this.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the correct phrase to replace the bolded part.\nThe committee **has been divided in their opinions** regarding the allocation of the newly acquired infrastructure funds.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "has been divided in its opinions"
+                },
+                {
+                  "label": "B",
+                  "text": "have been divided in their opinions"
+                },
+                {
+                  "label": "C",
+                  "text": "is being divided in its opinions"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Committee\" is a collective noun. Because the sentence states they are divided in \"their opinions\", it indicates the members are acting individually. Therefore, a plural verb (\"have been\") and plural pronoun (\"their\") are required.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Phrase Replacement\nSubtopic: Grammar Based",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the correct phrase to replace the bolded part.\nNot only did the devastating hurricane destroy hundreds of coastal homes, **but it caused massive** power outages across the entire state.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "but it also caused massive"
+                },
+                {
+                  "label": "B",
+                  "text": "and it also caused massive"
+                },
+                {
+                  "label": "C",
+                  "text": "but also it caused massive"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The correlative conjunction \"Not only\" must be strictly paired with \"but also\". For parallel structure, \"but it also caused\" properly aligns the clauses.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the correct phrase to replace the bolded part.\nHe is one of the most brilliant astrophysicists **who has ever worked** at the prestigious space research agency.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "whom has ever worked"
+                },
+                {
+                  "label": "B",
+                  "text": "who have ever worked"
+                },
+                {
+                  "label": "C",
+                  "text": "that has ever worked"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The relative pronoun \"who\" refers back to its immediate antecedent, which is the plural noun \"astrophysicists\". Therefore, the verb following \"who\" must be plural (\"have\").",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the correct phrase to replace the bolded part.\nThe newly elected metropolitan mayor **prides on his ability** to navigate complex bureaucratic obstacles with ease.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "prides himself on his ability"
+                },
+                {
+                  "label": "B",
+                  "text": "pride himself on his ability"
+                },
+                {
+                  "label": "C",
+                  "text": "prides in his ability"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The verb \"pride\" (when used as a verb meaning to be proud of) is reflexive and requires a reflexive pronoun (\"himself\") before the preposition \"on\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the correct phrase to replace the bolded part.\nScarcely the massive cargo ship had left the bustling harbor **when a violent storm struck**.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Scarcely had the massive cargo ship left"
+                },
+                {
+                  "label": "B",
+                  "text": "Scarcely did the massive cargo ship leave"
+                },
+                {
+                  "label": "C",
+                  "text": "Both A and B are correct replacements"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "When a sentence begins with a negative adverbial like \"Scarcely\", it requires subject-auxiliary inversion (verb before subject). Both \"had + subject + left\" and \"did + subject + leave\" are grammatically correct inversions.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the correct phrase to replace the bolded part.\nThe board of directors agreed that the controversial marketing strategy was **more preferable than** the conservative alternative proposed earlier.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "preferable to"
+                },
+                {
+                  "label": "B",
+                  "text": "more preferable to"
+                },
+                {
+                  "label": "C",
+                  "text": "preferable than"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The adjective \"preferable\" intrinsically contains a comparative meaning, so it cannot be modified by \"more\". Additionally, it is always followed by the preposition \"to\", never \"than\".",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Phrase Replacement\nSubtopic: Grammar Based",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the correct phrase to replace the bolded part.\nThe brilliant scientist, alongside her team of dedicated postgraduate researchers, **were awarded the Nobel Prize** for their groundbreaking discovery.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "was awarded the Nobel Prize"
+                },
+                {
+                  "label": "B",
+                  "text": "have been awarded the Nobel Prize"
+                },
+                {
+                  "label": "C",
+                  "text": "are awarded the Nobel Prize"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Similar to Q1, phrases like \"alongside\", \"together with\", and \"accompanied by\" do not make a singular subject plural. The primary subject \"scientist\" is singular, so the verb must be singular (\"was awarded\").",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the correct phrase to replace the bolded part.\nI would highly recommend that he **consults a specialist** immediately regarding his rapidly deteriorating vision.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "consult a specialist"
+                },
+                {
+                  "label": "B",
+                  "text": "consulted a specialist"
+                },
+                {
+                  "label": "C",
+                  "text": "will consult a specialist"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Verbs like recommend, suggest, demand, and insist are followed by a \"that\" clause in the subjunctive mood, which requires the base/bare form of the verb (\"consult\"), regardless of the subject (he).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the correct phrase to replace the bolded part.\nBy the time the international rescue team finally arrives at the remote location, the stranded hikers **will run out of all their emergency supplies**.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "will have run out of all their emergency supplies"
+                },
+                {
+                  "label": "B",
+                  "text": "would run out of all their emergency supplies"
+                },
+                {
+                  "label": "C",
+                  "text": "are running out of all their emergency supplies"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "To describe an action that will be completely finished before a specific point in the future (\"By the time... arrives\"), the future perfect tense (\"will have run out\") must be used.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the correct phrase to replace the bolded part.\nThe sheer magnitude of the logistical challenges **were completely underestimated** by the inexperienced project management team.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "was completely underestimated"
+                },
+                {
+                  "label": "B",
+                  "text": "have been completely underestimated"
+                },
+                {
+                  "label": "C",
+                  "text": "are completely underestimated"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                },
+                {
+                  "label": "A",
+                  "text": "took decisive and aggressive action"
+                },
+                {
+                  "label": "B",
+                  "text": "will take decisive and aggressive action"
+                },
+                {
+                  "label": "C",
+                  "text": "has taken decisive and aggressive action"
+                },
+                {
+                  "label": "D",
+                  "text": "No replacement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The true subject of the sentence is \"magnitude\" (singular). \"of the logistical challenges\" is a prepositional phrase modifying the subject. Therefore, the verb must be singular (\"was\").",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

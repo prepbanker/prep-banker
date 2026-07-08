@@ -1,0 +1,255 @@
+----------------------------------------
+Topic: Missing Number Series
+Subtopic: Geometric Pattern
+----------------------------------------
+
+Directions (Q1–Q15): What will come in place of the question mark (?) in the following number series?
+
+Q1. 4, 12, 36, 108, ?
+(A) 324
+(B) 316
+(C) 304
+(D) 342
+
+Answer: A
+Explanation:
+The pattern is a constant multiplication by 3.
+4 × 3 = 12
+12 × 3 = 36
+36 × 3 = 108
+108 × 3 = 324.
+
+----------------------------------------
+
+Q2. 2000, 1000, 500, 250, ?
+(A) 100
+(B) 150
+(C) 125
+(D) 75
+
+Answer: C
+Explanation:
+The pattern is a constant division by 2 (or multiplication by 0.5).
+250 ÷ 2 = 125.
+
+----------------------------------------
+
+Q3. 3, 6, 18, 72, ?
+(A) 360
+(B) 340
+(C) 288
+(D) 400
+
+Answer: A
+Explanation:
+The multiplication factor is increasing sequentially.
+3 × 2 = 6
+6 × 3 = 18
+18 × 4 = 72
+72 × 5 = 360.
+
+----------------------------------------
+
+Q4. 8, 4, 4, 6, 12, ?
+(A) 24
+(B) 30
+(C) 36
+(D) 42
+
+Answer: B
+Explanation:
+The series multiplies by increasing decimal increments.
+8 × 0.5 = 4
+4 × 1 = 4
+4 × 1.5 = 6
+6 × 2 = 12
+12 × 2.5 = 30.
+
+----------------------------------------
+
+Q5. 2, 4, 16, 128, ?
+(A) 1024
+(B) 2048
+(C) 512
+(D) 256
+
+Answer: B
+Explanation:
+Multiplication factor doubles at each step.
+2 × 2 = 4
+4 × 4 = 16
+16 × 8 = 128
+128 × 16 = 2048.
+
+----------------------------------------
+
+Q6. 6400, 1600, 800, 200, 100, ?
+(A) 50
+(B) 75
+(C) 25
+(D) 10
+
+Answer: C
+Explanation:
+The series alternates between dividing by 4 and dividing by 2.
+6400 ÷ 4 = 1600
+1600 ÷ 2 = 800
+800 ÷ 4 = 200
+200 ÷ 2 = 100
+100 ÷ 4 = 25.
+
+----------------------------------------
+
+Q7. 5, 7.5, 18.75, 65.625, ?
+(A) 265.5
+(B) 295.3125
+(C) 328.125
+(D) 280.25
+
+Answer: B
+Explanation:
+The multiplication factor increases by 1 each time.
+5 × 1.5 = 7.5
+7.5 × 2.5 = 18.75
+18.75 × 3.5 = 65.625
+65.625 × 4.5 = 295.3125.
+
+----------------------------------------
+
+Refer to diagram: SVG/Q8.svg for a visual representation of the pattern.
+
+Q8. 12, 12, 18, 36, 90, ?
+(A) 270
+(B) 250
+(C) 315
+(D) 225
+
+Answer: A
+Explanation:
+The pattern is multiplying by increasing factors of +0.5.
+12 × 1 = 12
+12 × 1.5 = 18
+18 × 2 = 36
+36 × 2.5 = 90
+90 × 3 = 270.
+
+----------------------------------------
+
+Q9. 2, 3, 7.5, 26.25, ?
+(A) 118.125
+(B) 124.5
+(C) 98.75
+(D) 105.125
+
+Answer: A
+Explanation:
+The multipliers are 1.5, 2.5, 3.5...
+2 × 1.5 = 3
+3 × 2.5 = 7.5
+7.5 × 3.5 = 26.25
+26.25 × 4.5 = 118.125.
+
+----------------------------------------
+
+Q10. 16, 24, 60, 210, 945, ?
+(A) 4725
+(B) 5235
+(C) 5197.5
+(D) 4925.5
+
+Answer: C
+Explanation:
+Multiplication factors are increasing by 1.
+16 × 1.5 = 24
+24 × 2.5 = 60
+60 × 3.5 = 210
+210 × 4.5 = 945
+945 × 5.5 = 5197.5.
+
+----------------------------------------
+
+Q11. 3, 4.5, 11.25, 39.375, ?
+(A) 160.25
+(B) 175.125
+(C) 177.1875
+(D) 180.5
+
+Answer: C
+Explanation:
+Multipliers are 1.5, 2.5, 3.5...
+3 × 1.5 = 4.5
+4.5 × 2.5 = 11.25
+11.25 × 3.5 = 39.375
+39.375 × 4.5 = 177.1875.
+
+----------------------------------------
+
+Q12. 9, 5, 6, 10.5, 23, ?
+(A) 55
+(B) 60
+(C) 64
+(D) 72
+
+Answer: B
+Explanation:
+Pattern: Multiply and add the same factor.
+9 × 0.5 + 0.5 = 5
+5 × 1 + 1 = 6
+6 × 1.5 + 1.5 = 10.5
+10.5 × 2 + 2 = 23
+23 × 2.5 + 2.5 = 57.5 + 2.5 = 60.
+
+----------------------------------------
+
+Q13. 7, 4, 5, 9, 20, ?
+(A) 50.5
+(B) 52.5
+(C) 48
+(D) 55
+
+Answer: B
+Explanation:
+Pattern: Multiply and add the same factor.
+7 × 0.5 + 0.5 = 4
+4 × 1 + 1 = 5
+5 × 1.5 + 1.5 = 9
+9 × 2 + 2 = 20
+20 × 2.5 + 2.5 = 50 + 2.5 = 52.5.
+
+----------------------------------------
+
+Q14. 8, 5, 7, 13.5, 31, ?
+(A) 82.5
+(B) 80
+(C) 85
+(D) 87.5
+
+Answer: A
+Explanation:
+Pattern: Multiply and add increasing factors.
+Wait, let's test:
+8 × 0.5 + 1 = 5
+5 × 1 + 2 = 7
+7 × 1.5 + 3 = 13.5
+13.5 × 2 + 4 = 31
+31 × 2.5 + 5 = 77.5 + 5 = 82.5.
+
+----------------------------------------
+
+Q15. 14, 8, 9, 14.5, 30, ?
+(A) 76
+(B) 72
+(C) 80
+(D) 85
+
+Answer: A
+Explanation:
+Pattern: Multiply and add integer increments.
+14 × 0.5 + 1 = 8
+8 × 1 + 1 = 9 (Wait, increment should change).
+Let's re-test: 8 × 1 + 1 = 9.
+9 × 1.5 + 1 = 14.5
+14.5 × 2 + 1 = 30.
+Ah, the pattern is: Multiply by 0.5, 1, 1.5, 2 and always add 1.
+30 × 2.5 + 1 = 75 + 1 = 76.
+----------------------------------------

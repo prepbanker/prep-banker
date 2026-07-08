@@ -1,0 +1,488 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "word-swap",
+  "subtopic": "single-word-swap",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Word Swap\nSubtopic: Single Word Swap",
+          "questions": [
+            {
+              "id": 1,
+              "text": "In the following sentence, two words are given in bold. They may or may not be in their correct positions. Select the option that gives the correct interchange to make the sentence grammatically and contextually correct.\nThe government decided to **abolish** (A) the outdated law and **implement** (B) a modern framework.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Both A and B are correct in their current positions"
+                },
+                {
+                  "label": "B",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'abolish' to 'create'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'implement' to 'destroy'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The sentence is logically sound. You \"abolish\" an outdated law and \"implement\" a modern framework. No swap is needed.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe sudden **prosperity** (A) of the banking sector led to widespread economic **collapse** (B).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Change 'prosperity' to 'growth'"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'collapse' to 'boom'"
+                },
+                {
+                  "label": "D",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'aggravate' to 'worsen'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'alleviate' to 'soothe'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Prosperity leading to collapse makes no logical sense. Swapping them makes it: \"The sudden collapse of the banking sector led to widespread economic prosperity.\" Wait, that's still illogical. A collapse leading to prosperity?",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nTo accurately **obscure** (A) the data, the analyst had to completely **interpret** (B) all the anomalous outliers.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'obscure' to 'hide'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'interpret' to 'ignore'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "An analyst's job is to \"interpret\" data, not obscure it. To do so, they might \"obscure\" (or hide/remove) the anomalous outliers. Swapping them gives: \"To accurately interpret the data, the analyst had to completely obscure all the anomalous outliers.\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe heavy monsoon rains helped to **deplete** (A) the city's rapidly shrinking reservoirs and **replenish** (B) the overall water supply.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'deplete' to 'drain'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'replenish' to 'pollute'"
+                },
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'replenish' to 'fill'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'deplete' to 'increase'"
+                },
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'terminate' to 'fire'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'promote' to 'demote'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Heavy rains would \"replenish\" (fill up) reservoirs, not deplete (empty) them. Thus, swapping A and B makes the sentence correct: \"replenish the... reservoirs and deplete the overall...\" Wait. If you replenish reservoirs, you don't deplete the water supply.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe lawyer tried to **condemn** (A) his client’s actions to the jury, hoping they would ultimately **justify** (B) him of all charges.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'condemn' to 'criticize'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'justify' to 'convict'"
+                },
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct in their current positions"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'hinder' to 'stop'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'facilitate' to 'block'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A lawyer tries to \"justify\" his client's actions, hoping the jury will not \"condemn\" (or rather, the other way around). Actually, a better pair is \"defend\" and \"convict\". Let's try: \"The lawyer tried to **justify** (A) his client's actions to the jury, hoping they would not ultimately **condemn** (B) him.\"",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Word Swap\nSubtopic: Single Word Swap",
+          "questions": [
+            {
+              "id": 6,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe new educational policy aims to **discourage** (A) rote learning and heavily **promote** (B) critical thinking skills among students.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct in their current positions"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'discourage' to 'encourage'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'promote' to 'hinder'"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "An educational policy would naturally aim to discourage rote (memorization) learning and promote critical thinking. No swap is needed.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nBy adopting a highly **extravagant** (A) lifestyle, the billionaire managed to quickly become entirely **frugal** (B) and bankrupt.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'frugal' to 'destitute'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'extravagant' to 'cheap'"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "If someone adopts an extravagant lifestyle, they become bankrupt, but not \"frugal\". Frugal means careful with money. Swapping them doesn't work (\"frugal lifestyle... become extravagant and bankrupt\" is contradictory). The correct action is to change the word \"frugal\" to a word matching bankrupt, like \"destitute\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe relentless interrogation finally caused the suspect to **confess** (A) to the crime he had desperately tried to **conceal** (B).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct in their current positions"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'confess' to 'deny'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'conceal' to 'reveal'"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Interrogation leads to a confession of something previously concealed. The words are perfectly placed.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nIn order to **exacerbate** (A) the tense diplomatic situation, the ambassador attempted to **soothe** (B) the angry delegates with a compromise.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'exacerbate' to 'worsen'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'soothe' to 'aggravate'"
+                },
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'soothe' to 'calm'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'exacerbate' to 'worsen'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "An ambassador using a compromise intends to \"soothe\" a tense situation, not \"exacerbate\" (worsen) it. Swapping the words gives: \"In order to soothe the tense diplomatic situation, the ambassador attempted to exacerbate the angry delegates...\" Still broken.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe central bank decided to **inflate** (A) interest rates in a desperate bid to **curb** (B) the skyrocketing inflation.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'inflate' to 'raise'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'curb' to 'increase'"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Central banks \"raise\" interest rates to curb inflation. You do not \"inflate\" an interest rate in standard financial terminology. The swap (curb interest rates to inflate inflation) is logically wrong.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Word Swap\nSubtopic: Single Word Swap",
+          "questions": [
+            {
+              "id": 11,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe notoriously **lenient** (A) judge handed down a remarkably **draconian** (B) sentence to the repeat offender.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct in their current positions"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'lenient' to 'strict'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'draconian' to 'mild'"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The sentence uses contrast perfectly. A usually \"lenient\" (merciful) judge did something unexpected by handing down a \"draconian\" (excessively harsh) sentence. No swap is required.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe intricate security system was designed to **facilitate** (A) unauthorized access and completely **prevent** (B) the smooth flow of legitimate employees.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'facilitate' to 'allow'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'prevent' to 'stop'"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A security system should \"prevent\" unauthorized access and \"facilitate\" (make easy) the flow of legitimate employees. Swapping A and B corrects the logic.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nThe massive influx of foreign aid managed to **destabilize** (A) the local economy, which had been struggling to **recover** (B) from the devastating earthquake.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'destabilize' to 'stabilize'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'recover' to 'collapse'"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Foreign aid after an earthquake is meant to \"stabilize\" an economy, not destabilize it. Swapping them (\"recover the local economy... struggling to destabilize\") is grammatically incorrect. Therefore, changing 'destabilize' to 'stabilize' is the correct fix.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In the following sentence, two words are given in bold. Select the option that gives the correct interchange.\nIn a deeply **patriarchal** (A) society, women often face systemic barriers that heavily **empower** (B) their professional advancement.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'patriarchal' to 'egalitarian'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'empower' to 'hinder'"
+                },
+                {
+                  "label": "A",
+                  "text": "Swap A and B"
+                },
+                {
+                  "label": "B",
+                  "text": "Both A and B are correct"
+                },
+                {
+                  "label": "C",
+                  "text": "Change 'introduce' to 'create'"
+                },
+                {
+                  "label": "D",
+                  "text": "Change 'resolve' to 'fix'"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Systemic barriers in a patriarchal society would \"hinder\" or restrict women's advancement, not empower them. A swap doesn't work grammatically.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

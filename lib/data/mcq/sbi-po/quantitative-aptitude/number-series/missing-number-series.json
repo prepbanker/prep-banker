@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "number-series",
+  "subtopic": "missing-number-series",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "What will come in place of the question mark (?) in the following number series?",
+          "questions": [
+            {
+              "id": 1,
+              "text": "4, 9, 16, 25, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "36"
+                },
+                {
+                  "label": "B",
+                  "text": "49"
+                },
+                {
+                  "label": "C",
+                  "text": "30"
+                },
+                {
+                  "label": "D",
+                  "text": "42"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The series consists of consecutive perfect squares: 2², 3², 4², 5².",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "2, 5, 10, 17, 26, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "35"
+                },
+                {
+                  "label": "B",
+                  "text": "37"
+                },
+                {
+                  "label": "C",
+                  "text": "36"
+                },
+                {
+                  "label": "D",
+                  "text": "39"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern is (n² + 1).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "0, 3, 8, 15, 24, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "35"
+                },
+                {
+                  "label": "B",
+                  "text": "36"
+                },
+                {
+                  "label": "C",
+                  "text": "33"
+                },
+                {
+                  "label": "D",
+                  "text": "39"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The pattern is (n² - 1).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "12, 13, 17, 26, 42, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "67"
+                },
+                {
+                  "label": "B",
+                  "text": "65"
+                },
+                {
+                  "label": "C",
+                  "text": "69"
+                },
+                {
+                  "label": "D",
+                  "text": "72"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Differences are perfect squares.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "2, 6, 12, 20, 30, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40"
+                },
+                {
+                  "label": "B",
+                  "text": "42"
+                },
+                {
+                  "label": "C",
+                  "text": "44"
+                },
+                {
+                  "label": "D",
+                  "text": "38"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern is (n² + n).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "What will come in place of the question mark (?) in the following number series?",
+          "questions": [
+            {
+              "id": 6,
+              "text": "9, 16, 25, 36, 49, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "60"
+                },
+                {
+                  "label": "B",
+                  "text": "64"
+                },
+                {
+                  "label": "C",
+                  "text": "81"
+                },
+                {
+                  "label": "D",
+                  "text": "72"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Consecutive squares starting from 3².",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "24, 35, 48, 63, 80, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "100"
+                },
+                {
+                  "label": "B",
+                  "text": "99"
+                },
+                {
+                  "label": "C",
+                  "text": "98"
+                },
+                {
+                  "label": "D",
+                  "text": "97"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern is (n² - 1) starting from n = 5.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "14, 23, 39, 64, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "98"
+                },
+                {
+                  "label": "B",
+                  "text": "100"
+                },
+                {
+                  "label": "C",
+                  "text": "102"
+                },
+                {
+                  "label": "D",
+                  "text": "104"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Differences:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "5, 6, 10, 19, 35, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "60"
+                },
+                {
+                  "label": "B",
+                  "text": "62"
+                },
+                {
+                  "label": "C",
+                  "text": "65"
+                },
+                {
+                  "label": "D",
+                  "text": "68"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Differences are consecutive squares:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "120, 142, 166, 192, 220, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "248"
+                },
+                {
+                  "label": "B",
+                  "text": "250"
+                },
+                {
+                  "label": "C",
+                  "text": "252"
+                },
+                {
+                  "label": "D",
+                  "text": "254"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The numbers are (n² + n) starting from n = 10.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "What will come in place of the question mark (?) in the following number series?",
+          "questions": [
+            {
+              "id": 11,
+              "text": "223, 224, 216, 225, 161, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "186"
+                },
+                {
+                  "label": "B",
+                  "text": "176"
+                },
+                {
+                  "label": "C",
+                  "text": "196"
+                },
+                {
+                  "label": "D",
+                  "text": "182"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's check alternating addition/subtraction of something.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "51, 60, 85, 134, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "215"
+                },
+                {
+                  "label": "B",
+                  "text": "205"
+                },
+                {
+                  "label": "C",
+                  "text": "210"
+                },
+                {
+                  "label": "D",
+                  "text": "195"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Differences:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "4, 18, 48, 100, 180, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "294"
+                },
+                {
+                  "label": "B",
+                  "text": "280"
+                },
+                {
+                  "label": "C",
+                  "text": "300"
+                },
+                {
+                  "label": "D",
+                  "text": "288"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The pattern is (n³ - n²).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "11, 20, 36, 61, 97, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "146"
+                },
+                {
+                  "label": "B",
+                  "text": "150"
+                },
+                {
+                  "label": "C",
+                  "text": "144"
+                },
+                {
+                  "label": "D",
+                  "text": "148"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Differences are perfect squares:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "13, 17, 33, 97, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "353"
+                },
+                {
+                  "label": "B",
+                  "text": "343"
+                },
+                {
+                  "label": "C",
+                  "text": "363"
+                },
+                {
+                  "label": "D",
+                  "text": "333"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Differences:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

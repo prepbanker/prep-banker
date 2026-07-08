@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "quantitative-aptitude",
+  "topic": "simplification",
+  "subtopic": "bodmas",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "What will come in place of the question mark (?) in the following equations?",
+          "questions": [
+            {
+              "id": 1,
+              "text": "24 ÷ 6 × 2 + 15 - 3 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "16"
+                },
+                {
+                  "label": "B",
+                  "text": "20"
+                },
+                {
+                  "label": "C",
+                  "text": "24"
+                },
+                {
+                  "label": "D",
+                  "text": "12"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "According to BODMAS, division comes first: 24 ÷ 6 = 4.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "45 - [38 - {60 ÷ 3 - (6 - 9 ÷ 3) ÷ 3}] = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "21"
+                },
+                {
+                  "label": "B",
+                  "text": "24"
+                },
+                {
+                  "label": "C",
+                  "text": "26"
+                },
+                {
+                  "label": "D",
+                  "text": "27"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Solve innermost bracket first: (6 - 9 ÷ 3) = (6 - 3) = 3.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "72 ÷ 9 of 2 + 14 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "22"
+                },
+                {
+                  "label": "B",
+                  "text": "18"
+                },
+                {
+                  "label": "C",
+                  "text": "28"
+                },
+                {
+                  "label": "D",
+                  "text": "12"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "'Of' is solved before division.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "15 × 12 ÷ 4 + 18 - ? = 25",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "28"
+                },
+                {
+                  "label": "B",
+                  "text": "38"
+                },
+                {
+                  "label": "C",
+                  "text": "32"
+                },
+                {
+                  "label": "D",
+                  "text": "42"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Division first: 12 ÷ 4 = 3.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "(48 - 12) ÷ 4 + 6 × 3 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24"
+                },
+                {
+                  "label": "B",
+                  "text": "36"
+                },
+                {
+                  "label": "C",
+                  "text": "27"
+                },
+                {
+                  "label": "D",
+                  "text": "45"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Solve bracket: (48 - 12) = 36.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "What will come in place of the question mark (?) in the following equations?",
+          "questions": [
+            {
+              "id": 6,
+              "text": "120 ÷ [45 - {35 - (20 - 4 × 3 + 2)}] = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "4"
+                },
+                {
+                  "label": "B",
+                  "text": "6"
+                },
+                {
+                  "label": "C",
+                  "text": "8"
+                },
+                {
+                  "label": "D",
+                  "text": "10"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Innermost bracket: (20 - 12 + 2) = (8 + 2) = 10.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "3/4 of 5/6 of 8/9 of 1620 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "900"
+                },
+                {
+                  "label": "B",
+                  "text": "1050"
+                },
+                {
+                  "label": "C",
+                  "text": "750"
+                },
+                {
+                  "label": "D",
+                  "text": "850"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "(3/4) × (5/6) × (8/9) × 1620",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "48 ÷ 12 × [3/4 of 84] - 15 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "241"
+                },
+                {
+                  "label": "B",
+                  "text": "237"
+                },
+                {
+                  "label": "C",
+                  "text": "215"
+                },
+                {
+                  "label": "D",
+                  "text": "255"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Square bracket first: 3/4 of 84 = 3 × 21 = 63.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "? × 15 = 24% of 500 + 45% of 400",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12"
+                },
+                {
+                  "label": "B",
+                  "text": "20"
+                },
+                {
+                  "label": "C",
+                  "text": "24"
+                },
+                {
+                  "label": "D",
+                  "text": "18"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "RHS = (24/100) × 500 + (45/100) × 400",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "18² + 14² - 12² = ? + 11²",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "255"
+                },
+                {
+                  "label": "B",
+                  "text": "265"
+                },
+                {
+                  "label": "C",
+                  "text": "245"
+                },
+                {
+                  "label": "D",
+                  "text": "275"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "18² = 324",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "What will come in place of the question mark (?) in the following equations?",
+          "questions": [
+            {
+              "id": 11,
+              "text": "5/8 of 4/9 of 3/5 of 222 + ? = 11²",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "84"
+                },
+                {
+                  "label": "B",
+                  "text": "80"
+                },
+                {
+                  "label": "C",
+                  "text": "74"
+                },
+                {
+                  "label": "D",
+                  "text": "78"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Simplify the fraction part:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "[ {( 18 × 15 ) ÷ 9 } + 45 ] ÷ 5 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "15"
+                },
+                {
+                  "label": "B",
+                  "text": "20"
+                },
+                {
+                  "label": "C",
+                  "text": "12"
+                },
+                {
+                  "label": "D",
+                  "text": "18"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Innermost bracket: 18 × 15 = 270.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "144 ÷ 12 of 3 + 15 × 4 - 30 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "34"
+                },
+                {
+                  "label": "B",
+                  "text": "32"
+                },
+                {
+                  "label": "C",
+                  "text": "44"
+                },
+                {
+                  "label": "D",
+                  "text": "24"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "'Of' comes first: 12 of 3 = 36.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "35% of 160 + ?% of 180 = 50% of 310",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "45"
+                },
+                {
+                  "label": "B",
+                  "text": "60"
+                },
+                {
+                  "label": "C",
+                  "text": "55"
+                },
+                {
+                  "label": "D",
+                  "text": "65"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "35% of 160 = (35/100) × 160 = 56.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "?² - 20% of 480 = 15 × 12 - 80",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12"
+                },
+                {
+                  "label": "B",
+                  "text": "14"
+                },
+                {
+                  "label": "C",
+                  "text": "16"
+                },
+                {
+                  "label": "D",
+                  "text": "18"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "20% of 480 = 96.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

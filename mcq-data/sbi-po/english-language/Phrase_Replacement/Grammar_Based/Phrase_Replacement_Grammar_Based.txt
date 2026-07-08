@@ -1,0 +1,140 @@
+----------------------------------------
+Topic: Phrase Replacement
+Subtopic: Grammar Based
+----------------------------------------
+
+Q1. He is **one of the best player** in the entire tournament this year.
+(A) one of the best players
+(B) one of best player
+(C) the best of player
+(D) No replacement required
+
+Answer: A
+Explanation: The phrase "one of" is always followed by a plural noun. Therefore, "player" must be pluralized to "players".
+
+Q2. If I **would have known** about the traffic, I would have left earlier.
+(A) had known
+(B) will have known
+(C) have known
+(D) No replacement required
+
+Answer: A
+Explanation: In a third conditional sentence (unreal past), the "if" clause must use the past perfect tense ("had known"). "Would have" is only used in the main clause.
+
+Q3. The jury **were divided in its** opinion regarding the final verdict.
+(A) was divided in its
+(B) were divided in their
+(C) was divided in their
+(D) No replacement required
+
+Answer: B
+Explanation: The collective noun "jury" takes a plural verb ("were") and a plural pronoun ("their") when the members are acting individually or disagreeing. 
+
+Q4. Scarcely had she finished reading the book **than the phone rang**.
+(A) then the phone rang
+(B) when the phone rang
+(C) while the phone rang
+(D) No replacement required
+
+Answer: B
+Explanation: The correlative conjunction "scarcely" is always followed by "when", not "than".
+
+Q5. Neither the manager nor the employees **is willing to compromise** on the new policy.
+(A) are willing to compromise
+(B) has willing to compromise
+(C) was willing to compromise
+(D) No replacement required
+
+Answer: A
+Explanation: In a "neither...nor" construction, the verb must agree with the subject closest to it. "Employees" is plural, so the verb should be "are".
+
+Q6. The new software is highly superior **than the older version** we were using last year.
+(A) than the old version
+(B) over the older version
+(C) to the older version
+(D) No replacement required
+
+Answer: C
+Explanation: Adjectives ending in "-ior" (such as superior, inferior, senior, junior) are followed by the preposition "to", not the conjunction "than".
+
+Q7. Despite of **his rigorous training**, he failed to qualify for the finals.
+(A) Despite his rigorous training
+(B) In spite his rigorous training
+(C) Despite with his rigorous training
+(D) No replacement required
+
+Answer: A
+Explanation: The word "despite" takes no preposition. "In spite of" is the correct alternative, but "despite of" is grammatically incorrect.
+
+Q8. She prefers reading classical literature **than to watch** contemporary movies.
+(A) rather than watch
+(B) to watching
+(C) than watching
+(D) No replacement required
+
+Answer: B
+Explanation: When using the verb "prefer" to compare two gerunds or nouns, the preposition "to" must be used. Both elements being compared must be gerunds: "reading... to watching".
+
+Q9. Hardly I had stepped out of the house **when it started** raining heavily.
+(A) Hardly had I stepped out of the house
+(B) Hardly I stepped out of the house
+(C) Hard had I stepped out of the house
+(D) No replacement required
+
+Answer: A
+Explanation: When a sentence begins with a negative adverb like "Hardly," the subject and auxiliary verb must be inverted. It should be "Hardly had I".
+
+Q10. It is high time that the government **takes strict action** against tax evaders.
+(A) took strict action
+(B) take strict action
+(C) will take strict action
+(D) No replacement required
+
+Answer: A
+Explanation: The phrase "It is high time" is followed by a clause in the simple past tense to indicate something that should have been done already. "Takes" should be "took".
+
+Q11. The committee has discussed the matter at length, but **have not reached** a conclusion yet.
+(A) has not reached
+(B) having not reached
+(C) had not reached
+(D) No replacement required
+
+Answer: A
+Explanation: The collective noun "committee" acts as a single unit here, as shown by the first verb "has". The second verb must maintain parallel subject-verb agreement. Therefore, "have" should be "has".
+
+Q12. I look forward **to meet you** at the annual conference next month.
+(A) to meeting you
+(B) for meeting you
+(C) to have met you
+(D) No replacement required
+
+Answer: A
+Explanation: The phrase "look forward to" ends with a preposition ("to"), which must be followed by a noun or a gerund (-ing form). Therefore, "meet" must be "meeting".
+
+Q13. Not only did he break the law, **but he also destroys** the evidence.
+(A) but he also destroyed
+(B) but he destroys also
+(C) and he also destroyed
+(D) No replacement required
+
+Answer: A
+Explanation: To maintain parallel tense structure, since the first clause is in the past tense ("did he break"), the second clause must also be in the past tense ("destroyed").
+
+Q14. The reason why he was rejected from the job **was because he lacked** the necessary communication skills.
+(A) is because he lacked
+(B) was that he lacked
+(C) was due to he lacked
+(D) No replacement required
+
+Answer: B
+Explanation: The phrase "The reason why" implies cause, making the word "because" redundant. It should be followed by a "that" clause.
+
+15. By the time the doctor arrives, the patient **will die**.
+(A) will have died
+(B) would die
+(C) is going to die
+(D) No replacement required
+
+Answer: A
+Explanation: To describe an action that will be completed before another action in the future (the doctor arriving), the future perfect tense ("will have died") must be used.
+----------------------------------------

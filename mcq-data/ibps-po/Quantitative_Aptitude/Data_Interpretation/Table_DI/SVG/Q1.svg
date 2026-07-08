@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="100%" height="100%" fill="#ffffff" rx="10"/>
+  <path d="M 50,50 L 550,50 M 50,90 L 550,90 M 50,130 L 550,130 M 50,170 L 550,170 M 50,210 L 550,210 M 50,250 L 550,250" stroke="#cccccc" stroke-width="2"/>
+  <path d="M 50,50 L 50,250 M 150,50 L 150,250 M 230,50 L 230,250 M 310,50 L 310,250 M 390,50 L 390,250 M 470,50 L 470,250 M 550,50 L 550,250" stroke="#cccccc" stroke-width="2"/>
+  <text x="100" y="75" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="#333333">Year</text>
+  <text x="190" y="75" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="#333333">P</text>
+  <text x="270" y="75" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="#333333">Q</text>
+  <text x="350" y="75" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="#333333">R</text>
+  <text x="430" y="75" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="#333333">S</text>
+  
+  <text x="100" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">2018</text>
+  <text x="190" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">35</text>
+  <text x="270" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">42</text>
+  <text x="350" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">60</text>
+  <text x="430" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">45</text>
+
+  <text x="100" y="155" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">2019</text>
+  <text x="190" y="155" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">40</text>
+  <text x="270" y="155" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">48</text>
+  <text x="350" y="155" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">55</text>
+  <text x="430" y="155" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">52</text>
+
+  <text x="100" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">2020</text>
+  <text x="190" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">42</text>
+  <text x="270" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">45</text>
+  <text x="350" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">50</text>
+  <text x="430" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">54</text>
+
+  <text x="100" y="235" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">2021</text>
+  <text x="190" y="235" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">45</text>
+  <text x="270" y="235" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">50</text>
+  <text x="350" y="235" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">52</text>
+  <text x="430" y="235" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">62</text>
+
+  <text x="100" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">2022</text>
+  <text x="190" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">48</text>
+  <text x="270" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">43</text>
+  <text x="350" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">50</text>
+  <text x="430" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">58</text>
+</svg>

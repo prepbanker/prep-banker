@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400">
+  <!-- Grouped Bar Chart -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <!-- Y axis grid lines -->
+  <line x1="80" y1="320" x2="650" y2="320" stroke="#000000" stroke-width="2"/>
+  <line x1="80" y1="260" x2="650" y2="260" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="200" x2="650" y2="200" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="140" x2="650" y2="140" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="80" x2="650" y2="80" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Y axis labels -->
+  <text x="70" y="325" text-anchor="end" font-family="sans-serif" font-size="14">0</text>
+  <text x="70" y="265" text-anchor="end" font-family="sans-serif" font-size="14">20</text>
+  <text x="70" y="205" text-anchor="end" font-family="sans-serif" font-size="14">40</text>
+  <text x="70" y="145" text-anchor="end" font-family="sans-serif" font-size="14">60</text>
+  <text x="70" y="85" text-anchor="end" font-family="sans-serif" font-size="14">80</text>
+
+  <!-- Legend -->
+  <rect x="250" y="30" width="15" height="15" fill="#3498db"/>
+  <text x="275" y="43" font-family="sans-serif" font-size="14">Type A</text>
+  <rect x="360" y="30" width="15" height="15" fill="#e74c3c"/>
+  <text x="385" y="43" font-family="sans-serif" font-size="14">Type B</text>
+
+  <!-- Bars for 2018 (A:45, B:25) -->
+  <!-- 1 unit = 3px (since 80 corresponds to 240px diff) -->
+  <rect x="120" y="185" width="30" height="135" fill="#3498db"/>
+  <rect x="150" y="245" width="30" height="75" fill="#e74c3c"/>
+  <text x="150" y="340" text-anchor="middle" font-family="sans-serif" font-size="14">2018</text>
+
+  <!-- Bars for 2019 (A:40, B:65) -->
+  <rect x="220" y="200" width="30" height="120" fill="#3498db"/>
+  <rect x="250" y="125" width="30" height="195" fill="#e74c3c"/>
+  <text x="250" y="340" text-anchor="middle" font-family="sans-serif" font-size="14">2019</text>
+
+  <!-- Bars for 2020 (A:55, B:35) -->
+  <rect x="320" y="155" width="30" height="165" fill="#3498db"/>
+  <rect x="350" y="215" width="30" height="105" fill="#e74c3c"/>
+  <text x="350" y="340" text-anchor="middle" font-family="sans-serif" font-size="14">2020</text>
+
+  <!-- Bars for 2021 (A:50, B:45) -->
+  <rect x="420" y="170" width="30" height="150" fill="#3498db"/>
+  <rect x="450" y="185" width="30" height="135" fill="#e74c3c"/>
+  <text x="450" y="340" text-anchor="middle" font-family="sans-serif" font-size="14">2021</text>
+
+  <!-- Bars for 2022 (A:50, B:65) -->
+  <rect x="520" y="170" width="30" height="150" fill="#3498db"/>
+  <rect x="550" y="125" width="30" height="195" fill="#e74c3c"/>
+  <text x="550" y="340" text-anchor="middle" font-family="sans-serif" font-size="14">2022</text>
+
+  <line x1="80" y1="80" x2="80" y2="320" stroke="#000000" stroke-width="2"/>
+</svg>

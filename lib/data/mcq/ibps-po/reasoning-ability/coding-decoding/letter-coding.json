@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "coding-decoding",
+  "subtopic": "letter-coding",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Coding-Decoding\nSubtopic: Letter Coding",
+          "questions": [
+            {
+              "id": 1,
+              "text": "In a certain code language, 'BASKET' is written as 'CBTLFU'. How will 'FLOWER' be written in that code language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "GMPXFS"
+                },
+                {
+                  "label": "B",
+                  "text": "GMPXES"
+                },
+                {
+                  "label": "C",
+                  "text": "GMPXFR"
+                },
+                {
+                  "label": "D",
+                  "text": "HNPXFS"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Each letter in the word 'BASKET' is shifted +1 step forward in the alphabetical series to get the code.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "In a certain code language, 'BRIDGE' is written as 'AQHCFD'. How will 'WATER' be written in that code language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "VZSDQ"
+                },
+                {
+                  "label": "B",
+                  "text": "VZUDQ"
+                },
+                {
+                  "label": "C",
+                  "text": "VZSDP"
+                },
+                {
+                  "label": "D",
+                  "text": "VYSDQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Each letter in the word 'BRIDGE' is shifted -1 step backward in the alphabetical series.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "If in a code language, 'NURSE' is coded as 'QXUVH', how will 'DOCTOR' be coded in that same language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "GRFWRU"
+                },
+                {
+                  "label": "B",
+                  "text": "GRFXRU"
+                },
+                {
+                  "label": "C",
+                  "text": "GRFWQV"
+                },
+                {
+                  "label": "D",
+                  "text": "GQFWRU"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Each letter in the word 'NURSE' is shifted +3 steps forward.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In a certain code, 'TABLE' is written as 'SZAKD'. How will 'CHAIR' be written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "BGZHQ"
+                },
+                {
+                  "label": "B",
+                  "text": "BGYHQ"
+                },
+                {
+                  "label": "C",
+                  "text": "BGZHP"
+                },
+                {
+                  "label": "D",
+                  "text": "CGZHQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Each letter in the word 'TABLE' is shifted -1 step backward.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If 'FROZEN' is coded as 'OFAPSG', then how will 'MOLTEN' be coded?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "OFUMPN"
+                },
+                {
+                  "label": "B",
+                  "text": "OFUMON"
+                },
+                {
+                  "label": "C",
+                  "text": "OFUNPM"
+                },
+                {
+                  "label": "D",
+                  "text": "OFUMPM"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's analyze 'FROZEN' -> 'OFAPSG'.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Coding-Decoding\nSubtopic: Letter Coding",
+          "questions": [
+            {
+              "id": 6,
+              "text": "In a certain code language, 'ACTIVE' is written as 'TCAIVE'. How will 'REMOTE' be written in that code language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "MEROTE"
+                },
+                {
+                  "label": "B",
+                  "text": "MREOTE"
+                },
+                {
+                  "label": "C",
+                  "text": "EMRTOE"
+                },
+                {
+                  "label": "D",
+                  "text": "TMEORE"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The word is divided into two equal halves of 3 letters each.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In a certain code language, 'FIGHT' is written as 'EJFGS'. How will 'BRAVE' be written in that code language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "AQBUF"
+                },
+                {
+                  "label": "B",
+                  "text": "BQCUF"
+                },
+                {
+                  "label": "C",
+                  "text": "AQBVF"
+                },
+                {
+                  "label": "D",
+                  "text": "APBUF"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The logic is based on vowels and consonants.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "If 'SYSTEM' is coded as 'SYSMET' and 'NEARER' as 'AENRER', how will 'FRACTION' be coded?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "CARFNOIT"
+                },
+                {
+                  "label": "B",
+                  "text": "NOITCARF"
+                },
+                {
+                  "label": "C",
+                  "text": "CARFTION"
+                },
+                {
+                  "label": "D",
+                  "text": "FRACNOIT"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's analyze 'SYSTEM' -> 'SYSMET'.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In a certain code, 'LOGIC' is coded as 'BHFNK'. How will 'MAGIC' be coded?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "BHFZL"
+                },
+                {
+                  "label": "B",
+                  "text": "BHFZM"
+                },
+                {
+                  "label": "C",
+                  "text": "BHFYL"
+                },
+                {
+                  "label": "D",
+                  "text": "BHFYM"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's analyze 'LOGIC' -> 'BHFNK'.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "In a code language, 'COMPUTER' is coded as 'RFUVQNPC'. How will 'MEDICINE' be coded in that language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "EOJDJEFM"
+                },
+                {
+                  "label": "B",
+                  "text": "EOJDEJFM"
+                },
+                {
+                  "label": "C",
+                  "text": "MFEJDJOE"
+                },
+                {
+                  "label": "D",
+                  "text": "MFEDJJOE"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's analyze 'COMPUTER' -> 'RFUVQNPC'.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Coding-Decoding\nSubtopic: Letter Coding",
+          "questions": [
+            {
+              "id": 11,
+              "text": "In a certain code, 'VICTORY' is written as 'YLFWRUB'. How will 'SUCCESS' be written?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "VXFFHVV"
+                },
+                {
+                  "label": "B",
+                  "text": "VXEEHVV"
+                },
+                {
+                  "label": "C",
+                  "text": "VXFFIVV"
+                },
+                {
+                  "label": "D",
+                  "text": "VXFFHUW"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's analyze 'VICTORY' -> 'YLFWRUB'.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "If 'DELHI' is coded as 'CCIDD', how will 'BOMBAY' be coded?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "AMJXVS"
+                },
+                {
+                  "label": "B",
+                  "text": "AMJXVT"
+                },
+                {
+                  "label": "C",
+                  "text": "AMJWVS"
+                },
+                {
+                  "label": "D",
+                  "text": "AMJWVT"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Let's analyze 'DELHI' -> 'CCIDD'.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In a certain code language, 'NATURE' is written as 'MASUQE'. How will 'FAMINE' be written in that code language?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "EZLIME"
+                },
+                {
+                  "label": "B",
+                  "text": "EALIME"
+                },
+                {
+                  "label": "C",
+                  "text": "EALJME"
+                },
+                {
+                  "label": "D",
+                  "text": "EZLHME"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Let's analyze 'NATURE' -> 'MASUQE'.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In a certain code, 'ROAST' is coded as 'SPBTU'. How is 'FLUTE' coded?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "GMVUF"
+                },
+                {
+                  "label": "B",
+                  "text": "GMVVE"
+                },
+                {
+                  "label": "C",
+                  "text": "GNVUF"
+                },
+                {
+                  "label": "D",
+                  "text": "GMWUF"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Each letter in the word is shifted +1 step forward.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "If in a code language, 'MACHINE' is coded as 'LBBIHOD', how will 'MONSTER' be coded?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "LPMTSFQ"
+                },
+                {
+                  "label": "B",
+                  "text": "LPNTSFQ"
+                },
+                {
+                  "label": "C",
+                  "text": "LPMTRFQ"
+                },
+                {
+                  "label": "D",
+                  "text": "LQMTSFQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Each letter in the word 'MACHINE' is alternately shifted -1 and +1.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

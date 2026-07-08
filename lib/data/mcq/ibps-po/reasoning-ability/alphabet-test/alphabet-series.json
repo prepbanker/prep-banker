@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "alphabet-test",
+  "subtopic": "alphabet-series",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Alphabet Test\nSubtopic: Alphabet Series",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What will come in place of the question mark (?) in the following series?\nA, C, F, J, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "M"
+                },
+                {
+                  "label": "B",
+                  "text": "N"
+                },
+                {
+                  "label": "C",
+                  "text": "O"
+                },
+                {
+                  "label": "D",
+                  "text": "P"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A(+2) = C. C(+3) = F. F(+4) = J. J(+5) = O. The missing letter is O.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Find the missing term in the series: Z, W, S, P, L, I, E, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "B"
+                },
+                {
+                  "label": "B",
+                  "text": "D"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "K"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The series follows a pattern of alternating differences: -3, -4, -3, -4...",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What will come next in the series: AB, DEF, HIJK, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "LMNO"
+                },
+                {
+                  "label": "B",
+                  "text": "LMNOP"
+                },
+                {
+                  "label": "C",
+                  "text": "MNOPQ"
+                },
+                {
+                  "label": "D",
+                  "text": "NOPQR"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The length of terms increases: 2, 3, 4, 5.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Which term comes next? BZA, DYC, FXE, ?, JVI",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "HUG"
+                },
+                {
+                  "label": "B",
+                  "text": "HWG"
+                },
+                {
+                  "label": "C",
+                  "text": "UHG"
+                },
+                {
+                  "label": "D",
+                  "text": "WHG"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "First letter: B(+2)=D(+2)=F(+2)=H(+2)=J.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Next term in the series: QAR, RAS, SAT, TAU, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "UAV"
+                },
+                {
+                  "label": "B",
+                  "text": "UAT"
+                },
+                {
+                  "label": "C",
+                  "text": "TAS"
+                },
+                {
+                  "label": "D",
+                  "text": "TAT"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: Q, R, S, T, U.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Alphabet Test\nSubtopic: Alphabet Series",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Find the missing term: C4X, F9U, I16R, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "K25P"
+                },
+                {
+                  "label": "B",
+                  "text": "L25P"
+                },
+                {
+                  "label": "C",
+                  "text": "L25O"
+                },
+                {
+                  "label": "D",
+                  "text": "L27P"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "First letter: C(+3)=F(+3)=I(+3)=L.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Complete the series: 2Z5, 7Y7, 14X9, 23W11, 34V13, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "27U24"
+                },
+                {
+                  "label": "B",
+                  "text": "47U15"
+                },
+                {
+                  "label": "C",
+                  "text": "45U15"
+                },
+                {
+                  "label": "D",
+                  "text": "47V14"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "First number: 2(+5)=7(+7)=14(+9)=23(+11)=34(+13)=47.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "What comes next in the sequence? AZ, GT, MN, ?, YB",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "KF"
+                },
+                {
+                  "label": "B",
+                  "text": "RX"
+                },
+                {
+                  "label": "C",
+                  "text": "SH"
+                },
+                {
+                  "label": "D",
+                  "text": "TS"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "These are pairs of opposite letters.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In the series: AYBZC, DWEXF, GUHVI, JSKTL, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "MQNRO"
+                },
+                {
+                  "label": "B",
+                  "text": "MQORN"
+                },
+                {
+                  "label": "C",
+                  "text": "MQNQM"
+                },
+                {
+                  "label": "D",
+                  "text": "MQPRN"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The terms have 5 letters each. Let's analyze the first letters of each term: A, D, G, J (+3 pattern). Next is M.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Complete the series: 3F, 6G, 11I, 18L, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "21O"
+                },
+                {
+                  "label": "B",
+                  "text": "25N"
+                },
+                {
+                  "label": "C",
+                  "text": "27P"
+                },
+                {
+                  "label": "D",
+                  "text": "29P"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Numbers: 3(+3)=6(+5)=11(+7)=18(+9)=27.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Alphabet Test\nSubtopic: Alphabet Series",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the next term in the series: CGL, HLQ, MQV, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "RVA"
+                },
+                {
+                  "label": "B",
+                  "text": "RVB"
+                },
+                {
+                  "label": "C",
+                  "text": "RWA"
+                },
+                {
+                  "label": "D",
+                  "text": "QVA"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: C(+5)=H(+5)=M(+5)=R.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Find the missing term: W-144, ?, S-100, Q-81, O-64",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "U-121"
+                },
+                {
+                  "label": "B",
+                  "text": "V-121"
+                },
+                {
+                  "label": "C",
+                  "text": "U-122"
+                },
+                {
+                  "label": "D",
+                  "text": "V-128"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Letters: W(23), ?, S(19), Q(17), O(15). The pattern is -2. So missing is U(21).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In the series ZA5, Y4B, XC6, W3D, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "VE7"
+                },
+                {
+                  "label": "B",
+                  "text": "E7V"
+                },
+                {
+                  "label": "C",
+                  "text": "V2E"
+                },
+                {
+                  "label": "D",
+                  "text": "VE5"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: Z, Y, X, W, V.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Find the wrong term in the series: G4T, J10R, M22P, P46N, S90L",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "J10R"
+                },
+                {
+                  "label": "B",
+                  "text": "M22P"
+                },
+                {
+                  "label": "C",
+                  "text": "P46N"
+                },
+                {
+                  "label": "D",
+                  "text": "S90L"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "First letter: G(+3)=J(+3)=M(+3)=P(+3)=S.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Find the next term in the series: B2D, E3H, I4M, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "N5R"
+                },
+                {
+                  "label": "B",
+                  "text": "N5S"
+                },
+                {
+                  "label": "C",
+                  "text": "M5R"
+                },
+                {
+                  "label": "D",
+                  "text": "N5T"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "First letter: B(2), E(5), I(9). The differences are +3, +4. The next difference should be +5. I(9) + 5 = 14(N).",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

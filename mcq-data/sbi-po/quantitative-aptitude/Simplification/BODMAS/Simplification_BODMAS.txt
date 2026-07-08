@@ -1,0 +1,299 @@
+----------------------------------------
+Topic: Simplification
+Subtopic: BODMAS
+----------------------------------------
+
+Directions (Q1–Q15): What will come in place of the question mark (?) in the following equations?
+
+Q1. 24 ÷ 6 × 2 + 15 - 3 = ?
+(A) 16
+(B) 20
+(C) 24
+(D) 12
+
+Answer: B
+Explanation:
+According to BODMAS, division comes first: 24 ÷ 6 = 4.
+Then multiplication: 4 × 2 = 8.
+Then addition: 8 + 15 = 23.
+Then subtraction: 23 - 3 = 20.
+
+----------------------------------------
+
+Q2. 45 - [38 - {60 ÷ 3 - (6 - 9 ÷ 3) ÷ 3}] = ?
+(A) 21
+(B) 24
+(C) 26
+(D) 27
+
+Answer: C
+Explanation:
+Solve innermost bracket first: (6 - 9 ÷ 3) = (6 - 3) = 3.
+Now equation is: 45 - [38 - {60 ÷ 3 - 3 ÷ 3}]
+Solve curly braces: {20 - 1} = 19.
+Now equation is: 45 - [38 - 19]
+Solve square brackets: [19].
+Final step: 45 - 19 = 26.
+
+----------------------------------------
+
+Q3. 72 ÷ 9 of 2 + 14 = ?
+(A) 22
+(B) 18
+(C) 28
+(D) 12
+
+Answer: B
+Explanation:
+'Of' is solved before division.
+9 of 2 = 18.
+Then division: 72 ÷ 18 = 4.
+Finally addition: 4 + 14 = 18.
+
+----------------------------------------
+
+Q4. 15 × 12 ÷ 4 + 18 - ? = 25
+(A) 28
+(B) 38
+(C) 32
+(D) 42
+
+Answer: B
+Explanation:
+Division first: 12 ÷ 4 = 3.
+Multiplication: 15 × 3 = 45.
+Addition: 45 + 18 = 63.
+Equation becomes: 63 - ? = 25.
+? = 63 - 25 = 38.
+
+----------------------------------------
+
+Q5. (48 - 12) ÷ 4 + 6 × 3 = ?
+(A) 24
+(B) 36
+(C) 27
+(D) 45
+
+Answer: C
+Explanation:
+Solve bracket: (48 - 12) = 36.
+Division: 36 ÷ 4 = 9.
+Multiplication: 6 × 3 = 18.
+Addition: 9 + 18 = 27.
+
+----------------------------------------
+
+Q6. 120 ÷ [25 - {40 - (15 - 8 × 2 + 10)}] = ?
+(A) 8
+(B) 12
+(C) 15
+(D) 10
+
+Answer: B
+Explanation:
+Innermost bracket: (15 - 16 + 10) = 9.
+Curly brace: {40 - 9} = 31.
+Square bracket: [25 - 31] = -6.
+Final: 120 ÷ (-6) = -20.
+Wait, let's fix the options or the question. Let's adjust the innermost bracket to yield a positive inner result that makes the square bracket positive.
+Let's change: (15 - 8 × 2 + 10) to (15 - 4 × 2 + 3) -> 15-8+3 = 10.
+{40 - 10} = 30.
+[40 - 30] = 10.
+Let's rewrite Q6 entirely.
+
+Q6. 120 ÷ [45 - {35 - (20 - 4 × 3 + 2)}] = ?
+(A) 4
+(B) 6
+(C) 8
+(D) 10
+
+Answer: A
+Explanation:
+Innermost bracket: (20 - 12 + 2) = (8 + 2) = 10.
+Curly brace: {35 - 10} = 25.
+Square bracket: [45 - 25] = 20.
+Final step: 120 ÷ 20 = 6.
+Wait, option B is 6. Let's fix the answer to B.
+Answer: B.
+
+----------------------------------------
+
+Q7. 3/4 of 5/6 of 8/9 of 1620 = ?
+(A) 900
+(B) 1050
+(C) 750
+(D) 850
+
+Answer: C
+Explanation:
+Solve sequentially using multiplication:
+(3/4) × (5/6) × (8/9) × 1620
+= (120 / 216) × 1620
+= (5 / 9) × 1620
+= 5 × 180 = 900.
+Answer is A. (Wait, I wrote 750). Let me re-calculate:
+3/4 * 5/6 = 5/8.
+5/8 * 8/9 = 5/9.
+5/9 * 1620 = 900.
+Answer is A.
+
+Q7. 3/4 of 5/6 of 8/9 of 1620 = ?
+(A) 900
+(B) 1050
+(C) 750
+(D) 850
+
+Answer: A
+Explanation:
+(3/4) × (5/6) × (8/9) × 1620
+Cancel terms: (3/4) × (5/6) = 5/8.
+(5/8) × (8/9) = 5/9.
+(5/9) × 1620 = 5 × 180 = 900.
+
+----------------------------------------
+
+Q8. 48 ÷ 12 × [3/4 of 84] - 15 = ?
+(A) 241
+(B) 237
+(C) 215
+(D) 255
+
+Answer: B
+Explanation:
+Square bracket first: 3/4 of 84 = 3 × 21 = 63.
+Equation: 48 ÷ 12 × 63 - 15.
+Division: 48 ÷ 12 = 4.
+Multiplication: 4 × 63 = 252.
+Subtraction: 252 - 15 = 237.
+
+----------------------------------------
+
+Q9. ? × 15 = 24% of 500 + 45% of 400
+(A) 12
+(B) 20
+(C) 24
+(D) 18
+
+Answer: B
+Explanation:
+RHS = (24/100) × 500 + (45/100) × 400
+= 120 + 180 = 300.
+So, ? × 15 = 300
+? = 300 ÷ 15 = 20.
+
+----------------------------------------
+
+Q10. 18² + 14² - 12² = ? + 11²
+(A) 255
+(B) 265
+(C) 245
+(D) 275
+
+Answer: A
+Explanation:
+18² = 324
+14² = 196
+12² = 144
+11² = 121
+Equation: 324 + 196 - 144 = ? + 121
+520 - 144 = ? + 121
+376 = ? + 121
+? = 376 - 121 = 255.
+
+----------------------------------------
+
+Q11. 5/8 of 4/9 of 3/5 of 222 + ? = 11²
+(A) 84
+(B) 80
+(C) 74
+(D) 78
+
+Answer: A
+Explanation:
+Simplify the fraction part:
+(5/8) × (4/9) × (3/5) = 1/6.
+Wait, let's re-calculate: (5/8) * (4/9) = 5/18.
+(5/18) * (3/5) = 1/6.
+(1/6) of 222 = 37.
+Equation: 37 + ? = 121
+? = 121 - 37 = 84.
+
+----------------------------------------
+
+Q12. [ {( 18 × 15 ) ÷ 9 } + 45 ] ÷ 5 = ?
+(A) 15
+(B) 20
+(C) 12
+(D) 18
+
+Answer: A
+Explanation:
+Innermost bracket: 18 × 15 = 270.
+Next brace: 270 ÷ 9 = 30.
+Square bracket: 30 + 45 = 75.
+Final step: 75 ÷ 5 = 15.
+
+----------------------------------------
+
+Q13. 144 ÷ 12 of 3 + 15 × 4 - 30 = ?
+(A) 34
+(B) 32
+(C) 44
+(D) 24
+
+Answer: A
+Explanation:
+'Of' comes first: 12 of 3 = 36.
+Division: 144 ÷ 36 = 4.
+Multiplication: 15 × 4 = 60.
+Equation: 4 + 60 - 30 = 64 - 30 = 34.
+
+----------------------------------------
+
+Q14. 35% of 160 + ?% of 180 = 50% of 310
+(A) 45
+(B) 60
+(C) 55
+(D) 65
+
+Answer: C
+Explanation:
+35% of 160 = (35/100) × 160 = 56.
+50% of 310 = 155.
+Equation: 56 + (?% of 180) = 155.
+(? / 100) × 180 = 155 - 56 = 99.
+? × 1.8 = 99.
+? = 99 ÷ 1.8 = 55.
+
+----------------------------------------
+
+Q15. ?² - 25% of 400 = 14 × 15 - 110
+(A) 12
+(B) 14
+(C) 15
+(D) 10
+
+Answer: B
+Explanation:
+25% of 400 = 100.
+RHS = 14 × 15 - 110 = 210 - 110 = 100.
+Equation: ?² - 100 = 100
+?² = 200.
+Wait, 200 is not a perfect square. Let's adjust RHS.
+14 × 15 = 210. Let's do 210 - 14.
+Let's rewrite Q15 so the answer is an integer.
+
+Q15. ?² - 20% of 480 = 15 × 12 - 80
+(A) 12
+(B) 14
+(C) 16
+(D) 18
+
+Answer: B
+Explanation:
+20% of 480 = 96.
+RHS: 15 × 12 - 80 = 180 - 80 = 100.
+Equation: ?² - 96 = 100
+?² = 196.
+? = √196 = 14.
+----------------------------------------

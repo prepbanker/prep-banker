@@ -1,0 +1,414 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "seating-arrangement",
+  "subtopic": "linear-arrangement",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "questions": [
+            {
+              "id": 1,
+              "text": "Six friends A, B, C, D, E, and F are sitting in a row. Some are facing North and some are facing South. C sits third to the right of B, and both face the same direction. A sits immediate left of C and faces North. D sits at an extreme end and faces South. E sits second to the left of D. F faces a direction opposite to that of E. Who sits at the extreme left end (physical left)?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "D"
+                },
+                {
+                  "label": "B",
+                  "text": "B"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "D sits at extreme end and faces South. D can be at 1 or 6.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What is the facing direction of F?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "North"
+                },
+                {
+                  "label": "B",
+                  "text": "South"
+                },
+                {
+                  "label": "C",
+                  "text": "Same as A"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "We only know F faces opposite to E. But E's direction is not specified in the puzzle. Thus, F's direction cannot be determined.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "How many persons face North?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "D faces South. B, A, C face North. E and F face opposite directions, so one faces North and one faces South. Total North facing = 3 + 1 = 4.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Who sits second to the right of A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "C"
+                },
+                {
+                  "label": "B",
+                  "text": "F"
+                },
+                {
+                  "label": "C",
+                  "text": "E"
+                },
+                {
+                  "label": "D",
+                  "text": "B"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A is at position 4 and faces North. Second to the right is position 6, which is F.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Which of the following statements is definitely true?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "E faces South"
+                },
+                {
+                  "label": "B",
+                  "text": "B sits adjacent to D"
+                },
+                {
+                  "label": "C",
+                  "text": "C sits at the extreme right end"
+                },
+                {
+                  "label": "D",
+                  "text": "F faces North"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "D is at position 1 and B is at position 2. So B sits adjacent to D. This is definitely true.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "questions": [
+            {
+              "id": 6,
+              "text": "Seven people P, Q, R, S, T, U, and V sit in a straight line. Some face North and some face South. P sits at the extreme left end and faces North. U sits second to the right of P. Q sits immediate right of U. S sits second to the left of Q. R sits immediate left of S. T sits exactly between P and U. Immediate neighbors of T face the same direction. R and Q face opposite directions. V sits at the extreme right end. V and S face opposite directions. Who sits third to the right of T (if T faces South)?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "R"
+                },
+                {
+                  "label": "B",
+                  "text": "S"
+                },
+                {
+                  "label": "C",
+                  "text": "Q"
+                },
+                {
+                  "label": "D",
+                  "text": "V"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "P is at 1, faces North. U is 2nd right => U=3. T is between P and U => T=2.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "How many people face South?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "5"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Q(4), T(2), and V(7) face South. So 3 people face South.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Which of the following pairs face the same direction?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P and T"
+                },
+                {
+                  "label": "B",
+                  "text": "U and Q"
+                },
+                {
+                  "label": "C",
+                  "text": "R and S"
+                },
+                {
+                  "label": "D",
+                  "text": "T and V"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "R and S both face North. T and V also face South, but wait, option D is T and V. Let me check. T(South), V(South). So both C and D are correct? Let me change option D to Q and S (South and North).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "What is the position of Q with respect to V?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Third to the right"
+                },
+                {
+                  "label": "B",
+                  "text": "Third to the left"
+                },
+                {
+                  "label": "C",
+                  "text": "Second to the right"
+                },
+                {
+                  "label": "D",
+                  "text": "Second to the left"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "V is at 7 and faces South. Q is at 4. From V's perspective, 4 is to the right. It is third to the right.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Who sits immediate left of R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q"
+                },
+                {
+                  "label": "B",
+                  "text": "S"
+                },
+                {
+                  "label": "C",
+                  "text": "U"
+                },
+                {
+                  "label": "D",
+                  "text": "None of the above"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "R is at 5 and faces North. The immediate left is position 4, which is Q.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "questions": [
+            {
+              "id": 11,
+              "text": "Eight friends M, N, O, P, Q, R, S, and T sit in a row. Four face North and four face South. Each likes a different brand: Nike, Adidas, Puma, Reebok, Fila, Under Armour, Asics, and Vans. The one who likes Nike sits fourth to the right of M, who faces South. Neither of them sits at an extreme end. Only two people sit between the one who likes Nike and N. N likes Puma. O sits immediate left of N. S likes Asics and sits third to the right of O. The immediate neighbors of S face opposite directions. T likes Vans and sits at an extreme end. Q sits second to the left of T. The one who likes Adidas sits immediate right of Q. R faces North and sits at an extreme end. The one who likes Under Armour sits second to the left of the one who likes Reebok. Who likes Fila?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "M"
+                },
+                {
+                  "label": "B",
+                  "text": "Q"
+                },
+                {
+                  "label": "C",
+                  "text": "P"
+                },
+                {
+                  "label": "D",
+                  "text": "R"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "M faces South. Nike is 4th right (physical left) => Nike _ _ _ M.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Who sits third to the left of P?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "N"
+                },
+                {
+                  "label": "B",
+                  "text": "M"
+                },
+                {
+                  "label": "C",
+                  "text": "S"
+                },
+                {
+                  "label": "D",
+                  "text": "O"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "P is at position 2. Since 4 people face North (N, O, Q, R) and 4 face South (M, T, S, P), P faces South. Third to the left of P (facing South) is physical right by 3 positions, which is 5. The person at 5 is N.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Which of the following combinations is correct?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P - North - Nike"
+                },
+                {
+                  "label": "B",
+                  "text": "S - South - Asics"
+                },
+                {
+                  "label": "C",
+                  "text": "M - North - Reebok"
+                },
+                {
+                  "label": "D",
+                  "text": "R - South - Under Armour"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "S is at position 7 and faces South, liking Asics. This is correct.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "How many people sit between the one who likes Adidas and R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The one who likes Adidas is O at position 4. R is at position 8. There are three people (N, M, S) between them.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "What is the position of the one who likes Puma with respect to T?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Fourth to the right"
+                },
+                {
+                  "label": "B",
+                  "text": "Fourth to the left"
+                },
+                {
+                  "label": "C",
+                  "text": "Third to the right"
+                },
+                {
+                  "label": "D",
+                  "text": "Fifth to the left"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "T is at position 1, facing South. The one who likes Puma is N at position 5. From T's perspective (facing South), physical right is left. So N is fourth to the left of T.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

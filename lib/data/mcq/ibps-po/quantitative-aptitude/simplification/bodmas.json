@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "quantitative-aptitude",
+  "topic": "simplification",
+  "subtopic": "bodmas",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Simplification\nSubtopic: BODMAS",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What will come in place of question mark (?) in the following question?\n120 / 4 + 15 * 3 - ? = 40",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "35"
+                },
+                {
+                  "label": "B",
+                  "text": "40"
+                },
+                {
+                  "label": "C",
+                  "text": "45"
+                },
+                {
+                  "label": "D",
+                  "text": "50"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Using BODMAS rule:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What is the value of 18 + 12 / 3 * 2 - 4?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "22"
+                },
+                {
+                  "label": "B",
+                  "text": "16"
+                },
+                {
+                  "label": "C",
+                  "text": "20"
+                },
+                {
+                  "label": "D",
+                  "text": "24"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Using BODMAS rule:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Find the value of (?): (24 / 6) * (18 / 3) + 12 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "34"
+                },
+                {
+                  "label": "B",
+                  "text": "36"
+                },
+                {
+                  "label": "C",
+                  "text": "38"
+                },
+                {
+                  "label": "D",
+                  "text": "40"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Solve brackets first:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Solve for (?): 45 - [38 - {60 / 3 - (6 - 9 / 3)}] = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "22"
+                },
+                {
+                  "label": "B",
+                  "text": "24"
+                },
+                {
+                  "label": "C",
+                  "text": "26"
+                },
+                {
+                  "label": "D",
+                  "text": "28"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Solve inner bracket first: (6 - 9 / 3) = 6 - 3 = 3.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "What will come in place of (?): 150 / 15 * 2 + 10 - 20 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10"
+                },
+                {
+                  "label": "B",
+                  "text": "15"
+                },
+                {
+                  "label": "C",
+                  "text": "20"
+                },
+                {
+                  "label": "D",
+                  "text": "0"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Division: 150 / 15 = 10.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Simplification\nSubtopic: BODMAS",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Solve: 3/4 of 120 + 4/5 of 150 - ? = 110",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "90"
+                },
+                {
+                  "label": "B",
+                  "text": "100"
+                },
+                {
+                  "label": "C",
+                  "text": "110"
+                },
+                {
+                  "label": "D",
+                  "text": "120"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "'of' means multiplication.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What is the value of (?): (18^2 / 9) * 4 - 32 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "108"
+                },
+                {
+                  "label": "B",
+                  "text": "112"
+                },
+                {
+                  "label": "C",
+                  "text": "118"
+                },
+                {
+                  "label": "D",
+                  "text": "124"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "18^2 = 324.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Solve: 16 * 12 / 8 + 14 * 5 - 30 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "64"
+                },
+                {
+                  "label": "B",
+                  "text": "68"
+                },
+                {
+                  "label": "C",
+                  "text": "72"
+                },
+                {
+                  "label": "D",
+                  "text": "76"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Division: 12 / 8 = 1.5.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "What will come in place of (?): (4/7) of 350 + (3/8) of 640 = ? - 150",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "570"
+                },
+                {
+                  "label": "B",
+                  "text": "590"
+                },
+                {
+                  "label": "C",
+                  "text": "610"
+                },
+                {
+                  "label": "D",
+                  "text": "630"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "(4/7) * 350 = 4 * 50 = 200.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Solve: 25% of 400 + 35% of 600 - ? = 150",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "140"
+                },
+                {
+                  "label": "B",
+                  "text": "160"
+                },
+                {
+                  "label": "C",
+                  "text": "180"
+                },
+                {
+                  "label": "D",
+                  "text": "200"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "25% of 400 = (25/100) * 400 = 100.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Simplification\nSubtopic: BODMAS",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What will come in place of (?): [(18 * 14 - 12 * 11) / (5^2 - 1)] * 15 = ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "65"
+                },
+                {
+                  "label": "B",
+                  "text": "70"
+                },
+                {
+                  "label": "C",
+                  "text": "75"
+                },
+                {
+                  "label": "D",
+                  "text": "80"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Solve numerator: (18 * 14) - (12 * 11) = 252 - 132 = 120.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Solve: √1024 * (1/4) of 320 + 15% of 4800 = ? * 4",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "820"
+                },
+                {
+                  "label": "B",
+                  "text": "840"
+                },
+                {
+                  "label": "C",
+                  "text": "860"
+                },
+                {
+                  "label": "D",
+                  "text": "880"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "√1024 = 32.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "What will come in place of (?): (40% of 1750 + 12 * 35) / 8 = ? - 25",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "165"
+                },
+                {
+                  "label": "B",
+                  "text": "167"
+                },
+                {
+                  "label": "C",
+                  "text": "169"
+                },
+                {
+                  "label": "D",
+                  "text": "171"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "40% of 1750 = (40/100) * 1750 = 700.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Solve: (2.5 * 4.4 + 3.6 * 5.5) / 0.2 = ? * 5",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "29.8"
+                },
+                {
+                  "label": "B",
+                  "text": "30.8"
+                },
+                {
+                  "label": "C",
+                  "text": "31.8"
+                },
+                {
+                  "label": "D",
+                  "text": "32.8"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "2.5 * 4.4 = 11.0.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "What will come in place of (?): (16^2 / 8) * (14^2 / 28) - 120 = ? * 4",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "22"
+                },
+                {
+                  "label": "B",
+                  "text": "24"
+                },
+                {
+                  "label": "C",
+                  "text": "26"
+                },
+                {
+                  "label": "D",
+                  "text": "28"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "16^2 / 8 = 256 / 8 = 32.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

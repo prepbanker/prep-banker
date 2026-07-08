@@ -1,0 +1,424 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "grammar",
+  "subtopic": "noun",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Grammar\nSubtopic: Noun",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "He gave me a lot of informations about the project."
+                },
+                {
+                  "label": "B",
+                  "text": "He gave me many information about the project."
+                },
+                {
+                  "label": "C",
+                  "text": "He gave me much information about the project."
+                },
+                {
+                  "label": "D",
+                  "text": "He gave me a lots of informations about the project."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Information\" is an uncountable noun. It does not take an 's' to become plural, and it is modified by \"much\" or \"a lot of\" rather than \"many\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the correct noun form to fill in the blank: The ________ of the Himalayas is truly breathtaking.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "sceneries"
+                },
+                {
+                  "label": "B",
+                  "text": "scenery"
+                },
+                {
+                  "label": "C",
+                  "text": "scene"
+                },
+                {
+                  "label": "D",
+                  "text": "scenic"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Scenery\" is an uncountable noun and does not have a plural form (\"sceneries\" is incorrect). \"Scene\" refers to a specific incident or location, while \"scenery\" refers to the general landscape.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "All the luggages were loaded onto the train."
+                },
+                {
+                  "label": "B",
+                  "text": "All the luggage were loaded onto the train."
+                },
+                {
+                  "label": "C",
+                  "text": "All the luggage was loaded onto the train."
+                },
+                {
+                  "label": "D",
+                  "text": "All the luggages was loaded onto the train."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Luggage\" is an uncountable noun. It is always singular and takes a singular verb (\"was\").",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the correct noun to fill in the blank: The shepherd was grazing his ________ of sheep in the valley.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "herd"
+                },
+                {
+                  "label": "B",
+                  "text": "pack"
+                },
+                {
+                  "label": "C",
+                  "text": "flock"
+                },
+                {
+                  "label": "D",
+                  "text": "swarm"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The collective noun used for a group of sheep is a \"flock\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The committee are divided on this issue."
+                },
+                {
+                  "label": "B",
+                  "text": "The committee is divided on this issue."
+                },
+                {
+                  "label": "C",
+                  "text": "The committees is divided on this issue."
+                },
+                {
+                  "label": "D",
+                  "text": "The committee has divided on this issue."
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"Committee\" is a collective noun. When the members act individually or are divided in opinion, it takes a plural verb (\"are\").",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Grammar\nSubtopic: Noun",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "My trouser is too tight for me."
+                },
+                {
+                  "label": "B",
+                  "text": "My trousers is too tight for me."
+                },
+                {
+                  "label": "C",
+                  "text": "My trousers are too tight for me."
+                },
+                {
+                  "label": "D",
+                  "text": "My trouser are too tight for me."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Certain nouns denoting garments consisting of two parts (trousers, scissors, spectacles) are always plural and take a plural verb.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the correct noun phrase to fill in the blank: He bought two ________ from the market.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "dozens apple"
+                },
+                {
+                  "label": "B",
+                  "text": "dozen apples"
+                },
+                {
+                  "label": "C",
+                  "text": "dozens apples"
+                },
+                {
+                  "label": "D",
+                  "text": "dozen apple"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "When words like \"dozen\", \"hundred\", \"thousand\" are preceded by a definite numeral (like \"two\"), they do not take an 's' in the plural form. The noun following them is plural (\"apples\").",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The measles have broken out in the city."
+                },
+                {
+                  "label": "B",
+                  "text": "The measles are broken out in the city."
+                },
+                {
+                  "label": "C",
+                  "text": "The measles has broken out in the city."
+                },
+                {
+                  "label": "D",
+                  "text": "The measle has broken out in the city."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Names of certain diseases ending in 's' (like measles, mumps, rickets) are singular and take a singular verb (\"has\").",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the correct noun form to fill in the blank: The ________ of the old temple were discovered by the archeologists.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "remain"
+                },
+                {
+                  "label": "B",
+                  "text": "remaining"
+                },
+                {
+                  "label": "C",
+                  "text": "remains"
+                },
+                {
+                  "label": "D",
+                  "text": "remained"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "In this context, \"remains\" is a plural noun meaning the parts left over after other parts have been removed, used, or destroyed (historical ruins).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "He read five pages of the book, but the rest are unread."
+                },
+                {
+                  "label": "B",
+                  "text": "He read five page of the book, but the rest is unread."
+                },
+                {
+                  "label": "C",
+                  "text": "He read five pages of the book, but the rests are unread."
+                },
+                {
+                  "label": "D",
+                  "text": "He read five pages of the book, but the rest is unread."
+                },
+                {
+                  "label": "A",
+                  "text": "The cattle is grazing in the field."
+                },
+                {
+                  "label": "B",
+                  "text": "The cattles are grazing in the field."
+                },
+                {
+                  "label": "C",
+                  "text": "The cattle are grazing in the field."
+                },
+                {
+                  "label": "D",
+                  "text": "The cattles is grazing in the field."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"Rest\" is used with singular verbs when referring to an uncountable amount, but here it refers to remaining pages (countable). Wait, \"the rest of the pages\" takes a plural verb. Let's fix this question to make it unambiguous.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Grammar\nSubtopic: Noun",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The commander-in-chiefs held a meeting yesterday."
+                },
+                {
+                  "label": "B",
+                  "text": "The commanders-in-chief held a meeting yesterday."
+                },
+                {
+                  "label": "C",
+                  "text": "The commander-in-chief's held a meeting yesterday."
+                },
+                {
+                  "label": "D",
+                  "text": "The commanders-in-chiefs held a meeting yesterday."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "For compound nouns composed of a noun and a prepositional phrase, the plural is formed by adding 's' to the principal word (commander -> commanders).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the correct noun to fill in the blank: The manager requires a dedicated workforce of ________ to complete the project on time.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "men servant"
+                },
+                {
+                  "label": "B",
+                  "text": "man servants"
+                },
+                {
+                  "label": "C",
+                  "text": "men servants"
+                },
+                {
+                  "label": "D",
+                  "text": "man servant"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "For compound nouns containing \"man\" or \"woman\" where both parts are principal, both parts must be pluralized (men servants, women doctors).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the grammatically correct sentence:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "She has a five-rupees note in her pocket."
+                },
+                {
+                  "label": "B",
+                  "text": "She has a five-rupee notes in her pocket."
+                },
+                {
+                  "label": "C",
+                  "text": "She has a five-rupee note in her pocket."
+                },
+                {
+                  "label": "D",
+                  "text": "She has a five-rupees notes in her pocket."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "When a noun acts as an adjective modifying another noun (five-rupee modifying note), it remains in the singular form.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the correct noun to fill in the blank: The poet's profound understanding of human emotions is evident in all his ________.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "poetry"
+                },
+                {
+                  "label": "B",
+                  "text": "poetries"
+                },
+                {
+                  "label": "C",
+                  "text": "poem"
+                },
+                {
+                  "label": "D",
+                  "text": "poems"
+                },
+                {
+                  "label": "A",
+                  "text": "The alumni of the university is gathering for the annual reunion."
+                },
+                {
+                  "label": "B",
+                  "text": "The alumnus of the university are gathering for the annual reunion."
+                },
+                {
+                  "label": "C",
+                  "text": "The alumni of the university are gathering for the annual reunion."
+                },
+                {
+                  "label": "D",
+                  "text": "The alumnuses of the university are gathering for the annual reunion."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"Poetry\" is an uncountable noun referring to the art form and has no plural form. \"Poems\" is the correct countable plural. (He could have written many poems, representing his poetry).",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "inequality",
+  "subtopic": "direct-inequality",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "In these questions, relationship between different elements is shown in the statements. The statements are followed by conclusions. Study the conclusions based on the given statements and select the appropriate answer.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Statements: P ≥ Q = R > S > T\nConclusions:\nI. P > S\nII. Q > T",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "From the statements, P ≥ Q = R > S. Comparing P and S, we get P > S. Thus, Conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Statements: A < B ≤ C = D, E ≥ D\nConclusions:\nI. A < E\nII. C ≤ E",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combining the statements: A < B ≤ C = D ≤ E.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Statements: M ≥ N = O < P, Q > P\nConclusions:\nI. M > O\nII. N < Q",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Combining the statements: M ≥ N = O < P < Q.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Statements: W = X ≥ Y > Z, Y ≤ A < B\nConclusions:\nI. W > Z\nII. X ≥ A",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "For Conclusion I: W = X ≥ Y > Z → W > Z. Thus, Conclusion I follows.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Statements: G > H ≤ I = J < K\nConclusions:\nI. G > I\nII. H < K",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "For Conclusion I: G > H ≤ I. The opposite signs (> and ≤) between G and I mean no direct relation can be established. Thus, Conclusion I does not follow.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "In these questions, the statements are separated by commas. Combine the statements logically to evaluate the conclusions.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Statements: A > B ≥ C, C = D < E, E ≤ F\nConclusions:\nI. A > D\nII. B < F",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combined chain for A and D: A > B ≥ C = D → A > D. Thus, Conclusion I follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Statements: P ≤ Q = R, S > R ≥ T, U < T\nConclusions:\nI. S > P\nII. Q > U",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combined chain for S and P: S > R = Q ≥ P → S > P. Thus, Conclusion I follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Statements: J = K < L, M ≥ L = N, O > N\nConclusions:\nI. J < M\nII. K < O",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combined chain for J and M: J = K < L ≤ M → J < M. Thus, Conclusion I follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Statements: X > Y ≥ Z, W = Z < V, U ≤ W\nConclusions:\nI. X > U\nII. Y < V",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combined chain for X and U: X > Y ≥ Z = W ≥ U → X > U. Thus, Conclusion I follows.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Statements: D ≥ E = F, G < F ≤ H, I > H\nConclusions:\nI. D > G\nII. E < I",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combined chain for D and G: D ≥ E = F > G → D > G. Thus, Conclusion I follows.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the complex multi-statement inequalities to evaluate the given conclusions, paying special attention to Either-Or cases.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Statements: M = N ≥ O < P, Q ≤ O = R, S > R\nConclusions:\nI. M ≥ Q\nII. P > S",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Combined chain for M and Q: M = N ≥ O ≥ Q → M ≥ Q. Thus, Conclusion I follows.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Statements: K ≥ L = M > N, O ≤ M = P\nConclusions:\nI. K > O\nII. K = O",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combined chain for K and O: K ≥ L = M = P ≥ O → K ≥ O.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Statements: D ≤ E < F = G, H > G ≥ I, J = F\nConclusions:\nI. D > H\nII. J < I",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Combined chain for D and H: D ≤ E < F = G < H → D < H. Conclusion I states D > H, which is definitely false.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Statements: P < Q = R ≥ S, T > R ≤ U, V = T\nConclusions:\nI. V > S\nII. U ≥ Q\nIII. P < U",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "All I, II, and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Only I and III follow"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Combined chain for V and S: V = T > R ≥ S → V > S. (Conclusion I is True).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Statements: A ≤ B < C = D, E ≥ D < F, G = E > H\nConclusions:\nI. G > C\nII. F > B\nIII. A < E",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All I, II, and III follow"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Combined chain for G and C: G = E ≥ D = C → G ≥ C. Conclusion I states G > C, which lacks the '=' possibility, so it is false.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

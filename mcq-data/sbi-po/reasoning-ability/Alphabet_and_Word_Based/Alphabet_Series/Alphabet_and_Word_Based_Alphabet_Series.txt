@@ -1,0 +1,289 @@
+----------------------------------------
+Topic: Alphabet & Word Based
+Subtopic: Alphabet Series
+----------------------------------------
+
+Directions (Q1–Q5): Find the missing term in the given alphabet series.
+
+Q1. A, C, F, J, O, ?
+(A) U
+(B) T
+(C) V
+(D) S
+
+Answer: A
+Explanation:
+The pattern is based on the forward gap between the letters:
+A (+2) = C
+C (+3) = F
+F (+4) = J
+J (+5) = O
+O (+6) = U.
+
+----------------------------------------
+
+Q2. AZ, CX, EV, GT, ?
+(A) IR
+(B) HS
+(C) KP
+(D) JQ
+
+Answer: A
+Explanation:
+First letter: A (+2) = C (+2) = E (+2) = G (+2) = I.
+Second letter is the reverse alphabetical pair of the first letter (A-Z, C-X, E-V, G-T). The reverse pair of I is R.
+Result: IR.
+
+----------------------------------------
+
+Q3. BDF, HJL, NPR, ?
+(A) TVX
+(B) UWY
+(C) SUW
+(D) TVY
+
+Answer: A
+Explanation:
+Within each group, letters skip by +2: B(+2)D(+2)F.
+Between groups, the gap from the last letter of one to the first of the next is +2: F(+2) = H.
+Next group starts with R(+2) = T.
+Group: T (+2) = V (+2) = X. Result: TVX.
+
+----------------------------------------
+
+Q4. W, U, R, N, I, ?
+(A) C
+(B) D
+(C) E
+(D) F
+
+Answer: A
+Explanation:
+The backward positional gap increases by 1 each time:
+W (-2) = U
+U (-3) = R
+R (-4) = N
+N (-5) = I
+I (-6) = C.
+
+----------------------------------------
+
+Q5. AB, DEF, HIJK, ?, STUVWX
+(A) MNOPQ
+(B) LMNOP
+(C) LMNO
+(D) MNOP
+
+Answer: A
+Explanation:
+The number of letters in each group increases: 2, 3, 4, 5, 6.
+Gap between the last letter of a group and the first letter of the next is +2.
+B (+2) = D. F (+2) = H. K (+2) = M.
+The next group must start with M and have 5 continuous letters: M, N, O, P, Q.
+
+----------------------------------------
+
+Directions (Q6–Q10): Find the missing term in the mixed alphanumeric series.
+
+Q6. C4X, F9U, I16R, ?
+(A) K25P
+(B) L25O
+(C) L25P
+(D) M25O
+
+Answer: B
+Explanation:
+First letter: C (+3) = F (+3) = I (+3) = L.
+Number: 2², 3², 4², 5² = 25.
+Third letter: X (-3) = U (-3) = R (-3) = O.
+Result: L25O.
+
+----------------------------------------
+
+Q7. 2B, 4C, 8E, 14H, ?
+(A) 20L
+(B) 22L
+(C) 22L
+(D) 22L (Wait, options must be distinct)
+Let's fix options:
+(A) 16K
+(B) 20L
+(C) 22L
+(D) 24M
+
+Answer: C
+Explanation:
+Number pattern: 2 (+2) = 4 (+4) = 8 (+6) = 14 (+8) = 22.
+Letter pattern: B (+1) = C (+2) = E (+3) = H (+4) = L.
+Result: 22L.
+
+----------------------------------------
+
+Q8. BZA, DYC, FXE, ?
+(A) HWG
+(B) HWH
+(C) HVG
+(D) GWH
+
+Answer: A
+Explanation:
+First letter: B (+2) = D (+2) = F (+2) = H.
+Second letter (reverse): Z (-1) = Y (-1) = X (-1) = W.
+Third letter: A (+2) = C (+2) = E (+2) = G.
+Result: HWG.
+
+----------------------------------------
+
+Q9. Q1F, S2E, U6D, W24C, ?
+(A) Y120B
+(B) Y120A
+(C) Z120B
+(D) Y96B
+
+Answer: A
+Explanation:
+First letter: Q (+2) = S (+2) = U (+2) = W (+2) = Y.
+Number: 1 (x2) = 2 (x3) = 6 (x4) = 24 (x5) = 120.
+Third letter: F (-1) = E (-1) = D (-1) = C (-1) = B.
+Result: Y120B.
+
+----------------------------------------
+
+Q10. KM5, IP8, GS11, EV14, ?
+(A) CX17
+(B) CY17
+(C) BX17
+(D) CZ17
+
+Answer: B
+Explanation:
+First letter: K (-2) = I (-2) = G (-2) = E (-2) = C.
+Second letter: M (+3) = P (+3) = S (+3) = V (+3) = Y.
+Number: 5 (+3) = 8 (+3) = 11 (+3) = 14 (+3) = 17.
+Result: CY17.
+
+----------------------------------------
+
+Directions (Q11–Q15): Solve the complex continuous series problems.
+
+Q11. a _ b a _ b _ b a a _
+(A) a, b, a, b
+(B) a, a, b, b
+(C) b, a, a, b
+(D) b, b, a, a
+
+Answer: B
+Explanation:
+If we substitute option B (a, a, b, b), the series becomes:
+a a b / a a b / a a b / a a b. (Repeated block of 'a a b').
+Wait, the sequence is: a (a) b a (a) b (b) b a a (b).
+Let's verify: a a b / a a b / b b a / a b ? No.
+Let's try option A (a, b, a, b): a a b / a b b / a b a / a b. No.
+Let's count letters: 12 spaces.
+Try pattern 'a a b b'.
+Let's assume the string is: a a b / a a b / a a b / a a b.
+Original: a _ b a _ b _ b a a _
+If 'a a b a a b a a b a a b':
+1: a
+2: a
+3: b
+4: a
+5: a
+6: b
+7: a
+8: a
+9: b
+10: a
+11: a
+12: b
+Let's match with original:
+1(a) 2(_) 3(b) 4(a) 5(_) 6(b) 7(_) 8(b) 9(a) 10(a) 11(_) -> wait, original has 11 chars?
+a _ b a _ b _ b a a _ -> 11 chars.
+Let's write a standard 12-char series: a _ b a a _ b a a _ b a
+Fill with a, b, a.
+Let's use a clear continuous series for Q11.
+If the series is: a _ c b _ a c _ b a _ b
+Pattern: a b c / b c a / c a b / a b c.
+Let's provide a reliable logic.
+Let's change Q11 to a standard letter series:
+What comes next in: Z, Y, X, U, T, S, P, O, N, K, ?
+(A) H
+(B) J
+(C) I
+(D) L
+Answer: B
+Explanation: Group of 3 reverse letters. ZYX, skip V, UTS, skip R, PON, skip M, LKJ. So next is J.
+
+----------------------------------------
+
+Refer to diagram: SVG/Q12.svg for a visual representation.
+
+Q12. In a specific alphabet mapping, a letter shifts forward by its own vowel/consonant status. Consonants shift +2, Vowels shift +3. What will the series 'B, E, K, O' become?
+(A) D, H, M, R
+(B) D, H, M, S
+(C) E, G, M, R
+(D) D, I, M, R
+
+Answer: A
+Explanation:
+B (Consonant) -> +2 = D
+E (Vowel) -> +3 = H
+K (Consonant) -> +2 = M
+O (Vowel) -> +3 = R
+The resulting series is D, H, M, R.
+
+----------------------------------------
+
+Q13. Which of the following does NOT belong to the group?
+(A) CFI
+(B) UXA
+(C) SVY
+(D) DHL
+
+Answer: C
+Explanation:
+Check the gaps:
+C (+3) F (+3) I
+U (+3) X (+3) A
+D (+4) H (+4) L -> Wait, gap is +4.
+Let's re-evaluate:
+(A) C (+3) F (+3) I
+(B) U (+3) X (+3) A
+(C) S (+3) V (+3) Y
+(D) D (+4) H (+4) L
+D has +4 skips, while others have +3 skips. Thus, DHL is the odd one out.
+
+----------------------------------------
+
+Q14. Find the missing term:
+A, CD, GHI, MNOP, ?
+(A) UVWXY
+(B) TUVWX
+(C) STUVW
+(D) VWXYZ
+
+Answer: A
+Explanation:
+Groups of 1, 2, 3, 4, 5 letters.
+Gap between groups:
+A (+2) = C.
+D (+3) = G.
+I (+4) = M.
+P (+5) = U.
+The 5-letter group starting with U is U, V, W, X, Y.
+
+----------------------------------------
+
+Q15. If every alternate letter of the English alphabet starting from A is dropped (A, C, E... dropped), which letter will be the 5th to the right of the 4th letter from the left end of the new series?
+(A) P
+(B) R
+(C) T
+(D) V
+
+Answer: B
+Explanation:
+New series (only even positional letters remain): B, D, F, H, J, L, N, P, R, T, V, X, Z.
+4th letter from the left end = H.
+5th to the right of H (4th) = 9th letter from the left end.
+The 9th letter in this series is R. (2 * 9 = 18th letter in original alphabet).
+----------------------------------------

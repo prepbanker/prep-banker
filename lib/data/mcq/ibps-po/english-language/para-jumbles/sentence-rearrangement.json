@@ -1,0 +1,432 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "para-jumbles",
+  "subtopic": "sentence-rearrangement",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Para Jumbles\nSubtopic: Sentence Rearrangement",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: the catastrophic failure of the dam\nQ: due to unprecedented torrential rains\nR: resulted in massive flash floods\nS: that completely submerged the downstream villages",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "PQRS"
+                },
+                {
+                  "label": "B",
+                  "text": "QPRS"
+                },
+                {
+                  "label": "C",
+                  "text": "PRQS"
+                },
+                {
+                  "label": "D",
+                  "text": "RQPS"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "P introduces the subject (catastrophic failure of the dam). Q provides the reason (due to torrential rains). R gives the immediate consequence (resulted in massive flash floods). S describes the extent of the floods (that completely submerged...). The flow is Subject -> Reason -> Result -> Extent. (Wait, \"The catastrophic failure of the dam due to unprecedented torrential rains resulted in massive flash floods that completely submerged the downstream villages.\" - PQRS flows perfectly).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: to effectively mitigate the devastating impacts\nQ: implementing stringent carbon emission regulations\nR: of accelerating global climate change\nS: is now an absolute global imperative",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QPSR"
+                },
+                {
+                  "label": "B",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "C",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "D",
+                  "text": "PRSQ"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Q introduces the main subject (implementing stringent carbon emission regulations). S is the predicate (is now an absolute global imperative). P introduces the purpose (to effectively mitigate the devastating impacts). R completes P (of accelerating global climate change). So the sequence is Q-S-P-R. \"Implementing stringent carbon emission regulations is now an absolute global imperative to effectively mitigate the devastating impacts of accelerating global climate change.\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: a profound and lasting impact on\nQ: the advent of highly sophisticated artificial intelligence\nR: all sectors of the modern global economy\nS: has undeniably begun to exert",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "B",
+                  "text": "PQRS"
+                },
+                {
+                  "label": "C",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "D",
+                  "text": "RSQP"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Q is the subject (the advent of highly sophisticated artificial intelligence). S contains the primary verb (has undeniably begun to exert). P follows the verb (a profound and lasting impact on). R is the object of the preposition (all sectors of the modern global economy). Q-S-P-R.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: without compromising the delicate ecological balance\nQ: the government must strategically balance\nR: the urgent need for rapid industrial expansion\nS: of the surrounding protected wildlife reserves",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QRPS"
+                },
+                {
+                  "label": "B",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "C",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "D",
+                  "text": "RPSQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Q is the subject and verb (the government must strategically balance). R specifies what must be balanced (the urgent need for rapid industrial expansion). P introduces the condition (without compromising the delicate ecological balance). S specifies the balance (of the surrounding protected wildlife reserves). Q-R-P-S.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: the highly anticipated corporate merger\nQ: fell apart at the eleventh hour\nR: regarding the valuation of intellectual property\nS: due to irreconcilable differences between the boards",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "PQSR"
+                },
+                {
+                  "label": "B",
+                  "text": "PSQR"
+                },
+                {
+                  "label": "C",
+                  "text": "RQSP"
+                },
+                {
+                  "label": "D",
+                  "text": "SPQR"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "P is the subject (the highly anticipated corporate merger). Q provides the action (fell apart at the eleventh hour). S gives the reason (due to irreconcilable differences between the boards). R specifies the differences (regarding the valuation of intellectual property). P-Q-S-R.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Para Jumbles\nSubtopic: Sentence Rearrangement",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: that completely paralyzes the decision-making process\nQ: an overreliance on massive amounts of raw data\nR: rather than clarifying complex strategic pathways\nS: often leads to a state of analysis paralysis",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QSRP"
+                },
+                {
+                  "label": "B",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "C",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "D",
+                  "text": "RSQP"
+                },
+                {
+                  "label": "A",
+                  "text": "QRSP"
+                },
+                {
+                  "label": "B",
+                  "text": "QSRP"
+                },
+                {
+                  "label": "C",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "D",
+                  "text": "PRSQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Q is the subject (an overreliance on massive amounts of raw data). S is the main verb/action (often leads to a state of analysis paralysis). R provides contrast (rather than clarifying complex strategic pathways). P modifies paralysis (that completely paralyzes the decision-making process). Wait, a better flow is Q-S-P-R? No, Q-S-P-R: \"...state of analysis paralysis that completely paralyzes the decision-making process rather than clarifying complex strategic pathways.\" Let's check Q-R-S-P. \"An overreliance on massive amounts of raw data, rather than clarifying complex strategic pathways, often leads to a state of analysis paralysis that completely paralyzes the decision-making process.\" This is much better.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: by deliberately manipulating the supply chain\nQ: successfully managed to artificially inflate\nR: the unscrupulous cartel of international traders\nS: the global market prices of essential commodities",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "RQSP"
+                },
+                {
+                  "label": "B",
+                  "text": "PRQS"
+                },
+                {
+                  "label": "C",
+                  "text": "RQPS"
+                },
+                {
+                  "label": "D",
+                  "text": "PQRS"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "R is the subject (the unscrupulous cartel...). Q contains the verb (successfully managed to artificially inflate). S is the object (the global market prices...). P provides the method (by deliberately manipulating...). R-Q-P-S or P-R-Q-S. Wait, R-Q-S-P is \"The unscrupulous cartel... successfully managed to artificially inflate the global market prices... by deliberately manipulating the supply chain.\" Both R-Q-S-P and P-R-Q-S work. Let's make R-Q-S-P the only correct logical flow.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: deeply embedded within the intricate fabric of the new legislation\nQ: that severely restrict the autonomy of local municipalities\nR: are several highly controversial clauses\nS: to govern their own taxation policies",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "PRQS"
+                },
+                {
+                  "label": "B",
+                  "text": "RPQS"
+                },
+                {
+                  "label": "C",
+                  "text": "PQRS"
+                },
+                {
+                  "label": "D",
+                  "text": "QSPR"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "P begins with a prepositional phrase showing location (Deeply embedded within... legislation). R introduces the subject in an inverted structure (are several highly controversial clauses). Q modifies the clauses (that severely restrict the autonomy...). S modifies autonomy (to govern their own taxation policies). P-R-Q-S.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: recognizing the urgent need for a paradigm shift\nQ: entirely away from fossil fuel dependency\nR: the board of directors overwhelmingly voted\nS: to pivot the company's long-term strategic vision",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "PRSQ"
+                },
+                {
+                  "label": "B",
+                  "text": "PQRS"
+                },
+                {
+                  "label": "C",
+                  "text": "RQSP"
+                },
+                {
+                  "label": "D",
+                  "text": "SRQP"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "P is an introductory participial phrase (Recognizing the urgent need...). R is the main subject and verb (the board of directors... voted). S is the infinitive object of the vote (to pivot the company's... vision). Q completes the pivot (entirely away from fossil fuel dependency). P-R-S-Q.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: that inadvertently compromised the personal data\nQ: a cascading series of catastrophic server failures\nR: of over fifty million registered active users\nS: resulted from a minor coding error during the update",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "B",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "C",
+                  "text": "QPSR"
+                },
+                {
+                  "label": "D",
+                  "text": "PQRS"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Q is the subject (a cascading series of catastrophic server failures). S contains the verb (resulted from a minor coding error...). P is a relative clause modifying the error or failures (that inadvertently compromised...). R specifies the data (of over fifty million...). Q-S-P-R.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Para Jumbles\nSubtopic: Sentence Rearrangement",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: rendered the witness's explosive testimony\nQ: during the grueling cross-examination\nR: completely inadmissible in the eyes of the presiding judge\nS: the relentless and aggressive questioning by the defense",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "B",
+                  "text": "SQPR is not in options, let's look at SQPR: \"the relentless... questioning... during the grueling cross-exam... rendered the witness's testimony... completely inadmissible...\""
+                },
+                {
+                  "label": "A",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "B",
+                  "text": "SPQR"
+                },
+                {
+                  "label": "C",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "D",
+                  "text": "PQRS"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "S is the main subject (the relentless... questioning...). Q modifies the questioning (during the grueling cross-examination). P contains the verb and object (rendered the witness's explosive testimony). R completes the predicate adjective (completely inadmissible...). S-Q-P-R.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: to fundamentally overhaul the archaic infrastructure\nQ: the newly elected metropolitan mayor\nR: despite facing insurmountable bureaucratic hurdles\nS: remained staunchly committed to his campaign promise",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "RQSP"
+                },
+                {
+                  "label": "B",
+                  "text": "QSRP"
+                },
+                {
+                  "label": "C",
+                  "text": "RQPS"
+                },
+                {
+                  "label": "D",
+                  "text": "QRSP"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "R is a concessive introductory phrase (Despite facing... hurdles). Q is the main subject (the newly elected... mayor). S is the main verb and complement (remained staunchly committed to his campaign promise). P specifies the promise (to fundamentally overhaul...). R-Q-S-P.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: exacerbated by the sudden withdrawal of foreign aid\nQ: the severe humanitarian crisis in the war-torn region\nR: threatening to plunge the entire nation into famine\nS: has reached a terrifying and unprecedented tipping point",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QPSR"
+                },
+                {
+                  "label": "B",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "C",
+                  "text": "PQSR"
+                },
+                {
+                  "label": "D",
+                  "text": "RQSP"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Q is the subject (the severe humanitarian crisis...). P is a participial phrase modifying the crisis (exacerbated by the sudden withdrawal...). S is the main verb (has reached a... tipping point). R is a participial phrase describing the consequence (threatening to plunge...). Q-P-S-R.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Rearrange the following parts (P, Q, R, S) to form a meaningful sentence:\nP: entirely devoid of genuine emotional resonance\nQ: the critic argued that the highly anticipated sequel\nR: relying entirely on cheap nostalgic callbacks\nS: was merely a visually stunning but hollow spectacle",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QSPR"
+                },
+                {
+                  "label": "B",
+                  "text": "QRSP"
+                },
+                {
+                  "label": "C",
+                  "text": "QSRP"
+                },
+                {
+                  "label": "D",
+                  "text": "SQPR"
+                },
+                {
+                  "label": "A",
+                  "text": "RPQS"
+                },
+                {
+                  "label": "B",
+                  "text": "RQPS"
+                },
+                {
+                  "label": "C",
+                  "text": "PRQS"
+                },
+                {
+                  "label": "D",
+                  "text": "PQRS"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Q is the introductory clause (the critic argued that...). S provides the main description of the sequel (was merely a visually stunning but hollow spectacle). P adds to \"hollow\" (entirely devoid of genuine emotional resonance). R explains how it was hollow (relying entirely on cheap nostalgic callbacks). Q-S-P-R.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "order-and-ranking",
+  "subtopic": "position-based",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Order & Ranking\nSubtopic: Position Based",
+          "questions": [
+            {
+              "id": 1,
+              "text": "In a row of 40 students, Rohan is 15th from the left end. What is his position from the right end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24th"
+                },
+                {
+                  "label": "B",
+                  "text": "25th"
+                },
+                {
+                  "label": "C",
+                  "text": "26th"
+                },
+                {
+                  "label": "D",
+                  "text": "27th"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total students = 40. Rohan's position from left = 15.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Sneha ranks 12th from the top and 28th from the bottom in a class. How many students are there in the class?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "38"
+                },
+                {
+                  "label": "B",
+                  "text": "39"
+                },
+                {
+                  "label": "C",
+                  "text": "40"
+                },
+                {
+                  "label": "D",
+                  "text": "41"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total students = (Rank from top + Rank from bottom) - 1",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "In a row of boys, A is 10th from the left and B is 9th from the right end. If there are 3 boys between A and B, what is the maximum number of boys in the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "19"
+                },
+                {
+                  "label": "B",
+                  "text": "20"
+                },
+                {
+                  "label": "C",
+                  "text": "22"
+                },
+                {
+                  "label": "D",
+                  "text": "23"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "For maximum number, there is no overlapping.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In a row of 35 girls, when P was shifted by 4 places towards the right, she became 18th from the left end. What was her earlier position from the right end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "20th"
+                },
+                {
+                  "label": "B",
+                  "text": "21st"
+                },
+                {
+                  "label": "C",
+                  "text": "22nd"
+                },
+                {
+                  "label": "D",
+                  "text": "23rd"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "P's new position from left = 18.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Manoj and Sachin are ranked 7th and 11th respectively from the top in a class of 31 students. What will be their respective ranks from the bottom in the class?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24th and 20th"
+                },
+                {
+                  "label": "B",
+                  "text": "25th and 21st"
+                },
+                {
+                  "label": "C",
+                  "text": "26th and 22nd"
+                },
+                {
+                  "label": "D",
+                  "text": "25th and 20th"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Manoj's rank from bottom = 31 - 7 + 1 = 25th.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Order & Ranking\nSubtopic: Position Based",
+          "questions": [
+            {
+              "id": 6,
+              "text": "In a row of children, Deepti is 9th from the left and Kashish is 13th from the right. They exchange their positions and then Deepti becomes 17th from the left. What is the new position of Kashish from the right end of the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "20th"
+                },
+                {
+                  "label": "B",
+                  "text": "21st"
+                },
+                {
+                  "label": "C",
+                  "text": "27th"
+                },
+                {
+                  "label": "D",
+                  "text": "25th"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total children = New position of Deepti from left + Old position of Kashish from right - 1",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In a queue, A is 18th from the front while B is 16th from the back. If C is 25th from the front and is exactly in the middle of A and B, then how many persons are there in the queue?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "45"
+                },
+                {
+                  "label": "B",
+                  "text": "46"
+                },
+                {
+                  "label": "C",
+                  "text": "47"
+                },
+                {
+                  "label": "D",
+                  "text": "48"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A is 18th from front. C is 25th from front.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "In a row of 40 children facing North, P is 13th from the left end and Q is 9th from the right end. How many children are there between P and R if R is 4th to the left of Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12"
+                },
+                {
+                  "label": "B",
+                  "text": "13"
+                },
+                {
+                  "label": "C",
+                  "text": "14"
+                },
+                {
+                  "label": "D",
+                  "text": "15"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Q is 9th from right end. R is 4th to the left of Q, so R is 9 + 4 = 13th from the right end.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In a class of 60, where girls are twice that of boys, Kamal ranked 17th from the top. If there are 9 girls ahead of Kamal, how many boys are after him in rank?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "3"
+                },
+                {
+                  "label": "B",
+                  "text": "7"
+                },
+                {
+                  "label": "C",
+                  "text": "12"
+                },
+                {
+                  "label": "D",
+                  "text": "13"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Girls + Boys = 60. G = 2B -> 3B = 60 -> Boys = 20, Girls = 40.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "In a row of 21 girls, when Monika was shifted by four places towards the right, she became 12th from the left end. What was her earlier position from the right end of the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "9th"
+                },
+                {
+                  "label": "B",
+                  "text": "10th"
+                },
+                {
+                  "label": "C",
+                  "text": "11th"
+                },
+                {
+                  "label": "D",
+                  "text": "14th"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Monika's new position from left = 12th.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Order & Ranking\nSubtopic: Position Based",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Among A, B, C, D and E, A is taller than only B, but shorter than C, D and E. C is taller than D but not the tallest. Who is the tallest?\nWait, this is Height Based. I'll move this to the Height section and create a new position one here.\n\nQ11 (Updated). In a row of students facing North, X is 15th from the left and Y is 20th from the right. If they interchange their positions, X becomes 25th from the left. Now, Z sits exactly between X and Y. What is Z's position from the right end?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "23rd"
+                },
+                {
+                  "label": "B",
+                  "text": "24th"
+                },
+                {
+                  "label": "C",
+                  "text": "25th"
+                },
+                {
+                  "label": "D",
+                  "text": "26th"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total students = X's new left + Y's old right - 1 = 25 + 20 - 1 = 44.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In a queue, Vijay is 14th from the front and Jack is 17th from the end, while Mary is exactly between Vijay and Jack. If Vijay is ahead of Jack and there are 48 persons in the queue, how many persons are there between Vijay and Mary?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7"
+                },
+                {
+                  "label": "B",
+                  "text": "8"
+                },
+                {
+                  "label": "C",
+                  "text": "9"
+                },
+                {
+                  "label": "D",
+                  "text": "10"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total = 48.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In a class of 90 students, numbers of boys are twice the number of girls. Rani's rank is 25th from the top. If there are 10 boys ahead of Rani, how many girls are after her in the rank?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "15"
+                },
+                {
+                  "label": "B",
+                  "text": "16"
+                },
+                {
+                  "label": "C",
+                  "text": "17"
+                },
+                {
+                  "label": "D",
+                  "text": "18"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Boys + Girls = 90. B = 2G -> 3G = 90 -> G = 30, B = 60.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In a row of children, A is 12th from the left and B is 15th from the right. C is 6th to the right of A and is 9th to the left of B. How many children are there in the row?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "40"
+                },
+                {
+                  "label": "B",
+                  "text": "41"
+                },
+                {
+                  "label": "C",
+                  "text": "42"
+                },
+                {
+                  "label": "D",
+                  "text": "43"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A is 12th from left. C is 6th to the right of A, so C is 12 + 6 = 18th from the left.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "In a row of students facing North, exactly midway between A (who is 22nd from left) and B (who is 19th from right) sits C. If A is to the left of B and total students are 60, what is C's position from the left end?\n(Refer to diagram: SVG/Q15.svg)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "31st"
+                },
+                {
+                  "label": "B",
+                  "text": "32nd"
+                },
+                {
+                  "label": "C",
+                  "text": "33rd"
+                },
+                {
+                  "label": "D",
+                  "text": "34th"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total = 60. A is 22nd from left. B is 19th from right.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

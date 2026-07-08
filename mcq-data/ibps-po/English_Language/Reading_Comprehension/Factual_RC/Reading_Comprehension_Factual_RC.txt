@@ -1,0 +1,149 @@
+----------------------------------------
+Topic: Reading Comprehension
+Subtopic: Factual RC
+----------------------------------------
+
+PASSAGE 1
+The Amazon rainforest, often referred to as the "lungs of the Earth," covers approximately 5.5 million square kilometers across nine nations. Brazil contains 60% of the rainforest, followed by Peru with 13%, and Colombia with 10%. It produces about 20% of the world's oxygen and houses at least 10% of the world's known biodiversity. In 2019, satellite data from the National Institute for Space Research (INPE) revealed an 85% increase in fires compared to the previous year. Most of these fires were deliberately set by ranchers and loggers seeking to clear land for cattle grazing and soybean cultivation. The resulting deforestation not only destroys habitats but also releases massive amounts of stored carbon back into the atmosphere, significantly accelerating global climate change.
+
+Q1. Which country contains the largest portion of the Amazon rainforest?
+(A) Peru
+(B) Colombia
+(C) Brazil
+(D) Venezuela
+
+Answer: C
+Explanation: The passage directly states: "Brazil contains 60% of the rainforest..."
+
+Q2. What percentage of the world's oxygen is produced by the Amazon rainforest?
+(A) 10%
+(B) 13%
+(C) 20%
+(D) 60%
+
+Answer: C
+Explanation: The text explicitly mentions: "It produces about 20% of the world's oxygen..."
+
+Q3. According to INPE satellite data, how much did the number of fires increase in 2019 compared to the previous year?
+(A) 10%
+(B) 13%
+(C) 60%
+(D) 85%
+
+Answer: D
+Explanation: The passage explicitly states: "satellite data... revealed an 85% increase in fires compared to the previous year."
+
+Q4. Who was primarily responsible for deliberately setting the majority of the fires in 2019?
+(A) Indigenous tribes
+(B) Ranchers and loggers
+(C) Government officials
+(D) Climate activists
+
+Answer: B
+Explanation: The text states: "Most of these fires were deliberately set by ranchers and loggers seeking to clear land..."
+
+Q5. What is one of the major environmental consequences of Amazon deforestation mentioned in the passage?
+(A) It cools down the global temperature.
+(B) It releases massive amounts of stored carbon.
+(C) It increases the rainfall in South America.
+(D) It reduces the amount of soybean cultivation.
+
+Answer: B
+Explanation: The passage clearly notes: "The resulting deforestation... releases massive amounts of stored carbon back into the atmosphere..."
+
+PASSAGE 2
+The Great Wall of China is not a single, continuous wall but a series of fortifications built across the historical northern borders of ancient Chinese states and Imperial China. Construction of the earliest walls began as early as the 7th century BC. However, the most famous and best-preserved sections were built during the Ming Dynasty (1368–1644 AD). Measuring approximately 21,196 kilometers in total length, it was designed primarily to protect against nomadic intrusions from the Eurasian Steppe. Apart from defense, the wall served as a means of border control, allowing the imposition of duties on goods transported along the Silk Road, and the regulation of trade and immigration.
+
+Q6. The most famous sections of the Great Wall were built during which historical period?
+(A) The 7th century BC
+(B) The Qing Dynasty
+(C) The Ming Dynasty
+(D) The Han Dynasty
+
+Answer: C
+Explanation: The passage explicitly states: "...the most famous and best-preserved sections were built during the Ming Dynasty..."
+
+Q7. What is the approximate total length of the Great Wall of China?
+(A) 13,684 kilometers
+(B) 21,196 kilometers
+(C) 5,500 kilometers
+(D) 7,000 kilometers
+
+Answer: B
+Explanation: The text directly provides the measurement: "Measuring approximately 21,196 kilometers in total length..."
+
+Q8. Which of the following was the primary defensive purpose of the Great Wall?
+(A) To prevent citizens from leaving the empire
+(B) To protect against nomadic intrusions from the Eurasian Steppe
+(C) To defend against naval invasions from the east
+(D) To serve as a prison for political dissidents
+
+Answer: B
+Explanation: The passage explicitly mentions it was designed "primarily to protect against nomadic intrusions from the Eurasian Steppe."
+
+Q9. Besides defense, what was another key function of the Great Wall?
+(A) To serve as an aqueduct for agriculture
+(B) To act as a highway for imperial chariots
+(C) To allow the imposition of duties on goods on the Silk Road
+(D) To mark the exact geographical center of China
+
+Answer: C
+Explanation: The text states: "...allowing the imposition of duties on goods transported along the Silk Road..."
+
+Q10. Is the Great Wall of China a single, continuous structure?
+(A) Yes, built entirely by the Ming Dynasty.
+(B) No, it is a series of fortifications.
+(C) Yes, stretching 21,196 kilometers without breaks.
+(D) No, it is made only of natural mountains.
+
+Answer: B
+Explanation: The very first sentence states: "The Great Wall of China is not a single, continuous wall but a series of fortifications..."
+
+PASSAGE 3
+Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person to win a Nobel Prize twice, and the only person to win a Nobel Prize in two different scientific fields. She won her first Nobel Prize in Physics in 1903, sharing it with her husband Pierre Curie and physicist Henri Becquerel for their work on spontaneous radiation. In 1911, she was awarded the Nobel Prize in Chemistry for her discovery of the elements polonium and radium. During World War I, Curie developed mobile radiography units to provide X-ray services to field hospitals. Tragically, her decades of unprotected exposure to radiation ultimately caused her death from aplastic anemia in 1934.
+
+Q11. Marie Curie holds the distinction of being the only person to:
+(A) Win a Nobel Prize in Physics.
+(B) Win a Nobel Prize in two different scientific fields.
+(C) Discover the element uranium.
+(D) Share a Nobel Prize with a spouse.
+
+Answer: B
+Explanation: The text states she is "the only person to win a Nobel Prize in two different scientific fields."
+
+Q12. In what year did Marie Curie win her Nobel Prize in Chemistry?
+(A) 1903
+(B) 1911
+(C) 1914
+(D) 1934
+
+Answer: B
+Explanation: The passage explicitly provides the date: "In 1911, she was awarded the Nobel Prize in Chemistry..."
+
+Q13. With whom did Marie Curie share her 1903 Nobel Prize?
+(A) Only Pierre Curie
+(B) Only Henri Becquerel
+(C) Pierre Curie and Henri Becquerel
+(D) No one, she won it alone.
+
+Answer: C
+Explanation: The text states she shared it "with her husband Pierre Curie and physicist Henri Becquerel."
+
+Q14. What specific contribution did Marie Curie make during World War I?
+(A) She developed the first atomic bomb.
+(B) She served as a frontline nurse.
+(C) She developed mobile radiography units for X-ray services.
+(D) She synthesized new chemical weapons.
+
+Answer: C
+Explanation: The passage mentions: "During World War I, Curie developed mobile radiography units to provide X-ray services to field hospitals."
+
+15. What was the cause of Marie Curie's death?
+(A) Old age
+(B) Tuberculosis
+(C) Aplastic anemia
+(D) Polio
+
+Answer: C
+Explanation: The text directly identifies the cause of her death: "...ultimately caused her death from aplastic anemia in 1934."
+----------------------------------------

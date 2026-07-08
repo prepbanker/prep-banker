@@ -15,7 +15,7 @@ const footerLinks = {
     { label: 'All Exams',    href: '/exams' },
   ],
   Prepare: [
-    { label: 'Quiz Practice',    href: '/quiz' },
+    { label: 'Quiz Practice',    href: '/sbi-po-ibps-po-quiz' },
     { label: 'Live Tests',       href: '/live-tests' },
     { label: 'Current Affairs',  href: '/current-affairs' },
   ],

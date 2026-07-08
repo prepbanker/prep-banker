@@ -1,0 +1,159 @@
+Topic: Direction Sense
+Subtopic: Distance & Direction
+
+Q1. Rahul walks 10 km towards North. From there, he walks 6 km towards South. Then, he walks 3 km towards East. How far and in which direction is he with reference to his starting point?
+(A) 5 km West
+(B) 5 km North-East
+(C) 7 km East
+(D) 7 km West
+Answer: B
+Explanation: 
+Rahul walks 10 km North, then 6 km South. He is now 4 km North of his starting point. Then he walks 3 km East. His final position forms a right-angled triangle with the starting point. Distance = sqrt(4^2 + 3^2) = 5 km. The direction with reference to the starting point is North-East.
+
+Q2. A man goes 5 km East, then he turns right and goes 4 km, then he turns left and goes 5 km. Which direction is he facing now?
+(A) North
+(B) South
+(C) East
+(D) West
+Answer: C
+Explanation: 
+The man starts towards East. Turning right means facing South. Turning left from South means facing East. He is now facing East.
+
+Q3. Point A is 15m West of Point B. Point C is 12m South of Point B. Point D is 8m East of Point C. Point E is 12m North of Point D. How far is Point A from Point E?
+(A) 7m
+(B) 10m
+(C) 15m
+(D) 23m
+Answer: A
+Explanation: 
+A is 15m West of B. C is 12m South of B. D is 8m East of C. E is 12m North of D. Since C is 12m South and E is 12m North, E lies exactly on the horizontal line passing through A and B. D is 8m East of C, so E is 8m East of B. A is 15m West of B. Therefore, distance between A and E = 15m + 8m = 23m. Wait, let's re-read carefully: "A is 15m West of B". So B is East of A. "D is 8m East of C". C is directly below B. So D is 8m further East. Thus, E is 8m East of B. Distance from A to E is 15 + 8 = 23m. Let me check the options. Ah, let me fix the explanation and answer.
+Let's change the question: "Point D is 8m West of Point C."
+If D is 8m West of C, E is 8m West of B. A is 15m West of B. So A and E are 15 - 8 = 7m apart. This matches Option A. I will use this.
+Correction: D is 8m West of C.
+Answer: A
+Explanation: 
+A is 15m West of B. C is 12m South of B. D is 8m West of C. E is 12m North of D. E lies on the line passing through A and B. Since D is 8m West of C, E is 8m West of B. A is 15m West of B. Distance between A and E is 15 - 8 = 7m.
+
+Q4. Reena walked from A to B in the East 10 feet. Then she turned to the right and walked 3 feet. Again she turned to the right and walked 14 feet. How far is she from A?
+(A) 4 feet
+(B) 5 feet
+(C) 24 feet
+(D) 27 feet
+Answer: B
+Explanation: 
+She walks 10 ft East. Right turn (South) for 3 ft. Right turn (West) for 14 ft. Her net horizontal movement from A is 14 - 10 = 4 ft West. Her vertical movement is 3 ft South. Distance = sqrt(4^2 + 3^2) = 5 feet.
+
+Q5. P started walking from North to South. She turned right, then right again, and finally left. In which direction is she walking now?
+(A) North
+(B) South
+(C) East
+(D) West
+Answer: D
+Explanation: 
+P is walking towards South. Right turn -> West. Right turn -> North. Left turn -> West. She is currently walking towards the West.
+
+Q6. A rat runs 20' towards East and turns to right, runs 10' and turns to right, runs 9' and again turns to left, runs 5' and then turns to left, runs 12' and finally turns to left and runs 6'. Now, which direction is the rat facing?
+(A) East
+(B) West
+(C) North
+(D) South
+Answer: C
+Explanation: 
+East -> Right (South) -> Right (West) -> Left (South) -> Left (East) -> Left (North). The rat is facing North.
+
+Q7. City X is 30 km to the East of City Y. City Z is 40 km to the North of City X. City W is 30 km to the West of City Z. What is the distance and direction of City W with respect to City Y?
+(A) 40 km North
+(B) 50 km North-East
+(C) 40 km South
+(D) 50 km North-West
+Answer: A
+Explanation: 
+X is 30 km East of Y. Z is 40 km North of X. W is 30 km West of Z. This forms a rectangle Y-X-Z-W. The distance between Y and W is the same as the distance between X and Z, which is 40 km. W is directly North of Y. 
+
+Q8. Amit starts from a point, walks 5 km towards North, turns right and walks 4 km. He then turns right and walks 5 km. Finally, he turns left and walks 3 km. How far and in which direction is he from the starting point?
+(A) 7 km East
+(B) 8 km East
+(C) 7 km West
+(D) 9 km East
+Answer: A
+Explanation: 
+North 5 km. Right (East) 4 km. Right (South) 5 km. Left (East) 3 km. Net movement: North/South = 5 - 5 = 0. East/West = 4 + 3 = 7 km East. He is 7 km East from the start.
+
+Q9. I am facing South. I turn right and walk 20 m. Then I turn right again and walk 10 m. Then I turn left and walk 10 m and then turning right walk 20 m. Then I turn right again and walk 60 m. In which direction am I from the starting point?
+(A) North
+(B) North-West
+(C) North-East
+(D) South-East
+Answer: C
+Explanation: 
+Start facing South. Turn right -> face West, walk 20m. Turn right -> face North, walk 10m. Turn left -> face West, walk 10m. Turn right -> face North, walk 20m. Turn right -> face East, walk 60m. 
+Net horizontal = 20(W) + 10(W) - 60(E) = 30m East. 
+Net vertical = 10(N) + 20(N) = 30m North.
+The final position is North-East from the start.
+
+Q10. Kunal walks 10 km towards North. From there he walks 6 km towards South. Then, he walks 3 km towards East. How far and in which direction is he with reference to his starting point?
+Wait, this is identical to Q1. Let's create a new one.
+
+Q10 (Updated). Rohan walks a distance of 3 km towards North, then turns to his left and walks for 2 km. He again turns left and walks for 3 km. At this point, he turns to his left and walks for 3 km. How many kilometers is he from the starting point?
+(A) 1 km
+(B) 2 km
+(C) 3 km
+(D) 5 km
+Answer: A
+Explanation: 
+North 3 km. Left (West) 2 km. Left (South) 3 km. Left (East) 3 km. He has come back to the horizontal line of his start point, but has moved 3 - 2 = 1 km to the East. Thus, he is 1 km from the start.
+
+Q11. Point M is 15m to the South of Point N. Point O is 20m to the East of Point N. Point P is 15m to the South of Point O. Point Q is 10m to the West of Point P. Point R is 10m to the North of Point Q. What is the distance between Point M and Point R?
+(A) 10m
+(B) 14.14m (approx 10√2)
+(C) 5m
+(D) 15m
+Answer: B
+Explanation: 
+N is at (0, 15). M is at (0, 0) [15m South of N]. O is 20m East of N -> O(20, 15). P is 15m South of O -> P(20, 0). Q is 10m West of P -> Q(10, 0). R is 10m North of Q -> R(10, 10). M is at (0, 0). Distance MR = sqrt((10-0)^2 + (10-0)^2) = sqrt(100+100) = sqrt(200) = 10√2. 10√2 is approx 14.14m.
+
+Q12. A drone flies 50m North, then turns East and flies 40m, then turns North and flies 30m, then turns East and flies 20m. Finally, it turns South and flies 80m. In which direction is the drone with respect to its starting point?
+(A) East
+(B) South-East
+(C) North-East
+(D) South
+Answer: A
+Explanation: 
+Start (0,0). 50m N -> (0,50). 40m E -> (40,50). 30m N -> (40,80). 20m E -> (60,80). 80m S -> (60,0). The drone is at (60,0), which is exactly East of the starting point (0,0).
+
+Q13. Six checkpoints A, B, C, D, E, F are arranged in a field. B is 10m North of A. C is 20m East of B. D is 15m South of C. E is 10m West of D. F is 5m North of E. What is the shortest distance between A and F?
+(Refer to diagram: SVG/Q13.svg)
+(A) 10m
+(B) 10√2 m
+(C) 5m
+(D) 20m
+Answer: A
+Explanation: 
+Let A be (0,0). B is (0,10). C is (20,10). D is (20,-5). E is (10,-5). F is (10,0). Distance from A(0,0) to F(10,0) is exactly 10m.
+
+Q14. Two cars P and Q start from the same point. Car P drives 5 km West, then turns to its left and drives 4 km. Car Q drives 10 km South, then turns to its right and drives 5 km, then turns to its left and drives 2 km. Where is car Q with respect to car P?
+(A) 8 km South
+(B) 8 km North
+(C) 6 km South
+(D) 6 km North
+Answer: A
+Explanation: 
+Let start point be (0,0). 
+Car P: 5 km West -> (-5,0). Left (South) 4 km -> P is at (-5,-4).
+Car Q: 10 km South -> (0,-10). Right (West) 5 km -> (-5,-10). Left (South) 2 km -> Q is at (-5,-12).
+Both are at x = -5. Q is at y = -12 and P is at y = -4. Q is 8 km South of P.
+
+Q15. A postman travels 8 km North from the post office to deliver mail. He then turns right and travels 12 km. He takes a left turn, travels 6 km, then turns left again and travels 20 km. Finally, he turns South and travels 14 km. How far and in which direction is he from the post office?
+(A) 8 km West
+(B) 10 km West
+(C) 8 km East
+(D) 10 km South-West
+Answer: A
+Explanation: 
+Start (0,0). 
+8 km N -> (0,8)
+Right (East) 12 km -> (12,8)
+Left (North) 6 km -> (12,14)
+Left (West) 20 km -> (-8,14)
+South 14 km -> (-8,0).
+Final position is (-8,0), which is 8 km West of the post office.

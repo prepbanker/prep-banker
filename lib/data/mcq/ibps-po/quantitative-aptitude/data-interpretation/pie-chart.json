@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "quantitative-aptitude",
+  "topic": "data-interpretation",
+  "subtopic": "pie-chart",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the given pie chart carefully and answer the following questions.\nRefer to diagram: SVG/Q1.svg\nThe pie chart shows the percentage distribution of 2500 students in 5 different schools (A, B, C, D, E).",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the total number of students in School A and School C together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "900"
+                },
+                {
+                  "label": "B",
+                  "text": "950"
+                },
+                {
+                  "label": "C",
+                  "text": "1000"
+                },
+                {
+                  "label": "D",
+                  "text": "1050"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Percentage in A = 20%.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "The number of students in School D is what percent more or less than the number of students in School B?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "20% more"
+                },
+                {
+                  "label": "B",
+                  "text": "25% more"
+                },
+                {
+                  "label": "C",
+                  "text": "20% less"
+                },
+                {
+                  "label": "D",
+                  "text": "25% less"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Percentage in D = 30%.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What is the central angle corresponding to School E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "25.2°"
+                },
+                {
+                  "label": "B",
+                  "text": "28.8°"
+                },
+                {
+                  "label": "C",
+                  "text": "32.4°"
+                },
+                {
+                  "label": "D",
+                  "text": "36.0°"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Percentage in E = 7%. (Since A=20, B=25, C=18, D=30. Total = 93. So E = 7%).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Find the ratio of the number of students in School A to the number of students in School E.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "15 : 7"
+                },
+                {
+                  "label": "B",
+                  "text": "20 : 7"
+                },
+                {
+                  "label": "C",
+                  "text": "25 : 7"
+                },
+                {
+                  "label": "D",
+                  "text": "30 : 7"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Percentage in A = 20%.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If 40% of the students in School D are girls, find the number of boys in School D.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "400"
+                },
+                {
+                  "label": "B",
+                  "text": "450"
+                },
+                {
+                  "label": "C",
+                  "text": "500"
+                },
+                {
+                  "label": "D",
+                  "text": "550"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Total students in D = 30% of 2500 = 750.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the given pie chart carefully and answer the following questions.\nRefer to diagram: SVG/Q6.svg\nThe pie chart shows the percentage distribution of monthly expenses of a family on various items. Total monthly income is Rs. 40,000.\n(Rent: 22%, Food: 35%, Education: 15%, Travel: 10%, Savings: 18%)",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What is the amount spent by the family on Food?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 12000"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 13000"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 14000"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 15000"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Amount on Food = 35% of 40000 = 0.35 * 40000 = 14000.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "The amount spent on Rent and Travel together is equal to what fraction of the total income?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7/25"
+                },
+                {
+                  "label": "B",
+                  "text": "8/25"
+                },
+                {
+                  "label": "C",
+                  "text": "9/25"
+                },
+                {
+                  "label": "D",
+                  "text": "2/5"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Rent = 22%, Travel = 10%.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "How much more does the family spend on Education than on Travel?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 1500"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 2000"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 2500"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 3000"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Education = 15%, Travel = 10%.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "The central angle for the sector representing Savings is:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "54.8°"
+                },
+                {
+                  "label": "B",
+                  "text": "60.5°"
+                },
+                {
+                  "label": "C",
+                  "text": "64.8°"
+                },
+                {
+                  "label": "D",
+                  "text": "72.0°"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Savings = 18%.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "If the income of the family increases by 10% and the percentage distribution remains the same, what will be the new savings amount?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rs. 7520"
+                },
+                {
+                  "label": "B",
+                  "text": "Rs. 7920"
+                },
+                {
+                  "label": "C",
+                  "text": "Rs. 8320"
+                },
+                {
+                  "label": "D",
+                  "text": "Rs. 8720"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "New Income = 40000 * 1.10 = 44000.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the given pie chart carefully and answer the following questions.\nRefer to diagram: SVG/Q11.svg\nThe pie chart shows the percentage distribution of 1800 teachers who teach 5 different subjects (Math, Physics, Chemistry, Biology, English).\n(Math: 25%, Physics: 20%, Chemistry: 15%, Biology: 10%, English: 30%)",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the total number of teachers teaching Physics and Chemistry together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "580"
+                },
+                {
+                  "label": "B",
+                  "text": "600"
+                },
+                {
+                  "label": "C",
+                  "text": "630"
+                },
+                {
+                  "label": "D",
+                  "text": "650"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Physics = 20%, Chemistry = 15%. Total = 35%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "The number of English teachers is how much more than the number of Math teachers?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "90"
+                },
+                {
+                  "label": "B",
+                  "text": "100"
+                },
+                {
+                  "label": "C",
+                  "text": "110"
+                },
+                {
+                  "label": "D",
+                  "text": "120"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "English = 30%, Math = 25%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Find the ratio of the number of teachers teaching Biology to the number of teachers teaching Chemistry.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2 : 3"
+                },
+                {
+                  "label": "B",
+                  "text": "3 : 4"
+                },
+                {
+                  "label": "C",
+                  "text": "4 : 5"
+                },
+                {
+                  "label": "D",
+                  "text": "5 : 6"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Biology = 10%. Chemistry = 15%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "The central angle for the sector representing Math teachers is:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "75°"
+                },
+                {
+                  "label": "B",
+                  "text": "80°"
+                },
+                {
+                  "label": "C",
+                  "text": "90°"
+                },
+                {
+                  "label": "D",
+                  "text": "105°"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Math = 25%.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "If 20% of the English teachers resign, what will be the new total number of teachers teaching in the school?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1680"
+                },
+                {
+                  "label": "B",
+                  "text": "1692"
+                },
+                {
+                  "label": "C",
+                  "text": "1708"
+                },
+                {
+                  "label": "D",
+                  "text": "1720"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "English teachers = 30% of 1800 = 540.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "connectors",
+  "subtopic": "logical-connectors",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Connectors\nSubtopic: Logical Connectors",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The city experienced unprecedented levels of rainfall this monsoon season.\nSentence 2: The municipal drainage systems completely collapsed, causing severe flooding.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Nevertheless"
+                },
+                {
+                  "label": "B",
+                  "text": "Consequently"
+                },
+                {
+                  "label": "C",
+                  "text": "Conversely"
+                },
+                {
+                  "label": "D",
+                  "text": "Likewise"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The collapse of the drainage systems is a direct result or consequence of the unprecedented rainfall. \"Consequently\" perfectly bridges the cause and effect.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: He was severely reprimanded by the board of directors for his erratic behavior.\nSentence 2: He continued to act aggressively toward his subordinates.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Therefore"
+                },
+                {
+                  "label": "B",
+                  "text": "In addition"
+                },
+                {
+                  "label": "C",
+                  "text": "Nevertheless"
+                },
+                {
+                  "label": "D",
+                  "text": "Thus"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Being reprimanded should normally stop the bad behavior, but he continued anyway. \"Nevertheless\" denotes an unexpected contrast or concession.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: You must strictly adhere to the project timeline outlined in the contract.\nSentence 2: The client will invoke the penalty clause and withhold payment.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Furthermore"
+                },
+                {
+                  "label": "B",
+                  "text": "Otherwise"
+                },
+                {
+                  "label": "C",
+                  "text": "Hence"
+                },
+                {
+                  "label": "D",
+                  "text": "Similarly"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The second sentence represents a negative alternative/consequence if the condition in the first sentence is not met. \"Otherwise\" expresses this condition correctly.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The novel is celebrated for its deep psychological exploration of grief.\nSentence 2: It is highly praised for its poetic and evocative prose.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "On the contrary"
+                },
+                {
+                  "label": "B",
+                  "text": "Moreover"
+                },
+                {
+                  "label": "C",
+                  "text": "Nevertheless"
+                },
+                {
+                  "label": "D",
+                  "text": "Alternatively"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The second sentence adds another positive attribute to the first positive attribute. \"Moreover\" is used to add supplementary, supportive information.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The highway was heavily congested due to a massive multi-vehicle accident.\nSentence 2: We decided to take a scenic, winding detour through the mountains.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Hence"
+                },
+                {
+                  "label": "B",
+                  "text": "Despite this"
+                },
+                {
+                  "label": "C",
+                  "text": "In addition"
+                },
+                {
+                  "label": "D",
+                  "text": "Similarly"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Taking a detour was the logical result of the highway congestion. \"Hence\" means \"as a consequence\" or \"for this reason\".",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Connectors\nSubtopic: Logical Connectors",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The startup secured a massive injection of venture capital funding.\nSentence 2: They failed to scale their operations and ultimately filed for bankruptcy.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Thus"
+                },
+                {
+                  "label": "B",
+                  "text": "Conversely"
+                },
+                {
+                  "label": "C",
+                  "text": "Yet"
+                },
+                {
+                  "label": "D",
+                  "text": "Moreover"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Securing funding is a positive step toward success, but failing is a strong contrast to that expectation. \"Yet\" acts as a coordinating conjunction indicating this strong contrast.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The new dietary regimen requires you to completely eliminate processed sugars.\nSentence 2: You are mandated to consume at least three liters of water daily.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rather"
+                },
+                {
+                  "label": "B",
+                  "text": "Additionally"
+                },
+                {
+                  "label": "C",
+                  "text": "Instead"
+                },
+                {
+                  "label": "D",
+                  "text": "Consequently"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The second sentence adds another requirement to the regimen mentioned in the first. \"Additionally\" serves to append this supplementary rule.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The socio-political climate in the region is incredibly volatile and hostile.\nSentence 2: A small, resilient community of artists continues to thrive there.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Accordingly"
+                },
+                {
+                  "label": "B",
+                  "text": "Even so"
+                },
+                {
+                  "label": "C",
+                  "text": "Similarly"
+                },
+                {
+                  "label": "D",
+                  "text": "Subsequently"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A hostile climate usually prevents communities from thriving, yet they thrive. \"Even so\" means \"in spite of that\" and introduces the surprising contrast.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The rapid automation of rudimentary manufacturing processes has displaced thousands of factory workers.\nSentence 2: It has inadvertently catalyzed a massive demand for highly skilled robotic engineers.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Simultaneously"
+                },
+                {
+                  "label": "B",
+                  "text": "Otherwise"
+                },
+                {
+                  "label": "C",
+                  "text": "To conclude"
+                },
+                {
+                  "label": "D",
+                  "text": "On the contrary"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The two effects of automation (displacing workers and creating demand for engineers) are happening at the same time. \"Simultaneously\" correctly connects these parallel events.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: He lacked the traditional academic pedigree usually required for such an elite position.\nSentence 2: His vast, unparalleled practical experience in crisis management made him the ideal candidate.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Because"
+                },
+                {
+                  "label": "B",
+                  "text": "Henceforth"
+                },
+                {
+                  "label": "C",
+                  "text": "On the other hand"
+                },
+                {
+                  "label": "D",
+                  "text": "Subsequently"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The two sentences present two contrasting perspectives on his suitability for the job. \"On the other hand\" is used to introduce a contrasting point of view or fact.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Connectors\nSubtopic: Logical Connectors",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The central banking authority aggressively slashed interest rates to near zero.\nSentence 2: The national inflation rate soared to an unprecedented, alarming high.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Provided that"
+                },
+                {
+                  "label": "B",
+                  "text": "Subsequent to"
+                },
+                {
+                  "label": "C",
+                  "text": "As a corollary"
+                },
+                {
+                  "label": "D",
+                  "text": "In spite of this"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"As a corollary\" means as a direct or natural consequence or result. The soaring inflation is a direct consequence of slashing interest rates.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The proposed corporate merger was incredibly lucrative and beneficial for both firms on paper.\nSentence 2: The regulatory board vetoed the acquisition over severe antitrust concerns.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Accordingly"
+                },
+                {
+                  "label": "B",
+                  "text": "Ergo"
+                },
+                {
+                  "label": "C",
+                  "text": "Notwithstanding"
+                },
+                {
+                  "label": "D",
+                  "text": "Albeit"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The merger was highly beneficial, but it was stopped anyway. \"Notwithstanding\" means \"in spite of this\" or \"nevertheless\", which correctly bridges the contrast.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: The initial phase of the clinical trials demonstrated an astonishing 95% efficacy rate against the pathogen.\nSentence 2: Subsequent, long-term testing revealed severe, irreversible neurological side effects.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Consequently"
+                },
+                {
+                  "label": "B",
+                  "text": "Conversely"
+                },
+                {
+                  "label": "C",
+                  "text": "Similarly"
+                },
+                {
+                  "label": "D",
+                  "text": "Inherently"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The first sentence is highly positive. The second sentence introduces a completely negative opposite finding. \"Conversely\" introduces a statement or idea which reverses one that has just been made.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the most appropriate logical connector to join the sentences.\nSentence 1: Stringent, military-grade cybersecurity protocols were implemented across the corporate network.\nSentence 2: A sophisticated state-sponsored hack compromised millions of highly classified documents.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Ergo"
+                },
+                {
+                  "label": "B",
+                  "text": "Henceforth"
+                },
+                {
+                  "label": "C",
+                  "text": "Nonetheless"
+                },
+                {
+                  "label": "D",
+                  "text": "Thus"
+                },
+                {
+                  "label": "A",
+                  "text": "Given that"
+                },
+                {
+                  "label": "B",
+                  "text": "Ergo"
+                },
+                {
+                  "label": "C",
+                  "text": "In contrast"
+                },
+                {
+                  "label": "D",
+                  "text": "Be that as it may"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Despite strict protocols being in place, a massive breach still occurred. \"Nonetheless\" means \"in spite of that\", serving as the perfect contrast connector.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

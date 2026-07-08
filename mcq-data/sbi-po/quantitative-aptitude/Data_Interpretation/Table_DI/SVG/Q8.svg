@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="350" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Outer Table Border -->
+  <rect x="40" y="40" width="520" height="260" fill="none" stroke="#212121" stroke-width="2"/>
+  
+  <!-- Headers -->
+  <rect x="40" y="40" width="520" height="40" fill="#f5f5f5" stroke="#212121" stroke-width="1"/>
+  
+  <line x1="144" y1="40" x2="144" y2="300" stroke="#212121" stroke-width="1"/>
+  <line x1="248" y1="40" x2="248" y2="300" stroke="#212121" stroke-width="1"/>
+  <line x1="352" y1="40" x2="352" y2="300" stroke="#212121" stroke-width="1"/>
+  <line x1="456" y1="40" x2="456" y2="300" stroke="#212121" stroke-width="1"/>
+
+  <line x1="40" y1="80" x2="560" y2="80" stroke="#212121" stroke-width="2"/>
+  <line x1="40" y1="124" x2="560" y2="124" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="40" y1="168" x2="560" y2="168" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="40" y1="212" x2="560" y2="212" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="40" y1="256" x2="560" y2="256" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Texts -->
+  <g font-size="13" font-weight="bold" fill="#000" text-anchor="middle">
+    <text x="92" y="65">University</text>
+    <text x="196" y="65">Total Students</text>
+    <text x="300" y="65">% of Males</text>
+    <text x="404" y="65">% in Science</text>
+    <text x="508" y="65">% in Arts</text>
+  </g>
+
+  <!-- Row Data -->
+  <g font-size="13" fill="#333" text-anchor="middle">
+    <text x="92" y="108" font-weight="bold">P</text>
+    <text x="196" y="108">4500</text>
+    <text x="300" y="108">55%</text>
+    <text x="404" y="108">40%</text>
+    <text x="508" y="108">60%</text>
+
+    <text x="92" y="152" font-weight="bold">Q</text>
+    <text x="196" y="152">6000</text>
+    <text x="300" y="152">45%</text>
+    <text x="404" y="152">35%</text>
+    <text x="508" y="152">65%</text>
+
+    <text x="92" y="196" font-weight="bold">R</text>
+    <text x="196" y="196">5200</text>
+    <text x="300" y="196">60%</text>
+    <text x="404" y="196">50%</text>
+    <text x="508" y="196">50%</text>
+
+    <text x="92" y="240" font-weight="bold">S</text>
+    <text x="196" y="240">4800</text>
+    <text x="300" y="240">40%</text>
+    <text x="404" y="240">45%</text>
+    <text x="508" y="240">55%</text>
+
+    <text x="92" y="284" font-weight="bold">T</text>
+    <text x="196" y="284">7500</text>
+    <text x="300" y="284">52%</text>
+    <text x="404" y="284">30%</text>
+    <text x="508" y="284">70%</text>
+  </g>
+</svg>

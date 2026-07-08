@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="350" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <text x="300" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#212121">Distribution of Monthly Income of a Family</text>
+  <text x="300" y="50" text-anchor="middle" font-size="14" fill="#616161">Total Monthly Income = Rs. 60,000</text>
+  <text x="300" y="70" text-anchor="middle" font-size="12" fill="#d32f2f">(Values are given in central angles)</text>
+
+  <!-- Pie Chart Center: 200, 210, Radius: 110 -->
+  <!-- Categories & Angles:
+       Food: 108 deg
+       Rent: 72 deg
+       Education: 54 deg
+       Savings: 72 deg
+       Misc: 54 deg
+       Total = 360 deg
+  -->
+  
+  <g transform="translate(200, 210)">
+    <!-- Food: 108 deg. Path: from -90 to 18 (108 deg span) -->
+    <!-- Start: 0, -110 -->
+    <!-- End: X = 110 * Sin(18) = 110 * 0.309 = 33.99, Y = -110 * Cos(18) = -110 * 0.951 = -104.61 -->
+    <path d="M 0 0 L 0 -110 A 110 110 0 0 1 33.99 -104.61 Z" fill="#42a5f5" stroke="#fff" stroke-width="2"/>
+    <text x="40" y="-55" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">108°</text>
+    
+    <!-- Rent: 72 deg. Path: from 18 to 90 -->
+    <!-- End: X = 110, Y = 0 -->
+    <path d="M 0 0 L 33.99 -104.61 A 110 110 0 0 1 110 0 Z" fill="#ff7043" stroke="#fff" stroke-width="2"/>
+    <text x="75" y="-35" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">72°</text>
+    
+    <!-- Education: 54 deg. Path: from 90 to 144 -->
+    <!-- End: X = 110 * Sin(144) = 110 * 0.587 = 64.57, Y = -110 * Cos(144) = -110 * -0.809 = 88.99 -->
+    <path d="M 0 0 L 110 0 A 110 110 0 0 1 64.57 88.99 Z" fill="#66bb6a" stroke="#fff" stroke-width="2"/>
+    <text x="65" y="45" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">54°</text>
+    
+    <!-- Savings: 72 deg. Path: from 144 to 216 -->
+    <!-- End: X = 110 * Sin(216) = -64.57, Y = -110 * Cos(216) = 88.99 -->
+    <path d="M 0 0 L 64.57 88.99 A 110 110 0 0 1 -64.57 88.99 Z" fill="#ab47bc" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="80" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">72°</text>
+    
+    <!-- Misc: 54 deg. Path: from 216 to 270 (-90) -->
+    <!-- End: 0, -110 -->
+    <path d="M 0 0 L -64.57 88.99 A 110 110 0 0 1 0 -110 Z" fill="#26a69a" stroke="#fff" stroke-width="2"/>
+    <text x="-65" y="5" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">54°</text>
+  </g>
+
+  <!-- Legend Box -->
+  <rect x="380" y="110" width="160" height="150" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1" rx="5"/>
+  <g font-size="13" fill="#424242">
+    <rect x="395" y="125" width="15" height="15" fill="#42a5f5"/>
+    <text x="420" y="138">Food</text>
+    
+    <rect x="395" y="150" width="15" height="15" fill="#ff7043"/>
+    <text x="420" y="163">Rent</text>
+    
+    <rect x="395" y="175" width="15" height="15" fill="#66bb6a"/>
+    <text x="420" y="188">Education</text>
+    
+    <rect x="395" y="200" width="15" height="15" fill="#ab47bc"/>
+    <text x="420" y="213">Savings</text>
+    
+    <rect x="395" y="225" width="15" height="15" fill="#26a69a"/>
+    <text x="420" y="238">Miscellaneous</text>
+  </g>
+</svg>

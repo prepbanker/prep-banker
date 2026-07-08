@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="240" font-family="Arial, sans-serif">
+  <!-- Top Row (South Facing) -->
+  <g transform="translate(25, 20)">
+    <!-- X -->
+    <rect x="0" y="0" width="70" height="65" fill="#e8eaf6" rx="6" stroke="#3949ab" stroke-width="2"/>
+    <text x="35" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a237e">X</text>
+    <path d="M 35 40 L 35 55 M 30 50 L 35 55 L 40 50" stroke="#3949ab" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- W -->
+    <rect x="90" y="0" width="70" height="65" fill="#e8eaf6" rx="6" stroke="#3949ab" stroke-width="2"/>
+    <text x="125" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a237e">W</text>
+    <path d="M 125 40 L 125 55 M 120 50 L 125 55 L 130 50" stroke="#3949ab" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- V -->
+    <rect x="180" y="0" width="70" height="65" fill="#e8eaf6" rx="6" stroke="#3949ab" stroke-width="2"/>
+    <text x="215" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a237e">V</text>
+    <path d="M 215 40 L 215 55 M 210 50 L 215 55 L 220 50" stroke="#3949ab" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- U -->
+    <rect x="270" y="0" width="70" height="65" fill="#e8eaf6" rx="6" stroke="#3949ab" stroke-width="2"/>
+    <text x="305" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a237e">U</text>
+    <path d="M 305 40 L 305 55 M 300 50 L 305 55 L 310 50" stroke="#3949ab" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Y -->
+    <rect x="360" y="0" width="70" height="65" fill="#e8eaf6" rx="6" stroke="#3949ab" stroke-width="2"/>
+    <text x="395" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a237e">Y</text>
+    <path d="M 395 40 L 395 55 M 390 50 L 395 55 L 400 50" stroke="#3949ab" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom Row (North Facing) -->
+  <g transform="translate(25, 140)">
+    <!-- G -->
+    <rect x="0" y="0" width="70" height="65" fill="#e0f2f1" rx="6" stroke="#00695c" stroke-width="2"/>
+    <text x="35" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#004d40">G</text>
+    <path d="M 35 25 L 35 10 M 30 15 L 35 10 L 40 15" stroke="#00695c" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- F -->
+    <rect x="90" y="0" width="70" height="65" fill="#e0f2f1" rx="6" stroke="#00695c" stroke-width="2"/>
+    <text x="125" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#004d40">F</text>
+    <path d="M 125 25 L 125 10 M 120 15 L 125 10 L 130 15" stroke="#00695c" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- H -->
+    <rect x="180" y="0" width="70" height="65" fill="#e0f2f1" rx="6" stroke="#00695c" stroke-width="2"/>
+    <text x="215" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#004d40">H</text>
+    <path d="M 215 25 L 215 10 M 210 15 L 215 10 L 220 15" stroke="#00695c" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- I -->
+    <rect x="270" y="0" width="70" height="65" fill="#e0f2f1" rx="6" stroke="#00695c" stroke-width="2"/>
+    <text x="305" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#004d40">I</text>
+    <path d="M 305 25 L 305 10 M 300 15 L 305 10 L 310 15" stroke="#00695c" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- J -->
+    <rect x="360" y="0" width="70" height="65" fill="#e0f2f1" rx="6" stroke="#00695c" stroke-width="2"/>
+    <text x="395" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#004d40">J</text>
+    <path d="M 395 25 L 395 10 M 390 15 L 395 10 L 400 15" stroke="#00695c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Relation lines indicating they face each other (Optional visual connector) -->
+  <g stroke="#bdbdbd" stroke-width="1.5" stroke-dasharray="4,4">
+    <line x1="60" y1="85" x2="60" y2="140"/>
+    <line x1="150" y1="85" x2="150" y2="140"/>
+    <line x1="240" y1="85" x2="240" y2="140"/>
+    <line x1="330" y1="85" x2="330" y2="140"/>
+    <line x1="420" y1="85" x2="420" y2="140"/>
+  </g>
+</svg>

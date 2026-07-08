@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" font-family="Arial, sans-serif">
+  
+  <rect x="10" y="10" width="580" height="480" fill="#fafafa" stroke="#bdbdbd" stroke-width="2" rx="4" />
+  
+  <text x="300" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#263238">Converging Paths Layout (Rahul vs Amit)</text>
+  
+  <!-- Base Coordinates mapping
+       P(0,0) mapped to (150, 350)
+       Scale: 1m = 10px
+  -->
+  
+  <defs>
+    <!-- Arrowhead for Rahul -->
+    <marker id="arrow-rahul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+    </marker>
+    <!-- Arrowhead for Amit -->
+    <marker id="arrow-amit" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d32f2f"/>
+    </marker>
+  </defs>
+
+  <!-- Rahul's Path (Blue) -->
+  <g stroke="#1565c0" stroke-width="3" fill="none" stroke-linejoin="round" marker-end="url(#arrow-rahul)">
+    <!-- P(150,350) to Q(150,250) -->
+    <line x1="150" y1="350" x2="150" y2="250" />
+    <!-- Q(150,250) to R(300,250) -->
+    <line x1="150" y1="250" x2="300" y2="250" />
+    <!-- R(300,250) to S(300,390) -->
+    <line x1="300" y1="250" x2="300" y2="385" />
+  </g>
+  
+  <!-- Amit's Path (Red) -->
+  <g stroke="#d32f2f" stroke-width="3" fill="none" stroke-linejoin="round" marker-end="url(#arrow-amit)">
+    <!-- M(390,350) to N(390,180) -->
+    <line x1="390" y1="350" x2="390" y2="180" />
+    <!-- N(390,180) to O(300,180) -->
+    <line x1="390" y1="180" x2="300" y2="180" />
+    <!-- O(300,180) to T(300,390) -->
+    <line x1="300" y1="180" x2="300" y2="385" />
+  </g>
+  
+  <!-- Projected Hypotenuse Q to N (Question 6) -->
+  <line x1="150" y1="250" x2="390" y2="180" stroke="#4caf50" stroke-width="2" stroke-dasharray="6,6" />
+  <text x="270" y="210" font-size="14" font-weight="bold" fill="#2e7d32" transform="rotate(-16, 270, 210)">25m (Hypotenuse)</text>
+
+  <!-- Distance Labels -->
+  <g font-size="14" fill="#37474f" font-weight="bold">
+    <text x="120" y="305" fill="#1565c0">10m</text>
+    <text x="215" y="240" fill="#1565c0">15m</text>
+    <text x="270" y="325" fill="#1565c0">14m</text>
+    
+    <text x="400" y="270" fill="#d32f2f">17m</text>
+    <text x="335" y="170" fill="#d32f2f">9m</text>
+    <text x="310" y="280" fill="#d32f2f">21m</text>
+  </g>
+
+  <!-- Node Points -->
+  <g fill="#424242" stroke="#ffffff" stroke-width="2">
+    <circle cx="150" cy="350" r="6"/>
+    <circle cx="150" cy="250" r="6"/>
+    <circle cx="300" cy="250" r="6"/>
+    <circle cx="390" cy="350" r="6"/>
+    <circle cx="390" cy="180" r="6"/>
+    <circle cx="300" cy="180" r="6"/>
+    <!-- Convergence Point S/T -->
+    <circle cx="300" cy="390" r="8" fill="#9c27b0"/>
+  </g>
+
+  <!-- Node Labels -->
+  <g font-size="16" font-weight="bold" fill="#424242">
+    <text x="130" y="365">P</text>
+    <text x="130" y="245">Q</text>
+    <text x="315" y="245">R</text>
+    <text x="405" y="365">M</text>
+    <text x="405" y="175">N</text>
+    <text x="275" y="175">O</text>
+    <text x="315" y="405" fill="#7b1fa2">S / T (Meeting Point)</text>
+  </g>
+
+</svg>

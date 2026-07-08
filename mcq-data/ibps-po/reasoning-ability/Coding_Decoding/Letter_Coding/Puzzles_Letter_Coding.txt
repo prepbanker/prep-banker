@@ -1,0 +1,579 @@
+Topic: Coding-Decoding
+Subtopic: Letter Coding
+
+Q1. In a certain code language, 'BASKET' is written as 'CBTLFU'. How will 'FLOWER' be written in that code language?
+(A) GMPXFS
+(B) GMPXES
+(C) GMPXFR
+(D) HNPXFS
+Answer: A
+Explanation: 
+Each letter in the word 'BASKET' is shifted +1 step forward in the alphabetical series to get the code.
+B(+1) = C, A(+1) = B, S(+1) = T, K(+1) = L, E(+1) = F, T(+1) = U.
+Similarly, for 'FLOWER':
+F(+1) = G, L(+1) = M, O(+1) = p, W(+1) = X, E(+1) = F, R(+1) = S.
+The code is 'GMPXFS'.
+
+Q2. In a certain code language, 'BRIDGE' is written as 'AQHCFD'. How will 'WATER' be written in that code language?
+(A) VZSDQ
+(B) VZUDQ
+(C) VZSDP
+(D) VYSDQ
+Answer: A
+Explanation: 
+Each letter in the word 'BRIDGE' is shifted -1 step backward in the alphabetical series.
+B(-1) = A, R(-1) = Q, I(-1) = H, D(-1) = C, G(-1) = F, E(-1) = D.
+Similarly, for 'WATER':
+W(-1) = V, A(-1) = Z, T(-1) = S, E(-1) = D, R(-1) = Q.
+The code is 'VZSDQ'.
+
+Q3. If in a code language, 'NURSE' is coded as 'QXUVH', how will 'DOCTOR' be coded in that same language?
+(A) GRFWRU
+(B) GRFXRU
+(C) GRFWQV
+(D) GQFWRU
+Answer: A
+Explanation: 
+Each letter in the word 'NURSE' is shifted +3 steps forward.
+N(14) + 3 = 17(Q), U(21) + 3 = 24(X), R(18) + 3 = 21(U), S(19) + 3 = 22(V), E(5) + 3 = 8(H).
+Similarly, for 'DOCTOR':
+D(4) + 3 = 7(G), O(15) + 3 = 18(R), C(3) + 3 = 6(F), T(20) + 3 = 23(W), O(15) + 3 = 18(R), R(18) + 3 = 21(U).
+The code is 'GRFWRU'.
+
+Q4. In a certain code, 'TABLE' is written as 'SZAKD'. How will 'CHAIR' be written in that code?
+(A) BGZHQ
+(B) BGYHQ
+(C) BGZHP
+(D) CGZHQ
+Answer: A
+Explanation: 
+Each letter in the word 'TABLE' is shifted -1 step backward.
+T(-1) = S, A(-1) = Z, B(-1) = A, L(-1) = K, E(-1) = D.
+Similarly, for 'CHAIR':
+C(-1) = B, H(-1) = G, A(-1) = Z, I(-1) = H, R(-1) = Q.
+The code is 'BGZHQ'.
+
+Q5. If 'FROZEN' is coded as 'OFAPSG', then how will 'MOLTEN' be coded?
+(A) OFUMPN
+(B) OFUMON
+(C) OFUNPM
+(D) OFUMPM
+Answer: A
+Explanation: 
+Let's analyze 'FROZEN' -> 'OFAPSG'.
+F(6) -> O(15) (+9)
+R(18) -> F(6) (-12)
+Wait, let's look at reverse order mapping.
+Reverse of FROZEN is NEZORF.
+N(+1)=O, E(+1)=F, Z(+1)=A, O(+1)=P, R(+1)=S, F(+1)=G.
+Yes! The word is reversed and then each letter is shifted +1.
+Similarly for 'MOLTEN':
+Reverse is NETLOM.
+N(+1)=O, E(+1)=F, T(+1)=U, L(+1)=M, O(+1)=P, M(+1)=N.
+The code is 'OFUMPN'.
+
+Q6. In a certain code language, 'ACTIVE' is written as 'VTCIAE'. How will 'REMOTE' be written in that code language?
+(A) TMEROE
+(B) OMERTE
+(C) OMRTEE
+(D) MROETE
+Answer: B
+Explanation: 
+The word 'ACTIVE' has 6 letters. Let's observe the rearrangement.
+Positions: 123456 -> A C T I V E
+Code: V T C I A E -> 5 3 2 4 1 6
+Wait, let's look at the vowels and consonants.
+Vowels in ACTIVE are A, I, E. Consonants are C, T, V.
+Reverse alphabetical order? V, T, I, E, C, A. No.
+Let's check pairs: AC, TI, VE.
+Maybe swapped? AC -> CA, TI -> IT, VE -> EV. Not matching.
+Let's look at the letters:
+A C T I V E
+1 2 3 4 5 6
+Code: V(5) T(3) C(2) I(4) A(1) E(6).
+Pattern: 5, 3, 2, 4, 1, 6.
+Let's apply 5,3,2,4,1,6 to REMOTE (123456).
+5(T), 3(M), 2(E), 4(O), 1(R), 6(E). So 'TMEORE'. This is not in the options.
+Let's find another logic.
+ACTIVE -> V T C I A E.
+Wait. The letters are: A, C, T, I, V, E.
+Rearranged: V, T, C, I, A, E.
+This is exactly the reverse alphabetical order of all letters in ACTIVE, EXCEPT E is at the end?
+Wait, V, T, I, C, A, E is reverse alphabetical. The code is V T C I A E.
+Let's look at vowels: A, I, E -> I, A, E (not sorted).
+Consonants: C, T, V -> V, T, C (sorted descending).
+Maybe consonants are sorted descending at the beginning, followed by vowels?
+Consonants descending: V, T, C. Vowels: I, A, E. Not matching VTCIAE.
+Let's look at positions:
+A(1) C(2) T(3) I(4) V(5) E(6)
+Odd positions: A(1), T(3), V(5) -> reversed: V, T, A.
+Even positions: C(2), I(4), E(6) -> C, I, E.
+Combine them: V, T, C, I, A, E? No. V, T, A and C, I, E.
+Ah! V, T, C, I, A, E.
+Wait, V(5), T(3), C(2), I(4), A(1), E(6)? No, A is 1, C is 2.
+Let's rethink:
+A C T  |  I V E
+Reverse each half? T C A | E V I. No.
+Let's write it in a zigzag.
+A  T  V
+ C  I  E
+Read vertically? AC TI VE.
+Read rows: A T V C I E.
+Reverse rows: V T A E I C.
+Let's try another logic:
+A C T I V E -> V T C I A E
+Consonants: C, T, V -> reversed V, T, C
+Vowels: A, I, E -> I, A, E?
+What if the logic is: Reverse the entire word, then swap adjacent?
+Reverse: E V I T C A
+Swap adjacent: V E T I A C. No.
+Let's look at the given code again: V T C I A E.
+V is the 5th letter. T is 3rd. C is 2nd. I is 4th. A is 1st. E is 6th.
+Wait. Let's arrange vowels alphabetically: A, E, I.
+Consonants alphabetically: C, T, V.
+If we alternate them?
+Reverse consonants: V, T, C.
+Reverse vowels: I, E, A.
+If we mix them: V (cons1), T (cons2), C (cons3), I (vow1), A (vow2), E (vow3)?
+Where did 'I A E' come from? The vowels in ACTIVE are A, I, E.
+Maybe vowels are unchanged in their relative positions, and consonants are reversed?
+Original: A C T I V E
+Vowels are at positions 1, 4, 6 (A, I, E).
+Consonants are at positions 2, 3, 5 (C, T, V).
+Reverse the consonants: V, T, C. Place them back in consonant positions!
+Position 2: V. Position 3: T. Position 5: C.
+Word becomes: A V T I C E. Not VTCIAE.
+Let's rethink. 'OMERTE' is option B.
+Let's see if 5,3,2,4,1,6 works for REMOTE.
+T M E O R E. Not in options.
+Let's analyze 'REMOTE' and Option B: 'OMERTE'.
+R E M O T E
+1 2 3 4 5 6
+Code: O(4) M(3) E(2) R(1) T(5) E(6).
+Pattern: 4, 3, 2, 1, 5, 6.
+Let's check if 4,3,2,1,5,6 applies to ACTIVE:
+I(4) T(3) C(2) A(1) V(5) E(6) -> ITCAVE. Not VTCIAE.
+What if Option B is 'OMERTE' due to something else?
+Let's split REMOTE into two halves: REM | OTE
+Reverse first half: MER. Reverse second: ETO. -> MERETO.
+What about ACTIVE? ACT | IVE -> TCA | EVI -> TCAEVI.
+Let's reconsider the logic of 'ACTIVE' -> 'VTCIAE'.
+A(1) C(3) T(20) I(9) V(22) E(5)
+V(22) T(20) C(3) I(9) A(1) E(5)
+Notice the numerical values: 22, 20, 3, 9, 1, 5.
+Wait, 22, 20, 3, 9, 1, 5 is NOT sorted.
+But what if it's pairs? AC -> VT? C(3) A(1) -> V(22) T(20)? Opposite letters!
+Opposite of A is Z. C is X. Not VT.
+Look at the letters carefully: A,C,T,I,V,E.
+Code: V,T,C,I,A,E.
+The letters are EXACTLY the same.
+A is moved to 5th. V is moved to 1st.
+C is moved to 3rd. T is moved to 2nd.
+I remains 4th. E remains 6th.
+Swaps: (A,V), (C,T), (I,I), (E,E)?
+Let's check: A(1) <-> V(5). C(2) <-> T(3). I(4) <-> I(4). E(6) <-> E(6).
+Pattern of swaps: 1st with 5th, 2nd with 3rd, 4th with 4th, 6th with 6th.
+Let's apply to REMOTE:
+R(1) <-> T(5) => T _ _ _ R _
+E(2) <-> M(3) => T M E _ R _
+O(4) <-> O(4) => T M E O R _
+E(6) <-> E(6) => T M E O R E
+This gives TMEORE.
+But option A is TMEROE. Option B is OMERTE.
+Let's rethink ACTIVE -> VTCIAE.
+Maybe it is grouped by 3s? ACT -> VTC?
+A C T -> V T C. V is A+21?
+What if it's reverse alphabetical order of ALL letters, but keeping E at the end?
+No, V, T, I, C, A, E is reverse alpha. The code is V, T, C, I, A, E. C and I are swapped.
+Let's try another logic.
+Vowels: A, I, E. Consonants: C, T, V.
+Code: VTC (Consonants sorted descending) + IAE (Vowels sorted descending).
+Let's check vowels descending: I, E, A. But code is I, A, E.
+Wait. A=1, E=5, I=9. So I, E, A is descending.
+Let's check REMOTE.
+Consonants: R, M, T. Descending: T, R, M.
+Vowels: E, O, E. Descending: O, E, E.
+Code: TRMOEE. Not in options.
+Let's check if the word is partitioned into 2-letter blocks: AC, TI, VE.
+Reverse blocks: VE, TI, AC.
+Code is VTCIAE.
+VE TI AC -> V E T I A C. Not VTCIAE.
+What about swapping within blocks? CA IT EV.
+What about sorting within blocks? AC IT EV.
+Let's look at the given options for REMOTE:
+(A) TMEROE (B) OMERTE (C) OMRTEE (D) MROETE
+Let's test (B) OMERTE.
+REMOTE -> OMERTE.
+R E M O T E
+1 2 3 4 5 6
+O(4) M(3) E(2) R(1) T(5) E(6) -> 4 3 2 1 5 6.
+If REMOTE uses 4 3 2 1 5 6, does ACTIVE use 4 3 2 1 5 6?
+4(I) 3(T) 2(C) 1(A) 5(V) 6(E) -> ITCAVE. But code is VTCIAE.
+Wait, look at 4 3 2 1 5 6.
+What if it's based on vowels and consonants?
+Let's change the question to something standard, to ensure high quality and accuracy. I am generating the questions, I should define the logic clearly!
+Let's use a solid, verifiable logic.
+Logic: Reverse the first 3 letters, reverse the next 3 letters.
+ACTIVE -> TCA EVI. (Code TCAEVI).
+Let's use this logic!
+Question: ACTIVE is coded as TCAEVI. How is REMOTE coded?
+REMOTE -> MER OTE.
+Let's rewrite Q6.
+
+Q6 (Updated Text):
+Q6. In a certain code language, 'ACTIVE' is written as 'TCAEVI'. How will 'REMOTE' be written in that code language?
+(A) MEROTE
+(B) MREOTE
+(C) EMRTOE
+(D) TMEORE
+Answer: A
+Explanation: 
+The word is divided into two equal halves of 3 letters each.
+First half: ACT -> Reversed to TCA.
+Second half: IVE -> Reversed to EVI.
+Combined code for ACTIVE is TCAEVI.
+Similarly, for 'REMOTE':
+First half: REM -> Reversed to MER.
+Second half: OTE -> Reversed to ETO. (Wait, option A is MEROTE).
+Let me fix option A to MERETO.
+Let me change logic to: first 3 reversed, last 3 remain same?
+ACT IVE -> TCA IVE.
+REM OTE -> MER OTE. Option A is MEROTE. This matches!
+Answer: A
+Explanation: 
+The word is divided into two equal halves.
+First half is reversed, and the second half remains unchanged.
+ACTIVE -> ACT (reversed to TCA) + IVE (unchanged) -> TCAIVE.
+Wait, let's make it TCAIVE.
+
+Q6 (Final Text):
+Q6. In a certain code language, 'ACTIVE' is written as 'TCAIVE'. How will 'REMOTE' be written in that code language?
+(A) MEROTE
+(B) MREOTE
+(C) EMRTOE
+(D) TMEORE
+Answer: A
+Explanation: 
+The word is divided into two equal halves of 3 letters each.
+The first half is reversed, and the second half remains exactly the same.
+ACTIVE -> ACT (reversed to TCA) + IVE (unchanged) -> TCAIVE.
+Similarly, for 'REMOTE':
+REM (reversed to MER) + OTE (unchanged) -> MEROTE.
+
+Q7. In a certain code, 'FIGHT' is coded as 'GJFIU'. How will 'BRAVE' be coded in that language?
+(A) CQBWF
+(B) CSBWF
+(C) CQAWF
+(D) CQAWE
+Answer: A
+Explanation: 
+Each letter in 'FIGHT' is shifted as follows:
+F(+1) = G
+I(+1) = J
+G(-1) = F
+H(+1) = I
+T(+1) = U
+Wait, +1, +1, -1, +1, +1? Let's use a simpler pattern: +1, +1, -1, +1, +1.
+Let's use +1, -1, +1, -1, +1.
+F(+1)=G, I(-1)=H, G(+1)=H, H(-1)=G, T(+1)=U. Code: GHHGU.
+Let's use GHHGU.
+Question: 'FIGHT' is coded as 'GHHGU'. How is 'BRAVE' coded?
+B(+1)=C, R(-1)=Q, A(+1)=B, V(-1)=U, E(+1)=F. Code: CQBUF.
+Let me change the option A to CQBUF.
+Let's write a standard logic: Vowels +1, Consonants -1.
+FIGHT:
+F(-1)=E, I(+1)=J, G(-1)=F, H(-1)=G, T(-1)=S. Code: EJFGS.
+BRAVE:
+B(-1)=A, R(-1)=Q, A(+1)=B, V(-1)=U, E(+1)=F. Code: AQBUF.
+Let's use this!
+
+Q7 (Updated Text):
+Q7. In a certain code language, 'FIGHT' is written as 'EJFGS'. How will 'BRAVE' be written in that code language?
+(A) AQBUF
+(B) BQCUF
+(C) AQBVF
+(D) APBUF
+Answer: A
+Explanation: 
+The logic is based on vowels and consonants.
+Each consonant is shifted -1 step backward, and each vowel is shifted +1 step forward.
+In 'FIGHT': F(Cons) - 1 = E, I(Vow) + 1 = J, G(Cons) - 1 = F, H(Cons) - 1 = G, T(Cons) - 1 = S. Code is EJFGS.
+Similarly, for 'BRAVE':
+B(Cons) - 1 = A, R(Cons) - 1 = Q, A(Vow) + 1 = B, V(Cons) - 1 = U, E(Vow) + 1 = F.
+The code is 'AQBUF'.
+
+Q8. If 'SYSTEM' is coded as 'SYSMET' and 'NEARER' as 'AENRER', how will 'FRACTION' be coded?
+(A) CARFNOIT
+(B) NOITCARF
+(C) CARFTION
+(D) FRACNOIT
+Answer: A
+Explanation: 
+Let's analyze 'SYSTEM' -> 'SYSMET'.
+Split into two halves: SYS and TEM.
+Reverse each half: SYS -> SYS, TEM -> MET.
+Combine: SYSMET.
+Let's check 'NEARER' -> 'AENRER'.
+Split: NEA and RER.
+Reverse: AEN and RER.
+Combine: AENRER.
+Now for 'FRACTION' (8 letters).
+Split into two halves: FRAC and TION.
+Reverse each half: CARF and NOIT.
+Combine: CARFNOIT.
+
+Q9. In a certain code, 'LOGIC' is coded as 'BHFNK'. How will 'MAGIC' be coded?
+(A) BHFZL
+(B) BHFZM
+(C) BHFYL
+(D) BHFYM
+Answer: A
+Explanation: 
+Let's analyze 'LOGIC' -> 'BHFNK'.
+Reverse the word LOGIC -> CIGOL.
+Now shift each letter -1 step backward.
+C(-1) = B
+I(-1) = H
+G(-1) = F
+O(-1) = N
+L(-1) = K
+The code is BHFNK.
+Similarly for 'MAGIC':
+Reverse -> CIGAM.
+Shift -1:
+C(-1) = B, I(-1) = H, G(-1) = F, A(-1) = Z, M(-1) = L.
+The code is BHFZL.
+
+Q10. In a code language, 'COMPUTER' is coded as 'RFUVQNPC'. How will 'MEDICINE' be coded in that language?
+(A) EOJDJEFM
+(B) EOJDEJFM
+(C) MFEJDJOE
+(D) MFEDJJOE
+Answer: A
+Explanation: 
+Let's analyze 'COMPUTER' -> 'RFUVQNPC'.
+First, reverse the entire word: RETUPMOC.
+Now shift each letter as follows:
+R(-? No, let's check shift from C to R? Too far. Let's check cross logic.
+C(+1)=D? No.
+Let's look at the letters:
+C O M P U T E R
+Code: R F U V Q N P C
+Notice the first and last letters: C is at the end. R is at the beginning.
+Let's reverse: R E T U P M O C
+Now shift:
+R (same) -> R? No, R to R is +0. E to F is +1. T to U is +1. U to V is +1. P to Q is +1. M to N is +1. O to P is +1. C (same) -> C.
+Wait, all middle letters are +1, first and last are swapped/unchanged!
+Let's check:
+Original: C O M P U T E R
+Swap first and last: R O M P U T E C
+Add +1 to middle 6 letters:
+O(+1)=P, M(+1)=N, P(+1)=Q, U(+1)=V, T(+1)=U, E(+1)=F.
+Word becomes: R P N Q V U F C. Code is RFUVQNPC. This is reversed!
+Let's try reversing all letters and then adding +1.
+COMPUTER reversed: R E T U P M O C.
+Now add +1 to ALL letters EXCEPT first and last?
+Wait, if R and C remain same, and E(+1)=F, T(+1)=U, U(+1)=V, P(+1)=Q, M(+1)=N, O(+1)=P.
+This gives R F U V Q N P C. This perfectly matches the code!
+Logic: Reverse the word. Keep the first and last letters of the reversed word unchanged. Add +1 to all the middle letters.
+Let's apply to 'MEDICINE':
+Reverse: E N I C I D E M
+Keep first and last unchanged: E _ _ _ _ _ _ M
+Middle letters +1:
+N(+1) = O
+I(+1) = J
+C(+1) = D
+I(+1) = J
+D(+1) = E
+E(+1) = F
+Result: E O J D J E F M.
+This matches option A.
+
+Q11. In a certain code, 'POUND' is coded as '161521144'. How is 'CLEAN' coded?
+(A) 3125114
+(B) 3125113
+(C) 3115114
+(D) 3125214
+Answer: A
+Explanation: 
+Wait, this is Number Coding, not Letter Coding. I should stick to letters for this subtopic.
+Let me change Q11 to Letter Coding.
+Q11. In a certain code, 'VICTORY' is written as 'YLFWRUB'. How will 'SUCCESS' be written?
+(A) VXFFHVV
+(B) VXEEHVV
+(C) VXFFIVV
+(D) VXFFHUW
+Answer: A
+Explanation: 
+Let's analyze 'VICTORY' -> 'YLFWRUB'.
+V(22) + 3 = 25(Y)
+I(9) + 3 = 12(L)
+C(3) + 3 = 6(F)
+T(20) + 3 = 23(W)
+O(15) + 3 = 18(R)
+R(18) + 3 = 21(U)
+Y(25) + 3 = 2(B)
+The pattern is +3 for all letters.
+Similarly, for 'SUCCESS':
+S(19) + 3 = 22(V)
+U(21) + 3 = 24(X)
+C(3) + 3 = 6(F)
+C(3) + 3 = 6(F)
+E(5) + 3 = 8(H)
+S(19) + 3 = 22(V)
+S(19) + 3 = 22(V)
+The code is VXFFHVV.
+
+Q12. If 'DELHI' is coded as 'CCIDD', how will 'BOMBAY' be coded?
+(A) AMJXVS
+(B) AMJXVT
+(C) AMJWVS
+(D) AMJWVT
+Answer: A
+Explanation: 
+Let's analyze 'DELHI' -> 'CCIDD'.
+D(4) - 1 = 3(C)
+E(5) - 2 = 3(C)
+L(12) - 3 = 9(I)
+H(8) - 4 = 4(D)
+I(9) - 5 = 4(D)
+The pattern is -1, -2, -3, -4, -5.
+Similarly, for 'BOMBAY':
+B(2) - 1 = 1(A)
+O(15) - 2 = 13(M)
+M(13) - 3 = 10(J)
+B(2) - 4 = 28 - 4 = 24(X)
+A(1) - 5 = 27 - 5 = 22(V)
+Y(25) - 6 = 19(S)
+The code is AMJXVS.
+
+Q13. In a certain code language, 'NATURE' is written as 'MASUQE'. How will 'FAMINE' be written in that code language?
+(A) EZLIME
+(B) EALIME
+(C) EALJME
+(D) EZLHME
+Answer: B
+Explanation: 
+Let's analyze 'NATURE' -> 'MASUQE'.
+N(14) - 1 = 13(M)
+A(1) -> A(1) (Vowel unchanged)
+T(20) - 1 = 19(S)
+U(21) -> U(21) (Vowel unchanged)
+R(18) - 1 = 17(Q)
+E(5) -> E(5) (Vowel unchanged)
+Logic: Consonants are shifted -1, Vowels remain unchanged.
+Similarly, for 'FAMINE':
+F(Cons) - 1 = E
+A(Vow) -> A
+M(Cons) - 1 = L
+I(Vow) -> I
+N(Cons) - 1 = M
+E(Vow) -> E
+The code is EALIME.
+
+Q14. If 'ROAST' is coded as 'PQYUR', how will 'SLOPPY' be coded?
+(A) QJMNOW
+(B) QJNMOW
+(C) QKMNOW
+(D) QJMNPW
+Answer: A
+Explanation: 
+Let's analyze 'ROAST' -> 'PQYUR'.
+R(18) - 2 = 16(P)
+O(15) + 2 = 17(Q)
+A(1) - 2 = 25(Y)
+S(19) + 2 = 21(U)
+T(20) - 2 = 18(R)
+The pattern is -2, +2, -2, +2, -2.
+Similarly, for 'SLOPPY':
+S(19) - 2 = 17(Q)
+L(12) + 2 = 14(J? No, L is 12, 12+2=14 is N). Wait, let's recalculate option A.
+If option A is QNMNOW. Let's fix option A.
+Let's trace SLOPPY with -2, +2, -2, +2, -2, +2:
+S(19) - 2 = 17(Q)
+L(12) + 2 = 14(N)
+O(15) - 2 = 13(M)
+P(16) + 2 = 18(R)
+P(16) - 2 = 14(N)
+Y(25) + 2 = 27(A)
+Code should be QNMRNA.
+Let me rewrite Q14 completely to match a simpler logic and options.
+
+Q14 (Updated Text):
+Q14. In a certain code, 'ROAST' is coded as 'SPBTV'. How is 'FLUTE' coded?
+(A) GMVUF
+(B) GMVVE
+(C) GNVUF
+(D) GMWUF
+Answer: A
+Explanation: 
+Each letter in 'ROAST' is shifted +1 step forward.
+R(+1)=S, O(+1)=P, A(+1)=B, S(+1)=T, T(+1)=V (Wait, T+1 is U. Let's make it SPBUU).
+Let's use a different logic: +1, +1, +1, +1, +1.
+R(+1)=S, O(+1)=P, A(+1)=B, S(+1)=T, T(+1)=U. Code: SPBTU.
+Let's just use +1 for all.
+For 'FLUTE': F(+1)=G, L(+1)=M, U(+1)=V, T(+1)=U, E(+1)=F. Code is GMVUF.
+Question: 'ROAST' is coded as 'SPBTU'. How is 'FLUTE' coded?
+
+Let me update Q14 again cleanly:
+Q14. In a certain code, 'ROAST' is coded as 'SPBTU'. How is 'FLUTE' coded?
+(A) GMVUF
+(B) GMVVE
+(C) GNVUF
+(D) GMWUF
+Answer: A
+Explanation: 
+Each letter in the word is shifted +1 step forward.
+R(+1)=S, O(+1)=P, A(+1)=B, S(+1)=T, T(+1)=U.
+For 'FLUTE':
+F(+1)=G, L(+1)=M, U(+1)=V, T(+1)=U, E(+1)=F.
+The code is GMVUF.
+
+Q15. If in a code language, 'MACHINE' is coded as 'LBBIHOD', how will 'MONSTER' be coded?
+(A) LNOTSDQ
+(B) NNOTSDQ
+(C) LNNTSDQ
+(D) LPOUSFS
+Answer: A
+Explanation: 
+Let's analyze 'MACHINE' -> 'LBBIHOD'.
+M(13) - 1 = 12(L)
+A(1) + 1 = 2(B)
+C(3) - 1 = 2(B)
+H(8) + 1 = 9(I)
+I(9) - 1 = 8(H)
+N(14) + 1 = 15(O)
+E(5) - 1 = 4(D)
+The pattern is alternating -1 and +1.
+Similarly, for 'MONSTER':
+M(13) - 1 = 12(L)
+O(15) + 1 = 16(P) (Wait, option A has N. Let's fix option A to LPNTSDQ).
+Let's trace MONSTER with -1, +1, -1, +1, -1, +1, -1:
+M(13) - 1 = 12(L)
+O(15) + 1 = 16(P)
+N(14) - 1 = 13(M)
+S(19) + 1 = 20(T)
+T(20) - 1 = 19(S)
+E(5) + 1 = 6(F)
+R(18) - 1 = 17(Q)
+Code should be LPMTSFQ. Let's change the options.
+
+Q15 (Updated Text):
+Q15. If in a code language, 'MACHINE' is coded as 'LBBIHOD', how will 'MONSTER' be coded?
+(A) LPMTSFQ
+(B) LPNTSFQ
+(C) LPMTRFQ
+(D) LQMTSFQ
+Answer: A
+Explanation: 
+Each letter in the word 'MACHINE' is alternately shifted -1 and +1.
+M(-1) = L, A(+1) = B, C(-1) = B, H(+1) = I, I(-1) = H, N(+1) = O, E(-1) = D.
+Applying the same pattern (-1, +1, -1, +1, -1, +1, -1) to 'MONSTER':
+M(-1) = L
+O(+1) = P
+N(-1) = M
+S(+1) = T
+T(-1) = S
+E(+1) = F
+R(-1) = Q
+The code is LPMTSFQ.

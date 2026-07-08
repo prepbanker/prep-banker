@@ -1,0 +1,408 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "match-the-column",
+  "subtopic": "sentence-matching",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Match the Column\nSubtopic: Sentence Matching",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The company decided to launch its new product\nB. Although he was feeling extremely exhausted\nC. The government has introduced new subsidies\n\nColumn II:\nD. he managed to complete the marathon in record time.\nE. aimed at promoting renewable energy across the state.\nF. ahead of the upcoming holiday season.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "C",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (launching product ahead of holiday season).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. To prevent the spread of the contagious virus\nB. The sudden drop in global oil prices\nC. Before signing the final contract\n\nColumn II:\nD. has significantly impacted the economies of exporting nations.\nE. the authorities imposed a strict nationwide lockdown.\nF. you should carefully read all the terms and conditions.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-E, B-D, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-F, C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with E (prevent virus -> impose lockdown).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The archeological team discovered ancient ruins\nB. In an effort to reduce their carbon footprint\nC. Because the weather was unpredictable\n\nColumn II:\nD. many corporations are adopting hybrid work models.\nE. they decided to carry umbrellas just in case.\nF. dating back to the early Roman empire.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "C",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with F (ancient ruins dating back to Roman empire).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Unless you apologize for your rude behavior\nB. The rapid advancement of artificial intelligence\nC. Not only did she secure the highest grade\n\nColumn II:\nD. presents both unprecedented opportunities and ethical challenges.\nE. but she also received a full scholarship to the university.\nF. I will not allow you to participate in the project.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-E, B-D, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-E, C-D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with F (Unless you apologize -> I will not allow you).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The negotiations were incredibly tense\nB. Due to the lack of sufficient funding\nC. He invested heavily in real estate\n\nColumn II:\nD. hoping to secure a stable passive income for his retirement.\nE. the ambitious infrastructure project had to be shelved indefinitely.\nF. as both nations refused to compromise on border security.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "C",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-F, C-D"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A matches with F (tense negotiations -> refused to compromise).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Match the Column\nSubtopic: Sentence Matching",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The central bank raised interest rates\nB. Whenever the stock market experiences extreme volatility\nC. Despite implementing rigorous austerity measures\n\nColumn II:\nD. the country’s national debt continued to rise steadily.\nE. investors tend to panic and sell off their assets.\nF. in a desperate bid to curb the spiraling inflation.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-D, C-F"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (raise interest rates -> curb inflation).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The CEO resigned amidst allegations\nB. It is imperative that all employees\nC. She had scarcely entered the meeting room\n\nColumn II:\nD. when her manager demanded an immediate progress report.\nE. adhere strictly to the newly formulated safety protocols.\nF. of widespread financial embezzlement and fraud.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with F (resigned amidst allegations of fraud).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Having spent a decade in the military\nB. The persistent rumors regarding a hostile takeover\nC. While the initial investment is quite substantial\n\nColumn II:\nD. the long-term operational savings make it highly lucrative.\nE. he developed a strong sense of discipline and leadership.\nF. caused a significant fluctuation in the company's share price.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-D, C-F"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with E (decade in military -> discipline).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The sudden surge in remote working\nB. Only by collaborating seamlessly across departments\nC. The local municipality launched a campaign\n\nColumn II:\nD. to educate citizens on effective waste segregation techniques.\nE. can the organization hope to achieve its quarterly targets.\nF. has catalyzed the demand for robust cybersecurity solutions.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-D, B-E, C-F"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "A matches with F (surge in remote working -> demand for cybersecurity).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. If the regulatory board fails to intervene promptly\nB. Her meticulous attention to detail\nC. The historical documentary was lauded\n\nColumn II:\nD. for its objective analysis and rare archival footage.\nE. the environmental degradation will reach an irreversible tipping point.\nF. ensured that the complex financial audit was flawless.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-F, C-E"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-D, C-F"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with E (fails to intervene -> irreversible tipping point).",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Match the Column\nSubtopic: Sentence Matching",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Scarcely had the central bank announced the stimulus package\nB. The phenomenon of quantum entanglement\nC. Providing equitable access to high-speed internet\n\nColumn II:\nD. is now considered a fundamental human right by several international bodies.\nE. when the major stock indices rallied to record highs.\nF. continues to baffle physicists with its counter-intuitive implications.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-E, B-D, C-F"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with E (Scarcely... when...).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The treaty was intentionally drafted with ambiguous language\nB. Had the intelligence agencies coordinated their efforts\nC. The proliferation of deeply convincing synthetic media\n\nColumn II:\nD. poses a severe threat to the integrity of democratic elections.\nE. they could have easily thwarted the sophisticated cyber-attack.\nF. allowing participating nations to interpret it to their domestic advantage.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A matches with F (ambiguous language -> interpret to domestic advantage).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. The sheer magnitude of the logistical challenge\nB. Lest the proprietary algorithms fall into the hands of competitors\nC. Driven by an insatiable curiosity about the cosmos\n\nColumn II:\nD. the brilliant astrophysicist dedicated her life to studying dark matter.\nE. the corporation isolated its core research servers from the main network.\nF. required the mobilization of resources across three different continents.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (magnitude of challenge -> required mobilization).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Match the halves in Column I with those in Column II to form meaningful sentences.\nColumn I:\nA. Not only did the draconian policies stifle grassroots innovation\nB. The symbiotic relationship between the fungi and the tree roots\nC. An overriding reliance on subjective human intuition\n\nColumn II:\nD. often leads to catastrophic errors in complex statistical forecasting.\nE. facilitates the exchange of vital nutrients essential for survival.\nF. but they also triggered a massive brain drain to neighboring countries.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                },
+                {
+                  "label": "A",
+                  "text": "A-F, B-E, C-D"
+                },
+                {
+                  "label": "B",
+                  "text": "A-E, B-F, C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D, B-E, C-F"
+                },
+                {
+                  "label": "D",
+                  "text": "A-F, B-D, C-E"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A matches with F (Not only... but they also...).",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

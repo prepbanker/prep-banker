@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "syllogism",
+  "subtopic": "basic-syllogism",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "In each of the questions below, two statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follows from the given statements, disregarding commonly known facts.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Statements:\nSome cats are dogs.\nAll dogs are birds.\nConclusions:\nI. Some cats are birds.\nII. Some birds are dogs.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both conclusion I and II follow"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Statement 1: 'Some cats are dogs' means there is an intersection between Cats and Dogs.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Statements:\nAll pens are pencils.\nNo pencil is an eraser.\nConclusions:\nI. No pen is an eraser.\nII. Some pens are erasers.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither conclusion I nor II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both conclusion I and II follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Statement 1: 'All pens are pencils' means the Pens circle is entirely inside the Pencils circle.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Statements:\nSome tables are chairs.\nSome chairs are beds.\nConclusions:\nI. Some tables are beds.\nII. No table is a bed.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Neither conclusion I nor II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both conclusion I and II follow"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Statement 1: Tables intersect Chairs.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Statements:\nAll apples are bananas.\nAll bananas are cherries.\nConclusions:\nI. All apples are cherries.\nII. Some cherries are apples.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Both conclusion I and II follow"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Statement 1 & 2: Apples are inside Bananas, which are inside Cherries. (Concentric circles).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Statements:\nSome cars are buses.\nNo bus is a train.\nConclusions:\nI. Some cars are not trains.\nII. All cars are trains.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Either conclusion I or II follows"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Statement 1: Cars intersect Buses.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "In each of the questions below, three statements are given followed by some conclusions. Decide which of the given conclusions logically follows.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Statements:\nAll rains are clouds.\nSome clouds are storms.\nNo storm is a thunder.\nConclusions:\nI. Some rains being storms is a possibility.\nII. Some clouds are not thunders.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Conclusion I: Rains are inside Clouds. Clouds intersect Storms. There is no direct negative relation between Rains and Storms, so they can intersect. Thus, possibility is True.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Statements:\nSome books are pages.\nAll pages are covers.\nSome covers are words.\nConclusions:\nI. Some books are covers.\nII. Some pages being words is a possibility.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Conclusion I: Books intersect Pages, and all Pages are inside Covers. Therefore, the intersection of Books and Pages is also inside Covers. Thus, some books are covers. (True)",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Statements:\nNo blue is red.\nAll red are green.\nSome green are yellow.\nConclusions:\nI. Some green are not blue.\nII. All blue being green is a possibility.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only conclusion II follows"
+                },
+                {
+                  "label": "C",
+                  "text": "Both conclusion I and II follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Neither conclusion I nor II follows"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Conclusion I: All Red are Green. This means a part of Green is Red. Since no Red is Blue, that specific part of Green (which is Red) can never be Blue. Thus, some green are not blue. (True)",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Statements:\nAll waters are oceans.\nAll oceans are rivers.\nNo river is a lake.\nConclusions:\nI. No ocean is a lake.\nII. Some rivers are waters.\nIII. All waters being lakes is a possibility.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All I, II, and III follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Conclusion I: Oceans are entirely inside Rivers. Since no River is a Lake, Oceans cannot touch Lakes. Thus, no ocean is a lake. (True)",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Statements:\nSome tigers are lions.\nNo lion is a cheetah.\nSome cheetahs are panthers.\nConclusions:\nI. Some tigers are not cheetahs.\nII. Some panthers are not lions.\nIII. No tiger is a panther.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only conclusion I follows"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All conclusions follow"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Conclusion I: Tigers intersect Lions, and no Lion is a Cheetah. The part of Tigers that is Lions cannot be Cheetahs. Thus, some tigers are not cheetahs. (True)",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "In each of the questions below, four statements are given followed by some conclusions. Decide which of the given conclusions logically follows.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Statements:\nAll stars are moons.\nSome moons are planets.\nNo planet is a sun.\nAll suns are galaxies.\nConclusions:\nI. Some galaxies are not planets.\nII. All stars being suns is a possibility.\nIII. Some moons are not suns.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All I, II, and III follow"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Conclusion I: Suns are inside Galaxies. Since no Sun is a Planet, the part of Galaxies that is Suns can never be Planets. Thus, some galaxies are not planets. (True)",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Statements:\nSome metals are irons.\nAll irons are steels.\nNo steel is copper.\nSome coppers are zincs.\nConclusions:\nI. Some metals are not coppers.\nII. Some zincs are not steels.\nIII. All irons being zincs is a possibility.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only I and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All I, II, and III follow"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Conclusion I: Metals intersect Irons, which are entirely inside Steels. So, Metals intersect Steels. Since no Steel is Copper, the part of Metals overlapping with Steels cannot be Coppers. Thus, some metals are not coppers. (True)",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Statements:\nNo apple is an orange.\nSome oranges are grapes.\nAll grapes are melons.\nNo melon is a banana.\nConclusions:\nI. Some grapes are not apples.\nII. No orange is a banana.\nIII. Some melons are not apples.\nIV. All bananas being apples is a possibility.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I, III, and IV follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I and II follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only I, II, and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Conclusion I: Grapes intersect Oranges. Since no Orange is an Apple, the part of Grapes that is Oranges cannot be Apples. (True)",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Statements:\nAll squares are circles.\nSome circles are rectangles.\nAll rectangles are triangles.\nNo triangle is a cone.\nConclusions:\nI. Some squares are rectangles.\nII. All circles being triangles is a possibility.\nIII. Some circles are not cones.\nIV. No rectangle is a cone.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only II, III, and IV follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I, II, and III follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II and III follow"
+                },
+                {
+                  "label": "D",
+                  "text": "Only III and IV follow"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Conclusion I: Squares are inside Circles. Circles intersect Rectangles. There is no direct link to prove Squares intersect Rectangles. (False)",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Statements:\nSome phones are laptops.\nNo laptop is a tablet.\nAll tablets are computers.\nSome computers are devices.\nConclusions:\nI. Some phones are not tablets.\nII. Some computers are not laptops.\nIII. All devices being tablets is a possibility.\nIV. All phones being computers is a possibility.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only I, II, and III follow"
+                },
+                {
+                  "label": "B",
+                  "text": "Only I, II, and IV follow"
+                },
+                {
+                  "label": "C",
+                  "text": "Only II, III, and IV follow"
+                },
+                {
+                  "label": "D",
+                  "text": "All I, II, III, and IV follow"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Conclusion I: Phones intersect Laptops. Since no Laptop is a Tablet, the intersection part of Phones cannot be Tablets. (True)",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

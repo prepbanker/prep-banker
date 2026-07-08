@@ -1,0 +1,285 @@
+----------------------------------------
+Topic: Puzzles
+Subtopic: Box Puzzle
+----------------------------------------
+
+Directions (Q1–Q2): Read the following information carefully and answer the questions.
+
+Five boxes — P, Q, R, S, and T — are stacked one above the other from Position 1 (bottom) to Position 5 (top). Only one box occupies each position.
+
+• Box Q is at the top.
+• Box T is at the bottom.
+• Box P is immediately above Box T.
+• Box S is immediately below Box Q.
+• Box R is placed between Box P and Box S (not adjacent to either).
+
+Q1. Which box is placed at Position 3?
+(A) Box P
+(B) Box R
+(C) Box S
+(D) Box T
+
+Answer: B
+Explanation:
+Step 1: Box T is at the bottom → Position 1.
+Step 2: Box Q is at the top → Position 5.
+Step 3: Box P is immediately above Box T → P is at Position 2.
+Step 4: Box S is immediately below Box Q → S is at Position 4.
+Step 5: Box R is between P (Position 2) and S (Position 4) → R is at Position 3.
+Final Arrangement (bottom to top): T(1) → P(2) → R(3) → S(4) → Q(5)
+Answer: Box R → (B)
+
+----------------------------------------
+
+Q2. How many boxes are placed between Box T and Box Q?
+(A) 2
+(B) 3
+(C) 1
+(D) 4
+
+Answer: B
+Explanation:
+Box T is at Position 1 and Box Q is at Position 5.
+Boxes in between: P (Position 2), R (Position 3), S (Position 4) → 3 boxes.
+Answer: 3 → (B)
+
+----------------------------------------
+
+Directions (Q3–Q5): Read the following information carefully and answer the questions.
+
+Five boxes — Box A, Box B, Box C, Box D, and Box E — are stacked from Position 1 (bottom) to Position 5 (top). Each box is of a different colour: Blue, Red, Green, Yellow, and White.
+
+• Box E is at the top and is Red.
+• Box A is immediately below Box E and is Green.
+• Box C is at the bottom and is Yellow.
+• Box D is immediately above Box C and is Blue.
+• Box B is placed between Box D and Box A and is White.
+
+Refer to diagram: SVG/Q3.svg
+
+Q3. Which box is placed at Position 3?
+(A) Box A
+(B) Box D
+(C) Box B
+(D) Box C
+
+Answer: C
+Explanation:
+Step 1: Box C (Yellow) is at Position 1. Box D (Blue) is immediately above C → D at Position 2.
+Step 2: Box E (Red) is at Position 5. Box A (Green) is immediately below E → A at Position 4.
+Step 3: Box B (White) is between D (Position 2) and A (Position 4) → B at Position 3.
+Final Arrangement (bottom to top): C(1) → D(2) → B(3) → A(4) → E(5)
+Answer: Box B → (C)
+
+----------------------------------------
+
+Q4. What colour is the box placed at Position 2?
+(A) Red
+(B) Green
+(C) White
+(D) Blue
+
+Answer: D
+Explanation:
+From the arrangement: Position 2 = Box D, and Box D is Blue.
+Answer: Blue → (D)
+
+----------------------------------------
+
+Q5. How many boxes are placed above Box B?
+(A) 1
+(B) 2
+(C) 3
+(D) 0
+
+Answer: B
+Explanation:
+Box B is at Position 3. Boxes above Position 3: Box A (Position 4) and Box E (Position 5) → 2 boxes.
+Answer: 2 → (B)
+
+----------------------------------------
+
+Directions (Q6–Q9): Read the following information carefully and answer the questions.
+
+Six boxes — J, K, L, M, N, and O — are stacked from Position 1 (bottom) to Position 6 (top). Each box contains a different item: Book, Pen, Ruler, Eraser, Pencil, and Sharpener.
+
+• Box O is at Position 1 and contains an Eraser.
+• Box M is at Position 2 and contains a Pencil.
+• Box J is at Position 3 and contains a Ruler.
+• Box K is immediately above Box J and contains a Book.
+• Box L is at the top and contains a Pen.
+• Box N is immediately below Box L and contains a Sharpener.
+
+Refer to diagram: SVG/Q6.svg
+
+Q6. Which box is placed at Position 5?
+(A) Box K
+(B) Box L
+(C) Box N
+(D) Box M
+
+Answer: C
+Explanation:
+Step 1: O(1), M(2), J(3) are directly given.
+Step 2: K is immediately above J (Position 3) → K at Position 4.
+Step 3: L is at Position 6. N is immediately below L → N at Position 5.
+Final Arrangement (bottom to top): O(1) → M(2) → J(3) → K(4) → N(5) → L(6)
+Answer: Box N → (C)
+
+----------------------------------------
+
+Q7. What item does Box K contain?
+(A) Ruler
+(B) Book
+(C) Pen
+(D) Sharpener
+
+Answer: B
+Explanation:
+Box K is at Position 4 and contains a Book (stated in the clues).
+Answer: Book → (B)
+
+----------------------------------------
+
+Q8. Which box contains the Pen?
+(A) Box L
+(B) Box N
+(C) Box K
+(D) Box O
+
+Answer: A
+Explanation:
+Box L is at Position 6 (top) and contains the Pen (as given in clues).
+Answer: Box L → (A)
+
+----------------------------------------
+
+Q9. How many boxes are placed between Box M and Box L?
+(A) 2
+(B) 3
+(C) 4
+(D) 1
+
+Answer: B
+Explanation:
+Box M is at Position 2; Box L is at Position 6.
+Boxes between them: J (Position 3), K (Position 4), N (Position 5) → 3 boxes.
+Answer: 3 → (B)
+
+----------------------------------------
+
+Q10. Eight boxes are stacked from Position 1 (bottom) to Position 8 (top). Box W is placed exactly 3 positions above Box X. Box X is at Position 2. Box Y is placed immediately above Box W. Which position does Box Y occupy?
+(A) Position 6
+(B) Position 5
+(C) Position 4
+(D) Position 7
+
+Answer: A
+Explanation:
+Step 1: Box X is at Position 2.
+Step 2: Box W is exactly 3 positions above Box X → W at Position 2 + 3 = Position 5.
+Step 3: Box Y is immediately above Box W (Position 5) → Y at Position 6.
+Answer: Position 6 → (A)
+
+----------------------------------------
+
+Directions (Q11–Q14): Read the following information carefully and answer the questions.
+
+Seven boxes — A, B, C, D, E, F, and G — are stacked from Position 1 (bottom) to Position 7 (top). Each box contains a different fruit: Apple, Mango, Banana, Orange, Grapes, Papaya, and Guava.
+
+• Box G is at the top and contains Apple.
+• Box A is at Position 1 and contains Mango.
+• Box F is immediately below Box G and contains Grapes.
+• Box B is at Position 4 and contains Papaya.
+• Box C is immediately above Box A and contains Orange.
+• Box E is immediately below Box B and contains Banana.
+• Box D is immediately below Box F and contains Guava.
+
+Refer to diagram: SVG/Q11.svg
+
+Q11. Which box is placed at Position 5?
+(A) Box D
+(B) Box F
+(C) Box B
+(D) Box E
+
+Answer: A
+Explanation:
+Step 1: A at Position 1. C immediately above A → C at Position 2.
+Step 2: B at Position 4. E immediately below B → E at Position 3.
+Step 3: G at Position 7. F immediately below G → F at Position 6.
+Step 4: D immediately below F (Position 6) → D at Position 5.
+Final Arrangement (bottom to top): A(1) → C(2) → E(3) → B(4) → D(5) → F(6) → G(7)
+Answer: Box D → (A)
+
+----------------------------------------
+
+Q12. Which fruit is contained in Box C?
+(A) Mango
+(B) Banana
+(C) Orange
+(D) Guava
+
+Answer: C
+Explanation:
+Box C is at Position 2 (immediately above Box A) and contains Orange, as stated in the clues.
+Answer: Orange → (C)
+
+----------------------------------------
+
+Q13. How many boxes are placed between Box E and Box G?
+(A) 2
+(B) 3
+(C) 4
+(D) 1
+
+Answer: B
+Explanation:
+Box E is at Position 3; Box G is at Position 7.
+Boxes between them: B (Position 4), D (Position 5), F (Position 6) → 3 boxes.
+Answer: 3 → (B)
+
+----------------------------------------
+
+Q14. Which box is placed immediately above Box D?
+(A) Box B
+(B) Box G
+(C) Box F
+(D) Box E
+
+Answer: C
+Explanation:
+Box D is at Position 5. The box at Position 6 (immediately above) is Box F.
+Answer: Box F → (C)
+
+----------------------------------------
+
+Q15. Eight boxes are stacked from Position 1 (bottom) to Position 8 (top). The weights of the boxes are 10 kg, 15 kg, 20 kg, 25 kg, 30 kg, 35 kg, 40 kg, and 45 kg (each weight used exactly once).
+
+• The 10 kg box is at Position 1.
+• The 15 kg box is immediately above the 10 kg box.
+• The 20 kg box is at Position 3.
+• The 35 kg box is at Position 4.
+• The 30 kg box is at Position 5.
+• The 25 kg box is immediately above the 30 kg box.
+• The 45 kg box is at Position 8.
+• The 40 kg box is immediately below the 45 kg box.
+
+If the boxes at Positions 3 to 6 are rearranged such that the heaviest box among them is placed at Position 3 and the lightest is placed at Position 6 (weights decreasing upward within this range), what will be the weight of the box at Position 4 after rearrangement?
+(A) 35 kg
+(B) 25 kg
+(C) 30 kg
+(D) 20 kg
+
+Answer: C
+Explanation:
+Step 1: Derive original arrangement:
+  Pos 1: 10 kg | Pos 2: 15 kg | Pos 3: 20 kg | Pos 4: 35 kg
+  Pos 5: 30 kg | Pos 6: 25 kg | Pos 7: 40 kg | Pos 8: 45 kg
+Step 2: Weights at Positions 3 to 6: 20 kg, 35 kg, 30 kg, 25 kg.
+Step 3: Rearrange so heaviest is at Position 3, decreasing upward:
+  Pos 3: 35 kg (heaviest) | Pos 4: 30 kg | Pos 5: 25 kg | Pos 6: 20 kg (lightest)
+Step 4: Weight at Position 4 after rearrangement = 30 kg.
+Answer: 30 kg → (C)
+
+----------------------------------------

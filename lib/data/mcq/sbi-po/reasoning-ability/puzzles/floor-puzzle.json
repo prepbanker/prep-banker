@@ -1,0 +1,440 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "puzzles",
+  "subtopic": "floor-puzzle",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFour persons — Riya, Sam, Tom, and Uma — live in a 4-floor building (Floor 1 is the lowest, Floor 4 is the highest). Each person lives on a different floor.\n- Tom lives on an odd-numbered floor.\n- Riya lives immediately above Sam.\n- Uma does not live on Floor 4.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Who lives on Floor 4?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Riya"
+                },
+                {
+                  "label": "B",
+                  "text": "Sam"
+                },
+                {
+                  "label": "C",
+                  "text": "Tom"
+                },
+                {
+                  "label": "D",
+                  "text": "Uma"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: Tom lives on an odd-numbered floor → Tom can be on Floor 1 or Floor 3.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Who lives immediately below Riya?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Tom"
+                },
+                {
+                  "label": "B",
+                  "text": "Uma"
+                },
+                {
+                  "label": "C",
+                  "text": "Sam"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "From the arrangement established in Q1:",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nFive persons — Anil, Bhanu, Chitra, Dev, and Esha — live on five different floors of a building numbered 1 (lowest) to 5 (highest).\n- Anil lives on an even-numbered floor.\n- Bhanu lives somewhere below Esha but above Dev.\n- Chitra lives on the topmost floor.\n- Dev lives on Floor 1.\n- Esha is not on Floor 4.",
+          "diagram": "/mcq-assets/sbi-po/reasoning-ability/puzzles/floor-puzzle/Q3.svg",
+          "questions": [
+            {
+              "id": 3,
+              "text": "On which floor does Bhanu live?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Floor 2"
+                },
+                {
+                  "label": "B",
+                  "text": "Floor 3"
+                },
+                {
+                  "label": "C",
+                  "text": "Floor 4"
+                },
+                {
+                  "label": "D",
+                  "text": "Floor 5"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: Chitra is on Floor 5.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Who lives on Floor 4?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Esha"
+                },
+                {
+                  "label": "B",
+                  "text": "Anil"
+                },
+                {
+                  "label": "C",
+                  "text": "Bhanu"
+                },
+                {
+                  "label": "D",
+                  "text": "Chitra"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "From the arrangement derived in Q3:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "How many persons live between Bhanu and Chitra?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1"
+                },
+                {
+                  "label": "B",
+                  "text": "2"
+                },
+                {
+                  "label": "C",
+                  "text": "3"
+                },
+                {
+                  "label": "D",
+                  "text": "0"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Bhanu is on Floor 2 and Chitra is on Floor 5.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the question.\n\nSix persons — P, Q, R, S, T, and U — live on six different floors numbered 1 (lowest) to 6 (highest).\n- T lives on an odd-numbered floor.\n- U lives immediately above T.\n- P lives above Q but below S.\n- R lives on Floor 6.\n- S does not live on Floor 5.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Which of the following is the correct order from Floor 1 to Floor 6?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q, T, U, P, S, R"
+                },
+                {
+                  "label": "B",
+                  "text": "Q, P, T, U, S, R"
+                },
+                {
+                  "label": "C",
+                  "text": "T, U, Q, P, S, R"
+                },
+                {
+                  "label": "D",
+                  "text": "T, Q, U, P, S, R"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: R is on Floor 6.",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nSix persons — Arun, Bhanu, Chitra, Dev, Esha, and Farhan — live in a 6-floor building (Floor 1 is the lowest). Each person is from a different city: Mumbai, Delhi, Kolkata, Chennai, Hyderabad, and Pune. No two persons are on the same floor.\n- Farhan lives on the topmost floor and is from Chennai.\n- The person from Pune lives on Floor 5.\n- Dev lives on Floor 4 and is from Delhi.\n- Chitra lives on Floor 3 and is from Mumbai.\n- Bhanu is from Kolkata and lives below Chitra.\n- Arun lives on the lowermost floor.\n- The remaining person is from Hyderabad.",
+          "diagram": "/mcq-assets/sbi-po/reasoning-ability/puzzles/floor-puzzle/Q7.svg",
+          "questions": [
+            {
+              "id": 7,
+              "text": "Who is from Pune?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Bhanu"
+                },
+                {
+                  "label": "B",
+                  "text": "Esha"
+                },
+                {
+                  "label": "C",
+                  "text": "Arun"
+                },
+                {
+                  "label": "D",
+                  "text": "Chitra"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: Farhan → Floor 6, Chennai. Dev → Floor 4, Delhi. Chitra → Floor 3, Mumbai.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Which floor does Bhanu live on?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Floor 1"
+                },
+                {
+                  "label": "B",
+                  "text": "Floor 2"
+                },
+                {
+                  "label": "C",
+                  "text": "Floor 3"
+                },
+                {
+                  "label": "D",
+                  "text": "Floor 5"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "From the arrangement in Q7: Bhanu is on Floor 2.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "How many persons live above the person from Mumbai?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "1"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The person from Mumbai is Chitra on Floor 3.",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "directions": "Read the following information and answer the question.\n\nEight persons — A, B, C, D, E, F, G, H — live on Floors 1 to 8 (Floor 1 = lowest).\n- A is 3 floors above B.\n- C lives on Floor 7.\n- D is immediately below C.\n- E lives on the ground floor.\n- F lives between A and G, and G lives above F.\n- H lives on Floor 8.\n- B lives on Floor 2.",
+          "questions": [
+            {
+              "id": 10,
+              "text": "On which floor does F live?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Floor 4"
+                },
+                {
+                  "label": "B",
+                  "text": "Floor 5"
+                },
+                {
+                  "label": "C",
+                  "text": "Floor 6"
+                },
+                {
+                  "label": "D",
+                  "text": "Floor 3"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: E = Floor 1, B = Floor 2, H = Floor 8, C = Floor 7, D = Floor 6.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nSeven persons — Arun, Bhanu, Chitra, Dev, Esha, Farhan, and Garima — live on seven different floors of a building (Floor 1 = lowest, Floor 7 = highest). Each person has a different profession (Doctor, Engineer, Teacher, Banker, Lawyer, Pilot, Architect) and likes a different colour (Red, Blue, Green, Yellow, White, Orange, Purple). No two persons share a floor, profession, or colour.\n\nClues:\n1. Garima lives on Floor 7 and is a Doctor.\n2. The person who likes Red lives on Floor 7.\n3. Farhan is an Engineer and lives exactly one floor below Garima.\n4. The Banker lives on Floor 4.\n5. Esha is a Teacher and lives on an odd-numbered floor between Farhan and Dev.\n6. Dev lives below Farhan; Dev is an Architect.\n7. Chitra is a Lawyer and lives on Floor 3.\n8. Bhanu is a Pilot and lives on Floor 2.\n9. Arun lives on Floor 1.\n10. The person who likes Blue is an Engineer.\n11. Chitra likes White.\n12. The person on Floor 4 likes Yellow.\n13. Bhanu likes Orange.\n14. Arun likes Purple.\n15. The remaining colour (Green) goes to Esha.",
+          "diagram": "/mcq-assets/sbi-po/reasoning-ability/puzzles/floor-puzzle/Q11.svg",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Who is the Banker?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Esha"
+                },
+                {
+                  "label": "B",
+                  "text": "Dev"
+                },
+                {
+                  "label": "C",
+                  "text": "Farhan"
+                },
+                {
+                  "label": "D",
+                  "text": "Arun"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: Garima = Floor 7 (Doctor, Red). Farhan = Floor 6 (Engineer, Blue — from Clues 3 & 10).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Which colour does Esha like?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Blue"
+                },
+                {
+                  "label": "B",
+                  "text": "Green"
+                },
+                {
+                  "label": "C",
+                  "text": "Yellow"
+                },
+                {
+                  "label": "D",
+                  "text": "Red"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "From the arrangement:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "What is the profession of the person who lives on Floor 1?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Pilot"
+                },
+                {
+                  "label": "B",
+                  "text": "Teacher"
+                },
+                {
+                  "label": "C",
+                  "text": "Architect"
+                },
+                {
+                  "label": "D",
+                  "text": "Banker"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Floor 1 = Arun.",
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "directions": "Read the following information carefully and answer the questions.\n\nEight persons — J, K, L, M, N, O, P, Q — live on eight different floors of a building (Floor 1 = lowest, Floor 8 = highest). Each person works in a different department: HR, Finance, Marketing, IT, Legal, Operations, Sales, and Admin.\n\nClues:\n1. J lives on an even-numbered floor and works in IT.\n2. K lives exactly 3 floors above L.\n3. M works in HR and lives on Floor 8.\n4. N lives on Floor 5.\n5. O lives between J and N (floor number-wise), and O works in Finance.\n6. P works in Legal and lives on a floor that is a perfect square.\n7. Q lives immediately above K.\n8. L works in Admin and lives on Floor 2.\n9. The Marketing person lives on Floor 6.\n10. J lives below N (Floor 5).\n11. The Sales department person lives on Floor 3.\n12. Operations is on Floor 7.",
+          "questions": [
+            {
+              "id": 14,
+              "text": "Who works in Marketing?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "J"
+                },
+                {
+                  "label": "B",
+                  "text": "O"
+                },
+                {
+                  "label": "C",
+                  "text": "N"
+                },
+                {
+                  "label": "D",
+                  "text": "Q"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: M = Floor 8 (HR). L = Floor 2 (Admin). N = Floor 5.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Who lives on Floor 7 and works in which department?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q – Operations"
+                },
+                {
+                  "label": "B",
+                  "text": "O – Finance"
+                },
+                {
+                  "label": "C",
+                  "text": "K – Marketing"
+                },
+                {
+                  "label": "D",
+                  "text": "P – Legal"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Step 1: Operations is on Floor 7 (Clue 12).",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="400" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="650" height="400" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <text x="325" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#212121">Percentage of Budget Allocated vs Spent by 5 Departments</text>
+
+  <!-- Legend -->
+  <rect x="220" y="50" width="15" height="15" fill="#0288d1"/>
+  <text x="245" y="62" font-size="12" fill="#212121">% Allocated</text>
+  <rect x="340" y="50" width="15" height="15" fill="#d32f2f"/>
+  <text x="365" y="62" font-size="12" fill="#212121">% Spent</text>
+
+  <!-- Y-Axis & X-Axis -->
+  <line x1="60" y1="90" x2="60" y2="340" stroke="#424242" stroke-width="2"/>
+  <line x1="60" y1="340" x2="600" y2="340" stroke="#424242" stroke-width="2"/>
+
+  <!-- Y-Axis Grid & Labels (0 to 100%, scaled by 2.5) -->
+  <g font-size="12" fill="#616161" text-anchor="end">
+    <text x="50" y="344">0%</text>
+    <line x1="60" y1="290" x2="600" y2="290" stroke="#eeeeee" stroke-width="1"/>
+    <text x="50" y="294">20%</text>
+    <line x1="60" y1="240" x2="600" y2="240" stroke="#eeeeee" stroke-width="1"/>
+    <text x="50" y="244">40%</text>
+    <line x1="60" y1="190" x2="600" y2="190" stroke="#eeeeee" stroke-width="1"/>
+    <text x="50" y="194">60%</text>
+    <line x1="60" y1="140" x2="600" y2="140" stroke="#eeeeee" stroke-width="1"/>
+    <text x="50" y="144">80%</text>
+    <line x1="60" y1="90" x2="600" y2="90" stroke="#eeeeee" stroke-width="1"/>
+    <text x="50" y="94">100%</text>
+  </g>
+
+  <!-- Stacked / Grouped Bars -->
+  <!-- We will use grouped bars for direct comparison -->
+  <g font-size="11" font-weight="bold" fill="#424242" text-anchor="middle">
+    <!-- Dept A -->
+    <!-- Allocated: 25% -> H: 62.5, Y: 277.5 -->
+    <rect x="90" y="277.5" width="25" height="62.5" fill="#0288d1"/>
+    <text x="102.5" y="272.5">25%</text>
+    <!-- Spent: 80% (of allocated) -> Let's make "Spent" an absolute % of total or % of allocated? 
+         Let's assume "Spent" means "% of the allocated budget that was actually spent". 
+         So 80% means 80% of what was allocated. 
+         Height: 80% -> H: 200, Y: 140 -->
+    <rect x="115" y="140" width="25" height="200" fill="#d32f2f"/>
+    <text x="127.5" y="135">80%</text>
+    <text x="115" y="360" font-size="14">Dept A</text>
+
+    <!-- Dept B -->
+    <!-- Alloc: 15% -> H: 37.5, Y: 302.5 -->
+    <rect x="190" y="302.5" width="25" height="37.5" fill="#0288d1"/>
+    <text x="202.5" y="297.5">15%</text>
+    <!-- Spent: 60% -> H: 150, Y: 190 -->
+    <rect x="215" y="190" width="25" height="150" fill="#d32f2f"/>
+    <text x="227.5" y="185">60%</text>
+    <text x="215" y="360" font-size="14">Dept B</text>
+
+    <!-- Dept C -->
+    <!-- Alloc: 30% -> H: 75, Y: 265 -->
+    <rect x="290" y="265" width="25" height="75" fill="#0288d1"/>
+    <text x="302.5" y="260">30%</text>
+    <!-- Spent: 90% -> H: 225, Y: 115 -->
+    <rect x="315" y="115" width="25" height="225" fill="#d32f2f"/>
+    <text x="327.5" y="110">90%</text>
+    <text x="315" y="360" font-size="14">Dept C</text>
+
+    <!-- Dept D -->
+    <!-- Alloc: 10% -> H: 25, Y: 315 -->
+    <rect x="390" y="315" width="25" height="25" fill="#0288d1"/>
+    <text x="402.5" y="310">10%</text>
+    <!-- Spent: 100% -> H: 250, Y: 90 -->
+    <rect x="415" y="90" width="25" height="250" fill="#d32f2f"/>
+    <text x="427.5" y="85">100%</text>
+    <text x="415" y="360" font-size="14">Dept D</text>
+
+    <!-- Dept E -->
+    <!-- Alloc: 20% -> H: 50, Y: 290 -->
+    <rect x="490" y="290" width="25" height="50" fill="#0288d1"/>
+    <text x="502.5" y="285">20%</text>
+    <!-- Spent: 75% -> H: 187.5, Y: 152.5 -->
+    <rect x="515" y="152.5" width="25" height="187.5" fill="#d32f2f"/>
+    <text x="527.5" y="147.5">75%</text>
+    <text x="515" y="360" font-size="14">Dept E</text>
+  </g>
+</svg>

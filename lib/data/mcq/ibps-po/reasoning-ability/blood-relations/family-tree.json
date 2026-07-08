@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "blood-relations",
+  "subtopic": "family-tree",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Blood Relations\nSubtopic: Family Tree",
+          "questions": [
+            {
+              "id": 1,
+              "text": "A is the father of B. C is the brother of A. F is the sister of B. If M is the father of A, then establish a relationship between F and C.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "F is the daughter of C"
+                },
+                {
+                  "label": "B",
+                  "text": "F is the niece of C"
+                },
+                {
+                  "label": "C",
+                  "text": "F is the sister of C"
+                },
+                {
+                  "label": "D",
+                  "text": "F is the cousin of C"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A is the father of B and F (since F is B's sister). C is the brother of A. Therefore, C is the uncle of F. Thus, F is the niece of C.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Pointing to a photograph of a boy, Suresh said, \"He is the son of the only son of my mother.\" How is Suresh related to that boy?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Brother"
+                },
+                {
+                  "label": "B",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "C",
+                  "text": "Cousin"
+                },
+                {
+                  "label": "D",
+                  "text": "Father"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"The only son of my mother\" is Suresh himself. Therefore, the boy is the son of Suresh. Hence, Suresh is the father of the boy.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "If A is the brother of B; B is the sister of C; and C is the father of D, how D is related to A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Brother"
+                },
+                {
+                  "label": "B",
+                  "text": "Sister"
+                },
+                {
+                  "label": "C",
+                  "text": "Nephew"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "A is the brother of B. B is the sister of C. C is the father of D. This means A, B, and C are siblings, and D is the child of C. Therefore, A is the uncle of D. However, the gender of D is not given, so D could be a nephew or a niece. The exact relationship cannot be determined.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Pointing to a woman, a man says, \"Her mother is the only daughter of my mother-in-law.\" How is the man related to the woman?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Father"
+                },
+                {
+                  "label": "B",
+                  "text": "Husband"
+                },
+                {
+                  "label": "C",
+                  "text": "Brother"
+                },
+                {
+                  "label": "D",
+                  "text": "Uncle"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"Only daughter of my mother-in-law\" is the man's wife. Therefore, the woman's mother is the man's wife. This means the man is the father of the woman.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Nephew"
+                },
+                {
+                  "label": "B",
+                  "text": "Son"
+                },
+                {
+                  "label": "C",
+                  "text": "Cousin"
+                },
+                {
+                  "label": "D",
+                  "text": "Uncle"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Brother of her mother\" is the woman's uncle (maternal uncle). The son of her uncle is her cousin. Therefore, the man is the woman's cousin.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Blood Relations\nSubtopic: Family Tree",
+          "questions": [
+            {
+              "id": 6,
+              "text": "In a family of six persons A, B, C, D, E, and F, there are two married couples. D is the grandmother of A and mother of B. C is the wife of B and mother of F. F is the granddaughter of E. What is the relation of A to F?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Brother"
+                },
+                {
+                  "label": "B",
+                  "text": "Sister"
+                },
+                {
+                  "label": "C",
+                  "text": "Cousin"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "D is the mother of B. C is the wife of B (so B is a male, C is a female). D is the grandmother of A. C is the mother of F. F is the granddaughter of E. Since there are two married couples and D is a grandmother, D must be married to E (E is the grandfather). A and F are children of B and C. So A and F are siblings. However, the gender of A is not given. Therefore, A could be a brother or a sister to F. Cannot be determined.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Introducing a girl, Vipin said, \"Her mother is the only daughter of my mother-in-law.\" How is Vipin related to the girl?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "B",
+                  "text": "Father"
+                },
+                {
+                  "label": "C",
+                  "text": "Brother"
+                },
+                {
+                  "label": "D",
+                  "text": "Husband"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Only daughter of my mother-in-law\" is Vipin's wife. The girl's mother is Vipin's wife. Therefore, Vipin is the father of the girl.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Pointing to a person, a man said to a woman, \"His mother is the only daughter of your father.\" How was the woman related to the person?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Aunt"
+                },
+                {
+                  "label": "B",
+                  "text": "Mother"
+                },
+                {
+                  "label": "C",
+                  "text": "Wife"
+                },
+                {
+                  "label": "D",
+                  "text": "Daughter"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Only daughter of your father\" is the woman herself. Therefore, the person's mother is the woman. Hence, the woman is the mother of the person.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Q's mother is the sister of P and daughter of M. S is the daughter of P and sister of T. How is M related to T?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Grandmother"
+                },
+                {
+                  "label": "B",
+                  "text": "Father"
+                },
+                {
+                  "label": "C",
+                  "text": "Grandfather"
+                },
+                {
+                  "label": "D",
+                  "text": "Either Grandmother or Grandfather"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Q's mother (let's call her X) is the sister of P and daughter of M. So, X and P are siblings, and M is their parent. S is the daughter of P and sister of T. So, S and T are children of P. Since P is the child of M, T is the grandchild of M. Therefore, M is the grandparent of T. Since M's gender is unknown, M is either Grandmother or Grandfather.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "A and B are young ones of C. If C is the father of A but B is not the son of C. How are B and C related?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Niece and Uncle"
+                },
+                {
+                  "label": "B",
+                  "text": "Daughter and Father"
+                },
+                {
+                  "label": "C",
+                  "text": "Nephew and Uncle"
+                },
+                {
+                  "label": "D",
+                  "text": "Daughter and Mother"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A and B are children of C. C is the father of A (and thus the father of B). If B is not the son of C, then B must be the daughter of C. Therefore, the relationship is Daughter and Father.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Blood Relations\nSubtopic: Family Tree",
+          "questions": [
+            {
+              "id": 11,
+              "text": "In a joint family of 8 members A, B, C, D, E, F, G, and H, there are three generations and three married couples. A is the father of C and grandfather of H. B is the mother-in-law of E. F is the brother of C and the father of G. D is the sister-in-law of C. E is the mother of H. How is C related to G?\n(Refer to diagram: SVG/Q11.svg)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Aunt"
+                },
+                {
+                  "label": "B",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "C",
+                  "text": "Mother"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A is the father of C and F. Since A is the grandfather and B is the mother-in-law of E, A and B are a married couple. B is the mother of C and F. E is a female (mother of H). D is a female (sister-in-law of C). The two couples in the second generation must be (C & E) and (F & D) because D and E are different people. If E is married to F, D cannot be married to C if C is female (no spouse available). For both E and D to be daughters-in-law of B, C and F must both be males. Thus, C is married to E, and F is married to D. Since C is a male and F's brother, C is the uncle of F's child, G.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Pointing to a woman in a picture, a man says, \"She is the mother of the father of my wife's only son.\" How is the woman related to the man?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Mother"
+                },
+                {
+                  "label": "B",
+                  "text": "Mother-in-law"
+                },
+                {
+                  "label": "C",
+                  "text": "Grandmother"
+                },
+                {
+                  "label": "D",
+                  "text": "Wife"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"My wife's only son\" is the man's son. \"The father of my wife's only son\" is the man himself. \"The mother of the man\" is the woman in the picture. Therefore, the woman is the mother of the man.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In a family of 7 members P, Q, R, S, T, U, and V, there are two married couples. P is the husband of Q. R is the father of T and grandfather of V. Q is the mother of U. S is the mother-in-law of Q. T is an unmarried female. How is U related to R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Grandson"
+                },
+                {
+                  "label": "B",
+                  "text": "Granddaughter"
+                },
+                {
+                  "label": "C",
+                  "text": "Nephew"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "S is the mother-in-law of Q, and P is the husband of Q. Therefore, P is the son of S. R is the father of T and grandfather of V. Since P and T belong to the same generation and S is P's mother, R and S are a married couple. P and T are their children. Q is the mother of U, so U is the child of P and Q. Since R is the grandfather of V, V must also be a child of P and Q (since T is unmarried). U and V are grandchildren of R. Since the gender of U is not specified, U can be either a grandson or a granddaughter. Therefore, it cannot be determined.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "A family consists of six members M, N, O, P, Q, and R. There are two married couples. M is a doctor and the father of P. U is not a member, let's use Q. Q is a teacher and the mother of R. N is the grandmother of P and is a housewife. O is the brother of M. R is the sister of P. How is O related to R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Brother"
+                },
+                {
+                  "label": "B",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "C",
+                  "text": "Father"
+                },
+                {
+                  "label": "D",
+                  "text": "Grandfather"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "M is the father of P. Q is the mother of R. R is the sister of P. This means P and R are siblings, and their parents are M (father) and Q (mother). So M and Q are a married couple. N is the grandmother of P. So N is the mother of M (since M is the father). O is the brother of M. Since O is M's brother, O is the uncle of M's children (P and R). Therefore, O is the uncle of R.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "In a family of three generations, there are eight members: J, K, L, M, N, O, P, and Q. J is the father of M. N is the only daughter of K. M is married to N. O is the brother of N. P is the son of M. Q is the sister of P. L is the mother of M. How is L related to Q?\n(Refer to diagram: SVG/Q15.svg)",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Grandmother"
+                },
+                {
+                  "label": "B",
+                  "text": "Mother"
+                },
+                {
+                  "label": "C",
+                  "text": "Aunt"
+                },
+                {
+                  "label": "D",
+                  "text": "Sister"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "J is the father of M, and L is the mother of M. Therefore, J and L are married, and M is their son (since N is the only daughter of K, and M is married to N, M must be a male). M and N are married. P is the son of M, and Q is the sister of P. Therefore, P and Q are the children of M and N. L is the mother of M, which means L is the paternal grandmother of M's children (P and Q). Thus, L is the grandmother of Q.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

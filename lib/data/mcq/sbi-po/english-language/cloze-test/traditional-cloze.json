@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "cloze-test",
+  "subtopic": "traditional-cloze",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Cloze Test\nSubtopic: Traditional Cloze\n\nPassage 1 (Questions 1-5):\nThe global economy is currently undergoing a structural transformation as it transitions towards renewable energy. This shift is (1) _______ by a combination of government policies, technological advancements, and increasing corporate awareness regarding climate change. However, this transition is not without its (2) _______. Developing nations, in particular, face significant financial hurdles as they attempt to modernize their aging infrastructure. Furthermore, the (3) _______ phase requires massive capital investment which often leads to short-term economic strain. Despite these issues, experts argue that delaying action will only (4) _______ the long-term ecological and financial costs. Therefore, international cooperation remains (5) _______ if we are to achieve a sustainable and equitable energy future.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the most appropriate word to fill in blank (1).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "hindered"
+                },
+                {
+                  "label": "B",
+                  "text": "driven"
+                },
+                {
+                  "label": "C",
+                  "text": "suppressed"
+                },
+                {
+                  "label": "D",
+                  "text": "obscured"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The sentence discusses the factors pushing or causing the shift towards renewable energy. \"Driven\" means propelled or motivated by, which perfectly fits the context.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the most appropriate word to fill in blank (2).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "benefits"
+                },
+                {
+                  "label": "B",
+                  "text": "resolutions"
+                },
+                {
+                  "label": "C",
+                  "text": "challenges"
+                },
+                {
+                  "label": "D",
+                  "text": "advantages"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The phrase \"not without its...\" followed by mentions of \"financial hurdles\" and \"economic strain\" indicates that the blank must be filled with a negative word. \"Challenges\" fits perfectly.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the most appropriate word to fill in blank (3).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "transitional"
+                },
+                {
+                  "label": "B",
+                  "text": "terminal"
+                },
+                {
+                  "label": "C",
+                  "text": "static"
+                },
+                {
+                  "label": "D",
+                  "text": "finalized"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The passage is discussing the process of moving from fossil fuels to renewable energy. \"Transitional\" refers to the phase of changing from one state to another.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the most appropriate word to fill in blank (4).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "alleviate"
+                },
+                {
+                  "label": "B",
+                  "text": "diminish"
+                },
+                {
+                  "label": "C",
+                  "text": "exacerbate"
+                },
+                {
+                  "label": "D",
+                  "text": "nullify"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The sentence warns against delaying action. Delaying action will make the costs worse. \"Exacerbate\" means to make a problem worse.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the most appropriate word to fill in blank (5).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "trivial"
+                },
+                {
+                  "label": "B",
+                  "text": "optional"
+                },
+                {
+                  "label": "C",
+                  "text": "redundant"
+                },
+                {
+                  "label": "D",
+                  "text": "imperative"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "The sentence concludes that international cooperation is absolutely necessary to achieve a sustainable future. \"Imperative\" means of vital importance or crucial.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Cloze Test\nSubtopic: Traditional Cloze\n\nPassage 1 (Questions 1-5):\nThe global economy is currently undergoing a structural transformation as it transitions towards renewable energy. This shift is (1) _______ by a combination of government policies, technological advancements, and increasing corporate awareness regarding climate change. However, this transition is not without its (2) _______. Developing nations, in particular, face significant financial hurdles as they attempt to modernize their aging infrastructure. Furthermore, the (3) _______ phase requires massive capital investment which often leads to short-term economic strain. Despite these issues, experts argue that delaying action will only (4) _______ the long-term ecological and financial costs. Therefore, international cooperation remains (5) _______ if we are to achieve a sustainable and equitable energy future.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the most appropriate word to fill in blank (6).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "bolster"
+                },
+                {
+                  "label": "B",
+                  "text": "elevate"
+                },
+                {
+                  "label": "C",
+                  "text": "undermine"
+                },
+                {
+                  "label": "D",
+                  "text": "construct"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The context is negative, as comparing oneself to curated realities harms self-esteem. \"Undermine\" means to lessen the effectiveness, power, or ability of something, especially gradually.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the most appropriate word to fill in blank (7).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "negligible"
+                },
+                {
+                  "label": "B",
+                  "text": "steep"
+                },
+                {
+                  "label": "C",
+                  "text": "stagnant"
+                },
+                {
+                  "label": "D",
+                  "text": "fleeting"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage talks about an alarming trend that correlates with smartphone adoption. A \"steep\" increase indicates a sharp, significant rise in anxiety disorders.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the most appropriate word to fill in blank (8).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "exacerbate"
+                },
+                {
+                  "label": "B",
+                  "text": "propagate"
+                },
+                {
+                  "label": "C",
+                  "text": "mitigate"
+                },
+                {
+                  "label": "D",
+                  "text": "ignore"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Educators are implementing programs to reduce or lessen the negative effects of social media. \"Mitigate\" means to make less severe or painful.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the most appropriate word to fill in blank (9).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "navigate"
+                },
+                {
+                  "label": "B",
+                  "text": "bypass"
+                },
+                {
+                  "label": "C",
+                  "text": "dismantle"
+                },
+                {
+                  "label": "D",
+                  "text": "obscure"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Digital literacy programs teach students how to safely interact with and move through the online world. \"Navigate\" means to travel or find one's way through a complex environment.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the most appropriate word to fill in blank (10).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "passive"
+                },
+                {
+                  "label": "B",
+                  "text": "pivotal"
+                },
+                {
+                  "label": "C",
+                  "text": "marginal"
+                },
+                {
+                  "label": "D",
+                  "text": "redundant"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage is concluding with an action item for parents, indicating their involvement is highly important. \"Pivotal\" means of crucial importance in relation to the development or success of something else.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Cloze Test\nSubtopic: Traditional Cloze\n\nPassage 1 (Questions 1-5):\nThe global economy is currently undergoing a structural transformation as it transitions towards renewable energy. This shift is (1) _______ by a combination of government policies, technological advancements, and increasing corporate awareness regarding climate change. However, this transition is not without its (2) _______. Developing nations, in particular, face significant financial hurdles as they attempt to modernize their aging infrastructure. Furthermore, the (3) _______ phase requires massive capital investment which often leads to short-term economic strain. Despite these issues, experts argue that delaying action will only (4) _______ the long-term ecological and financial costs. Therefore, international cooperation remains (5) _______ if we are to achieve a sustainable and equitable energy future.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the most appropriate word to fill in blank (11).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "preserving"
+                },
+                {
+                  "label": "B",
+                  "text": "disrupting"
+                },
+                {
+                  "label": "C",
+                  "text": "restoring"
+                },
+                {
+                  "label": "D",
+                  "text": "documenting"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage describes AI changing traditional industries rapidly. \"Disrupting\" in a business/technology context refers to radically changing an industry by introducing new technologies.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the most appropriate word to fill in blank (12).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "eradication"
+                },
+                {
+                  "label": "B",
+                  "text": "proliferation"
+                },
+                {
+                  "label": "C",
+                  "text": "absence"
+                },
+                {
+                  "label": "D",
+                  "text": "mitigation"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The critics are concerned about bias spreading or multiplying within algorithms. \"Proliferation\" means rapid increase in numbers or widespread reproduction.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the most appropriate word to fill in blank (13).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "rectify"
+                },
+                {
+                  "label": "B",
+                  "text": "conceal"
+                },
+                {
+                  "label": "C",
+                  "text": "perpetuate"
+                },
+                {
+                  "label": "D",
+                  "text": "resolve"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The passage states that the historical data contains prejudices. If unchecked, the algorithms will continue or prolong these inequalities. \"Perpetuate\" means to make an undesirable situation continue indefinitely.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the most appropriate word to fill in blank (14).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "archaic"
+                },
+                {
+                  "label": "B",
+                  "text": "obsolete"
+                },
+                {
+                  "label": "C",
+                  "text": "robust"
+                },
+                {
+                  "label": "D",
+                  "text": "superficial"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "To manage complex ethical dilemmas and safeguard rights without stifling innovation, strong and effective laws are needed. \"Robust\" means strong, effective, and capable of coping with varying conditions.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Choose the most appropriate word to fill in blank (15).",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "triumphs"
+                },
+                {
+                  "label": "B",
+                  "text": "endeavours"
+                },
+                {
+                  "label": "C",
+                  "text": "challenges"
+                },
+                {
+                  "label": "D",
+                  "text": "anecdotes"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The passage discusses the difficult task of finding a delicate balance between innovation and regulation. Therefore, this will be one of the most defining \"challenges\" of the century.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+Topic: Inequality
+Subtopic: Direct Inequality
+
+Q1. Statements: A > B ≥ C = D < E
+Conclusions:
+I. A > D
+II. B < E
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either I or II follows
+(D) Both I and II follow
+Answer: A
+Explanation: 
+From the statement, we have A > B ≥ C = D. Connecting these, A > D. Hence, conclusion I is true. For conclusion II, we look at B ≥ C = D < E. Since there are opposite signs (≥ and <) between B and E, no definite relation can be established. Hence, conclusion II is false. Only conclusion I follows.
+
+Q2. Statements: P ≤ Q = R < S ≥ T
+Conclusions:
+I. P < S
+II. Q ≥ T
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Neither I nor II follows
+(D) Both I and II follow
+Answer: A
+Explanation: 
+For conclusion I, P ≤ Q = R < S implies P < S. So, I is true. For conclusion II, Q = R < S ≥ T. Opposite signs (< and ≥) exist between Q and T. No definite relation can be established. So, II is false. Only conclusion I follows.
+
+Q3. Statements: M ≥ N > O = P ≤ Q
+Conclusions:
+I. M > P
+II. N > Q
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either I or II follows
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+For conclusion I, M ≥ N > O = P implies M > P. So, I is true. For conclusion II, N > O = P ≤ Q. Opposite signs (> and ≤) exist between N and Q. No definite relation can be established. So, II is false. Only conclusion I follows.
+
+Q4. Statements: W = X ≤ Y < Z > V
+Conclusions:
+I. W < Z
+II. Y > V
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either I or II follows
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+For conclusion I, W = X ≤ Y < Z implies W < Z. So, I is true. For conclusion II, Y < Z > V. Opposite signs (< and >) exist between Y and V. No relation can be established. So, II is false. Only conclusion I follows.
+
+Q5. Statements: E < F ≤ G = H ≥ I
+Conclusions:
+I. F ≤ H
+II. G ≥ I
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: C
+Explanation: 
+For conclusion I, F ≤ G = H implies F ≤ H. So, I is true. For conclusion II, G = H ≥ I implies G ≥ I. So, II is true. Both conclusions follow.
+
+Q6. Statements: A ≥ B = C > D, D ≤ E < F
+Conclusions:
+I. A > D
+II. C < F
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: A
+Explanation: 
+Combining the statements: A ≥ B = C > D ≤ E < F. For conclusion I, A ≥ B = C > D implies A > D. So, I is true. For conclusion II, C > D ≤ E < F. Opposite signs (> and ≤) between C and F. No relation can be established. So, II is false. Only conclusion I follows.
+
+Q7. Statements: J < K ≤ L = M, M > N ≥ O
+Conclusions:
+I. J < M
+II. L > O
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: C
+Explanation: 
+Combining the statements: J < K ≤ L = M > N ≥ O. For conclusion I, J < K ≤ L = M implies J < M. So, I is true. For conclusion II, L = M > N ≥ O implies L > O. So, II is true. Both I and II follow.
+
+Q8. Statements: P = Q ≥ R, R < S ≤ T, T = U > V
+Conclusions:
+I. P > S
+II. Q < T
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either I or II follows
+(D) Neither I nor II follows
+Answer: D
+Explanation: 
+Combining: P = Q ≥ R < S ≤ T = U > V. For conclusion I, P = Q ≥ R < S has opposite signs between P and S. So, I is false. For conclusion II, Q ≥ R < S ≤ T has opposite signs between Q and T. So, II is false. Neither I nor II follows.
+
+Q9. Statements: A ≤ B < C = D, D ≥ E > F, F < G
+Conclusions:
+I. A < D
+II. C > F
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+Answer: C
+Explanation: 
+Combining: A ≤ B < C = D ≥ E > F < G. For conclusion I, A ≤ B < C = D implies A < D. So, I is true. For conclusion II, C = D ≥ E > F implies C > F. So, II is true. Both I and II follow.
+
+Q10. Statements: H > I = J ≤ K, K > L = M, M < N
+Conclusions:
+I. H > K
+II. J > M
+(A) Only conclusion I follows
+(B) Only conclusion II follows
+(C) Either I or II follows
+(D) Neither I nor II follows
+Answer: D
+Explanation: 
+Combining: H > I = J ≤ K > L = M < N. For conclusion I, H > I = J ≤ K has opposite signs (> and ≤) between H and K. So, I is false. For conclusion II, J ≤ K > L = M has opposite signs (≤ and >) between J and M. So, II is false. Neither I nor II follows.
+
+Q11. Statements: M ≥ N = O > P, P ≤ Q < R, R = S ≥ T
+Conclusions:
+I. M > P
+II. N ≤ R
+III. Q < S
+(A) Only I and II follow
+(B) Only II and III follow
+(C) Only I and III follow
+(D) All I, II and III follow
+Answer: C
+Explanation: 
+Combining: M ≥ N = O > P ≤ Q < R = S ≥ T. For I, M ≥ N = O > P implies M > P. So, I is true. For II, N = O > P ≤ Q < R. Opposite signs (> and ≤) exist between N and R. So, II is false. For III, Q < R = S implies Q < S. So, III is true. Only I and III follow.
+
+Q12. Statements: W < X ≤ Y = Z, Z > A ≥ B, B = C < D
+Conclusions:
+I. W < Z
+II. Y > B
+III. A < D
+(A) Only I and II follow
+(B) Only II and III follow
+(C) Only I and III follow
+(D) None follows
+Answer: A
+Explanation: 
+Combining: W < X ≤ Y = Z > A ≥ B = C < D. For I, W < X ≤ Y = Z implies W < Z. So, I is true. For II, Y = Z > A ≥ B implies Y > B. So, II is true. For III, A ≥ B = C < D. Opposite signs (≥ and <) exist between A and D. So, III is false. Only I and II follow.
+
+Q13. Statements: E = F > G ≥ H, H < I ≤ J, J = K > L
+Conclusions:
+I. E > H
+II. G < J
+III. F > L
+(A) Only I follows
+(B) Only I and II follow
+(C) Only II and III follow
+(D) All follow
+Answer: A
+Explanation: 
+Combining: E = F > G ≥ H < I ≤ J = K > L. For I, E = F > G ≥ H implies E > H. So, I is true. For II, G ≥ H < I ≤ J. Opposite signs (≥ and <) exist between G and J. So, II is false. For III, F > G ≥ H < I ≤ J = K > L. Opposite signs exist between F and L. So, III is false. Only I follows.
+
+Q14. Statements: A > B ≥ C = D, D ≤ E < F, F = G > H
+Conclusions:
+I. A > D
+II. C < F
+III. E > H
+(A) Only I and II follow
+(B) Only I and III follow
+(C) Only II and III follow
+(D) All follow
+Answer: A
+Explanation: 
+Combining: A > B ≥ C = D ≤ E < F = G > H. For I, A > B ≥ C = D implies A > D. So, I is true. For II, C = D ≤ E < F implies C < F. So, II is true. For III, E < F = G > H. Opposite signs (< and >) exist between E and H. So, III is false. Only I and II follow.
+
+Q15. Statements: P ≤ Q = R < S, S ≥ T > U, U = V < W
+Conclusions:
+I. P < S
+II. R ≥ U
+III. T < W
+(A) Only I follows
+(B) Only I and II follow
+(C) Only II and III follow
+(D) None follows
+Answer: A
+Explanation: 
+Combining: P ≤ Q = R < S ≥ T > U = V < W. For I, P ≤ Q = R < S implies P < S. So, I is true. For II, R < S ≥ T > U. Opposite signs (< and ≥) exist between R and U. So, II is false. For III, T > U = V < W. Opposite signs (> and <) exist between T and W. So, III is false. Only I follows.

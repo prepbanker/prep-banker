@@ -1,0 +1,422 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "direction-sense",
+  "subtopic": "distance-direction",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\n- Point A is 9m West of Point B.\n- Point C is 12m South of Point B.\n- Point D is 16m East of Point C.\n- Point E is 20m North of Point D.\n- Point F is 16m West of Point E.\n- Point G is 9m West of Point F.\n\nRefer to diagram: SVG/Q2.svg for a visual representation.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the shortest distance between Point A and Point G?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "5m"
+                },
+                {
+                  "label": "B",
+                  "text": "8m"
+                },
+                {
+                  "label": "C",
+                  "text": "10m"
+                },
+                {
+                  "label": "D",
+                  "text": "12m"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Let's assign coordinates (x, y) starting with B at (0,0).",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Point E is in which direction with respect to Point B?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "North-East"
+                },
+                {
+                  "label": "B",
+                  "text": "North-West"
+                },
+                {
+                  "label": "C",
+                  "text": "South-East"
+                },
+                {
+                  "label": "D",
+                  "text": "South-West"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "B is at (0,0) and E is at (16, 8). Since both the x and y coordinates of E are positive relative to B, E is in the North-East direction with respect to B.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What is the shortest distance between Point C and Point F?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "16m"
+                },
+                {
+                  "label": "B",
+                  "text": "18m"
+                },
+                {
+                  "label": "C",
+                  "text": "20m"
+                },
+                {
+                  "label": "D",
+                  "text": "24m"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "C is at (0, -12) and F is at (0, 8). Both lie on the same vertical line (y-axis). The total vertical distance is 8 - (-12) = 20m.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Point D is in which direction with respect to Point A?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "East"
+                },
+                {
+                  "label": "B",
+                  "text": "South-East"
+                },
+                {
+                  "label": "C",
+                  "text": "South-West"
+                },
+                {
+                  "label": "D",
+                  "text": "North-East"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A is at (-9, 0) and D is at (16, -12). Point D is to the right (East) and below (South) Point A. Therefore, D is South-East of A.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "If Point H is 5m East of Point C, then what is the shortest distance between Point B and Point H?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12m"
+                },
+                {
+                  "label": "B",
+                  "text": "13m"
+                },
+                {
+                  "label": "C",
+                  "text": "15m"
+                },
+                {
+                  "label": "D",
+                  "text": "17m"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "C is at (0, -12). Point H is 5m East of C, so H is at (5, -12).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nRahul starts from Point P, walks 10m towards the North to reach Point Q. Then he takes a right turn and walks 15m to reach Point R. Then he takes a right turn, walks 14m to reach Point S, and stops.\nSimultaneously, Amit starts from Point M, which is 24m East of Point P. Amit walks 17m towards the North to reach Point N. He takes a left turn and walks 9m to reach Point O. Then he takes a left turn, walks 21m to reach Point T, and stops.\n\nRefer to diagram: SVG/Q8.svg for a visual representation.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What is the shortest distance between Point Q and Point N?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "24m"
+                },
+                {
+                  "label": "B",
+                  "text": "25m"
+                },
+                {
+                  "label": "C",
+                  "text": "26m"
+                },
+                {
+                  "label": "D",
+                  "text": "28m"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Let P be (0,0).",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In which direction is Point M with respect to Point R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "South-East"
+                },
+                {
+                  "label": "B",
+                  "text": "South-West"
+                },
+                {
+                  "label": "C",
+                  "text": "North-East"
+                },
+                {
+                  "label": "D",
+                  "text": "North-West"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Point M is at (24, 0) and Point R is at (15, 10). M is to the right (East) and below (South) R. Thus, M is South-East of R.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "What is the shortest distance between Rahul's final position and Amit's final position?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "5m"
+                },
+                {
+                  "label": "B",
+                  "text": "10m"
+                },
+                {
+                  "label": "C",
+                  "text": "15m"
+                },
+                {
+                  "label": "D",
+                  "text": "0m"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Rahul's final position is S (15, -4). Amit's final position is T (15, -4). Since both their coordinates are exactly the same, they meet at the same point. The distance is 0m.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In which direction is Point O with respect to Point P?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "North-West"
+                },
+                {
+                  "label": "B",
+                  "text": "North-East"
+                },
+                {
+                  "label": "C",
+                  "text": "South-East"
+                },
+                {
+                  "label": "D",
+                  "text": "South-West"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "P is at (0,0) and O is at (15, 17). Both x and y coordinates are positive, meaning O is in the North-East direction with respect to P.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "If Point Y is 10m South of Point R, what is the distance between Point P and Point Y?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10m"
+                },
+                {
+                  "label": "B",
+                  "text": "12m"
+                },
+                {
+                  "label": "C",
+                  "text": "15m"
+                },
+                {
+                  "label": "D",
+                  "text": "20m"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "R is at (15, 10). Point Y is 10m South of R, which places Y at (15, 0). Point P is at (0,0). Since both lie on the x-axis, the distance is simply 15 - 0 = 15m.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\n'A @(X) B' means 'A is X m East of B'\n'A #(X) B' means 'A is X m West of B'\n'A $(X) B' means 'A is X m North of B'\n'A %(X) B' means 'A is X m South of B'\n\nFor Q11 to Q13, consider the following expression:\nP @(15) Q $(12) R #(20) S %(18) T @(5) U\n\nRefer to diagram: SVG/Q11.svg for a visual representation.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the shortest distance between Point P and Point U?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "5m"
+                },
+                {
+                  "label": "B",
+                  "text": "6m"
+                },
+                {
+                  "label": "C",
+                  "text": "8m"
+                },
+                {
+                  "label": "D",
+                  "text": "10m"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Decoding the expression:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In which direction is Point Q with respect to Point S?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "North-East"
+                },
+                {
+                  "label": "B",
+                  "text": "North-West"
+                },
+                {
+                  "label": "C",
+                  "text": "South-East"
+                },
+                {
+                  "label": "D",
+                  "text": "South-West"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Q is at (0,0) and S is at (20, -12). Q is to the left (West) and above (North) S. Therefore, Q is North-West of S.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "If Point W is 12m North of Point S, then what is the shortest distance between Point P and Point W?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "4m"
+                },
+                {
+                  "label": "B",
+                  "text": "5m"
+                },
+                {
+                  "label": "C",
+                  "text": "6m"
+                },
+                {
+                  "label": "D",
+                  "text": "8m"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "S is at (20, -12). Point W is 12m North of S, so W=(20, 0).",
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "directions": "For the following questions, consider the new expression:\nM #(8) N %(15) O @(17) P $(15) Q",
+          "questions": [
+            {
+              "id": 14,
+              "text": "In the new expression, what is the shortest distance between Point M and Point Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7m"
+                },
+                {
+                  "label": "B",
+                  "text": "8m"
+                },
+                {
+                  "label": "C",
+                  "text": "9m"
+                },
+                {
+                  "label": "D",
+                  "text": "10m"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Decoding the new expression:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "In the new expression, in which direction is Point P with respect to Point M?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "North-East"
+                },
+                {
+                  "label": "B",
+                  "text": "North-West"
+                },
+                {
+                  "label": "C",
+                  "text": "South-East"
+                },
+                {
+                  "label": "D",
+                  "text": "South-West"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "P is at (0, 15) and M is at (9, 0). Point P is to the left (West) and above (North) M. Therefore, P is North-West of M.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

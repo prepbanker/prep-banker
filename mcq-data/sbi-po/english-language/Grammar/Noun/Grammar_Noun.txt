@@ -1,0 +1,156 @@
+----------------------------------------
+Topic: Grammar
+Subtopic: Noun
+----------------------------------------
+
+Q1. Choose the grammatically correct sentence regarding noun usage:
+(A) He gave me many advices before the interview.
+(B) He gave me many pieces of advice before the interview.
+(C) He gave me an advice before the interview.
+(D) He gave me many advise before the interview.
+
+Answer: B
+Explanation: "Advice" is an uncountable noun. It cannot be pluralized as "advices" or used with "an". To make it countable, we use "pieces of advice".
+
+Q2. Choose the correct noun to fill in the blank: The beautiful ________ of Kashmir attracts tourists from all over the world.
+(A) sceneries
+(B) scenery
+(C) scenerys
+(D) scenic
+
+Answer: B
+Explanation: "Scenery" is an uncountable noun and does not have a plural form ("sceneries").
+
+Q3. Choose the grammatically correct sentence regarding noun usage:
+(A) The furnitures in this room are completely ruined.
+(B) The furniture in this room are completely ruined.
+(C) The furniture in this room is completely ruined.
+(D) A furniture in this room is completely ruined.
+
+Answer: C
+Explanation: "Furniture" is an uncountable collective noun. It takes a singular verb and cannot be pluralized as "furnitures".
+
+Q4. Choose the correct noun phrase to fill in the blank: She has bought two ________ of bread from the bakery.
+(A) loafs
+(B) loaves
+(C) loaf
+(D) loave
+
+Answer: B
+Explanation: The plural form of the noun "loaf" is "loaves".
+
+Q5. Choose the grammatically correct sentence regarding noun usage:
+(A) His trousers is too tight for him.
+(B) His trouser is too tight for him.
+(C) His trousers are too tight for him.
+(D) A trousers are too tight for him.
+
+Answer: C
+Explanation: Nouns that consist of two parts (like trousers, scissors, spectacles) are always plural and take a plural verb.
+
+Q6. Choose the correct noun to fill in the blank: The committee has submitted ________ report after a detailed investigation.
+(A) there
+(B) its
+(C) their
+(D) his
+
+Answer: B
+Explanation: "Committee" is a collective noun. When it acts as a single, undivided unit (submitting a single report), it takes the singular pronoun "its".
+
+Q7. Choose the correct noun phrase to fill in the blank: My mother-in-law's house is nearby, but my ________ houses are in the city.
+(A) mothers-in-law
+(B) mother-in-laws
+(C) mothers-in-law's
+(D) mother's-in-law
+
+Answer: A
+Explanation: Wait, "my mothers-in-law"? A person has only one mother-in-law. Let's fix the context.
+Corrected Q7: The council invited several ________ to speak at the women's empowerment seminar.
+(A) mother-in-laws
+(B) mothers-in-law
+(C) mothers-in-laws
+(D) mother-in-law
+
+Answer: B
+Explanation: To make a compound noun plural, the 's' is added to the principal or main word. Therefore, "mother-in-law" becomes "mothers-in-law".
+
+Q8. Choose the correct word to fill in the blank: A large number of ________ were grazing in the field.
+(A) sheeps
+(B) sheep
+(C) sheepes
+(D) ship
+
+Answer: B
+Explanation: The noun "sheep" has the same form in both singular and plural. "Sheeps" is grammatically incorrect.
+
+Q9. Choose the grammatically correct sentence regarding noun usage:
+(A) Mathematics are a difficult subject for many students.
+(B) Mathematics is a difficult subject for many students.
+(C) Mathematic is a difficult subject for many students.
+(D) Mathematics has a difficult subject for many students.
+
+Answer: B
+Explanation: Nouns ending in "-ics" like Mathematics, Physics, and Politics are singular when referring to a subject of study and take a singular verb.
+
+Q10. Choose the correct word to fill in the blank: I need to buy some new ________ for my laboratory.
+(A) equipments
+(B) equipment
+(C) piece of equipments
+(D) equip
+
+Answer: B
+Explanation: "Equipment" is an uncountable noun. It does not take an 's' to form a plural.
+
+Q11. Choose the grammatically correct sentence regarding noun usage:
+(A) Five dozens eggs were bought from the market.
+(B) Five dozen egg were bought from the market.
+(C) Five dozen eggs were bought from the market.
+(D) Five dozens of eggs were bought from the market.
+
+Answer: C
+Explanation: When a definite numeral (like 'five') precedes nouns denoting measure, number, or weight (like dozen, score, million), the noun remains in the singular form ("dozen"). The object counted takes the plural ("eggs").
+
+Q12. Choose the correct phrase to fill in the blank: He is a man of ________.
+(A) words
+(B) word
+(C) wordings
+(D) letters
+
+Answer: D
+Wait, "man of words" is not the common idiom. "Man of his word" is. Or "Man of letters".
+Corrected Q12: Shakespeare was known to be a man of ________, celebrated for his vast literary contributions.
+(A) words
+(B) word
+(C) letters
+(D) letters'
+
+Answer: C
+Explanation: "A man of letters" is an idiom used to describe a male scholar or author. The noun "letters" here means literature or learning.
+
+Q13. Choose the grammatically correct sentence regarding noun usage:
+(A) The data is inconclusive regarding the new medical treatment.
+(B) The datum are inconclusive regarding the new medical treatment.
+(C) The datas are inconclusive regarding the new medical treatment.
+(D) The data are inconclusive regarding the new medical treatment.
+
+Answer: D
+Explanation: In strict, formal grammar (often tested in banking exams), "data" is the plural of "datum". Therefore, it should correctly take the plural verb "are".
+
+Q14. Choose the correct phrase to fill in the blank: The police caught the thief by his ________.
+(A) hairs
+(B) hair
+(C) strand of hairs
+(D) hair's
+
+Answer: B
+Explanation: "Hair" is typically treated as an uncountable mass noun when referring to the entire collection of hair on someone's head.
+
+15. Choose the grammatically correct sentence regarding noun usage:
+(A) It is a three-miles walk from my house to the university.
+(B) It is a three-mile walk from my house to the university.
+(C) It is three-mile walk from my house to the university.
+(D) It is a three-miles walks from my house to the university.
+
+Answer: B
+Explanation: When a noun with a numeral acts as a compound adjective modifying another noun ("walk"), it must be in the singular form ("three-mile", not "three-miles").
+----------------------------------------

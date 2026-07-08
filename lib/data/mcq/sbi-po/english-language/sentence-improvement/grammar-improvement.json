@@ -1,0 +1,408 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "sentence-improvement",
+  "subtopic": "grammar-improvement",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Sentence Improvement\nSubtopic: Grammar Improvement",
+          "questions": [
+            {
+              "id": 1,
+              "text": "He is not only an excellent researcher, **but also he teaches well**.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "but also a good teacher"
+                },
+                {
+                  "label": "B",
+                  "text": "but he also teaches well"
+                },
+                {
+                  "label": "C",
+                  "text": "but also teaches good"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The correlative conjunction \"not only... but also\" must link parallel grammatical structures. Since \"not only\" is followed by a noun phrase (\"an excellent researcher\"), \"but also\" must also be followed by a noun phrase (\"a good teacher\").",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "If you had listened to my advice, you **would not be in** this terrible situation right now.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "would not have been in"
+                },
+                {
+                  "label": "B",
+                  "text": "will not be in"
+                },
+                {
+                  "label": "C",
+                  "text": "would not be into"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "This is a mixed conditional sentence. The \"if\" clause is in the past perfect (referring to a past action), and the main clause uses \"would + base verb\" (referring to a present result: \"right now\"). The sentence is grammatically correct as is.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "The board of directors **have unanimously approved** the merger with the rival company.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "has unanimously approved"
+                },
+                {
+                  "label": "B",
+                  "text": "have unanimously approve"
+                },
+                {
+                  "label": "C",
+                  "text": "is unanimously approved"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"board of directors\" refers to a single collective entity acting together (indicated by \"unanimously\"). Therefore, it takes a singular verb \"has\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Hardly had the play started **than the power went** out in the entire theater.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "when the power went"
+                },
+                {
+                  "label": "B",
+                  "text": "then the power went"
+                },
+                {
+                  "label": "C",
+                  "text": "while the power went"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The conjunction \"Hardly\" is always paired with \"when\", not \"than\". \"Than\" is used with \"No sooner\".",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "None of the applicants **were able to pass** the rigorous physical examination.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "was able to pass"
+                },
+                {
+                  "label": "B",
+                  "text": "are able to pass"
+                },
+                {
+                  "label": "C",
+                  "text": "have able to pass"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "In formal written English and strict grammar rules for competitive exams, \"None of\" followed by a plural noun should preferably take a singular verb (\"was\") to emphasize \"not a single one\". (Though \"were\" is acceptable in informal usage, \"was\" is the strictly correct grammatical improvement).",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Sentence Improvement\nSubtopic: Grammar Improvement",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Between you and **I, I believe** that the project is doomed to fail.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "me, I believe"
+                },
+                {
+                  "label": "B",
+                  "text": "me, me believe"
+                },
+                {
+                  "label": "C",
+                  "text": "I, me believe"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"Between\" is a preposition, and pronouns following a preposition must be in the objective case (\"me\"). The subject of the next clause remains \"I\". So, \"Between you and me, I believe\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "She is one of the few women who **has successfully climbed** Mount Everest without supplemental oxygen.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "have successfully climbed"
+                },
+                {
+                  "label": "B",
+                  "text": "has successfully climb"
+                },
+                {
+                  "label": "C",
+                  "text": "had successfully climbed"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "In the phrase \"one of the [plural noun] who\", the relative pronoun \"who\" refers to the plural noun (\"women\"). Therefore, the verb following \"who\" must be plural (\"have\").",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "It is high time you **start preparing** for your upcoming final examinations.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "started preparing"
+                },
+                {
+                  "label": "B",
+                  "text": "will start preparing"
+                },
+                {
+                  "label": "C",
+                  "text": "should start preparing"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"It is high time\" is always followed by a clause in the simple past tense to indicate something that is already overdue. \"Start\" must be improved to \"started\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "He asked me what **was the time** and where the nearest train station was.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "is the time"
+                },
+                {
+                  "label": "B",
+                  "text": "the time was"
+                },
+                {
+                  "label": "C",
+                  "text": "has been the time"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "In an indirect question, the word order must be assertive (Subject + Verb), not interrogative (Verb + Subject). \"What was the time\" should be improved to \"what the time was\".",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "I am not used **to wake up** so early in the morning on weekends.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "to waking up"
+                },
+                {
+                  "label": "B",
+                  "text": "to waked up"
+                },
+                {
+                  "label": "C",
+                  "text": "for waking up"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "When \"used to\" is preceded by a \"be\" verb (am/is/are/was/were) meaning \"accustomed to\", it functions as a preposition and must be followed by a gerund (-ing form). \"To wake\" becomes \"to waking\".",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Sentence Improvement\nSubtopic: Grammar Improvement",
+          "questions": [
+            {
+              "id": 11,
+              "text": "The teacher, along with all her students, **are going on** a field trip to the museum tomorrow.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "is going on"
+                },
+                {
+                  "label": "B",
+                  "text": "were going on"
+                },
+                {
+                  "label": "C",
+                  "text": "have gone on"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "When two subjects are connected by phrases like \"along with,\" \"as well as,\" or \"in addition to,\" the verb must agree with the primary (first) subject. \"The teacher\" is singular, so the verb must be \"is\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Having finished his homework, **the TV was turned on** by John to watch his favorite show.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "John turned on the TV"
+                },
+                {
+                  "label": "B",
+                  "text": "the TV had been turned on"
+                },
+                {
+                  "label": "C",
+                  "text": "turning on the TV was done"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "This is a dangling modifier error. The participle phrase \"Having finished his homework\" must modify the subject of the main clause. The TV cannot finish homework; John did. The sentence must be rewritten in the active voice so \"John\" is the subject.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "I would rather stay indoors and read a book **than going out** in this freezing weather.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "than go out"
+                },
+                {
+                  "label": "B",
+                  "text": "to go out"
+                },
+                {
+                  "label": "C",
+                  "text": "than to go out"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The phrase \"would rather\" uses the base form of a verb (\"stay\"). To maintain parallelism, the verb following \"than\" must also be in the base form. \"Going\" must be improved to \"go\".",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "By next December, my parents **will be married** for exactly thirty years.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "will have been married"
+                },
+                {
+                  "label": "B",
+                  "text": "would be married"
+                },
+                {
+                  "label": "C",
+                  "text": "shall be married"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                },
+                {
+                  "label": "A",
+                  "text": "Lest he should miss"
+                },
+                {
+                  "label": "B",
+                  "text": "Lest he would miss"
+                },
+                {
+                  "label": "C",
+                  "text": "Lest he might miss"
+                },
+                {
+                  "label": "D",
+                  "text": "No improvement required"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "To describe an action or state that will have continued up to a specific point in the future (\"By next December\"), the future perfect tense must be used. \"Will have been married\" is the correct improvement.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

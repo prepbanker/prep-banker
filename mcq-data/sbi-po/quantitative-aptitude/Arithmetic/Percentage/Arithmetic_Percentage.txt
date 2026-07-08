@@ -1,0 +1,270 @@
+----------------------------------------
+Topic: Arithmetic
+Subtopic: Percentage
+----------------------------------------
+
+Q1. If 40% of a number is equal to two-third of another number, what is the ratio of the first number to the second number?
+(A) 2 : 5
+(B) 3 : 7
+(C) 5 : 3
+(D) 7 : 3
+
+Answer: C
+Explanation:
+Let the first number be x and the second number be y.
+Given: 40% of x = (2/3) of y
+=> (40/100)x = (2/3)y
+=> (2/5)x = (2/3)y
+=> x/y = (2/3) / (2/5)
+=> x/y = (2/3) × (5/2) = 5/3.
+Ratio is 5 : 3.
+
+----------------------------------------
+
+Q2. The price of an article is increased by 20% and then decreased by 20%. The final price of the article is what percentage of the original price?
+(A) 96%
+(B) 100%
+(C) 104%
+(D) 90%
+
+Answer: A
+Explanation:
+Let original price = 100.
+Increase by 20%: 100 + 20% = 120.
+Decrease by 20%: 120 - 20% of 120 = 120 - 24 = 96.
+Final price = 96, which is 96% of the original price.
+
+----------------------------------------
+
+Q3. In an election between two candidates, one got 55% of the total valid votes. 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got was:
+(A) 2700
+(B) 2900
+(C) 3000
+(D) 3100
+
+Answer: A
+Explanation:
+Total votes = 7500.
+Invalid votes = 20% of 7500 = 1500.
+Valid votes = 7500 - 1500 = 6000.
+Winner got 55% of valid votes.
+Other candidate got (100% - 55%) = 45% of valid votes.
+Number of votes = 45% of 6000 = (45/100) × 6000 = 2700.
+
+----------------------------------------
+
+Q4. If A's salary is 25% more than B's salary, then B's salary is how much percent less than A's salary?
+(A) 20%
+(B) 25%
+(C) 16.66%
+(D) 33.33%
+
+Answer: A
+Explanation:
+Let B's salary = 100.
+A's salary = 125.
+Difference = 25.
+Percentage less = (Difference / A's salary) × 100 = (25 / 125) × 100 = 20%.
+
+----------------------------------------
+
+Q5. A student has to obtain 33% of the total marks to pass. He got 125 marks and failed by 40 marks. The maximum marks are:
+(A) 300
+(B) 500
+(C) 800
+(D) 1000
+
+Answer: B
+Explanation:
+Passing marks = Marks obtained + Failed by
+Passing marks = 125 + 40 = 165.
+Let max marks = x.
+33% of x = 165
+(33/100)x = 165 => x = (165 × 100) / 33 = 5 × 100 = 500.
+
+----------------------------------------
+
+Q6. The price of sugar is increased by 25%. If a family wants to keep its expenditure on sugar the same as before, by what percentage should the family decrease its consumption of sugar?
+(A) 16.66%
+(B) 20%
+(C) 25%
+(D) 30%
+
+Answer: B
+Explanation:
+Let original price = Rs. 100/kg and original consumption = 100 kg.
+Original Expenditure = 100 × 100 = 10,000.
+New price = Rs. 125/kg. Let new consumption be C.
+New Expenditure = 125 × C = 10,000 (since expenditure is same).
+C = 10,000 / 125 = 80 kg.
+Decrease in consumption = 100 - 80 = 20 kg.
+Percentage decrease = (20/100) × 100 = 20%.
+
+----------------------------------------
+
+Q7. In a fraction, if the numerator is increased by 40% and the denominator is decreased by 20%, the resulting fraction becomes 7/8. What is the original fraction?
+(A) 1/2
+(B) 3/4
+(C) 5/8
+(D) 2/3
+
+Answer: A
+Explanation:
+Let original fraction be x/y.
+New numerator = x × 1.40.
+New denominator = y × 0.80.
+(1.40x) / (0.80y) = 7/8.
+(14x) / (8y) = 7/8 => (7x) / (4y) = 7/8.
+x/y = (7/8) × (4/7) = 4/8 = 1/2.
+
+----------------------------------------
+
+Q8. A man spends 60% of his income. His income increases by 15% and his expenditure increases by 5%. By what percentage does his savings increase?
+(A) 15%
+(B) 20%
+(C) 25%
+(D) 30%
+
+Answer: D
+Explanation:
+Let original income = 100.
+Expenditure = 60, Savings = 40.
+New income = 100 + 15% = 115.
+New expenditure = 60 + 5% of 60 = 60 + 3 = 63.
+New savings = 115 - 63 = 52.
+Increase in savings = 52 - 40 = 12.
+Percentage increase = (12/40) × 100 = 30%.
+
+----------------------------------------
+
+Q9. In an examination, 35% of candidates failed in Mathematics and 25% failed in English. If 10% failed in both subjects, what percentage of candidates passed in both subjects?
+(A) 50%
+(B) 55%
+(C) 60%
+(D) 45%
+
+Answer: A
+Explanation:
+Let Total = 100%.
+Failed in Math (M) = 35%.
+Failed in English (E) = 25%.
+Failed in both (M ∩ E) = 10%.
+Total failed in at least one subject = n(M) + n(E) - n(M ∩ E) = 35 + 25 - 10 = 50%.
+Passed in both subjects = Total - Failed in at least one = 100% - 50% = 50%.
+
+----------------------------------------
+
+Q10. The population of a town is 1,20,000. It increases by 10% during the first year, decreases by 20% during the second year, and increases by 25% during the third year. What will be the population after 3 years?
+(A) 1,32,000
+(B) 1,25,000
+(C) 1,20,000
+(D) 1,35,000
+
+Answer: A
+Explanation:
+Population after 1st year = 1,20,000 × 1.10 = 1,32,000.
+Population after 2nd year = 1,32,000 × 0.80 = 1,05,600.
+Population after 3rd year = 1,05,600 × 1.25 = 1,32,000.
+
+----------------------------------------
+
+Q11. In an election involving three candidates A, B, and C, 10% of the voters on the voter list did not cast their votes and 5% of the votes cast were declared invalid. A got 30% of the valid votes, B got 40% of the valid votes, and C got the rest. If B won the election by 2565 votes more than C, find the total number of voters on the voter list.
+(A) 40000
+(B) 30000
+(C) 35000
+(D) 50000
+
+Answer: B
+Explanation:
+Let total voters = 100x.
+Votes cast = 90x.
+Invalid votes = 5% of 90x = 4.5x.
+Valid votes = 90x - 4.5x = 85.5x.
+A got = 30%. B got = 40%. C got = 100% - (30% + 40%) = 30%.
+B's votes = 40% of 85.5x. C's votes = 30% of 85.5x.
+Difference = 10% of 85.5x = 8.55x.
+Given difference = 2565.
+8.55x = 2565 => x = 2565 / 8.55 = 300.
+Total voters = 100x = 30000.
+
+----------------------------------------
+
+Q12. A solution of salt and water contains 15% salt by weight. From this, 30 kg of water evaporates, and the solution now contains 20% salt. What was the original weight of the solution?
+(A) 100 kg
+(B) 120 kg
+(C) 150 kg
+(D) 90 kg
+
+Answer: B
+Explanation:
+Let original weight = x kg.
+Quantity of salt remains constant.
+Salt initially = 15% of x.
+New weight = (x - 30) kg.
+Salt finally = 20% of (x - 30).
+(15/100)x = (20/100)(x - 30)
+15x = 20x - 600
+5x = 600 => x = 120.
+
+----------------------------------------
+
+Q13. In an examination, a student who gets 20% marks fails by 30 marks. Another student who gets 32% marks scores 42 marks more than the passing marks. What is the passing percentage?
+(A) 25%
+(B) 28%
+(C) 30%
+(D) 24%
+
+Answer: A
+Explanation:
+Let max marks = x.
+Passing marks = 20% of x + 30 = 32% of x - 42.
+32% of x - 20% of x = 30 + 42
+12% of x = 72 => x = 72 / 0.12 = 600.
+Passing marks = 20% of 600 + 30 = 120 + 30 = 150.
+Passing percentage = (150 / 600) × 100 = 25%.
+
+----------------------------------------
+
+Q14. The price of raw materials has gone up by 15%, and the labor cost has also increased from 25% of the cost of raw material to 30% of the cost of raw material. By how much percentage should there be a reduction in the usage of raw material so as to keep the total cost the same?
+(A) 16.3%
+(B) 17%
+(C) 19.5%
+(D) 15%
+
+Answer: A
+Explanation:
+Let initial raw material quantity = 100 units, price = Rs. 100/unit.
+Initial raw material cost = 10,000.
+Initial labor cost = 25% of 10,000 = 2,500.
+Initial Total Cost = 12,500.
+New price of raw material = Rs. 115/unit.
+Let new quantity = Q units.
+New raw material cost = 115Q.
+New labor cost = 30% of 115Q = 34.5Q.
+New Total Cost = 115Q + 34.5Q = 149.5Q.
+To keep cost same: 149.5Q = 12,500
+Q = 12,500 / 149.5 = 83.612 units.
+Reduction in usage = 100 - 83.612 = 16.388 units.
+Percentage reduction ≈ 16.3%.
+
+----------------------------------------
+
+Q15. In a survey of 500 students of a college, it was found that 49% liked watching football, 53% liked watching cricket, and 62% liked watching tennis. 27% liked watching both football and cricket, 29% liked both cricket and tennis, and 28% liked both football and tennis. 5% liked none of these games. What percentage of students liked watching all three games?
+(A) 12%
+(B) 15%
+(C) 10%
+(D) 18%
+
+Answer: B
+Explanation:
+Total = 100%. None = 5%.
+Union (F ∪ C ∪ T) = 95%.
+F = 49%, C = 53%, T = 62%.
+F ∩ C = 27%, C ∩ T = 29%, F ∩ T = 28%.
+By principle of inclusion-exclusion:
+F ∪ C ∪ T = F + C + T - (F∩C + C∩T + F∩T) + (F∩C∩T)
+95 = 49 + 53 + 62 - (27 + 29 + 28) + (F∩C∩T)
+95 = 164 - 84 + (F∩C∩T)
+95 = 80 + (F∩C∩T)
+F∩C∩T = 95 - 80 = 15%.
+----------------------------------------

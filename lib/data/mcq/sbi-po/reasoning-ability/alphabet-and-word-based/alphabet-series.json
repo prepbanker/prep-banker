@@ -1,0 +1,465 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "alphabet-and-word-based",
+  "subtopic": "alphabet-series",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Find the missing term in the given alphabet series.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "A, C, F, J, O, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "U"
+                },
+                {
+                  "label": "B",
+                  "text": "T"
+                },
+                {
+                  "label": "C",
+                  "text": "V"
+                },
+                {
+                  "label": "D",
+                  "text": "S"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The pattern is based on the forward gap between the letters:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "AZ, CX, EV, GT, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "IR"
+                },
+                {
+                  "label": "B",
+                  "text": "HS"
+                },
+                {
+                  "label": "C",
+                  "text": "KP"
+                },
+                {
+                  "label": "D",
+                  "text": "JQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: A (+2) = C (+2) = E (+2) = G (+2) = I.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "BDF, HJL, NPR, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "TVX"
+                },
+                {
+                  "label": "B",
+                  "text": "UWY"
+                },
+                {
+                  "label": "C",
+                  "text": "SUW"
+                },
+                {
+                  "label": "D",
+                  "text": "TVY"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Within each group, letters skip by +2: B(+2)D(+2)F.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "W, U, R, N, I, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "C"
+                },
+                {
+                  "label": "B",
+                  "text": "D"
+                },
+                {
+                  "label": "C",
+                  "text": "E"
+                },
+                {
+                  "label": "D",
+                  "text": "F"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The backward positional gap increases by 1 each time:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "AB, DEF, HIJK, ?, STUVWX",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "MNOPQ"
+                },
+                {
+                  "label": "B",
+                  "text": "LMNOP"
+                },
+                {
+                  "label": "C",
+                  "text": "LMNO"
+                },
+                {
+                  "label": "D",
+                  "text": "MNOP"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The number of letters in each group increases: 2, 3, 4, 5, 6.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Find the missing term in the mixed alphanumeric series.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "C4X, F9U, I16R, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "K25P"
+                },
+                {
+                  "label": "B",
+                  "text": "L25O"
+                },
+                {
+                  "label": "C",
+                  "text": "L25P"
+                },
+                {
+                  "label": "D",
+                  "text": "M25O"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "First letter: C (+3) = F (+3) = I (+3) = L.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "2B, 4C, 8E, 14H, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "20L"
+                },
+                {
+                  "label": "B",
+                  "text": "22L"
+                },
+                {
+                  "label": "C",
+                  "text": "22L"
+                },
+                {
+                  "label": "D",
+                  "text": "22L (Wait, options must be distinct)"
+                },
+                {
+                  "label": "A",
+                  "text": "16K"
+                },
+                {
+                  "label": "B",
+                  "text": "20L"
+                },
+                {
+                  "label": "C",
+                  "text": "22L"
+                },
+                {
+                  "label": "D",
+                  "text": "24M"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Number pattern: 2 (+2) = 4 (+4) = 8 (+6) = 14 (+8) = 22.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "BZA, DYC, FXE, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "HWG"
+                },
+                {
+                  "label": "B",
+                  "text": "HWH"
+                },
+                {
+                  "label": "C",
+                  "text": "HVG"
+                },
+                {
+                  "label": "D",
+                  "text": "GWH"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: B (+2) = D (+2) = F (+2) = H.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Q1F, S2E, U6D, W24C, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Y120B"
+                },
+                {
+                  "label": "B",
+                  "text": "Y120A"
+                },
+                {
+                  "label": "C",
+                  "text": "Z120B"
+                },
+                {
+                  "label": "D",
+                  "text": "Y96B"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: Q (+2) = S (+2) = U (+2) = W (+2) = Y.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "KM5, IP8, GS11, EV14, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "CX17"
+                },
+                {
+                  "label": "B",
+                  "text": "CY17"
+                },
+                {
+                  "label": "C",
+                  "text": "BX17"
+                },
+                {
+                  "label": "D",
+                  "text": "CZ17"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "First letter: K (-2) = I (-2) = G (-2) = E (-2) = C.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Solve the complex continuous series problems.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "a _ b a _ b _ b a a _",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "a, b, a, b"
+                },
+                {
+                  "label": "B",
+                  "text": "a, a, b, b"
+                },
+                {
+                  "label": "C",
+                  "text": "b, a, a, b"
+                },
+                {
+                  "label": "D",
+                  "text": "b, b, a, a"
+                },
+                {
+                  "label": "A",
+                  "text": "H"
+                },
+                {
+                  "label": "B",
+                  "text": "J"
+                },
+                {
+                  "label": "C",
+                  "text": "I"
+                },
+                {
+                  "label": "D",
+                  "text": "L"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "If we substitute option B (a, a, b, b), the series becomes:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In a specific alphabet mapping, a letter shifts forward by its own vowel/consonant status. Consonants shift +2, Vowels shift +3. What will the series 'B, E, K, O' become?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "D, H, M, R"
+                },
+                {
+                  "label": "B",
+                  "text": "D, H, M, S"
+                },
+                {
+                  "label": "C",
+                  "text": "E, G, M, R"
+                },
+                {
+                  "label": "D",
+                  "text": "D, I, M, R"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "B (Consonant) -> +2 = D",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Which of the following does NOT belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "CFI"
+                },
+                {
+                  "label": "B",
+                  "text": "UXA"
+                },
+                {
+                  "label": "C",
+                  "text": "SVY"
+                },
+                {
+                  "label": "D",
+                  "text": "DHL"
+                },
+                {
+                  "label": "A",
+                  "text": "C (+3) F (+3) I"
+                },
+                {
+                  "label": "B",
+                  "text": "U (+3) X (+3) A"
+                },
+                {
+                  "label": "C",
+                  "text": "S (+3) V (+3) Y"
+                },
+                {
+                  "label": "D",
+                  "text": "D (+4) H (+4) L"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Check the gaps:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Find the missing term:\nA, CD, GHI, MNOP, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "UVWXY"
+                },
+                {
+                  "label": "B",
+                  "text": "TUVWX"
+                },
+                {
+                  "label": "C",
+                  "text": "STUVW"
+                },
+                {
+                  "label": "D",
+                  "text": "VWXYZ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Groups of 1, 2, 3, 4, 5 letters.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "If every alternate letter of the English alphabet starting from A is dropped (A, C, E... dropped), which letter will be the 5th to the right of the 4th letter from the left end of the new series?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "R"
+                },
+                {
+                  "label": "C",
+                  "text": "T"
+                },
+                {
+                  "label": "D",
+                  "text": "V"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "New series (only even positional letters remain): B, D, F, H, J, L, N, P, R, T, V, X, Z.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

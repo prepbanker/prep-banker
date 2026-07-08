@@ -1,0 +1,379 @@
+----------------------------------------
+Topic: Coding-Decoding
+Subtopic: Letter Coding
+----------------------------------------
+
+Q1. In a certain code language, 'PAPER' is written as 'QBQFS'. How is 'BOARD' written in that code?
+(A) CNBSE
+(B) CPBSE
+(C) CPCSF
+(D) CQBTE
+
+Answer: B
+Explanation:
+The pattern is a simple forward shift of +1 for each letter.
+P (+1) = Q
+A (+1) = B
+P (+1) = Q
+E (+1) = F
+R (+1) = S
+Applying the same to 'BOARD':
+B (+1) = C
+O (+1) = P
+A (+1) = B
+R (+1) = S
+D (+1) = E
+Thus, 'BOARD' is coded as 'CPBSE'.
+
+----------------------------------------
+
+Q2. In a certain code language, 'WATER' is written as 'VZSDQ'. How is 'BREAD' written in that code?
+(A) AQDZC
+(B) AQEZC
+(C) CQFBE
+(D) APDYB
+
+Answer: A
+Explanation:
+The pattern is a backward shift of -1 for each letter.
+W (-1) = V
+A (-1) = Z (wrapping around the alphabet)
+T (-1) = S
+E (-1) = D
+R (-1) = Q
+Applying the same to 'BREAD':
+B (-1) = A
+R (-1) = Q
+E (-1) = D
+A (-1) = Z
+D (-1) = C
+Thus, 'BREAD' is coded as 'AQDZC'.
+
+----------------------------------------
+
+Q3. In a certain code language, 'SYSTEM' is written as 'METSYS'. How is 'FACTOR' written in that code?
+(A) ROTFAC
+(B) ROTCAF
+(C) RTCFAO
+(D) ROCATF
+
+Answer: B
+Explanation:
+The pattern involves simply reversing the order of the letters in the word.
+S-Y-S-T-E-M reversed becomes M-E-T-S-Y-S.
+Applying the same to 'FACTOR':
+F-A-C-T-O-R reversed becomes R-O-T-C-A-F.
+
+----------------------------------------
+
+Q4. In a certain code language, 'DANCE' is written as 'FCPEG'. How is 'MUSIC' written in that code?
+(A) OWTKE
+(B) OWUKE
+(C) OXVLF
+(D) NWUJD
+
+Answer: B
+Explanation:
+The pattern is a forward shift of +2 for each letter.
+D (+2) = F
+A (+2) = C
+N (+2) = P
+C (+2) = E
+E (+2) = G
+Applying the same to 'MUSIC':
+M (+2) = O
+U (+2) = W
+S (+2) = U
+I (+2) = K
+C (+2) = E
+Thus, 'MUSIC' is coded as 'OWUKE'.
+
+----------------------------------------
+
+Q5. In a certain code language, 'APPLE' is written as 'ZQQMD'. How is 'GRAPE' written in that code?
+(A) HSZQD
+(B) HRZQC
+(C) FSZQD
+(D) HSYPD
+
+Answer: A
+Explanation:
+The pattern differentiates between vowels and consonants:
+Vowels are shifted by -1.
+Consonants are shifted by +1.
+A (Vowel, -1) = Z
+P (Consonant, +1) = Q
+P (Consonant, +1) = Q
+L (Consonant, +1) = M
+E (Vowel, -1) = D
+Applying the same to 'GRAPE':
+G (Consonant, +1) = H
+R (Consonant, +1) = S
+A (Vowel, -1) = Z
+P (Consonant, +1) = Q
+E (Vowel, -1) = D
+Thus, 'GRAPE' is coded as 'HSZQD'.
+
+----------------------------------------
+
+Q6. In a certain code language, 'ACTIVE' is written as 'TCAEVI'. How is 'SUMMER' written in that code?
+(A) MUSREM
+(B) UMSMER
+(C) REMMUS
+(D) MUSMER
+
+Answer: A
+Explanation:
+The word is divided into two equal halves, and each half is reversed independently.
+ACTIVE → ACT | IVE
+ACT reversed = TCA
+IVE reversed = EVI
+Combined = TCAEVI
+Applying the same to 'SUMMER':
+SUMMER → SUM | MER
+SUM reversed = MUS
+MER reversed = REM
+Combined = MUSREM.
+
+----------------------------------------
+
+Q7. In a certain code language, 'FLOWER' is written as 'GKPVFQ'. How is 'GARDEN' written in that code?
+(A) HZRBEM
+(B) HZSCFM
+(C) FZSCFM
+(D) IYTDGN
+
+Answer: B
+Explanation:
+The pattern is an alternating shift of +1 and -1.
+F (+1) = G
+L (-1) = K
+O (+1) = P
+W (-1) = V
+E (+1) = F
+R (-1) = Q
+Applying the same to 'GARDEN':
+G (+1) = H
+A (-1) = Z
+R (+1) = S
+D (-1) = C
+E (+1) = F
+N (-1) = M
+Thus, 'GARDEN' is coded as 'HZSCFM'.
+
+----------------------------------------
+
+Q8. In a certain code language, 'BASKET' is written as 'UFLTBC'. How is 'GUITAR' written in that code?
+(A) SBUJWH
+(B) SBUJVH
+(C) TBVKWI
+(D) SATIUH
+
+Refer to diagram: SVG/Q8.svg
+
+Answer: B
+Explanation:
+The entire word is reversed first, and then each letter is shifted by +1.
+BASKET reversed → TEKSAB
+T (+1) = U, E (+1) = F, K (+1) = L, S (+1) = T, A (+1) = B, B (+1) = C → UFLTBC.
+Applying the same to 'GUITAR':
+GUITAR reversed → RATIUG
+R (+1) = S
+A (+1) = B
+T (+1) = U
+I (+1) = J
+U (+1) = V
+G (+1) = H
+Thus, 'GUITAR' is coded as 'SBUJVH'.
+
+----------------------------------------
+
+Q9. In a certain code language, 'MONKEY' is written as 'XDJMNL'. How is 'TIGER' written in that code?
+(A) QDFHS
+(B) SDFHS
+(C) UJHFS
+(D) SHFDQ
+
+Answer: A
+Explanation:
+The word is reversed first, and then each letter is shifted by -1.
+MONKEY reversed → YEKNOM
+Y (-1) = X, E (-1) = D, K (-1) = J, N (-1) = M, O (-1) = N, M (-1) = L → XDJMNL.
+Applying the same to 'TIGER':
+TIGER reversed → REGIT
+R (-1) = Q
+E (-1) = D
+G (-1) = F
+I (-1) = H
+T (-1) = S
+Thus, 'TIGER' is coded as 'QDFHS'.
+
+----------------------------------------
+
+Q10. In a certain code language, 'ROBUST' is written as 'PQZWQR'. How is 'TICKET' written in that code?
+(A) RKAIGP
+(B) SKBJHS
+(C) RKAIGR
+(D) QJZHGQ
+
+Answer: C
+Explanation:
+The pattern relies on identifying vowels and consonants:
+Vowels are shifted by +2.
+Consonants are shifted by -2.
+R (Consonant, -2) = P
+O (Vowel, +2) = Q
+B (Consonant, -2) = Z
+U (Vowel, +2) = W
+S (Consonant, -2) = Q
+T (Consonant, -2) = R → PQZWQR.
+Applying the same to 'TICKET':
+T (C, -2) = R
+I (V, +2) = K
+C (C, -2) = A
+K (C, -2) = I
+E (V, +2) = G
+T (C, -2) = R
+Thus, 'TICKET' is coded as 'RKAIGR'.
+
+----------------------------------------
+
+Q11. In a certain code language, 'VICTORY' is written as 'ERXGLIB'. How is 'FAILURE' written in that code?
+(A) UZROFIV
+(B) UZRPFJV
+(C) UZROEIU
+(D) VZSOFJW
+
+Answer: A
+Explanation:
+The pattern replaces each letter with its opposite letter in the English alphabet (A↔Z, B↔Y, C↔X, etc.).
+V ↔ E
+I ↔ R
+C ↔ X
+T ↔ G
+O ↔ L
+R ↔ I
+Y ↔ B
+Applying the same to 'FAILURE':
+F ↔ U
+A ↔ Z
+I ↔ R
+L ↔ O
+U ↔ F
+R ↔ I
+E ↔ V
+Thus, 'FAILURE' is coded as 'UZROFIV'.
+
+----------------------------------------
+
+Q12. In a certain code language, 'PLANET' is written as 'OKMZGV'. How is 'METEOR' written in that code?
+(A) VNVHJM
+(B) VNVGIL
+(C) UMUFHK
+(D) VMWHJL
+
+Refer to diagram: SVG/Q12.svg
+
+Answer: B
+Explanation:
+The word is divided into consecutive pairs. Each pair is reversed (criss-cross), and then replaced by its opposite letter in the alphabet.
+PLANET → Pairs: PL, AN, ET
+Reverse pairs: LP, NA, TE
+Opposite letters:
+L ↔ O, P ↔ K → OK
+N ↔ M, A ↔ Z → MZ
+T ↔ G, E ↔ V → GV
+Combined → OKMZGV.
+Applying to 'METEOR':
+Pairs: ME, TE, OR
+Reverse pairs: EM, ET, RO
+Opposite letters:
+E ↔ V, M ↔ N → VN
+E ↔ V, T ↔ G → VG
+R ↔ I, O ↔ L → IL
+Thus, 'METEOR' is coded as 'VNVGIL'.
+
+----------------------------------------
+
+Q13. In a certain code language, 'PROBLEM' is written as 'QPRXQYT'. How is 'SOLUTION' written in that code?
+(A) TMOQYCVF
+(B) TMOPXCVF
+(C) TNNQYCVG
+(D) TLPRYCVF
+
+Answer: A
+Explanation:
+The shift follows an expanding alternating sequence: +1, -2, +3, -4, +5, -6, +7.
+P (+1) = Q
+R (-2) = P
+O (+3) = R
+B (-4) = X
+L (+5) = Q
+E (-6) = Y
+M (+7) = T
+Applying the same to 'SOLUTION':
+S (+1) = T
+O (-2) = M
+L (+3) = O
+U (-4) = Q
+T (+5) = Y
+I (-6) = C
+O (+7) = V
+N (-8) = F
+Thus, 'SOLUTION' is coded as 'TMOQYCVF'.
+
+----------------------------------------
+
+Q14. In a certain code language, 'DIAMOND' is written as 'BJENEOP'. How is 'CRYSTAL' written in that code?
+(A) ZSDTLBU
+(B) YRCTMBU
+(C) ZSDTMBU
+(D) YSCSMAT
+
+Answer: C
+Explanation:
+The 7-letter word is split into three parts: First 3 letters, the Middle letter, and the Last 3 letters.
+DIAMOND → DIA | M | OND
+1. First 3 reversed (AID), then shifted +1 → BJE.
+2. Middle letter shifted +1 → M (+1) = N.
+3. Last 3 reversed (DNO), then shifted +1 → EOP.
+Combined → BJENEOP.
+Applying to 'CRYSTAL':
+CRYSTAL → CRY | S | TAL
+1. CRY reversed (YRC), shifted +1 → ZSD.
+2. S shifted +1 → T.
+3. TAL reversed (LAT), shifted +1 → MBU.
+Thus, 'CRYSTAL' is coded as 'ZSDTMBU'.
+
+----------------------------------------
+
+Q15. In a certain code language, 'HOSPITAL' is written as 'QJRUVKNC'. How is 'MEDICINE' written in that code?
+(A) GOKFKEGP
+(B) GOLFLEHQ
+(C) FNJDJDFO
+(D) HPLGLFHQ
+
+Refer to diagram: SVG/Q15.svg
+
+Answer: A
+Explanation:
+The word is divided into consecutive pairs. Each pair is reversed (criss-cross), and then shifted by +2.
+HOSPITAL → Pairs: HO, SP, IT, AL
+Reverse pairs: OH, PS, TI, LA
+Shift +2:
+O (+2) = Q, H (+2) = J → QJ
+P (+2) = R, S (+2) = U → RU
+T (+2) = V, I (+2) = K → VK
+L (+2) = N, A (+2) = C → NC
+Combined → QJRUVKNC.
+Applying to 'MEDICINE':
+Pairs: ME, DI, CI, NE
+Reverse pairs: EM, ID, IC, EN
+Shift +2:
+E (+2) = G, M (+2) = O → GO
+I (+2) = K, D (+2) = F → KF
+I (+2) = K, C (+2) = E → KE
+E (+2) = G, N (+2) = P → GP
+Thus, 'MEDICINE' is coded as 'GOKFKEGP'.
+
+----------------------------------------

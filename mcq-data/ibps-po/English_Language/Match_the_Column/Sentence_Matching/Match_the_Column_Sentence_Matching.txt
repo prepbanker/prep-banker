@@ -1,0 +1,335 @@
+----------------------------------------
+Topic: Match the Column
+Subtopic: Sentence Matching
+----------------------------------------
+
+Q1. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The bank has drastically lowered interest rates
+B. Even though the presentation was hastily prepared
+C. The municipal corporation initiated a massive drive
+
+Column II:
+D. it successfully conveyed the core message to the stakeholders.
+E. to plant ten thousand saplings across the urban parks.
+F. to stimulate borrowing and rejuvenate the stagnant economy.
+
+(A) A-F, B-D, C-E
+(B) A-D, B-E, C-F
+(C) A-E, B-F, C-D
+(D) A-F, B-E, C-D
+
+Answer: A
+Explanation: 
+A matches with F (lowered interest rates -> to stimulate borrowing).
+B matches with D (hastily prepared -> successfully conveyed message).
+C matches with E (initiated a massive drive -> to plant saplings).
+
+Q2. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Before submitting your final application form
+B. The rapid melting of polar ice caps
+C. The newly introduced software application
+
+Column II:
+D. poses an existential threat to low-lying coastal cities.
+E. is designed to seamlessly integrate with legacy database systems.
+F. ensure that all mandatory fields have been correctly filled.
+
+(A) A-E, B-D, C-F
+(B) A-F, B-D, C-E
+(C) A-D, B-F, C-E
+(D) A-F, B-E, C-D
+
+Answer: B
+Explanation:
+A matches with F (Before submitting -> ensure fields are filled).
+B matches with D (melting of ice caps -> existential threat).
+C matches with E (new software -> designed to integrate).
+
+Q3. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Despite implementing strict austerity measures
+B. The archeologists uncovered a hidden chamber
+C. Unless the company diversifies its product portfolio
+
+Column II:
+D. it will struggle to survive in the highly competitive market.
+E. containing perfectly preserved artifacts from the Bronze Age.
+F. the national deficit continued to grow at an alarming rate.
+
+(A) A-D, B-E, C-F
+(B) A-F, B-D, C-E
+(C) A-F, B-E, C-D
+(D) A-E, B-F, C-D
+
+Answer: C
+Explanation:
+A matches with F (Despite austerity measures -> deficit continued to grow).
+B matches with E (hidden chamber -> containing preserved artifacts).
+C matches with D (Unless diversifies portfolio -> will struggle to survive).
+
+Q4. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Not only did the hurricane destroy hundreds of homes
+B. The sudden resignation of the chief financial officer
+C. By adopting sustainable agricultural practices
+
+Column II:
+D. sent shockwaves throughout the global stock markets.
+E. but it also caused widespread power outages across the state.
+F. farmers can significantly reduce topsoil erosion and water waste.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-E, B-D, C-F
+
+Answer: D
+Explanation:
+A matches with E (Not only... but it also).
+B matches with D (sudden resignation -> sent shockwaves).
+C matches with F (By adopting sustainable practices -> farmers can reduce erosion).
+
+Q5. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The diplomatic negotiations reached a complete standstill
+B. Only after the exhaustive internal audit was completed
+C. The relentless pursuit of short-term quarterly profits
+
+Column II:
+D. did the board realize the magnitude of the financial discrepancies.
+E. often compromises the long-term strategic vision of an organization.
+F. because neither nation was willing to compromise on territorial claims.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-E, C-D
+
+Answer: A
+Explanation:
+A matches with F (negotiations reached standstill -> because neither was willing to compromise).
+B matches with D (Only after... did the board realize - note the inversion).
+C matches with E (pursuit of short-term profits -> compromises long-term vision).
+
+Q6. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Had the intelligence agencies coordinated their efforts effectively
+B. The proliferation of deeply convincing synthetic media
+C. The government heavily subsidized the renewable energy sector
+
+Column II:
+D. in order to accelerate the country's transition away from fossil fuels.
+E. raises profound ethical questions regarding truth in journalism.
+F. they might have successfully thwarted the coordinated cyber-attack.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation:
+A matches with F (Had they coordinated -> they might have thwarted).
+B matches with E (synthetic media -> raises ethical questions).
+C matches with D (subsidized renewable energy -> to accelerate transition).
+
+Q7. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The sheer magnitude of the logistical challenge
+B. Lest the proprietary algorithms fall into the hands of competitors
+C. While the macroeconomic indicators point toward an imminent recession
+
+Column II:
+D. consumer spending in the luxury automotive sector paradoxically remains robust.
+E. the corporation isolated its core research servers from the main network.
+F. required the mobilization of resources across three different continents.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-F, B-E, C-D
+(D) A-D, B-E, C-F
+
+Answer: C
+Explanation:
+A matches with F (magnitude of challenge -> required mobilization).
+B matches with E (Lest algorithms fall... -> isolated servers).
+C matches with D (While indicators point to recession -> spending remains robust).
+
+Q8. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Scarcely had the central bank announced the stimulus package
+B. The phenomenon of quantum entanglement
+C. Providing equitable access to high-speed internet
+
+Column II:
+D. is now considered a fundamental human right by several international bodies.
+E. when the major stock indices rallied to record highs.
+F. continues to baffle physicists with its counter-intuitive implications.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-E, B-D, C-F
+
+Answer: B
+Explanation:
+A matches with E (Scarcely... when).
+B matches with F (quantum entanglement -> baffles physicists).
+C matches with D (equitable access to internet -> considered a fundamental right).
+
+Q9. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. An overriding reliance on subjective human intuition
+B. Under no circumstances should the volatile chemical compounds
+C. The symbiotic relationship between the fungi and the tree roots
+
+Column II:
+D. facilitates the exchange of vital nutrients essential for survival in harsh conditions.
+E. be exposed to direct sunlight or sudden shifts in ambient atmospheric pressure.
+F. often leads to catastrophic errors in complex statistical and financial forecasting.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation:
+A matches with F (reliance on intuition -> leads to errors).
+B matches with E (Under no circumstances should... -> be exposed to sunlight).
+C matches with D (symbiotic relationship -> facilitates exchange).
+
+Q10. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The treaty was intentionally drafted with highly ambiguous language
+B. Driven by an insatiable curiosity about the cosmos
+C. The diplomatic deadlock was eventually broken
+
+Column II:
+D. the brilliant astrophysicist dedicated her life to studying dark matter.
+E. when a neutral third-party mediator proposed a viable territorial concession.
+F. allowing participating nations to interpret it to their domestic political advantage.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-E, C-D
+
+Answer: A
+Explanation:
+A matches with F (ambiguous language -> interpret to political advantage).
+B matches with D (curiosity about cosmos -> studying dark matter).
+C matches with E (deadlock broken -> when mediator proposed concession).
+
+Q11. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Hardly had the CEO begun outlining his visionary restructuring plan
+B. The pervasive influence of algorithmic echo chambers
+C. Implementing universal basic income on a national scale
+
+Column II:
+D. necessitates a radical overhaul of the existing taxation framework.
+E. threatens to further polarize an already deeply divided electorate.
+F. when a group of dissenting shareholders loudly interrupted the presentation.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation:
+A matches with F (Hardly... when).
+B matches with E (echo chambers -> polarize electorate).
+C matches with D (universal basic income -> necessitates taxation overhaul).
+
+Q12. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The paradoxical nature of the placebo effect
+B. So devastating was the impact of the prolonged drought
+C. By deliberately manipulating the currency exchange rates
+
+Column II:
+D. that entire agricultural communities were forced into mass migration.
+E. the authoritarian regime artificially boosted its export competitiveness.
+F. underscores the profound connection between psychological belief and physiological healing.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-E, C-D
+
+Answer: A
+Explanation:
+A matches with F (placebo effect -> connection between belief and healing).
+B matches with D (So devastating was the impact... that).
+C matches with E (manipulating exchange rates -> boosted export competitiveness).
+
+Q13. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The inherent volatility of decentralized cryptocurrencies
+B. Not only must the defense attorney dismantle the prosecution's timeline
+C. Acknowledging the systemic biases embedded within the hiring process
+
+Column II:
+D. is the crucial first step toward fostering genuine corporate diversity.
+E. but she must also present a compelling alternative narrative to the jury.
+F. makes them an incredibly risky asset class for conservative retail investors.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation:
+A matches with F (volatility of cryptocurrencies -> risky asset class).
+B matches with E (Not only must... but she must also).
+C matches with D (Acknowledging biases -> first step toward diversity).
+
+Q14. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The sudden implosion of the highly leveraged hedge fund
+B. Rather than succumb to the aggressive hostile takeover bid
+C. The esoteric terminology utilized in the legal briefing
+
+Column II:
+D. the board of directors initiated a highly controversial "poison pill" strategy.
+E. rendered it entirely incomprehensible to the lay members of the jury.
+F. triggered a cascading liquidity crisis across multiple tier-one investment banks.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-E, C-D
+
+Answer: A
+Explanation:
+A matches with F (implosion of hedge fund -> triggered liquidity crisis).
+B matches with D (Rather than succumb to bid -> initiated "poison pill" strategy).
+C matches with E (esoteric terminology -> incomprehensible to lay members).
+
+15. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The stringent environmental regulations, ostensibly designed to protect wetlands
+B. Were it not for the unprecedented intervention of the central reserve
+C. The proliferation of automated high-frequency algorithmic trading
+
+Column II:
+D. the cascading bank runs would have plunged the nation into a depression.
+E. have inadvertently stifled housing development and inflated property prices.
+F. has fundamentally altered the microstructure and latency of modern financial markets.
+
+(A) A-E, B-D, C-F
+(B) A-F, B-E, C-D
+(C) A-D, B-F, C-E
+(D) A-E, B-F, C-D
+
+Answer: A
+Explanation:
+A matches with E (regulations designed to protect wetlands -> inadvertently stifled housing).
+B matches with D (Were it not for... -> the bank runs would have plunged).
+C matches with F (proliferation of algorithmic trading -> altered microstructure of markets).
+----------------------------------------

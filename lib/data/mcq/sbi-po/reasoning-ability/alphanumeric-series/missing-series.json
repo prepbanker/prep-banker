@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "alphanumeric-series",
+  "subtopic": "missing-series",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Find the missing term in the given alphanumeric series.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "P3C, R5F, T8I, V12L, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "X17O"
+                },
+                {
+                  "label": "B",
+                  "text": "Y17O"
+                },
+                {
+                  "label": "C",
+                  "text": "X16O"
+                },
+                {
+                  "label": "D",
+                  "text": "X17P"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: P (+2) = R (+2) = T (+2) = V (+2) = X.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "2Z5, 7Y7, 14X9, 23W11, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "34V13"
+                },
+                {
+                  "label": "B",
+                  "text": "32V13"
+                },
+                {
+                  "label": "C",
+                  "text": "34U13"
+                },
+                {
+                  "label": "D",
+                  "text": "34V15"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First number: 2 (+5) = 7 (+7) = 14 (+9) = 23 (+11) = 34.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "A2B, C4D, E8F, G16H, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "I32J"
+                },
+                {
+                  "label": "B",
+                  "text": "H32I"
+                },
+                {
+                  "label": "C",
+                  "text": "I30J"
+                },
+                {
+                  "label": "D",
+                  "text": "I32K"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: A (+2) = C (+2) = E (+2) = G (+2) = I.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "W144, U121, S100, Q81, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "O64"
+                },
+                {
+                  "label": "B",
+                  "text": "P64"
+                },
+                {
+                  "label": "C",
+                  "text": "O49"
+                },
+                {
+                  "label": "D",
+                  "text": "P49"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Letter: W (-2) = U (-2) = S (-2) = Q (-2) = O.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "3F, 6G, 11I, 18L, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "27P"
+                },
+                {
+                  "label": "B",
+                  "text": "25P"
+                },
+                {
+                  "label": "C",
+                  "text": "27Q"
+                },
+                {
+                  "label": "D",
+                  "text": "29P"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Number: 3 (+3) = 6 (+5) = 11 (+7) = 18 (+9) = 27.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Find the missing alphanumeric block.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "B2D, E3H, I5M, N7S, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "T11Z"
+                },
+                {
+                  "label": "B",
+                  "text": "T11Y"
+                },
+                {
+                  "label": "C",
+                  "text": "S11Z"
+                },
+                {
+                  "label": "D",
+                  "text": "T9Z"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: B (+3) = E (+4) = I (+5) = N (+6) = T.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Z1A, X2D, V6G, T24J, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "R120M"
+                },
+                {
+                  "label": "B",
+                  "text": "R100M"
+                },
+                {
+                  "label": "C",
+                  "text": "R120N"
+                },
+                {
+                  "label": "D",
+                  "text": "S120M"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: Z (-2) = X (-2) = V (-2) = T (-2) = R.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "5M3, 8O5, 12Q8, 17S12, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "23U17"
+                },
+                {
+                  "label": "B",
+                  "text": "23V17"
+                },
+                {
+                  "label": "C",
+                  "text": "23U18"
+                },
+                {
+                  "label": "D",
+                  "text": "22U17"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First number: 5 (+3) = 8 (+4) = 12 (+5) = 17 (+6) = 23.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "D4V, G9T, J16R, M25P, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P36N"
+                },
+                {
+                  "label": "B",
+                  "text": "P36M"
+                },
+                {
+                  "label": "C",
+                  "text": "O36N"
+                },
+                {
+                  "label": "D",
+                  "text": "P49N"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: D (+3) = G (+3) = J (+3) = M (+3) = P.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Which term does NOT belong in the series?\n1A2, 3C4, 7F8, 13J14, 21O22, 31T32",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "7F8"
+                },
+                {
+                  "label": "B",
+                  "text": "13J14"
+                },
+                {
+                  "label": "C",
+                  "text": "21O22"
+                },
+                {
+                  "label": "D",
+                  "text": "31T32"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Let's check the patterns:",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Solve the complex continuous logic questions.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "A1Z, E2V, I6R, M24N, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q120J"
+                },
+                {
+                  "label": "B",
+                  "text": "Q100J"
+                },
+                {
+                  "label": "C",
+                  "text": "Q120K"
+                },
+                {
+                  "label": "D",
+                  "text": "P120J"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "First letter: A (+4) = E (+4) = I (+4) = M (+4) = Q.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "What comes next in the sequence?\n2, B, 4, D, 8, H, 16, P, 32, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "F"
+                },
+                {
+                  "label": "B",
+                  "text": "G"
+                },
+                {
+                  "label": "C",
+                  "text": "H"
+                },
+                {
+                  "label": "D",
+                  "text": "J"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The letters correspond to the alphabetical position of the preceding number, modulo 26 if necessary.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Find the missing block:\nAB1, CD4, EF9, GH16, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "IJ20"
+                },
+                {
+                  "label": "B",
+                  "text": "IJ25"
+                },
+                {
+                  "label": "C",
+                  "text": "IK25"
+                },
+                {
+                  "label": "D",
+                  "text": "HI25"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Letters: Consecutive pairs from A. AB, CD, EF, GH, IJ.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In the series 4Z, 8X, 16V, 32T, ?, what is the 7th term?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "256P"
+                },
+                {
+                  "label": "B",
+                  "text": "128R"
+                },
+                {
+                  "label": "C",
+                  "text": "256N"
+                },
+                {
+                  "label": "D",
+                  "text": "128N"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Let's find the explicit formula.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "M3V, O6S, Q11P, S18M, ?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "U27K"
+                },
+                {
+                  "label": "B",
+                  "text": "U27J"
+                },
+                {
+                  "label": "C",
+                  "text": "V27J"
+                },
+                {
+                  "label": "D",
+                  "text": "U29J"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "First letter: M (+2) = O (+2) = Q (+2) = S (+2) = U.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "quantitative-aptitude",
+  "topic": "data-interpretation",
+  "subtopic": "table-di",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the given table carefully and answer the following questions.\nRefer to diagram: SVG/Q1.svg\nThe table shows the sales (in thousands) of four different products (P, Q, R, S) over five years (2018-2022).",
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is the average sales of Product Q over all the given years?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "44.4 thousand"
+                },
+                {
+                  "label": "B",
+                  "text": "45.6 thousand"
+                },
+                {
+                  "label": "C",
+                  "text": "46.2 thousand"
+                },
+                {
+                  "label": "D",
+                  "text": "48.0 thousand"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sales of Q: 42 (2018) + 48 (2019) + 45 (2020) + 50 (2021) + 43 (2022) = 228.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "The total sales of Product R in 2019 and 2020 together is approximately what percent of the total sales of Product S in 2021 and 2022 together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "82%"
+                },
+                {
+                  "label": "B",
+                  "text": "85%"
+                },
+                {
+                  "label": "C",
+                  "text": "88%"
+                },
+                {
+                  "label": "D",
+                  "text": "91%"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Sales of R in 2019 and 2020 = 55 + 50 = 105.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "What is the ratio of the total sales of all products in 2018 to that in 2022?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "165 : 182"
+                },
+                {
+                  "label": "B",
+                  "text": "175 : 191"
+                },
+                {
+                  "label": "C",
+                  "text": "182 : 199"
+                },
+                {
+                  "label": "D",
+                  "text": "191 : 205"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total sales in 2018 = 35 (P) + 42 (Q) + 60 (R) + 45 (S) = 182.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "If the sales of Product P in 2023 is expected to increase by 20% compared to 2022, what will be the sales of Product P in 2023 (in thousands)?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "55.6"
+                },
+                {
+                  "label": "B",
+                  "text": "57.6"
+                },
+                {
+                  "label": "C",
+                  "text": "59.6"
+                },
+                {
+                  "label": "D",
+                  "text": "61.6"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Sales of P in 2022 = 48.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Which product showed the highest percentage increase in sales from 2018 to 2021?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "Q"
+                },
+                {
+                  "label": "C",
+                  "text": "R"
+                },
+                {
+                  "label": "D",
+                  "text": "S"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "P: from 35 to 45 -> Increase = 10 -> (10/35)*100 = 28.57%",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the given table carefully and answer the following questions.\nRefer to diagram: SVG/Q6.svg\nThe table gives the number of Male and Female employees working in 5 different departments (A, B, C, D, E) of a company.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "What is the respective ratio of total male employees in departments A and B together to the total female employees in departments C and D together?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "9 : 8"
+                },
+                {
+                  "label": "B",
+                  "text": "11 : 10"
+                },
+                {
+                  "label": "C",
+                  "text": "13 : 12"
+                },
+                {
+                  "label": "D",
+                  "text": "15 : 14"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Males in A and B = 250 + 300 = 550.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "The number of female employees in department E is what percent more or less than the number of male employees in department C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "12.5% more"
+                },
+                {
+                  "label": "B",
+                  "text": "12.5% less"
+                },
+                {
+                  "label": "C",
+                  "text": "20% more"
+                },
+                {
+                  "label": "D",
+                  "text": "20% less"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Females in E = 360.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "What is the total number of employees working in the company?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2760"
+                },
+                {
+                  "label": "B",
+                  "text": "2860"
+                },
+                {
+                  "label": "C",
+                  "text": "2960"
+                },
+                {
+                  "label": "D",
+                  "text": "3060"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Total Males = 250 + 300 + 320 + 200 + 380 = 1450.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In which department is the ratio of male to female employees exactly 5:4?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "B"
+                },
+                {
+                  "label": "C",
+                  "text": "C"
+                },
+                {
+                  "label": "D",
+                  "text": "D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A: 250 / 200 = 5/4.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "If 10% of male employees from department B and 20% of female employees from department E are transferred to department D, what will be the new total number of employees in department D?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "502"
+                },
+                {
+                  "label": "B",
+                  "text": "512"
+                },
+                {
+                  "label": "C",
+                  "text": "522"
+                },
+                {
+                  "label": "D",
+                  "text": "532"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "10% of males in B = 10% of 300 = 30.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the given table carefully and answer the following questions.\nRefer to diagram: SVG/Q11.svg\nThe table provides the number of students enrolled in three different courses (Arts, Science, Commerce) across five different colleges (C1, C2, C3, C4, C5).",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the average number of students enrolled in the Science course across all five colleges?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "412"
+                },
+                {
+                  "label": "B",
+                  "text": "424"
+                },
+                {
+                  "label": "C",
+                  "text": "436"
+                },
+                {
+                  "label": "D",
+                  "text": "448"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Science enrollments: C1(420), C2(480), C3(360), C4(450), C5(410).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "The number of students in Commerce in College C3 is what percent of the number of students in Arts in College C2?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "75%"
+                },
+                {
+                  "label": "B",
+                  "text": "80%"
+                },
+                {
+                  "label": "C",
+                  "text": "85%"
+                },
+                {
+                  "label": "D",
+                  "text": "90%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Commerce in C3 = 400.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Find the difference between the total number of students in College C4 and College C1.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "110"
+                },
+                {
+                  "label": "B",
+                  "text": "120"
+                },
+                {
+                  "label": "C",
+                  "text": "130"
+                },
+                {
+                  "label": "D",
+                  "text": "140"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Total in C4 = 380(Arts) + 450(Science) + 480(Commerce) = 1310.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In College C5, if the ratio of boys to girls in Commerce is 3:2, how many girls are enrolled in Commerce in College C5?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "152"
+                },
+                {
+                  "label": "B",
+                  "text": "162"
+                },
+                {
+                  "label": "C",
+                  "text": "172"
+                },
+                {
+                  "label": "D",
+                  "text": "182"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Commerce in C5 = 380.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Which college has the highest ratio of Science students to Commerce students?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "C1"
+                },
+                {
+                  "label": "B",
+                  "text": "C2"
+                },
+                {
+                  "label": "C",
+                  "text": "C3"
+                },
+                {
+                  "label": "D",
+                  "text": "C5"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Ratios:",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

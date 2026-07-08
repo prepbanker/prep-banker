@@ -9,7 +9,7 @@ import SubjectTopicSelection from './steps/SubjectTopicSelection';
 import TestRunner from './steps/TestRunner';
 import ResultsPage from './steps/ResultsPage';
 
-const DURATION_SECONDS = 600; // 10 minutes
+const DURATION_SECONDS = 900; // 15 minutes
 
 const initialState: QuizState = {
   step: 'exam-select',
@@ -24,9 +24,6 @@ const initialState: QuizState = {
 };
 
 type QuizAction =
-  | { type: 'SELECT_EXAM_TYPE'; examType: ExamType }
-  | { type: 'CONTINUE_TO_TOPIC_SELECT' }
-  | { type: 'SELECT_SUBTOPIC'; subtopicId: string }
   | { type: 'START_TEST'; durationSeconds: number }
   | { type: 'SELECT_OPTION'; questionId: string; optionIndex: number }
   | { type: 'CLEAR_RESPONSE'; questionId: string }
@@ -35,7 +32,10 @@ type QuizAction =
   | { type: 'TICK' }
   | { type: 'SUBMIT_TEST' }
   | { type: 'SET_LANGUAGE'; language: Language }
-  | { type: 'RESET_TO_TOPIC_SELECT' };
+  | { type: 'RESET_TO_TOPIC_SELECT' }
+  | { type: 'SELECT_EXAM_TYPE'; examType: ExamType }
+  | { type: 'CONTINUE_TO_TOPIC_SELECT' }
+  | { type: 'SELECT_SUBTOPIC'; subtopicId: string };
 
 function quizReducer(state: QuizState, action: QuizAction): QuizState {
   switch (action.type) {
@@ -60,7 +60,17 @@ function quizReducer(state: QuizState, action: QuizAction): QuizState {
     case 'START_TEST': {
       const subtopicId = state.subtopicId;
       if (!subtopicId) return state;
-      const activeSet = mockQuizData.questionSets[subtopicId];
+      let activeSet = mockQuizData.questionSets[subtopicId];
+      if (!activeSet) {
+        // Fallback to ensure all newly unlocked subtopics are playable
+        if (subtopicId.includes('puzzle') || subtopicId.includes('arrangement') || subtopicId.includes('syllogism') || subtopicId.includes('inequality') || subtopicId.includes('coding') || subtopicId.includes('blood') || subtopicId.includes('direction') || subtopicId.includes('ranking') || subtopicId.includes('alphabet') || subtopicId.includes('series') || subtopicId.includes('logical')) {
+          activeSet = mockQuizData.questionSets['basic-syllogism'] || mockQuizData.questionSets['floor-puzzle'];
+        } else if (subtopicId.includes('reading') || subtopicId.includes('cloze') || subtopicId.includes('error') || subtopicId.includes('blank') || subtopicId.includes('jumble') || subtopicId.includes('swap') || subtopicId.includes('phrase') || subtopicId.includes('improvement') || subtopicId.includes('column') || subtopicId.includes('connector') || subtopicId.includes('vocab') || subtopicId.includes('grammar')) {
+          activeSet = mockQuizData.questionSets['error-detection'] || mockQuizData.questionSets['reading-comprehension'];
+        } else {
+          activeSet = mockQuizData.questionSets['missing-number-series'] || mockQuizData.questionSets['simple-compound-interest'];
+        }
+      }
       if (!activeSet) return state;
 
       const initialAnswers: Record<string, any> = {};

@@ -1,0 +1,280 @@
+----------------------------------------
+Topic: Puzzles
+Subtopic: Month Puzzle
+----------------------------------------
+
+Directions (Q1–Q2): Read the following information carefully and answer the questions.
+
+Four persons — Aman, Brinda, Charu, and Dev — each have their birthday in a different month among January, March, June, and September.
+
+• Dev's birthday is in January.
+• Aman's birthday is in the last of the four months (chronologically).
+• Brinda's birthday is in the month that comes immediately before Charu's birthday among the given months.
+
+Q1. Whose birthday falls in June?
+(A) Aman
+(B) Brinda
+(C) Charu
+(D) Dev
+
+Answer: C
+Explanation:
+Step 1: Dev → January (given directly).
+Step 2: Aman → September (last among Jan, Mar, Jun, Sep).
+Step 3: Remaining months for Brinda and Charu: March and June.
+         Brinda's month comes immediately before Charu's → Brinda = March, Charu = June.
+Final Arrangement: January – Dev | March – Brinda | June – Charu | September – Aman
+Answer: Charu → (C)
+
+----------------------------------------
+
+Q2. In which month is Brinda's birthday?
+(A) January
+(B) March
+(C) June
+(D) September
+
+Answer: B
+Explanation:
+From the arrangement derived in Q1:
+March → Brinda | June → Charu
+Answer: March → (B)
+
+----------------------------------------
+
+Directions (Q3–Q5): Read the following information carefully and answer the questions.
+
+Five persons — P, Q, R, S, and T — each celebrate their birthday in a different month among February, April, July, October, and December.
+
+• T's birthday is in December.
+• R's birthday is in February.
+• S's birthday is in October.
+• P's birthday comes before Q's birthday (chronologically).
+• P's birthday is in April and Q's birthday is in July.
+
+Refer to diagram: SVG/Q3.svg
+
+Q3. Whose birthday falls in July?
+(A) P
+(B) Q
+(C) S
+(D) T
+
+Answer: B
+Explanation:
+Step 1: R → February | P → April | Q → July | S → October | T → December (all directly given or derived).
+Step 2: P (April) comes before Q (July) ✓.
+Final Arrangement: February – R | April – P | July – Q | October – S | December – T
+Answer: Q → (B)
+
+----------------------------------------
+
+Q4. How many persons have their birthday before October?
+(A) 2
+(B) 3
+(C) 4
+(D) 1
+
+Answer: B
+Explanation:
+Months before October: February (R), April (P), July (Q) → 3 persons.
+Answer: 3 → (B)
+
+----------------------------------------
+
+Q5. Whose birthday falls between Q's and T's birthday (chronologically)?
+(A) P
+(B) R
+(C) S
+(D) None of the above
+
+Answer: C
+Explanation:
+Q's birthday → July | T's birthday → December.
+Among the five persons, October (S) falls between July and December.
+Answer: S → (C)
+
+----------------------------------------
+
+Directions (Q6–Q9): Read the following information carefully and answer the questions.
+
+Six persons — A, B, C, D, E, and F — are each born in a different month among January, February, March, April, May, and June. Each person is born on one of two dates: 10th or 25th.
+
+• A is born on the 10th of March.
+• B is born in June on the 10th.
+• C is born on the 25th of April.
+• D is born in February on the 25th.
+• E is born in May on the 10th.
+• F is born in January on the 25th.
+
+Refer to diagram: SVG/Q6.svg
+
+Q6. Who is born in April?
+(A) B
+(B) C
+(C) D
+(D) E
+
+Answer: B
+Explanation:
+Step 1: A → March (10th) | B → June (10th) | C → April (25th) | D → February (25th) | E → May (10th) | F → January (25th).
+Answer: C is born in April → (B)
+
+----------------------------------------
+
+Q7. On which date is F born?
+(A) 10th
+(B) 25th
+(C) 15th
+(D) 20th
+
+Answer: B
+Explanation:
+F is born in January on the 25th (stated directly in the clues).
+Answer: 25th → (B)
+
+----------------------------------------
+
+Q8. How many persons are born on the 10th?
+(A) 2
+(B) 3
+(C) 4
+(D) 1
+
+Answer: B
+Explanation:
+Persons born on the 10th: A (March), B (June), E (May) → 3 persons.
+Answer: 3 → (B)
+
+----------------------------------------
+
+Q9. Which person is born in the month immediately after D's birth month?
+(A) A
+(B) C
+(C) F
+(D) E
+
+Answer: A
+Explanation:
+D is born in February. The month immediately after February is March.
+Person born in March = A.
+Answer: A → (A)
+
+----------------------------------------
+
+Q10. Eight persons are scheduled to attend interviews in 8 different months (January to August) of the same year. Person X is scheduled exactly 3 months after Person Y. Person Y is scheduled in March. Person Z is scheduled immediately after Person X. In which month is Person Z scheduled?
+(A) June
+(B) July
+(C) August
+(D) May
+
+Answer: B
+Explanation:
+Step 1: Y is scheduled in March.
+Step 2: X is scheduled exactly 3 months after Y → March + 3 = June. So X is in June.
+Step 3: Z is scheduled immediately after X (June) → Z is in July.
+Answer: July → (B)
+
+----------------------------------------
+
+Directions (Q11–Q14): Read the following information carefully and answer the questions.
+
+Seven persons — Ajay, Bina, Chetan, Deepa, Esha, Farhan, and Geeta — are each born in a different month from January to July. Each person likes a different sport: Cricket, Football, Basketball, Tennis, Volleyball, Hockey, and Badminton.
+
+• Esha is born in January and likes Cricket.
+• Chetan is born in February and likes Basketball.
+• Bina is born in March and likes Football.
+• Deepa is born exactly 2 months after Chetan and likes Volleyball.
+• Farhan is born in May and likes Badminton.
+• Geeta is born in June and likes Tennis.
+• Ajay is born in July and likes Hockey.
+
+Refer to diagram: SVG/Q11.svg
+
+Q11. In which month is Deepa born?
+(A) March
+(B) April
+(C) May
+(D) June
+
+Answer: B
+Explanation:
+Chetan is born in February. Deepa is born exactly 2 months after Chetan → February + 2 = April.
+Final Arrangement: Jan – Esha | Feb – Chetan | Mar – Bina | Apr – Deepa | May – Farhan | Jun – Geeta | Jul – Ajay
+Answer: April → (B)
+
+----------------------------------------
+
+Q12. Who among the following likes Volleyball?
+(A) Deepa
+(B) Chetan
+(C) Farhan
+(D) Bina
+
+Answer: A
+Explanation:
+Deepa likes Volleyball (stated in the clues).
+Answer: Deepa → (A)
+
+----------------------------------------
+
+Q13. How many persons are born between Bina and Ajay (chronologically)?
+(A) 2
+(B) 3
+(C) 4
+(D) 1
+
+Answer: B
+Explanation:
+Bina → March (Position 3) | Ajay → July (Position 7).
+Persons between them: Deepa (April), Farhan (May), Geeta (June) → 3 persons.
+Answer: 3 → (B)
+
+----------------------------------------
+
+Q14. Which person likes the sport that comes last alphabetically among the seven sports?
+(A) Ajay
+(B) Geeta
+(C) Deepa
+(D) Esha
+
+Answer: C
+Explanation:
+The seven sports in alphabetical order:
+Badminton, Basketball, Cricket, Football, Hockey, Tennis, Volleyball.
+The last alphabetically is Volleyball → liked by Deepa.
+Answer: Deepa → (C)
+
+----------------------------------------
+
+Q15. Eight persons — P, Q, R, S, T, U, V, and W — are each scheduled to attend a seminar in a different month from January to August of the same year.
+
+• P is scheduled in January.
+• U is scheduled in February.
+• V is scheduled immediately after U.
+• Q is scheduled exactly 3 months after P.
+• S is scheduled immediately before T.
+• T is scheduled in June.
+• W is scheduled in July.
+• R is scheduled in August.
+
+The persons scheduled in the months of March, April, May, and June exchange their schedules in reverse order — i.e., the person originally in March moves to June, the person in April moves to May, the person in May moves to April, and the person in June moves to March.
+
+Who will be scheduled in May after this rearrangement?
+(A) S
+(B) T
+(C) Q
+(D) V
+
+Answer: C
+Explanation:
+Step 1: Derive original arrangement:
+  P → January | U → February | V → March (immediately after U)
+  Q → April (3 months after January) | S → May (immediately before T) | T → June | W → July | R → August
+Step 2: Persons in March to June: V (March), Q (April), S (May), T (June).
+Step 3: Reverse order within March–June:
+  March → T | April → S | May → Q | June → V
+Step 4: Person in May after rearrangement = Q.
+Answer: Q → (C)
+
+----------------------------------------

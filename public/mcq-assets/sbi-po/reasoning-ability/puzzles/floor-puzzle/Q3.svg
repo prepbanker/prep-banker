@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" font-family="Arial, sans-serif">
+
+  <!-- Table Header -->
+  <rect x="30" y="10" width="140" height="36" fill="#1a237e" rx="4"/>
+  <rect x="180" y="10" width="150" height="36" fill="#1a237e" rx="4"/>
+  <text x="100" y="33" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Floor</text>
+  <text x="255" y="33" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Person</text>
+
+  <!-- Floor 5 -->
+  <rect x="30" y="46" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="180" y="46" width="150" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="100" y="69" text-anchor="middle" font-size="13" fill="#1a237e" font-weight="bold">5 (Top)</text>
+  <text x="255" y="69" text-anchor="middle" font-size="13" fill="#333">Chitra</text>
+
+  <!-- Floor 4 -->
+  <rect x="30" y="82" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="180" y="82" width="150" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="100" y="105" text-anchor="middle" font-size="13" fill="#1a237e" font-weight="bold">4</text>
+  <text x="255" y="105" text-anchor="middle" font-size="13" fill="#333">Anil</text>
+
+  <!-- Floor 3 -->
+  <rect x="30" y="118" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="180" y="118" width="150" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="100" y="141" text-anchor="middle" font-size="13" fill="#1a237e" font-weight="bold">3</text>
+  <text x="255" y="141" text-anchor="middle" font-size="13" fill="#333">Esha</text>
+
+  <!-- Floor 2 -->
+  <rect x="30" y="154" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="180" y="154" width="150" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="100" y="177" text-anchor="middle" font-size="13" fill="#1a237e" font-weight="bold">2</text>
+  <text x="255" y="177" text-anchor="middle" font-size="13" fill="#333">Bhanu</text>
+
+  <!-- Floor 1 -->
+  <rect x="30" y="190" width="140" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="180" y="190" width="150" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="100" y="213" text-anchor="middle" font-size="13" fill="#1a237e" font-weight="bold">1 (Bottom)</text>
+  <text x="255" y="213" text-anchor="middle" font-size="13" fill="#333">Dev</text>
+
+</svg>

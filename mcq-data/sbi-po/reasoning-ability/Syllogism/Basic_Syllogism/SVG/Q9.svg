@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" font-family="Arial, sans-serif">
+  <!-- All Waters are Oceans -->
+  <circle cx="250" cy="300" r="45" fill="rgba(0, 188, 212, 0.1)" stroke="#0097a7" stroke-width="3"/>
+  <text x="250" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="#006064">Waters</text>
+  
+  <!-- All Oceans are Rivers -->
+  <circle cx="250" cy="300" r="90" fill="rgba(33, 150, 243, 0.1)" stroke="#1976d2" stroke-width="3"/>
+  <text x="250" y="235" text-anchor="middle" font-size="18" font-weight="bold" fill="#0d47a1">Oceans</text>
+  
+  <circle cx="250" cy="300" r="135" fill="rgba(63, 81, 181, 0.1)" stroke="#303f9f" stroke-width="3"/>
+  <text x="250" y="190" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a237e">Rivers</text>
+  
+  <!-- No River is a Lake -->
+  <circle cx="500" cy="300" r="65" fill="rgba(233, 30, 99, 0.1)" stroke="#c2185b" stroke-width="3"/>
+  <text x="500" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="#880e4f">Lakes</text>
+  
+  <!-- Disjoint Line and Cross -->
+  <line x1="385" y1="300" x2="435" y2="300" stroke="#d32f2f" stroke-width="3"/>
+  <path d="M 405 295 L 415 305 M 405 305 L 415 295" stroke="#d32f2f" stroke-width="3" fill="none"/>
+</svg>

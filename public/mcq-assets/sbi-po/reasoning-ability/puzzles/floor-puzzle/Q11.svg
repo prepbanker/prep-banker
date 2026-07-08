@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" font-family="Arial, sans-serif">
+
+  <!-- Table Header -->
+  <rect x="10" y="10" width="110" height="36" fill="#283593" rx="4"/>
+  <rect x="130" y="10" width="130" height="36" fill="#283593" rx="4"/>
+  <rect x="270" y="10" width="140" height="36" fill="#283593" rx="4"/>
+  <rect x="420" y="10" width="130" height="36" fill="#283593" rx="4"/>
+  <text x="65"  y="33" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Floor</text>
+  <text x="195" y="33" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Person</text>
+  <text x="340" y="33" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Profession</text>
+  <text x="485" y="33" text-anchor="middle" font-size="12" fill="white" font-weight="bold">Colour</text>
+
+  <!-- Floor 7 -->
+  <rect x="10" y="46" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="46" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="46" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="46" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="69" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">7 (Top)</text>
+  <text x="195" y="69" text-anchor="middle" font-size="12" fill="#333">Garima</text>
+  <text x="340" y="69" text-anchor="middle" font-size="12" fill="#333">Doctor</text>
+  <text x="485" y="69" text-anchor="middle" font-size="12" fill="#333">Red</text>
+
+  <!-- Floor 6 -->
+  <rect x="10" y="82" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="82" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="82" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="82" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="105" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">6</text>
+  <text x="195" y="105" text-anchor="middle" font-size="12" fill="#333">Farhan</text>
+  <text x="340" y="105" text-anchor="middle" font-size="12" fill="#333">Engineer</text>
+  <text x="485" y="105" text-anchor="middle" font-size="12" fill="#333">Blue</text>
+
+  <!-- Floor 5 -->
+  <rect x="10" y="118" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="118" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="118" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="118" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="141" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">5</text>
+  <text x="195" y="141" text-anchor="middle" font-size="12" fill="#333">Esha</text>
+  <text x="340" y="141" text-anchor="middle" font-size="12" fill="#333">Teacher</text>
+  <text x="485" y="141" text-anchor="middle" font-size="12" fill="#333">Green</text>
+
+  <!-- Floor 4 -->
+  <rect x="10" y="154" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="154" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="154" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="154" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="177" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">4</text>
+  <text x="195" y="177" text-anchor="middle" font-size="12" fill="#333">Dev</text>
+  <text x="340" y="177" text-anchor="middle" font-size="12" fill="#333">Banker</text>
+  <text x="485" y="177" text-anchor="middle" font-size="12" fill="#333">Yellow</text>
+
+  <!-- Floor 3 -->
+  <rect x="10" y="190" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="190" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="190" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="190" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="213" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">3</text>
+  <text x="195" y="213" text-anchor="middle" font-size="12" fill="#333">Chitra</text>
+  <text x="340" y="213" text-anchor="middle" font-size="12" fill="#333">Lawyer</text>
+  <text x="485" y="213" text-anchor="middle" font-size="12" fill="#333">White</text>
+
+  <!-- Floor 2 -->
+  <rect x="10" y="226" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="226" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="226" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="226" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="249" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">2</text>
+  <text x="195" y="249" text-anchor="middle" font-size="12" fill="#333">Bhanu</text>
+  <text x="340" y="249" text-anchor="middle" font-size="12" fill="#333">Pilot</text>
+  <text x="485" y="249" text-anchor="middle" font-size="12" fill="#333">Orange</text>
+
+  <!-- Floor 1 -->
+  <rect x="10" y="262" width="110" height="36" fill="#c5cae9" rx="2"/>
+  <rect x="130" y="262" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="270" y="262" width="140" height="36" fill="#e8eaf6" rx="2"/>
+  <rect x="420" y="262" width="130" height="36" fill="#e8eaf6" rx="2"/>
+  <text x="65"  y="285" text-anchor="middle" font-size="12" fill="#1a237e" font-weight="bold">1 (Bottom)</text>
+  <text x="195" y="285" text-anchor="middle" font-size="12" fill="#333">Arun</text>
+  <text x="340" y="285" text-anchor="middle" font-size="12" fill="#333">Architect</text>
+  <text x="485" y="285" text-anchor="middle" font-size="12" fill="#333">Purple</text>
+
+</svg>

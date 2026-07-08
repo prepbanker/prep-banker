@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "blood-relations",
+  "subtopic": "family-tree",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nA family consists of six members: P, Q, R, S, T, and U. There are two married couples in the family.\nP is the father of R and the grandfather of U.\nQ is the mother-in-law of S.\nS is the mother of T.\nT is the sister of U.\nU is a male.\nR is a male.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "How is P related to T?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Father"
+                },
+                {
+                  "label": "B",
+                  "text": "Grandfather"
+                },
+                {
+                  "label": "C",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "D",
+                  "text": "Brother"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "P is the father of R, and R is married to S (since Q is S's mother-in-law, Q and P are a couple). S is the mother of T. Therefore, R is the father of T, making P the grandfather of T.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "How is S related to Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Daughter"
+                },
+                {
+                  "label": "B",
+                  "text": "Sister-in-law"
+                },
+                {
+                  "label": "C",
+                  "text": "Daughter-in-law"
+                },
+                {
+                  "label": "D",
+                  "text": "Niece"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The statement explicitly says \"Q is the mother-in-law of S\". This means S is the daughter-in-law of Q.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "How is R related to U?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Brother"
+                },
+                {
+                  "label": "B",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "C",
+                  "text": "Grandfather"
+                },
+                {
+                  "label": "D",
+                  "text": "Father"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "S is the mother of T, and T is the sister of U. This means S is the mother of U. Since R is married to S, R is the father of U.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "How many male members are there in the family?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2"
+                },
+                {
+                  "label": "B",
+                  "text": "3"
+                },
+                {
+                  "label": "C",
+                  "text": "4"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The male members are:",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Who among the following is the spouse of P?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "S"
+                },
+                {
+                  "label": "B",
+                  "text": "R"
+                },
+                {
+                  "label": "C",
+                  "text": "Q"
+                },
+                {
+                  "label": "D",
+                  "text": "T"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Since P is the father of R, and Q is the mother-in-law of R's wife (S), Q must be the mother of R. Therefore, P and Q are a married couple, making Q the spouse of P.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nIn a family of 8 members, there are 3 generations and 2 married couples.\nB is the husband of A.\nD is the only son of B.\nC is the sister of D.\nE is the wife of D.\nH is the father of E.\nF is the sister of E.\nG is the daughter of D.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "How is C related to E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Sister"
+                },
+                {
+                  "label": "B",
+                  "text": "Sister-in-law"
+                },
+                {
+                  "label": "C",
+                  "text": "Cousin"
+                },
+                {
+                  "label": "D",
+                  "text": "Mother-in-law"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "C is the sister of D, and D is the husband of E. Therefore, C is the sister-in-law of E.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "How is H related to G?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Paternal Grandfather"
+                },
+                {
+                  "label": "B",
+                  "text": "Maternal Grandfather"
+                },
+                {
+                  "label": "C",
+                  "text": "Uncle"
+                },
+                {
+                  "label": "D",
+                  "text": "Father"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "H is the father of E, and E is the mother of G (since G is D's daughter and E is D's wife). Therefore, H is the maternal grandfather of G.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "How many female members are there in the family?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "3"
+                },
+                {
+                  "label": "B",
+                  "text": "4"
+                },
+                {
+                  "label": "C",
+                  "text": "5"
+                },
+                {
+                  "label": "D",
+                  "text": "6"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The female members are:",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "How is F related to D?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Sister"
+                },
+                {
+                  "label": "B",
+                  "text": "Sister-in-law"
+                },
+                {
+                  "label": "C",
+                  "text": "Cousin"
+                },
+                {
+                  "label": "D",
+                  "text": "Aunt"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "F is the sister of E, and E is the wife of D. Therefore, F is the sister-in-law of D.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Who is the mother-in-law of E?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "C"
+                },
+                {
+                  "label": "C",
+                  "text": "F"
+                },
+                {
+                  "label": "D",
+                  "text": "H"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "E is married to D. D is the son of B and A. Since B is the husband of A, A is the mother of D. Thus, A is the mother-in-law of E.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nIn a family of 9 members, there are three generations and three married couples.\nU is the father of S.\nQ is the only sister of S.\nR is the brother-in-law of T.\nP is the mother-in-law of V.\nO is the nephew of V.\nM is the granddaughter of U.\nT does not have any siblings and is a female.\nV is a male.\nS has only two children, and O is not a female.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "How is P related to R?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Grandmother"
+                },
+                {
+                  "label": "B",
+                  "text": "Mother"
+                },
+                {
+                  "label": "C",
+                  "text": "Aunt"
+                },
+                {
+                  "label": "D",
+                  "text": "Sister"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "U is the father of S, and Q is the only sister of S. Since P is the mother-in-law of V (who is a male), and Q is the only sister, V must be married to Q. This makes P the wife of U. R is the brother-in-law of T (who is married to S), meaning R is S's brother. Since P is the mother of S, Q, and R, P is the mother of R.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "How is M related to Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Daughter"
+                },
+                {
+                  "label": "B",
+                  "text": "Sister"
+                },
+                {
+                  "label": "C",
+                  "text": "Niece"
+                },
+                {
+                  "label": "D",
+                  "text": "Cousin"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "M is the granddaughter of U and child of S. Q is the sister of S. Therefore, M is the niece of Q.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many male members are there in the family?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "4"
+                },
+                {
+                  "label": "B",
+                  "text": "5"
+                },
+                {
+                  "label": "C",
+                  "text": "6"
+                },
+                {
+                  "label": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The male members are:",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "How is R related to O?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Maternal Uncle"
+                },
+                {
+                  "label": "B",
+                  "text": "Paternal Uncle"
+                },
+                {
+                  "label": "C",
+                  "text": "Father"
+                },
+                {
+                  "label": "D",
+                  "text": "Brother"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "R is the brother of S, and S is the father of O. Therefore, R is the paternal uncle of O.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Who among the following is the spouse of V?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "T"
+                },
+                {
+                  "label": "B",
+                  "text": "P"
+                },
+                {
+                  "label": "C",
+                  "text": "Q"
+                },
+                {
+                  "label": "D",
+                  "text": "M"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "P is the mother-in-law of V. V is a male. S, Q, and R are the children of P. Since T is married to S and R is a male, V must be married to the daughter Q. Thus, Q is the spouse of V.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

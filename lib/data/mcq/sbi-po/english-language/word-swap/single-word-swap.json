@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "word-swap",
+  "subtopic": "single-word-swap",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Word Swap\nSubtopic: Single Word Swap",
+          "questions": [
+            {
+              "id": 1,
+              "text": "The sudden (A) traffic of the bridge was attributed to (B) structural fatigue, causing a massive (C) collapse (D) jam across the city.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-C"
+                },
+                {
+                  "label": "B",
+                  "text": "B-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-B"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "A bridge experiences a \"collapse\", not \"traffic\". Similarly, a \"traffic jam\" is the correct phrase, not a \"collapse jam\". Swapping (A) and (C) makes the sentence: \"The sudden collapse of the bridge was attributed to structural fatigue, causing a massive traffic jam across the city.\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "The manager decided to (A) scheduling the meeting because several (B) key members were (C) unavailable due to a (D) postpone conflict.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "A-B"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The verb after \"to\" should be the base form \"postpone\". The word modifying \"conflict\" should be \"scheduling\". Swapping (A) and (D) creates: \"decided to postpone the meeting\" and \"due to a scheduling conflict.\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "The government plans to (A) vulnerable poverty by providing (B) financial assistance to the most (C) eradicate sections of (D) society.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "A-C"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The government plans to \"eradicate\" poverty, not \"vulnerable\" poverty. The sections of society are \"vulnerable\", not \"eradicate\". Swapping (A) and (C) corrects the sentence.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In order to (A) income a loan, the applicant must (B) provide a valid (C) identity document and proof of (D) secure.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "A-B"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "You \"secure\" a loan, you don't \"income\" a loan. You provide proof of \"income\", not proof of \"secure\". Swapping (A) and (D) makes the sentence logical.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "The loud (A) run startled the (B) dog, causing it to (C) thunder under the (D) bed.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-C"
+                },
+                {
+                  "label": "B",
+                  "text": "B-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-B"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "What startled the dog? Loud \"thunder\", not a loud \"run\". What did the dog do? It started to \"run\" under the bed, not \"thunder\" under the bed. Swapping (A) and (C) corrects the sentence.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Word Swap\nSubtopic: Single Word Swap",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Despite the (A) severe warnings from meteorologists, the local (B) residents remained (C) oblivious to the approaching (D) hurricane.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-C"
+                },
+                {
+                  "label": "B",
+                  "text": "B-D"
+                },
+                {
+                  "label": "C",
+                  "text": "C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "No swap required"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "The sentence is logically and grammatically correct. Warnings are \"severe\", \"residents\" is appropriate, they remained \"oblivious\" (unaware), and the \"hurricane\" was approaching.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "The new software update was intended to (A) bugs the user experience, but it inadvertently introduced several (B) critical (C) enhance that caused the system to (D) crash.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "A-C"
+                },
+                {
+                  "label": "C",
+                  "text": "B-D"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The software update was intended to \"enhance\" (improve) the experience, not \"bugs\" it. It introduced several critical \"bugs\", not \"enhance\". Swapping (A) and (C) fixes the sentence.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "The detective carefully examined the (A) evidence left at the (B) crime scene, hoping to find a (C) suspect that would lead him to the (D) clue.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "B-C"
+                },
+                {
+                  "label": "D",
+                  "text": "A-D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The detective hopes to find a \"clue\" that leads to the \"suspect\", not a \"suspect\" that leads to a \"clue\". Swapping (C) and (D) creates a logically sound sentence.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "The company's (A) innovative marketing campaign resulted in a (B) significant increase in (C) sales, much to the (D) delight of the shareholders.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "No swap required"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "The sequence of words makes perfect sense. The campaign was \"innovative\", there was a \"significant\" increase in \"sales\", resulting in the \"delight\" of the shareholders. No swap is required.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "The professor's (A) lecture was so (B) tedious that many students struggled to (C) awake (D) stay throughout the two-hour class.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "B-C"
+                },
+                {
+                  "label": "D",
+                  "text": "A-D"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The phrase should be \"stay awake\", not \"awake stay\". Swapping (C) and (D) fixes the grammatical structure of the infinitive phrase.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Word Swap\nSubtopic: Single Word Swap",
+          "questions": [
+            {
+              "id": 11,
+              "text": "The (A) exacerbate of the new tax policy was met with (B) fierce resistance from the working (C) class, who feared it would (D) implementation their financial burdens.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-D"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "A-B"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "You cannot have \"The exacerbate of\". \"Implementation\" is the noun that fits here. Similarly, a policy would \"exacerbate\" (worsen) financial burdens, acting as the verb. Swapping (A) and (D) fixes the sentence.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "The ancient manuscript, thought to be (A) lost forever, was miraculously (B) archive in a dusty (C) discovered located beneath the (D) monastery.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "C-D"
+                },
+                {
+                  "label": "D",
+                  "text": "A-C"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "A manuscript is \"discovered\" in a dusty \"archive\". Swapping the verb \"discovered\" (C) with the noun \"archive\" (B) corrects the sentence structure.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In a desperate attempt to (A) proceeds his failing business, the entrepreneur decided to (B) liquidate his personal (C) assets and invest the (D) salvage back into the company.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "B-C"
+                },
+                {
+                  "label": "C",
+                  "text": "A-D"
+                },
+                {
+                  "label": "D",
+                  "text": "C-D"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "He wants to \"salvage\" (save) his business, and he will invest the \"proceeds\" (money from liquidation) back into it. Swapping (A) and (D) makes the sentence logical.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "The (A) ubiquitous nature of smartphones has fundamentally (B) altered the way we communicate, rendering traditional (C) landlines virtually (D) obsolete.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "B-C"
+                },
+                {
+                  "label": "D",
+                  "text": "No swap required"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"Ubiquitous\" means present everywhere, fitting smartphones. \"Altered\" means changed. \"Landlines\" are the older technology being replaced. \"Obsolete\" means no longer produced or used. The sentence requires no swap.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "The diplomatic (A) negotiations were on the brink of (B) collapse due to the (C) intransigence of the rebel leaders, who refused to (D) compromise on their core demands.",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A-B"
+                },
+                {
+                  "label": "B",
+                  "text": "C-D"
+                },
+                {
+                  "label": "C",
+                  "text": "A-C"
+                },
+                {
+                  "label": "D",
+                  "text": "No swap required"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "\"Negotiations\" fits after diplomatic. \"Collapse\" is what negotiations do when they fail. \"Intransigence\" means stubborn refusal to compromise. \"Compromise\" is the verb they refused to do. The sentence is perfect as is.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

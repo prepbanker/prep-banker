@@ -1,0 +1,335 @@
+----------------------------------------
+Topic: Match the Column
+Subtopic: Sentence Matching
+----------------------------------------
+
+Q1. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The company decided to launch its new product
+B. Although he was feeling extremely exhausted
+C. The government has introduced new subsidies
+
+Column II:
+D. he managed to complete the marathon in record time.
+E. aimed at promoting renewable energy across the state.
+F. ahead of the upcoming holiday season.
+
+(A) A-F, B-D, C-E
+(B) A-D, B-E, C-F
+(C) A-E, B-F, C-D
+(D) A-F, B-E, C-D
+
+Answer: A
+Explanation: 
+A matches with F (launching product ahead of holiday season). 
+B matches with D (exhausted, yet managed to complete the marathon). 
+C matches with E (subsidies aimed at promoting renewable energy).
+
+Q2. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. To prevent the spread of the contagious virus
+B. The sudden drop in global oil prices
+C. Before signing the final contract
+
+Column II:
+D. has significantly impacted the economies of exporting nations.
+E. the authorities imposed a strict nationwide lockdown.
+F. you should carefully read all the terms and conditions.
+
+(A) A-E, B-D, C-F
+(B) A-F, B-E, C-D
+(C) A-D, B-F, C-E
+(D) A-E, B-F, C-D
+
+Answer: A
+Explanation: 
+A matches with E (prevent virus -> impose lockdown). 
+B matches with D (drop in oil prices -> impacted economies). 
+C matches with F (before signing -> read terms).
+
+Q3. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The archeological team discovered ancient ruins
+B. In an effort to reduce their carbon footprint
+C. Because the weather was unpredictable
+
+Column II:
+D. many corporations are adopting hybrid work models.
+E. they decided to carry umbrellas just in case.
+F. dating back to the early Roman empire.
+
+(A) A-D, B-F, C-E
+(B) A-F, B-D, C-E
+(C) A-E, B-F, C-D
+(D) A-F, B-E, C-D
+
+Answer: B
+Explanation: 
+A matches with F (ancient ruins dating back to Roman empire). 
+B matches with D (reduce carbon footprint -> hybrid work models). 
+C matches with E (unpredictable weather -> carry umbrellas).
+
+Q4. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Unless you apologize for your rude behavior
+B. The rapid advancement of artificial intelligence
+C. Not only did she secure the highest grade
+
+Column II:
+D. presents both unprecedented opportunities and ethical challenges.
+E. but she also received a full scholarship to the university.
+F. I will not allow you to participate in the project.
+
+(A) A-E, B-D, C-F
+(B) A-F, B-D, C-E
+(C) A-D, B-E, C-F
+(D) A-F, B-E, C-D
+
+Answer: B
+Explanation: 
+A matches with F (Unless you apologize -> I will not allow you). 
+B matches with D (AI advancement -> opportunities and challenges). 
+C matches with E (Not only... but also...).
+
+Q5. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The negotiations were incredibly tense
+B. Due to the lack of sufficient funding
+C. He invested heavily in real estate
+
+Column II:
+D. hoping to secure a stable passive income for his retirement.
+E. the ambitious infrastructure project had to be shelved indefinitely.
+F. as both nations refused to compromise on border security.
+
+(A) A-D, B-E, C-F
+(B) A-F, B-D, C-E
+(C) A-F, B-E, C-D
+(D) A-E, B-F, C-D
+
+Answer: C
+Explanation: 
+A matches with F (tense negotiations -> refused to compromise). 
+B matches with E (lack of funding -> project shelved). 
+C matches with D (invested in real estate -> stable passive income).
+
+Q6. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The central bank raised interest rates
+B. Whenever the stock market experiences extreme volatility
+C. Despite implementing rigorous austerity measures
+
+Column II:
+D. the country’s national debt continued to rise steadily.
+E. investors tend to panic and sell off their assets.
+F. in a desperate bid to curb the spiraling inflation.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-D, C-F
+(C) A-D, B-F, C-E
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation: 
+A matches with F (raise interest rates -> curb inflation). 
+B matches with E (volatility -> investors panic). 
+C matches with D (Despite austerity -> debt continued to rise).
+
+Q7. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The CEO resigned amidst allegations
+B. It is imperative that all employees
+C. She had scarcely entered the meeting room
+
+Column II:
+D. when her manager demanded an immediate progress report.
+E. adhere strictly to the newly formulated safety protocols.
+F. of widespread financial embezzlement and fraud.
+
+(A) A-E, B-F, C-D
+(B) A-F, B-E, C-D
+(C) A-D, B-F, C-E
+(D) A-F, B-D, C-E
+
+Answer: B
+Explanation: 
+A matches with F (resigned amidst allegations of fraud). 
+B matches with E (imperative that employees adhere to protocols). 
+C matches with D (scarcely entered... when...).
+
+Q8. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Having spent a decade in the military
+B. The persistent rumors regarding a hostile takeover
+C. While the initial investment is quite substantial
+
+Column II:
+D. the long-term operational savings make it highly lucrative.
+E. he developed a strong sense of discipline and leadership.
+F. caused a significant fluctuation in the company's share price.
+
+(A) A-D, B-E, C-F
+(B) A-E, B-F, C-D
+(C) A-F, B-D, C-E
+(D) A-E, B-D, C-F
+
+Answer: B
+Explanation: 
+A matches with E (decade in military -> discipline). 
+B matches with F (rumors of takeover -> fluctuation in share price). 
+C matches with D (While initial investment is substantial -> long-term savings).
+
+Q9. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The sudden surge in remote working
+B. Only by collaborating seamlessly across departments
+C. The local municipality launched a campaign
+
+Column II:
+D. to educate citizens on effective waste segregation techniques.
+E. can the organization hope to achieve its quarterly targets.
+F. has catalyzed the demand for robust cybersecurity solutions.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-F, B-E, C-D
+(D) A-D, B-E, C-F
+
+Answer: C
+Explanation: 
+A matches with F (surge in remote working -> demand for cybersecurity). 
+B matches with E (Only by collaborating... can the organization...). Note the required inversion "can the organization" after "Only by". 
+C matches with D (campaign to educate citizens).
+
+Q10. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. If the regulatory board fails to intervene promptly
+B. Her meticulous attention to detail
+C. The historical documentary was lauded
+
+Column II:
+D. for its objective analysis and rare archival footage.
+E. the environmental degradation will reach an irreversible tipping point.
+F. ensured that the complex financial audit was flawless.
+
+(A) A-E, B-F, C-D
+(B) A-F, B-E, C-D
+(C) A-D, B-F, C-E
+(D) A-E, B-D, C-F
+
+Answer: A
+Explanation: 
+A matches with E (fails to intervene -> irreversible tipping point). 
+B matches with F (attention to detail -> flawless audit). 
+C matches with D (documentary lauded for objective analysis).
+
+Q11. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Scarcely had the central bank announced the stimulus package
+B. The phenomenon of quantum entanglement
+C. Providing equitable access to high-speed internet
+
+Column II:
+D. is now considered a fundamental human right by several international bodies.
+E. when the major stock indices rallied to record highs.
+F. continues to baffle physicists with its counter-intuitive implications.
+
+(A) A-F, B-D, C-E
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-E, B-D, C-F
+
+Answer: B
+Explanation: 
+A matches with E (Scarcely... when...). 
+B matches with F (quantum entanglement -> baffles physicists). 
+C matches with D (equitable access to internet -> considered a fundamental right).
+
+Q12. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The treaty was intentionally drafted with ambiguous language
+B. Had the intelligence agencies coordinated their efforts
+C. The proliferation of deeply convincing synthetic media
+
+Column II:
+D. poses a severe threat to the integrity of democratic elections.
+E. they could have easily thwarted the sophisticated cyber-attack.
+F. allowing participating nations to interpret it to their domestic advantage.
+
+(A) A-E, B-F, C-D
+(B) A-F, B-E, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: B
+Explanation: 
+A matches with F (ambiguous language -> interpret to domestic advantage). 
+B matches with E (Had they coordinated... they could have thwarted...). 
+C matches with D (proliferation of synthetic media/deepfakes -> threat to elections).
+
+Q13. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The sheer magnitude of the logistical challenge
+B. Lest the proprietary algorithms fall into the hands of competitors
+C. Driven by an insatiable curiosity about the cosmos
+
+Column II:
+D. the brilliant astrophysicist dedicated her life to studying dark matter.
+E. the corporation isolated its core research servers from the main network.
+F. required the mobilization of resources across three different continents.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation: 
+A matches with F (magnitude of challenge -> required mobilization). 
+B matches with E (Lest [for fear that] algorithms fall... -> isolated servers). 
+C matches with D (curiosity about cosmos -> astrophysicist studied dark matter).
+
+Q14. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. Not only did the draconian policies stifle grassroots innovation
+B. The symbiotic relationship between the fungi and the tree roots
+C. An overriding reliance on subjective human intuition
+
+Column II:
+D. often leads to catastrophic errors in complex statistical forecasting.
+E. facilitates the exchange of vital nutrients essential for survival.
+F. but they also triggered a massive brain drain to neighboring countries.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation: 
+A matches with F (Not only... but they also...). 
+B matches with E (symbiotic relationship -> facilitates exchange of nutrients). 
+C matches with D (reliance on intuition -> catastrophic errors in forecasting).
+
+15. Match the halves in Column I with those in Column II to form meaningful sentences.
+Column I:
+A. The diplomatic deadlock was eventually broken
+B. Under no circumstances should the volatile chemical compounds
+C. While the macroeconomic indicators point toward an imminent recession
+
+Column II:
+D. consumer spending in the luxury sector paradoxically remains robust.
+E. be exposed to direct sunlight or sudden shifts in ambient pressure.
+F. when a neutral third-party mediator proposed a viable concession.
+
+(A) A-F, B-E, C-D
+(B) A-E, B-F, C-D
+(C) A-D, B-E, C-F
+(D) A-F, B-D, C-E
+
+Answer: A
+Explanation: 
+A matches with F (deadlock broken -> when mediator proposed concession). 
+B matches with E (Under no circumstances should... -> be exposed to sunlight). 
+C matches with D (While indicators point to recession -> consumer spending remains robust).
+----------------------------------------

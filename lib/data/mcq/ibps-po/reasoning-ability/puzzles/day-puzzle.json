@@ -1,0 +1,417 @@
+{
+  "exam": "ibps-po",
+  "subject": "reasoning-ability",
+  "topic": "puzzles",
+  "subtopic": "day-puzzle",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nSeven friends – M, N, O, P, Q, R, and S attend a seminar on seven different days of the same week starting from Monday to Sunday.\n- O attends the seminar on Thursday.\n- Two persons attend between O and P.\n- M attends immediately before P.\n- Three persons attend between M and N.\n- R attends before S but after Q.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Who attends the seminar on Monday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "Q"
+                },
+                {
+                  "label": "C",
+                  "text": "R"
+                },
+                {
+                  "label": "D",
+                  "text": "S"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: O attends on Thursday.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "How many persons attend between N and S?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "None"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "N attends on Tuesday and S attends on Friday.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "On which day does R attend the seminar?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Tuesday"
+                },
+                {
+                  "label": "B",
+                  "text": "Wednesday"
+                },
+                {
+                  "label": "C",
+                  "text": "Thursday"
+                },
+                {
+                  "label": "D",
+                  "text": "Friday"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "According to the final arrangement, R attends on Wednesday.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Who attends immediately after M?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "N"
+                },
+                {
+                  "label": "B",
+                  "text": "O"
+                },
+                {
+                  "label": "C",
+                  "text": "P"
+                },
+                {
+                  "label": "D",
+                  "text": "Q"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "M attends on Saturday and P attends immediately after on Sunday.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Q - Wednesday"
+                },
+                {
+                  "label": "B",
+                  "text": "N - Thursday"
+                },
+                {
+                  "label": "C",
+                  "text": "O - Saturday"
+                },
+                {
+                  "label": "D",
+                  "text": "R - Saturday"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Q (Monday) and Wednesday have a gap of one day.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nSeven people – A, B, C, D, E, F, and G travel to different cities (Delhi, Mumbai, Pune, Goa, Agra, Patna, and Kochi) on seven different days of the same week from Monday to Sunday.\n- C goes to Pune on Thursday.\n- The one who goes to Mumbai goes immediately before F, who goes to Goa.\n- Three persons go between F and A, who goes to Delhi.\n- B goes to Patna immediately after D, who goes to Agra.\n- G does not go to Mumbai.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Who goes on Friday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A"
+                },
+                {
+                  "label": "B",
+                  "text": "E"
+                },
+                {
+                  "label": "C",
+                  "text": "G"
+                },
+                {
+                  "label": "D",
+                  "text": "F"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Step 1: C goes to Pune on Thursday.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Which city does G go to?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Kochi"
+                },
+                {
+                  "label": "B",
+                  "text": "Mumbai"
+                },
+                {
+                  "label": "C",
+                  "text": "Pune"
+                },
+                {
+                  "label": "D",
+                  "text": "Goa"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Refer to diagram: SVG/Q9.svg",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "How many persons go between D and C?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "D goes on Monday and C goes on Thursday. B (Tuesday) and A (Wednesday) go between them. Thus, exactly two persons go between D and C.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Which of the following is correct?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "A - Tuesday - Delhi"
+                },
+                {
+                  "label": "B",
+                  "text": "E - Saturday - Mumbai"
+                },
+                {
+                  "label": "C",
+                  "text": "B - Wednesday - Patna"
+                },
+                {
+                  "label": "D",
+                  "text": "G - Friday - Goa"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "E goes to Mumbai on Saturday. This is the only correct combination among the options.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "D - Patna"
+                },
+                {
+                  "label": "B",
+                  "text": "A - Pune"
+                },
+                {
+                  "label": "C",
+                  "text": "G - Mumbai"
+                },
+                {
+                  "label": "D",
+                  "text": "E - Kochi"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "In options A, B, and C, the city belongs to the person traveling on the immediately following day.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Study the following information carefully and answer the questions given below.\nSeven persons P, Q, R, S, T, U, and V attend a meeting from Monday to Sunday of the same week. They work in different companies (TCS, Infosys, Wipro, HCL, IBM, TechM, and Cognizant) and like different colors (Red, Blue, Green, Yellow, Black, White, and Pink).\n- S attends on Wednesday and likes Yellow.\n- Three persons attend between S and T.\n- The one who likes Black works in IBM.\n- R likes Green, works in Wipro, and attends on Saturday.\n- Q works in Infosys and attends immediately before R.\n- The one who likes White attends immediately before the one who likes Red.\n- P works in TCS and likes Red.\n- The one who works in TechM attends on Monday.\n- V attends immediately after S and likes Pink.\n- V works in Cognizant.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Who attends the meeting on Monday?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P"
+                },
+                {
+                  "label": "B",
+                  "text": "U"
+                },
+                {
+                  "label": "C",
+                  "text": "T"
+                },
+                {
+                  "label": "D",
+                  "text": "S"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Step 1: S is on Wednesday (Yellow).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Which company does S work in?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "HCL"
+                },
+                {
+                  "label": "B",
+                  "text": "IBM"
+                },
+                {
+                  "label": "C",
+                  "text": "TechM"
+                },
+                {
+                  "label": "D",
+                  "text": "Infosys"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Refer to diagram: SVG/Q13.svg",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "How many persons attend between P and Q?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "One"
+                },
+                {
+                  "label": "B",
+                  "text": "Two"
+                },
+                {
+                  "label": "C",
+                  "text": "Three"
+                },
+                {
+                  "label": "D",
+                  "text": "Four"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "P attends on Tuesday and Q attends on Friday. S (Wednesday) and V (Thursday) attend between them. Hence, there are two persons.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Which of the following combination is correct?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "P - Infosys - Red"
+                },
+                {
+                  "label": "B",
+                  "text": "U - TechM - White"
+                },
+                {
+                  "label": "C",
+                  "text": "R - IBM - Green"
+                },
+                {
+                  "label": "D",
+                  "text": "T - Wipro - Black"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Looking at the derived table, U attends on Monday, works in TechM, and likes White.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "Three of the following four are alike in a certain way and hence form a group. Which of the following does not belong to the group?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "U - TCS"
+                },
+                {
+                  "label": "B",
+                  "text": "S - Cognizant"
+                },
+                {
+                  "label": "C",
+                  "text": "V - Infosys"
+                },
+                {
+                  "label": "D",
+                  "text": "R - HCL"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "In options A, B, and C, the company mentioned belongs to the person attending on the immediately next day.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+----------------------------------------
+Topic: Cloze Test
+Subtopic: Traditional Cloze
+----------------------------------------
+
+Passage 1 (Questions 1-5):
+The global economy is currently undergoing a structural transformation as it transitions towards renewable energy. This shift is (1) _______ by a combination of government policies, technological advancements, and increasing corporate awareness regarding climate change. However, this transition is not without its (2) _______. Developing nations, in particular, face significant financial hurdles as they attempt to modernize their aging infrastructure. Furthermore, the (3) _______ phase requires massive capital investment which often leads to short-term economic strain. Despite these issues, experts argue that delaying action will only (4) _______ the long-term ecological and financial costs. Therefore, international cooperation remains (5) _______ if we are to achieve a sustainable and equitable energy future.
+
+Q1. Choose the most appropriate word to fill in blank (1).
+(A) hindered
+(B) driven
+(C) suppressed
+(D) obscured
+
+Answer: B
+Explanation: The sentence discusses the factors pushing or causing the shift towards renewable energy. "Driven" means propelled or motivated by, which perfectly fits the context.
+
+Q2. Choose the most appropriate word to fill in blank (2).
+(A) benefits
+(B) resolutions
+(C) challenges
+(D) advantages
+
+Answer: C
+Explanation: The phrase "not without its..." followed by mentions of "financial hurdles" and "economic strain" indicates that the blank must be filled with a negative word. "Challenges" fits perfectly.
+
+Q3. Choose the most appropriate word to fill in blank (3).
+(A) transitional
+(B) terminal
+(C) static
+(D) finalized
+
+Answer: A
+Explanation: The passage is discussing the process of moving from fossil fuels to renewable energy. "Transitional" refers to the phase of changing from one state to another.
+
+Q4. Choose the most appropriate word to fill in blank (4).
+(A) alleviate
+(B) diminish
+(C) exacerbate
+(D) nullify
+
+Answer: C
+Explanation: The sentence warns against delaying action. Delaying action will make the costs worse. "Exacerbate" means to make a problem worse.
+
+Q5. Choose the most appropriate word to fill in blank (5).
+(A) trivial
+(B) optional
+(C) redundant
+(D) imperative
+
+Answer: D
+Explanation: The sentence concludes that international cooperation is absolutely necessary to achieve a sustainable future. "Imperative" means of vital importance or crucial.
+
+Passage 2 (Questions 6-10):
+In recent years, the psychological impact of social media on adolescents has become a subject of intense scrutiny. While these platforms offer unprecedented opportunities for connectivity, they also expose young users to a barrage of curated realities that can severely (6) _______ their self-esteem. The constant comparison with idealized online personas often leads to feelings of inadequacy and, in severe cases, clinical depression. Psychologists have noted a (7) _______ increase in anxiety disorders among teens, a trend that closely mirrors the widespread adoption of smartphones. To (8) _______ these negative effects, educators are advocating for digital literacy programs in schools. These programs aim to equip students with the critical thinking skills necessary to (9) _______ the digital landscape safely. Ultimately, parents must also play a (10) _______ role by monitoring screen time and fostering open discussions about mental health.
+
+Q6. Choose the most appropriate word to fill in blank (6).
+(A) bolster
+(B) elevate
+(C) undermine
+(D) construct
+
+Answer: C
+Explanation: The context is negative, as comparing oneself to curated realities harms self-esteem. "Undermine" means to lessen the effectiveness, power, or ability of something, especially gradually.
+
+Q7. Choose the most appropriate word to fill in blank (7).
+(A) negligible
+(B) steep
+(C) stagnant
+(D) fleeting
+
+Answer: B
+Explanation: The passage talks about an alarming trend that correlates with smartphone adoption. A "steep" increase indicates a sharp, significant rise in anxiety disorders.
+
+Q8. Choose the most appropriate word to fill in blank (8).
+(A) exacerbate
+(B) propagate
+(C) mitigate
+(D) ignore
+
+Answer: C
+Explanation: Educators are implementing programs to reduce or lessen the negative effects of social media. "Mitigate" means to make less severe or painful.
+
+Q9. Choose the most appropriate word to fill in blank (9).
+(A) navigate
+(B) bypass
+(C) dismantle
+(D) obscure
+
+Answer: A
+Explanation: Digital literacy programs teach students how to safely interact with and move through the online world. "Navigate" means to travel or find one's way through a complex environment.
+
+Q10. Choose the most appropriate word to fill in blank (10).
+(A) passive
+(B) pivotal
+(C) marginal
+(D) redundant
+
+Answer: B
+Explanation: The passage is concluding with an action item for parents, indicating their involvement is highly important. "Pivotal" means of crucial importance in relation to the development or success of something else.
+
+Passage 3 (Questions 11-15):
+The evolution of artificial intelligence has transcended the realm of science fiction and is rapidly becoming an integral component of daily life. From autonomous vehicles to predictive healthcare diagnostics, AI is (11) _______ traditional industries at a breathtaking pace. However, this rapid integration brings forth complex ethical dilemmas. Critics are particularly concerned about the (12) _______ of bias in machine learning algorithms, which are trained on historical data that may inherently contain societal prejudices. If left unchecked, these algorithms could (13) _______ existing inequalities in hiring practices, law enforcement, and lending. Furthermore, the potential displacement of human labor poses a significant socio-economic threat. Governments are therefore under immense pressure to draft (14) _______ regulatory frameworks that encourage innovation while safeguarding human rights. Finding this delicate balance will be one of the most defining (15) _______ of the 21st century.
+
+Q11. Choose the most appropriate word to fill in blank (11).
+(A) preserving
+(B) disrupting
+(C) restoring
+(D) documenting
+
+Answer: B
+Explanation: The passage describes AI changing traditional industries rapidly. "Disrupting" in a business/technology context refers to radically changing an industry by introducing new technologies.
+
+Q12. Choose the most appropriate word to fill in blank (12).
+(A) eradication
+(B) proliferation
+(C) absence
+(D) mitigation
+
+Answer: B
+Explanation: The critics are concerned about bias spreading or multiplying within algorithms. "Proliferation" means rapid increase in numbers or widespread reproduction.
+
+Q13. Choose the most appropriate word to fill in blank (13).
+(A) rectify
+(B) conceal
+(C) perpetuate
+(D) resolve
+
+Answer: C
+Explanation: The passage states that the historical data contains prejudices. If unchecked, the algorithms will continue or prolong these inequalities. "Perpetuate" means to make an undesirable situation continue indefinitely.
+
+Q14. Choose the most appropriate word to fill in blank (14).
+(A) archaic
+(B) obsolete
+(C) robust
+(D) superficial
+
+Answer: C
+Explanation: To manage complex ethical dilemmas and safeguard rights without stifling innovation, strong and effective laws are needed. "Robust" means strong, effective, and capable of coping with varying conditions.
+
+Q15. Choose the most appropriate word to fill in blank (15).
+(A) triumphs
+(B) endeavours
+(C) challenges
+(D) anecdotes
+
+Answer: C
+Explanation: The passage discusses the difficult task of finding a delicate balance between innovation and regulation. Therefore, this will be one of the most defining "challenges" of the century.
+----------------------------------------

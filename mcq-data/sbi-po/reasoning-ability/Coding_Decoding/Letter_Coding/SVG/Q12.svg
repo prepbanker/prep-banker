@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="400" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1976d2"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+
+  <!-- Pair Separators -->
+  <line x1="240" y1="50" x2="240" y2="350" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="420" y1="50" x2="420" y2="350" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="5,5"/>
+
+  <!-- Top Row: PLANET -->
+  <g font-size="24" font-weight="bold" fill="#212121" text-anchor="middle">
+    <text x="120" y="80">P</text>
+    <text x="180" y="80">L</text>
+    <text x="300" y="80">A</text>
+    <text x="360" y="80">N</text>
+    <text x="480" y="80">E</text>
+    <text x="540" y="80">T</text>
+  </g>
+
+  <!-- Criss-Cross Arrows for Reversal -->
+  <g stroke="#1976d2" stroke-width="2" marker-end="url(#arrow)">
+    <!-- PL -->
+    <line x1="120" y1="100" x2="175" y2="170"/>
+    <line x1="180" y1="100" x2="125" y2="170"/>
+    <!-- AN -->
+    <line x1="300" y1="100" x2="355" y2="170"/>
+    <line x1="360" y1="100" x2="305" y2="170"/>
+    <!-- ET -->
+    <line x1="480" y1="100" x2="535" y2="170"/>
+    <line x1="540" y1="100" x2="485" y2="170"/>
+  </g>
+
+  <!-- Middle Row: LP NA TE -->
+  <g font-size="24" font-weight="bold" fill="#f57c00" text-anchor="middle">
+    <text x="120" y="210">L</text>
+    <text x="180" y="210">P</text>
+    <text x="300" y="210">N</text>
+    <text x="360" y="210">A</text>
+    <text x="480" y="210">T</text>
+    <text x="540" y="210">E</text>
+  </g>
+
+  <!-- Vertical Arrows for Opposite -->
+  <g stroke="#388e3c" stroke-width="2" marker-end="url(#arrow-green)">
+    <line x1="120" y1="230" x2="120" y2="290"/>
+    <line x1="180" y1="230" x2="180" y2="290"/>
+    <line x1="300" y1="230" x2="300" y2="290"/>
+    <line x1="360" y1="230" x2="360" y2="290"/>
+    <line x1="480" y1="230" x2="480" y2="290"/>
+    <line x1="540" y1="230" x2="540" y2="290"/>
+  </g>
+
+  <!-- Labels for Opposite -->
+  <g font-size="12" font-weight="bold" fill="#388e3c" text-anchor="middle">
+    <text x="100" y="265">Opp</text>
+    <text x="200" y="265">Opp</text>
+    <text x="280" y="265">Opp</text>
+    <text x="380" y="265">Opp</text>
+    <text x="460" y="265">Opp</text>
+    <text x="560" y="265">Opp</text>
+  </g>
+
+  <!-- Bottom Row: OK MZ GV -->
+  <g font-size="24" font-weight="bold" fill="#1b5e20" text-anchor="middle">
+    <text x="120" y="340">O</text>
+    <text x="180" y="340">K</text>
+    <text x="300" y="340">M</text>
+    <text x="360" y="340">Z</text>
+    <text x="480" y="340">G</text>
+    <text x="540" y="340">V</text>
+  </g>
+
+</svg>

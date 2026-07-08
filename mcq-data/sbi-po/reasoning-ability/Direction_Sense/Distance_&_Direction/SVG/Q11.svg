@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" font-family="Arial, sans-serif">
+  
+  <rect x="10" y="10" width="580" height="380" fill="#fafafa" stroke="#bdbdbd" stroke-width="2" rx="4" />
+  
+  <text x="300" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#263238">Coded Direction Mapping: P @ Q $ R # S % T @ U</text>
+  
+  <!-- Base Coordinates mapping
+       Q(0,0) mapped to (150, 200)
+       Scale: 1m = 10px
+  -->
+
+  <defs>
+    <!-- Arrowhead -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00897b"/>
+    </marker>
+  </defs>
+
+  <g stroke="#00897b" stroke-width="3" fill="none" stroke-linejoin="round" marker-end="url(#arrow)">
+    <!-- Q to P (Wait, logic is P is East of Q, so Q is origin) 
+         Q(150, 200) -> P(300, 200) -->
+    <line x1="150" y1="200" x2="295" y2="200" />
+    
+    <!-- Q to R (Q is North of R, so R is South of Q)
+         Q(150, 200) -> R(150, 320) -->
+    <line x1="150" y1="200" x2="150" y2="315" />
+    
+    <!-- R to S (R is West of S, so S is East of R)
+         R(150, 320) -> S(350, 320) -->
+    <line x1="150" y1="320" x2="345" y2="320" />
+    
+    <!-- S to T (S is South of T, so T is North of S)
+         S(350, 320) -> T(350, 140) -->
+    <line x1="350" y1="320" x2="350" y2="145" />
+    
+    <!-- T to U (T is East of U, so U is West of T)
+         T(350, 140) -> U(300, 140) -->
+    <line x1="350" y1="140" x2="305" y2="140" />
+  </g>
+  
+  <!-- Projected Distance P to U (Question 11) -->
+  <line x1="300" y1="200" x2="300" y2="140" stroke="#f57c00" stroke-width="2" stroke-dasharray="6,6" />
+
+  <!-- Distance Labels -->
+  <g font-size="14" fill="#00695c" font-weight="bold">
+    <text x="215" y="190">15m</text>
+    <text x="120" y="265">12m</text>
+    <text x="235" y="310">20m</text>
+    <text x="360" y="235">18m</text>
+    <text x="315" y="130">5m</text>
+    
+    <text x="270" y="175" fill="#ef6c00">6m</text>
+  </g>
+
+  <!-- Node Points -->
+  <g fill="#00897b" stroke="#ffffff" stroke-width="2">
+    <circle cx="150" cy="200" r="6"/>
+    <circle cx="300" cy="200" r="6"/>
+    <circle cx="150" cy="320" r="6"/>
+    <circle cx="350" cy="320" r="6"/>
+    <circle cx="350" cy="140" r="6"/>
+    <circle cx="300" cy="140" r="6"/>
+  </g>
+
+  <!-- Node Labels -->
+  <g font-size="16" font-weight="bold" fill="#004d40">
+    <text x="130" y="190">Q</text>
+    <text x="315" y="215">P</text>
+    <text x="130" y="335">R</text>
+    <text x="365" y="335">S</text>
+    <text x="365" y="130">T</text>
+    <text x="280" y="130">U</text>
+  </g>
+
+</svg>

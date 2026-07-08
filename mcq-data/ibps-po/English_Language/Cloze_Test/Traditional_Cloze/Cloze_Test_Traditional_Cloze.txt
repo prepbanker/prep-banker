@@ -1,0 +1,151 @@
+----------------------------------------
+Topic: Cloze Test
+Subtopic: Traditional Cloze
+----------------------------------------
+
+PASSAGE 1
+The global transition towards renewable energy has fundamentally (1)_______ the geopolitical landscape. Nations that once relied heavily on importing fossil fuels are now heavily investing in solar and wind infrastructure to achieve unprecedented energy (2)_______. This shift, however, is not without its (3)_______. The manufacturing of solar panels and wind turbines requires massive quantities of rare earth metals, the mining of which often causes severe environmental (4)_______ in developing nations. Furthermore, the intermittent nature of solar and wind power necessitates the rapid development of advanced, grid-scale battery storage (5)_______ to ensure a stable and consistent power supply during peak demand hours.
+
+Q1. Choose the correct word for blank (1).
+(A) preserved
+(B) restructured
+(C) ignored
+(D) worsened
+
+Answer: B
+Explanation: A transition to renewable energy changes or "restructures" the geopolitical landscape, rather than preserving or ignoring it.
+
+Q2. Choose the correct word for blank (2).
+(A) dependence
+(B) exhaustion
+(C) independence
+(D) taxation
+
+Answer: C
+Explanation: Nations investing in their own solar and wind infrastructure do so to stop relying on imports, thereby achieving energy "independence".
+
+Q3. Choose the correct word for blank (3).
+(A) benefits
+(B) challenges
+(C) solutions
+(D) rewards
+
+Answer: B
+Explanation: The phrase "is not without its..." usually introduces a negative aspect following a positive one. The next sentence discusses environmental damage, making "challenges" the correct choice.
+
+Q4. Choose the correct word for blank (4).
+(A) degradation
+(B) improvement
+(C) conservation
+(D) beautification
+
+Answer: A
+Explanation: Mining rare earth metals is known to cause severe environmental damage or "degradation".
+
+Q5. Choose the correct word for blank (5).
+(A) problems
+(B) failures
+(C) technologies
+(D) monopolies
+
+Answer: C
+Explanation: Advanced battery storage refers to "technologies" developed to ensure a stable power supply.
+
+PASSAGE 2
+Artificial intelligence is rapidly moving from the realm of science fiction into the everyday (6)_______ of modern life. In the medical field, machine learning algorithms are now capable of analyzing complex medical imagery with a level of precision that routinely (7)_______ even the most seasoned human diagnosticians. While this promises to dramatically (8)_______ patient outcomes through early detection, it has also sparked intense ethical debates. Critics worry about the inherent (9)_______ hidden within the vast datasets used to train these algorithms, arguing that an over-reliance on flawed AI could inadvertently lead to systemic medical (10)_______ against marginalized communities.
+
+Q6. Choose the correct word for blank (6).
+(A) fabric
+(B) destruction
+(C) myth
+(D) avoidance
+
+Answer: A
+Explanation: The phrase "everyday fabric of modern life" is a common idiom meaning the basic structure or essence of daily existence.
+
+Q7. Choose the correct word for blank (7).
+(A) trails
+(B) matches
+(C) outperforms
+(D) confuses
+
+Answer: C
+Explanation: The text implies AI is incredibly precise, often doing better than human experts. "Outperforms" fits perfectly.
+
+Q8. Choose the correct word for blank (8).
+(A) worsen
+(B) improve
+(C) complicate
+(D) hide
+
+Answer: B
+Explanation: Early detection of diseases generally serves to "improve" patient outcomes.
+
+Q9. Choose the correct word for blank (9).
+(A) truths
+(B) biases
+(C) algorithms
+(D) fairness
+
+Answer: B
+Explanation: The passage discusses ethical debates and flawed AI leading to discrimination against marginalized communities. This points directly to inherent "biases" in the datasets.
+
+Q10. Choose the correct word for blank (10).
+(A) breakthroughs
+(B) miracles
+(C) discrimination
+(D) equality
+
+Answer: C
+Explanation: Flawed AI built on biased datasets leads to systemic unfairness or "discrimination" against marginalized groups.
+
+PASSAGE 3
+The rapid decline of global insect populations has largely gone (11)_______ by the general public, overshadowed by the more visible plights of large mammals. However, entomologists warn that this silent crisis poses a catastrophic threat to terrestrial (12)_______. Insects play an absolutely indispensable role in pollinating nearly 75% of all global food crops, and they serve as the foundational food source for countless species of birds, reptiles, and amphibians. The primary drivers of this alarming (13)_______ include the rampant use of toxic agricultural pesticides, widespread habitat destruction due to relentless urbanization, and the chaotic climatic shifts induced by global warming. Unless immediate and comprehensive (14)_______ are implemented on a global scale, we may soon face an irreversible ecological collapse that will fundamentally (15)_______ human civilization as we know it.
+
+Q11. Choose the correct word for blank (11).
+(A) celebrated
+(B) unnoticed
+(C) documented
+(D) exaggerated
+
+Answer: B
+Explanation: The passage states the decline is "overshadowed" and calls it a "silent crisis," indicating it has gone "unnoticed" by the public.
+
+Q12. Choose the correct word for blank (12).
+(A) ecosystems
+(B) space
+(C) oceans
+(D) economies
+
+Answer: A
+Explanation: A crisis involving insects, pollination, and food sources directly threatens terrestrial (land-based) "ecosystems".
+
+Q13. Choose the correct word for blank (13).
+(A) success
+(B) trend
+(C) stagnation
+(D) boom
+
+Answer: B
+Explanation: The text describes a "rapid decline." This alarming downward movement is best described as an alarming "trend." Wait, decline is better. Let's use "decline". If decline is not an option, "trend" works. But "decline" is a stronger fit if provided. Since "trend" is the only fitting option, it works. Let's change the options to make it more advanced.
+Corrected options for Q13: (A) proliferation, (B) decimation, (C) stabilization, (D) evolution.
+Answer: B. "Decimation" means destruction of a large proportion, perfectly matching the rapid decline.
+
+Q14. Choose the correct word for blank (14).
+(A) interventions
+(B) pollutants
+(C) observations
+(D) pesticides
+
+Answer: A
+Explanation: To stop a catastrophic collapse, comprehensive actions or "interventions" must be implemented.
+
+15. Choose the correct word for blank (15).
+(A) protect
+(B) imperil
+(C) advance
+(D) ignore
+
+Answer: B
+Explanation: An irreversible ecological collapse would severely endanger or "imperil" human civilization.
+----------------------------------------

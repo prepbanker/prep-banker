@@ -1,0 +1,211 @@
+Topic: Approximation
+Subtopic: Decimal Approximation
+
+Q1. What approximate value should come in place of question mark (?) in the following question?
+12.05 * 5.98 + 15.11 = ?
+(A) 82
+(B) 87
+(C) 92
+(D) 97
+Answer: B
+Explanation: 
+Approximating the values:
+12.05 ≈ 12
+5.98 ≈ 6
+15.11 ≈ 15
+Equation becomes: 12 * 6 + 15 = 72 + 15 = 87.
+
+Q2. Find the approximate value: 45.02 / 8.99 * 11.95 = ?
+(A) 50
+(B) 55
+(C) 60
+(D) 65
+Answer: C
+Explanation: 
+Approximating:
+45.02 ≈ 45
+8.99 ≈ 9
+11.95 ≈ 12
+Equation: (45 / 9) * 12 = 5 * 12 = 60.
+
+Q3. What approximate value will come in place of (?): 124.93 + 75.07 - 49.98 = ?
+(A) 140
+(B) 150
+(C) 160
+(D) 170
+Answer: B
+Explanation: 
+Approximating:
+124.93 ≈ 125
+75.07 ≈ 75
+49.98 ≈ 50
+Equation: 125 + 75 - 50 = 200 - 50 = 150.
+
+Q4. Solve approximately: 18.11 * 14.95 - 20.08 * 5.01 = ?
+(A) 160
+(B) 170
+(C) 180
+(D) 190
+Answer: B
+Explanation: 
+Approximating:
+18.11 ≈ 18
+14.95 ≈ 15
+20.08 ≈ 20
+5.01 ≈ 5
+Equation: (18 * 15) - (20 * 5) = 270 - 100 = 170.
+
+Q5. What approximate value will come in place of (?): 225.05 / 15.02 + 10.98 * 3.05 = ?
+(A) 42
+(B) 48
+(C) 54
+(D) 60
+Answer: B
+Explanation: 
+Approximating:
+225.05 ≈ 225
+15.02 ≈ 15
+10.98 ≈ 11
+3.05 ≈ 3
+Equation: 225 / 15 + 11 * 3 = 15 + 33 = 48.
+
+Q6. Find the approximate value: (34.98 * 14.02) / 6.95 + 12.05 = ?
+(A) 82
+(B) 85
+(C) 92
+(D) 95
+Answer: A
+Explanation: 
+Approximating:
+34.98 ≈ 35
+14.02 ≈ 14
+6.95 ≈ 7
+12.05 ≈ 12
+Equation: (35 * 14) / 7 + 12
+= 35 * 2 + 12 = 70 + 12 = 82.
+
+Q7. What approximate value will come in place of (?): 64.08 * 5.01 / 8.03 + 124.95 = ?
+(A) 145
+(B) 155
+(C) 165
+(D) 175
+Answer: C
+Explanation: 
+Approximating:
+64.08 ≈ 64
+5.01 ≈ 5
+8.03 ≈ 8
+124.95 ≈ 125
+Equation: (64 / 8) * 5 + 125 = 8 * 5 + 125 = 40 + 125 = 165.
+
+Q8. Solve approximately: 12.05^2 + 14.95^2 - 8.01^2 = ?
+(A) 295
+(B) 305
+(C) 315
+(D) 325
+Answer: B
+Explanation: 
+Approximating:
+12.05 ≈ 12
+14.95 ≈ 15
+8.01 ≈ 8
+Equation: 12^2 + 15^2 - 8^2
+= 144 + 225 - 64 = 369 - 64 = 305.
+
+Q9. What approximate value will come in place of (?): √143.95 * √81.05 + 15.01 = ?
+(A) 115
+(B) 123
+(C) 131
+(D) 139
+Answer: B
+Explanation: 
+Approximating:
+√143.95 ≈ √144 = 12
+√81.05 ≈ √81 = 9
+15.01 ≈ 15
+Equation: 12 * 9 + 15 = 108 + 15 = 123.
+
+Q10. Find the approximate value: 45.05 * 19.98 / 15.01 - 12.05 * 2.99 = ?
+(A) 24
+(B) 28
+(C) 32
+(D) 36
+Answer: A
+Explanation: 
+Approximating:
+45.05 ≈ 45
+19.98 ≈ 20
+15.01 ≈ 15
+12.05 ≈ 12
+2.99 ≈ 3
+Equation: (45 * 20) / 15 - (12 * 3) = 900 / 15 - 36 = 60 - 36 = 24.
+
+Q11. What approximate value will come in place of (?): (18.05)^2 - (11.95)^2 + 125.05 = ?
+(A) 295
+(B) 305
+(C) 315
+(D) 325
+Answer: B
+Explanation: 
+Approximating:
+18.05 ≈ 18
+11.95 ≈ 12
+125.05 ≈ 125
+Equation: 18^2 - 12^2 + 125 = 324 - 144 + 125 = 180 + 125 = 305.
+
+Q12. Solve approximately: ∛1330.98 + √255.95 + 15.01 * 4.98 = ?
+(A) 92
+(B) 98
+(C) 102
+(D) 108
+Answer: C
+Explanation: 
+Approximating:
+∛1330.98 ≈ ∛1331 = 11
+√255.95 ≈ √256 = 16
+15.01 ≈ 15
+4.98 ≈ 5
+Equation: 11 + 16 + 15 * 5 = 27 + 75 = 102.
+
+Q13. What approximate value will come in place of (?): (55.05 * 18.01) / 11.02 + 12.98^2 = ?
+(A) 249
+(B) 259
+(C) 269
+(D) 279
+Answer: B
+Explanation: 
+Approximating:
+55.05 ≈ 55
+18.01 ≈ 18
+11.02 ≈ 11
+12.98 ≈ 13
+Equation: (55 / 11) * 18 + 13^2 = 5 * 18 + 169 = 90 + 169 = 259.
+
+Q14. Find the approximate value: 39.98% of 450.05 + 15.01 * 12.05 = ?
+(A) 340
+(B) 350
+(C) 360
+(D) 370
+Answer: C
+Explanation: 
+Approximating:
+39.98% ≈ 40%
+450.05 ≈ 450
+15.01 ≈ 15
+12.05 ≈ 12
+Equation: 40% of 450 + 15 * 12 = 180 + 180 = 360.
+
+Q15. What approximate value will come in place of (?): (31.98)^2 - (24.01)^2 + 149.95 = ?
+(A) 578
+(B) 588
+(C) 598
+(D) 608
+Answer: C
+Explanation: 
+Approximating:
+31.98 ≈ 32
+24.01 ≈ 24
+149.95 ≈ 150
+Equation: 32^2 - 24^2 + 150
+Using a^2 - b^2 = (a-b)(a+b):
+(32-24)(32+24) + 150 = 8 * 56 + 150 = 448 + 150 = 598.

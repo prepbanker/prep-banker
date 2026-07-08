@@ -1,0 +1,203 @@
+Topic: Data Interpretation
+Subtopic: Table DI
+
+Directions (Q1-Q5): Study the given table carefully and answer the following questions.
+Refer to diagram: SVG/Q1.svg
+The table shows the sales (in thousands) of four different products (P, Q, R, S) over five years (2018-2022).
+
+Q1. What is the average sales of Product Q over all the given years?
+(A) 44.4 thousand
+(B) 45.6 thousand
+(C) 46.2 thousand
+(D) 48.0 thousand
+Answer: B
+Explanation: 
+Sales of Q: 42 (2018) + 48 (2019) + 45 (2020) + 50 (2021) + 43 (2022) = 228.
+Average = 228 / 5 = 45.6 thousand.
+
+Q2. The total sales of Product R in 2019 and 2020 together is approximately what percent of the total sales of Product S in 2021 and 2022 together?
+(A) 82%
+(B) 85%
+(C) 88%
+(D) 91%
+Answer: C
+Explanation: 
+Sales of R in 2019 and 2020 = 55 + 50 = 105.
+Sales of S in 2021 and 2022 = 62 + 58 = 120.
+Percentage = (105 / 120) * 100 = (7/8) * 100 = 87.5% ≈ 88%.
+
+Q3. What is the ratio of the total sales of all products in 2018 to that in 2022?
+(A) 165 : 182
+(B) 175 : 191
+(C) 182 : 199
+(D) 191 : 205
+Answer: C
+Explanation: 
+Total sales in 2018 = 35 (P) + 42 (Q) + 60 (R) + 45 (S) = 182.
+Total sales in 2022 = 48 (P) + 43 (Q) + 50 (R) + 58 (S) = 199.
+Ratio = 182 : 199.
+
+Q4. If the sales of Product P in 2023 is expected to increase by 20% compared to 2022, what will be the sales of Product P in 2023 (in thousands)?
+(A) 55.6
+(B) 57.6
+(C) 59.6
+(D) 61.6
+Answer: B
+Explanation: 
+Sales of P in 2022 = 48.
+Expected increase = 20% of 48 = 9.6.
+Sales in 2023 = 48 + 9.6 = 57.6 thousand.
+
+Q5. Which product showed the highest percentage increase in sales from 2018 to 2021?
+(A) P
+(B) Q
+(C) R
+(D) S
+Answer: D
+Explanation: 
+P: from 35 to 45 -> Increase = 10 -> (10/35)*100 = 28.57%
+Q: from 42 to 50 -> Increase = 8 -> (8/42)*100 = 19.04%
+R: from 60 to 52 -> Decrease.
+S: from 45 to 62 -> Increase = 17 -> (17/45)*100 = 37.77%
+Product S showed the highest percentage increase.
+
+Directions (Q6-Q10): Study the given table carefully and answer the following questions.
+Refer to diagram: SVG/Q6.svg
+The table gives the number of Male and Female employees working in 5 different departments (A, B, C, D, E) of a company.
+
+Q6. What is the respective ratio of total male employees in departments A and B together to the total female employees in departments C and D together?
+(A) 9 : 8
+(B) 11 : 10
+(C) 13 : 12
+(D) 15 : 14
+Answer: B
+Explanation: 
+Males in A and B = 250 + 300 = 550.
+Females in C and D = 280 + 220 = 500.
+Ratio = 550 : 500 = 11 : 10.
+
+Q7. The number of female employees in department E is what percent more or less than the number of male employees in department C?
+(A) 12.5% more
+(B) 12.5% less
+(C) 20% more
+(D) 20% less
+Answer: A
+Explanation: 
+Females in E = 360.
+Males in C = 320.
+Difference = 360 - 320 = 40.
+% more = (40 / 320) * 100 = (1/8) * 100 = 12.5% more.
+
+Q8. What is the total number of employees working in the company?
+(A) 2750
+(B) 2850
+(C) 2950
+(D) 3050
+Answer: C
+Explanation: 
+Total Males = 250(A) + 300(B) + 320(C) + 200(D) + 380(E) = 1450.
+Total Females = 200(A) + 250(B) + 280(C) + 220(D) + 360(E) = 1310.
+Total Employees = 1450 + 1310 = 2760.
+Wait, my options are 2750, 2850... let me recalculate.
+Total Males = 1450. Total Females = 1310. Total = 2760. Let me adjust option A to 2760.
+
+Q8 (Updated Text):
+Q8. What is the total number of employees working in the company?
+(A) 2760
+(B) 2860
+(C) 2960
+(D) 3060
+Answer: A
+Explanation: 
+Total Males = 250 + 300 + 320 + 200 + 380 = 1450.
+Total Females = 200 + 250 + 280 + 220 + 360 = 1310.
+Total Employees = 1450 + 1310 = 2760.
+
+Q9. In which department is the ratio of male to female employees exactly 5:4?
+(A) A
+(B) B
+(C) C
+(D) D
+Answer: A
+Explanation: 
+A: 250 / 200 = 5/4.
+B: 300 / 250 = 6/5.
+C: 320 / 280 = 8/7.
+D: 200 / 220 = 10/11.
+E: 380 / 360 = 19/18.
+The ratio is exactly 5:4 in department A.
+
+Q10. If 10% of male employees from department B and 20% of female employees from department E are transferred to department D, what will be the new total number of employees in department D?
+(A) 502
+(B) 512
+(C) 522
+(D) 532
+Answer: C
+Explanation: 
+10% of males in B = 10% of 300 = 30.
+20% of females in E = 20% of 360 = 72.
+Initial employees in D = 200 (Male) + 220 (Female) = 420.
+New employees in D = 420 + 30 + 72 = 522.
+
+Directions (Q11-Q15): Study the given table carefully and answer the following questions.
+Refer to diagram: SVG/Q11.svg
+The table provides the number of students enrolled in three different courses (Arts, Science, Commerce) across five different colleges (C1, C2, C3, C4, C5).
+
+Q11. What is the average number of students enrolled in the Science course across all five colleges?
+(A) 412
+(B) 424
+(C) 436
+(D) 448
+Answer: B
+Explanation: 
+Science enrollments: C1(420), C2(480), C3(360), C4(450), C5(410).
+Total = 420 + 480 + 360 + 450 + 410 = 2120.
+Average = 2120 / 5 = 424.
+
+Q12. The number of students in Commerce in College C3 is what percent of the number of students in Arts in College C2?
+(A) 75%
+(B) 80%
+(C) 85%
+(D) 90%
+Answer: B
+Explanation: 
+Commerce in C3 = 400.
+Arts in C2 = 500.
+Percentage = (400 / 500) * 100 = 80%.
+
+Q13. Find the difference between the total number of students in College C4 and College C1.
+(A) 110
+(B) 120
+(C) 130
+(D) 140
+Answer: C
+Explanation: 
+Total in C4 = 380(Arts) + 450(Science) + 480(Commerce) = 1310.
+Total in C1 = 450(Arts) + 420(Science) + 310(Commerce) = 1180.
+Difference = 1310 - 1180 = 130.
+
+Q14. In College C5, if the ratio of boys to girls in Commerce is 3:2, how many girls are enrolled in Commerce in College C5?
+(A) 152
+(B) 162
+(C) 172
+(D) 182
+Answer: A
+Explanation: 
+Commerce in C5 = 380.
+Ratio of boys to girls = 3:2. (Total 5 parts).
+Number of girls = (2/5) * 380 = 2 * 76 = 152.
+
+Q15. Which college has the highest ratio of Science students to Commerce students?
+(A) C1
+(B) C2
+(C) C3
+(D) C5
+Answer: A
+Explanation: 
+Ratios:
+C1: 420 / 310 ≈ 1.35
+C2: 480 / 390 ≈ 1.23
+C3: 360 / 400 = 0.90
+C4: 450 / 480 = 0.93
+C5: 410 / 380 ≈ 1.07
+College C1 has the highest ratio.

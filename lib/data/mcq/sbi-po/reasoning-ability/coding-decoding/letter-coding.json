@@ -1,0 +1,417 @@
+{
+  "exam": "sbi-po",
+  "subject": "reasoning-ability",
+  "topic": "coding-decoding",
+  "subtopic": "letter-coding",
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Coding-Decoding\nSubtopic: Letter Coding",
+          "questions": [
+            {
+              "id": 1,
+              "text": "In a certain code language, 'PAPER' is written as 'QBQFS'. How is 'BOARD' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "CNBSE"
+                },
+                {
+                  "label": "B",
+                  "text": "CPBSE"
+                },
+                {
+                  "label": "C",
+                  "text": "CPCSF"
+                },
+                {
+                  "label": "D",
+                  "text": "CQBTE"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern is a simple forward shift of +1 for each letter.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "In a certain code language, 'WATER' is written as 'VZSDQ'. How is 'BREAD' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "AQDZC"
+                },
+                {
+                  "label": "B",
+                  "text": "AQEZC"
+                },
+                {
+                  "label": "C",
+                  "text": "CQFBE"
+                },
+                {
+                  "label": "D",
+                  "text": "APDYB"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The pattern is a backward shift of -1 for each letter.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "In a certain code language, 'SYSTEM' is written as 'METSYS'. How is 'FACTOR' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "ROTFAC"
+                },
+                {
+                  "label": "B",
+                  "text": "ROTCAF"
+                },
+                {
+                  "label": "C",
+                  "text": "RTCFAO"
+                },
+                {
+                  "label": "D",
+                  "text": "ROCATF"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern involves simply reversing the order of the letters in the word.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "In a certain code language, 'DANCE' is written as 'FCPEG'. How is 'MUSIC' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "OWTKE"
+                },
+                {
+                  "label": "B",
+                  "text": "OWUKE"
+                },
+                {
+                  "label": "C",
+                  "text": "OXVLF"
+                },
+                {
+                  "label": "D",
+                  "text": "NWUJD"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern is a forward shift of +2 for each letter.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "In a certain code language, 'APPLE' is written as 'ZQQMD'. How is 'GRAPE' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "HSZQD"
+                },
+                {
+                  "label": "B",
+                  "text": "HRZQC"
+                },
+                {
+                  "label": "C",
+                  "text": "FSZQD"
+                },
+                {
+                  "label": "D",
+                  "text": "HSYPD"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The pattern differentiates between vowels and consonants:",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Coding-Decoding\nSubtopic: Letter Coding",
+          "questions": [
+            {
+              "id": 6,
+              "text": "In a certain code language, 'ACTIVE' is written as 'TCAEVI'. How is 'SUMMER' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "MUSREM"
+                },
+                {
+                  "label": "B",
+                  "text": "UMSMER"
+                },
+                {
+                  "label": "C",
+                  "text": "REMMUS"
+                },
+                {
+                  "label": "D",
+                  "text": "MUSMER"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The word is divided into two equal halves, and each half is reversed independently.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "In a certain code language, 'FLOWER' is written as 'GKPVFQ'. How is 'GARDEN' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "HZRBEM"
+                },
+                {
+                  "label": "B",
+                  "text": "HZSCFM"
+                },
+                {
+                  "label": "C",
+                  "text": "FZSCFM"
+                },
+                {
+                  "label": "D",
+                  "text": "IYTDGN"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The pattern is an alternating shift of +1 and -1.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "In a certain code language, 'BASKET' is written as 'UFLTBC'. How is 'GUITAR' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "SBUJWH"
+                },
+                {
+                  "label": "B",
+                  "text": "SBUJVH"
+                },
+                {
+                  "label": "C",
+                  "text": "TBVKWI"
+                },
+                {
+                  "label": "D",
+                  "text": "SATIUH"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The entire word is reversed first, and then each letter is shifted by +1.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "In a certain code language, 'MONKEY' is written as 'XDJMNL'. How is 'TIGER' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "QDFHS"
+                },
+                {
+                  "label": "B",
+                  "text": "SDFHS"
+                },
+                {
+                  "label": "C",
+                  "text": "UJHFS"
+                },
+                {
+                  "label": "D",
+                  "text": "SHFDQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The word is reversed first, and then each letter is shifted by -1.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "In a certain code language, 'ROBUST' is written as 'PQZWQR'. How is 'TICKET' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "RKAIGP"
+                },
+                {
+                  "label": "B",
+                  "text": "SKBJHS"
+                },
+                {
+                  "label": "C",
+                  "text": "RKAIGR"
+                },
+                {
+                  "label": "D",
+                  "text": "QJZHGQ"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The pattern relies on identifying vowels and consonants:",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q15",
+      "groups": [
+        {
+          "directions": "Topic: Coding-Decoding\nSubtopic: Letter Coding",
+          "questions": [
+            {
+              "id": 11,
+              "text": "In a certain code language, 'VICTORY' is written as 'ERXGLIB'. How is 'FAILURE' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "UZROFIV"
+                },
+                {
+                  "label": "B",
+                  "text": "UZRPFJV"
+                },
+                {
+                  "label": "C",
+                  "text": "UZROEIU"
+                },
+                {
+                  "label": "D",
+                  "text": "VZSOFJW"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The pattern replaces each letter with its opposite letter in the English alphabet (A↔Z, B↔Y, C↔X, etc.).",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In a certain code language, 'PLANET' is written as 'OKMZGV'. How is 'METEOR' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "VNVHJM"
+                },
+                {
+                  "label": "B",
+                  "text": "VNVGIL"
+                },
+                {
+                  "label": "C",
+                  "text": "UMUFHK"
+                },
+                {
+                  "label": "D",
+                  "text": "VMWHJL"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The word is divided into consecutive pairs. Each pair is reversed (criss-cross), and then replaced by its opposite letter in the alphabet.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "In a certain code language, 'PROBLEM' is written as 'QPRXQYT'. How is 'SOLUTION' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "TMOQYCVF"
+                },
+                {
+                  "label": "B",
+                  "text": "TMOPXCVF"
+                },
+                {
+                  "label": "C",
+                  "text": "TNNQYCVG"
+                },
+                {
+                  "label": "D",
+                  "text": "TLPRYCVF"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The shift follows an expanding alternating sequence: +1, -2, +3, -4, +5, -6, +7.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "In a certain code language, 'DIAMOND' is written as 'BJENEOP'. How is 'CRYSTAL' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "ZSDTLBU"
+                },
+                {
+                  "label": "B",
+                  "text": "YRCTMBU"
+                },
+                {
+                  "label": "C",
+                  "text": "ZSDTMBU"
+                },
+                {
+                  "label": "D",
+                  "text": "YSCSMAT"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The 7-letter word is split into three parts: First 3 letters, the Middle letter, and the Last 3 letters.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 15,
+              "text": "In a certain code language, 'HOSPITAL' is written as 'QJRUVKNC'. How is 'MEDICINE' written in that code?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "GOKFKEGP"
+                },
+                {
+                  "label": "B",
+                  "text": "GOLFLEHQ"
+                },
+                {
+                  "label": "C",
+                  "text": "FNJDJDFO"
+                },
+                {
+                  "label": "D",
+                  "text": "HPLGLFHQ"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "The word is divided into consecutive pairs. Each pair is reversed (criss-cross), and then shifted by +2.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

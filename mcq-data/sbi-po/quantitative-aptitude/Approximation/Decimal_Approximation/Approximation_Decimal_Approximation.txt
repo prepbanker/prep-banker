@@ -1,0 +1,241 @@
+----------------------------------------
+Topic: Approximation
+Subtopic: Decimal Approximation
+----------------------------------------
+
+Directions (Q1–Q15): What approximate value will come in place of the question mark (?) in the following equations? (You are not expected to calculate the exact value).
+
+Q1. 14.98 × 12.01 + 24.89 = ?
+(A) 205
+(B) 235
+(C) 185
+(D) 190
+
+Answer: A
+Explanation:
+Approximating the values to nearest whole numbers:
+15 × 12 + 25
+= 180 + 25 = 205.
+
+----------------------------------------
+
+Q2. 124.95 + 175.05 - 89.92 = ?
+(A) 210
+(B) 190
+(C) 220
+(D) 230
+
+Answer: A
+Explanation:
+Approximating the values:
+125 + 175 - 90
+= 300 - 90 = 210.
+
+----------------------------------------
+
+Q3. 44.98 × 3.99 - 59.95 = ?
+(A) 110
+(B) 120
+(C) 130
+(D) 140
+
+Answer: B
+Explanation:
+Approximating the values:
+45 × 4 - 60
+= 180 - 60 = 120.
+
+----------------------------------------
+
+Q4. (25.01)² - (14.99)² = ?
+(A) 380
+(B) 410
+(C) 400
+(D) 390
+
+Answer: C
+Explanation:
+Approximating the values:
+(25)² - (15)²
+= 625 - 225 = 400.
+
+----------------------------------------
+
+Q5. 119.98 ÷ 4.02 × 5.95 = ?
+(A) 160
+(B) 180
+(C) 200
+(D) 150
+
+Answer: B
+Explanation:
+Approximating the values:
+120 ÷ 4 × 6
+= 30 × 6 = 180.
+
+----------------------------------------
+
+Q6. 39.95 × 14.98 + 24.99 × 16.02 = ?
+(A) 800
+(B) 900
+(C) 1000
+(D) 1100
+
+Answer: C
+Explanation:
+Approximating the values:
+40 × 15 + 25 × 16
+= 600 + 400 = 1000.
+
+----------------------------------------
+
+Q7. (18.01)² + (11.95)² - (9.98)² = ?
+(A) 358
+(B) 368
+(C) 378
+(D) 388
+
+Answer: B
+Explanation:
+Approximating the values:
+18² + 12² - 10²
+= 324 + 144 - 100
+= 468 - 100 = 368.
+
+----------------------------------------
+
+Q8. 719.95 ÷ 8.99 + 119.99 = ?
+(A) 200
+(B) 220
+(C) 180
+(D) 240
+
+Answer: A
+Explanation:
+Approximating the values:
+720 ÷ 9 + 120
+= 80 + 120 = 200.
+
+----------------------------------------
+
+Q9. √(1023.99) + √(1224.98) - 15.01 = ?
+(A) 62
+(B) 42
+(C) 52
+(D) 72
+
+Answer: C
+Explanation:
+Approximating the square roots:
+√1024 + √1225 - 15
+= 32 + 35 - 15
+= 67 - 15 = 52.
+
+----------------------------------------
+
+Q10. 84.95 × 12.01 - 25.01 × 13.98 = ?
+(A) 670
+(B) 650
+(C) 690
+(D) 710
+
+Answer: A
+Explanation:
+Approximating the values:
+85 × 12 - 25 × 14
+= 1020 - 350 = 670.
+
+----------------------------------------
+
+Q11. (29.98)² - (20.02)² + (15.05)² = ?
+(A) 725
+(B) 715
+(C) 735
+(D) 745
+
+Answer: A
+Explanation:
+Approximating the values:
+30² - 20² + 15²
+= 900 - 400 + 225
+= 500 + 225 = 725.
+
+----------------------------------------
+
+Q12. 1245.01 ÷ 24.98 × 15.02 = ?
+(A) 735
+(B) 765
+(C) 747
+(D) 720
+
+Answer: C
+Explanation:
+Approximating the values:
+1245 ÷ 25 × 15
+= 49.8 × 15 = 747.
+Wait, let's round 1245 / 25: 1250 / 25 = 50.
+50 × 15 = 750.
+Let's see which option is closer. 747 is exact for 1245/25 * 15.
+Let's use 1250. 1250 ÷ 25 = 50. 50 × 15 = 750.
+Option A is 735, B is 765, C is 747. Let's adjust the options.
+(A) 750 (B) 730 (C) 770 (D) 790.
+Let's update Q12.
+
+Q12. 1249.99 ÷ 24.95 × 15.02 = ?
+(A) 730
+(B) 750
+(C) 770
+(D) 790
+
+Answer: B
+Explanation:
+Approximating the values:
+1250 ÷ 25 × 15
+= 50 × 15 = 750.
+
+----------------------------------------
+
+Q13. 45.05 × 2.99 + 13.01 × 11.95 - 49.98 = ?
+(A) 221
+(B) 231
+(C) 241
+(D) 251
+
+Answer: C
+Explanation:
+Approximating the values:
+45 × 3 + 13 × 12 - 50
+= 135 + 156 - 50
+= 291 - 50 = 241.
+
+----------------------------------------
+
+Q14. ∛(4095.95) + √(2303.99) - 17.98 = ?
+(A) 46
+(B) 44
+(C) 48
+(D) 42
+
+Answer: A
+Explanation:
+Approximating the roots:
+∛4096 = 16.
+√2304 = 48.
+Equation: 16 + 48 - 18
+= 64 - 18 = 46.
+
+----------------------------------------
+
+Q15. 134.99 × 4.02 ÷ 26.98 + 115.01 = ?
+(A) 135
+(B) 145
+(C) 125
+(D) 155
+
+Answer: A
+Explanation:
+Approximating the values:
+135 × 4 ÷ 27 + 115
+= 540 ÷ 27 + 115
+= 20 + 115 = 135.
+----------------------------------------

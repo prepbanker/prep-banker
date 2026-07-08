@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="670" height="240" font-family="Arial, sans-serif">
+  <!-- Top Row (South Facing) -->
+  <g transform="translate(25, 20)">
+    <!-- G -->
+    <rect x="0" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="35" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">G</text>
+    <path d="M 35 40 L 35 55 M 30 50 L 35 55 L 40 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- E -->
+    <rect x="90" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="125" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">E</text>
+    <path d="M 125 40 L 125 55 M 120 50 L 125 55 L 130 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- B -->
+    <rect x="180" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="215" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">B</text>
+    <path d="M 215 40 L 215 55 M 210 50 L 215 55 L 220 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- D -->
+    <rect x="270" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="305" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">D</text>
+    <path d="M 305 40 L 305 55 M 300 50 L 305 55 L 310 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- C -->
+    <rect x="360" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="395" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">C</text>
+    <path d="M 395 40 L 395 55 M 390 50 L 395 55 L 400 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- A -->
+    <rect x="450" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="485" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">A</text>
+    <path d="M 485 40 L 485 55 M 480 50 L 485 55 L 490 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- F -->
+    <rect x="540" y="0" width="70" height="65" fill="#ffebee" rx="6" stroke="#c62828" stroke-width="2"/>
+    <text x="575" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#b71c1c">F</text>
+    <path d="M 575 40 L 575 55 M 570 50 L 575 55 L 580 50" stroke="#c62828" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom Row (North Facing) -->
+  <g transform="translate(25, 140)">
+    <!-- U -->
+    <rect x="0" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="35" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">U</text>
+    <path d="M 35 25 L 35 10 M 30 15 L 35 10 L 40 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- S -->
+    <rect x="90" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="125" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">S</text>
+    <path d="M 125 25 L 125 10 M 120 15 L 125 10 L 130 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- T -->
+    <rect x="180" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="215" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">T</text>
+    <path d="M 215 25 L 215 10 M 210 15 L 215 10 L 220 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Q -->
+    <rect x="270" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="305" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">Q</text>
+    <path d="M 305 25 L 305 10 M 300 15 L 305 10 L 310 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- P -->
+    <rect x="360" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="395" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">P</text>
+    <path d="M 395 25 L 395 10 M 390 15 L 395 10 L 400 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- V -->
+    <rect x="450" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="485" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">V</text>
+    <path d="M 485 25 L 485 10 M 480 15 L 485 10 L 490 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- R -->
+    <rect x="540" y="0" width="70" height="65" fill="#e3f2fd" rx="6" stroke="#1565c0" stroke-width="2"/>
+    <text x="575" y="50" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">R</text>
+    <path d="M 575 25 L 575 10 M 570 15 L 575 10 L 580 15" stroke="#1565c0" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Relation lines indicating they face each other (Optional visual connector) -->
+  <g stroke="#bdbdbd" stroke-width="1.5" stroke-dasharray="4,4">
+    <line x1="60" y1="85" x2="60" y2="140"/>
+    <line x1="150" y1="85" x2="150" y2="140"/>
+    <line x1="240" y1="85" x2="240" y2="140"/>
+    <line x1="330" y1="85" x2="330" y2="140"/>
+    <line x1="420" y1="85" x2="420" y2="140"/>
+    <line x1="510" y1="85" x2="510" y2="140"/>
+    <line x1="600" y1="85" x2="600" y2="140"/>
+  </g>
+</svg>

@@ -1,0 +1,155 @@
+----------------------------------------
+Topic: Sentence Improvement
+Subtopic: Grammar Improvement
+----------------------------------------
+
+Q1. Choose the grammatically correct sentence that improves upon the original.
+Original: The committee have decided to unanimously reject the highly controversial proposal submitted by the urban development board last week.
+(A) The committee has decided to unanimously reject the highly controversial proposal
+(B) The committee have decided unanimously rejecting the highly controversial proposal
+(C) The committee has decide to unanimously reject the highly controversial proposal
+(D) The original sentence is correct.
+
+Answer: A
+Explanation: "Committee" is a collective noun. The word "unanimously" indicates they are acting as a single, undivided unit. Therefore, it must take the singular verb "has decided".
+
+Q2. Choose the grammatically correct sentence that improves upon the original.
+Original: No sooner he had entered the dimly lit room than the heavy oak door slammed shut behind him.
+(A) No sooner did he entered the dimly lit room than
+(B) No sooner had he entered the dimly lit room than
+(C) No sooner he entered the dimly lit room when
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: When a sentence begins with "No sooner", it requires an inverted word order (auxiliary verb before the subject). "No sooner had he entered" is the correct grammatical structure.
+
+Q3. Choose the grammatically correct sentence that improves upon the original.
+Original: I would have definitely helped you complete the assignment if you would have asked me earlier.
+(A) if you had asked me earlier.
+(B) if you have asked me earlier.
+(C) if you asked me earlier.
+(D) The original sentence is correct.
+
+Answer: A
+Explanation: In a third conditional sentence (unreal past), the "if" clause must be in the past perfect tense ("if you had asked"), while the main clause uses "would have + past participle". "If you would have" is a common but incorrect phrasing.
+
+Q4. Choose the grammatically correct sentence that improves upon the original.
+Original: One of the most significant challenge faced by the developing nation is the severe lack of clean drinking water.
+(A) One of the most significant challenges faced by the developing nation are
+(B) One of the most significant challenges faced by the developing nation is
+(C) One of the most significant challenge faced by the developing nations is
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: The phrase "One of the" is always followed by a plural noun ("challenges"), but because the actual subject is "One", the main verb must be singular ("is").
+
+Q5. Choose the grammatically correct sentence that improves upon the original.
+Original: Despite of his immense wealth and global influence, the eccentric billionaire lived a remarkably solitary and miserable life.
+(A) In spite his immense wealth and global influence,
+(B) Despite his immense wealth and global influence,
+(C) Although of his immense wealth and global influence,
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: The preposition "despite" takes a noun or gerund directly without the preposition "of". ("In spite of" is correct, but "Despite of" is always wrong).
+
+Q6. Choose the grammatically correct sentence that improves upon the original.
+Original: The brilliant scientist, along with her entire team of researchers, were honored at the international gala.
+(A) along with her entire team of researchers, are honored
+(B) along with her entire team of researchers, was honored
+(C) along with her entire team of researchers, have been honored
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: When subjects are connected by phrases like "along with", the verb must agree with the first subject ("The brilliant scientist", which is singular). Therefore, "was honored" is correct.
+
+Q7. Choose the grammatically correct sentence that improves upon the original.
+Original: Having finished the incredibly complex project, the manager allowed the exhausted team to leave early.
+(A) Having finish the incredibly complex project,
+(B) Have finished the incredibly complex project,
+(C) After having finished the incredibly complex project,
+(D) The original sentence is correct.
+
+Answer: D
+Explanation: "Having finished" is a perfect participle correctly indicating an action completed before the main verb's action. The sentence is grammatically flawless as written.
+
+Q8. Choose the grammatically correct sentence that improves upon the original.
+Original: He is not only an exceptionally talented musician but also plays tennis at a professional level.
+(A) Not only is he an exceptionally talented musician but he also plays tennis
+(B) He not only is an exceptionally talented musician but also plays tennis
+(C) He is not only an exceptionally talented musician but also a professional tennis player.
+(D) The original sentence is correct.
+
+Answer: C
+Explanation: Correlative conjunctions like "not only... but also" require parallel structure. In the original, "an exceptionally talented musician" (a noun phrase) is paired with "plays tennis" (a verb phrase). Option C perfectly balances two noun phrases.
+
+Q9. Choose the grammatically correct sentence that improves upon the original.
+Original: The number of cyberattacks targeting financial institutions have increased exponentially over the last decade.
+(A) A number of cyberattacks targeting financial institutions has increased
+(B) The number of cyberattacks targeting financial institutions has increased
+(C) The numbers of cyberattacks targeting financial institutions have increased
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: The phrase "The number of" (referring to a specific mathematical quantity) always takes a singular verb ("has increased"), unlike "A number of", which takes a plural verb.
+
+Q10. Choose the grammatically correct sentence that improves upon the original.
+Original: Unless you do not apologize for your highly unprofessional behavior, the board will terminate your contract immediately.
+(A) Unless you will not apologize for your highly unprofessional behavior,
+(B) If you do not apologize for your highly unprofessional behavior,
+(C) Unless you apologize for your highly unprofessional behavior,
+(D) Both B and C are correct improvements.
+
+Answer: D
+Explanation: "Unless" inherently means "if not", so it cannot be followed by a negative word like "not" ("Unless you do not" is a double negative). Both "If you do not apologize" and "Unless you apologize" are grammatically correct and convey the identical meaning.
+
+Q11. Choose the grammatically correct sentence that improves upon the original.
+Original: The intricate details of the historical treaty is not fully understood by most modern political analysts.
+(A) The intricate details of the historical treaty are not fully understood
+(B) The intricate detail of the historical treaty are not fully understood
+(C) The intricate details of the historical treaty has not fully understood
+(D) The original sentence is correct.
+
+Answer: A
+Explanation: The true subject of the sentence is "details" (plural). "Of the historical treaty" is just a prepositional phrase modifying the subject. Therefore, the plural verb "are" must be used.
+
+Q12. Choose the grammatically correct sentence that improves upon the original.
+Original: I look forward to meet you at the upcoming global technology summit in San Francisco.
+(A) I look forward to have met you at
+(B) I look forward to meeting you at
+(C) I am looking forward to meet you at
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: The phrase "look forward to" ends with a preposition ("to"), so the verb following it must be in the gerund form ("meeting").
+
+Q13. Choose the grammatically correct sentence that improves upon the original.
+Original: The newly constructed bridge is much more stronger than the older one that collapsed last year.
+(A) is much stronger than the older one
+(B) is more stronger than the older one
+(C) is much more strong than the older one
+(D) The original sentence is correct.
+
+Answer: A
+Explanation: "Stronger" is already in the comparative degree. Using "more" with it creates an incorrect double comparative ("more stronger"). "Much" can correctly modify a comparative ("much stronger").
+
+14. Choose the grammatically correct sentence that improves upon the original.
+Original: Neither the employees nor the department manager have been informed about the sudden policy changes.
+(A) Neither the employees nor the department manager has been informed
+(B) Neither the employee nor the department managers has been informed
+(C) Neither the employees or the department manager have been informed
+(D) The original sentence is correct.
+
+Answer: A
+Explanation: When using "neither...nor", the verb must agree with the subject closest to it. The closest subject is "manager" (singular), so the singular verb "has" must be used.
+
+15. Choose the grammatically correct sentence that improves upon the original.
+Original: It is high time the international community takes strict action against state-sponsored cyber terrorism.
+(A) takes strictly action against
+(B) took strict action against
+(C) will take strict action against
+(D) The original sentence is correct.
+
+Answer: B
+Explanation: The idiomatic phrase "It is high time" is followed by a clause in the simple past tense (subjunctive past) to express that an action is critically overdue. Therefore, "takes" must be improved to "took".
+----------------------------------------

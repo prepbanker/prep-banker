@@ -1,0 +1,408 @@
+{
+  "exam": "ibps-po",
+  "subject": "english-language",
+  "topic": "reading-comprehension",
+  "subtopic": "factual-rc",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Reading Comprehension\nSubtopic: Factual RC\n\nPASSAGE 1\nThe Amazon rainforest, often referred to as the \"lungs of the Earth,\" covers approximately 5.5 million square kilometers across nine nations. Brazil contains 60% of the rainforest, followed by Peru with 13%, and Colombia with 10%. It produces about 20% of the world's oxygen and houses at least 10% of the world's known biodiversity. In 2019, satellite data from the National Institute for Space Research (INPE) revealed an 85% increase in fires compared to the previous year. Most of these fires were deliberately set by ranchers and loggers seeking to clear land for cattle grazing and soybean cultivation. The resulting deforestation not only destroys habitats but also releases massive amounts of stored carbon back into the atmosphere, significantly accelerating global climate change.",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Which country contains the largest portion of the Amazon rainforest?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Peru"
+                },
+                {
+                  "label": "B",
+                  "text": "Colombia"
+                },
+                {
+                  "label": "C",
+                  "text": "Brazil"
+                },
+                {
+                  "label": "D",
+                  "text": "Venezuela"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The passage directly states: \"Brazil contains 60% of the rainforest...\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "What percentage of the world's oxygen is produced by the Amazon rainforest?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10%"
+                },
+                {
+                  "label": "B",
+                  "text": "13%"
+                },
+                {
+                  "label": "C",
+                  "text": "20%"
+                },
+                {
+                  "label": "D",
+                  "text": "60%"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The text explicitly mentions: \"It produces about 20% of the world's oxygen...\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "According to INPE satellite data, how much did the number of fires increase in 2019 compared to the previous year?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10%"
+                },
+                {
+                  "label": "B",
+                  "text": "13%"
+                },
+                {
+                  "label": "C",
+                  "text": "60%"
+                },
+                {
+                  "label": "D",
+                  "text": "85%"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "The passage explicitly states: \"satellite data... revealed an 85% increase in fires compared to the previous year.\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Who was primarily responsible for deliberately setting the majority of the fires in 2019?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Indigenous tribes"
+                },
+                {
+                  "label": "B",
+                  "text": "Ranchers and loggers"
+                },
+                {
+                  "label": "C",
+                  "text": "Government officials"
+                },
+                {
+                  "label": "D",
+                  "text": "Climate activists"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The text states: \"Most of these fires were deliberately set by ranchers and loggers seeking to clear land...\"",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "What is one of the major environmental consequences of Amazon deforestation mentioned in the passage?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It cools down the global temperature."
+                },
+                {
+                  "label": "B",
+                  "text": "It releases massive amounts of stored carbon."
+                },
+                {
+                  "label": "C",
+                  "text": "It increases the rainfall in South America."
+                },
+                {
+                  "label": "D",
+                  "text": "It reduces the amount of soybean cultivation."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage clearly notes: \"The resulting deforestation... releases massive amounts of stored carbon back into the atmosphere...\"",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Reading Comprehension\nSubtopic: Factual RC\n\nPASSAGE 1\nThe Amazon rainforest, often referred to as the \"lungs of the Earth,\" covers approximately 5.5 million square kilometers across nine nations. Brazil contains 60% of the rainforest, followed by Peru with 13%, and Colombia with 10%. It produces about 20% of the world's oxygen and houses at least 10% of the world's known biodiversity. In 2019, satellite data from the National Institute for Space Research (INPE) revealed an 85% increase in fires compared to the previous year. Most of these fires were deliberately set by ranchers and loggers seeking to clear land for cattle grazing and soybean cultivation. The resulting deforestation not only destroys habitats but also releases massive amounts of stored carbon back into the atmosphere, significantly accelerating global climate change.",
+          "questions": [
+            {
+              "id": 6,
+              "text": "The most famous sections of the Great Wall were built during which historical period?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The 7th century BC"
+                },
+                {
+                  "label": "B",
+                  "text": "The Qing Dynasty"
+                },
+                {
+                  "label": "C",
+                  "text": "The Ming Dynasty"
+                },
+                {
+                  "label": "D",
+                  "text": "The Han Dynasty"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The passage explicitly states: \"...the most famous and best-preserved sections were built during the Ming Dynasty...\"",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "What is the approximate total length of the Great Wall of China?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "13,684 kilometers"
+                },
+                {
+                  "label": "B",
+                  "text": "21,196 kilometers"
+                },
+                {
+                  "label": "C",
+                  "text": "5,500 kilometers"
+                },
+                {
+                  "label": "D",
+                  "text": "7,000 kilometers"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The text directly provides the measurement: \"Measuring approximately 21,196 kilometers in total length...\"",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Which of the following was the primary defensive purpose of the Great Wall?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "To prevent citizens from leaving the empire"
+                },
+                {
+                  "label": "B",
+                  "text": "To protect against nomadic intrusions from the Eurasian Steppe"
+                },
+                {
+                  "label": "C",
+                  "text": "To defend against naval invasions from the east"
+                },
+                {
+                  "label": "D",
+                  "text": "To serve as a prison for political dissidents"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage explicitly mentions it was designed \"primarily to protect against nomadic intrusions from the Eurasian Steppe.\"",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Besides defense, what was another key function of the Great Wall?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "To serve as an aqueduct for agriculture"
+                },
+                {
+                  "label": "B",
+                  "text": "To act as a highway for imperial chariots"
+                },
+                {
+                  "label": "C",
+                  "text": "To allow the imposition of duties on goods on the Silk Road"
+                },
+                {
+                  "label": "D",
+                  "text": "To mark the exact geographical center of China"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The text states: \"...allowing the imposition of duties on goods transported along the Silk Road...\"",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Is the Great Wall of China a single, continuous structure?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Yes, built entirely by the Ming Dynasty."
+                },
+                {
+                  "label": "B",
+                  "text": "No, it is a series of fortifications."
+                },
+                {
+                  "label": "C",
+                  "text": "Yes, stretching 21,196 kilometers without breaks."
+                },
+                {
+                  "label": "D",
+                  "text": "No, it is made only of natural mountains."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The very first sentence states: \"The Great Wall of China is not a single, continuous wall but a series of fortifications...\"",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Reading Comprehension\nSubtopic: Factual RC\n\nPASSAGE 1\nThe Amazon rainforest, often referred to as the \"lungs of the Earth,\" covers approximately 5.5 million square kilometers across nine nations. Brazil contains 60% of the rainforest, followed by Peru with 13%, and Colombia with 10%. It produces about 20% of the world's oxygen and houses at least 10% of the world's known biodiversity. In 2019, satellite data from the National Institute for Space Research (INPE) revealed an 85% increase in fires compared to the previous year. Most of these fires were deliberately set by ranchers and loggers seeking to clear land for cattle grazing and soybean cultivation. The resulting deforestation not only destroys habitats but also releases massive amounts of stored carbon back into the atmosphere, significantly accelerating global climate change.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Marie Curie holds the distinction of being the only person to:",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Win a Nobel Prize in Physics."
+                },
+                {
+                  "label": "B",
+                  "text": "Win a Nobel Prize in two different scientific fields."
+                },
+                {
+                  "label": "C",
+                  "text": "Discover the element uranium."
+                },
+                {
+                  "label": "D",
+                  "text": "Share a Nobel Prize with a spouse."
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The text states she is \"the only person to win a Nobel Prize in two different scientific fields.\"",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "In what year did Marie Curie win her Nobel Prize in Chemistry?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "1903"
+                },
+                {
+                  "label": "B",
+                  "text": "1911"
+                },
+                {
+                  "label": "C",
+                  "text": "1914"
+                },
+                {
+                  "label": "D",
+                  "text": "1934"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "The passage explicitly provides the date: \"In 1911, she was awarded the Nobel Prize in Chemistry...\"",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "With whom did Marie Curie share her 1903 Nobel Prize?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Only Pierre Curie"
+                },
+                {
+                  "label": "B",
+                  "text": "Only Henri Becquerel"
+                },
+                {
+                  "label": "C",
+                  "text": "Pierre Curie and Henri Becquerel"
+                },
+                {
+                  "label": "D",
+                  "text": "No one, she won it alone."
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The text states she shared it \"with her husband Pierre Curie and physicist Henri Becquerel.\"",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "What specific contribution did Marie Curie make during World War I?",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "She developed the first atomic bomb."
+                },
+                {
+                  "label": "B",
+                  "text": "She served as a frontline nurse."
+                },
+                {
+                  "label": "C",
+                  "text": "She developed mobile radiography units for X-ray services."
+                },
+                {
+                  "label": "D",
+                  "text": "She synthesized new chemical weapons."
+                },
+                {
+                  "label": "A",
+                  "text": "Old age"
+                },
+                {
+                  "label": "B",
+                  "text": "Tuberculosis"
+                },
+                {
+                  "label": "C",
+                  "text": "Aplastic anemia"
+                },
+                {
+                  "label": "D",
+                  "text": "Polio"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "The passage mentions: \"During World War I, Curie developed mobile radiography units to provide X-ray services to field hospitals.\"",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

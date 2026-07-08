@@ -1,0 +1,408 @@
+{
+  "exam": "sbi-po",
+  "subject": "english-language",
+  "topic": "vocabulary",
+  "subtopic": "synonyms",
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "level": "easy",
+      "range": "Q1-Q5",
+      "groups": [
+        {
+          "directions": "Topic: Vocabulary\nSubtopic: Synonyms",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Choose the exact synonym for the word: **LUCID**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Obscure"
+                },
+                {
+                  "label": "B",
+                  "text": "Confusing"
+                },
+                {
+                  "label": "C",
+                  "text": "Clear"
+                },
+                {
+                  "label": "D",
+                  "text": "Vague"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Lucid\" means expressed clearly or easy to understand. \"Clear\" is the exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 2,
+              "text": "Choose the exact synonym for the word: **ABUNDANT**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Scarce"
+                },
+                {
+                  "label": "B",
+                  "text": "Plentiful"
+                },
+                {
+                  "label": "C",
+                  "text": "Minimal"
+                },
+                {
+                  "label": "D",
+                  "text": "Depleted"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Abundant\" means existing or available in large quantities. \"Plentiful\" is the exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 3,
+              "text": "Choose the exact synonym for the word: **CANDID**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Deceitful"
+                },
+                {
+                  "label": "B",
+                  "text": "Frank"
+                },
+                {
+                  "label": "C",
+                  "text": "Guarded"
+                },
+                {
+                  "label": "D",
+                  "text": "Secretive"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Candid\" means truthful and straightforward. \"Frank\" is the exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 4,
+              "text": "Choose the exact synonym for the word: **MITIGATE**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Aggravate"
+                },
+                {
+                  "label": "B",
+                  "text": "Alleviate"
+                },
+                {
+                  "label": "C",
+                  "text": "Intensify"
+                },
+                {
+                  "label": "D",
+                  "text": "Provoke"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Mitigate\" means to make less severe, harmful, or painful. \"Alleviate\" is the exact synonym.",
+              "difficulty": "easy"
+            },
+            {
+              "id": 5,
+              "text": "Choose the exact synonym for the word: **DILIGENT**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Industrious"
+                },
+                {
+                  "label": "B",
+                  "text": "Lethargic"
+                },
+                {
+                  "label": "C",
+                  "text": "Careless"
+                },
+                {
+                  "label": "D",
+                  "text": "Indifferent"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "\"Diligent\" means having or showing care and conscientiousness in one's work or duties. \"Industrious\" (hard-working) is the exact synonym.",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "medium",
+      "range": "Q6-Q10",
+      "groups": [
+        {
+          "directions": "Topic: Vocabulary\nSubtopic: Synonyms",
+          "questions": [
+            {
+              "id": 6,
+              "text": "Choose the exact synonym for the word: **EPHEMERAL**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Eternal"
+                },
+                {
+                  "label": "B",
+                  "text": "Fleeting"
+                },
+                {
+                  "label": "C",
+                  "text": "Permanent"
+                },
+                {
+                  "label": "D",
+                  "text": "Enduring"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Ephemeral\" means lasting for a very short time. \"Fleeting\" is the exact synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "text": "Choose the exact synonym for the word: **PRAGMATIC**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Idealistic"
+                },
+                {
+                  "label": "B",
+                  "text": "Practical"
+                },
+                {
+                  "label": "C",
+                  "text": "Theoretical"
+                },
+                {
+                  "label": "D",
+                  "text": "Romantic"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Pragmatic\" means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. \"Practical\" is the exact synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 8,
+              "text": "Choose the exact synonym for the word: **UBIQUITOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Rare"
+                },
+                {
+                  "label": "B",
+                  "text": "Omnipresent"
+                },
+                {
+                  "label": "C",
+                  "text": "Isolated"
+                },
+                {
+                  "label": "D",
+                  "text": "Localized"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Ubiquitous\" means present, appearing, or found everywhere. \"Omnipresent\" is the exact synonym.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 9,
+              "text": "Choose the exact synonym for the word: **METICULOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Sloppy"
+                },
+                {
+                  "label": "B",
+                  "text": "Fastidious"
+                },
+                {
+                  "label": "C",
+                  "text": "Hasty"
+                },
+                {
+                  "label": "D",
+                  "text": "Reckless"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Meticulous\" means showing great attention to detail; very careful and precise. \"Fastidious\" is the closest synonym among the choices.",
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "text": "Choose the exact synonym for the word: **VINDICTIVE**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Forgiving"
+                },
+                {
+                  "label": "B",
+                  "text": "Revengeful"
+                },
+                {
+                  "label": "C",
+                  "text": "Merciful"
+                },
+                {
+                  "label": "D",
+                  "text": "Compassionate"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Vindictive\" means having or showing a strong or unreasoning desire for revenge. \"Revengeful\" is the exact synonym.",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "range": "Q11-Q14",
+      "groups": [
+        {
+          "directions": "Topic: Vocabulary\nSubtopic: Synonyms",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Choose the exact synonym for the word: **ESOTERIC**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Commonplace"
+                },
+                {
+                  "label": "B",
+                  "text": "Abstruse"
+                },
+                {
+                  "label": "C",
+                  "text": "Evident"
+                },
+                {
+                  "label": "D",
+                  "text": "Familiar"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Esoteric\" means intended for or likely to be understood by only a small number of people with a specialized knowledge or interest. \"Abstruse\" (hard to understand) is the closest synonym.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "text": "Choose the exact synonym for the word: **OBSEQUIOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Domineering"
+                },
+                {
+                  "label": "B",
+                  "text": "Sycophantic"
+                },
+                {
+                  "label": "C",
+                  "text": "Assertive"
+                },
+                {
+                  "label": "D",
+                  "text": "Arrogant"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Obsequious\" means obedient or attentive to an excessive or servile degree. \"Sycophantic\" (behaving or done in an obsequious way in order to gain advantage) is the exact synonym.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 13,
+              "text": "Choose the exact synonym for the word: **PERNICIOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Beneficial"
+                },
+                {
+                  "label": "B",
+                  "text": "Innocuous"
+                },
+                {
+                  "label": "C",
+                  "text": "Deleterious"
+                },
+                {
+                  "label": "D",
+                  "text": "Salutary"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "\"Pernicious\" means having a harmful effect, especially in a gradual or subtle way. \"Deleterious\" (causing harm or damage) is the exact synonym.",
+              "difficulty": "hard"
+            },
+            {
+              "id": 14,
+              "text": "Choose the exact synonym for the word: **QUERULOUS**",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Contented"
+                },
+                {
+                  "label": "B",
+                  "text": "Petulant"
+                },
+                {
+                  "label": "C",
+                  "text": "Genial"
+                },
+                {
+                  "label": "D",
+                  "text": "Complacent"
+                },
+                {
+                  "label": "A",
+                  "text": "Amiable"
+                },
+                {
+                  "label": "B",
+                  "text": "Pugnacious"
+                },
+                {
+                  "label": "C",
+                  "text": "Placid"
+                },
+                {
+                  "label": "D",
+                  "text": "Serene"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "\"Querulous\" means complaining in a petulant or whining manner. \"Petulant\" (childishly sulky or bad-tempered) is the exact synonym.",
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

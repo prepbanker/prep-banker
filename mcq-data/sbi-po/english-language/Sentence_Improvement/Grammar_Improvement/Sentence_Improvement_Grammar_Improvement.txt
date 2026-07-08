@@ -1,0 +1,140 @@
+----------------------------------------
+Topic: Sentence Improvement
+Subtopic: Grammar Improvement
+----------------------------------------
+
+Q1. He is not only an excellent researcher, **but also he teaches well**.
+(A) but also a good teacher
+(B) but he also teaches well
+(C) but also teaches good
+(D) No improvement required
+
+Answer: A
+Explanation: The correlative conjunction "not only... but also" must link parallel grammatical structures. Since "not only" is followed by a noun phrase ("an excellent researcher"), "but also" must also be followed by a noun phrase ("a good teacher").
+
+Q2. If you had listened to my advice, you **would not be in** this terrible situation right now.
+(A) would not have been in
+(B) will not be in
+(C) would not be into
+(D) No improvement required
+
+Answer: D
+Explanation: This is a mixed conditional sentence. The "if" clause is in the past perfect (referring to a past action), and the main clause uses "would + base verb" (referring to a present result: "right now"). The sentence is grammatically correct as is.
+
+Q3. The board of directors **have unanimously approved** the merger with the rival company.
+(A) has unanimously approved
+(B) have unanimously approve
+(C) is unanimously approved
+(D) No improvement required
+
+Answer: A
+Explanation: The phrase "board of directors" refers to a single collective entity acting together (indicated by "unanimously"). Therefore, it takes a singular verb "has".
+
+Q4. Hardly had the play started **than the power went** out in the entire theater.
+(A) when the power went
+(B) then the power went
+(C) while the power went
+(D) No improvement required
+
+Answer: A
+Explanation: The conjunction "Hardly" is always paired with "when", not "than". "Than" is used with "No sooner".
+
+Q5. None of the applicants **were able to pass** the rigorous physical examination.
+(A) was able to pass
+(B) are able to pass
+(C) have able to pass
+(D) No improvement required
+
+Answer: A
+Explanation: In formal written English and strict grammar rules for competitive exams, "None of" followed by a plural noun should preferably take a singular verb ("was") to emphasize "not a single one". (Though "were" is acceptable in informal usage, "was" is the strictly correct grammatical improvement).
+
+Q6. Between you and **I, I believe** that the project is doomed to fail.
+(A) me, I believe
+(B) me, me believe
+(C) I, me believe
+(D) No improvement required
+
+Answer: A
+Explanation: "Between" is a preposition, and pronouns following a preposition must be in the objective case ("me"). The subject of the next clause remains "I". So, "Between you and me, I believe".
+
+Q7. She is one of the few women who **has successfully climbed** Mount Everest without supplemental oxygen.
+(A) have successfully climbed
+(B) has successfully climb
+(C) had successfully climbed
+(D) No improvement required
+
+Answer: A
+Explanation: In the phrase "one of the [plural noun] who", the relative pronoun "who" refers to the plural noun ("women"). Therefore, the verb following "who" must be plural ("have").
+
+Q8. It is high time you **start preparing** for your upcoming final examinations.
+(A) started preparing
+(B) will start preparing
+(C) should start preparing
+(D) No improvement required
+
+Answer: A
+Explanation: The phrase "It is high time" is always followed by a clause in the simple past tense to indicate something that is already overdue. "Start" must be improved to "started".
+
+Q9. He asked me what **was the time** and where the nearest train station was.
+(A) is the time
+(B) the time was
+(C) has been the time
+(D) No improvement required
+
+Answer: B
+Explanation: In an indirect question, the word order must be assertive (Subject + Verb), not interrogative (Verb + Subject). "What was the time" should be improved to "what the time was".
+
+Q10. I am not used **to wake up** so early in the morning on weekends.
+(A) to waking up
+(B) to waked up
+(C) for waking up
+(D) No improvement required
+
+Answer: A
+Explanation: When "used to" is preceded by a "be" verb (am/is/are/was/were) meaning "accustomed to", it functions as a preposition and must be followed by a gerund (-ing form). "To wake" becomes "to waking".
+
+Q11. The teacher, along with all her students, **are going on** a field trip to the museum tomorrow.
+(A) is going on
+(B) were going on
+(C) have gone on
+(D) No improvement required
+
+Answer: A
+Explanation: When two subjects are connected by phrases like "along with," "as well as," or "in addition to," the verb must agree with the primary (first) subject. "The teacher" is singular, so the verb must be "is".
+
+Q12. Having finished his homework, **the TV was turned on** by John to watch his favorite show.
+(A) John turned on the TV
+(B) the TV had been turned on
+(C) turning on the TV was done
+(D) No improvement required
+
+Answer: A
+Explanation: This is a dangling modifier error. The participle phrase "Having finished his homework" must modify the subject of the main clause. The TV cannot finish homework; John did. The sentence must be rewritten in the active voice so "John" is the subject.
+
+Q13. I would rather stay indoors and read a book **than going out** in this freezing weather.
+(A) than go out
+(B) to go out
+(C) than to go out
+(D) No improvement required
+
+Answer: A
+Explanation: The phrase "would rather" uses the base form of a verb ("stay"). To maintain parallelism, the verb following "than" must also be in the base form. "Going" must be improved to "go".
+
+Q14. By next December, my parents **will be married** for exactly thirty years.
+(A) will have been married
+(B) would be married
+(C) shall be married
+(D) No improvement required
+
+Answer: A
+Explanation: To describe an action or state that will have continued up to a specific point in the future ("By next December"), the future perfect tense must be used. "Will have been married" is the correct improvement.
+
+15. **Lest he misses** the train, he packed his bags the night before and left early.
+(A) Lest he should miss
+(B) Lest he would miss
+(C) Lest he might miss
+(D) No improvement required
+
+Answer: A
+Explanation: The conjunction "lest" (meaning "for fear that") is always followed by the modal auxiliary "should" and the base form of the verb. "Misses" must be improved to "should miss".
+----------------------------------------

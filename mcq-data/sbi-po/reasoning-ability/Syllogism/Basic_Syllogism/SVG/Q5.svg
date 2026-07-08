@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" font-family="Arial, sans-serif">
+  <!-- Some Cars are Buses -->
+  <circle cx="220" cy="300" r="70" fill="rgba(33, 150, 243, 0.1)" stroke="#1976d2" stroke-width="3"/>
+  <text x="180" y="305" text-anchor="middle" font-size="20" font-weight="bold" fill="#0d47a1">Cars</text>
+  
+  <circle cx="320" cy="300" r="70" fill="rgba(255, 152, 0, 0.1)" stroke="#f57c00" stroke-width="3"/>
+  <text x="320" y="270" text-anchor="middle" font-size="20" font-weight="bold" fill="#e65100">Buses</text>
+  
+  <!-- No Bus is a Train -->
+  <circle cx="480" cy="300" r="70" fill="rgba(156, 39, 176, 0.1)" stroke="#7b1fa2" stroke-width="3"/>
+  <text x="480" y="305" text-anchor="middle" font-size="20" font-weight="bold" fill="#4a148c">Trains</text>
+  
+  <!-- Disjoint Line and Cross -->
+  <line x1="390" y1="300" x2="410" y2="300" stroke="#d32f2f" stroke-width="3"/>
+  <path d="M 395 295 L 405 305 M 395 305 L 405 295" stroke="#d32f2f" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,322 @@
+----------------------------------------
+Topic: Data Interpretation
+Subtopic: Table DI
+----------------------------------------
+
+Directions (Q1–Q5): Refer to diagram: SVG/Q2.svg.
+The table gives the number of different items (Laptops, Mobiles, Tablets, Smartwatches) sold by 5 different stores (A, B, C, D, E) in a month.
+
+Q1. What is the total number of items sold by Store C?
+(A) 715
+(B) 685
+(C) 745
+(D) 725
+
+Answer: A
+Explanation:
+Total items sold by C = 90 (Laptops) + 380 (Mobiles) + 160 (Tablets) + 85 (Smartwatches)
+= 90 + 380 + 160 + 85 = 715.
+
+----------------------------------------
+
+Q2. What is the ratio of the number of Mobiles sold by Store A to the number of Laptops sold by Store E?
+(A) 5 : 2
+(B) 2 : 5
+(C) 7 : 3
+(D) 3 : 7
+
+Answer: A
+Explanation:
+Mobiles sold by A = 450
+Laptops sold by E = 180
+Ratio = 450 : 180 = 45 : 18 = 5 : 2.
+
+----------------------------------------
+
+Q3. The number of Tablets sold by Store D is approximately what percentage of the total number of items sold by Store D?
+(A) 24%
+(B) 20%
+(C) 22%
+(D) 26%
+
+Answer: B
+Explanation:
+Total items sold by D = 210 + 610 + 240 + 140 = 1200
+Tablets sold by D = 240
+Percentage = (240 / 1200) × 100 = 20%.
+
+----------------------------------------
+
+Q4. What is the difference between the average number of Mobiles sold by all stores and the average number of Smartwatches sold by all stores?
+(A) 390
+(B) 380
+(C) 375
+(D) 385
+
+Answer: B
+Explanation:
+Total Mobiles = 450 + 520 + 380 + 610 + 490 = 2450
+Average Mobiles = 2450 / 5 = 490
+Total Smartwatches = 90 + 110 + 85 + 140 + 125 = 550
+Average Smartwatches = 550 / 5 = 110
+Difference = 490 - 110 = 380.
+
+----------------------------------------
+
+Q5. The total number of items sold by Store B is what percentage more than the total number of items sold by Store A?
+(A) 15%
+(B) 16.66%
+(C) 20%
+(D) 12.5%
+
+Answer: B
+Explanation:
+Total items by B = 150 + 520 + 200 + 110 = 980
+Total items by A = 120 + 450 + 180 + 90 = 840
+Difference = 980 - 840 = 140
+Percentage more = (140 / 840) × 100 = (1/6) × 100 = 16.66%.
+
+----------------------------------------
+
+Directions (Q6–Q10): Refer to diagram: SVG/Q8.svg.
+The table gives data regarding 5 universities (P, Q, R, S, T) - Total students, % of Males, % of students in Science stream, and % of students in Arts stream. (Note: Total students = Science + Arts. Total students = Males + Females).
+
+Q6. Find the total number of Female students in University Q and S together.
+(A) 6180
+(B) 6080
+(C) 6280
+(D) 6380
+
+Answer: A
+Explanation:
+University Q: Total = 6000, Males = 45%, Females = 55%.
+Females in Q = 55% of 6000 = 3300.
+University S: Total = 4800, Males = 40%, Females = 60%.
+Females in S = 60% of 4800 = 2880.
+Total Females = 3300 + 2880 = 6180.
+
+----------------------------------------
+
+Q7. In University R, the ratio of Male to Female students in the Science stream is 7 : 6. Find the number of Female students in the Arts stream in University R.
+(A) 820
+(B) 840
+(C) 880
+(D) 920
+
+Answer: C
+Explanation:
+University R: Total = 5200.
+Total Males = 60% of 5200 = 3120. Total Females = 40% of 5200 = 2080.
+Science students = 50% of 5200 = 2600.
+Science Males : Science Females = 7 : 6 (Total 13 units).
+Science Females = (6/13) × 2600 = 1200.
+Total Females = Science Females + Arts Females.
+2080 = 1200 + Arts Females.
+Arts Females = 2080 - 1200 = 880.
+
+----------------------------------------
+
+Q8. What is the central angle corresponding to the Science students of University P if a pie chart is drawn for the total students of University P?
+(A) 120°
+(B) 135°
+(C) 144°
+(D) 150°
+
+Answer: C
+Explanation:
+In University P, Science students constitute 40% of the total.
+Central angle = 40% of 360°
+= (40/100) × 360 = 144°.
+
+----------------------------------------
+
+Q9. Find the ratio of the number of Arts students in University T to the number of Male students in University P.
+(A) 70 : 33
+(B) 35 : 11
+(C) 75 : 31
+(D) 33 : 14
+
+Answer: A
+Explanation:
+Arts students in T = 70% of 7500 = 5250.
+Male students in P = 55% of 4500 = 2475.
+Ratio = 5250 : 2475
+Dividing by 25: 210 : 99
+Dividing by 3: 70 : 33.
+
+----------------------------------------
+
+Q10. If 20% of the Arts students in University S are Males, then what percentage of the Science students in University S are Females?
+(A) 66.66%
+(B) 70%
+(C) 75%
+(D) 60%
+
+Answer: C
+Explanation:
+University S Total = 4800.
+Total Males = 40% = 1920. Total Females = 60% = 2880.
+Arts students = 55% = 2640. Science students = 45% = 2160.
+Arts Males = 20% of 2640 = 528.
+Total Males = Arts Males + Science Males => 1920 = 528 + Science Males.
+Science Males = 1920 - 528 = 1392.
+Science Females = Total Science - Science Males = 2160 - 1392 = 768.
+Percentage of Science students who are Females = (768 / 2160) × 100
+= (7680 / 216) = 35.55%.
+Wait, 768 / 2160 = 32 / 90 = 16 / 45 = 35.55%.
+Let me recalculate.
+Total S = 4800.
+Total Males = 1920.
+Arts = 2640. 20% of Arts = 528 (Males).
+Science = 2160.
+Total Males (1920) = Arts Males (528) + Science Males (X) => X = 1392.
+Science Females = 2160 - 1392 = 768.
+% = (768 / 2160) * 100 = 35.55%.
+Let me adjust the question parameters to yield a clean integer answer.
+Let's change "20% of Arts" to "50% of Arts".
+Arts Males = 50% of 2640 = 1320.
+Science Males = 1920 - 1320 = 600.
+Science Females = 2160 - 600 = 1560.
+% = (1560 / 2160) * 100 = (156 / 216) * 100 = (13 / 18) * 100 = 72.22%.
+Let's adjust University S:
+Total = 4800.
+Change Males to 50% = 2400.
+Females = 50% = 2400.
+Arts = 60% of 4800 = 2880.
+Science = 40% of 4800 = 1920. (Wait, table says Arts 55%, Science 45%).
+Using table values: Arts 55% (2640), Science 45% (2160). Males 40% (1920).
+Let's adjust the question: "If the number of Male students in Arts in University S is 1200..."
+Total Males = 1920. Science Males = 1920 - 1200 = 720.
+Science Females = 2160 - 720 = 1440.
+% of Science students who are Females = (1440 / 2160) × 100 = (144 / 216) × 100 = (2 / 3) × 100 = 66.66%.
+
+Q10. If the number of Male students in the Arts stream in University S is 1200, then what percentage of the Science students in University S are Females?
+(A) 66.66%
+(B) 70%
+(C) 75%
+(D) 60%
+
+Answer: A
+Explanation:
+University S: Total = 4800.
+Total Males = 40% of 4800 = 1920.
+Total Science = 45% of 4800 = 2160.
+Males in Arts = 1200.
+Males in Science = Total Males - Males in Arts = 1920 - 1200 = 720.
+Females in Science = Total Science - Males in Science = 2160 - 720 = 1440.
+Percentage = (1440 / 2160) × 100 = (2 / 3) × 100 = 66.66%.
+
+----------------------------------------
+
+Directions (Q11–Q15): Refer to diagram: SVG/Q13.svg.
+The table gives data regarding 4 IT Companies (TCS, Infosys, Wipro, HCL) - Total employees, Male to Female ratio, % of employees in IT Department, and % of employees in HR Department. (Assume employees belong only to IT, HR, or 'Other' departments).
+
+Q11. What is the total number of Female employees in Infosys and Wipro together?
+(A) 7400
+(B) 7600
+(C) 7800
+(D) 7200
+
+Answer: B
+Explanation:
+Infosys: Total = 9600. M : F = 7 : 5 (Total 12 units).
+Females in Infosys = (5/12) × 9600 = 5 × 800 = 4000.
+Wipro: Total = 8400. M : F = 4 : 3 (Total 7 units).
+Females in Wipro = (3/7) × 8400 = 3 × 1200 = 3600.
+Total Females = 4000 + 3600 = 7600.
+
+----------------------------------------
+
+Q12. The number of employees in the 'Other' department of TCS is approximately what percentage of the total Male employees in TCS?
+(A) 33.33%
+(B) 40%
+(C) 25%
+(D) 41.66%
+
+Answer: A
+Explanation:
+TCS Total = 12000.
+% in IT = 60%, % in HR = 15%.
+% in 'Other' = 100% - (60% + 15%) = 25%.
+Employees in 'Other' = 25% of 12000 = 3000.
+TCS M : F = 5 : 3 (Total 8 units).
+Male employees in TCS = (5/8) × 12000 = 7500.
+Percentage = (3000 / 7500) × 100 = (30 / 75) × 100 = (2 / 5) × 100 = 40%.
+Wait, option B is 40%.
+Let's modify Answer to B.
+
+Answer: B
+Explanation:
+TCS Total = 12000.
+Employees in 'Other' = 100% - (60% + 15%) = 25% of 12000 = 3000.
+Male employees in TCS = (5/8) × 12000 = 7500.
+Percentage = (3000 / 7500) × 100 = 40%.
+
+----------------------------------------
+
+Q13. In HCL, if 60% of the HR department employees are females, find the number of Male employees in the HR department of HCL.
+(A) 440
+(B) 420
+(C) 460
+(D) 480
+
+Answer: B
+Explanation:
+HCL Total = 10500.
+HR department employees = 10% of 10500 = 1050.
+Females in HR = 60%.
+Males in HR = 40% of 1050.
+Males in HR = 0.4 × 1050 = 420.
+
+----------------------------------------
+
+Q14. Find the difference between the total number of IT employees in TCS and Wipro together, and the total number of Male employees in HCL.
+(A) 5900
+(B) 6100
+(C) 5800
+(D) 6200
+
+Answer: A
+Explanation:
+TCS IT employees = 60% of 12000 = 7200.
+Wipro IT employees = 50% of 8400 = 4200.
+Total IT (TCS + Wipro) = 7200 + 4200 = 11400.
+HCL Total = 10500. M : F = 11 : 10 (Total 21 units).
+HCL Male employees = (11/21) × 10500 = 11 × 500 = 5500.
+Difference = 11400 - 5500 = 5900.
+
+----------------------------------------
+
+Q15. The total HR employees in all four companies is what percentage of the total employees in all four companies?
+(A) 16.5%
+(B) 17.5%
+(C) 15.5%
+(D) 18.5%
+
+Answer: A
+Explanation:
+Total employees = 12000 + 9600 + 8400 + 10500 = 40500.
+HR in TCS = 15% of 12000 = 1800.
+HR in Infosys = 20% of 9600 = 1920.
+HR in Wipro = 25% of 8400 = 2100.
+HR in HCL = 10% of 10500 = 1050.
+Total HR = 1800 + 1920 + 2100 + 1050 = 6870.
+Percentage = (6870 / 40500) × 100 = 6870 / 405 = 16.96%.
+Let's check the options. Option A is 16.5%.
+6870 / 405 = 1374 / 81 = 458 / 27 ≈ 16.96%.
+Let's modify Q15 to ask for approximate percentage or adjust the data.
+Let's just change the Answer to 16.96% in options.
+
+Q15. The total HR employees in all four companies is approximately what percentage of the total employees in all four companies?
+(A) 17%
+(B) 15%
+(C) 19%
+(D) 16%
+
+Answer: A
+Explanation:
+Total employees = 12000 + 9600 + 8400 + 10500 = 40500.
+Total HR = (15% of 12000) + (20% of 9600) + (25% of 8400) + (10% of 10500)
+= 1800 + 1920 + 2100 + 1050 = 6870.
+Percentage = (6870 / 40500) × 100 = 16.96% ≈ 17%.
+----------------------------------------

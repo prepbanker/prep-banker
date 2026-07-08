@@ -1,0 +1,195 @@
+Topic: Order & Ranking
+Subtopic: Position Based
+
+Q1. In a row of 40 students, Rohan is 15th from the left end. What is his position from the right end?
+(A) 24th
+(B) 25th
+(C) 26th
+(D) 27th
+Answer: C
+Explanation: 
+Total students = 40. Rohan's position from left = 15. 
+Position from right = Total - (Position from left) + 1 
+= 40 - 15 + 1 = 26th.
+
+Q2. Sneha ranks 12th from the top and 28th from the bottom in a class. How many students are there in the class?
+(A) 38
+(B) 39
+(C) 40
+(D) 41
+Answer: B
+Explanation: 
+Total students = (Rank from top + Rank from bottom) - 1 
+= (12 + 28) - 1 = 40 - 1 = 39.
+
+Q3. In a row of boys, A is 10th from the left and B is 9th from the right end. If there are 3 boys between A and B, what is the maximum number of boys in the row?
+(A) 19
+(B) 20
+(C) 22
+(D) 23
+Answer: C
+Explanation: 
+For maximum number, there is no overlapping. 
+Total = Position of A from left + Position of B from right + Boys between them
+= 10 + 9 + 3 = 22.
+
+Q4. In a row of 35 girls, when P was shifted by 4 places towards the right, she became 18th from the left end. What was her earlier position from the right end?
+(A) 20th
+(B) 21st
+(C) 22nd
+(D) 23rd
+Answer: C
+Explanation: 
+P's new position from left = 18.
+Since she was shifted 4 places right, her original position from left = 18 - 4 = 14.
+Total girls = 35. 
+Original position from right = 35 - 14 + 1 = 22nd.
+
+Q5. Manoj and Sachin are ranked 7th and 11th respectively from the top in a class of 31 students. What will be their respective ranks from the bottom in the class?
+(A) 24th and 20th
+(B) 25th and 21st
+(C) 26th and 22nd
+(D) 25th and 20th
+Answer: B
+Explanation: 
+Manoj's rank from bottom = 31 - 7 + 1 = 25th.
+Sachin's rank from bottom = 31 - 11 + 1 = 21st.
+So, 25th and 21st respectively.
+
+Q6. In a row of children, Deepti is 9th from the left and Kashish is 13th from the right. They exchange their positions and then Deepti becomes 17th from the left. What is the new position of Kashish from the right end of the row?
+(A) 20th
+(B) 21st
+(C) 27th
+(D) 25th
+Answer: B
+Explanation: 
+Total children = New position of Deepti from left + Old position of Kashish from right - 1
+= 17 + 13 - 1 = 29.
+New position of Kashish from right = Total - New position of Kashish from left (which is Deepti's old left position) + 1
+= 29 - 9 + 1 = 21st.
+
+Q7. In a queue, A is 18th from the front while B is 16th from the back. If C is 25th from the front and is exactly in the middle of A and B, then how many persons are there in the queue?
+(A) 45
+(B) 46
+(C) 47
+(D) 48
+Answer: C
+Explanation: 
+A is 18th from front. C is 25th from front.
+Number of persons between A and C = 25 - 18 - 1 = 6.
+Since C is exactly in the middle of A and B, there must be 6 persons between C and B.
+So, B's position from the front = 25 + 6 + 1 = 32nd.
+B is 16th from the back.
+Total persons = B's rank from front + B's rank from back - 1
+= 32 + 16 - 1 = 47.
+
+Q8. In a row of 40 children facing North, P is 13th from the left end and Q is 9th from the right end. How many children are there between P and R if R is 4th to the left of Q?
+(A) 12
+(B) 13
+(C) 14
+(D) 15
+Answer: C
+Explanation: 
+Q is 9th from right end. R is 4th to the left of Q, so R is 9 + 4 = 13th from the right end.
+R's position from left = 40 - 13 + 1 = 28th.
+P is 13th from the left end.
+Children between P and R = 28 - 13 - 1 = 14.
+
+Q9. In a class of 60, where girls are twice that of boys, Kamal ranked 17th from the top. If there are 9 girls ahead of Kamal, how many boys are after him in rank?
+(A) 3
+(B) 7
+(C) 12
+(D) 13
+Answer: C
+Explanation: 
+Girls + Boys = 60. G = 2B -> 3B = 60 -> Boys = 20, Girls = 40.
+Kamal is a boy. He is 17th from top. So there are 16 students ahead of him.
+Out of these 16, 9 are girls. Therefore, boys ahead of Kamal = 16 - 9 = 7.
+Total boys = 20. 
+Boys ahead of Kamal = 7. Kamal is 1 boy.
+So, boys after Kamal = 20 - 7 - 1 = 12.
+
+Q10. In a row of 21 girls, when Monika was shifted by four places towards the right, she became 12th from the left end. What was her earlier position from the right end of the row?
+(A) 9th
+(B) 10th
+(C) 11th
+(D) 14th
+Answer: D
+Explanation: 
+Monika's new position from left = 12th.
+Original position from left = 12 - 4 = 8th.
+Original position from right = 21 - 8 + 1 = 14th.
+
+Q11. Among A, B, C, D and E, A is taller than only B, but shorter than C, D and E. C is taller than D but not the tallest. Who is the tallest?
+Wait, this is Height Based. I'll move this to the Height section and create a new position one here.
+
+Q11 (Updated). In a row of students facing North, X is 15th from the left and Y is 20th from the right. If they interchange their positions, X becomes 25th from the left. Now, Z sits exactly between X and Y. What is Z's position from the right end?
+(A) 23rd
+(B) 24th
+(C) 25th
+(D) 26th
+Answer: C
+Explanation: 
+Total students = X's new left + Y's old right - 1 = 25 + 20 - 1 = 44.
+In the new arrangement, X is at Y's old position (20th from right, which is 44 - 20 + 1 = 25th from left).
+Y is at X's old position (15th from left, which is 44 - 15 + 1 = 30th from right).
+X is at 25th from left. Y is at 15th from left.
+Students between X and Y = 25 - 15 - 1 = 9 students.
+Z sits exactly between them, so Z is 5th to the right of Y's new position (15 + 5 = 20th from left).
+Z's position from right = 44 - 20 + 1 = 25th.
+
+Q12. In a queue, Vijay is 14th from the front and Jack is 17th from the end, while Mary is exactly between Vijay and Jack. If Vijay is ahead of Jack and there are 48 persons in the queue, how many persons are there between Vijay and Mary?
+(A) 7
+(B) 8
+(C) 9
+(D) 10
+Answer: B
+Explanation: 
+Total = 48. 
+Vijay is 14th from front. Jack is 17th from end (which is 48 - 17 + 1 = 32nd from front).
+Persons between Vijay and Jack = 32 - 14 - 1 = 17.
+Mary is exactly between them. So there are 8 persons between Vijay and Mary, then Mary, then 8 persons between Mary and Jack. (8 + 1 + 8 = 17).
+Thus, 8 persons are between Vijay and Mary.
+
+Q13. In a class of 90 students, numbers of boys are twice the number of girls. Rani's rank is 25th from the top. If there are 10 boys ahead of Rani, how many girls are after her in the rank?
+(A) 15
+(B) 16
+(C) 17
+(D) 18
+Answer: B
+Explanation: 
+Boys + Girls = 90. B = 2G -> 3G = 90 -> G = 30, B = 60.
+Rani is 25th from top. Students ahead of her = 24.
+Boys ahead of her = 10. So girls ahead of her = 24 - 10 = 14.
+Total girls = 30. Girls ahead of Rani = 14. Rani is a girl (1).
+Girls after Rani = 30 - 14 - 1 = 15.
+Wait, let's re-verify: Total 30 girls. 14 ahead + 1 (Rani) = 15. So 15 after her.
+Wait, option A is 15. My explanation gave 15 but option marked was B (16). Let me correct the answer to A.
+Correction: Answer is A.
+Answer: A
+
+Q14. In a row of children, A is 12th from the left and B is 15th from the right. C is 6th to the right of A and is 9th to the left of B. How many children are there in the row?
+(A) 40
+(B) 41
+(C) 42
+(D) 43
+Answer: B
+Explanation: 
+A is 12th from left. C is 6th to the right of A, so C is 12 + 6 = 18th from the left.
+B is 15th from the right. C is 9th to the left of B, so C is 15 + 9 = 24th from the right.
+Since C is 18th from left and 24th from right, total children = 18 + 24 - 1 = 41.
+
+Q15. In a row of students facing North, exactly midway between A (who is 22nd from left) and B (who is 19th from right) sits C. If A is to the left of B and total students are 60, what is C's position from the left end?
+(Refer to diagram: SVG/Q15.svg)
+(A) 31st
+(B) 32nd
+(C) 33rd
+(D) 34th
+Answer: B
+Explanation: 
+Total = 60. A is 22nd from left. B is 19th from right.
+B's position from left = 60 - 19 + 1 = 42nd.
+A is at 22, B is at 42.
+Persons between A and B = 42 - 22 - 1 = 19.
+C is exactly midway, so C is the 10th person after A.
+C's position from left = 22 + 10 = 32nd.
