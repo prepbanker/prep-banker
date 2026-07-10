@@ -340,7 +340,7 @@ export default function PreviousYearPapersLayout({
                   className="p-2 rounded border border-slate-200 text-slate-500 hover:bg-slate-100 disabled:opacity-40 disabled:hover:bg-transparent transition-all cursor-pointer bg-white"
                   aria-label="Previous Page"
                 >
-                  <ChevronLeft className="w-4 h-4" />
+              <ChevronLeft className="w-4 h-4" />
                 </button>
 
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (

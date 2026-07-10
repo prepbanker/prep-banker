@@ -45,6 +45,7 @@ const nextConfig: NextConfig = {
     return [
       // Redirect old slug patterns to canonical
       { source: '/home', destination: '/', permanent: true },
+      { source: '/sbi-po-ibps-po-quiz', destination: '/sbi-po-quiz', permanent: true },
     ];
   },
 

@@ -12,16 +12,16 @@ interface ComparisonRow {
 
 const COMPARISON_DATA: ComparisonRow[] = [
   { parameter: 'Conducting Body',    sbiValue: 'State Bank of India',                 ibpsValue: 'Institute of Banking Personnel Selection' },
-  { parameter: 'Vacancies (2026)',   sbiValue: '~2,000',                              ibpsValue: '~3,500', isHighlighted: true },
-  { parameter: 'Starting Basic Pay', sbiValue: '₹41,960/month',                       ibpsValue: '₹36,000/month' },
-  { parameter: 'Gross In-Hand',      sbiValue: '₹63,000 – ₹68,000',                   ibpsValue: '₹52,000 – ₹58,000', isHighlighted: true },
+  { parameter: 'Vacancies (2026)',   sbiValue: '1,500',                               ibpsValue: '~3,500–4,500', isHighlighted: true },
+  { parameter: 'Starting Basic Pay', sbiValue: '₹48,480/month',                       ibpsValue: '₹36,000/month' },
+  { parameter: 'Gross In-Hand',      sbiValue: '₹71,000 – ₹75,000',                   ibpsValue: '₹52,000 – ₹58,000', isHighlighted: true },
   { parameter: 'Selection Stages',   sbiValue: 'Prelims → Mains → GD → Interview',    ibpsValue: 'Prelims → Mains → Interview' },
   { parameter: 'Exam Difficulty',    sbiValue: 'Hard',                                ibpsValue: 'Moderate–Hard' },
   { parameter: 'Posting',            sbiValue: 'Pan India (SBI branches)',            ibpsValue: 'Pan India (11 PSU banks)' },
   { parameter: 'Prestige',           sbiValue: 'Highest — India\'s largest bank',     ibpsValue: 'High — multiple banks' },
-  { parameter: 'Notification',       sbiValue: 'April–May',                           ibpsValue: 'July–August' },
-  { parameter: 'Prelims',            sbiValue: 'June',                                ibpsValue: 'October' },
-  { parameter: 'Competition',        sbiValue: '~30 lakh applicants',                 ibpsValue: '~25 lakh applicants' },
+  { parameter: 'Notification',       sbiValue: 'June (Released)',                     ibpsValue: 'July–August' },
+  { parameter: 'Prelims',            sbiValue: 'August',                              ibpsValue: 'October' },
+  { parameter: 'Competition',        sbiValue: '~12.14 lakh applicants',              ibpsValue: '~13–15 lakh applicants' },
   { parameter: 'Promotion Speed',    sbiValue: 'Faster',                              ibpsValue: 'Moderate', isHighlighted: true },
   { parameter: 'Transfer Frequency', sbiValue: 'High',                                ibpsValue: 'Moderate' },
 ];

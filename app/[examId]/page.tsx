@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import ExamMainLayout from '@/components/sections/exams/ExamMainLayout';
 import { getExamData } from '@/lib/data/exams/detailContentMap';
 
-import { BreadcrumbSchema, CourseSchema, ProductSchema } from '@/components/seo';
+import { BreadcrumbSchema, CourseSchema, ProductSchema, AuthorPersonSchema } from '@/components/seo';
 
 interface PageProps {
   params: Promise<{ examId: string }>;
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const title = exam.id === 'ibps-po'
-    ? 'IBPS PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests | BankerPrep'
-    : 'SBI PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests | BankerPrep';
+    ? 'IBPS PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests | PrepBanker'
+    : 'SBI PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests | PrepBanker';
 
   const description = exam.id === 'ibps-po'
     ? 'Prepare for IBPS PO 2026 with free mock tests, sectional tests, topic-wise questions, current affairs, and study material. Full syllabus, exam pattern, cut-offs & 90-day strategy.'
@@ -68,6 +68,7 @@ export default async function ExamPage({ params }: PageProps) {
           { name: exam.shortName, href: `/${examId}` },
         ]}
       />
+      <AuthorPersonSchema />
       <CourseSchema
         name={exam.name}
         description={exam.description}

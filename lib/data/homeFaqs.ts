@@ -10,7 +10,7 @@ export const HOME_FAQS: HomeFAQ[] = [
   {
     id: "hfaq-1",
     question: "Which bank PO salary is highest?",
-    answer: "The State Bank of India (SBI) PO salary is the highest among all public sector banks in India. An SBI PO starts with 4 advance increments, making the starting basic pay ₹41,960. Including allowances like HRA, DA, petrol, and medical reimbursements, the total monthly gross salary ranges between ₹65,000 and ₹70,000."
+    answer: "The State Bank of India (SBI) PO salary is the highest among all public sector banks in India. An SBI PO starts with 4 advance increments, making the starting basic pay ₹48,480. Including allowances like HRA, DA, petrol, and medical reimbursements, the total monthly gross salary ranges between ₹80,000 and ₹85,000."
   },
   {
     id: "hfaq-2",
@@ -30,7 +30,7 @@ export const HOME_FAQS: HomeFAQ[] = [
   {
     id: "hfaq-5",
     question: "Is IBPS PO and SBI PO salary the same?",
-    answer: "No, they are not the same. SBI PO salary is higher than IBPS PO salary. SBI offers 4 advance increments at the start of service, meaning the starting basic pay of an SBI PO is ₹41,960, whereas an IBPS PO starts with a basic pay of ₹36,000. Additionally, SBI provides superior lease accommodation allowances and other perks."
+    answer: "No, they are not the same. SBI PO salary is higher than IBPS PO salary. SBI offers 4 advance increments at the start of service, meaning the starting basic pay of an SBI PO is ₹48,480, whereas an IBPS PO starts with a basic pay of ₹36,000. Additionally, SBI provides superior lease accommodation allowances and other perks."
   },
   {
     id: "hfaq-6",
@@ -60,7 +60,7 @@ export const HOME_FAQS: HomeFAQ[] = [
   {
     id: "hfaq-11",
     question: "Which salary is highest, IBPS PO or SBI PO?",
-    answer: "SBI PO has a higher salary. The starting basic pay for SBI PO is ₹41,960 due to four advance increments, whereas for IBPS PO, it is ₹36,000. The gross monthly difference is around ₹7,000 - ₹10,000 in favor of SBI PO."
+    answer: "SBI PO has a higher salary. The starting basic pay for SBI PO is ₹48,480 due to four advance increments, whereas for IBPS PO, it is ₹36,000. The gross monthly difference is around ₹15,000 - ₹20,000 in favor of SBI PO."
   },
   {
     id: "hfaq-12",

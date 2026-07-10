@@ -5,32 +5,50 @@ import { Check, ClipboardList, BookOpen, Layers } from 'lucide-react';
 
 interface QuizStepTrackerProps {
   currentStep: 'exam-select' | 'topic-select' | 'live-test' | 'results';
+  hideExamSelect?: boolean;
 }
 
-export default function QuizStepTracker({ currentStep }: QuizStepTrackerProps) {
-  const steps = [
-    {
-      id: 1,
-      label: 'Exam Type',
-      icon: Layers,
-      isActive: currentStep === 'exam-select',
-      isCompleted: currentStep === 'topic-select' || currentStep === 'live-test' || currentStep === 'results',
-    },
-    {
-      id: 2,
-      label: 'Topic Selection',
-      icon: BookOpen,
-      isActive: currentStep === 'topic-select',
-      isCompleted: currentStep === 'live-test' || currentStep === 'results',
-    },
-    {
-      id: 3,
-      label: currentStep === 'results' ? 'Completed' : 'Practice Test',
-      icon: ClipboardList,
-      isActive: currentStep === 'live-test',
-      isCompleted: currentStep === 'results',
-    },
-  ];
+export default function QuizStepTracker({ currentStep, hideExamSelect }: QuizStepTrackerProps) {
+  const steps = hideExamSelect
+    ? [
+        {
+          id: 1,
+          label: 'Topic Selection',
+          icon: BookOpen,
+          isActive: currentStep === 'topic-select',
+          isCompleted: currentStep === 'live-test' || currentStep === 'results',
+        },
+        {
+          id: 2,
+          label: currentStep === 'results' ? 'Completed' : 'Practice Test',
+          icon: ClipboardList,
+          isActive: currentStep === 'live-test',
+          isCompleted: currentStep === 'results',
+        },
+      ]
+    : [
+        {
+          id: 1,
+          label: 'Exam Type',
+          icon: Layers,
+          isActive: currentStep === 'exam-select',
+          isCompleted: currentStep === 'topic-select' || currentStep === 'live-test' || currentStep === 'results',
+        },
+        {
+          id: 2,
+          label: 'Topic Selection',
+          icon: BookOpen,
+          isActive: currentStep === 'topic-select',
+          isCompleted: currentStep === 'live-test' || currentStep === 'results',
+        },
+        {
+          id: 3,
+          label: currentStep === 'results' ? 'Completed' : 'Practice Test',
+          icon: ClipboardList,
+          isActive: currentStep === 'live-test',
+          isCompleted: currentStep === 'results',
+        },
+      ];
 
   return (
     <div className="w-full max-w-2xl mx-auto mb-10 px-4">
@@ -43,11 +61,13 @@ export default function QuizStepTracker({ currentStep }: QuizStepTrackerProps) {
         <div 
           className="absolute left-0 top-1/2 -translate-y-1/2 h-[3px] bg-gradient-to-r from-emerald-500 to-[var(--color-blue)] -z-10 rounded-full transition-all duration-500 ease-in-out" 
           style={{
-            width: currentStep === 'exam-select' 
-              ? '0%' 
-              : currentStep === 'topic-select' 
-                ? '50%' 
-                : '100%'
+            width: hideExamSelect
+              ? (currentStep === 'topic-select' ? '0%' : '100%')
+              : (currentStep === 'exam-select' 
+                ? '0%' 
+                : currentStep === 'topic-select' 
+                  ? '50%' 
+                  : '100%')
           }}
         />
 

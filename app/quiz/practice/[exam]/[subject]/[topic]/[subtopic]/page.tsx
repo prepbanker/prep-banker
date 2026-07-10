@@ -65,6 +65,8 @@ export default function PracticeTestPage() {
   const topic = params?.topic as string;
   const subtopic = params?.subtopic as string;
 
+  const backUrl = exam === 'sbi-po' ? '/sbi-po-quiz' : exam === 'ibps-po' ? '/ibps-po-quiz' : '/quiz';
+
   const [mcqData, setMcqData] = useState<MCQSet | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -753,14 +755,14 @@ export default function PracticeTestPage() {
                   <span>Retry this Test</span>
                 </button>
                 <Link
-                  href="/sbi-po-ibps-po-quiz"
+                  href={backUrl}
                   className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-black text-slate-550 hover:text-[var(--color-navy)] bg-white border border-slate-205 transition-colors no-underline"
                 >
                   <span>Next Subtopic</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
                 <Link
-                  href="/sbi-po-ibps-po-quiz"
+                  href={backUrl}
                   className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-black text-slate-550 hover:text-[var(--color-navy)] bg-white border border-slate-205 transition-colors no-underline"
                 >
                   <span>Back to Topics</span>
@@ -967,7 +969,7 @@ export default function PracticeTestPage() {
                 
                 <div className="flex items-center gap-3">
                   <Link 
-                    href="/sbi-po-ibps-po-quiz" 
+                    href={backUrl} 
                     className="p-2 hover:bg-slate-50 border border-slate-200 rounded-xl text-slate-500 hover:text-[var(--color-navy)] transition-colors shrink-0"
                   >
                     <ArrowLeft className="w-4 h-4" />

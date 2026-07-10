@@ -9,31 +9,31 @@ export const sbiPoData: ExamDetailData = {
   tag: 'Official Notification Released',
   tagColor: '#16A34A',
   description:
-    "SBI PO (Probationary Officer) is the most prestigious banking job in India, conducted annually by State Bank of India. With 2,000+ vacancies, a starting CTC of ₹8–12 LPA, and unmatched career growth, cracking SBI PO can change your life. BankerPrep gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
+    "SBI PO (Probationary Officer) is the most prestigious banking job in India, conducted annually by State Bank of India. With 1,500 vacancies, a starting CTC of ₹21.97 LPA (Mumbai centre), and unmatched career growth, cracking SBI PO can change your life. PrepBanker gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
   fullDescription:
-    "SBI PO (Probationary Officer) is the most prestigious banking job in India, conducted annually by State Bank of India. With 2,000+ vacancies, a starting CTC of ₹8–12 LPA, and unmatched career growth, cracking SBI PO can change your life. BankerPrep gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
+    "SBI PO (Probationary Officer) is the most prestigious banking job in India, conducted annually by State Bank of India. With 1,500 vacancies, a starting CTC of ₹21.97 LPA (Mumbai centre), and unmatched career growth, cracking SBI PO can change your life. PrepBanker gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
   color: '#1B6EB5',
   accentColor: '#D4A017',
   overview:
     "SBI PO is one of India's most prestigious banking exams. As a Probationary Officer you'll be groomed for managerial roles in State Bank of India — the country's largest bank with 22,000+ branches nationwide.",
-  tags: ['2,000+ Vacancies', '₹63,000/mo Salary', '~30 L Competitors', '0.06% Selection'],
+  tags: ['1,500 Vacancies', 'Starting Basic ₹48,480', '12.14 Lakh Applicants', '0.12% Selection'],
   summaryCards: [
-    { iconKey: 'Users', label: 'Expected Vacancies', value: '2,000+' },
-    { iconKey: 'DollarSign', label: 'Starting Salary', value: '₹63,000/month' },
-    { iconKey: 'Award', label: 'Total Competitors', value: '~30 Lakh' },
-    { iconKey: 'TrendingUp', label: 'Selection Rate', value: '0.06%' },
+    { iconKey: 'Users', label: 'Total Vacancies', value: '1,500' },
+    { iconKey: 'DollarSign', label: 'Starting Basic Pay', value: '₹48,480/month' },
+    { iconKey: 'Award', label: 'Total Applicants', value: '12.14 Lakh' },
+    { iconKey: 'TrendingUp', label: 'Selection Rate', value: '0.12%' },
   ],
   dates: [
-    { event: 'Official Notification Release', date: 'April 2026', status: 'upcoming' },
-    { event: 'Online Application Opens', date: 'April 2026', status: 'upcoming' },
-    { event: 'Application Deadline', date: 'May 2026', status: 'upcoming' },
-    { event: 'Application Fee Payment Last Date', date: 'May 2026', status: 'upcoming' },
-    { event: 'Prelims Admit Card Download', date: 'May–June 2026', status: 'upcoming' },
-    { event: 'SBI PO Prelims Exam', date: 'June 2026', status: 'upcoming' },
-    { event: 'Prelims Result Declaration', date: 'July 2026', status: 'upcoming' },
-    { event: 'Mains Admit Card Download', date: 'July 2026', status: 'upcoming' },
-    { event: 'SBI PO Mains Exam', date: 'August 2026', status: 'upcoming' },
-    { event: 'Mains Result Declaration', date: 'September 2026', status: 'upcoming' },
+    { event: 'Official Notification Release', date: '18 June 2026', status: 'closed' },
+    { event: 'Online Application Opens', date: '18 June 2026', status: 'closed' },
+    { event: 'Application Deadline', date: '8 July 2026', status: 'closed' },
+    { event: 'Application Fee Payment Last Date', date: '8 July 2026', status: 'closed' },
+    { event: 'Prelims Admit Card Download', date: 'August 2026', status: 'upcoming' },
+    { event: 'SBI PO Prelims Exam', date: 'August 2026 (Tentative)', status: 'upcoming' },
+    { event: 'Prelims Result Declaration', date: 'September 2026', status: 'upcoming' },
+    { event: 'Mains Admit Card Download', date: 'September 2026', status: 'upcoming' },
+    { event: 'SBI PO Mains Exam', date: 'September 2026 (Tentative)', status: 'upcoming' },
+    { event: 'Mains Result Declaration', date: 'October 2026', status: 'upcoming' },
     { event: 'Group Exercise & Interview', date: 'October–November 2026', status: 'upcoming' },
     { event: 'Final Result & Merit List', date: 'November–December 2026', status: 'upcoming' },
   ],
@@ -184,14 +184,14 @@ export const sbiPoData: ExamDetailData = {
   ],
   eligibility: {
     education: 'A graduate degree in any discipline from a recognised university or equivalent qualification recognised by the Central Government is required. Final year students who expect to complete graduation before the joining date are also eligible to apply.',
-    age: '21 to 30 years as of 1st April 2026 (relaxation for reserved categories as per govt norms)',
+    age: '21 to 30 years as of the cut-off date (relaxation for reserved categories as per govt norms)',
     nationality: 'Indian Citizen / Subjects of Nepal / Bhutan / Tibetan refugees as per standard rules',
     attempts: 'General/EWS: 4; OBC: 7; SC/ST/PwBD: Unlimited (within age limit)',
   },
   salary: {
-    basic: '₹41,960/month',
-    gross: '₹73,000/month (starting gross)',
-    ctc: '₹8 – 12 LPA',
+    basic: '₹48,480/month',
+    gross: '₹80,000/month (starting gross)',
+    ctc: '₹21.97 LPA (Mumbai centre)',
     allowances: [
       'Dearness Allowance (DA) — ~₹19,300',
       'House Rent Allowance (Metro) — ~₹6,300',
@@ -220,7 +220,7 @@ export const sbiPoData: ExamDetailData = {
         'Reasoning: Complete puzzles, seating arrangements, syllogisms, inequalities, coding-decoding',
         'Quant: Cover all arithmetic topics — percentage, profit & loss, SI/CI, time & work, speed & distance, ratio & proportion',
         'English: Build vocabulary with 10 new words daily; practice RC passages every day',
-        'Current Affairs: Start reading BankerPrep\'s daily CA; cover last 3 months of banking news',
+        'Current Affairs: Start reading PrepBanker\'s daily CA; cover last 3 months of banking news',
         'Target: 2 sectional tests per topic per week; review every answer',
       ],
     },
@@ -270,19 +270,19 @@ export const sbiPoData: ExamDetailData = {
   examFaqs: [
     {
       q: 'What is the SBI PO exam date 2026?',
-      a: 'SBI PO Prelims 2026 is expected in June 2026, with the Mains exam in August 2026. The official notification will be released in April 2026 on sbi.co.in. BankerPrep will update exact dates as soon as the notification is live.',
+      a: 'SBI PO Prelims 2026 is expected in August 2026, with the Mains exam in September 2026. The official notification was released on 18 June 2026. PrepBanker will update exact dates as soon as the official announcement is live.',
     },
     {
       q: 'How many vacancies are there in SBI PO 2026?',
-      a: 'SBI PO 2026 is expected to have approximately 2,000 vacancies across India. The exact vacancy count will be confirmed in the official notification.',
+      a: 'SBI PO 2026 has 1,500 vacancies (1,446 regular + 54 backlog) across India, which was announced in the official notification.',
     },
     {
       q: 'What is the SBI PO syllabus 2026?',
       a: 'SBI PO Prelims covers English Language (30Q), Quantitative Aptitude (35Q), and Reasoning Ability (35Q). Mains covers Reasoning & Computer Aptitude, Data Analysis & Interpretation, General/Economy/Banking Awareness, English Language (objective), and a Descriptive test — Essay and Letter Writing.',
     },
     {
-      q: 'How many free mock tests does BankerPrep provide for SBI PO?',
-      a: 'BankerPrep provides 5 free full-length SBI PO Prelims mock tests, 3 free Mains mocks, and 2 free Previous Year Paper simulations. Sectional tests and topic-wise practice questions also have free access tiers.',
+      q: 'How many free mock tests does PrepBanker provide for SBI PO?',
+      a: 'PrepBanker provides 5 free full-length SBI PO Prelims mock tests, 3 free Mains mocks, and 2 free Previous Year Paper simulations. Sectional tests and topic-wise practice questions also have free access tiers.',
     },
     {
       q: 'What is the SBI PO cut-off for General category?',
@@ -290,11 +290,11 @@ export const sbiPoData: ExamDetailData = {
     },
     {
       q: 'What is the in-hand salary of SBI PO in 2026?',
-      a: 'SBI PO starting in-hand salary is approximately ₹63,000 per month. Depending on the posting location and HRA slab, the starting gross salary is around ₹73,000 per month in metro cities. The annual starting CTC ranges between ₹8–12 LPA, depending on the perks and allowances availed.',
+      a: 'SBI PO starting basic pay is ₹48,480 per month. Depending on the posting location and HRA slab, the starting gross salary is around ₹80,000 per month in metro cities. The annual starting CTC is ₹21.97 LPA (Mumbai centre), which includes all perks, allowances, and benefits.',
     },
     {
       q: 'How to prepare for SBI PO in 3 months?',
-      a: 'Spend Month 1 on concept-building with sectional tests. Month 2 on full mock tests with detailed analysis — 2 mocks per week minimum. Month 3 on speed, accuracy, and Mains-specific topics. Use BankerPrep\'s 90-day study plan and take at least 20 full mocks before the real exam.',
+      a: 'Spend Month 1 on concept-building with sectional tests. Month 2 on full mock tests with detailed analysis — 2 mocks per week minimum. Month 3 on speed, accuracy, and Mains-specific topics. Use PrepBanker\'s 90-day study plan and take at least 20 full mocks before the real exam.',
     },
     {
       q: 'Is there sectional cut-off in SBI PO Prelims?',
@@ -302,7 +302,7 @@ export const sbiPoData: ExamDetailData = {
     },
     {
       q: 'Can I prepare for SBI PO without coaching?',
-      a: 'Yes. Thousands of SBI PO selections happen every year without formal coaching. A structured self-study plan with quality mock tests, sectional practice, and daily current affairs is sufficient. BankerPrep is specifically designed to replace coaching for self-study aspirants.',
+      a: 'Yes. Thousands of SBI PO selections happen every year without formal coaching. A structured self-study plan with quality mock tests, sectional practice, and daily current affairs is sufficient. PrepBanker is specifically designed to replace coaching for self-study aspirants.',
     },
     {
       q: 'What is the difference between SBI PO and SBI Clerk?',

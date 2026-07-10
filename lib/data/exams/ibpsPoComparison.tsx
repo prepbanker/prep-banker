@@ -109,7 +109,7 @@ export const ibpsPoComparisonContent: DetailSectionContent = {
                 "name": "Is SBI PO salary better than IBPS PO salary?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "SBI PO has a higher starting salary. SBI PO (Junior Management Grade Scale I) starts at approximately ₹41,960 basic pay with a CTC of around ₹8.2–8.9 lakh per annum. IBPS PO (Scale I Officer) starts at approximately ₹36,000 basic pay with a CTC of around ₹7.5–8.2 lakh per annum, varying by bank."
+                  "text": "SBI PO has a higher starting salary. SBI PO (Junior Management Grade Scale I) starts at approximately ₹48,480 basic pay with a CTC of ₹21.97 lakh per annum (Mumbai centre). IBPS PO (Scale I Officer) starts at approximately ₹36,000 basic pay with a CTC of around ₹7.5–8.2 lakh per annum, varying by bank."
                 }
               },
               {
@@ -501,7 +501,7 @@ export const ibpsPoComparisonContent: DetailSectionContent = {
                   <tr>
                     <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay</td>
                     <td className="px-4 py-3">~₹36,000/month</td>
-                    <td className="px-4 py-3">~₹41,960/month</td>
+                    <td className="px-4 py-3">~₹48,480/month</td>
                   </tr>
                   <tr className="bg-slate-50/50">
                     <td className="px-4 py-3 font-semibold text-slate-800">DA (Dearness Allowance)</td>
@@ -702,7 +702,7 @@ export const ibpsPoComparisonContent: DetailSectionContent = {
     },
     {
       q: "Is SBI PO salary higher than IBPS PO?",
-      a: "Yes. SBI PO starts at approximately ₹41,960 basic pay with a gross monthly in-hand of ₹60,000–70,000 and a CTC of roughly ₹8.2–8.9 LPA. IBPS PO starts at approximately ₹36,000 basic pay with a gross of ₹52,000–62,000 and a CTC of ₹7.5–8.2 LPA. The gap is approximately ₹8,000–12,000 per month in favor of SBI PO, and it widens with promotions."
+      a: "Yes. SBI PO starts at approximately ₹48,480 basic pay with a gross monthly in-hand of ₹71,000–75,000 and a CTC of ₹21.97 lakh. IBPS PO starts at approximately ₹36,000 basic pay with a gross of ₹52,000–62,000 and a CTC of ₹7.5–8.2 LPA. The gap is significant, and it widens with promotions."
     },
     {
       q: "Can I prepare for IBPS PO and SBI PO at the same time?",

@@ -60,7 +60,7 @@ export const BLOGS: Blog[] = [
       'Everything you need to crack SBI PO 2026 — from syllabus breakdown and exam pattern to a day-by-day 90-day study plan curated by toppers.',
     content: `
       <h2>Why SBI PO is the Most Coveted Banking Exam</h2>
-      <p>SBI PO offers a starting salary of ₹41,960/month with perks exceeding ₹8 LPA, posting in any of SBI's 22,000+ branches, and a fast-track career to AGM/DGM roles. The exam is conducted by State Bank of India and attracts 20–25 lakh applicants annually for ~2,000 vacancies.</p>
+      <p>SBI PO offers a starting salary of ₹48,480/month with a gross annual CTC of ₹21.97 lakh, posting in any of SBI's 22,000+ branches, and a fast-track career to AGM/DGM roles. The exam is conducted by State Bank of India and attracts over 12 lakh applicants annually for 1,500 vacancies.</p>
 
       <h2>SBI PO 2026 Exam Pattern</h2>
       <p>The selection process consists of three stages:</p>

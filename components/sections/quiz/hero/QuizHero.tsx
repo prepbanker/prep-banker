@@ -7,9 +7,12 @@ import type { QuizPlatformStats } from '@/types/quiz';
 interface Props {
   stats: QuizPlatformStats;
   totalTests: number;
+  title?: React.ReactNode;
+  description?: string;
+  examName?: string;
 }
 
-export default function QuizHero({ stats, totalTests }: Props) {
+export default function QuizHero({ stats, totalTests, title, description, examName = 'SBI PO, IBPS PO' }: Props) {
   return (
     <section className="relative overflow-hidden bg-[var(--color-navy-deep)]">
 
@@ -41,7 +44,7 @@ export default function QuizHero({ stats, totalTests }: Props) {
           <Breadcrumb
             items={[
               { label: 'Home', href: '/' },
-              { label: 'Quiz Practice ' },
+              { label: examName === 'SBI PO, IBPS PO' ? 'Quiz Practice' : `${examName} Quiz` },
             ]}
           />
         </div>
@@ -56,7 +59,7 @@ export default function QuizHero({ stats, totalTests }: Props) {
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--color-gold)]/10 border border-[var(--color-gold)]/25 mb-4">
               <Star className="w-3.5 h-3.5 text-[var(--color-gold-bright)]" fill="currentColor" />
               <span className="text-[14px] font-bold text-[var(--color-gold-bright)] uppercase tracking-widest">
-                {stats.avgRating} Rated · India&apos;s #1 Banking Quiz Platform
+                {stats.avgRating} Rated · India&apos;s #1 {examName} Quiz Platform
               </span> 
             </div>
 
@@ -68,16 +71,19 @@ export default function QuizHero({ stats, totalTests }: Props) {
                 fontSize: 'clamp(1.85rem, 5vw, 3rem)',
               }}
             >
-              Practice Quizzes for{' '}
-              <span className="text-gold-gradient">SBI PO, IBPS PO</span>
+              {title || (
+                <>
+                  Practice Quizzes for{' '}
+                  <span className="text-gold-gradient">SBI PO, IBPS PO</span>
+                </>
+              )}
             </h1>
 
             <p
               className="mt-3 max-w-lg text-sm leading-relaxed"
               style={{ color: 'rgba(255,255,255,0.6)' }}
             >
-              Attempt {totalTests}+ mock tests, sectional drills, and topic-wise quizzes
-              crafted for SBI PO &amp; IBPS PO 2026. Real exam feel. Instant analytics.
+              {description || `Attempt ${totalTests}+ mock tests, sectional drills, and topic-wise quizzes crafted for SBI PO & IBPS PO 2026. Real exam feel. Instant analytics.`}
             </p>
 
             {/* CTAs */}

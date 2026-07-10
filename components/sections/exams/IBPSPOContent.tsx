@@ -701,7 +701,7 @@ export default function IBPSPOContent() {
               IBPS PO Mock Tests 2026 — Free & Premium Full-Length Practice Tests
             </h2>
             <p className="text-slate-500 text-xs leading-relaxed">
-              BankerPrep's IBPS PO mock tests mirror the exact 2026 exam pattern — section timings, difficulty distribution, and negative marking all replicated precisely.
+              PrepBanker's IBPS PO mock tests mirror the exact 2026 exam pattern — section timings, difficulty distribution, and negative marking all replicated precisely.
             </p>
 
             <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-sm">
@@ -1291,8 +1291,8 @@ export default function IBPSPOContent() {
                 <tbody className="divide-y divide-slate-100 text-slate-600">
                   <tr>
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Vacancies</td>
-                    <td className="px-4 py-2.5 text-slate-800">~3,500</td>
-                    <td className="px-4 py-2.5 text-slate-850 font-medium">~2,000</td>
+                    <td className="px-4 py-2.5 text-slate-800">~3,500–4,500</td>
+                    <td className="px-4 py-2.5 text-slate-850 font-medium">1,500</td>
                   </tr>
                   <tr className="bg-slate-50/50">
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Banks Covered</td>
@@ -1302,12 +1302,12 @@ export default function IBPSPOContent() {
                   <tr>
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Starting Basic Pay</td>
                     <td className="px-4 py-2.5 text-slate-800">₹36,000/month</td>
-                    <td className="px-4 py-2.5 text-blue-750 font-bold">₹41,960/month</td>
+                    <td className="px-4 py-2.5 text-blue-750 font-bold">₹48,480/month</td>
                   </tr>
                   <tr className="bg-slate-50/50">
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Gross Salary</td>
                     <td className="px-4 py-2.5 text-slate-800">₹52,000–₹65,000/month</td>
-                    <td className="px-4 py-2.5 text-blue-750 font-bold">₹63,000–₹95,000/month</td>
+                    <td className="px-4 py-2.5 text-blue-750 font-bold">₹71,000–₹84,600/month</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Selection Stages</td>
@@ -1316,8 +1316,8 @@ export default function IBPSPOContent() {
                   </tr>
                   <tr className="bg-slate-50/50">
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Competition</td>
-                    <td className="px-4 py-2.5 text-slate-800">~25 lakh candidates</td>
-                    <td className="px-4 py-2.5 text-slate-850 font-medium">~30 lakh candidates</td>
+                    <td className="px-4 py-2.5 text-slate-800">~13–15 lakh candidates</td>
+                    <td className="px-4 py-2.5 text-slate-850 font-medium">~12.14 lakh candidates</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2.5 font-semibold text-slate-700">Prelims Month</td>

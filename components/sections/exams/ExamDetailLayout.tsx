@@ -12,6 +12,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import ExamHero from './ExamHero';
 import QuickNavigation from './QuickNavigation';
+import ExamAuthorSection from './ExamAuthorSection';
 import { getExamData, getDetailedSectionContent } from '@/lib/data/exams/detailContentMap';
 import './exam.css';
 
@@ -163,6 +164,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
                 </div>
               </section>
             )}
+            <ExamAuthorSection examId={examId} />
           </main>
 
           {/* Right Sidebar - Reusable Quick Navigation & CTA Banners */}

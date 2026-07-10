@@ -33,6 +33,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumb from '@/components/shared/Breadcrumb';
 import QuickNavigation from './QuickNavigation';
+import ExamAuthorSection from './ExamAuthorSection';
 import './exam.css';
 
 interface Props {
@@ -243,7 +244,7 @@ export default function ExamMainLayout({ exam }: Props) {
       { label: 'Previous Year Cut-offs', id: 'cut-offs' },
       { label: 'Salary & Career Growth', id: 'salary-career' },
       { label: 'Selection Process Deep Dive', id: 'selection-process' },
-      { label: 'Why Prepare on BankerPrep?', id: 'platform-features' },
+      { label: 'Why Prepare on PrepBanker?', id: 'platform-features' },
       { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
     ]
     : [
@@ -531,13 +532,13 @@ export default function ExamMainLayout({ exam }: Props) {
                 {[
                   { label: 'Full Name', value: 'State Bank of India Probationary Officer' },
                   { label: 'Conducting Body', value: 'State Bank of India (SBI)' },
-                  { label: 'Notification', value: 'April 2026' },
-                  { label: 'Total Vacancies', value: '2,000+ (Expected)' },
+                  { label: 'Notification', value: '18 June 2026 (Released)' },
+                  { label: 'Total Vacancies', value: '1,500 (1,446 regular + 54 backlog)' },
                   { label: 'Application Mode', value: 'Online — sbi.co.in' },
                   { label: 'Exam Mode', value: 'Computer Based Test (CBT)' },
                   { label: 'Selection Stages', value: 'Prelims → Mains → GE → Interview' },
-                  { label: 'Basic Pay', value: '₹41,960/month' },
-                  { label: 'Gross Salary', value: '₹63,000 – ₹95,000/month' },
+                  { label: 'Basic Pay', value: '₹48,480/month' },
+                  { label: 'Gross Salary', value: '₹71,000 – ₹84,600/month' },
                   { label: 'Job Location', value: 'Pan India' },
                   { label: 'Official Website', value: 'sbi.co.in', isLink: true, href: 'https://sbi.co.in' },
                 ].map((item) => (
@@ -607,7 +608,7 @@ export default function ExamMainLayout({ exam }: Props) {
                   })}
                 </div>
                 <p className="text-sm text-slate-500 italic mt-2">
-                  "These dates are indicative based on the SBI PO 2025 cycle. Official dates will be confirmed at sbi.co.in upon notification release. BankerPrep will update this page immediately."
+                  "These dates are indicative based on the SBI PO 2025 cycle. Official dates will be confirmed at sbi.co.in upon notification release. PrepBanker will update this page immediately."
                 </p>
               </div>
             ) : (
@@ -1034,7 +1035,7 @@ export default function ExamMainLayout({ exam }: Props) {
             </div>
             <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5">
               {isSbi
-                ? "BankerPrep's SBI PO mock tests are designed by banking exam experts and follow the exact 2026 exam pattern. Each mock test covers all three sections — English, Quant, and Reasoning for Prelims, and all four sections for Mains — with timed conditions, negative marking, and instant performance analytics. Whether you are just starting out or looking to push your score past the cut-off, our SBI PO practice tests give you real exam experience from day one."
+                ? "PrepBanker's SBI PO mock tests are designed by banking exam experts and follow the exact 2026 exam pattern. Each mock test covers all three sections — English, Quant, and Reasoning for Prelims, and all four sections for Mains — with timed conditions, negative marking, and instant performance analytics. Whether you are just starting out or looking to push your score past the cut-off, our SBI PO practice tests give you real exam experience from day one."
                 : `PrepBanker provides detailed full length mock tests matching current difficulty trends for ${exam.shortName}.`}
             </p>
 
@@ -1090,7 +1091,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div className="space-y-3">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Why Practise with BankerPrep's SBI PO Mock Tests?</h4>
+                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Why Practise with PrepBanker's SBI PO Mock Tests?</h4>
                   <ul className="list-disc list-inside text-slate-650 text-xs sm:text-sm pl-2 space-y-2 font-normal">
                     <li>Exact replica of SBI's CBT interface so you are never surprised on exam day</li>
                     <li>Real-time countdown timers with section-switching disabled, just like the actual exam</li>
@@ -1150,7 +1151,7 @@ export default function ExamMainLayout({ exam }: Props) {
             </h2>
             <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5">
               {isSbi
-                ? "Sectional tests help you master each subject individually before attempting full mocks. BankerPrep's SBI PO sectional tests are topic-focused, timed, and scored — giving you a precise understanding of where you stand in each subject. Since SBI PO Prelims has separate 20-minute timers for each section, dedicated sectional practice is not optional — it is essential."
+                ? "Sectional tests help you master each subject individually before attempting full mocks. PrepBanker's SBI PO sectional tests are topic-focused, timed, and scored — giving you a precise understanding of where you stand in each subject. Since SBI PO Prelims has separate 20-minute timers for each section, dedicated sectional practice is not optional — it is essential."
                 : "Master each subject individually with our topic-focused tests."}
             </p>
 
@@ -1344,7 +1345,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 SBI PO Topic-Wise Practice Questions — 10,000+ Questions Bank
               </h2>
               <p className="text-slate-660 text-sm sm:text-[15px] leading-relaxed mb-5 font-normal">
-                BankerPrep's SBI PO question bank has 10,000+ practice questions across all topics, sorted by difficulty — Easy, Medium, and Hard. Each question comes with a detailed explanation and shortcut method. Practising topic-wise before attempting full mocks is the fastest way to improve accuracy and speed.
+                PrepBanker's SBI PO question bank has 10,000+ practice questions across all topics, sorted by difficulty — Easy, Medium, and Hard. Each question comes with a detailed explanation and shortcut method. Practising topic-wise before attempting full mocks is the fastest way to improve accuracy and speed.
               </p>
 
               <div className="space-y-6">
@@ -1515,7 +1516,7 @@ export default function ExamMainLayout({ exam }: Props) {
             </h2>
             <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5 font-normal">
               {isSbi
-                ? "The General/Economy/Banking Awareness section in SBI PO Mains carries 40 marks and is often the difference-maker between selection and rejection — since most candidates score similarly in Reasoning and Quant. BankerPrep publishes daily current affairs curated specifically for banking exams, so you never waste time on irrelevant news."
+                ? "The General/Economy/Banking Awareness section in SBI PO Mains carries 40 marks and is often the difference-maker between selection and rejection — since most candidates score similarly in Reasoning and Quant. PrepBanker publishes daily current affairs curated specifically for banking exams, so you never waste time on irrelevant news."
                 : "Get updated daily with specialized digests summarizing the latest notifications."}
             </p>
 
@@ -1564,7 +1565,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div className="space-y-3">
-                  <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">How BankerPrep Helps</h4>
+                  <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">How PrepBanker Helps</h4>
                   <ul className="list-disc list-inside text-slate-650 text-xs sm:text-sm pl-2 space-y-2 font-normal">
                     <li>Daily current affairs capsules tagged for banking exams — read in under 10 minutes</li>
                     <li>Monthly PDF compilations for quick revision before exams</li>
@@ -1909,27 +1910,27 @@ export default function ExamMainLayout({ exam }: Props) {
                         <tbody className="divide-y divide-slate-100 text-slate-650">
                           <tr>
                             <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay (Scale I)</td>
-                            <td className="px-4 py-3">₹41,960</td>
+                            <td className="px-4 py-3">₹48,480</td>
                           </tr>
                           <tr className="bg-slate-50/50">
                             <td className="px-4 py-3 font-semibold text-slate-800">Dearness Allowance (DA)</td>
-                            <td className="px-4 py-3">~₹17,200</td>
+                            <td className="px-4 py-3">~₹22,300</td>
                           </tr>
                           <tr>
                             <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Metro</td>
-                            <td className="px-4 py-3">₹9,030</td>
+                            <td className="px-4 py-3">₹7,272</td>
                           </tr>
                           <tr className="bg-slate-50/50">
                             <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Urban</td>
-                            <td className="px-4 py-3">₹6,300</td>
+                            <td className="px-4 py-3">₹5,818</td>
                           </tr>
                           <tr>
                             <td className="px-4 py-3 font-semibold text-slate-800">House Rent Allowance — Semi-urban</td>
-                            <td className="px-4 py-3">₹4,500</td>
+                            <td className="px-4 py-3">₹4,363</td>
                           </tr>
                           <tr className="bg-slate-50/50">
                             <td className="px-4 py-3 font-semibold text-slate-800">Special Allowance</td>
-                            <td className="px-4 py-3">₹5,500</td>
+                            <td className="px-4 py-3">₹5,200</td>
                           </tr>
                           <tr>
                             <td className="px-4 py-3 font-semibold text-slate-800">Transport Allowance</td>
@@ -1937,15 +1938,15 @@ export default function ExamMainLayout({ exam }: Props) {
                           </tr>
                           <tr className="bg-slate-50/50 font-bold text-slate-900">
                             <td className="px-4 py-3">Gross Monthly (Metro)</td>
-                            <td className="px-4 py-3">~₹82,000 – ₹95,000</td>
+                            <td className="px-4 py-3">~₹84,600</td>
                           </tr>
                           <tr className="font-bold text-slate-900">
                             <td className="px-4 py-3">Gross Monthly (Non-metro)</td>
-                            <td className="px-4 py-3">~₹63,000 – ₹72,000</td>
+                            <td className="px-4 py-3">~₹71,000 – ₹80,000</td>
                           </tr>
                           <tr className="bg-slate-50/50 font-bold text-slate-900">
                             <td className="px-4 py-3">Annual CTC (approx.)</td>
-                            <td className="px-4 py-3">₹10 – 12 LPA</td>
+                            <td className="px-4 py-3">₹21.97 Lakh</td>
                           </tr>
                         </tbody>
                       </table>
@@ -2168,12 +2169,12 @@ export default function ExamMainLayout({ exam }: Props) {
                     <tr className="bg-slate-50/50 hover:bg-slate-50/50">
                       <td className="px-4 py-3 font-semibold text-slate-800">Vacancies</td>
                       <td className="px-4 py-3">3,500+ (Higher)</td>
-                      <td className="px-4 py-3">2,000+ (Moderate)</td>
+                      <td className="px-4 py-3">1,500 (Moderate)</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50">
                       <td className="px-4 py-3 font-semibold text-slate-800">Base Basic Salary</td>
                       <td className="px-4 py-3">₹36,000/month</td>
-                      <td className="px-4 py-3">₹41,960/month (Higher)</td>
+                      <td className="px-4 py-3">₹48,480/month (Higher)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -2185,7 +2186,7 @@ export default function ExamMainLayout({ exam }: Props) {
           {isSbi && (
             <section id="platform-features" className="py-6 scroll-mt-20 border-t border-slate-200">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
-                Why Prepare for SBI PO on BankerPrep?
+                Why Prepare for SBI PO on PrepBanker?
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -2263,7 +2264,7 @@ export default function ExamMainLayout({ exam }: Props) {
               </div>
 
               <div className="bg-slate-900 text-white rounded-xl p-5 text-center mt-6">
-                <p className="text-sm font-semibold text-white/80 mb-3">Join 50,000+ aspirants already preparing on BankerPrep.</p>
+                <p className="text-sm font-semibold text-white/80 mb-3">Join 50,000+ aspirants already preparing on PrepBanker.</p>
                 <a
                   href="https://app.prepgrind.com/register"
                   target="_blank"
@@ -2311,6 +2312,7 @@ export default function ExamMainLayout({ exam }: Props) {
               })}
             </div>
           </section>
+          <ExamAuthorSection examId={exam.id} />
         </main>
 
         {/* Right Column: Sticky Sidebar (Quick Navigation & CTA Cards) */}
@@ -2325,7 +2327,7 @@ export default function ExamMainLayout({ exam }: Props) {
               <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
               <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
               <p className="text-white/60 text-xs leading-relaxed mb-4">
-                Join 50k+ banking aspirants practicing with BankerPrep mocks.
+                Join 50k+ banking aspirants practicing with PrepBanker mocks.
               </p>
               <a
                 href="https://app.prepgrind.com/register"

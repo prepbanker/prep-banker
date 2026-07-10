@@ -26,6 +26,7 @@ interface SubjectTopicSelectionProps {
   onSelectSubtopic: (subtopicId: string) => void;
   onBack: () => void;
   onStartTest: () => void;
+  hideBackToExamSelect?: boolean;
 }
 
 type SubjectId = 'reasoning' | 'quant' | 'english';
@@ -56,7 +57,8 @@ export default function SubjectTopicSelection({
   selectedSubtopicId,
   onSelectSubtopic,
   onBack,
-  onStartTest
+  onStartTest,
+  hideBackToExamSelect
 }: SubjectTopicSelectionProps) {
   const [activeSubject, setActiveSubject] = useState<SubjectId>('reasoning');
   const topicsData = examType === 'SBI PO' ? sbiPoTopics : ibpsPoTopics;
@@ -89,17 +91,19 @@ export default function SubjectTopicSelection({
     <div className="w-full max-w-6xl mx-auto py-8 px-4 sm:px-6">
       
       {/* ── STEP PROGRESS BAR ── */}
-      <QuizStepTracker currentStep="topic-select" />
+      <QuizStepTracker currentStep="topic-select" hideExamSelect={hideBackToExamSelect} />
 
       {/* ── HEADER NAVIGATION & BACK ACTION ── */}
       <div className="flex items-center gap-4 mb-8">
-        <button
-          onClick={onBack}
-          className="flex items-center gap-2 px-4 py-2 text-xs font-bold text-slate-500 hover:text-[var(--color-navy)] bg-white border border-slate-200 rounded-xl hover:shadow-xs transition-all cursor-pointer"
-        >
-          <ChevronLeft className="w-4 h-4" />
-          <span>Back to Exam Type</span>
-        </button>
+        {!hideBackToExamSelect && (
+          <button
+            onClick={onBack}
+            className="flex items-center gap-2 px-4 py-2 text-xs font-bold text-slate-500 hover:text-[var(--color-navy)] bg-white border border-slate-200 rounded-xl hover:shadow-xs transition-all cursor-pointer"
+          >
+            <ChevronLeft className="w-4 h-4" />
+            <span>Back to Exam Type</span>
+          </button>
+        )}
         <span className="text-xs font-extrabold text-slate-400">
           Target: <strong className="text-[var(--color-blue)] uppercase font-black">{examType}</strong>
         </span>

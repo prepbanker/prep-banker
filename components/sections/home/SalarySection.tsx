@@ -10,11 +10,11 @@ interface SalaryComponent {
 }
 
 const SBI_SALARY: SalaryComponent[] = [
-  { label: 'Basic Pay', amount: '₹41,960/month' },
-  { label: 'Dearness Allowance (DA)', amount: '~₹17,000/month' },
-  { label: 'House Rent Allowance (HRA)', amount: '₹7,000 – ₹9,000/month' },
-  { label: 'Special Allowance', amount: '~₹5,500/month' },
-  { label: 'Total Gross CTC', amount: '₹63,000 – ₹68,000/month', isTotal: true },
+  { label: 'Basic Pay', amount: '₹48,480/month' },
+  { label: 'Dearness Allowance (DA)', amount: '~₹22,300/month' },
+  { label: 'House Rent Allowance (HRA)', amount: '~₹7,272/month' },
+  { label: 'Special Allowance', amount: '~₹5,200/month' },
+  { label: 'Total Gross CTC', amount: '₹71,000 – ₹75,000/month', isTotal: true },
 ];
 
 const IBPS_SALARY: SalaryComponent[] = [

@@ -246,7 +246,11 @@ export function ArticleSchema({
   description,
   image,
   datePublished,
-  authorName = 'PrepBanker Editorial Board',
+  authorName = 'Yashraj Deshmukh',
+  authorUrl = 'https://prepbanker.com/author/yashraj-deshmukh',
+  authorImage = 'https://prepbanker.com/images/profile/yashraj-deshmukh.jpeg',
+  reviewerName = 'Divya Bhosale',
+  reviewerUrl = 'https://prepbanker.com/author/divya-bhosale',
   publisherName = 'PrepBanker',
   publisherLogoUrl = 'https://prepbanker.com/logo.png',
   url,
@@ -256,6 +260,10 @@ export function ArticleSchema({
   image: string;
   datePublished: string;
   authorName?: string;
+  authorUrl?: string;
+  authorImage?: string;
+  reviewerName?: string;
+  reviewerUrl?: string;
   publisherName?: string;
   publisherLogoUrl?: string;
   url: string;
@@ -270,6 +278,13 @@ export function ArticleSchema({
     author: {
       '@type': 'Person',
       name: authorName,
+      url: authorUrl,
+      image: authorImage,
+    },
+    reviewedBy: {
+      '@type': 'Person',
+      name: reviewerName,
+      url: reviewerUrl,
     },
     publisher: {
       '@type': 'Organization',
@@ -284,6 +299,49 @@ export function ArticleSchema({
       '@id': url,
     },
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+// ── AuthorPersonSchema ───────────────────
+export function AuthorPersonSchema() {
+  const schema = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      '@id': 'https://prepbanker.com/author/yashraj-deshmukh#person',
+      name: 'Yashraj Deshmukh',
+      jobTitle: 'Senior Content Manager – Banking Exams',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'PrepBanker',
+        url: 'https://prepbanker.com'
+      },
+      url: 'https://prepbanker.com/author/yashraj-deshmukh',
+      image: 'https://prepbanker.com/images/profile/yashraj-deshmukh.jpeg',
+      sameAs: [
+        'https://www.linkedin.com/in/yashraj-deshmukh2409'
+      ]
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      '@id': 'https://prepbanker.com/author/divya-bhosale#person',
+      name: 'Divya Bhosale',
+      jobTitle: 'Subject Matter Expert, Quantitative Aptitude',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'PrepBanker',
+        url: 'https://prepbanker.com'
+      },
+      url: 'https://prepbanker.com/author/divya-bhosale'
+    }
+  ];
 
   return (
     <script

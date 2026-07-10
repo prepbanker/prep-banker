@@ -114,7 +114,7 @@ export const sbiPoComparisonContent: DetailSectionContent = {
                 "name": "Which has better salary — SBI PO or IBPS PO?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "SBI PO has a higher starting salary. An SBI PO's basic pay starts at ₹41,960/month (JMG Scale I) with a gross CTC of approximately ₹8–8.5 lakh per annum including allowances. IBPS PO basic pay starts at ₹36,000/month with a gross CTC of approximately ₹6.5–7.5 lakh per annum, varying by bank and posting location."
+                  "text": "SBI PO has a higher starting salary. An SBI PO's basic pay starts at ₹48,480/month (JMG Scale I) with a gross CTC of ₹21.97 lakh per annum (Mumbai centre) including allowances and perks. IBPS PO basic pay starts at ₹36,000/month with a gross CTC of approximately ₹7.5–8.2 lakh per annum, varying by bank and posting location."
                 }
               },
               {
@@ -210,12 +210,12 @@ export const sbiPoComparisonContent: DetailSectionContent = {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-semibold text-slate-800">Expected Vacancies</td>
-                  <td className="px-4 py-3">~600</td>
+                  <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
                   <td className="px-4 py-3">~3,500–4,500</td>
                 </tr>
                 <tr className="bg-slate-50/50">
                   <td className="px-4 py-3 font-semibold text-slate-800">Starting Basic Pay</td>
-                  <td className="px-4 py-3">₹41,960/month</td>
+                  <td className="px-4 py-3">₹48,480/month</td>
                   <td className="px-4 py-3">₹36,000/month</td>
                 </tr>
                 <tr>
@@ -387,7 +387,7 @@ export const sbiPoComparisonContent: DetailSectionContent = {
               <tbody className="divide-y divide-slate-100 text-slate-650">
                 <tr>
                   <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay</td>
-                  <td className="px-4 py-3">₹41,960/month</td>
+                  <td className="px-4 py-3">₹48,480/month</td>
                   <td className="px-4 py-3">₹36,000/month</td>
                 </tr>
                 <tr className="bg-slate-50/50">
@@ -750,7 +750,7 @@ export const sbiPoComparisonContent: DetailSectionContent = {
     },
     {
       q: "Which has better salary — SBI PO or IBPS PO?",
-      a: "SBI PO has a higher starting salary. An SBI PO's basic pay starts at ₹41,960/month (JMG Scale I) with a gross CTC of approximately ₹8–8.5 lakh per annum including allowances. IBPS PO basic pay starts at ₹36,000/month with a gross CTC of approximately ₹6.5–7.5 lakh per annum, varying by bank and posting location."
+      a: "SBI PO has a higher starting salary. An SBI PO's basic pay starts at ₹48,480/month (JMG Scale I) with a gross CTC of ₹21.97 lakh per annum (Mumbai centre). IBPS PO basic pay starts at ₹36,000/month with a gross CTC of approximately ₹7.5–8.2 lakh per annum, varying by bank."
     },
     {
       q: "Can I prepare for SBI PO and IBPS PO together?",
@@ -758,7 +758,7 @@ export const sbiPoComparisonContent: DetailSectionContent = {
     },
     {
       q: "How many vacancies are there in SBI PO vs IBPS PO?",
-      a: "SBI PO 2026 is expected to announce approximately 600 vacancies (as per historical trend). IBPS PO consistently announces more — typically 3,500–4,500 vacancies across 11+ public sector banks. IBPS PO therefore has significantly more seats, making it statistically easier to get selected in terms of competition per vacancy."
+      a: "SBI PO 2026 has announced 1,500 vacancies (including backlog vacancies). IBPS PO consistently announces more — typically 3,500–4,500 vacancies across 11+ public sector banks. IBPS PO therefore has more seats, making it statistically easier to get selected in terms of competition per vacancy."
     },
     {
       q: "Is the SBI PO interview harder than IBPS PO interview?",

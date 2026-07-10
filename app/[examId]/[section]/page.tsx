@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import ExamDetailLayout from '@/components/sections/exams/ExamDetailLayout';
 import { getExamData, getDetailedSectionContent } from '@/lib/data/exams/detailContentMap';
 
-import { BreadcrumbSchema, ArticleSchema, FAQSchema } from '@/components/seo';
+import { BreadcrumbSchema, ArticleSchema, FAQSchema, AuthorPersonSchema } from '@/components/seo';
 
 interface PageProps {
   params: Promise<{ examId: string; section: string }>;
@@ -106,6 +106,7 @@ export default async function ExamSectionPage({ params }: PageProps) {
               { name: content.title, href: `/${examId}/${section}` },
             ]}
           />
+          <AuthorPersonSchema />
           <ArticleSchema
             headline={`${content.title}`}
             description={content.overview}

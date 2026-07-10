@@ -11,9 +11,9 @@ import ResultsPage from './steps/ResultsPage';
 
 const DURATION_SECONDS = 900; // 15 minutes
 
-const initialState: QuizState = {
-  step: 'exam-select',
-  examType: null,
+const getInitialState = (initialExamType?: ExamType): QuizState => ({
+  step: initialExamType ? 'topic-select' : 'exam-select',
+  examType: initialExamType || null,
   subtopicId: null,
   language: 'en',
   currentQuestionIndex: 0,
@@ -21,7 +21,7 @@ const initialState: QuizState = {
   secondsRemaining: DURATION_SECONDS,
   testStartedAt: null,
   isSubmitted: false
-};
+});
 
 type QuizAction =
   | { type: 'START_TEST'; durationSeconds: number }
@@ -220,7 +220,7 @@ function quizReducer(state: QuizState, action: QuizAction): QuizState {
 
     case 'RESET_TO_TOPIC_SELECT':
       return {
-        ...initialState,
+        ...getInitialState(state.examType || undefined),
         step: 'topic-select',
         examType: state.examType,
         language: state.language
@@ -281,8 +281,8 @@ function calculateResult(
   };
 }
 
-export default function QuizSection() {
-  const [state, dispatch] = useReducer(quizReducer, initialState);
+export default function QuizSection({ initialExamType }: { initialExamType?: ExamType }) {
+  const [state, dispatch] = useReducer(quizReducer, initialExamType, (exam) => getInitialState(exam));
 
   const activeQuestionSet = useMemo(() => {
     if (!state.subtopicId) return null;
@@ -372,6 +372,7 @@ export default function QuizSection() {
           onSelectSubtopic={handleSelectSubtopic}
           onBack={() => dispatch({ type: 'RESET_TO_TOPIC_SELECT' })}
           onStartTest={handleStartTest}
+          hideBackToExamSelect={!!initialExamType}
         />
       )}
 
@@ -390,6 +391,7 @@ export default function QuizSection() {
           answers={state.answers}
           language={state.language}
           onRetake={handleRetake}
+          hideExamSelect={!!initialExamType}
         />
       )}
     </section>

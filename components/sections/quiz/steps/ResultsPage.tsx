@@ -11,9 +11,10 @@ interface ResultsPageProps {
   answers: Record<string, UserAnswer>;
   language: Language;
   onRetake: () => void;
+  hideExamSelect?: boolean;
 }
 
-export default function ResultsPage({ result, questions, answers, language, onRetake }: ResultsPageProps) {
+export default function ResultsPage({ result, questions, answers, language, onRetake, hideExamSelect }: ResultsPageProps) {
   const {
     totalQuestions,
     correct,
@@ -81,7 +82,7 @@ export default function ResultsPage({ result, questions, answers, language, onRe
       `}} />
       
       {/* ── STEP PROGRESS TRACKER ── */}
-      <QuizStepTracker currentStep="results" />
+      <QuizStepTracker currentStep="results" hideExamSelect={hideExamSelect} />
 
       <div className="text-center">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-[var(--color-navy)]">Quiz Performance Report</h2>

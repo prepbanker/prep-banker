@@ -28,7 +28,15 @@ export const navLinks: NavLink[] = [
     ],
   },
   { label: 'Current Affairs', href: '/current-affairs' },
-  { label: 'Quiz Practice',   href: '/sbi-po-ibps-po-quiz',  badge: 'NEW' },
+  {
+    label: 'Quiz',
+    href: '/quiz',
+    badge: 'NEW',
+    children: [
+      { label: 'SBI PO Quiz', href: '/sbi-po-quiz' },
+      { label: 'IBPS PO Quiz', href: '/ibps-po-quiz' },
+    ],
+  },
   { label: 'Pricing',         href: '/pricing' },
 ];
 
@@ -721,7 +729,7 @@ export const faqs: FAQ[] = [
   { id: 'faq-1', category: 'General', question: 'What is PrepBanker?', answer: 'PrepBanker is a specialized banking exam preparation platform that provides full mock tests, live exams, current affairs, performance analytics, and smart preparation tools for SBI-PO and IBPS-PO aspirants. It simulates real exam conditions to help you prepare effectively.' },
   { id: 'faq-2', category: 'General', question: 'Who can use PrepBanker?', answer: 'Any student preparing for banking and competitive exams can use PrepBanker. The platform is designed for beginners starting their journey as well as experienced aspirants looking to improve their scores.' },
   { id: 'faq-3', category: 'General', question: 'Is PrepBanker free to use?', answer: 'PrepBanker offers a combination of free and premium content. You can access free mock tests, sample current affairs, and basic practice materials. Premium plans unlock full test series, live tests, detailed analytics, and complete current affairs access.' },
-  { id: 'faq-4', category: 'SBI-PO', question: 'What is SBI PO?', answer: 'SBI PO (Probationary Officer) is the recruitment exam conducted by State Bank of India to hire Probationary Officers. It is considered one of the most prestigious banking jobs in India with a structured career path and excellent starting salary of ₹63,000/month starting in-hand (basic pay of ₹41,960/month).' },
+  { id: 'faq-4', category: 'SBI-PO', question: 'What is SBI PO?', answer: 'SBI PO (Probationary Officer) is the recruitment exam conducted by State Bank of India to hire Probationary Officers. It is considered one of the most prestigious banking jobs in India with a structured career path and excellent starting salary of ₹75,000/month starting in-hand (basic pay of ₹48,480/month).' },
   { id: 'faq-5', category: 'SBI-PO', question: 'What are the stages of SBI PO selection?', answer: 'SBI PO selection has 4 stages: (1) Prelims — 100Q, 60 mins, qualifying; (2) Mains — 155Q + Descriptive Test, 3 hours; (3) Group Exercises — group discussion and activity; (4) Personal Interview. Final merit is based on Mains + GE + Interview combined score.' },
   { id: 'faq-6', category: 'SBI-PO', question: 'Does PrepBanker provide SBI PO mock tests?', answer: 'Yes! PrepBanker provides full-length SBI PO Prelims and Mains mock tests, sectional tests, topic-wise practice, and previous year paper simulations — all following the latest exam pattern with detailed performance analytics.' },
   { id: 'faq-7', category: 'IBPS-PO', question: 'What is IBPS PO?', answer: 'IBPS PO (Probationary Officer) is the common recruitment exam conducted by IBPS (Institute of Banking Personnel Selection) for 11 participating public sector banks including Bank of Baroda, PNB, Canara Bank, and Union Bank of India. With 3,500+ vacancies and a starting salary of ₹52,000/month in-hand (basic pay of ₹36,000/month), it offers the largest number of banking opportunities.' },

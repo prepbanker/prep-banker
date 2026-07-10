@@ -5093,10 +5093,10 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'notification': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Notification 2026 – Eligibility, Vacancy, Dates & Exam Pattern`,
-          overview: `The SBI PO 2026 notification is expected in July–August 2026, based on SBI's release pattern over the last five years. State Bank of India recruits Probationary Officers through a three-stage process: Prelims, Mains, and Interview. The exam is one of the most competitive in Indian banking, with over 3 million applicants competing for approximately 600–2,000 vacancies annually. Here is everything you need to know — dates, eligibility, pattern, syllabus, and how to prepare.`,
-          metaTitle: `SBI PO Notification – Dates, Eligibility & Vacancy`,
-          metaDescription: `SBI PO Notification 2026 is expected in July–August. Check eligibility, vacancy, exam dates, syllabus & attempt free SBI PO mock tests on PrepBanker.`,
+          title: `SBI PO Notification 2026 – Released Dates, 1,500 Vacancies & Pattern`,
+          overview: `The State Bank of India released the official SBI PO 2026 notification on 18 June 2026 (Advertisement No. CRPD/PO/2026-27/09), announcing 1,500 vacancies for the post of Probationary Officer — a big jump from just 541 vacancies in 2025, nearly three times more openings this year. Over 12.14 lakh candidates applied for SBI PO 2026 — nearly double last year's numbers — which tells you exactly how competitive this cycle is. If you're serious about clearing Prelims, this is the year to be putting in structured mock test practice rather than just reading theory.`,
+          metaTitle: `SBI PO Notification 2026 - Released Dates & 1,500 Vacancies`,
+          metaDescription: `SBI PO 2026 Notification out on 18 June 2026. Check official advertisement (CRPD/PO/2026-27/09), 1,500 vacancies breakup, dates & attempt free mock tests.`,
           ctaText: `Start Free SBI PO Mock Test`,
           ctaHref: `https://app.prepgrind.com/register`,
           customSchemas: (
@@ -5108,11 +5108,11 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "WebPage",
-                    "name": "SBI PO Notification – Dates, Eligibility, Vacancy & Exam Pattern",
-                    "url": "https://prepbanker.com/sbi-po-notification",
-                    "description": "Complete guide to SBI PO 2026 Notification including eligibility criteria, vacancy details, exam pattern, syllabus, cut-off trends, and free mock tests.",
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-07-01",
+                    "name": "SBI PO Notification 2026 – Released Dates, 1,500 Vacancies & Pattern",
+                    "url": "https://prepbanker.com/sbi-po/notification",
+                    "description": "Complete guide to SBI PO 2026 Notification including eligibility criteria, 1,500 vacancy details, exam pattern, syllabus, cut-off trends, and free mock tests.",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-10",
                     "publisher": {
                       "@type": "Organization",
                       "name": "PrepBanker",
@@ -5137,8 +5137,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Article",
-                    "headline": "SBI PO Notification 2026 – Dates, Eligibility, Vacancy & Exam Pattern",
-                    "description": "Everything a student needs to know about SBI PO 2026 Notification — expected dates, eligibility, vacancy, exam pattern, syllabus, cut-off history, and a step-by-step preparation strategy.",
+                    "headline": "SBI PO Notification 2026 – Released Dates, 1,500 Vacancies & Pattern",
+                    "description": "Everything a student needs to know about SBI PO 2026 Notification — released dates, eligibility, vacancy, exam pattern, syllabus, cut-off history, and a step-by-step preparation strategy.",
                     "url": "https://prepbanker.com/sbi-po/notification",
                     "image": "https://prepbanker.com/images/sbi-po-notification-2026.jpg",
                     "author": {
@@ -5155,13 +5155,13 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         "url": "https://prepbanker.com/logo.png"
                       }
                     },
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-07-01",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-10",
                     "mainEntityOfPage": {
                       "@type": "WebPage",
                       "@id": "https://prepbanker.com/sbi-po/notification"
                     },
-                    "keywords": "SBI PO Notification 2026, SBI PO eligibility, SBI PO vacancy, SBI PO exam date, SBI Probationary Officer"
+                    "keywords": "SBI PO Notification 2026, SBI PO vacancy, SBI PO exam date, SBI Probationary Officer, CRPD/PO/2026-27/09"
                   })
                 }}
               />
@@ -5211,66 +5211,34 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "mainEntity": [
                       {
                         "@type": "Question",
-                        "name": "When will SBI PO 2026 notification be released?",
+                        "name": "When was the SBI PO 2026 notification released?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "SBI PO 2026 notification is expected to release in July–August 2026, based on the pattern of previous years. SBI PO 2024 notification was released on August–September 2026. Bookmark the official SBI website (sbi.co.in) and PrepBanker's SBI PO page for instant updates."
+                          "text": "The official SBI PO 2026 notification was released on 18 June 2026 under Advertisement No. CRPD/PO/2026-27/09."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the eligibility criteria for SBI PO 2026?",
+                        "name": "How many vacancies for SBI PO 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "Candidates must hold a graduation degree in any discipline from a recognized university. Age limit is 21–30 years, with relaxation for SC/ST (5 years), OBC (3 years), and PwBD (10 years) candidates. Final-year students who will complete graduation before the joining date are also eligible."
+                          "text": "There are 1,500 vacancies announced for SBI PO 2026 (including 1,446 regular vacancies and 54 backlog vacancies). This is almost triple the 541 vacancies from 2025."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "How many vacancies are expected in SBI PO 2026?",
+                        "name": "What is the application window for SBI PO 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "SBI PO 2026 is expected to have approximately 600–2,000 vacancies, as in recent cycles. SBI PO 2024 announced 600 vacancies, while SBI PO 2024 had 600 vacancies. The official number will be confirmed in the notification. Over 3 million candidates typically apply each year."
+                          "text": "The online application window was open from 18 June to 8 July 2026, and is now closed."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the SBI PO exam pattern for Prelims?",
+                        "name": "What are the tentative exam dates for SBI PO 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "SBI PO Prelims has 3 sections: English Language (30 questions, 30 marks, 20 minutes), Quantitative Aptitude (35 questions, 35 marks, 20 minutes), and Reasoning Ability (35 questions, 35 marks, 20 minutes). Total: 100 questions, 100 marks, 60 minutes. There is a 0.25 negative marking for wrong answers."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Is PrepBanker free for SBI PO mock tests?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes, PrepBanker offers free SBI PO mock tests. You can attempt at least one full-length free mock test without any payment. Premium plans unlock the full test series with detailed analytics, performance comparison, section-wise feedback, and previous year question sets."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What is the SBI PO cut-off for Prelims?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO Prelims cut-off typically ranges from 47–60 marks out of 100 for General/EWS category, depending on difficulty and vacancies. In 2023, the General category cut-off was around 56–58 marks. SC/ST/OBC cut-offs are 5–10 marks lower. Aiming for 70+ in Prelims puts you safely in the Mains qualifying zone."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "How many stages are there in SBI PO selection process?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO selection has three stages: (1) Preliminary Examination — qualifying round with 100 marks, (2) Main Examination — 200 marks objective + 25 marks descriptive writing test, and (3) Interview + Group Exercise — 30 marks. The final merit is based on Mains + Interview combined score."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Which is better for SBI PO prep — PrepBanker or Testbook?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Both platforms offer mock tests for SBI PO, but PrepBanker focuses specifically on banking exam prep with SBI PO-aligned question difficulty and real-time performance analytics. PrepBanker's chapter-wise quizzes and DPP sets allow more targeted practice compared to generalist platforms. Try the free test on both and see where your analytics are clearer."
+                          "text": "SBI PO 2026 Prelims exam is tentatively scheduled for August 2026, and Mains exam is tentatively scheduled for September 2026."
                         }
                       }
                     ]
@@ -5285,7 +5253,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "@context": "https://schema.org",
                     "@type": "Course",
                     "name": "SBI PO 2026 Complete Mock Test Series",
-                    "description": "Full-length mock tests, sectional tests, chapter-wise quizzes, and PYQ sets for SBI PO Prelims and Mains 2025. Covers all sections: Reasoning, Quantitative Aptitude, English, General Awareness, and Descriptive Writing.",
+                    "description": "Full-length mock tests, sectional tests, chapter-wise quizzes, and PYQ sets for SBI PO Prelims and Mains 2026. Covers all sections: Reasoning, Quantitative Aptitude, English, General Awareness, and Descriptive Writing.",
                     "provider": {
                       "@type": "Organization",
                       "name": "PrepBanker",
@@ -5297,8 +5265,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "hasCourseInstance": {
                       "@type": "CourseInstance",
                       "courseMode": "online",
-                      "startDate": "2025-01-01",
-                      "endDate": "2025-12-31"
+                      "startDate": "2026-01-01",
+                      "endDate": "2026-12-31"
                     }
                   })
                 }}
@@ -5308,494 +5276,140 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           subsections: [
             {
               id: 'quick-snapshot',
-              title: 'SBI PO 2026 — Quick Exam Snapshot',
+              title: 'SBI PO 2026 Notification — Key Facts (Last Updated: 10 July 2026)',
               content: (
                 <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    A brief snapshot of the SBI PO 2026 recruitment parameters is detailed below:
+                  <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
+                    The official key facts and parameters for the SBI PO 2026 recruitment cycle are summarized in the high-value table below.
                   </p>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Parameter</th>
-                          <th className="px-4 py-2.5">Details</th>
+                          <th className="px-4 py-2.5">Detail</th>
+                          <th className="px-4 py-2.5">Information</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate-100 text-slate-650">
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Exam Name</td>
-                          <td className="px-4 py-3">SBI PO (Probationary Officer) 2026</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Notification released</td>
+                          <td className="px-4 py-3">18 June 2026</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Conducting Body</td>
-                          <td className="px-4 py-3">State Bank of India (SBI)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Advertisement No.</td>
+                          <td className="px-4 py-3">CRPD/PO/2026-27/09</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Post Name</td>
-                          <td className="px-4 py-3">Probationary Officer (Junior Management Grade Scale-I)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Total vacancies</td>
+                          <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Expected Vacancies</td>
-                          <td className="px-4 py-3">600–2,000 (official figure in notification)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Application window</td>
+                          <td className="px-4 py-3">18 June – 8 July 2026 (closed)</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Expected Notification Date</td>
-                          <td className="px-4 py-3">July–August 2026</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims exam (tentative)</td>
+                          <td className="px-4 py-3">August 2026</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application Mode</td>
-                          <td className="px-4 py-3">Online (sbi.co.in)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Mains exam (tentative)</td>
+                          <td className="px-4 py-3">September 2026</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Exam Mode</td>
-                          <td className="px-4 py-3">Online (Computer-Based Test)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Result (expected)</td>
+                          <td className="px-4 py-3">November–December 2026</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Duration</td>
-                          <td className="px-4 py-3">60 minutes (sectional timing)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Age limit</td>
+                          <td className="px-4 py-3">21–30 years (as on cut-off date)</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Duration</td>
-                          <td className="px-4 py-3">3 hours (Objective) + 30 minutes (Descriptive)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Application fee</td>
+                          <td className="px-4 py-3">₹750 (Gen/OBC/EWS); Nil for SC/ST/PwBD</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Total Marks (Mains)</td>
-                          <td className="px-4 py-3">200 (Objective) + 25 (Descriptive)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Starting basic pay</td>
+                          <td className="px-4 py-3">₹48,480</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Negative Marking</td>
-                          <td className="px-4 py-3">0.25 marks per wrong answer</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Approx. annual CTC (Mumbai centre)</td>
+                          <td className="px-4 py-3">₹21.97 lakh</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Job Location</td>
-                          <td className="px-4 py-3">Anywhere in India</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Selection process</td>
+                          <td className="px-4 py-3">Prelims → Mains → Psychometric Test + Group Exercise + Interview</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+                  <HighlightBox type="info" title="Important Notice">
+                    <p className="text-xs sm:text-sm font-semibold text-slate-700 leading-relaxed">
+                      Note: Exam dates above are tentative as per the official notification. We update this page within 24 hours of any official SBI announcement — bookmark this page or join our <a href="https://t.me/prepbanker" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">Telegram channel</a> for instant alerts.
+                    </p>
+                  </HighlightBox>
                 </div>
               )
             },
             {
               id: 'expected-dates',
-              title: 'SBI PO 2026 Notification – Expected Dates and Important Events',
+              title: 'SBI PO 2026 Notification – Official Dates Timeline',
               content: (
                 <div className="space-y-4">
-                  <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed">
-                    SBI has not officially announced the SBI PO 2026 notification date as of now. Based on trends from the past four cycles, here is the expected timeline:
+                  <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
+                    Below is the official timeline of events for the SBI PO 2026 recruitment cycle:
                   </p>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
                         <tr className="bg-slate-900 text-white font-bold">
                           <th className="px-4 py-2.5">Event</th>
-                          <th className="px-4 py-2.5">SBI PO 2025 (Actual)</th>
-                          <th className="px-4 py-2.5">SBI PO 2026 (Expected)</th>
+                          <th className="px-4 py-2.5">SBI PO 2026 Official Timeline</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate-100 text-slate-650">
                         <tr>
                           <td className="px-4 py-3 font-semibold text-slate-800">Notification Release</td>
-                          <td className="px-4 py-3">August–September 2025</td>
-                          <td className="px-4 py-3">July–August 2026</td>
+                          <td className="px-4 py-3">18 June 2026 (Released)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">Application Start</td>
-                          <td className="px-4 py-3">August–September 2025</td>
-                          <td className="px-4 py-3">July–August 2026</td>
+                          <td className="px-4 py-3">18 June 2026</td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 font-semibold text-slate-800">Application Last Date</td>
-                          <td className="px-4 py-3">September–October 2025</td>
-                          <td className="px-4 py-3">August–September 2026</td>
+                          <td className="px-4 py-3">8 July 2026 (Closed)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">Prelims Exam Date</td>
-                          <td className="px-4 py-3">November–December 2025</td>
-                          <td className="px-4 py-3">October–November 2026</td>
+                          <td className="px-4 py-3">August 2026 (Tentative)</td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 font-semibold text-slate-800">Prelims Result</td>
-                          <td className="px-4 py-3">January 2026</td>
-                          <td className="px-4 py-3">December 2026</td>
+                          <td className="px-4 py-3">September 2026 (Expected)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">Mains Exam Date</td>
-                          <td className="px-4 py-3">February–March 2026</td>
-                          <td className="px-4 py-3">January–February 2027</td>
+                          <td className="px-4 py-3">September 2026 (Tentative)</td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 font-semibold text-slate-800">Mains Result</td>
-                          <td className="px-4 py-3">April 2026</td>
-                          <td className="px-4 py-3">March 2027</td>
+                          <td className="px-4 py-3">October 2026 (Expected)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">Interview/GE</td>
-                          <td className="px-4 py-3">May–June 2026</td>
-                          <td className="px-4 py-3">April–May 2027</td>
+                          <td className="px-4 py-3">October–November 2026 (Expected)</td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 font-semibold text-slate-800">Final Result</td>
-                          <td className="px-4 py-3">July 2026</td>
-                          <td className="px-4 py-3">June–July 2027</td>
+                          <td className="px-4 py-3">November–December 2026 (Expected)</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <HighlightBox type="info" title="Pro Tip">
-                    SBI occasionally shifts its notification window by 4–8 weeks. Do not wait for the notification to start preparation. Students who start 3–4 months early score 12–18 marks higher in Prelims than last-minute preparers, based on mock test performance data across test prep platforms.
-                  </HighlightBox>
                 </div>
               )
             },
-            {
-              id: 'eligibility',
-              title: 'SBI PO 2026 Eligibility Criteria – Who Can Apply?',
-              content: (
-                <div className="space-y-6 text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-slate-800">Educational Qualification</h4>
-                    <p>
-                      Candidates must hold a <strong>graduation degree in any discipline</strong> from a recognized university or institution. There is no minimum percentage requirement specified by SBI, but candidates with strong analytical skills tend to perform better in the exam.
-                    </p>
-                    <p className="mt-2">
-                      Final-year students are also eligible to apply, <strong>provided they complete their graduation and produce the degree certificate before the joining date</strong> if selected.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-slate-800">Age Limit (as of the notification date)</h4>
-                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                        <thead>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <th className="px-4 py-2.5">Category</th>
-                            <th className="px-4 py-2.5">Minimum Age</th>
-                            <th className="px-4 py-2.5">Maximum Age</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-slate-650">
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">General / EWS</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">30 years</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">OBC (Non-Creamy Layer)</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">33 years</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">SC / ST</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">35 years</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">PwBD (General)</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">40 years</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">PwBD (OBC)</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">43 years</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">PwBD (SC/ST)</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">45 years</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Ex-Servicemen</td>
-                            <td className="px-4 py-3">As per rules</td>
-                            <td className="px-4 py-3">—</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">J&K Domicile (1980–1989)</td>
-                            <td className="px-4 py-3">21 years</td>
-                            <td className="px-4 py-3">35 years</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-slate-800">Nationality</h4>
-                    <p>
-                      Applicants must be Indian citizens. Subjects of Nepal, Bhutan, and certain categories of persons of Indian origin (PIO) are also eligible under specific conditions detailed in the notification.
-                    </p>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'exam-pattern',
-              title: 'SBI PO Exam Pattern 2026 – Prelims, Mains, and Interview',
-              content: (
-                <div className="space-y-6">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    SBI PO follows a three-tier selection process. Understanding the structure helps you allocate preparation time correctly.
-                  </p>
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-slate-800">Prelims Exam Pattern</h4>
-                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                        <thead>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <th className="px-4 py-2.5">Section</th>
-                            <th className="px-4 py-2.5">Questions</th>
-                            <th className="px-4 py-2.5">Marks</th>
-                            <th className="px-4 py-2.5">Duration</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-slate-650">
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">English Language</td>
-                            <td className="px-4 py-3">30</td>
-                            <td className="px-4 py-3">30</td>
-                            <td className="px-4 py-3">20 minutes</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Quantitative Aptitude</td>
-                            <td className="px-4 py-3">35</td>
-                            <td className="px-4 py-3">35</td>
-                            <td className="px-4 py-3">20 minutes</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Reasoning Ability</td>
-                            <td className="px-4 py-3">35</td>
-                            <td className="px-4 py-3">35</td>
-                            <td className="px-4 py-3">20 minutes</td>
-                          </tr>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <td className="px-4 py-3">Total</td>
-                            <td className="px-4 py-3">100</td>
-                            <td className="px-4 py-3">100</td>
-                            <td className="px-4 py-3">60 minutes</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <p className="text-xs text-slate-500">
-                      Prelims is <strong>qualifying in nature</strong> — marks here do not count toward the final merit list. Sectional timing is strictly enforced; you cannot move between sections.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-slate-800">Mains Exam Pattern</h4>
-                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[550px]">
-                        <thead>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <th className="px-4 py-2.5">Section</th>
-                            <th className="px-4 py-2.5">Questions</th>
-                            <th className="px-4 py-2.5">Marks</th>
-                            <th className="px-4 py-2.5">Duration</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-slate-650">
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Reasoning & Computer Aptitude</td>
-                            <td className="px-4 py-3">45</td>
-                            <td className="px-4 py-3">60</td>
-                            <td className="px-4 py-3">60 minutes</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Data Analysis & Interpretation</td>
-                            <td className="px-4 py-3">35</td>
-                            <td className="px-4 py-3">60</td>
-                            <td className="px-4 py-3">45 minutes</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">General/Economy/Banking Awareness</td>
-                            <td className="px-4 py-3">40</td>
-                            <td className="px-4 py-3">40</td>
-                            <td className="px-4 py-3">35 minutes</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">English Language</td>
-                            <td className="px-4 py-3">35</td>
-                            <td className="px-4 py-3">40</td>
-                            <td className="px-4 py-3">40 minutes</td>
-                          </tr>
-                          <tr className="bg-slate-100 font-bold text-slate-900">
-                            <td className="px-4 py-3">Objective Total</td>
-                            <td className="px-4 py-3">155</td>
-                            <td className="px-4 py-3">200</td>
-                            <td className="px-4 py-3">180 minutes</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Descriptive Writing (Letter + Essay)</td>
-                            <td className="px-4 py-3">2</td>
-                            <td className="px-4 py-3">25</td>
-                            <td className="px-4 py-3">30 minutes</td>
-                          </tr>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <td className="px-4 py-3">Grand Total</td>
-                            <td className="px-4 py-3">157</td>
-                            <td className="px-4 py-3">225</td>
-                            <td className="px-4 py-3">210 minutes</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <p className="text-xs text-slate-500">
-                      Mains scores <strong>directly contribute to the final selection</strong>. The descriptive test is evaluated only for candidates who clear the objective cut-off.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-slate-800">Interview + Group Exercise</h4>
-                    <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                      Shortlisted Mains candidates appear for a <strong>Group Exercise (GE)</strong> and <strong>Personal Interview</strong>. Both carry 30 marks combined. The final merit is computed on a 75:25 ratio of Mains + Interview scores.
-                    </p>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'syllabus',
-              title: 'SBI PO Syllabus 2025 – Section-by-Section Breakdown',
-              content: (
-                <div className="space-y-6 text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Quantitative Aptitude (Prelims + Mains)</h4>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-650">
-                      <li><strong>High priority (attempt first):</strong> Data Interpretation (Bar, Line, Pie, Table, Mixed DI), Number Series, Simplification/Approximation, Quadratic Equations</li>
-                      <li><strong>Medium priority:</strong> Percentage, Profit & Loss, SI & CI, Time & Work, Time, Speed & Distance, Mixtures & Alligations</li>
-                      <li><strong>Mains-specific:</strong> Data Sufficiency, Caselet DI, Higher DI (Missing Tables, Arithmetic-heavy)</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Reasoning Ability (Prelims + Mains)</h4>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-655">
-                      <li><strong>High priority:</strong> Puzzles (Floor, Box, Linear, Circular, Month-based), Seating Arrangements, Blood Relations, Coding-Decoding, Syllogisms, Direction Sense, Inequality</li>
-                      <li><strong>Mains-specific:</strong> Critical Reasoning, Input-Output, Computer Aptitude (CPU, Memory, Networking concepts)</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">English Language</h4>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-655">
-                      <li><strong>High priority:</strong> Reading Comprehension (2–3 passages in Mains), Error Spotting, Sentence Rearrangement, Cloze Test, Fill in the Blanks, Para Jumbles</li>
-                      <li><strong>Mains-specific:</strong> Paragraph Summary, Inference-based RC, Vocabulary-in-context questions</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">General/Economy/Banking Awareness</h4>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-655">
-                      <li><strong>Static Banking:</strong> RBI functions, Monetary Policy, Types of accounts, NPA norms, BASEL norms, Bank nationalization history</li>
-                      <li><strong>Current Affairs:</strong> Last 6 months — banking news, government schemes, economic surveys, important appointments, financial terminology</li>
-                      <li><strong>Economy:</strong> GDP, Inflation, Union Budget highlights, Committees and their recommendations</li>
-                    </ul>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'cutoff-trends',
-              title: 'SBI PO Cut-Off Trends – What Score Do You Need?',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    Cut-off scores vary with exam difficulty and number of vacancies. Here are the verified Prelims cut-offs from recent years:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Year</th>
-                          <th className="px-4 py-2.5">Vacancies</th>
-                          <th className="px-4 py-2.5">Gen/EWS Cut-off</th>
-                          <th className="px-4 py-2.5">OBC Cut-off</th>
-                          <th className="px-4 py-2.5">SC Cut-off</th>
-                          <th className="px-4 py-2.5">ST Cut-off</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2024</td>
-                          <td className="px-4 py-3">600</td>
-                          <td className="px-4 py-3">~62–64</td>
-                          <td className="px-4 py-3">~58–60</td>
-                          <td className="px-4 py-3">~53–55</td>
-                          <td className="px-4 py-3">~48–51</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2023</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">~56–58</td>
-                          <td className="px-4 py-3">~53–55</td>
-                          <td className="px-4 py-3">~48–50</td>
-                          <td className="px-4 py-3">~43–46</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2022</td>
-                          <td className="px-4 py-3">1,673</td>
-                          <td className="px-4 py-3">~58–60</td>
-                          <td className="px-4 py-3">~55–57</td>
-                          <td className="px-4 py-3">~50–52</td>
-                          <td className="px-4 py-3">~45–48</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2021</td>
-                          <td className="px-4 py-3">2,056</td>
-                          <td className="px-4 py-3">~52–55</td>
-                          <td className="px-4 py-3">~49–52</td>
-                          <td className="px-4 py-3">~45–48</td>
-                          <td className="px-4 py-3">~40–43</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2020</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">~55–57</td>
-                          <td className="px-4 py-3">~52–54</td>
-                          <td className="px-4 py-3">~46–49</td>
-                          <td className="px-4 py-3">~42–45</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <p className="text-xs text-slate-500 mb-3">
-                    *Cut-offs are approximate figures based on student-reported data and coaching institute analysis. Official cut-offs are not separately published by SBI.
-                  </p>
-                  <p className="text-slate-605 text-sm sm:text-[15px] leading-relaxed">
-                    For Mains, the overall cut-off for General category typically falls in the <strong>85–100 range out of 200</strong> objective marks. Targeting <strong>100–110</strong> puts you safely in contention.
-                  </p>
-                  <HighlightBox type="success" title="Pro Tip">
-                    In SBI PO Prelims, your score relative to your peers matters more than the absolute number. If you consistently score 70+ in PrepBanker mock tests under timed conditions, you are performing well above the historical cut-off range for General category.
-                  </HighlightBox>
-                </div>
-              )
-            },
-            {
-              id: 'prep-strategy',
-              title: 'SBI PO Preparation Strategy – A Month-by-Month Plan',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    Assume you start preparation 4 months before the Prelims. Here is how to structure your effort:
-                  </p>
-                  <ol className="list-decimal list-inside space-y-3.5 pl-3">
-                    <li>
-                      <strong>Month 1 — Foundation Building:</strong> Spend this month on concept clarity. Cover basic arithmetic (Percentage, Profit &amp; Loss, Ratio), Reasoning fundamentals (Coding-Decoding, Blood Relations, Inequality), and English grammar rules (Subject-Verb Agreement, Tenses, Prepositions). Do not take full mock tests yet — take 20-question topic quizzes to identify weak areas.
-                    </li>
-                    <li>
-                      <strong>Month 2 — Speed + Accuracy Sprint:</strong> Shift focus to time-intensive topics: Puzzles, Seating Arrangements, Data Interpretation, Approximation, and Reading Comprehension. Attempt at least 2 sectional tests per week on Reasoning and Quant. Log your accuracy and error patterns. Revise vocabulary through 10 new words daily.
-                    </li>
-                    <li>
-                      <strong>Month 3 — Mock Test Phase:</strong> Start taking 3 full-length mock tests per week. After each test, spend 45–60 minutes on review — not just the wrong answers but also the questions you guessed correctly. Track your Prelims score trajectory across tests. You should see a 5–8 mark improvement by the end of this month.
-                    </li>
-                    <li>
-                      <strong>Month 4 (Final 4 Weeks) — Revision + Weak Area Targeting:</strong> Stop learning new topics. Revise DI and Puzzles daily. Attempt 1 full mock every 2 days. Spend the last 10 days exclusively on timed sectional tests and reviewing previous year questions. Do not change your strategy based on one bad mock test.
-                    </li>
-                    <li>
-                      <strong>On Exam Day:</strong> Reach the centre 45 minutes early. Start with your strongest section to build confidence. In Reasoning, attempt Syllogisms and Inequalities first — they are fastest. In Quant, begin with Approximation and Number Series before DI. In English, start with Fill in the Blanks over RC if you are pressed for time.
-                    </li>
-                    <li>
-                      <strong>For Mains Prep (parallel track):</strong> GA preparation cannot wait until Prelims is over. Maintain a daily 20-minute current affairs revision habit starting from Month 1. Read one banking news article per day and note RBI announcements, government scheme launches, and economic data releases.
-                    </li>
-                  </ol>
-                </div>
-              )
-            },
+
             {
               id: 'how-to-use-prepbanker',
               title: 'How to Use PrepBanker for SBI PO Preparation',
@@ -7186,10 +6800,10 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'vacancy': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Vacancy 2026 – Expected Posts, Category-Wise List & Trends`,
-          overview: `The SBI PO 2026 notification is expected in June 2026, with approximately 600 to 1000 Probationary Officer vacancies anticipated based on previous year trends. In 2025, SBI released 541 vacancies against 6.5 lakh applicants. The exact count — including the category-wise breakup for General, OBC, SC, ST, and EWS — will be confirmed only in the official notification PDF on the SBI Careers portal.`,
-          metaTitle: `SBI PO Vacancy – Expected Posts, Category-Wise List & Trends`,
-          metaDescription: `SBI PO Vacancy 2026: Check expected total posts, category-wise breakup (General, OBC, SC, ST, EWS), year-wise trends, and attempt free mock tests on PrepBanker.`,
+          title: `SBI PO Vacancy 2026 – Released 1,500 Posts, Breakup & Trends`,
+          overview: `The State Bank of India released the official SBI PO 2026 notification on 18 June 2026 (Advertisement No. CRPD/PO/2026-27/09), announcing 1,500 vacancies for the post of Probationary Officer — a big jump from just 541 vacancies in 2025, nearly three times more openings this year. Category-wise vacancy breakup: UR – 588 | OBC – 390 | SC – 234 | ST – 144 | EWS – 144. Over 12.14 lakh candidates applied for SBI PO 2026 — nearly double last year's numbers — which tells you exactly how competitive this cycle is.`,
+          metaTitle: `SBI PO Vacancy 2026 – Category Breakup & 1,500 Total Posts`,
+          metaDescription: `SBI PO 2026 vacancies released: 1,500 total posts (1,446 regular + 54 backlog). Check category-wise breakup (UR 588, OBC 390, SC 234, ST 144, EWS 144) & trends.`,
           ctaText: `Start Free SBI PO Mock Test`,
           ctaHref: `https://prepbanker.com/sbi-po/mock-test`,
           customSchemas: (
@@ -7231,12 +6845,12 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "WebPage",
-                    "name": "SBI PO Vacancy 2026 – Expected Posts, Category-Wise List & Trends",
+                    "name": "SBI PO Vacancy 2026 – Category-Wise Breakup & Trends",
                     "url": "https://prepbanker.com/sbi-po/vacancy",
-                    "description": "Complete guide to SBI PO Vacancy 2026: expected total posts, category-wise breakup for General, OBC, SC, ST, EWS, year-wise vacancy trends since 2017, and free mock tests.",
+                    "description": "Complete guide to SBI PO Vacancy 2026: 1,500 total posts, category-wise breakup for UR, OBC, SC, ST, EWS, year-wise vacancy trends since 2017, and free mock tests.",
                     "inLanguage": "en-IN",
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-06-10",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-10",
                     "publisher": {
                       "@type": "Organization",
                       "name": "PrepBanker",
@@ -7255,90 +6869,26 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "mainEntity": [
                       {
                         "@type": "Question",
-                        "name": "How many vacancies are expected in SBI PO 2026?",
+                        "name": "How many vacancies are there in SBI PO 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "SBI PO 2026 is expected to announce approximately 600 to 1000 vacancies based on recent trends. In 2025, SBI released 541 vacancies (500 regular + 41 backlog). Some sources estimate an increase to 800–1000 posts in 2026, but the exact number will be confirmed only in the official notification PDF on the SBI Careers portal."
+                          "text": "SBI PO 2026 has a total of 1,500 vacancies (including 1,446 regular vacancies and 54 backlog vacancies). This is almost triple the 541 vacancies from 2025."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "When will the SBI PO 2026 notification be released?",
+                        "name": "What is the category-wise SBI PO vacancy breakup for 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "The SBI PO 2026 notification is expected to be released in June 2026 on the official SBI Careers portal at sbi.co.in/web/careers. Based on previous cycles, the application window typically remains open for 20–21 days after the notification date."
+                          "text": "The category-wise vacancy breakup for SBI PO 2026 is: UR (General) – 588, OBC – 390, SC – 234, ST – 144, EWS – 144."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the category-wise SBI PO vacancy breakup?",
+                        "name": "How many students applied for SBI PO 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "SBI distributes PO vacancies across General (UR), OBC, SC, ST, and EWS categories as per government reservation norms. In 2025, the breakup was approximately: General – 223, OBC – 146, SC – 81, ST – 41, EWS – 50, plus 41 backlog vacancies. The 2026 category-wise distribution will be published in the official notification."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Is SBI PO 2026 notification out?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "As of June 2026, the official SBI PO 2026 notification PDF has not yet been released. It is expected to be published on the SBI Careers portal at sbi.co.in/web/careers in mid-June 2026. PrepBanker will update this page immediately upon official release."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What is the SBI PO Prelims exam pattern 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO Prelims 2026 has 100 questions for 100 marks in 60 minutes across 3 sections: English Language (30 questions, 20 mins), Quantitative Aptitude (35 questions, 20 mins), and Reasoning Ability (35 questions, 20 mins). Negative marking is 0.25 marks per wrong answer. There are no sectional cut-offs; only an overall cut-off applies."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What was the SBI PO cut-off in 2025?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The SBI PO 2025 Prelims overall cut-off for the General category was approximately 65–72 marks out of 100. For Mains, the General category cut-off was around 90–100 out of 250. Final selection cut-offs (Mains + Interview, out of 100) typically fall in the 48–55 range for General candidates. Reserved categories have lower cut-offs."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "How many students appear for SBI PO every year?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO is one of the most competitive banking exams in India. In 2025, approximately 6.5 lakh (650,000) candidates applied for just 541 vacancies, making the competition ratio roughly 1200:1. This number is expected to be similar or higher in 2026, reinforcing the need for structured, consistent preparation."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Which is better for SBI PO prep – PrepBanker or Testbook?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "PrepBanker focuses exclusively on banking exams, which means mock tests are designed to match the exact SBI PO pattern and difficulty. The platform offers full-length mocks, sectional tests, PYQ sets, and DPPs in one place. Testbook is broader. For SBI PO-specific, pattern-accurate practice, PrepBanker's dedicated approach gives aspirants a sharper preparation edge."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Is PrepBanker free for SBI PO mock tests?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes, PrepBanker offers free mock tests for SBI PO. Aspirants can attempt the first full-length mock test at no cost to assess their current level. Additional full-length mocks, sectional tests, and chapter-wise quizzes are available in the paid plan, which is affordably priced for serious banking exam aspirants."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "What was the highest SBI PO vacancy year?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The highest SBI PO vacancy in recent history was in 2017, when SBI released approximately 2313 vacancies. Vacancies remained above 2000 in 2020 and 2021 as well. Post-2022, vacancies declined sharply, hitting a low of 600 in 2024 before partially recovering to 541 (regular) + 41 (backlog) in 2025."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Does SBI PO have state-wise vacancy distribution?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "No, SBI does not release state-wise vacancy data for SBI PO. Unlike SBI Clerk, which has zone-wise and state-wise breakups, SBI PO vacancies are distributed at the national level across categories (General, OBC, SC, ST, EWS). Posting location is determined by SBI after selection, based on the bank's operational requirements."
+                          "text": "Over 12.14 lakh candidates applied for SBI PO 2026, which is nearly double last year's numbers."
                         }
                       }
                     ]
@@ -7350,11 +6900,11 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           subsections: [
             {
               id: 'quick-snapshot',
-              title: 'SBI PO 2026 — Exam Snapshot',
+              title: 'SBI PO 2026 Vacancy — Key Facts Snapshot',
               content: (
                 <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    A brief snapshot of the SBI PO 2026 exam and vacancy details is tabulated below:
+                  <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
+                    The official key parameters and vacancy details for SBI PO 2026 are summarized in the table below:
                   </p>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
@@ -7366,48 +6916,24 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </thead>
                       <tbody className="divide-y divide-slate-100 text-slate-650">
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Exam Name</td>
-                          <td className="px-4 py-3">SBI PO (Probationary Officer Recruitment)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Conducting Body</td>
-                          <td className="px-4 py-3">State Bank of India (SBI)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Expected Vacancies</td>
-                          <td className="px-4 py-3">600–1000 (official count pending notification)</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Total 2026 Vacancies</td>
+                          <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">2025 Vacancies (for reference)</td>
                           <td className="px-4 py-3">541 (500 regular + 41 backlog)</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Notification Expected</td>
-                          <td className="px-4 py-3">June 2026</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Total Applicants (2026)</td>
+                          <td className="px-4 py-3">Over 12.14 Lakh (Nearly double last year)</td>
                         </tr>
                         <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application Window</td>
-                          <td className="px-4 py-3">Approx. 20–21 days after notification</td>
+                          <td className="px-4 py-3 font-semibold text-slate-800">Application Mode</td>
+                          <td className="px-4 py-3">Online (sbi.co.in)</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Expected</td>
-                          <td className="px-4 py-3">August 2026 (tentative)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">Selection Stages</td>
-                          <td className="px-4 py-3">Prelims → Mains → GD + Interview</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Duration</td>
-                          <td className="px-4 py-3">60 minutes | Total Marks: 100</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Duration</td>
-                          <td className="px-4 py-3">3 hours (Objective) + 30 mins (Descriptive) | Total Marks: 250 + 50</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Negative Marking</td>
-                          <td className="px-4 py-3">Yes — 0.25 marks per wrong answer</td>
+                          <td className="px-4 py-3">Prelims → Mains → Psychometric Test + Group Exercise + Interview</td>
                         </tr>
                         <tr className="bg-slate-50/50">
                           <td className="px-4 py-3 font-semibold text-slate-800">Official Website</td>
@@ -7424,26 +6950,53 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
               )
             },
             {
-              id: 'expected-vacancy',
-              title: 'What Is the Expected SBI PO Vacancy in 2026?',
+              id: 'category-breakdown',
+              title: 'SBI PO 2026 Category-Wise Vacancy Breakup',
               content: (
                 <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
                   <p>
-                    The honest answer: the official figure hasn&apos;t been announced yet as of June 2026. The notification is imminent.
+                    SBI distributes PO vacancies across General (UR), OBC, SC, ST, and EWS categories as per government reservation norms. The official breakup for the 2026 cycle is tabulated below:
                   </p>
-                  <p>
-                    That said, you can make a reasonable estimate by looking at the pattern:
-                  </p>
-                  <ul className="list-disc list-inside space-y-1.5 pl-3">
-                    <li><strong>2024:</strong> 600 vacancies</li>
-                    <li><strong>2025:</strong> 541 vacancies (500 regular + 41 backlog)</li>
-                    <li><strong>2026 Expected:</strong> 600–1000 vacancies</li>
-                  </ul>
-                  <p>
-                    Some sources, including BankersAdda, have put the estimate at <strong>900–1000 posts</strong> this cycle, which would mark a notable recovery from the 2024–25 dip. Career Power and other platforms suggest an 800+ count. PrepBanker will update this section the moment the official notification PDF is released.
-                  </p>
-                  <HighlightBox type="info" title="Pro Tip">
-                    Don&apos;t wait for the vacancy count to start preparing. If you&apos;re ready when the notification drops, you have a full 20-day application window and can begin mock tests on Day 1. The students who start after the notification get 3–4 fewer weeks of structured preparation.
+                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
+                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
+                      <thead>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <th className="px-4 py-2.5">Category</th>
+                          <th className="px-4 py-2.5">Vacancies Breakup (2026)</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100 text-slate-650">
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">General (UR)</td>
+                          <td className="px-4 py-3">588</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">OBC</td>
+                          <td className="px-4 py-3">390</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">SC</td>
+                          <td className="px-4 py-3">234</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">ST</td>
+                          <td className="px-4 py-3">144</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">EWS</td>
+                          <td className="px-4 py-3">144</td>
+                        </tr>
+                        <tr className="bg-slate-900 text-white font-bold">
+                          <td className="px-4 py-3">Total</td>
+                          <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <HighlightBox type="success" title="Horizontal Reservation">
+                    <p className="text-xs sm:text-sm text-slate-700">
+                      SBI also reserves horizontal vacancies for differently-abled candidates (PwBD) as per guidelines. These are carved out of the category totals listed above.
+                    </p>
                   </HighlightBox>
                 </div>
               )
@@ -7452,9 +7005,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
               id: 'vacancy-trend',
               title: 'SBI PO Vacancy Trend: Year-Wise Data Since 2017',
               content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
+                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
                   <p>
-                    Vacancy numbers directly shape your competition ratio — and your cut-off targets. Here&apos;s the complete year-wise SBI PO vacancy history:
+                    Vacancy numbers shape your competition ratio and safe target scores. Here is the complete year-wise history of SBI PO vacancies:
                   </p>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
@@ -7468,155 +7021,79 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2017</td>
-                          <td className="px-4 py-3">2313</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2313</td>
-                          <td className="px-4 py-3">~9.5 lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2018</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">~20 lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2019</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">~22 lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2020</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">~20 lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2021</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">56</td>
-                          <td className="px-4 py-3">2056</td>
-                          <td className="px-4 py-3">~20 lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2022</td>
-                          <td className="px-4 py-3">1673</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">1673</td>
-                          <td className="px-4 py-3">~17 lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2023</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2000</td>
-                          <td className="px-4 py-3">~16 lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2024</td>
-                          <td className="px-4 py-3">600</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">600</td>
-                          <td className="px-4 py-3">~8 lakh</td>
+                        <tr className="bg-slate-100/80 font-bold text-slate-900">
+                          <td className="px-4 py-3">2026</td>
+                          <td className="px-4 py-3">1,446</td>
+                          <td className="px-4 py-3">54</td>
+                          <td className="px-4 py-3">1,500</td>
+                          <td className="px-4 py-3">~12.14 Lakh</td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 font-semibold text-slate-800">2025</td>
                           <td className="px-4 py-3">500</td>
                           <td className="px-4 py-3">41</td>
                           <td className="px-4 py-3">541</td>
-                          <td className="px-4 py-3">~6.5 lakh</td>
+                          <td className="px-4 py-3">~6.5 Lakh</td>
                         </tr>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <td className="px-4 py-3">2026</td>
-                          <td className="px-4 py-3">TBA</td>
-                          <td className="px-4 py-3">TBA</td>
-                          <td className="px-4 py-3">Est. 600–1000</td>
-                          <td className="px-4 py-3">~6–8 lakh (est.)</td>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">2024</td>
+                          <td className="px-4 py-3">600</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">600</td>
+                          <td className="px-4 py-3">~8 Lakh</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">2023</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">~16 Lakh</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">2022</td>
+                          <td className="px-4 py-3">1,673</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">1,673</td>
+                          <td className="px-4 py-3">~17 Lakh</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">2021</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">56</td>
+                          <td className="px-4 py-3">2,056</td>
+                          <td className="px-4 py-3">~20 Lakh</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">2020</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">~20 Lakh</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">2019</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">~22 Lakh</td>
+                        </tr>
+                        <tr className="bg-slate-50/50">
+                          <td className="px-4 py-3 font-semibold text-slate-800">2018</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">2,000</td>
+                          <td className="px-4 py-3">~20 Lakh</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 font-semibold text-slate-800">2017</td>
+                          <td className="px-4 py-3">2,313</td>
+                          <td className="px-4 py-3">—</td>
+                          <td className="px-4 py-3">2,313</td>
+                          <td className="px-4 py-3">~9.5 Lakh</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <p>
-                    <strong>What this trend tells you:</strong> Vacancy numbers have no predictable pattern. They swung from a high of 2313 (2017) to a low of 541 (2025). Post-2022, there has been a structural drop — likely due to SBI&apos;s internal workforce planning and consolidation after the merger of associate banks. Fewer vacancies mean higher competition for each seat, which pushes cut-offs up.
-                  </p>
-                  <p>
-                    The silver lining: lower applicant counts in recent years (6–8 lakh vs. 20 lakh earlier) partially offset the vacancy reduction. Your competition is not as brutal as the raw numbers suggest.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'category-breakdown',
-              title: 'SBI PO 2026 Category-Wise Vacancy (Expected Breakup)',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    SBI follows government-mandated reservation norms for distributing vacancies. The 2026 breakup won&apos;t be known until the notification, but here&apos;s the 2025 category-wise data as a reference baseline:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Category</th>
-                          <th className="px-4 py-2.5">Regular (2025)</th>
-                          <th className="px-4 py-2.5">Backlog (2025)</th>
-                          <th className="px-4 py-2.5">Total (2025)</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">General (UR)</td>
-                          <td className="px-4 py-3">~223</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">~223</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">OBC</td>
-                          <td className="px-4 py-3">~146</td>
-                          <td className="px-4 py-3">~27</td>
-                          <td className="px-4 py-3">~173</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">SC</td>
-                          <td className="px-4 py-3">~81</td>
-                          <td className="px-4 py-3">~10</td>
-                          <td className="px-4 py-3">~91</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">ST</td>
-                          <td className="px-4 py-3">~41</td>
-                          <td className="px-4 py-3">~4</td>
-                          <td className="px-4 py-3">~45</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">EWS</td>
-                          <td className="px-4 py-3">~50</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">~50</td>
-                        </tr>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <td className="px-4 py-3">Total</td>
-                          <td className="px-4 py-3">500</td>
-                          <td className="px-4 py-3">41</td>
-                          <td className="px-4 py-3">541</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <p className="text-xs text-slate-500">
-                    *Note: 2025 category figures are sourced from the official SBI notification. The 2026 breakup will follow a similar proportional structure, adjusted for total vacancy count.*
-                  </p>
-                  <p>
-                    <strong>For PwD candidates:</strong> SBI also reserves horizontal vacancies for differently-abled candidates (Locomotor Disability, Visual Impairment, Hearing Impairment, and others). These are carved out of the above totals, not in addition to them.
-                  </p>
-                  <HighlightBox type="success" title="Pro Tip">
-                    If you&apos;re from a reserved category (OBC, SC, ST, EWS), track your category&apos;s cut-off separately, not just the General cut-off. OBC candidates often target the General cut-off as a safety buffer, which is a smart approach when vacancies are tight. Check the SBI PO Previous Year Cut-off section on PrepBanker to benchmark your score realistically.
-                  </HighlightBox>
                 </div>
               )
             },
@@ -7626,69 +7103,16 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
               content: (
                 <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
                   <p>
-                    Most aspirants focus on the syllabus, the pattern, the cut-off — and largely ignore the vacancy-to-applicant ratio. That&apos;s a mistake.
+                    Most aspirants focus only on the syllabus and ignore the vacancy-to-applicant math. Here is why it matters:
                   </p>
                   <p>
-                    Here&apos;s why the math matters:
+                    In <strong>2026</strong>, SBI has announced <strong>1,500 vacancies</strong>. With 12.14 lakh candidates applying, the competition ratio is roughly 800:1.
                   </p>
                   <p>
-                    In <strong>2025</strong>, SBI shortlisted approximately <strong>10x the vacancies</strong> for Mains — that means roughly 5,410 candidates made it past Prelims. Out of ~6.5 lakh applicants. That&apos;s the top <strong>0.83%</strong>.
+                    SBI typically shortlists approximately <strong>10x the vacancies</strong> for the Mains Exam — meaning around 15,000 candidates make it past Prelims. Out of 12.14 lakh applicants, that requires you to finish in the top <strong>1.23%</strong>.
                   </p>
                   <p>
-                    This isn&apos;t meant to scare you. It&apos;s meant to help you set the right benchmark. The question isn&apos;t &quot;Can I clear SBI PO?&quot; — it&apos;s &quot;Am I consistently scoring in the top 1% of my mock test attempts?&quot;
-                  </p>
-                  <p>
-                    If your mock test percentile is below 85, you need to recalibrate your preparation before the actual exam. PrepBanker&apos;s scoring dashboard shows your percentile rank against other test-takers — use it.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'cutoff-impact',
-              title: 'How Does SBI PO Vacancy Affect Cut-offs and Competition?',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    The relationship is straightforward: fewer vacancies → higher cut-offs. Here&apos;s a simplified model:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Vacancy Range</th>
-                          <th className="px-4 py-2.5">Approx. Prelims Cut-off (General)</th>
-                          <th className="px-4 py-2.5">Competition Level</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2000+</td>
-                          <td className="px-4 py-3">55–65 out of 100</td>
-                          <td className="px-4 py-3">Moderate</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">1000–2000</td>
-                          <td className="px-4 py-3">60–68 out of 100</td>
-                          <td className="px-4 py-3">High</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">600–1000</td>
-                          <td className="px-4 py-3">65–75 out of 100</td>
-                          <td className="px-4 py-3">Very High</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Below 600</td>
-                          <td className="px-4 py-3">70–80 out of 100</td>
-                          <td className="px-4 py-3">Extremely High</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <p>
-                    In 2025, with 541 vacancies and ~6.5 lakh applicants, the Prelims cut-off for General candidates hovered around <strong>65–72 marks</strong>. The Mains General category cut-off was approximately <strong>90–100 out of 250</strong>.
-                  </p>
-                  <p>
-                    These are not scores you reach by casual preparation. You need consistent mock test practice with proper analysis — not just attempting tests, but understanding why you got questions wrong.
+                    To secure this, you need to consistently practice with timed mocks and prioritize accuracy. PrepBanker's analytics dashboard shows your percentile rank against other test-takers so you know where you stand.
                   </p>
                 </div>
               )
@@ -7696,48 +7120,24 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           ],
           faqs: [
             {
-              q: "How many vacancies are expected in SBI PO 2026?",
-              a: "SBI PO 2026 is expected to announce approximately 600 to 1000 vacancies based on recent trends. In 2025, SBI released 541 total posts (500 regular + 41 backlog). Some estimates put the 2026 figure at 800–1000 posts, which would be a partial recovery from the 2024–25 dip. The confirmed number will only be available in the official notification PDF on the SBI Careers portal."
+              q: "How many vacancies are there in SBI PO 2026?",
+              a: "SBI PO 2026 has a total of 1,500 vacancies, consisting of 1,446 regular vacancies and 54 backlog vacancies. This is nearly triple the 541 vacancies from the 2025 cycle."
             },
             {
-              q: "When will the SBI PO 2026 notification be released?",
-              a: "The SBI PO 2026 notification is expected to be released in mid-June 2026, based on current administrative calendars and historical patterns. The application window typically stays open for around 20–21 days after notification. Prelims are tentatively expected in August 2026. Bookmark the SBI Careers portal at sbi.co.in/web/careers for the official release."
-            },
-            {
-              q: "Has the SBI PO 2026 official notification been published?",
-              a: "As of June 10, 2026, the official SBI PO 2026 notification PDF has not yet been released. It is expected shortly. PrepBanker will update this page and the mock test series immediately upon the notification going live. You can also subscribe to PrepBanker's notification alerts to get an instant update."
+              q: "When was the SBI PO 2026 notification released?",
+              a: "The official SBI PO 2026 notification was released on 18 June 2026. The online application window closed on 8 July 2026."
             },
             {
               q: "What is the category-wise vacancy breakup for SBI PO 2026?",
-              a: "The 2026 category-wise breakup will be confirmed in the official notification. Based on the 2025 data, SBI distributes vacancies roughly as: General (~41%), OBC (~27%), SC (~15%), ST (~8%), EWS (~9%). The 2026 breakup will follow similar reservation norms, with exact figures adjusted for the total vacancy count."
+              a: "The vacancies are distributed as follows: UR (General) – 588, OBC – 390, SC – 234, ST – 144, EWS – 144, for a total of 1,500 vacancies."
             },
             {
-              q: "Which year had the highest SBI PO vacancies?",
-              a: "2017 had the highest recent SBI PO vacancy count at approximately 2313 posts. Vacancies stayed above 2000 in 2018–2023 with some variation, then dropped sharply to 600 in 2024 and 541 in 2025. The post-2023 decline is tied to SBI's workforce management following the earlier merger of associate banks."
+              q: "Does SBI PO have state-wise vacancy distribution?",
+              a: "No, SBI PO vacancies are distributed at the national level by category. Unlike SBI Clerk, there is no state-wise or circle-wise quota."
             },
             {
-              q: "Does the SBI PO vacancy include state-wise distribution?",
-              a: "No. Unlike SBI Clerk, which publishes zone-wise and state-wise vacancy data, SBI PO vacancies are released only at the national level — broken down by category (General, OBC, SC, ST, EWS) and not by state or circle. Your posting location after selection is determined by SBI based on operational requirements."
-            },
-            {
-              q: "How many students appear for SBI PO each year?",
-              a: "SBI PO consistently attracts massive competition. In 2025, approximately 6.5 lakh (650,000) candidates applied for 541 vacancies — a competition ratio of roughly 1200 applicants per seat. At the peak in 2018–19, over 20 lakh candidates applied. The 2026 cycle is expected to see 6–8 lakh applicants."
-            },
-            {
-              q: "What is the SBI PO Prelims cut-off for General category?",
-              a: "In 2025, the SBI PO Prelims General category cut-off was approximately 65–72 marks out of 100. Cut-offs vary year to year based on difficulty and vacancy count. With fewer vacancies post-2023, the bar has risen. Scoring 70+ in Prelims comfortably clears the cut-off for most categories in normal cycles."
-            },
-            {
-              q: "Is PrepBanker free for SBI PO mock tests?",
-              a: "Yes, PrepBanker offers a free SBI PO Prelims mock test to get you started. The free mock gives you a full pattern-accurate test, score analysis, and a percentile ranking against other aspirants. Additional full-length mocks, sectional tests, chapter-wise quizzes, and PYQ sets are part of the paid plan, which is affordable and includes all banking exams."
-            },
-            {
-              q: "Which is better — PrepBanker or Oliveboard for SBI PO?",
-              a: "Both are solid platforms, but they differ in focus. Oliveboard covers a broad range of exams. PrepBanker is built exclusively for banking exams, which means every mock test, DPP, and sectional test is calibrated to banking exam patterns — especially SBI PO and IBPS PO. If dedicated, banking-first practice is what you need, PrepBanker is the sharper choice."
-            },
-            {
-              q: "What happens if SBI PO 2026 vacancies are lower than expected?",
-              a: "Fewer vacancies mean tighter cut-offs and higher competition per seat. The practical impact: you need to consistently score in the top 1% of Prelims attempts to make the Mains shortlist. Lower vacancy cycles also make Mains sectional cut-offs harder to clear. The best response is to raise your preparation standard — more mocks, deeper analysis — not to wait and see."
+              q: "How many students applied for SBI PO 2026?",
+              a: "Over 12.14 lakh candidates applied for the SBI PO 2026 recruitment cycle, which is nearly double last year's applicant count."
             }
           ]
         };
