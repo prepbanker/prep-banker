@@ -34,6 +34,9 @@ import Footer from '@/components/layout/Footer';
 import Breadcrumb from '@/components/shared/Breadcrumb';
 import QuickNavigation from './QuickNavigation';
 import ExamAuthorSection from './ExamAuthorSection';
+import PatternSnapshot from '../previous-year-papers/PatternSnapshot';
+import ExamAnalysisSection from './ExamAnalysisSection';
+import MockTestSnippet from './MockTestSnippet';
 import './exam.css';
 
 interface Props {
@@ -237,11 +240,13 @@ export default function ExamMainLayout({ exam }: Props) {
       { label: 'Exam Pattern & Phases', id: 'exam-pattern' },
       { label: 'Complete Syllabus', id: 'full-syllabus' },
       { label: 'SBI PO Mock Tests 2026', id: 'mock-tests' },
+      { label: 'Previous Year Paper Snapshot', id: 'pyq-snapshot' },
       { label: 'SBI PO Sectional Tests 2026', id: 'sectional-tests' },
       { label: 'Topic-Wise Practice Questions', id: 'topic-wise-questions' },
       { label: 'Current Affairs for SBI PO 2026', id: 'current-affairs' },
       { label: 'Study Material & Strategy', id: 'prep-strategy' },
       { label: 'Previous Year Cut-offs', id: 'cut-offs' },
+      { label: 'SBI PO Prelims Exam Analysis', id: 'exam-analysis' },
       { label: 'Salary & Career Growth', id: 'salary-career' },
       { label: 'Selection Process Deep Dive', id: 'selection-process' },
       { label: 'Why Prepare on PrepBanker?', id: 'platform-features' },
@@ -1027,122 +1032,63 @@ export default function ExamMainLayout({ exam }: Props) {
 
           {/* Section 7: Mock Tests */}
           <section id="mock-tests" className="py-6 scroll-mt-20 border-t border-slate-200">
-            <div className="flex items-center gap-2 mb-3">
-              <Trophy size={22} className="text-[var(--color-gold)]" />
-              <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-850 font-display">
-                {isSbi ? 'SBI PO Mock Tests 2026 — Free & Premium Practice Tests' : 'PrepBanker Mock Tests'}
-              </h3>
-            </div>
-            <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5">
-              {isSbi
-                ? "PrepBanker's SBI PO mock tests are designed by banking exam experts and follow the exact 2026 exam pattern. Each mock test covers all three sections — English, Quant, and Reasoning for Prelims, and all four sections for Mains — with timed conditions, negative marking, and instant performance analytics. Whether you are just starting out or looking to push your score past the cut-off, our SBI PO practice tests give you real exam experience from day one."
-                : `PrepBanker provides detailed full length mock tests matching current difficulty trends for ${exam.shortName}.`}
-            </p>
-
             {isSbi ? (
-              <div className="space-y-6">
-                <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                  <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                    <thead>
-                      <tr className="bg-slate-900 text-white font-bold">
-                        <th className="px-4 py-2.5">Test Type</th>
-                        <th className="px-4 py-2.5">No. of Tests</th>
-                        <th className="px-4 py-2.5">Questions</th>
-                        <th className="px-4 py-2.5">Marks</th>
-                        <th className="px-4 py-2.5">Duration</th>
-                        <th className="px-4 py-2.5">Available</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100 text-slate-650">
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Full Mock Test (Prelims)</td>
-                        <td className="px-4 py-3">20</td>
-                        <td className="px-4 py-3">100</td>
-                        <td className="px-4 py-3">100</td>
-                        <td className="px-4 py-3">60 mins</td>
-                        <td className="px-4 py-3 text-green-600 font-bold">5 Free</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Full Mock Test (Mains)</td>
-                        <td className="px-4 py-3">15</td>
-                        <td className="px-4 py-3">155 + Descriptive</td>
-                        <td className="px-4 py-3">250</td>
-                        <td className="px-4 py-3">210 mins</td>
-                        <td className="px-4 py-3 text-green-600 font-bold">3 Free</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Previous Year Papers (2018–2025)</td>
-                        <td className="px-4 py-3">8</td>
-                        <td className="px-4 py-3">100 / 155</td>
-                        <td className="px-4 py-3">100 / 200</td>
-                        <td className="px-4 py-3">60 / 180 mins</td>
-                        <td className="px-4 py-3 text-green-600 font-bold">2 Free</td>
-                      </tr>
-                      <tr className="bg-slate-50/50">
-                        <td className="px-4 py-3 font-semibold text-slate-800">SBI PO Prelims Speed Tests</td>
-                        <td className="px-4 py-3">10</td>
-                        <td className="px-4 py-3">100</td>
-                        <td className="px-4 py-3">100</td>
-                        <td className="px-4 py-3">45 mins</td>
-                        <td className="px-4 py-3 text-green-600 font-bold">3 Free</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <div className="space-y-3">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Why Practise with PrepBanker's SBI PO Mock Tests?</h4>
-                  <ul className="list-disc list-inside text-slate-650 text-xs sm:text-sm pl-2 space-y-2 font-normal">
-                    <li>Exact replica of SBI's CBT interface so you are never surprised on exam day</li>
-                    <li>Real-time countdown timers with section-switching disabled, just like the actual exam</li>
-                    <li>Detailed post-test analysis — accuracy %, time per question, topic-wise weak areas</li>
-                    <li>Comparison against 50,000+ aspirants to know your true percentile rank</li>
-                    <li>Solutions with shortcut methods for every question so you learn while reviewing</li>
-                    <li>Updated immediately after every official SBI notification change</li>
-                  </ul>
-                </div>
-
-                <div className="bg-blue-50 border border-blue-150 p-4 rounded-xl text-center text-xs sm:text-sm text-slate-700 font-bold">
-                  Take your first SBI PO Full Mock Test free — no login required for the first attempt.
-                </div>
-              </div>
+              <MockTestSnippet />
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
-                <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 1 Preparation</span>
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Prelims Mocks</h4>
-                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
-                    20 high-fidelity test simulations matching the current difficulty trends, designed with sectional timers.
-                  </p>
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-xs font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">5 Mocks Free</span>
-                    <span className="text-xs font-bold text-slate-500">20 Total Mocks</span>
+              <>
+                <div className="flex items-center gap-2 mb-3">
+                  <Trophy size={22} className="text-[var(--color-gold)]" />
+                  <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-850 font-display">
+                    PrepBanker Mock Tests
+                  </h3>
+                </div>
+                <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5">
+                  PrepBanker provides detailed full length mock tests matching current difficulty trends for {exam.shortName}.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
+                  <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 1 Preparation</span>
+                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Prelims Mocks</h4>
+                    <p className="text-slate-650 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
+                      20 high-fidelity test simulations matching the current difficulty trends, designed with sectional timers.
+                    </p>
+                    <div className="mt-4 flex items-center justify-between">
+                      <span className="text-xs font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">5 Mocks Free</span>
+                      <span className="text-xs font-bold text-slate-500">20 Total Mocks</span>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
+                    <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 2 Preparation</span>
+                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Mains Mocks</h4>
+                    <p className="text-slate-650 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
+                      15 advanced level full mocks testing analytical ability and descriptive writing simulation answers.
+                    </p>
+                    <div className="mt-4 flex items-center justify-between">
+                      <span className="text-xs font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">3 Mocks Free</span>
+                      <span className="text-xs font-bold text-slate-500">15 Total Mocks</span>
+                    </div>
                   </div>
                 </div>
-                <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 2 Preparation</span>
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Mains Mocks</h4>
-                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
-                    15 advanced level full mocks testing analytical ability and descriptive writing simulation answers.
-                  </p>
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-xs font-extrabold text-green-600 bg-green-50 border border-green-200 px-2 py-0.5 rounded">3 Mocks Free</span>
-                    <span className="text-xs font-bold text-slate-500">15 Total Mocks</span>
-                  </div>
+                <div className="text-center mt-5">
+                  <a
+                    href="https://app.prepgrind.com/register"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex px-6 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
+                  >
+                    Start Free Mock Test Now →
+                  </a>
                 </div>
-              </div>
+              </>
             )}
-            <div className="text-center mt-5">
-              <a
-                href="https://app.prepgrind.com/register"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex px-6 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
-              >
-                Start Free Mock Test Now →
-              </a>
-            </div>
           </section>
+
+          {/* Section: Previous Year Paper Snapshot */}
+          {isSbi && (
+            <section id="pyq-snapshot" className="py-6 scroll-mt-20 border-t border-slate-200">
+              <PatternSnapshot ctaHref="/sbi-po-previous-year-question-papers" />
+            </section>
+          )}
 
           {/* Section 8: Sectional Tests */}
           <section id="sectional-tests" className="py-6 scroll-mt-20 border-t border-slate-200">
@@ -1887,6 +1833,13 @@ export default function ExamMainLayout({ exam }: Props) {
               </Link>
             </div>
           </section>
+
+          {/* Section: Exam Analysis */}
+          {isSbi && (
+            <section id="exam-analysis" className="py-6 scroll-mt-20 border-t border-slate-200">
+              <ExamAnalysisSection examId={exam.id} />
+            </section>
+          )}
 
           {/* Section 13: Salary & Career Growth */}
           <section id="salary-career" className="py-6 scroll-mt-20 border-t border-slate-200">

@@ -30,6 +30,7 @@ export default function QuickNavigation({ exam, activeSlug }: Props) {
     { slug: 'reasoning-tests', label: 'Reasoning Ability tests' },
     { slug: 'comparison', label: isIbps ? 'IBPS PO vs SBI PO' : 'SBI PO vs IBPS PO' },
     { slug: 'study-plan', label: 'Study Plan' },
+    ...(!isIbps ? [{ slug: 'prelims-exam-analysis', label: 'Prelims Exam Analysis' }] : []),
   ];
 
   return (

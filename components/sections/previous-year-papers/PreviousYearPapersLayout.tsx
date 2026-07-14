@@ -121,10 +121,10 @@ export default function PreviousYearPapersLayout({
 
   return (
     <div className="bg-white text-[var(--color-navy)] min-h-screen font-sans">
-      
+
       {/* ─── Hero Section ────────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-[var(--color-navy-deep)] text-white pt-8 pb-12 sm:pb-16">
-        
+
         {/* Decorative background blobs */}
         <div aria-hidden className="absolute inset-0 pointer-events-none">
           <div
@@ -160,7 +160,7 @@ export default function PreviousYearPapersLayout({
           />
 
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mt-6">
-            
+
             {/* Left Column: Copy info */}
             <div className="flex-1 max-w-3xl">
               {/* Eyebrow badge */}
@@ -242,7 +242,7 @@ export default function PreviousYearPapersLayout({
       {/* ─── PYQ Listing Section ─────────────────────────────────── */}
       <section id="papers-list" className="bg-slate-50 py-16 scroll-mt-20">
         <div className="container-custom">
-          
+
           {/* Screenshot Title and Quiz Button Row */}
           <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
             <h3 className="text-base sm:text-lg font-bold text-[var(--color-navy)] font-display">
@@ -260,7 +260,7 @@ export default function PreviousYearPapersLayout({
 
           {/* Main Card Wrapper (Full Width) */}
           <div className="bg-white border border-[#DFE5EE] rounded-2xl p-6 sm:p-8 shadow-[0_4px_20px_rgba(13,27,62,0.02)] w-full">
-            
+
             {/* Year Selector Row inside the card */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5 mb-6">
               <span className="text-sm font-bold text-[var(--color-navy)]">Select Year</span>
@@ -340,18 +340,17 @@ export default function PreviousYearPapersLayout({
                   className="p-2 rounded border border-slate-200 text-slate-500 hover:bg-slate-100 disabled:opacity-40 disabled:hover:bg-transparent transition-all cursor-pointer bg-white"
                   aria-label="Previous Page"
                 >
-              <ChevronLeft className="w-4 h-4" />
+                  <ChevronLeft className="w-4 h-4" />
                 </button>
 
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
                   <button
                     key={page}
                     onClick={() => setCurrentPage(page)}
-                    className={`w-9 h-9 rounded text-xs font-bold transition-all duration-200 cursor-pointer ${
-                      currentPage === page
+                    className={`w-9 h-9 rounded text-xs font-bold transition-all duration-200 cursor-pointer ${currentPage === page
                         ? 'bg-[#2D3E6B] text-white shadow-xs'
                         : 'border border-slate-200 text-slate-650 hover:bg-slate-100 bg-white'
-                    }`}
+                      }`}
                   >
                     {page}
                   </button>
@@ -377,7 +376,7 @@ export default function PreviousYearPapersLayout({
         <section className="bg-white py-16 border-t border-slate-100">
           <div className="container-custom">
             <div className="w-full">
-              
+
               {/* Rich Text Body */}
               <div className="prose prose-slate max-w-none text-[var(--color-navy)] text-sm sm:text-base leading-relaxed space-y-6">
                 {children}

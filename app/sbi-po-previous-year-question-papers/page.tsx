@@ -358,7 +358,7 @@ export default function SBIPOPapersPage() {
                 Sourced from official SBI recruitment archives. This makes SBI PO one of India's most challenging exams.
               </div>
             </div>
-            
+
             {/* Insights Card */}
             <div className="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-[0_4px_20px_rgba(13,27,62,0.02)]">
               <div>
@@ -437,7 +437,7 @@ export default function SBIPOPapersPage() {
           <p className="text-slate-600 leading-relaxed mb-6 text-sm sm:text-base">
             Reviewing a decade of papers shows a clear trend of shifting from calculation-heavy math to logic-heavy DI, and puzzles combining multiple logics:
           </p>
-          
+
           <div className="relative border-l-2 border-slate-100 pl-6 ml-2.5 my-8 space-y-6">
             {/* Era 1 */}
             <div className="relative group">
@@ -457,7 +457,7 @@ export default function SBIPOPapersPage() {
                 </p>
               </div>
             </div>
-            
+
             {/* Era 2 */}
             <div className="relative group">
               <div className="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full border-4 border-white bg-slate-400 shadow-sm group-hover:scale-125 transition-transform duration-200" />
@@ -473,7 +473,7 @@ export default function SBIPOPapersPage() {
                 </p>
               </div>
             </div>
-            
+
             {/* Era 3 */}
             <div className="relative group">
               <div className="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full border-4 border-white bg-slate-300 shadow-sm group-hover:scale-125 transition-transform duration-200" />

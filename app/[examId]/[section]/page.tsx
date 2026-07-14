@@ -29,6 +29,8 @@ const SECTIONS = [
   'comparison',
   'sbi-po-vs-ibps-po',
   'study-plan',
+  'exam-analysis',
+  'prelims-exam-analysis',
 
   // Legacy compatibility slugs
   'dates',

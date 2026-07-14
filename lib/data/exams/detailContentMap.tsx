@@ -10,6 +10,8 @@ import { sbiPoReasoningSectionalContent } from './sbiPoReasoningSectional';
 import { sbiPoComparisonContent } from './sbiPoComparison';
 import { sbiPoStudyPlanContent } from './sbiPoStudyPlan';
 import { sbiPoEligibilityContent } from './sbiPoEligibility';
+import { sbiPoExamAnalysisContent } from './sbiPoExamAnalysis';
+import { sbiPoPrelimsExamAnalysisContent } from './sbiPoPrelimsExamAnalysis';
 import { ibpsPoData } from './ibps-po';
 import { ibpsPoSalaryContent } from './ibpsPoSalary';
 import { ibpsPoMockTestContent } from './ibpsPoMockTest';
@@ -9066,6 +9068,37 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
       }
       if (examId === 'ibps-po') {
         return ibpsPoComparisonContent;
+      }
+      return undefined;
+    }
+
+    case 'exam-analysis': {
+      if (examId === 'sbi-po') {
+        return sbiPoExamAnalysisContent;
+      }
+      return {
+        title: "IBPS PO Exam Analysis 2026: Shift-wise Difficulty & Good Attempts",
+        overview: "Get live, shift-wise IBPS PO 2026 Prelims exam analysis right here on exam day. Track sectional difficulty levels, subject weightage, and expected good attempts.",
+        ctaText: "Practice IBPS PO Mock Tests",
+        ctaHref: "https://app.prepgrind.com/register",
+        subsections: [
+          {
+            id: "live-updates-ibps",
+            title: "IBPS PO Prelims 2026 Shift-Wise Live Analysis (Upcoming)",
+            content: (
+              <p className="text-slate-650 text-sm leading-relaxed">
+                The IBPS PO 2026 Prelims exam will take place later this year. Live shift analysis, topic weightage, and difficulty reviews will be published within 1-2 hours of each shift ending.
+              </p>
+            )
+          }
+        ],
+        faqs: []
+      };
+    }
+
+    case 'prelims-exam-analysis': {
+      if (examId === 'sbi-po') {
+        return sbiPoPrelimsExamAnalysisContent;
       }
       return undefined;
     }
