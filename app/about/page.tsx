@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { BreadcrumbSchema, WebPageSchema, generatePageMeta } from '@/components/seo';
+import SuccessMetricsTabs from '@/components/sections/about/SuccessMetricsTabs';
 
 export const metadata: Metadata = generatePageMeta({
   title: 'About Us – PrepBanker Team & Mission',
@@ -106,19 +107,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div style={{ maxWidth: '1350px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
-            {[
-              { icon: '🎯', title: 'Curated by Experts', desc: 'Our mock questions and solutions are created by former banking officials and top-ranking teachers.' },
-              { icon: '⚡', title: 'Speed & Accuracy Boost', desc: 'Interactive tools, sectional benchmarks, and timer alerts designed to improve speed and recall.' },
-              { icon: '📊', title: 'Granular Insights', desc: 'We track your progress over days and highlight precisely where you are losing marks to negative scoring.' }
-            ].map((card, idx) => (
-              <div key={idx} style={{ background: '#fff', border: '1px solid #E2E8F0', borderRadius: '18px', padding: '2rem', boxShadow: '0 2px 12px rgba(13,27,62,0.03)', transition: 'all 0.25s' }}>
-                <div style={{ fontSize: '2.5rem', marginBottom: '1.25rem' }}>{card.icon}</div>
-                <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 750, fontSize: '1.15rem', color: '#0D1B3E', marginBottom: '0.5rem' }}>{card.title}</h3>
-                <p style={{ fontSize: '0.9rem', color: '#475569', lineHeight: 1.6 }}>{card.desc}</p>
-              </div>
-            ))}
-          </div>
+          <SuccessMetricsTabs />
         </section>
 
         {/* CTA banner */}
