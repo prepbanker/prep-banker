@@ -187,7 +187,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
               <p className="text-[14px] leading-relaxed text-slate-500 mb-4">Attempt our free challenges and benchmark your rank today.</p>
               <button
                 onClick={() => {
-                  window.open("https://app.prepgrind.com/register", "_blank", "noopener,noreferrer");
+                  window.open("https://app.prepgrind.com/signup/banking", "_blank", "noopener,noreferrer");
                 }}
                 className="inline-flex items-center p-3 gap-1.5 px-4.5 py-2 bg-[var(--color-navy)] hover:bg-[var(--color-navy-light)] text-white text-xs font-bold rounded-xl transition-all shadow-sm active:scale-95"
               >

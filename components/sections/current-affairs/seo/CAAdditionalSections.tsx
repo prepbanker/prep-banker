@@ -112,7 +112,7 @@ export default function CAAdditionalSections({ articles, onSelectCategory }: Pro
                 <div className="flex items-center justify-between border-t border-slate-150 pt-3 mt-4 text-[14px]">
                   <span className="text-slate-400 font-bold">{cap.size}</span>
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href="https://app.prepgrind.com/signup/banking"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-black text-[var(--color-blue)] hover:underline flex items-center gap-0.5"

@@ -283,7 +283,7 @@ export default function ExamTabExplorer() {
                 {/* CTA Button Box (Centered horizontally inside the panel) */}
                 <div className="flex items-center justify-center pt-5 border-t border-slate-100">
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href="https://app.prepgrind.com/signup/banking"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl text-sm font-bold transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5 active:scale-95"
@@ -313,7 +313,7 @@ export default function ExamTabExplorer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                   </svg>
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href="https://app.prepgrind.com/signup/banking"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 font-bold hover:underline"
@@ -322,7 +322,7 @@ export default function ExamTabExplorer() {
                   </a>
                 </div>
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href="https://app.prepgrind.com/signup/banking"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center py-2.5 rounded-xl text-sm font-bold text-center text-slate-800 transition-all duration-200 hover:brightness-105"

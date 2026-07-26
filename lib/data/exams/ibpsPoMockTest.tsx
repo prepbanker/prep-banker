@@ -6,8 +6,8 @@ import type { DetailSectionContent } from './detailContentMap';
 export const ibpsPoMockTestContent: DetailSectionContent = {
   title: "IBPS PO Mock Test 2026: Free Full-Length Tests, Score Analysis & Strategy",
   overview: "PrepBanker's IBPS PO mock test 2026 series offers full-length Prelims and Mains simulations with real sectional time limits, 0.25 negative marking enforced, and detailed post-test analysis. One Prelims mock test is completely free — no signup friction, no payment. Over 10 lakh students appear for IBPS PO each year. A structured mock test strategy is the single most reliable predictor of actual exam performance.",
-  ctaText: "Start Free IBPS PO Mock Test",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaText: "Attempt Free IBPS PO Mock Test",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO Mock Test : Free Full-Length Tests Online",
   metaDescription: "Attempt free IBPS PO mock tests 2026 on PrepBanker — full-length Prelims & Mains simulations with sectional timers, score analysis & topic-wise accuracy.",
   customSchemas: (
@@ -170,7 +170,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
                 "name": "Where can I attempt free IBPS PO mock tests online?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "PrepBanker offers a free full-length IBPS PO Prelims mock test at app.prepgrind.com/register — no payment required. The test includes 100 questions across 3 sections, real-time sectional timers (20 minutes per section), 0.25 negative marking, and detailed post-test analysis with topic-wise accuracy and time-per-question breakdown."
+                  "text": "PrepBanker offers a free full-length IBPS PO Prelims mock test at app.prepgrind.com/signup/ibps-po — no payment required. The test includes 100 questions across 3 sections, real-time sectional timers (20 minutes per section), 0.25 negative marking, and detailed post-test analysis with topic-wise accuracy and time-per-question breakdown."
                 }
               },
               {
@@ -202,7 +202,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
                 "name": "Which is the best free mock test for IBPS PO 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "PrepBanker's free IBPS PO Prelims mock test at app.prepgrind.com/register is a strong starting point — it gives a genuine baseline score with topic-level accuracy data, not just a total score. For serious aspirants, a paid mock test series with 20+ tests and detailed analytics is recommended from 8–10 weeks before the actual exam."
+                  "text": "PrepBanker's free IBPS PO Prelims mock test at app.prepgrind.com/signup/ibps-po is a strong starting point — it gives a genuine baseline score with topic-level accuracy data, not just a total score. For serious aspirants, a paid mock test series with 20+ tests and detailed analytics is recommended from 8–10 weeks before the actual exam."
                 }
               },
               {
@@ -242,7 +242,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
                 "name": "Is PrepBanker IBPS PO mock test free or paid?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "One full-length IBPS PO Prelims mock test is completely free at app.prepgrind.com/register — no credit card or payment needed. Full mock test series (20+ tests), Mains mocks, sectional tests, and DPPs are available in PrepBanker's subscription plans. The free test is enough to establish a real baseline and identify your primary weakness."
+                  "text": "One full-length IBPS PO Prelims mock test is completely free at app.prepgrind.com/signup/ibps-po — no credit card or payment needed. Full mock test series (20+ tests), Mains mocks, sectional tests, and DPPs are available in PrepBanker's subscription plans. The free test is enough to establish a real baseline and identify your primary weakness."
                 }
               }
             ]
@@ -265,7 +265,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
               <li><strong>Negative Marking:</strong> 0.25 per wrong answer (both stages)</li>
               <li><strong>Sections (Prelims):</strong> English (30Q), Quantitative Aptitude (35Q), Reasoning (35Q)</li>
               <li><strong>Sections (Mains):</strong> Reasoning & Computer (45Q, 60M), English (35Q, 40M), DA/DI (35Q, 60M), GEBA (40Q, 40M)</li>
-              <li><strong>Free Mock Test:</strong> Available at <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/register</a></li>
+              <li><strong>Free Mock Test:</strong> Available at <a href="https://app.prepgrind.com/signup/ibps-po" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/signup/ibps-po</a></li>
               <li><strong>Recommended Mocks (Prelims):</strong> Minimum 15 full-length tests</li>
               <li><strong>Recommended Mocks (Mains):</strong> Minimum 10 full-length tests</li>
               <li><strong>Vacancies (2025 cycle):</strong> 5,208 across 11 public sector banks</li>
@@ -525,7 +525,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
                 <li>Full-length Prelims mocks with real 20-minute sectional time locks</li>
                 <li>100 questions, calibrated to IBPS PO paper pattern from 2020–2025</li>
                 <li>Post-test analytics: topic-wise accuracy, time per question, question-difficulty breakdown</li>
-                <li>One test available completely free at <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/register</a></li>
+                <li>One test available completely free at <a href="https://app.prepgrind.com/signup/ibps-po" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/signup/ibps-po</a></li>
               </ul>
             </div>
 
@@ -571,7 +571,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
 
           <div className="space-y-3.5 font-normal text-slate-655 text-xs sm:text-sm leading-relaxed pl-3">
             <p>
-              <strong>Stage 1 — Diagnostic (Week 1):</strong> Register at <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/register</a> and attempt the free IBPS PO Prelims mock test. Don't study before this — the point is a raw baseline. Your score will reveal your strongest and weakest sections immediately. Most first-time takers score 35–55 out of 100. That's expected.
+              <strong>Stage 1 — Diagnostic (Week 1):</strong> Register at <a href="https://app.prepgrind.com/signup/ibps-po" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/signup/ibps-po</a> and attempt the free IBPS PO Prelims mock test. Don't study before this — the point is a raw baseline. Your score will reveal your strongest and weakest sections immediately. Most first-time takers score 35–55 out of 100. That's expected.
             </p>
             <p>
               <strong>Stage 2 — Topic Building (Weeks 2–8):</strong> Use PrepBanker's chapter-wise DPPs for your weak topics. If Reasoning was your lowest section, work through Puzzle DPPs (Easy → Medium → Hard) before touching a full mock again. For Quant, start with DI practice sets since DI is the highest-weight Quant topic in actual IBPS PO papers.
@@ -619,7 +619,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
   faqs: [
     {
       q: "Where can I attempt free IBPS PO mock tests online?",
-      a: "PrepBanker offers a free full-length IBPS PO Prelims mock test at app.prepgrind.com/register — no payment needed. The test has 100 questions across 3 sections with real 20-minute sectional timers, 0.25 negative marking, and detailed post-test analysis. It's a complete simulation, not a sample set or demo."
+      a: "PrepBanker offers a free full-length IBPS PO Prelims mock test at app.prepgrind.com/signup/ibps-po — no payment needed. The test has 100 questions across 3 sections with real 20-minute sectional timers, 0.25 negative marking, and detailed post-test analysis. It's a complete simulation, not a sample set or demo."
     },
     {
       q: "How many mock tests should I give before IBPS PO Prelims?",
@@ -635,7 +635,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
     },
     {
       q: "Which is the best free mock test for IBPS PO 2026?",
-      a: "PrepBanker's free IBPS PO Prelims mock test at app.prepgrind.com/register gives a genuine baseline score with topic-level accuracy data — not just a total score. For a complete preparation journey, a paid mock test series with 20+ full-length mocks, Mains tests, and sectional tests is worth the investment from 8–10 weeks before the exam."
+      a: "PrepBanker's free IBPS PO Prelims mock test at app.prepgrind.com/signup/ibps-po gives a genuine baseline score with topic-level accuracy data — not just a total score. For a complete preparation journey, a paid mock test series with 20+ full-length mocks, Mains tests, and sectional tests is worth the investment from 8–10 weeks before the exam."
     },
     {
       q: "How should I analyse my IBPS PO mock test results?",
@@ -655,7 +655,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
     },
     {
       q: "Is PrepBanker IBPS PO mock test free or paid?",
-      a: "One full-length IBPS PO Prelims mock test is completely free at app.prepgrind.com/register — no credit card or payment information required. Full mock test series (20+ tests), Mains mocks, sectional tests, DPPs, and PYQ sets are available in subscription plans. The free test gives a complete performance snapshot and is enough to build an initial preparation roadmap."
+      a: "One full-length IBPS PO Prelims mock test is completely free at app.prepgrind.com/signup/ibps-po — no credit card or payment information required. Full mock test series (20+ tests), Mains mocks, sectional tests, DPPs, and PYQ sets are available in subscription plans. The free test gives a complete performance snapshot and is enough to build an initial preparation roadmap."
     }
   ]
 };

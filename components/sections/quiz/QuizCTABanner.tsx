@@ -38,7 +38,7 @@ export default function QuizCTABanner() {
           {/* Buttons */}
           <div className="relative z-10 flex flex-col sm:flex-row gap-3 flex-shrink-0">
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl text-sm font-bold text-[var(--color-navy)] whitespace-nowrap transition-all duration-200 hover:-translate-y-0.5 active:scale-95"

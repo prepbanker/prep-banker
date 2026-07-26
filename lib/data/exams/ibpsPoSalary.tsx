@@ -7,7 +7,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
   title: "IBPS PO Salary 2026: In-Hand Pay, Allowances & What You Actually Take Home",
   overview: "An IBPS PO officer's in-hand salary in 2026 is approximately ₹36,000 to ₹42,000 per month, depending on the posting city. The basic pay at joining is ₹23,700. Add Dearness Allowance, HRA, and Special Allowance — gross salary comes to ₹52,000–₹55,000. After NPS deductions and professional tax, the net take-home lands in the ₹36,000–₹42,000 range.",
   ctaText: "Start Free IBPS PO Mock Test",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO Salary : In-Hand Pay, Allowances & Perks",
   metaDescription: "IBPS PO 2026 salary starts at ₹36,000–₹42,000 in-hand per month. See basic pay, DA, HRA, allowances, perks, and how salary grows with promotions.",
   customSchemas: (
@@ -217,7 +217,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
                 "name": "Is PrepBanker free for IBPS PO mock tests?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. PrepBanker offers one free full-length IBPS PO Prelims mock test at app.prepgrind.com/register — no payment or credit card needed. The free test includes real-time sectional timers, score analysis, accuracy breakdown, and topic-wise performance. Additional full mocks, Mains tests, and DPPs are part of paid plans."
+                  "text": "Yes. PrepBanker offers one free full-length IBPS PO Prelims mock test at app.prepgrind.com/signup/ibps-po — no payment or credit card needed. The free test includes real-time sectional timers, score analysis, accuracy breakdown, and topic-wise performance. Additional full mocks, Mains tests, and DPPs are part of paid plans."
                 }
               }
             ]
@@ -788,7 +788,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           <div className="space-y-3.5 font-normal text-slate-600 text-xs sm:text-sm leading-relaxed pl-3">
             <p>
               <strong>Step 1 — Start free, start now.</strong><br />
-              Register at <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/register</a> and attempt the free IBPS PO Prelims mock test. No payment needed. Your score on this test tells you honestly how far you are from a qualifying score of ~70–75 out of 100.
+              Register at <a href="https://app.prepgrind.com/signup/ibps-po" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">app.prepgrind.com/signup/ibps-po</a> and attempt the free IBPS PO Prelims mock test. No payment needed. Your score on this test tells you honestly how far you are from a qualifying score of ~70–75 out of 100.
             </p>
             <p>
               <strong>Step 2 — Identify your three weakest topics.</strong><br />
@@ -876,7 +876,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
     },
     {
       q: "Is PrepBanker free for IBPS PO mock tests?",
-      a: "PrepBanker offers one free full-length IBPS PO Prelims mock test at app.prepgrind.com/register — no payment or credit card required. It includes real-time sectional timers, instant score analysis, accuracy breakdown by topic, and performance comparison. Additional full mocks, Mains tests, sectional tests, and DPPs are part of the paid subscription."
+      a: "PrepBanker offers one free full-length IBPS PO Prelims mock test at app.prepgrind.com/signup/ibps-po — no payment or credit card required. It includes real-time sectional timers, instant score analysis, accuracy breakdown by topic, and performance comparison. Additional full mocks, Mains tests, sectional tests, and DPPs are part of the paid subscription."
     }
   ]
 };

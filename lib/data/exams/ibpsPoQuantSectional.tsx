@@ -7,7 +7,7 @@ export const ibpsPoQuantSectionalContent: DetailSectionContent = {
   title: "IBPS PO Quantitative Aptitude Test 2026 – Attempt Free Sectional Mock",
   overview: "The IBPS PO Quantitative Aptitude section in Prelims has 35 questions worth 35 marks, to be completed in exactly 20 minutes. This page gives you free sectional mock tests built on the latest 2026 exam pattern, chapter-wise practice, PYQ sets, and a topic-wise preparation strategy used by students who've cleared the cutoff.",
   ctaText: "Start Free IBPS PO Quantitative Aptitude Test",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO Quantitative Aptitude Test 2026 – Free Sectional Mock",
   metaDescription: "Attempt free IBPS PO Quantitative Aptitude sectional tests for 2026. 35 questions, 20 minutes, real exam pattern. Identify weak topics and improve your score.",
   customSchemas: (

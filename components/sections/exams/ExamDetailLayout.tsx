@@ -171,8 +171,9 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
           <aside className="sticky top-20 space-y-4">
             <QuickNavigation exam={exam} activeSlug={activeNormalized} />
 
-            {/* Premium Mock Test CTA Banner */}
-            <div className="bg-gradient-to-br from-[#07102A] to-[#1A2D5A] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans">
+            <div className={`bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans ${
+              examId === 'sbi-po' ? 'from-[#030712] to-[#091024]' : 'from-[#07102A] to-[#1A2D5A]'
+            }`}>
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
                 <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
@@ -180,7 +181,11 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href={
+                    examId === 'sbi-po'
+                      ? "https://app.prepgrind.com/signup/sbi-po"
+                      : "https://app.prepgrind.com/signup/ibps-po"
+                  }
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"

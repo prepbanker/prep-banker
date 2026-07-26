@@ -69,7 +69,7 @@ export default function ExamDetailsPage({ exam }: Props) {
 
       {/* ── Shared floating UI ── */}
       {/* <PromoPopup    scrollThreshold={700} delaySeconds={1.2} storageKey="pb_promo_seen" /> */}
-      <StickyLeftCTA href="https://app.prepgrind.com/register" label="Start Preparing Now" topOffset={280} />
+      <StickyLeftCTA href="https://app.prepgrind.com/signup/banking" label="Start Preparing Now" topOffset={280} />
 
       <Header />
       <ExamHero exam={exam} />
@@ -127,7 +127,7 @@ export default function ExamDetailsPage({ exam }: Props) {
                   <div className="epg-sb-divider" />
 
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href="https://app.prepgrind.com/signup/banking"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="epg-sb-cta"
@@ -185,7 +185,7 @@ function BottomCTA({ exam }: { exam: ExamDetailData }) {
 
         <div className="flex gap-2.5 justify-center flex-wrap">
           <a
-            href="https://app.prepgrind.com/register"
+            href="https://app.prepgrind.com/signup/banking"
             target="_blank"
             rel="noopener noreferrer"
             className="epg-btn-gold"

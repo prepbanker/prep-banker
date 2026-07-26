@@ -225,7 +225,7 @@ export default function CurrentAffairsModule() {
               </p>
 
               <a
-                href="https://app.prepgrind.com/register"
+                href="https://app.prepgrind.com/signup/banking"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 block w-full py-2 bg-[#FBBF24] hover:bg-[#F59E0B] text-[#07102A] text-[14px] font-extrabold rounded-lg text-center transition-colors shadow-sm"

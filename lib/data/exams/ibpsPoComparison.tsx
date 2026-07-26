@@ -7,7 +7,7 @@ export const ibpsPoComparisonContent: DetailSectionContent = {
   title: "IBPS PO vs SBI PO 2026 — Which Exam Should You Target?",
   overview: "Both IBPS PO and SBI PO are Probationary Officer exams for public sector banking careers in India, but they differ significantly in difficulty, salary, vacancies, exam pattern, and career trajectory. IBPS PO recruits for 11 public sector banks simultaneously. SBI PO recruits only for State Bank of India — but with higher pay, greater prestige, and faster career growth.",
   ctaText: "Register Free and Start Mock Tests for IBPS PO + SBI PO →",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO vs SBI PO – Key Differences Explained",
   metaDescription: "IBPS PO vs SBI PO 2026: compare exam pattern, difficulty, salary, vacancies, and cut-offs side by side. Find out which exam to attempt first and how to prepare.",
   customSchemas: (

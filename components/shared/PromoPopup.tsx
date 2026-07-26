@@ -119,7 +119,7 @@ export default function PromoPopup({
             </p>
 
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl text-white font-bold text-base no-underline transition-all duration-150 hover:-translate-y-px"

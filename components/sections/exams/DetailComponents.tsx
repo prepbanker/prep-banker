@@ -257,7 +257,7 @@ export function DatesTimeline({ events }: { events: TimelineEvent[] }) {
           <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
             <span>Verify timings on the official portal.</span>
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-[#1B6EB5] hover:underline flex items-center gap-0.5"

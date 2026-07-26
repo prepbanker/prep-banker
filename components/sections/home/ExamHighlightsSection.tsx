@@ -186,7 +186,7 @@ export default function ExamHighlightsSection() {
                     Explore Exam
                   </a>
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href="https://app.prepgrind.com/signup/banking"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={[

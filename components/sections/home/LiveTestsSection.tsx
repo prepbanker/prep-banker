@@ -344,7 +344,7 @@ export default function LiveTestsSection() {
                 {/* CTA Button */}
                 <div className="px-[0.85rem] pb-[0.85rem]">
                   <a
-                    href={isExpired ? undefined : 'https://app.prepgrind.com/register'}
+                    href={isExpired ? undefined : 'https://app.prepgrind.com/signup/banking'}
                     target={isExpired ? undefined : '_blank'}
                     rel="noopener noreferrer"
                     aria-disabled={isExpired}

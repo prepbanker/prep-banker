@@ -299,7 +299,7 @@ export default function WhyPrepBankerSection() {
               }}
             />
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center gap-2.5 px-9 py-4 rounded-[50px] font-bold text-[1rem] text-white overflow-hidden"

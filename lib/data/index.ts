@@ -27,7 +27,6 @@ export const navLinks: NavLink[] = [
       { label: 'IBPS PO Papers', href: '/ibps-po-previous-year-question-papers' },
     ],
   },
-  { label: 'Current Affairs', href: '/current-affairs' },
   {
     label: 'Quiz',
     href: '/quiz',

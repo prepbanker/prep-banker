@@ -73,7 +73,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         metaTitle: "IBPS PO Eligibility : Age, Qualification & Criteria",
         metaDescription: "Check IBPS PO 2026 eligibility — age limit 20–30 years, graduation required, Indian nationality. See relaxations, attempts limit & start your free mock test.",
         ctaText: "Start Free IBPS PO Mock Test",
-        ctaHref: "https://app.prepgrind.com/register",
+        ctaHref: "https://app.prepgrind.com/signup/ibps-po",
         customSchemas: (
           <>
             {/* BreadcrumbList Schema */}
@@ -870,12 +870,12 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'syllabus': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Syllabus 2026 – Prelims & Mains Topic-Wise Guide`,
-          overview: `The SBI PO 2026 syllabus covers three stages: Prelims (English, Quantitative Aptitude, Reasoning — 100 marks, 60 minutes), Mains (four objective sections totalling 200 marks + a 50-mark Descriptive Test), and a GD + Interview round. The official syllabus has no major structural change from 2025. Every topic you need to cover — including Descriptive Test and Computer Aptitude — is detailed below.`,
-          metaTitle: `SBI PO Syllabus 2026 – Prelims & Mains Topic-Wise Guide`,
-          metaDescription: `Complete SBI PO Syllabus 2026 for Prelims and Mains: topic-wise breakdown, weightage, exam pattern, and free mock tests on PrepBanker to practice every section.`,
-          ctaText: `Download Syllabus & Start Practice`,
-          ctaHref: `https://prepbanker.com/sbi-po/mock-test`,
+          title: "SBI PO Syllabus 2026: Prelims & Mains Topic-Wise",
+          overview: "Complete topic-wise syllabus for SBI PO 2026 covering English, Quantitative Aptitude, Reasoning, General Economy, Computer Aptitude and Descriptive writing.",
+          metaTitle: "SBI PO Syllabus 2026: Prelims & Mains Topic-Wise PDF",
+          metaDescription: "Complete SBI PO Syllabus 2026 for Prelims & Mains — topic-wise weightage for English, Quant, Reasoning, Banking Awareness & Descriptive test. PDF inside.",
+          ctaText: "Attempt Free SBI PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/sbi-po",
           customSchemas: (
             <>
               {/* BreadcrumbList Schema */}
@@ -886,63 +886,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "@context": "https://schema.org",
                     "@type": "BreadcrumbList",
                     "itemListElement": [
-                      {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://prepbanker.com"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "SBI PO",
-                        "item": "https://prepbanker.com/sbi-po"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "SBI PO Syllabus 2026",
-                        "item": "https://prepbanker.com/sbi-po/syllabus"
-                      }
-                    ]
-                  })
-                }}
-              />
-              {/* WebPage Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "WebPage",
-                    "name": "SBI PO Syllabus 2026 – Complete Prelims & Mains Topic-Wise Guide",
-                    "url": "https://prepbanker.com/sbi-po/syllabus",
-                    "description": "Complete SBI PO Syllabus 2026 covering all Prelims and Mains topics with section-wise weightage, exam pattern, descriptive test guide, and preparation strategy.",
-                    "inLanguage": "en-IN",
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-06-10",
-                    "publisher": {
-                      "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com"
-                    }
-                  })
-                }}
-              />
-              {/* Organization Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "name": "PrepBanker",
-                    "url": "https://prepbanker.com",
-                    "logo": "https://prepbanker.com/logo.png",
-                    "description": "PrepBanker is India's dedicated banking exam preparation platform offering mock tests, sectional tests, PYQ sets, DPPs, and chapter-wise quizzes for SBI PO, IBPS PO, RBI Grade B, and all major banking exams.",
-                    "sameAs": [
-                      "https://www.youtube.com/@prepbanker",
-                      "https://t.me/prepbanker"
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Syllabus", "item": "https://prepbanker.com/sbi-po/syllabus" }
                     ]
                   })
                 }}
@@ -954,49 +900,39 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Article",
-                    "headline": "SBI PO Syllabus 2026 – Complete Prelims and Mains Topic-Wise Guide with Weightage",
-                    "url": "https://prepbanker.com/sbi-po/syllabus",
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-06-10",
-                    "author": {
-                      "@type": "Organization",
-                      "name": "PrepBanker Editorial Team"
-                    },
+                    "headline": "SBI PO Syllabus 2026: Prelims & Mains Topic-Wise",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
                     "publisher": {
                       "@type": "Organization",
                       "name": "PrepBanker",
-                      "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://prepbanker.com/logo.png"
-                      }
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
                     },
-                    "description": "Detailed SBI PO 2026 syllabus for Prelims (English, Quant, Reasoning) and Mains (DA&I, Reasoning & Computer, GA & Banking, English, Descriptive) with topic weightage and preparation tips.",
                     "mainEntityOfPage": "https://prepbanker.com/sbi-po/syllabus"
                   })
                 }}
               />
-              {/* Course Schema */}
+              {/* LearningResource Schema */}
               <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Course",
-                    "name": "SBI PO Complete Preparation Course 2026",
-                    "description": "Full preparation course for SBI PO 2026 covering Prelims and Mains syllabus — mock tests, sectional tests, chapter-wise quizzes, PYQ sets, and DPPs for every topic.",
-                    "provider": {
-                      "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com"
-                    },
-                    "url": "https://prepbanker.com/sbi-po",
-                    "educationalLevel": "Undergraduate",
-                    "teaches": "SBI PO Prelims: English Language, Quantitative Aptitude, Reasoning Ability. SBI PO Mains: Data Analysis and Interpretation, Reasoning and Computer Aptitude, General Economy and Banking Awareness, English Language, Descriptive Writing.",
-                    "hasCourseInstance": {
-                      "@type": "CourseInstance",
-                      "courseMode": "online",
-                      "inLanguage": "en-IN"
-                    }
+                    "@type": "LearningResource",
+                    "name": "SBI PO Syllabus 2026",
+                    "description": "Complete topic-wise syllabus for SBI PO Prelims, Mains, Descriptive Test, Psychometric Test and Interview.",
+                    "educationalLevel": "Competitive Banking Exam",
+                    "teaches": [
+                      "English Language",
+                      "Quantitative Aptitude",
+                      "Reasoning Ability",
+                      "Data Analysis & Interpretation",
+                      "Banking & Economy Awareness",
+                      "Computer Aptitude",
+                      "Descriptive Writing"
+                    ],
+                    "provider": { "@type": "Organization", "name": "PrepBanker", "url": "https://prepbanker.com" }
                   })
                 }}
               />
@@ -1010,91 +946,53 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "mainEntity": [
                       {
                         "@type": "Question",
-                        "name": "What is the complete SBI PO syllabus for 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The SBI PO 2026 syllabus covers two stages. Prelims includes English Language, Quantitative Aptitude, and Reasoning Ability (100 questions, 100 marks, 60 minutes). Mains includes Data Analysis and Interpretation, Reasoning and Computer Aptitude, General Economy and Banking Awareness, English Language (200 marks, 3 hours), and a Descriptive Test (Letter Writing and Essay, 50 marks, 30 minutes)."
-                        }
+                        "name": "What is the syllabus for SBI PO Prelims 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI PO Prelims covers three sections: English Language, Quantitative Aptitude, and Reasoning Ability." }
                       },
                       {
                         "@type": "Question",
-                        "name": "Is the SBI PO syllabus the same as IBPS PO?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The SBI PO and IBPS PO syllabi are broadly similar — both test Reasoning, Quant, English, and GA. Key differences: SBI PO Mains includes a Descriptive Test (Letter and Essay) and a Group Exercise and Interview round with a Psychometric Test. IBPS PO does not include Group Exercise. SBI PO is generally considered slightly more difficult at the Mains level."
-                        }
+                        "name": "What is the syllabus for SBI PO Mains 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI PO Mains covers Reasoning & Computer Aptitude, Data Analysis & Interpretation, General/Economy/Banking Awareness, and English Language, plus a separate Descriptive Test." }
                       },
                       {
                         "@type": "Question",
-                        "name": "Which topics carry the most marks in SBI PO Mains?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Reasoning and Computer Aptitude (60 marks) and Data Analysis and Interpretation (60 marks) carry the most weight in SBI PO Mains objective paper. Together they make up 120 of the 200 objective marks. These two sections also have the highest difficulty level and their sectional cut-offs are critical to clear. Prioritise these above General Awareness in Mains preparation."
-                        }
+                        "name": "Has the SBI PO Syllabus changed for 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The overall syllabus structure is unchanged; the main revision is the Descriptive Test marks being reduced from 50 to 30." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What type of questions come in SBI PO Prelims Reasoning?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO Prelims Reasoning includes Puzzles and Seating Arrangements (which typically form 50–60% of the section), Syllogisms, Blood Relations, Direction Sense, Coding-Decoding, Inequality, and Input-Output. Puzzles and Seating Arrangements are the highest-priority topic — expect 3–5 sets of 4–5 questions each in a 35-question section."
-                        }
+                        "name": "What topics are covered in the SBI PO Descriptive Test?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Email Writing, Situation Analysis Writing, and Report or Precis Writing." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What topics are there in SBI PO Quantitative Aptitude for Prelims?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO Prelims Quant covers: Data Interpretation (tabular, bar, line, pie charts), Number Series, Simplification and Approximation, Quadratic Equations, and Arithmetic topics including Percentage, Profit and Loss, Time and Work, Time-Speed-Distance, Simple and Compound Interest, Ratio and Proportion, and Mixtures. DI typically accounts for 10–15 questions in a 35-question section."
-                        }
+                        "name": "Which is the highest-weightage topic in SBI PO Prelims Reasoning?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Puzzles and Seating Arrangement carry the highest weightage, typically 15 to 20 questions out of 30." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the SBI PO Descriptive Test syllabus?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The SBI PO Descriptive Test is conducted immediately after Mains for 50 marks in 30 minutes. It has two questions: one Essay (250–300 words) and one Letter (Formal or Informal). Topics are usually current affairs, banking and economy, social issues, and general themes. You must type your answers on the computer — handwriting is not involved."
-                        }
+                        "name": "Is there a fixed syllabus for the SBI PO Interview?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, the interview has no fixed syllabus. It assesses banking awareness, current affairs, communication skills, and personal suitability for an officer role." }
                       },
                       {
                         "@type": "Question",
-                        "name": "How many topics are there in SBI PO General Awareness section?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The SBI PO Mains GA section is titled 'General Economy and Banking Awareness' and carries 40 marks (40 questions in 35 minutes). It covers Current Affairs (last 6 months), Banking and Financial Awareness, Government Schemes, Static GK, and the Indian Economy. Banking awareness — RBI policies, financial terminology, banking history — typically accounts for 40–50% of this section."
-                        }
+                        "name": "What does the SBI PO Computer Aptitude syllabus include?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Computer Fundamentals, Hardware, Software, Operating Systems, Networking, Internet, Cyber Security basics, MS Office, and Database basics." }
                       },
                       {
                         "@type": "Question",
-                        "name": "Is Computer Knowledge a separate section in SBI PO Mains?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "No, Computer Knowledge is not a standalone section in SBI PO Mains. It is merged with Reasoning under the section titled 'Reasoning and Computer Aptitude' (45 questions, 60 marks, 60 minutes). Computer topics include MS Office, Operating Systems, Internet Basics, Networking, Computer Hardware, and Database Fundamentals. Typically, 5–10 questions in this section are computer-based."
-                        }
+                        "name": "How many questions come from Data Interpretation in SBI PO Prelims?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Data Interpretation typically carries 10 to 15 questions in the Quantitative Aptitude section of Prelims." }
                       },
                       {
                         "@type": "Question",
-                        "name": "How should I divide my study time across SBI PO syllabus topics?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "For Prelims: spend 40% of study time on Reasoning (especially Puzzles), 35% on Quant (DI + Arithmetic), and 25% on English. For Mains: Reasoning and Computer Aptitude and Data Analysis together deserve roughly 55% of your time, given their 120-mark combined weight. GA preparation should run in parallel — a daily 15-minute current affairs habit beats last-minute cramming."
-                        }
+                        "name": "What does the SBI PO Psychometric Test evaluate?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "It evaluates personality traits such as leadership, integrity, emotional intelligence, teamwork, decision-making, and adaptability." }
                       },
                       {
                         "@type": "Question",
-                        "name": "Does PrepBanker cover the full SBI PO syllabus in mock tests?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes. PrepBanker's SBI PO mock tests cover every topic in both Prelims and Mains syllabi, including the Descriptive Test section. Each mock mirrors the exact SBI PO exam pattern — section-wise time limits, negative marking, and question type distribution. Sectional tests and chapter-wise quizzes let you drill specific syllabus topics independently."
-                        }
-                      },
-                      {
-                        "@type": "Question",
-                        "name": "Has the SBI PO syllabus changed for 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "No major structural change has been officially announced for the SBI PO 2026 syllabus as of June 2026. The core topic structure — Prelims (English, Quant, Reasoning) and Mains (DA&I, Reasoning + Computer, GA & Banking, English, Descriptive) — remains consistent. Minor adjustments in question type distribution occasionally occur and are best tracked through PYQ analysis on PrepBanker."
-                        }
+                        "name": "Where can I download the SBI PO Syllabus 2026 PDF?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The complete topic-wise SBI PO Syllabus 2026 PDF is available for download directly on this page." }
                       }
                     ]
                   })
@@ -1104,635 +1002,34 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           ),
           subsections: [
             {
-              id: 'syllabus-snapshot',
-              title: 'SBI PO 2026 — Syllabus Snapshot',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    A brief snapshot of the SBI PO 2026 syllabus parameters is tabulated below:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Parameter</th>
-                          <th className="px-4 py-2.5">Details</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Exam Name</td>
-                          <td className="px-4 py-3">SBI PO (Probationary Officer Recruitment)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Conducting Body</td>
-                          <td className="px-4 py-3">State Bank of India</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Sections</td>
-                          <td className="px-4 py-3">English Language, Quantitative Aptitude, Reasoning Ability</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Total</td>
-                          <td className="px-4 py-3">100 questions | 100 marks | 60 minutes</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Objective Sections</td>
-                          <td className="px-4 py-3">4 sections | 200 marks | 3 hours</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Descriptive Test</td>
-                          <td className="px-4 py-3">2 questions (Essay + Letter) | 50 marks | 30 minutes</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Phase 3</td>
-                          <td className="px-4 py-3">Group Exercise (20 marks) + Interview (30 marks) + Psychometric Test</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Negative Marking</td>
-                          <td className="px-4 py-3">0.25 marks per wrong answer (Prelims and Mains)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Sectional Cut-offs</td>
-                          <td className="px-4 py-3">No cut-offs in Prelims; sectional cut-offs apply in Mains</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Medium</td>
-                          <td className="px-4 py-3">Online (Computer-Based Test)</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'what-syllabus-covers',
-              title: 'What Does the SBI PO Syllabus 2026 Actually Cover?',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    Before you make a study plan, you need to understand the full scope. Many students underestimate the Mains syllabus because they see &quot;4 sections&quot; and think it&apos;s manageable. It is — but only if you know exactly what&apos;s inside each section.
-                  </p>
-                  <p>
-                    The SBI PO exam has two distinct syllabi: one for Prelims and a significantly more demanding one for Mains. Prelims is a qualifier — your marks don&apos;t count toward final selection. Mains is where the real competition begins.
-                  </p>
-                  <p>
-                    Here&apos;s the top-level structure:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Stage</th>
-                          <th className="px-4 py-2.5">Sections</th>
-                          <th className="px-4 py-2.5">Total Marks</th>
-                          <th className="px-4 py-2.5">Duration</th>
-                          <th className="px-4 py-2.5">Cut-off Type</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims</td>
-                          <td className="px-4 py-3">3 (English, Quant, Reasoning)</td>
-                          <td className="px-4 py-3">100</td>
-                          <td className="px-4 py-3">60 mins</td>
-                          <td className="px-4 py-3">Overall only</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Objective</td>
-                          <td className="px-4 py-3">4 (DA&amp;I, Reasoning+CA, GA&amp;BA, English)</td>
-                          <td className="px-4 py-3">200</td>
-                          <td className="px-4 py-3">3 hours</td>
-                          <td className="px-4 py-3">Sectional + Overall</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Descriptive</td>
-                          <td className="px-4 py-3">1 (Essay + Letter Writing)</td>
-                          <td className="px-4 py-3">50</td>
-                          <td className="px-4 py-3">30 mins</td>
-                          <td className="px-4 py-3">Qualifying</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Phase 3</td>
-                          <td className="px-4 py-3">Group Exercise + Interview</td>
-                          <td className="px-4 py-3">50</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">Qualifying</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <p className="mt-2 text-sm text-slate-500">
-                    A critical point many students miss: Prelims marks are <strong>not counted</strong> in the final merit list. Your score in Mains (scaled to 75 marks out of 250) and Phase 3 (scaled to 25 marks out of 50) make up your final 100-mark score. This means putting all your preparation focus on Prelims is a strategic mistake.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'prelims-syllabus',
-              title: 'SBI PO Prelims Syllabus 2026 — Section by Section',
-              content: (
-                <div className="space-y-6 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    Prelims has three sections, each with a fixed time limit. You cannot move between sections before your allotted time ends.
-                  </p>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">English Language (30 Questions | 30 Marks | 20 Minutes)</h4>
-                    <p className="mb-2">
-                      English is the only section where the question count equals the marks directly — 1 mark per question. The topics covered:
-                    </p>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-650">
-                      <li><strong>Reading Comprehension</strong> — 1–2 passages, 5–10 questions. Topics: banking, economy, social issues, environment.</li>
-                      <li><strong>Error Detection / Spotting</strong> — Identify grammatically incorrect parts of a sentence.</li>
-                      <li><strong>Sentence Improvement / Correction</strong> — Choose the best alternative for an underlined phrase.</li>
-                      <li><strong>Fill in the Blanks</strong> — Single or double blanks; vocabulary and grammar-based.</li>
-                      <li><strong>Para Jumbles</strong> — Rearrange 4–6 sentences into a coherent paragraph.</li>
-                      <li><strong>Cloze Test</strong> — A passage with blanks; choose the most contextually appropriate word.</li>
-                      <li><strong>Word Usage / Vocabulary</strong> — Synonyms, antonyms, contextual word meaning.</li>
-                    </ul>
-                    <p className="mt-2">
-                      <strong>What actually shows up most often:</strong> Reading Comprehension takes up 5–8 questions in most recent papers. Error Detection and Cloze Tests are consistent fixtures. Para Jumbles appear in most papers.
-                    </p>
-                    <HighlightBox type="info" title="Pro Tip">
-                      In Prelims English, speed matters more than depth. The RC passages are shorter than Mains. Don&apos;t spend more than 6–7 minutes on a single RC passage. If a grammar question isn&apos;t clear in 30 seconds, skip it and return. Missing 4–5 English questions won&apos;t cost you the cut-off; mismanaging time will.
-                    </HighlightBox>
-                  </div>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Quantitative Aptitude (35 Questions | 35 Marks | 20 Minutes)</h4>
-                    <p className="mb-2">
-                      Thirty-five questions in 20 minutes means you have roughly 34 seconds per question on average. This is the most time-pressured section in Prelims.
-                    </p>
-                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[400px]">
-                        <thead>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <th className="px-4 py-2.5">Topic</th>
-                            <th className="px-4 py-2.5">Approx. Questions</th>
-                            <th className="px-4 py-2.5">Priority</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-slate-650">
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Data Interpretation (DI)</td>
-                            <td className="px-4 py-3">10–15</td>
-                            <td className="px-4 py-3 text-rose-600 font-bold">Very High</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Number Series</td>
-                            <td className="px-4 py-3">5</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Simplification / Approximation</td>
-                            <td className="px-4 py-3">5–7</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Quadratic Equations</td>
-                            <td className="px-4 py-3">5</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Arithmetic (Percentage, P&amp;L, SI/CI, TW, TSD, etc.)</td>
-                            <td className="px-4 py-3">5–10</td>
-                            <td className="px-4 py-3 text-slate-500">Medium–High</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <p className="text-sm">
-                      <strong>DI formats you&apos;ll see:</strong> Tabular, Bar Graph, Line Graph, Pie Chart, and occasionally Caselet DI. In recent SBI PO papers, Caselet DI (paragraph-based data) has appeared more frequently.
-                    </p>
-                    <p className="text-sm mt-1">
-                      <strong>Arithmetic topics to prioritise:</strong> Percentage and Profit-Loss form the base for most DI questions. Get these right first. Time and Work, Time-Speed-Distance, and Simple &amp; Compound Interest are high-frequency arithmetic topics.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Reasoning Ability (35 Questions | 35 Marks | 20 Minutes)</h4>
-                    <p className="mb-2">
-                      Puzzles dominate this section. Puzzles and Seating Arrangements alone account for 15–20 of the 35 questions.
-                    </p>
-                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[400px]">
-                        <thead>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <th className="px-4 py-2.5">Topic</th>
-                            <th className="px-4 py-2.5">Approx. Questions</th>
-                            <th className="px-4 py-2.5">Priority</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-slate-650">
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Puzzles and Seating Arrangements</td>
-                            <td className="px-4 py-3">15–20</td>
-                            <td className="px-4 py-3 text-rose-600 font-bold">Critical</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Syllogisms</td>
-                            <td className="px-4 py-3">3–5</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Blood Relations</td>
-                            <td className="px-4 py-3">2–3</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Direction Sense</td>
-                            <td className="px-4 py-3">2–3</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Inequality</td>
-                            <td className="px-4 py-3">3–5</td>
-                            <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Coding-Decoding</td>
-                            <td className="px-4 py-3">3–4</td>
-                            <td className="px-4 py-3 text-slate-500">Medium</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Input-Output</td>
-                            <td className="px-4 py-3">0–5</td>
-                            <td className="px-4 py-3 text-slate-500">Medium</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    <p className="text-sm">
-                      <strong>Types of puzzles to practice:</strong> Linear Seating, Circular Seating, Floor-based Puzzles, Box Puzzles, Day/Month-based Scheduling, and Order-Ranking combinations. In recent years, SBI PO has introduced hybrid puzzles combining two logic types — practice these specifically.
-                    </p>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'mains-syllabus',
-              title: 'SBI PO Mains Syllabus 2026 — The Real Test Begins Here',
-              content: (
-                <div className="space-y-6 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    Mains is where the syllabus expands significantly and where the difference between a well-prepared aspirant and the rest becomes visible.
-                  </p>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Data Analysis and Interpretation (35 Questions | 60 Marks | 45 Minutes)</h4>
-                    <p>
-                      This is the upgraded version of Prelims Quant — same topics, higher difficulty, more calculation-heavy. At 60 marks, it is the joint-highest-weighted section in Mains.
-                    </p>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600 mt-2">
-                      <li><strong>Data Interpretation:</strong> Tabular, Bar Graph, Line Graph, Pie Chart, Caselet, Mixed/Combined DI sets</li>
-                      <li><strong>Data Sufficiency &amp; Quantity Comparison</strong></li>
-                      <li><strong>Probability &amp; Permutation-Combination</strong></li>
-                      <li><strong>Arithmetic Series:</strong> Advanced pattern recognition and missing values</li>
-                    </ul>
-                    <p className="mt-2 text-sm">
-                      <strong>What&apos;s different from Prelims:</strong> The DI sets in Mains involve two-step calculations, multi-graph comparisons, and data with missing values. Probability and Permutation-Combination questions appear regularly in Mains but rarely in Prelims.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Reasoning and Computer Aptitude (45 Questions | 60 Marks | 60 Minutes)</h4>
-                    <p>
-                      The largest section by question count and joint-highest by marks. This section combines advanced Reasoning with Computer Knowledge topics.
-                    </p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-3">
-                      <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                        <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Advanced Reasoning</h5>
-                        <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
-                          <li>Complex multi-constraint Puzzles</li>
-                          <li>Advanced Seating Arrangements</li>
-                          <li>Critical Reasoning (inferences, assumptions)</li>
-                          <li>Advanced Input-Output patterns</li>
-                          <li>Coded Blood Relations &amp; Directions</li>
-                        </ul>
-                      </div>
-                      <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                        <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Computer Aptitude</h5>
-                        <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
-                          <li>Hardware &amp; OS fundamentals</li>
-                          <li>MS Office basics</li>
-                          <li>Networking &amp; Internet protocols</li>
-                          <li>Database basics</li>
-                          <li>Binary Arithmetic &amp; Logic gates</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <p className="text-xs text-slate-500">
-                      *Computer questions in Mains typically number 5–10 out of 45 — don&apos;t overprepare this sub-topic at the cost of Reasoning.*
-                    </p>
-                  </div>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">General Economy and Banking Awareness (40 Questions | 40 Marks | 35 Minutes)</h4>
-                    <p className="mb-2">
-                      This section tests banking and financial awareness alongside static economic data.
-                    </p>
-                    <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
-                      <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                        <thead>
-                          <tr className="bg-slate-900 text-white font-bold">
-                            <th className="px-4 py-2.5">Sub-topic</th>
-                            <th className="px-4 py-2.5">Estimated Share</th>
-                            <th className="px-4 py-2.5">Examples</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-slate-650">
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Current Affairs (last 6 months)</td>
-                            <td className="px-4 py-3">30–40%</td>
-                            <td className="px-4 py-3">National/international news, appointments, summits</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Banking &amp; Financial Awareness</td>
-                            <td className="px-4 py-3">35–45%</td>
-                            <td className="px-4 py-3">RBI policies, rates, monetary policy tools, terms</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Indian Economy</td>
-                            <td className="px-4 py-3">10–15%</td>
-                            <td className="px-4 py-3">GDP, inflation, Union Budget highlights</td>
-                          </tr>
-                          <tr className="bg-slate-50/50">
-                            <td className="px-4 py-3 font-semibold text-slate-800">Government Schemes</td>
-                            <td className="px-4 py-3">10–15%</td>
-                            <td className="px-4 py-3">PMJDY, PM SVANidhi, PMJJBY, APY</td>
-                          </tr>
-                          <tr>
-                            <td className="px-4 py-3 font-semibold text-slate-800">Static GK</td>
-                            <td className="px-4 py-3">5–10%</td>
-                            <td className="px-4 py-3">Bank HQs, taglines, important acts</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">English Language — Mains (35 Questions | 40 Marks | 40 Minutes)</h4>
-                    <p className="mb-2">
-                      Mains English is layout-intensive and vocabulary-heavy.
-                    </p>
-                    <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
-                      <li><strong>Reading Comprehension</strong> (2 passages, 10–15 questions)</li>
-                      <li><strong>Error Detection</strong> (complex multi-clause sentences)</li>
-                      <li><strong>Para Jumbles</strong> (longer paragraphs, 6–8 sentences)</li>
-                      <li><strong>Sentence Connectors / Rearrangement &amp; Column Match</strong></li>
-                      <li><strong>Word Usage in Context &amp; Odd Sentence Out</strong></li>
-                    </ul>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'descriptive-syllabus-detailed',
-              title: 'SBI PO Descriptive Test Syllabus 2026',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    The Descriptive Test runs for 30 minutes immediately after the objective Mains test ends. You cannot rest between them.
-                  </p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
-                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2 text-[#1B6EB5]">Essay Writing (1 Question, 25 Marks)</h4>
-                      <p className="text-xs text-slate-600 leading-relaxed">
-                        Expected length: ~250–300 words. Focuses on banking &amp; economic topics, social issues, or current affairs-based prompts. Examples: Financial Inclusion, Digital Banking, Impact of AI on Employment, Climate Change.
-                      </p>
-                    </div>
-                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2 text-[#1B6EB5]">Letter Writing (1 Question, 25 Marks)</h4>
-                      <p className="text-xs text-slate-600 leading-relaxed">
-                        Expected length: ~150–200 words. Formal Letter (to bank manager requesting loan waiver, complaint about fraud, newspaper editor) or Informal Letter (friend, family).
-                      </p>
-                    </div>
-                  </div>
-                  <HighlightBox type="success" title="Topper Typing Tips & Best Practices">
-                    Always practice typing essay drafts on a physical desktop QWERTY keyboard. The computer keys at exam centers are typically stiffer than laptop keyboards. Maintain strict word limits and divide paragraphs logically with correct syntax. Structure beats content — a clear introduction, 2-3 body paragraphs, and a crisp conclusion outscores a rambling attempt.
-                  </HighlightBox>
-                </div>
-              )
-            },
-            {
-              id: 'priority-matrix',
-              title: 'Topic-Wise Priority: Where to Spend Your Time',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    This is the practical part. Not all syllabus topics are created equal. Here&apos;s a prioritised view based on historical question frequency:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Topic</th>
-                          <th className="px-4 py-2.5">Stage</th>
-                          <th className="px-4 py-2.5">Marks Weight</th>
-                          <th className="px-4 py-2.5">Priority</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Puzzles and Seating Arrangements</td>
-                          <td className="px-4 py-3">Prelims + Mains</td>
-                          <td className="px-4 py-3">High (15-20 Qs)</td>
-                          <td className="px-4 py-3 text-rose-600 font-bold">Critical</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Data Interpretation</td>
-                          <td className="px-4 py-3">Prelims + Mains</td>
-                          <td className="px-4 py-3">Very High (10-15 Qs)</td>
-                          <td className="px-4 py-3 text-rose-600 font-bold">Critical</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Reading Comprehension</td>
-                          <td className="px-4 py-3">Prelims + Mains</td>
-                          <td className="px-4 py-3">High (5-10 Qs)</td>
-                          <td className="px-4 py-3 text-rose-600 font-bold">Critical</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Arithmetic (Percentage, P&amp;L, SI/CI)</td>
-                          <td className="px-4 py-3">Prelims + Mains</td>
-                          <td className="px-4 py-3">Medium</td>
-                          <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Banking Awareness &amp; Current Affairs</td>
-                          <td className="px-4 py-3">Mains</td>
-                          <td className="px-4 py-3">High (40 marks)</td>
-                          <td className="px-4 py-3 text-amber-600 font-bold">High</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Descriptive Writing</td>
-                          <td className="px-4 py-3">Mains</td>
-                          <td className="px-4 py-3">50 marks</td>
-                          <td className="px-4 py-3 text-slate-500">Medium</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Computer Aptitude</td>
-                          <td className="px-4 py-3">Mains</td>
-                          <td className="px-4 py-3">Low-Medium</td>
-                          <td className="px-4 py-3 text-slate-500">Medium</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'syllabus-study-plan',
-              title: 'Step-by-Step SBI PO 2026 Preparation Plan Based on the Syllabus',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    A syllabus without a preparation order is just a list. Here&apos;s how to work through it systematically:
-                  </p>
-                  <ol className="list-decimal list-inside space-y-3.5 pl-3">
-                    <li>
-                      <strong>Audit your current level first.</strong> Attempt a free SBI PO Prelims mock on PrepBanker without preparing anything. Your section-wise score tells you which topics are gaps vs. which are strengths. This stops you wasting time on topics you already know.
-                    </li>
-                    <li>
-                      <strong>Build your Reasoning foundation: Puzzles first.</strong> Spend your first two weeks on Puzzles and Seating Arrangements exclusively. Practice 3–4 puzzle sets daily. This single investment pays off across both Prelims and Mains.
-                    </li>
-                    <li>
-                      <strong>Tackle Quant in order: DI → Number Series → Simplification → Arithmetic.</strong> DI is both the highest-weightage Quant topic and the most learnable through pattern practice. Number Series is almost entirely pattern-recognition — 2 weeks of daily practice can make it a consistent scoring topic.
-                    </li>
-                    <li>
-                      <strong>Cover English consistently, not in bursts.</strong> Read one editorial-level article daily (The Hindu, LiveMint, or Business Standard). This builds RC speed, vocabulary, and writing fluency for the Descriptive Test simultaneously.
-                    </li>
-                    <li>
-                      <strong>Start current affairs 6 months before Mains.</strong> If Mains is in October, begin tracking banking and financial news from April. A daily 15-minute current affairs habit is far more effective than binge-studying.
-                    </li>
-                    <li>
-                      <strong>Attempt sectional tests mid-preparation.</strong> Once you&apos;ve covered core topics, test them under timed conditions using PrepBanker&apos;s sectional tests.
-                    </li>
-                    <li>
-                      <strong>Run full mocks in the last 6–8 weeks before Prelims.</strong> Two full mocks per week minimum. Review every single wrong answer. Keep a running log of topics where you&apos;re making repeated errors.
-                    </li>
-                    <li>
-                      <strong>Prepare the Descriptive Test separately.</strong> Write at least one essay and one letter per week for 6 weeks before Mains. Practice writing within the word limit.
-                    </li>
-                  </ol>
-                </div>
-              )
-            },
-            {
-              id: 'prepbanker-usage-syllabus',
-              title: 'How to Use PrepBanker for SBI PO Syllabus Preparation',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    PrepBanker is structured to mirror the exact SBI PO syllabus — you can navigate directly from any topic in the syllabus to a corresponding quiz or test.
-                  </p>
-                  <div className="space-y-3 pl-3 font-normal">
-                    <p>
-                      <strong>Starting point:</strong> If you&apos;ve just read this page, the most useful next step is the free SBI PO Prelims mock test. Attempt it under exam conditions — no pausing, no looking up answers.
-                    </p>
-                    <p>
-                      <strong>For Prelims topics:</strong> Use PrepBanker&apos;s chapter-wise quizzes to target individual topics. If Puzzles are your weak point, there are standalone puzzle sets organized by type — linear arrangements, circular, floor-based, and hybrid.
-                    </p>
-                    <p>
-                      <strong>For Mains DA&amp;I:</strong> PrepBanker&apos;s Data Interpretation quizzes are organized by chart type and difficulty. Start with tabular and bar chart DI at Prelims difficulty, then move to Caselet and Mixed DI at Mains difficulty.
-                    </p>
-                    <p>
-                      <strong>For Banking Awareness:</strong> PrepBanker&apos;s daily current affairs capsules cover the banking and financial news that actually shows up in SBI PO Mains.
-                    </p>
-                    <p>
-                      <strong>For mock test analysis:</strong> After every full-length mock, PrepBanker&apos;s result dashboard shows your time-per-question, accuracy by topic, and percentile rank. Reviewing mistakes is where the real improvement happens.
-                    </p>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'also-explore-syllabus',
-              title: 'Also Explore on PrepBanker',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    Once you have the syllabus mapped out, the next step is structured practice. Here&apos;s where to go on PrepBanker:
-                  </p>
-                  <p>
-                    Attempt the <a href="https://prepbanker.com/sbi-po/mock-test/free" className="font-bold text-[#1B6EB5] hover:underline">Free SBI PO Prelims Mock Test</a> — the fastest way to identify which sections of the syllabus need the most work.
-                  </p>
-                  <p>
-                    For section-specific drilling, the <a href="https://prepbanker.com/sbi-po/sectional/reasoning" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Reasoning Sectional Tests</a> cover every Prelims and Mains reasoning topic including advanced puzzles and critical reasoning.
-                  </p>
-                  <p>
-                    Data Interpretation is the spine of both Prelims and Mains Quant. The <a href="https://prepbanker.com/sbi-po/sectional/quant" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Quantitative Aptitude Sectional Tests</a> are organized by topic and difficulty.
-                  </p>
-                  <p>
-                    The <a href="https://prepbanker.com/sbi-po/pyq" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Previous Year Question (PYQ) Sets</a> from 2020–2025 are the most direct window into what SBI actually tests versus what coaching institutes predict.
-                  </p>
-                  <p>
-                    If you&apos;re also tracking the IBPS PO exam alongside SBI PO, the <a href="https://prepbanker.com/ibps-po/syllabus" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Syllabus 2026 page</a> maps the key differences — knowing where the syllabi overlap saves preparation time.
-                  </p>
-                </div>
-              )
+              id: "content-override",
+              title: "",
+              content: <></>
             }
           ],
           faqs: [
-            {
-              q: "What is the complete SBI PO syllabus for 2026?",
-              a: "The SBI PO 2026 syllabus covers two stages. Prelims includes English Language, Quantitative Aptitude, and Reasoning Ability (100 questions, 100 marks, 60 minutes). Mains includes Data Analysis and Interpretation, Reasoning and Computer Aptitude, General Economy and Banking Awareness, English Language (200 marks, 3 hours), and a Descriptive Test (Letter Writing and Essay, 50 marks, 30 minutes)."
-            },
-            {
-              q: "Is the SBI PO syllabus the same as IBPS PO?",
-              a: "The SBI PO and IBPS PO syllabi are broadly similar — both test Reasoning, Quant, English, and GA. Key differences: SBI PO Mains includes a Descriptive Test (Letter and Essay) and a Group Exercise and Interview round with a Psychometric Test. IBPS PO does not include Group Exercise. SBI PO is generally considered slightly more difficult at the Mains level."
-            },
-            {
-              q: "Which topics carry the most marks in SBI PO Mains?",
-              a: "Reasoning and Computer Aptitude (60 marks) and Data Analysis and Interpretation (60 marks) carry the most weight in SBI PO Mains objective paper. Together they make up 120 of the 200 objective marks. These two sections also have the highest difficulty level and their sectional cut-offs are critical to clear. Prioritise these above General Awareness in Mains preparation."
-            },
-            {
-              q: "What type of questions come in SBI PO Prelims Reasoning?",
-              a: "SBI PO Prelims Reasoning includes Puzzles and Seating Arrangements (which typically form 50–60% of the section), Syllogisms, Blood Relations, Direction Sense, Coding-Decoding, Inequality, and Input-Output. Puzzles and Seating Arrangements are the highest-priority topic — expect 3–5 sets of 4–5 questions each in a 35-question section."
-            },
-            {
-              q: "What topics are there in SBI PO Quantitative Aptitude for Prelims?",
-              a: "SBI PO Prelims Quant covers: Data Interpretation (tabular, bar, line, pie charts), Number Series, Simplification and Approximation, Quadratic Equations, and Arithmetic topics including Percentage, Profit and Loss, Time and Work, Time-Speed-Distance, Simple and Compound Interest, Ratio and Proportion, and Mixtures. DI typically accounts for 10–15 questions in a 35-question section."
-            },
-            {
-              q: "What is the SBI PO Descriptive Test syllabus?",
-              a: "The SBI PO Descriptive Test is conducted immediately after Mains for 50 marks in 30 minutes. It has two questions: one Essay (250–300 words) and one Letter (Formal or Informal). Topics are usually current affairs, banking and economy, social issues, and general themes. You must type your answers on the computer — handwriting is not involved."
-            },
-            {
-              q: "How many topics are there in SBI PO General Awareness section?",
-              a: "The SBI PO Mains GA section is titled 'General Economy and Banking Awareness' and carries 40 marks (40 questions in 35 minutes). It covers Current Affairs (last 6 months), Banking and Financial Awareness, Government Schemes, Static GK, and the Indian Economy. Banking awareness — RBI policies, financial terminology, banking history — typically accounts for 40–50% of this section."
-            },
-            {
-              q: "Is Computer Knowledge a separate section in SBI PO Mains?",
-              a: "No, Computer Knowledge is not a standalone section in SBI PO Mains. It is merged with Reasoning under the section titled 'Reasoning and Computer Aptitude' (45 questions, 60 marks, 60 minutes). Computer topics include MS Office, Operating Systems, Internet Basics, Networking, Computer Hardware, and Database Fundamentals. Typically, 5–10 questions in this section are computer-based."
-            },
-            {
-              q: "How should I divide my study time across SBI PO syllabus topics?",
-              a: "For Prelims: spend 40% of study time on Reasoning (especially Puzzles), 35% on Quant (DI + Arithmetic), and 25% on English. For Mains: Reasoning and Computer Aptitude and Data Analysis together deserve roughly 55% of your time, given their 120-mark combined weight. GA preparation should run in parallel — a daily 15-minute current affairs habit beats last-minute cramming."
-            },
-            {
-              q: "Does PrepBanker cover the full SBI PO syllabus in mock tests?",
-              a: "Yes. PrepBanker's SBI PO mock tests cover every topic in both Prelims and Mains syllabi, including the Descriptive Test section. Each mock mirrors the exact SBI PO exam pattern — section-wise time limits, negative marking, and question type distribution. Sectional tests and chapter-wise quizzes let you drill specific syllabus topics independently."
-            },
-            {
-              q: "Has the SBI PO syllabus changed for 2026?",
-              a: "No major structural change has been officially announced for the SBI PO 2026 syllabus as of June 2026. The core topic structure — Prelims (English, Quant, Reasoning) and Mains (DA&I, Reasoning + Computer, GA & Banking, English, Descriptive) — remains consistent. Minor adjustments in question type distribution occasionally occur and are best tracked through PYQ analysis on PrepBanker."
-            }
+            { q: "What is the syllabus for SBI PO Prelims 2026?", a: "SBI PO Prelims covers three sections: English Language, Quantitative Aptitude, and Reasoning Ability." },
+            { q: "What is the syllabus for SBI PO Mains 2026?", a: "SBI PO Mains covers Reasoning & Computer Aptitude, Data Analysis & Interpretation, General/Economy/Banking Awareness, and English Language, plus a separate Descriptive Test." },
+            { q: "Has the SBI PO Syllabus changed for 2026?", a: "The overall syllabus structure is unchanged; the main revision is the Descriptive Test marks being reduced from 50 to 30." },
+            { q: "What topics are covered in the SBI PO Descriptive Test?", a: "Email Writing, Situation Analysis Writing, and Report/Precis Writing." },
+            { q: "Which is the highest-weightage topic in SBI PO Prelims Reasoning?", a: "Puzzles and Seating Arrangement carry the highest weightage, typically 15–20 questions out of 30." },
+            { q: "Is there a fixed syllabus for the SBI PO Interview?", a: "No, the interview has no fixed syllabus — it assesses banking awareness, current affairs, communication skills, and personal suitability for an officer role." },
+            { q: "What does the SBI PO Computer Aptitude syllabus include?", a: "Computer Fundamentals, Hardware, Software, Operating Systems, Networking, Internet, Cyber Security basics, MS Office, and Database basics." },
+            { q: "How many questions come from Data Interpretation in SBI PO Prelims?", a: "Data Interpretation typically carries 10–15 questions in the Quantitative Aptitude section of Prelims." },
+            { q: "What does the SBI PO Psychometric Test evaluate?", a: "It evaluates personality traits such as leadership, integrity, emotional intelligence, teamwork, decision-making, and adaptability — there's no right or wrong answer format." },
+            { q: "Where can I download the SBI PO Syllabus 2026 PDF?", a: "The complete topic-wise SBI PO Syllabus 2026 PDF is available for download on this page." }
           ]
         };
       }
 
-      if (examId === 'ibps-po') {
+            if (examId === 'ibps-po') {
         return {
           title: "IBPS PO Syllabus 2026 — Complete Topic List for Prelims and Mains",
           overview: "The IBPS PO 2026 syllabus covers five subjects across two stages. Prelims tests English Language, Quantitative Aptitude, and Reasoning Ability — 100 marks in 60 minutes. Mains tests Reasoning & Computer Aptitude, English Language, Data Analysis & Interpretation, and General Economy & Banking Awareness — 200 marks in 3 hours — plus a 25-mark Descriptive paper. IBPS has not officially changed the core syllabus since 2015; topic difficulty and weightage shift, but the subject framework stays the same.",
           metaTitle: "IBPS PO Syllabus — Prelims & Mains Complete Topics",
           metaDescription: "IBPS PO syllabus 2026 for Prelims and Mains — complete topic list, section-wise weightage, exam pattern, and free mock tests to practise every topic on PrepBanker.",
           ctaText: "Download Syllabus & Start Practice",
-          ctaHref: "https://app.prepgrind.com/register",
+          ctaHref: "https://app.prepgrind.com/signup/ibps-po",
           customSchemas: (
             <>
               {/* BreadcrumbList Schema */}
@@ -2627,7 +1924,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           title: `${exam.shortName} Syllabus & Subject Topics 2026`,
           overview: `A comprehensive breakdown of the subjects and topics covered in the ${exam.shortName} Prelims and Mains exams. Start aligning your study plan with the official exam guidelines.`,
           ctaText: `Download Syllabus & Start Practice`,
-          ctaHref: 'https://app.prepgrind.com/register',
+          ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
           subsections: [
             {
               id: 'interactive-syllabus-section',
@@ -2686,6 +1983,153 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     }
 
     case 'exam-pattern': {
+      if (examId === 'sbi-po') {
+        return {
+          title: "SBI PO Exam Pattern 2026: Prelims, Mains & Interview",
+          overview: "The SBI PO Exam Pattern 2026 consists of three stages: Prelims (100 marks, 1 hour), Mains (230 marks, 3 hours 30 minutes) — split into a 200-mark Objective Test and a 30-mark Descriptive Test — and Phase III (50 marks) covering a Psychometric Test, Group Exercise (20 marks), and Interview (30 marks). The Descriptive Test marks have been reduced from 50 to 30 for the 2026 recruitment cycle.",
+          metaTitle: "SBI PO Exam Pattern 2026: Prelims & Mains",
+          metaDescription: "SBI PO Exam Pattern 2026 — Prelims (100 marks), Mains (230 marks), Descriptive Test & Interview. Section-wise marks, duration & marking scheme here.",
+          ctaText: "Attempt Free SBI PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/sbi-po",
+          customSchemas: (
+            <>
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Exam Pattern", "item": "https://prepbanker.com/sbi-po/exam-pattern" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Exam Pattern 2026: Prelims, Mains & Interview",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
+                    },
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/exam-pattern"
+                  })
+                }}
+              />
+              {/* ItemList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "ItemList",
+                    "name": "SBI PO Exam Pattern 2026 Stages",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Prelims", "description": "100 marks, 1 hour, qualifying only, no sectional cutoff" },
+                      { "@type": "ListItem", "position": 2, "name": "Mains", "description": "230 marks (200 Objective + 30 Descriptive), 3 hours 30 minutes, sectional cutoff applies" },
+                      { "@type": "ListItem", "position": 3, "name": "Phase III", "description": "50 marks: Psychometric Test (qualifying), Group Exercise (20), Interview (30)" }
+                    ]
+                  })
+                }}
+              />
+              {/* FAQPage Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "What is the total marks for SBI PO Prelims 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI PO Prelims 2026 carries 100 marks across English Language, Quantitative Aptitude, and Reasoning Ability." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the total marks for SBI PO Mains 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI PO Mains 2026 carries 230 marks total: 200 for the Objective Test and 30 for the Descriptive Test." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What changed in the SBI PO Exam Pattern for 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The Descriptive Test marks were reduced from 50 to 30, bringing the Mains total down from 250 to 230. The Prelims pattern remained unchanged." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is there negative marking in SBI PO exam?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, 0.25 marks are deducted for every wrong answer in the Prelims and Mains Objective Tests. There is no penalty for unattempted questions, and no negative marking in the Descriptive Test or Phase III." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is there a sectional cutoff in SBI PO Prelims?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, there is no sectional cutoff in SBI PO Prelims. Only an overall cutoff applies." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is there a sectional cutoff in SBI PO Mains?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, sectional cutoff applies to each section of the SBI PO Mains Objective Test." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many marks does the SBI PO Interview carry?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Personal Interview carries 30 marks, and the Group Exercise carries 20 marks, totaling 50 marks for Phase III." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Are SBI PO Prelims marks counted in the final merit list?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, SBI PO Prelims is purely qualifying in nature. Only Mains and Phase III marks count toward the final merit list." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the weightage given to Mains and Interview in SBI PO final selection?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Mains marks carry 75% weightage and Phase III, comprising Group Exercise and Interview, carries 25% weightage in the normalized final score." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many candidates are shortlisted for SBI PO Mains from Prelims?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Approximately 10 times the number of vacancies in each category are shortlisted for the Mains exam." }
+                      }
+                    ]
+                  })
+                }}
+              />
+            </>
+          ),
+          subsections: [
+            {
+              id: "content-override",
+              title: "",
+              content: <></>
+            }
+          ],
+          faqs: [
+            { q: "What is the total marks for SBI PO Prelims 2026?", a: "SBI PO Prelims 2026 carries 100 marks across English Language, Quantitative Aptitude, and Reasoning Ability." },
+            { q: "What is the total marks for SBI PO Mains 2026?", a: "SBI PO Mains 2026 carries 230 marks total: 200 for the Objective Test and 30 for the Descriptive Test." },
+            { q: "What changed in the SBI PO Exam Pattern for 2026?", a: "The Descriptive Test marks were reduced from 50 to 30, bringing the Mains total down from 250 to 230. The Prelims pattern remained unchanged." },
+            { q: "Is there negative marking in SBI PO exam?", a: "Yes, 0.25 marks are deducted for every wrong answer in the Prelims and Mains Objective Tests. There is no penalty for unattempted questions, and no negative marking in the Descriptive Test or Phase III." },
+            { q: "Is there a sectional cutoff in SBI PO Prelims?", a: "No, there is no sectional cutoff in SBI PO Prelims. Only an overall cutoff applies." },
+            { q: "Is there a sectional cutoff in SBI PO Mains?", a: "Yes, sectional cutoff applies to each section of the SBI PO Mains Objective Test." },
+            { q: "How many marks does the SBI PO Interview carry?", a: "The SBI PO Personal Interview carries 30 marks, and the Group Exercise carries 20 marks, totaling 50 marks for Phase III." },
+            { q: "Are SBI PO Prelims marks counted in the final merit list?", a: "No, SBI PO Prelims is purely qualifying in nature. Only Mains and Phase III marks count toward the final merit list." },
+            { q: "What is the weightage given to Mains and Interview in SBI PO final selection?", a: "Mains marks carry 75% weightage and Phase III, comprising Group Exercise and Interview, carries 25% weightage in the normalized final score." },
+            { q: "How many candidates are shortlisted for SBI PO Mains from Prelims?", a: "Approximately 10 times the number of vacancies in each category are shortlisted for the Mains exam." }
+          ]
+        };
+      }
+
       if (examId === 'ibps-po') {
         return {
           title: "IBPS PO Exam Pattern 2026: Complete Guide to Sections, Marks & Selection Process",
@@ -2693,7 +2137,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           metaTitle: "IBPS PO Exam Pattern : Sections, Marks & Syllabus",
           metaDescription: "IBPS PO 2026 exam pattern — Prelims has 100 marks in 60 min, Mains has 200+25 marks in 3 hrs 30 min. Check section-wise marks, negative marking & free mock tests.",
           ctaText: "Attempt Realistic CBT Mock Test",
-          ctaHref: "https://app.prepgrind.com/register",
+          ctaHref: "https://app.prepgrind.com/signup/ibps-po",
           customSchemas: (
             <>
               {/* BreadcrumbList Schema */}
@@ -3605,7 +3049,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `SBI PO Exam Pattern & Phase Schemes 2026`,
         overview: `Understand the marks allotment, question types, time limits, and negative marking structure for the SBI PO Prelims, Mains, and Interview phases.`,
         ctaText: `Attempt Realistic CBT Mock Test`,
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: 'https://app.prepgrind.com/signup/sbi-po',
         subsections: [
           {
             id: 'exam-phases-interactive',
@@ -3655,6 +3099,137 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
     case 'cut-off':
     case 'cut-offs': {
+      if (examId === 'sbi-po') {
+        return {
+          title: "SBI PO Cut Off 2026: Category-Wise Trend (2019–2025)",
+          overview: "SBI PO Cut Off 2026 expected trends based on 2019–2025 data. Category-wise Prelims, Mains, Final & Interview cut off marks — full history at PrepBanker.",
+          metaTitle: "SBI PO Cut Off 2026: Prelims, Mains & Final Trend",
+          metaDescription: "SBI PO Cut Off 2026 expected trends based on 2019–2025 data. Category-wise Prelims, Mains, Final & Interview cut off marks — full history at PrepBanker.",
+          ctaText: "Attempt Free SBI PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/sbi-po",
+          customSchemas: (
+            <>
+              {/* FAQPage Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "What was the SBI PO Prelims cut off for General category in 2025?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Prelims Cut Off 2025 for the General category was 66.75 out of 100." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What was the SBI PO Mains cut off for General category in 2025?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Mains Cut Off 2025 for the General category was 75 out of 250." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What was the SBI PO Final cut off for General category in 2025?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Final Cut Off 2025 for the General category was 46.79 out of 100." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is there a sectional cut off in SBI PO Prelims?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, there is no sectional cut off in SBI PO Prelims. Only an overall cut off applies." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is there a sectional cut off in SBI PO Mains?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, sectional cut off applies to each objective section and the Descriptive Test in SBI PO Mains." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the ratio between Mains and Interview marks for SBI PO final selection?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Mains and Phase III, comprising Group Exercise and Interview, marks are combined at a 75:25 ratio for the final merit list." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Does SBI release state-wise cut off for PO recruitment?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, SBI PO is a nationwide exam with no state-wise vacancies, so only category-wise cut off is released, not state-wise." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What factors affect the SBI PO cut off each year?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Category-wise vacancy, exam difficulty level, number of candidates appearing per shift, and score normalization across shifts." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What were the SBI PO Interview qualifying marks in recent years?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Interview and Group Exercise qualifying marks have remained fairly constant: 20 out of 50 for General and EWS, and 17.50 out of 50 for other categories, across most recent years." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When will the SBI PO Cut Off 2026 be released?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI PO Cut Off 2026 will be released separately for Prelims, Mains, and Final selection, along with each stage's result." }
+                      }
+                    ]
+                  })
+                }}
+              />
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Cut Off", "item": "https://prepbanker.com/sbi-po/cut-off" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Cut Off 2026: Category-Wise Trend (2019–2025)",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
+                    },
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/cut-off"
+                  })
+                }}
+              />
+              {/* Dataset Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Dataset",
+                    "name": "SBI PO Official Cut Off Trend (2019-2025)",
+                    "description": "Category-wise SBI PO Prelims, Mains, Final, and Interview cut off marks from 2019 to 2025, used to estimate SBI PO Cut Off 2026.",
+                    "creator": { "@type": "Organization", "name": "PrepBanker" },
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "variableMeasured": ["Prelims Cut Off", "Mains Cut Off", "Final Cut Off", "Interview Qualifying Marks"],
+                    "temporalCoverage": "2019/2025"
+                  })
+                }}
+              />
+            </>
+          ),
+          subsections: [],
+          faqs: []
+        };
+      }
+
       if (examId === 'ibps-po') {
         return {
           title: "IBPS PO Cut Off 2026 — Expected Marks, Previous Year Data & Safe Score Targets",
@@ -4454,7 +4029,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           ? 'Use these as your target scores. Consistently scoring above the General category cut-off in mocks = exam-ready.'
           : `To target a realistic score, candidates must evaluate previous years' category-wise cut-off trends. Inspect how competitive thresholds have fluctuated over the last three cycles for both Prelims and Mains.`,
         ctaText: `Compare Your Mock Marks Against Cutoffs`,
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: examId === 'sbi-po' ? [
           {
             id: 'interactive-cutoffs-section',
@@ -4660,6 +4235,162 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
     case 'important-dates':
     case 'dates': {
+      if (examId === 'sbi-po') {
+        return {
+          title: "SBI PO Important Dates 2026: Complete Exam Schedule",
+          overview: "Complete recruitment schedule for SBI PO 2026 covering notification release, admit card availability, exam dates, results, and interviews.",
+          metaTitle: "SBI PO Important Dates 2026: Full Exam Schedule",
+          metaDescription: "Complete SBI PO Important Dates 2026 — notification, admit card, prelims, mains, interview & final result timeline. Official schedule, updated daily.",
+          ctaText: "Attempt Free SBI PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/sbi-po",
+          customSchemas: (
+            <>
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Important Dates", "item": "https://prepbanker.com/sbi-po/important-dates" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Important Dates 2026: Complete Exam Schedule",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
+                    },
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/important-dates"
+                  })
+                }}
+              />
+              {/* Event Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Event",
+                    "name": "SBI PO Prelims Exam 2026",
+                    "startDate": "2026-08-01",
+                    "endDate": "2026-08-02",
+                    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                    "eventStatus": "https://schema.org/EventScheduled",
+                    "location": {
+                      "@type": "Place",
+                      "address": { "@type": "PostalAddress", "addressCountry": "IN" }
+                    },
+                    "organizer": {
+                      "@type": "Organization",
+                      "name": "State Bank of India",
+                      "url": "https://sbi.bank.in"
+                    },
+                    "description": "SBI PO Preliminary Examination 2026 for recruitment of 1,500 Probationary Officers under Advt No. CRPD/PO/2026-27/09."
+                  })
+                }}
+              />
+              {/* FAQPage Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "What is the SBI PO Prelims exam date for 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Prelims exam is scheduled for 1 and 2 August 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When was the SBI PO 2026 notification released?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO 2026 notification was released on 18 June 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When was the SBI PO admit card released?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Prelims admit card was released on 22 July 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When is the SBI PO Mains exam 2026 expected?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Mains exam is expected to be held in September 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When will the SBI PO Prelims result be declared?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Prelims result is expected in August or September 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When is the SBI PO interview expected to be held?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The Psychometric Test, Group Exercise, and Interview are expected in October or November 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "When will the SBI PO 2026 final result be announced?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO 2026 final result is expected in November or December 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What was the last date to apply for SBI PO 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The last date to apply online for SBI PO 2026 was 8 July 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many stages are there in the SBI PO 2026 recruitment timeline?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "There are three main stages: Preliminary Exam, Main Exam, and Phase III covering the Psychometric Test, Group Exercise, and Interview." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Where can I check the latest official SBI PO exam dates?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The latest dates are published on the official SBI Careers website and updated on this page as soon as SBI confirms them." }
+                      }
+                    ]
+                  })
+                }}
+              />
+            </>
+          ),
+          subsections: [
+            {
+              id: "content-override",
+              title: "",
+              content: <></>
+            }
+          ],
+          faqs: [
+            { q: "What is the SBI PO Prelims exam date for 2026?", a: "The SBI PO Prelims exam is scheduled for 1 and 2 August 2026." },
+            { q: "When was the SBI PO 2026 notification released?", a: "The SBI PO 2026 notification was released on 18 June 2026." },
+            { q: "When was the SBI PO admit card released?", a: "The SBI PO Prelims admit card was released on 22 July 2026." },
+            { q: "When is the SBI PO Mains exam 2026 expected?", a: "The SBI PO Mains exam is expected to be held in September 2026." },
+            { q: "When will the SBI PO Prelims result be declared?", a: "The SBI PO Prelims result is expected in August or September 2026." },
+            { q: "When is the SBI PO interview expected to be held?", a: "The Psychometric Test, Group Exercise, and Interview are expected in October or November 2026." },
+            { q: "When will the SBI PO 2026 final result be announced?", a: "The SBI PO 2026 final result is expected in November or December 2026." },
+            { q: "What was the last date to apply for SBI PO 2026?", a: "The last date to apply online for SBI PO 2026 was 8 July 2026." },
+            { q: "How many stages are there in the SBI PO 2026 recruitment timeline?", a: "There are three main stages: Preliminary Exam, Main Exam, and Phase III covering the Psychometric Test, Group Exercise, and Interview." },
+            { q: "Where can I check the latest official SBI PO exam dates?", a: "The latest dates are published on the official SBI Careers website and updated on this page as soon as SBI confirms them." }
+          ]
+        };
+      }
+
       const datesContentMap: Record<string, {
         description: string;
         checklist: string[];
@@ -4877,7 +4608,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} Important Dates & Timeline 2026`,
         overview: `A complete calendar tracking notification release, online registration dates, admit card downloads, and exam milestones for ${exam.shortName} 2026.`,
         ctaText: `Download Important Exam Calendar`,
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: [
           {
             id: 'timeline-vertical-pathway',
@@ -4982,7 +4713,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} Preparation Strategy & Study Plan 2026`,
         overview: `A comprehensive 90-day step-by-step preparation plan crafted by banking toppers to build speed, accuracy, and clear section cut-offs.`,
         ctaText: `Take a Free Topic Diagnostic Test`,
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: examId === 'sbi-po' ? [
           {
             id: 'interactive-roadmap-section',
@@ -5076,7 +4807,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
                   Simply taking mock tests is not enough to clear the highly competitive thresholds. You must adopt a rigorous post-test analysis strategy.
                 </p>
-                <ul className="text-xs sm:text-sm text-slate-650 space-y-2.5 pl-3 list-disc list-inside">
+                <ul className="text-xs sm:text-sm text-slate-655 space-y-2.5 pl-3 list-disc list-inside">
                   <li><strong>Classify Errors:</strong> Divide wrong attempts into three categories: Conceptual Gaps, Silly Mistakes/Calculation Errors, and Time Management Issues.</li>
                   <li><strong>Re-attempt Offline:</strong> Before reading the step-by-step solutions, try to solve the incorrect and skipped questions again without a timer.</li>
                   <li><strong>Monitor Your Percentile:</strong> Do not obsess over raw marks, as paper difficulty changes. Aim for a consistent **90+ percentile** in your practice mocks.</li>
@@ -5095,111 +4826,56 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'notification': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Notification 2026 – Released Dates, 1,500 Vacancies & Pattern`,
-          overview: `The State Bank of India released the official SBI PO 2026 notification on 18 June 2026 (Advertisement No. CRPD/PO/2026-27/09), announcing 1,500 vacancies for the post of Probationary Officer — a big jump from just 541 vacancies in 2025, nearly three times more openings this year. Over 12.14 lakh candidates applied for SBI PO 2026 — nearly double last year's numbers — which tells you exactly how competitive this cycle is. If you're serious about clearing Prelims, this is the year to be putting in structured mock test practice rather than just reading theory.`,
-          metaTitle: `SBI PO Notification 2026 - Released Dates & 1,500 Vacancies`,
-          metaDescription: `SBI PO 2026 Notification out on 18 June 2026. Check official advertisement (CRPD/PO/2026-27/09), 1,500 vacancies breakup, dates & attempt free mock tests.`,
-          ctaText: `Start Free SBI PO Mock Test`,
-          ctaHref: `https://app.prepgrind.com/register`,
+          title: `SBI PO Notification 2026`,
+          overview: `The State Bank of India (SBI) released the SBI PO Notification 2026 on 18 June 2026 under Advertisement No. CRPD/PO/2026-27/09, announcing 1,500 Probationary Officer (PO) vacancies. Selection is through Prelims → Mains → Interview, with the Prelims exam held on 1 & 2 August 2026.`,
+          metaTitle: `SBI PO Notification 2026 PDF & Details`,
+          metaDescription: `SBI PO 2026 Notification out. Check the official CRPD/PO/2026-27/09 notice, important dates timeline, eligibility, 1,500 vacancies breakdown & apply guide.`,
+          ctaText: `Attempt Free SBI PO Mock Test`,
+          ctaHref: `https://app.prepgrind.com/signup/sbi-po`,
           customSchemas: (
             <>
-              {/* WebPage Schema */}
+              {/* JobPosting Schema */}
               <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "WebPage",
-                    "name": "SBI PO Notification 2026 – Released Dates, 1,500 Vacancies & Pattern",
-                    "url": "https://prepbanker.com/sbi-po/notification",
-                    "description": "Complete guide to SBI PO 2026 Notification including eligibility criteria, 1,500 vacancy details, exam pattern, syllabus, cut-off trends, and free mock tests.",
-                    "datePublished": "2026-06-18",
-                    "dateModified": "2026-07-10",
-                    "publisher": {
+                    "@type": "JobPosting",
+                    "title": "Probationary Officer (PO) 2026",
+                    "description": "State Bank of India (SBI) is recruiting 1,500 Probationary Officers under Advertisement No. CRPD/PO/2026-27/09. Selection through Prelims, Mains and Interview.",
+                    "identifier": {
+                      "@type": "PropertyValue",
+                      "name": "SBI",
+                      "value": "CRPD/PO/2026-27/09"
+                    },
+                    "datePosted": "2026-06-18",
+                    "validThrough": "2026-07-08",
+                    "employmentType": "FULL_TIME",
+                    "hiringOrganization": {
                       "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com",
-                      "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://prepbanker.com/logo.png"
+                      "name": "State Bank of India",
+                      "sameAs": "https://sbi.bank.in",
+                      "logo": "https://prepbanker.com/images/sbi-logo.png"
+                    },
+                    "jobLocation": {
+                      "@type": "Place",
+                      "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "IN"
                       }
                     },
-                    "inLanguage": "en-IN",
-                    "isPartOf": {
-                      "@type": "WebSite",
-                      "url": "https://prepbanker.com"
-                    }
-                  })
-                }}
-              />
-              {/* Article Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "SBI PO Notification 2026 – Released Dates, 1,500 Vacancies & Pattern",
-                    "description": "Everything a student needs to know about SBI PO 2026 Notification — released dates, eligibility, vacancy, exam pattern, syllabus, cut-off history, and a step-by-step preparation strategy.",
-                    "url": "https://prepbanker.com/sbi-po/notification",
-                    "image": "https://prepbanker.com/images/sbi-po-notification-2026.jpg",
-                    "author": {
-                      "@type": "Organization",
-                      "name": "PrepBanker Editorial Team",
-                      "url": "https://prepbanker.com/about"
-                    },
-                    "publisher": {
-                      "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com",
-                      "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://prepbanker.com/logo.png"
+                    "totalJobOpenings": 1500,
+                    "baseSalary": {
+                      "@type": "MonetaryAmount",
+                      "currency": "INR",
+                      "value": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 48480,
+                        "unitText": "MONTH"
                       }
                     },
-                    "datePublished": "2026-06-18",
-                    "dateModified": "2026-07-10",
-                    "mainEntityOfPage": {
-                      "@type": "WebPage",
-                      "@id": "https://prepbanker.com/sbi-po/notification"
-                    },
-                    "keywords": "SBI PO Notification 2026, SBI PO vacancy, SBI PO exam date, SBI Probationary Officer, CRPD/PO/2026-27/09"
-                  })
-                }}
-              />
-              {/* BreadcrumbList Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                      {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://prepbanker.com"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Banking Exams",
-                        "item": "https://prepbanker.com/banking-exams"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "SBI PO",
-                        "item": "https://prepbanker.com/sbi-po"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 4,
-                        "name": "SBI PO Notification 2026",
-                        "item": "https://prepbanker.com/sbi-po/notification"
-                      }
-                    ]
+                    "educationRequirements": "Graduate in any discipline",
+                    "experienceRequirements": "Freshers eligible"
                   })
                 }}
               />
@@ -5213,366 +4889,141 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "mainEntity": [
                       {
                         "@type": "Question",
-                        "name": "When was the SBI PO 2026 notification released?",
+                        "name": "When was the SBI PO Notification 2026 released?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "The official SBI PO 2026 notification was released on 18 June 2026 under Advertisement No. CRPD/PO/2026-27/09."
+                          "text": "SBI released the PO Notification 2026 on 18 June 2026 under Advertisement No. CRPD/PO/2026-27/09."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "How many vacancies for SBI PO 2026?",
+                        "name": "How many vacancies are there in SBI PO Notification 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "There are 1,500 vacancies announced for SBI PO 2026 (including 1,446 regular vacancies and 54 backlog vacancies). This is almost triple the 541 vacancies from 2025."
+                          "text": "SBI PO Notification 2026 announced 1,500 vacancies — 1,446 regular and 54 backlog posts."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the application window for SBI PO 2026?",
+                        "name": "What is the SBI PO Notification 2026 advertisement number?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "The online application window was open from 18 June to 8 July 2026, and is now closed."
+                          "text": "The official advertisement number is CRPD/PO/2026-27/09."
                         }
                       },
                       {
                         "@type": "Question",
-                        "name": "What are the tentative exam dates for SBI PO 2026?",
+                        "name": "What was the last date to apply for SBI PO 2026?",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "SBI PO 2026 Prelims exam is tentatively scheduled for August 2026, and Mains exam is tentatively scheduled for September 2026."
+                          "text": "The online application window closed on 8 July 2026."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the age limit in SBI PO Notification 2026?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Candidates must be between 21 and 30 years of age as on 1 April 2026."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is the CIBIL/credit score clause applicable in SBI PO 2026?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "No, SBI removed the CIBIL clause from the official notification with immediate effect in July 2026."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the application fee for SBI PO 2026?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "₹750 for General, EWS and OBC candidates; no fee for SC, ST and PwBD candidates."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many applications did SBI receive for PO 2026?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "SBI received 12,14,076 applications for the 2026 PO cycle, almost double the roughly 6 lakh received the previous year."
+                        }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the selection process under SBI PO Notification 2026?",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "Selection has three stages: Preliminary Exam, Main Exam, and Phase III covering a Psychometric Test, Group Exercise and Interview."
                         }
                       }
                     ]
                   })
                 }}
               />
-              {/* Course Schema */}
+              {/* BreadcrumbList Schema */}
               <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Course",
-                    "name": "SBI PO 2026 Complete Mock Test Series",
-                    "description": "Full-length mock tests, sectional tests, chapter-wise quizzes, and PYQ sets for SBI PO Prelims and Mains 2026. Covers all sections: Reasoning, Quantitative Aptitude, English, General Awareness, and Descriptive Writing.",
-                    "provider": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Notification", "item": "https://prepbanker.com/sbi-po/notification" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article / NewsArticle Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Notification 2026: Download PDF, Check Vacancy & Apply Online",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-24",
+                    "author": {
+                      "@type": "Organization",
+                      "name": "PrepBanker"
+                    },
+                    "publisher": {
                       "@type": "Organization",
                       "name": "PrepBanker",
-                      "url": "https://prepbanker.com"
+                      "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://prepbanker.com/images/logo.png"
+                      }
                     },
-                    "url": "https://prepbanker.com/sbi-po/quiz",
-                    "courseMode": "online",
-                    "educationalLevel": "undergraduate",
-                    "hasCourseInstance": {
-                      "@type": "CourseInstance",
-                      "courseMode": "online",
-                      "startDate": "2026-01-01",
-                      "endDate": "2026-12-31"
-                    }
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/notification"
+                  })
+                }}
+              />
+              {/* Organization Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "EducationalOrganization",
+                    "name": "PrepBanker",
+                    "url": "https://prepbanker.com",
+                    "logo": "https://prepbanker.com/images/logo.png",
+                    "sameAs": [
+                      "https://www.instagram.com/prepbanker2026"
+                    ]
                   })
                 }}
               />
             </>
           ),
-          subsections: [
-            {
-              id: 'quick-snapshot',
-              title: 'SBI PO 2026 Notification — Key Facts (Last Updated: 10 July 2026)',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                    The official key facts and parameters for the SBI PO 2026 recruitment cycle are summarized in the high-value table below.
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Detail</th>
-                          <th className="px-4 py-2.5">Information</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Notification released</td>
-                          <td className="px-4 py-3">18 June 2026</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Advertisement No.</td>
-                          <td className="px-4 py-3">CRPD/PO/2026-27/09</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Total vacancies</td>
-                          <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application window</td>
-                          <td className="px-4 py-3">18 June – 8 July 2026 (closed)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims exam (tentative)</td>
-                          <td className="px-4 py-3">August 2026</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains exam (tentative)</td>
-                          <td className="px-4 py-3">September 2026</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Result (expected)</td>
-                          <td className="px-4 py-3">November–December 2026</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Age limit</td>
-                          <td className="px-4 py-3">21–30 years (as on cut-off date)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application fee</td>
-                          <td className="px-4 py-3">₹750 (Gen/OBC/EWS); Nil for SC/ST/PwBD</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Starting basic pay</td>
-                          <td className="px-4 py-3">₹48,480</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Approx. annual CTC (Mumbai centre)</td>
-                          <td className="px-4 py-3">₹21.97 lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Selection process</td>
-                          <td className="px-4 py-3">Prelims → Mains → Psychometric Test + Group Exercise + Interview</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <HighlightBox type="info" title="Important Notice">
-                    <p className="text-xs sm:text-sm font-semibold text-slate-700 leading-relaxed">
-                      Note: Exam dates above are tentative as per the official notification. We update this page within 24 hours of any official SBI announcement — bookmark this page or join our <a href="https://t.me/prepbanker" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">Telegram channel</a> for instant alerts.
-                    </p>
-                  </HighlightBox>
-                </div>
-              )
-            },
-            {
-              id: 'expected-dates',
-              title: 'SBI PO 2026 Notification – Official Dates Timeline',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                    Below is the official timeline of events for the SBI PO 2026 recruitment cycle:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Event</th>
-                          <th className="px-4 py-2.5">SBI PO 2026 Official Timeline</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Notification Release</td>
-                          <td className="px-4 py-3">18 June 2026 (Released)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application Start</td>
-                          <td className="px-4 py-3">18 June 2026</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application Last Date</td>
-                          <td className="px-4 py-3">8 July 2026 (Closed)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Exam Date</td>
-                          <td className="px-4 py-3">August 2026 (Tentative)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Prelims Result</td>
-                          <td className="px-4 py-3">September 2026 (Expected)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Exam Date</td>
-                          <td className="px-4 py-3">September 2026 (Tentative)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Mains Result</td>
-                          <td className="px-4 py-3">October 2026 (Expected)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Interview/GE</td>
-                          <td className="px-4 py-3">October–November 2026 (Expected)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Final Result</td>
-                          <td className="px-4 py-3">November–December 2026 (Expected)</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )
-            },
-
-            {
-              id: 'how-to-use-prepbanker',
-              title: 'How to Use PrepBanker for SBI PO Preparation',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    PrepBanker is built specifically for banking exam aspirants — not a generalist platform that happens to have banking tests. Here is how to get maximum value:
-                  </p>
-                  <ol className="list-decimal list-inside space-y-3.5 pl-3 text-slate-655">
-                    <li>
-                      <strong>Step 1 — Start with a diagnostic test.</strong> Attempt the free SBI PO Prelims mock test on PrepBanker without any special preparation. This baseline score tells you exactly where you stand across all three sections and which topics are dragging your score down.
-                    </li>
-                    <li>
-                      <strong>Step 2 — Fix weak topics with Chapter-wise Quizzes.</strong> After the diagnostic, go to the topic-wise quiz section. If your Reasoning score was low, start with Puzzle and Seating Arrangement quizzes — these have 20–30 questions each and come with difficulty grading (Easy → Moderate → Hard). Fix one topic at a time before moving to the next.
-                    </li>
-                    <li>
-                      <strong>Step 3 — Build speed with Sectional Tests.</strong> Once your accuracy in a section crosses 75%, switch to Sectional Tests. These simulate real exam conditions with strict time limits for each section. The timer forces you to develop the pace needed for the actual exam.
-                    </li>
-                    <li>
-                      <strong>Step 4 — Simulate the real exam with Full Mock Tests.</strong> Attempt full-length SBI PO Prelims mocks at least twice a week in the final 6 weeks. PrepBanker&apos;s mocks are updated to reflect recent difficulty trends — question types and DI formats evolve, and the tests account for that.
-                    </li>
-                    <li>
-                      <strong>Step 5 — Analyze your results in detail.</strong> The post-test analysis shows you: time spent per question, accuracy by topic, your percentile rank against other students, and questions you should have attempted vs skipped. This analysis session is as important as the test itself — treat it seriously.
-                    </li>
-                    <li>
-                      <strong>Step 6 — Track progress over time.</strong> PrepBanker keeps your test history. Comparing your score trends across 10–15 mocks gives you a clear picture of whether your preparation is heading in the right direction. If you are plateauing, it usually signals a specific topic or section that needs attention — the analytics will surface it.
-                    </li>
-                  </ol>
-                </div>
-              )
-            },
-            {
-              id: 'salary-and-job-profile',
-              title: 'SBI PO Salary and Job Profile – What You Get After Cracking It',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    The SBI PO salary structure makes it one of the most financially attractive banking positions at the entry level.
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[400px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Component</th>
-                          <th className="px-4 py-2.5">Amount</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Basic Pay</td>
-                          <td className="px-4 py-3">₹41,960 per month (starting)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Special Allowance</td>
-                          <td className="px-4 py-3">₹7,895</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Dearness Allowance (DA)</td>
-                          <td className="px-4 py-3">As per CPI, revised quarterly</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">HRA</td>
-                          <td className="px-4 py-3">8–9% of basic (location-based)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">CCA (City Compensatory)</td>
-                          <td className="px-4 py-3">₹870 (for metro postings)</td>
-                        </tr>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <td className="px-4 py-3">Gross Monthly Salary</td>
-                          <td className="px-4 py-3">~₹52,000–₹60,000 (approx.)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Additional Perks</td>
-                          <td className="px-4 py-3">Medical insurance, LFC, staff loans at concessional rates</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    The gross in-hand typically ranges from ₹52,000 to ₹60,000 depending on posting location. After the two-year probation, officers are confirmed in service and become eligible for promotions to Deputy Manager grade through internal examinations.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'also-explore',
-              title: 'Also Explore on PrepBanker',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    Preparing for SBI PO 2026? These resources on PrepBanker will strengthen your preparation across every stage:
-                  </p>
-                  <p>
-                    Attempt the <a href="https://prepbanker.com/sbi-po-mock-test" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Free Mock Test</a> to benchmark your current preparation level before investing in a full test series. One free test is available without registration.
-                  </p>
-                  <p>
-                    The <a href="https://prepbanker.com/sbi-po-pyq" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Previous Year Question Sets</a> on PrepBanker cover Prelims and Mains PYQs from 2018 to 2025, organized by topic so you can see exactly which question types have repeated and which are evolving.
-                  </p>
-                  <p>
-                    If you are also targeting IBPS, do not miss the <a href="https://prepbanker.com/ibps-po-mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mock Test Series</a> — the syllabus overlaps significantly with SBI PO, and joint preparation saves time. PrepBanker&apos;s IBPS PO tests are updated for the latest exam pattern.
-                  </p>
-                  <p>
-                    For students who want topic-specific drilling, the <a href="https://prepbanker.com/reasoning-puzzles-dpp" className="font-bold text-[#1B6EB5] hover:underline">Reasoning Puzzles Daily Practice Problem (DPP) Set</a> posts 5 new high-difficulty puzzles every day — this is one of the most effective ways to raise your Reasoning score by 5–8 marks in 30 days.
-                  </p>
-                  <p>
-                    The <a href="https://prepbanker.com/sbi-clerk-notification" className="font-bold text-[#1B6EB5] hover:underline">SBI Clerk 2026 Notification Page</a> is worth bookmarking if you are appearing for SBI Clerk as a backup — many serious aspirants target both SBI PO and SBI Clerk in the same cycle.
-                  </p>
-                  <p>
-                    Explore the full <a href="https://prepbanker.com/banking-mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Banking Exam Mock Test Hub</a> for a bird&apos;s-eye view of all available test series — SBI, IBPS, RBI, NABARD, and LIC AAO — organized by exam and difficulty level.
-                  </p>
-                </div>
-              )
-            }
-          ],
-          faqs: [
-            {
-              q: "When will SBI PO 2026 notification be released?",
-              a: "SBI PO 2026 notification is expected in July–August 2026, based on four years of release patterns. SBI PO 2025 notification released in August–September 2025 — slightly later than the usual window. The official release happens on sbi.co.in. PrepBanker will update this page immediately when the notification is live, so bookmark it for instant alerts."
-            },
-            {
-              q: "What is the eligibility criteria for SBI PO 2026?",
-              a: "You need a graduation degree in any discipline from a recognized university. No minimum percentage is required. Age must be between 21 and 30 years (as of the date in the notification), with relaxation for SC/ST (5 years), OBC (3 years), and PwBD (10 years). Final-year students can apply, provided they complete graduation before joining."
-            },
-            {
-              q: "How many vacancies are there in SBI PO 2026?",
-              a: "The exact vacancy figure is announced with the official notification. SBI PO 2025 had approximately 600–800 vacancies, while SBI PO 2024 had 600 vacancies. The fluctuation depends on SBI's internal staffing needs. Historically, SBI PO attracts 2.5–3.5 million applications regardless of vacancy count. Assume heavy competition and prepare accordingly."
-            },
-            {
-              q: "What is the SBI PO exam pattern for Prelims 2026?",
-              a: "SBI PO Prelims has 100 questions, 100 marks, and a 60-minute time limit with sectional timing. The three sections are: English Language (30 questions, 20 minutes), Quantitative Aptitude (35 questions, 20 minutes), and Reasoning Ability (35 questions, 20 minutes). Negative marking is 0.25 marks per wrong answer. Prelims is qualifying — marks do not count for final merit."
-            },
-            {
-              q: "What is the SBI PO Mains exam pattern?",
-              a: "SBI PO Mains has an objective test (155 questions, 200 marks, 180 minutes) and a descriptive test (2 questions — letter and essay — 25 marks, 30 minutes). Objective sections: Reasoning & Computer Aptitude (45Q, 60M), Data Analysis & Interpretation (35Q, 60M), GA/Economy/Banking Awareness (40Q, 40M), and English Language (35Q, 40M). Mains marks directly determine your final rank."
-            },
-            {
-              q: "How difficult is the SBI PO exam compared to IBPS PO?",
-              a: "SBI PO is moderately harder than IBPS PO, particularly in Mains. SBI PO Mains has higher DI complexity, harder puzzle sets, and a descriptive writing component that IBPS PO does not have. Prelims difficulty is comparable, but SBI PO Prelims cut-offs tend to run 3–5 marks higher due to the exam's prestige and larger applicant pool. If you can clear SBI PO, IBPS PO should be manageable."
-            },
-            {
-              q: "Is PrepBanker free for SBI PO preparation?",
-              a: "Yes — PrepBanker offers at least one free full-length SBI PO mock test without requiring payment. Free access also includes selected chapter-wise quizzes and Daily Practice Problems. The premium plan unlocks the full mock test series (15+ tests), detailed analytics dashboards, section-wise performance breakdowns, and PYQ practice sets. No subscription is required to try the platform."
-            },
-            {
-              q: "What is the SBI PO Prelims cut-off for General category?",
-              a: "The General/EWS cut-off in SBI PO Prelims has ranged from 52 to 64 marks out of 100 over the last five years. In 2025, with approximately 600–800 vacancies and a harder-than-usual paper, the estimated cut-off was around 62–64 marks. In 2024 (600 vacancies, moderate difficulty), it was around 56–58. Target 70+ in all your mock tests to build a comfortable buffer."
-            },
-            {
-              q: "How many attempts do candidates get for SBI PO?",
-              a: "SBI does not impose a hard cap on the number of attempts for SBI PO, unlike some other banking exams. As long as you are within the age limit and meet other eligibility criteria, you can apply every year. This makes it important to track your eligibility period carefully — maximize your attempts within the age window."
-            },
-            {
-              q: "Can I prepare for SBI PO and IBPS PO simultaneously?",
-              a: "Yes — and it is the smartest approach most coaching institutes recommend. The syllabi overlap is about 80–85%, especially in Quant and Reasoning. The key differences are SBI Mains descriptive writing (unique to SBI PO) and the slightly different GA focus (SBI PO leans heavier on banking awareness and economy). Preparing both together saves time and maximizes your chance of selection in either exam."
-            },
-            {
-              q: "What topics should I focus on first for SBI PO Prelims?",
-              a: "Prioritize Puzzles and Seating Arrangements (Reasoning), Data Interpretation (Quant), and Reading Comprehension (English) — these three topic clusters alone account for approximately 50–55 marks out of 100 in Prelims. Mastering them gives you the highest return on preparation time. After that, add Syllogisms, Approximation, and Error Detection for quick additional marks."
-            }
-          ]
+          subsections: [],
+          faqs: []
         };
       }
     }
@@ -5580,109 +5031,14 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'admit-card': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Admit Card 2026 – Download Hall Ticket from sbi.co.in`,
-          overview: `The SBI PO Admit Card 2026 will be released on the official website sbi.co.in, separately for Prelims and Mains. You cannot receive it by post — it must be downloaded online using your registration number and date of birth. Once available, download it immediately, verify all details, and take a printout before your exam date.`,
-          metaTitle: `SBI PO Admit Card – Download Hall Ticket @ sbi.co.in`,
-          metaDescription: `Download SBI PO Admit Card 2026 from sbi.co.in. Check release date, steps, exam schedule & documents to carry. Attempt free mock tests on PrepBanker.`,
-          ctaText: `Start Free SBI PO Mock Test`,
-          ctaHref: `https://prepbanker.com/sbi-po/mock-tests`,
+          title: `SBI PO Admit Card 2026: Download Prelims Call Letter`,
+          overview: `SBI released the SBI PO Admit Card 2026 on 22 July 2026 on its official website, sbi.bank.in, for candidates appearing in the Preliminary Examination on 1 and 2 August 2026, held across 4 shifts each day. The admit card — also called the Prelims Call Letter or Hall Ticket — can be downloaded using a Registration Number/Roll Number and Password or Date of Birth. Around 12,14,076 candidates applied for this cycle. No admit card is sent by post or email; a printed copy plus a valid original photo ID is mandatory for exam-hall entry.`,
+          metaTitle: `SBI PO Admit Card 2026 Out – Download Call Letter`,
+          metaDescription: `SBI PO Admit Card 2026 released 22 July 2026 at sbi.bank.in for the Aug 1–2 Prelims exam. Direct download link, shift timings & exam-day checklist.`,
+          ctaText: `Attempt Free SBI PO Mock Test`,
+          ctaHref: `https://app.prepgrind.com/signup/sbi-po`,
           customSchemas: (
             <>
-              {/* BreadcrumbList Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                      {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://prepbanker.com"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "SBI PO",
-                        "item": "https://prepbanker.com/sbi-po"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "SBI PO Admit Card 2026",
-                        "item": "https://prepbanker.com/sbi-po/admit-card"
-                      }
-                    ]
-                  })
-                }}
-              />
-              {/* WebPage Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "WebPage",
-                    "name": "SBI PO Admit Card 2026 – Download Hall Ticket @ sbi.co.in",
-                    "description": "Download SBI PO Admit Card 2026 from sbi.co.in. Check release date, download steps, exam date and documents to carry on exam day.",
-                    "url": "https://prepbanker.com/sbi-po/admit-card",
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-06-01",
-                    "breadcrumb": {
-                      "@type": "BreadcrumbList",
-                      "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
-                        { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
-                        { "@type": "ListItem", "position": 3, "name": "SBI PO Admit Card 2026", "item": "https://prepbanker.com/sbi-po/admit-card" }
-                      ]
-                    },
-                    "publisher": {
-                      "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com",
-                      "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://prepbanker.com/logo.png"
-                      }
-                    }
-                  })
-                }}
-              />
-              {/* Article Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "SBI PO Admit Card 2026 – Download Hall Ticket @ sbi.co.in",
-                    "description": "Complete guide to downloading SBI PO Admit Card 2026 for Prelims and Mains, including release dates, download steps, and exam day instructions.",
-                    "url": "https://prepbanker.com/sbi-po/admit-card",
-                    "datePublished": "2026-01-01",
-                    "dateModified": "2026-06-01",
-                    "author": {
-                      "@type": "Organization",
-                      "name": "PrepBanker Editorial Team",
-                      "url": "https://prepbanker.com"
-                    },
-                    "publisher": {
-                      "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com",
-                      "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://prepbanker.com/logo.png"
-                      }
-                    },
-                    "mainEntityOfPage": {
-                      "@type": "WebPage",
-                      "@id": "https://prepbanker.com/sbi-po/admit-card"
-                    }
-                  })
-                }}
-              />
               {/* FAQPage Schema */}
               <script
                 type="application/ld+json"
@@ -5693,84 +5049,120 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "mainEntity": [
                       {
                         "@type": "Question",
-                        "name": "When will the SBI PO Admit Card 2026 be released?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI typically releases the Prelims admit card 7–10 days before the exam date. For SBI PO 2026, the Prelims admit card is expected in June–July 2026, and the Mains admit card approximately 10–14 days before the Mains exam, likely in September–October 2026. Always download it from the official site sbi.co.in."
-                        }
+                        "name": "When was the SBI PO Admit Card 2026 released?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI released the PO Admit Card 2026 on 22 July 2026 at sbi.bank.in." }
                       },
                       {
                         "@type": "Question",
-                        "name": "How do I download my SBI PO Hall Ticket 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Visit sbi.co.in, navigate to the Careers section, find the SBI PO 2026 recruitment link, click on 'Download Admit Card', enter your registration number and date of birth, and download the PDF. Take a printout and carry a valid photo ID to the exam centre."
-                        }
+                        "name": "What are the login credentials to download the SBI PO Admit Card?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Registration Number or Roll Number along with Password or Date of Birth." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What documents do I need to carry for the SBI PO exam 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Carry your printed SBI PO admit card 2026 along with one original government-issued photo ID (Aadhaar card, PAN card, Voter ID, Passport, or Driving Licence). Some centres may also ask for a passport-size photograph. Do not rely on a phone screenshot — a printout is mandatory."
-                        }
+                        "name": "Will SBI send the admit card by post or email?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, the SBI PO Admit Card is available only in online mode and is not dispatched by post or email." }
                       },
                       {
                         "@type": "Question",
-                        "name": "Is the SBI PO Prelims admit card different from the Mains admit card?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Yes, SBI releases separate admit cards for Prelims and Mains. You must download the Mains admit card separately after qualifying Prelims. Your Prelims admit card is not valid for the Mains exam. Check your registered email or sbi.co.in for each individual call letter."
-                        }
+                        "name": "What documents must I carry along with the admit card?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "A printed copy of the admit card and one valid original photo ID such as Aadhaar, PAN, Passport, Voter ID, or Driving Licence." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What if I forget my registration number for the SBI PO admit card download?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Check the email address you used to register for SBI PO 2026 — SBI sends a confirmation email with your registration number at the time of application. You can also use the 'Forgot Registration Number' link on the admit card download page, which requires your email ID and date of birth."
-                        }
+                        "name": "Is biometric verification done at the SBI PO exam centre?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, fingerprint biometric verification is conducted at most centres as part of identity checks before entry." }
                       },
                       {
                         "@type": "Question",
-                        "name": "Can I download SBI PO Admit Card 2026 on my mobile phone?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "You can download it on mobile, but you must print the admit card before going to the exam centre. A digital copy on your phone is not accepted. Download as a PDF, save it, and get a clean black-and-white printout. Make sure all details are clearly visible."
-                        }
+                        "name": "Are admit card links shared on WhatsApp or Telegram safe?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, these are commonly fake or phishing links. Download the admit card only from the official site, sbi.bank.in." }
                       },
                       {
                         "@type": "Question",
-                        "name": "How many vacancies are there in SBI PO 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO 2026 is expected to have approximately 600 vacancies, consistent with recent recruitment cycles. SBI PO 2023 had 2000 vacancies, and SBI PO 2024–25 had around 600. Official vacancy numbers are confirmed in the official notification on sbi.co.in."
-                        }
+                        "name": "What is the best time to download the SBI PO Admit Card if the site is slow?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Early morning hours, roughly 5 AM to 7 AM IST, tend to have lower server traffic and faster downloads." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What happens if there is an error on my SBI PO admit card?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "If you find an error (wrong name, photo, or exam centre), contact SBI's official helpdesk immediately at the number or email mentioned on the official recruitment notification. Carry your application printout and ID proof to the exam centre as backup. Do not travel without attempting to resolve the issue first."
-                        }
+                        "name": "How many shifts is the SBI PO Prelims exam conducted in?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SBI PO Prelims exam is conducted in 4 shifts per day on 1 and 2 August 2026." }
                       },
                       {
                         "@type": "Question",
-                        "name": "How should I prepare in the 10 days before the SBI PO exam?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "In the 10-day window before SBI PO Prelims, take at least 4–5 full-length mock tests under timed conditions. Prioritise reviewing errors over attempting new questions. Focus heavily on English Language and Reasoning speed. Use PrepBanker's SBI PO mock tests to simulate the real exam interface."
-                        }
+                        "name": "What is the handwriting sample on the SBI PO admit card?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "It is a short handwritten declaration candidates must complete at the centre within a fixed time slot before the exam begins, as printed on the admit card." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the SBI PO Prelims exam pattern in 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO Prelims 2026 consists of three sections: English Language (30 questions, 30 marks, 20 minutes), Quantitative Aptitude (35 questions, 35 marks, 20 minutes), and Reasoning Ability (35 questions, 35 marks, 20 minutes). Total: 100 questions, 100 marks, 60 minutes. There is a 0.25 negative mark for each wrong answer."
-                        }
+                        "name": "Can I enter the exam centre after the gate closing time?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, entry is strictly denied after the gate closing time printed on the admit card." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What if my SBI PO Admit Card shows incorrect details?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Contact SBI recruitment authorities immediately, before the exam date, to get the error corrected." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is the SBI PO Admit Card the same as the hall ticket or call letter?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, Admit Card, Hall Ticket, and Call Letter all refer to the same document issued by SBI for the Prelims exam." }
                       }
+                    ]
+                  })
+                }}
+              />
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Admit Card", "item": "https://prepbanker.com/sbi-po/admit-card" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Admit Card 2026: Download Prelims Call Letter",
+                    "datePublished": "2026-07-22",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
+                    },
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/admit-card"
+                  })
+                }}
+              />
+              {/* HowTo Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "HowTo",
+                    "name": "How to Download SBI PO Admit Card 2026",
+                    "step": [
+                      { "@type": "HowToStep", "text": "Visit the official website sbi.bank.in." },
+                      { "@type": "HowToStep", "text": "Click on Careers on the homepage." },
+                      { "@type": "HowToStep", "text": "Click Join SBI, then select Current Openings." },
+                      { "@type": "HowToStep", "text": "Open the listing for Recruitment of Probationary Officers (CRPD/PO/2026-27/09)." },
+                      { "@type": "HowToStep", "text": "Click Call Letter for Prelims Exam." },
+                      { "@type": "HowToStep", "text": "Enter Registration Number and Password or Date of Birth." },
+                      { "@type": "HowToStep", "text": "Complete the captcha verification and submit." },
+                      { "@type": "HowToStep", "text": "Download the admit card and print 2-3 copies for the exam day." }
                     ]
                   })
                 }}
@@ -5778,277 +5170,30 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
             </>
           ),
           subsections: [
-            {
-              id: 'release-date',
-              title: 'When Will the SBI PO Admit Card 2026 Be Released?',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    SBI does not announce a specific date for admit card release in advance. Historically, the call letter becomes available on the official portal <strong>7 to 10 days before the Prelims exam date</strong>.
-                  </p>
-                  <p>
-                    Based on SBI PO&apos;s typical recruitment calendar:
-                  </p>
-                  <ul className="list-disc list-inside space-y-1.5 pl-3">
-                    <li><strong>SBI PO Notification:</strong> Expected July–August 2026</li>
-                    <li><strong>Application Window:</strong> July–August 2026</li>
-                    <li><strong>Prelims Admit Card:</strong> Expected October–November 2026</li>
-                    <li><strong>Prelims Exam Date:</strong> Expected October–November 2026</li>
-                    <li><strong>Mains Admit Card:</strong> Expected January–February 2027</li>
-                    <li><strong>Mains Exam Date:</strong> Expected January–February 2027</li>
-                  </ul>
-                  <HighlightBox type="info" title="Pro Tip">
-                    Don&apos;t wait for a reminder email. Log in to sbi.co.in directly 10 days before your expected exam window. SBI&apos;s notification emails sometimes go to spam — make sure to whitelist noreply@sbi.co.in in your inbox.
-                  </HighlightBox>
-                  <p className="mt-2 text-xs text-slate-500">
-                    These are projected timelines based on recent SBI PO cycles. SBI PO 2024 Prelims were held in December 2024 and January 2025. SBI PO 2023 Prelims were conducted in October 2023. The recruitment calendar shifts annually based on SBI&apos;s internal staffing plan. Always cross-check with the official notification PDF available on sbi.co.in/careers.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'download-steps',
-              title: 'How to Download SBI PO Hall Ticket 2026: Step-by-Step',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    Downloading the admit card takes less than two minutes if you have your credentials ready. Here&apos;s the exact process:
-                  </p>
-                  <ol className="list-decimal list-inside space-y-2.5 pl-3">
-                    <li>Open your browser and go to <a href="https://sbi.co.in" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">sbi.co.in</a></li>
-                    <li>Click on <strong>&quot;Careers&quot;</strong> in the top navigation or footer menu</li>
-                    <li>Look for the active <strong>&quot;SBI PO 2026 Recruitment&quot;</strong> link — it will be prominently listed under Latest Announcements</li>
-                    <li>Click on the <strong>&quot;Download Admit Card / Call Letter&quot;</strong> link for the relevant stage (Prelims or Mains)</li>
-                    <li>Enter your <strong>Registration Number</strong> (from your application confirmation email)</li>
-                    <li>Enter your <strong>Date of Birth</strong> in DD/MM/YYYY format</li>
-                    <li>Enter the <strong>Captcha</strong> shown on screen</li>
-                    <li>Click <strong>Submit / Download</strong></li>
-                    <li>Your admit card will open as a <strong>PDF file</strong></li>
-                    <li>Verify all details — name, photo, exam centre, reporting time, and exam date</li>
-                    <li>Save the PDF to your device and <strong>take a colour or black-and-white printout</strong></li>
-                  </ol>
-                  <HighlightBox type="success" title="Pro Tip">
-                    Print at least two copies of your admit card. Keep one at home and carry one to the exam centre. Exam centres sometimes have long queues at document verification — having a second copy prevents panic if one gets damaged or misplaced.
-                  </HighlightBox>
-                </div>
-              )
-            },
-            {
-              id: 'card-details',
-              title: 'What Does the SBI PO Admit Card 2026 Contain?',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    The admit card is your entry pass to the exam hall. Check every field carefully the moment you download it. Here&apos;s what it includes:
-                  </p>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
-                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Candidate Information</h5>
-                      <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
-                        <li>Full name</li>
-                        <li>Registration / Roll number</li>
-                        <li>Date of birth</li>
-                        <li>Photograph &amp; signature</li>
-                        <li>Category details</li>
-                      </ul>
-                    </div>
-                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Exam Details</h5>
-                      <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
-                        <li>Exam stage (Prelims/Mains)</li>
-                        <li>Exam date and day</li>
-                        <li>Reporting &amp; gate closing time</li>
-                        <li>Exam centre name &amp; address</li>
-                        <li>Exam centre code</li>
-                      </ul>
-                    </div>
-                    <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Instructions</h5>
-                      <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
-                        <li>Permitted items inside hall</li>
-                        <li>Accepted ID list</li>
-                        <li>Exam centre prohibitions</li>
-                        <li>CBT interface rules</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p className="text-sm">
-                    If any of the above details are incorrect — especially your name, photo, or exam centre — contact SBI immediately through the official helpdesk mentioned in the notification.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'documents-to-carry',
-              title: 'Documents to Carry to SBI PO Exam Centre 2026',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    Carrying the admit card alone is not enough. Security checks at SBI exam centres are strict. Here&apos;s the complete list of what you need:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Document</th>
-                          <th className="px-4 py-2.5">Mandatory?</th>
-                          <th className="px-4 py-2.5">Notes</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Printed SBI PO Admit Card 2026</td>
-                          <td className="px-4 py-3 text-emerald-600 font-bold">Yes</td>
-                          <td className="px-4 py-3">Printout required — phone copy not accepted</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Original Photo ID (any one)</td>
-                          <td className="px-4 py-3 text-emerald-600 font-bold">Yes</td>
-                          <td className="px-4 py-3">See accepted IDs below</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Passport-size Photograph</td>
-                          <td className="px-4 py-3 text-slate-500 font-bold">Sometimes</td>
-                          <td className="px-4 py-3">Check your specific admit card instructions</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">PwBD Certificate</td>
-                          <td className="px-4 py-3 text-slate-500 font-bold">For PwBD</td>
-                          <td className="px-4 py-3">Original + photocopy</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Scribe Form</td>
-                          <td className="px-4 py-3 text-slate-500 font-bold">For Scribe users</td>
-                          <td className="px-4 py-3">Pre-filled and signed</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                    <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Accepted Photo ID Documents:</h5>
-                    <ul className="text-xs sm:text-sm text-slate-650 space-y-1 pl-3 list-disc list-inside">
-                      <li>Aadhaar Card (physical or mAadhaar)</li>
-                      <li>PAN Card</li>
-                      <li>Voter ID / EPIC Card</li>
-                      <li>Passport</li>
-                      <li>Driving Licence</li>
-                      <li>Government Employee ID Card</li>
-                      <li>Bank Passbook with photograph (issued by a scheduled bank)</li>
-                    </ul>
-                  </div>
-                  <p className="text-sm font-semibold text-rose-600">
-                    Do not carry: mobile phones, Bluetooth earphones, smart watches, calculators, or any electronic device. These are strictly prohibited and may result in disqualification.
-                  </p>
-                </div>
-              )
-            },
-            {
-              id: 'post-download-tips',
-              title: 'What to Do After Downloading Your SBI PO Admit Card',
-              content: (
-                <div className="space-y-4 text-slate-650 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    Most students download the admit card, take a printout, and wait. That&apos;s a mistake. The period between admit card release and exam day is typically 7–10 days — which is more than enough time to meaningfully improve your score.
-                  </p>
-                  <p>
-                    Here&apos;s the right approach:
-                  </p>
-                  <ol className="list-decimal list-inside space-y-2 pl-3">
-                    <li><strong>Verify your exam centre location.</strong> Look it up on Google Maps immediately. Know your route, travel time, and transport options. If it&apos;s far, arrange accommodation in advance.</li>
-                    <li><strong>Check reporting time vs gate closing time.</strong> SBI exam centres lock gates 30–45 minutes before the exam starts. Arriving &quot;on time&quot; means arriving late. Be there 60 minutes early.</li>
-                    <li><strong>Attempt 2–3 full mock tests.</strong> Don&apos;t break momentum now. One mock test per day in this final stretch, reviewed properly, can add 5–8 marks.</li>
-                    <li><strong>Revise high-weightage topics only.</strong> Don&apos;t start new chapters. Focus on Number Series, Simplification, Reading Comprehension, Syllogisms, and Blood Relations — topics that give the highest return in Prelims.</li>
-                    <li><strong>Keep your documents organised.</strong> Put your printout, photo ID, and photograph in a separate envelope or pouch. Don&apos;t scramble on exam morning.</li>
-                  </ol>
-                </div>
-              )
-            },
-            {
-              id: 'common-mistakes',
-              title: 'Common Mistakes to Avoid on SBI PO Exam Day',
-              content: (
-                <div className="space-y-4 text-slate-650 text-sm sm:text-[15px] leading-relaxed">
-                  <p>
-                    These are not generic tips — these are the actual reasons students get turned away or disqualified:
-                  </p>
-                  <ul className="list-disc list-inside space-y-2.5 pl-3">
-                    <li><strong>Arriving late:</strong> Gate closes 30 minutes before the exam. No exceptions. No appeals.</li>
-                    <li><strong>Carrying a phone:</strong> Even a switched-off phone can get you disqualified at some centres. Leave it in your vehicle or outside.</li>
-                    <li><strong>Admit card printout with unclear photo:</strong> If the invigilator cannot clearly identify you from your admit card photo, they have the authority to reject your entry. Print clearly.</li>
-                    <li><strong>Mismatched ID:</strong> The name on your admit card must match the name on your ID exactly. If they differ (even in spelling), carry your application confirmation email as proof.</li>
-                    <li><strong>Writing on the rough sheet before the exam starts:</strong> Wait for the invigilator&apos;s instruction. Writing anything before the formal start can be flagged.</li>
-                  </ul>
-                </div>
-              )
-            },
-            {
-              id: 'also-explore',
-              title: 'Also Explore on PrepBanker',
-              content: (
-                <div className="space-y-4 text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    Downloading your admit card is one step. Cracking the exam is the goal. Here&apos;s what students preparing for SBI PO 2026 use most on PrepBanker:
-                  </p>
-                  <p>
-                    Attempt the <a href="https://prepbanker.com/sbi-po/mock-tests/prelims-free" className="font-bold text-[#1B6EB5] hover:underline">Free SBI PO Prelims Full Mock Test</a> to get a real score estimate before your exam — no registration required for the first test.
-                  </p>
-                  <p>
-                    Check the <a href="https://prepbanker.com/sbi-po/syllabus" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Syllabus and Exam Pattern 2026</a> for a complete topic-wise breakdown of Prelims and Mains, with weightage analysis based on past papers.
-                  </p>
-                  <p>
-                    Strengthen your speed with <a href="https://prepbanker.com/sectional-tests/quant" className="font-bold text-[#1B6EB5] hover:underline">Quantitative Aptitude Chapter-wise Quizzes</a> covering Number Series, Simplification, Data Interpretation, Quadratic Equations, and more.
-                  </p>
-                  <p>
-                    Explore <a href="https://prepbanker.com/sbi-po/previous-year-papers" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Previous Year Question Papers (2019–2024)</a> — fully solved with detailed explanations, organised by year and section.
-                  </p>
-                  <p>
-                    Also preparing for IBPS PO or RBI Grade B? Check out the <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mock Test Series 2026</a> and <a href="https://prepbanker.com/rbi-grade-b/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">RBI Grade B Free Mock Test</a> — both exams share significant syllabus overlap with SBI PO.
-                  </p>
-                </div>
-              )
-            }
+            { id: 'highlights', title: 'SBI PO Admit Card 2026: Key Highlights', content: <></> },
+            { id: 'download-steps', title: 'How to Download SBI PO Admit Card 2026', content: <></> },
+            { id: 'best-time', title: 'Best Time to Download Call Letter', content: <></> },
+            { id: 'shift-timings', title: 'SBI PO Prelims Shift Timings 2026', content: <></> },
+            { id: 'details-printed', title: 'Details Mentioned on the SBI PO Admit Card', content: <></> },
+            { id: 'documents-required', title: 'Documents Required Along With Admit Card', content: <></> },
+            { id: 'dos-donts', title: 'Do\'s and Don\'ts Guidelines', content: <></> },
+            { id: 'exam-checklist', title: 'Exam Day Checklist', content: <></> },
+            { id: 'common-issues', title: 'Common Issues While Downloading & Fixes', content: <></> },
+            { id: 'live-updates', title: 'Latest Admit Card Updates (Live Log)', content: <></> }
           ],
           faqs: [
-            {
-              q: "When will the SBI PO Admit Card 2026 be released?",
-              a: "SBI typically releases the Prelims admit card 7–10 days before the exam date, which is expected in July 2026 based on the typical recruitment calendar. There is no separate announcement before release — log in to sbi.co.in directly. For Mains, a fresh admit card is released approximately 10–14 days before the Mains exam date."
-            },
-            {
-              q: "How do I download my SBI PO Hall Ticket 2026?",
-              a: "Visit sbi.co.in → Careers → SBI PO 2026 → Download Admit Card. Enter your registration number and date of birth, then click Submit. The admit card downloads as a PDF. Save it and print it out immediately. You cannot use a screenshot or mobile display at the exam centre — a physical printout is mandatory."
-            },
-            {
-              q: "What documents should I carry to the SBI PO exam centre?",
-              a: "You need your printed SBI PO Admit Card 2026 and one original photo ID — Aadhaar card, PAN card, Voter ID, Passport, or Driving Licence. Some admit cards also require a passport-size photo. Do not carry mobile phones or electronic devices. Check your specific admit card for any additional instructions, as requirements can vary slightly by centre."
-            },
-            {
-              q: "Is the SBI PO Prelims admit card the same as the Mains admit card?",
-              a: "No. SBI issues separate call letters for Prelims and Mains. After qualifying Prelims, you must log in again to download the Mains admit card. Your Prelims call letter will not be accepted at the Mains exam centre. Both must be downloaded from sbi.co.in using the same registration credentials."
-            },
-            {
-              q: "What if I forgot my registration number for the admit card download?",
-              a: "Check your registered email inbox — SBI sends a registration confirmation at the time of application. Look for emails from SBI or scroll through your inbox for keywords like 'registration' or 'SBI PO 2026.' Alternatively, the admit card portal usually has a 'Forgot Registration Number' option that uses your email ID and date of birth to retrieve it."
-            },
-            {
-              q: "Can I download the SBI PO Admit Card 2026 on my phone?",
-              a: "You can download the PDF on mobile, but the exam centre does not accept a phone display as a valid admit card. You must print it out. Download the file, send it to any printer service if you don't have one at home, and carry a clean printout with visible photo, name, and exam details."
-            },
-            {
-              q: "What if there is an error in my SBI PO admit card 2026?",
-              a: "Contact SBI's official recruitment helpline immediately — the number is listed in the official notification PDF on sbi.co.in. Carry your application confirmation printout and original ID to the exam centre as additional proof. If the error is minor (a small spelling variation), most centres will still allow entry with supporting documents. For major errors (wrong photo or completely different name), escalate before exam day."
-            },
-            {
-              q: "How many vacancies are expected in SBI PO 2026?",
-              a: "Based on recent cycles, SBI PO 2026 is expected to have approximately 600 vacancies. SBI PO 2023–24 had around 600 vacancies, while SBI PO 2023 (a separate cycle) had 2000. The official number is always confirmed in the recruitment notification. Over 7–9 lakh candidates typically apply, making this one of India's most competitive banking exams."
-            },
-            {
-              q: "How should I spend the 7–10 days after getting my admit card?",
-              a: "Use this window for exam simulation, not new content. Attempt 3–4 full mock tests on PrepBanker, review every error, and tighten your section-switching strategy. Revise only high-frequency topics: Number Series, DI, Coding-Decoding, Reading Comprehension, and Para Jumbles. Sort out your logistics — exam centre location, travel route, reporting time — at least 3 days before."
-            },
-            {
-              q: "Which is better for SBI PO prep: sectional tests or full mock tests?",
-              a: "Both serve different purposes. Sectional tests are better for plugging topic-specific weaknesses — use them 4–6 weeks before the exam. Full mock tests simulate the real pressure of juggling all three sections under a 60-minute clock — use these in the final 2 weeks. The ideal sequence is: sectional practice → chapter quizzes for gaps → full mocks with time analysis → PYQ revision."
-            }
+            { q: 'When was the SBI PO Admit Card 2026 released?', a: 'SBI released the PO Admit Card 2026 on 22 July 2026 at sbi.bank.in.' },
+            { q: 'What are the login credentials to download the SBI PO Admit Card?', a: 'Registration Number/Roll Number along with Password or Date of Birth.' },
+            { q: 'Will SBI send the admit card by post or email?', a: 'No — the SBI PO Admit Card is available only in online mode; it is not dispatched by post or email.' },
+            { q: 'What documents must I carry along with the admit card?', a: 'A printed copy of the admit card and one valid original photo ID such as Aadhaar, PAN, Passport, Voter ID, or Driving Licence.' },
+            { q: 'Is biometric verification done at the SBI PO exam centre?', a: 'Yes — fingerprint biometric verification is conducted at most centres as part of identity checks before entry.' },
+            { q: 'Are admit card links shared on WhatsApp or Telegram safe?', a: 'No — these are commonly fake or phishing links; download the admit card only from the official site, sbi.bank.in.' },
+            { q: 'What is the best time to download the SBI PO Admit Card if the site is slow?', a: 'Early morning hours, roughly 5 AM to 7 AM IST, tend to have lower server traffic and faster downloads.' },
+            { q: 'How many shifts is the SBI PO Prelims exam conducted in?', a: 'The SBI PO Prelims exam is conducted in 4 shifts per day on 1 and 2 August 2026.' },
+            { q: 'What is the handwriting sample on the SBI PO admit card?', a: 'It\'s a short handwritten declaration candidates must complete at the centre within a fixed time slot before the exam begins, as printed on the admit card.' },
+            { q: 'Can I enter the exam centre after the gate closing time?', a: 'No — entry is strictly denied after the gate closing time printed on the admit card.' },
+            { q: 'What if my SBI PO Admit Card shows incorrect details?', a: 'Contact SBI recruitment authorities immediately, before the exam date, to get the error corrected.' },
+            { q: 'Is the SBI PO Admit Card the same as the hall ticket or call letter?', a: 'Yes — Admit Card, Hall Ticket, and Call Letter all refer to the same document issued by SBI for the Prelims exam.' }
           ]
         };
       }
@@ -6060,7 +5205,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           metaTitle: "IBPS PO Admit Card — Download Hall Ticket Now",
           metaDescription: "IBPS PO admit card 2026 is released on ibps.in. Download your Prelims & Mains hall ticket, check exam day rules, and attempt free mock tests on PrepBanker.",
           ctaText: "Start Free IBPS PO Mock Test",
-          ctaHref: "https://app.prepgrind.com/register",
+          ctaHref: "https://app.prepgrind.com/signup/ibps-po",
           customSchemas: (
             <>
               {/* BreadcrumbList Schema */}
@@ -6745,7 +5890,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} Admit Card 2026`,
         overview: `Download dates, download steps, and guidelines for the ${exam.shortName} Prelims & Mains examination call letters.`,
         ctaText: 'Start Preparing for Exam',
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: [
           {
             id: 'admit-card-steps',
@@ -6802,65 +5947,14 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'vacancy': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Vacancy 2026 – Released 1,500 Posts, Breakup & Trends`,
-          overview: `The State Bank of India released the official SBI PO 2026 notification on 18 June 2026 (Advertisement No. CRPD/PO/2026-27/09), announcing 1,500 vacancies for the post of Probationary Officer — a big jump from just 541 vacancies in 2025, nearly three times more openings this year. Category-wise vacancy breakup: UR – 588 | OBC – 390 | SC – 234 | ST – 144 | EWS – 144. Over 12.14 lakh candidates applied for SBI PO 2026 — nearly double last year's numbers — which tells you exactly how competitive this cycle is.`,
-          metaTitle: `SBI PO Vacancy 2026 – Category Breakup & 1,500 Total Posts`,
-          metaDescription: `SBI PO 2026 vacancies released: 1,500 total posts (1,446 regular + 54 backlog). Check category-wise breakup (UR 588, OBC 390, SC 234, ST 144, EWS 144) & trends.`,
-          ctaText: `Start Free SBI PO Mock Test`,
-          ctaHref: `https://prepbanker.com/sbi-po/mock-test`,
+          title: `SBI PO Vacancy 2026: 1,500 Probationary Officer Posts`,
+          overview: `The SBI PO Vacancy 2026 stands at 1,500 Probationary Officer posts, announced by the State Bank of India under Advertisement No. CRPD/PO/2026-27/09. Of these, 1,446 are regular vacancies and 54 are backlog vacancies, carried forward from previous recruitment cycles. This is nearly 3 times the vacancy count released in 2025 (541 posts), making 2026 one of the largest SBI PO hiring cycles in recent years. Vacancies are further divided across UR, SC, ST, OBC, and EWS categories, with a separate horizontal reservation of 61 posts for PwBD (Persons with Benchmark Disabilities) candidates.`,
+          metaTitle: `SBI PO Vacancy 2026: 1500 Posts Breakup`,
+          metaDescription: `SBI PO Vacancy 2026 stands at 1,500 posts — 1,446 regular + 54 backlog. Check category-wise, PwBD & state-wise vacancy breakup here at PrepBanker.`,
+          ctaText: `Attempt Free SBI PO Mock Test`,
+          ctaHref: `https://app.prepgrind.com/signup/sbi-po`,
           customSchemas: (
             <>
-              {/* BreadcrumbList Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                      {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://prepbanker.com"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "SBI PO",
-                        "item": "https://prepbanker.com/sbi-po"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "SBI PO Vacancy 2026",
-                        "item": "https://prepbanker.com/sbi-po/vacancy"
-                      }
-                    ]
-                  })
-                }}
-              />
-              {/* WebPage Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "WebPage",
-                    "name": "SBI PO Vacancy 2026 – Category-Wise Breakup & Trends",
-                    "url": "https://prepbanker.com/sbi-po/vacancy",
-                    "description": "Complete guide to SBI PO Vacancy 2026: 1,500 total posts, category-wise breakup for UR, OBC, SC, ST, EWS, year-wise vacancy trends since 2017, and free mock tests.",
-                    "inLanguage": "en-IN",
-                    "datePublished": "2026-06-18",
-                    "dateModified": "2026-07-10",
-                    "publisher": {
-                      "@type": "Organization",
-                      "name": "PrepBanker",
-                      "url": "https://prepbanker.com"
-                    }
-                  })
-                }}
-              />
               {/* FAQPage Schema */}
               <script
                 type="application/ld+json"
@@ -6871,29 +5965,106 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     "mainEntity": [
                       {
                         "@type": "Question",
-                        "name": "How many vacancies are there in SBI PO 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "SBI PO 2026 has a total of 1,500 vacancies (including 1,446 regular vacancies and 54 backlog vacancies). This is almost triple the 541 vacancies from 2025."
-                        }
+                        "name": "How many total vacancies are there in SBI PO 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "SBI PO Vacancy 2026 stands at 1,500 posts." }
                       },
                       {
                         "@type": "Question",
-                        "name": "What is the category-wise SBI PO vacancy breakup for 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "The category-wise vacancy breakup for SBI PO 2026 is: UR (General) – 588, OBC – 390, SC – 234, ST – 144, EWS – 144."
-                        }
+                        "name": "How many regular and backlog vacancies are there in SBI PO 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Of the 1,500 total posts, 1,446 are regular vacancies and 54 are backlog vacancies." }
                       },
                       {
                         "@type": "Question",
-                        "name": "How many students applied for SBI PO 2026?",
-                        "acceptedAnswer": {
-                          "@type": "Answer",
-                          "text": "Over 12.14 lakh candidates applied for SBI PO 2026, which is nearly double last year's numbers."
-                        }
+                        "name": "What is the SBI PO vacancy for the UR category in 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The UR (Unreserved) category has 588 vacancies in SBI PO 2026." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the SBI PO vacancy for the OBC category in 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The OBC category has 390 vacancies in SBI PO 2026, all regular." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many PwBD vacancies are there in SBI PO 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "There are 61 PwBD vacancies in total: 15 for VI, 16 for HI, 14 for LD, and 16 for D&E categories, reserved horizontally." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is the SBI PO 2026 vacancy higher than 2025?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes, SBI PO Vacancy 2026 of 1,500 posts is nearly 3 times higher than SBI PO Vacancy 2025 of 541 posts." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Are SBI PO 2026 vacancy numbers final?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, vacancy numbers are provisional and may vary based on the Bank's actual requirement at the time of final allotment." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the SBI PO SC category vacancy in 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The SC category has 234 total vacancies: 216 regular and 18 backlog." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the SBI PO ST category vacancy in 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The ST category has 144 total vacancies: 108 regular and 36 backlog." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Does PwBD reservation apply on top of category vacancies?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, PwBD reservation is horizontal, meaning PwBD vacancies are counted within the respective social category rather than added on top of it." }
                       }
                     ]
+                  })
+                }}
+              />
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Vacancy", "item": "https://prepbanker.com/sbi-po/vacancy" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Vacancy 2026: 1,500 Probationary Officer Posts",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
+                    },
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/vacancy"
+                  })
+                }}
+              />
+              {/* Dataset Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Dataset",
+                    "name": "SBI PO Vacancy 2026 Category-Wise Breakup",
+                    "description": "Category-wise and PwBD-wise vacancy breakup for SBI Probationary Officer Recruitment 2026 (Advt No. CRPD/PO/2026-27/09).",
+                    "creator": { "@type": "Organization", "name": "PrepBanker" },
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "variableMeasured": ["Total Vacancies", "Regular Vacancies", "Backlog Vacancies", "PwBD Vacancies"]
                   })
                 }}
               />
@@ -6901,245 +6072,15 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           ),
           subsections: [
             {
-              id: 'quick-snapshot',
-              title: 'SBI PO 2026 Vacancy — Key Facts Snapshot',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                    The official key parameters and vacancy details for SBI PO 2026 are summarized in the table below:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Parameter</th>
-                          <th className="px-4 py-2.5">Details</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Total 2026 Vacancies</td>
-                          <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2025 Vacancies (for reference)</td>
-                          <td className="px-4 py-3">541 (500 regular + 41 backlog)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Total Applicants (2026)</td>
-                          <td className="px-4 py-3">Over 12.14 Lakh (Nearly double last year)</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Application Mode</td>
-                          <td className="px-4 py-3">Online (sbi.co.in)</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Selection Stages</td>
-                          <td className="px-4 py-3">Prelims → Mains → Psychometric Test + Group Exercise + Interview</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Official Website</td>
-                          <td className="px-4 py-3">
-                            <a href="https://sbi.co.in/web/careers" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">
-                              sbi.co.in/web/careers
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'category-breakdown',
-              title: 'SBI PO 2026 Category-Wise Vacancy Breakup',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    SBI distributes PO vacancies across General (UR), OBC, SC, ST, and EWS categories as per government reservation norms. The official breakup for the 2026 cycle is tabulated below:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Category</th>
-                          <th className="px-4 py-2.5">Vacancies Breakup (2026)</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">General (UR)</td>
-                          <td className="px-4 py-3">588</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">OBC</td>
-                          <td className="px-4 py-3">390</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">SC</td>
-                          <td className="px-4 py-3">234</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">ST</td>
-                          <td className="px-4 py-3">144</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">EWS</td>
-                          <td className="px-4 py-3">144</td>
-                        </tr>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <td className="px-4 py-3">Total</td>
-                          <td className="px-4 py-3">1,500 (1,446 regular + 54 backlog)</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <HighlightBox type="success" title="Horizontal Reservation">
-                    <p className="text-xs sm:text-sm text-slate-700">
-                      SBI also reserves horizontal vacancies for differently-abled candidates (PwBD) as per guidelines. These are carved out of the category totals listed above.
-                    </p>
-                  </HighlightBox>
-                </div>
-              )
-            },
-            {
-              id: 'vacancy-trend',
-              title: 'SBI PO Vacancy Trend: Year-Wise Data Since 2017',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    Vacancy numbers shape your competition ratio and safe target scores. Here is the complete year-wise history of SBI PO vacancies:
-                  </p>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-4">
-                    <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Year</th>
-                          <th className="px-4 py-2.5">Regular</th>
-                          <th className="px-4 py-2.5">Backlog</th>
-                          <th className="px-4 py-2.5">Total</th>
-                          <th className="px-4 py-2.5">Approx. Applicants</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr className="bg-slate-100/80 font-bold text-slate-900">
-                          <td className="px-4 py-3">2026</td>
-                          <td className="px-4 py-3">1,446</td>
-                          <td className="px-4 py-3">54</td>
-                          <td className="px-4 py-3">1,500</td>
-                          <td className="px-4 py-3">~12.14 Lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2025</td>
-                          <td className="px-4 py-3">500</td>
-                          <td className="px-4 py-3">41</td>
-                          <td className="px-4 py-3">541</td>
-                          <td className="px-4 py-3">~6.5 Lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2024</td>
-                          <td className="px-4 py-3">600</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">600</td>
-                          <td className="px-4 py-3">~8 Lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2023</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">~16 Lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2022</td>
-                          <td className="px-4 py-3">1,673</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">1,673</td>
-                          <td className="px-4 py-3">~17 Lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2021</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">56</td>
-                          <td className="px-4 py-3">2,056</td>
-                          <td className="px-4 py-3">~20 Lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2020</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">~20 Lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2019</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">~22 Lakh</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">2018</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2,000</td>
-                          <td className="px-4 py-3">~20 Lakh</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">2017</td>
-                          <td className="px-4 py-3">2,313</td>
-                          <td className="px-4 py-3">—</td>
-                          <td className="px-4 py-3">2,313</td>
-                          <td className="px-4 py-3">~9.5 Lakh</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'why-vacancy-matters',
-              title: 'Why Vacancy Numbers Matter More Than Most Students Realise',
-              content: (
-                <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-                  <p>
-                    Most aspirants focus only on the syllabus and ignore the vacancy-to-applicant math. Here is why it matters:
-                  </p>
-                  <p>
-                    In <strong>2026</strong>, SBI has announced <strong>1,500 vacancies</strong>. With 12.14 lakh candidates applying, the competition ratio is roughly 800:1.
-                  </p>
-                  <p>
-                    SBI typically shortlists approximately <strong>10x the vacancies</strong> for the Mains Exam — meaning around 15,000 candidates make it past Prelims. Out of 12.14 lakh applicants, that requires you to finish in the top <strong>1.23%</strong>.
-                  </p>
-                  <p>
-                    To secure this, you need to consistently practice with timed mocks and prioritize accuracy. PrepBanker's analytics dashboard shows your percentile rank against other test-takers so you know where you stand.
-                  </p>
-                </div>
-              )
+              id: 'content-override',
+              title: '',
+              content: <></>
             }
           ],
           faqs: [
             {
-              q: "How many vacancies are there in SBI PO 2026?",
-              a: "SBI PO 2026 has a total of 1,500 vacancies, consisting of 1,446 regular vacancies and 54 backlog vacancies. This is nearly triple the 541 vacancies from the 2025 cycle."
-            },
-            {
-              q: "When was the SBI PO 2026 notification released?",
-              a: "The official SBI PO 2026 notification was released on 18 June 2026. The online application window closed on 8 July 2026."
-            },
-            {
-              q: "What is the category-wise vacancy breakup for SBI PO 2026?",
-              a: "The vacancies are distributed as follows: UR (General) – 588, OBC – 390, SC – 234, ST – 144, EWS – 144, for a total of 1,500 vacancies."
-            },
-            {
-              q: "Does SBI PO have state-wise vacancy distribution?",
-              a: "No, SBI PO vacancies are distributed at the national level by category. Unlike SBI Clerk, there is no state-wise or circle-wise quota."
-            },
-            {
-              q: "How many students applied for SBI PO 2026?",
-              a: "Over 12.14 lakh candidates applied for the SBI PO 2026 recruitment cycle, which is nearly double last year's applicant count."
+              q: "How many total vacancies are there in SBI PO 2026?",
+              a: "SBI PO Vacancy 2026 stands at 1,500 posts."
             }
           ]
         };
@@ -7152,7 +6093,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           metaTitle: "IBPS PO Vacancy — Total Posts, Bank-Wise & State-Wise",
           metaDescription: "IBPS PO vacancy 2026 details — total posts, bank-wise breakdown, state-wise distribution, category-wise seats, and free mock tests to start your prep today.",
           ctaText: "Start Free IBPS PO Mock Test",
-          ctaHref: "https://app.prepgrind.com/register",
+          ctaHref: "https://app.prepgrind.com/signup/ibps-po",
           customSchemas: (
             <>
               {/* BreadcrumbList Schema */}
@@ -7880,7 +6821,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           title: `${exam.shortName} Vacancy 2026`,
           overview: `Category-wise vacancy distribution, reservation details, and participating banks list for ${exam.shortName} 2026.`,
           ctaText: 'Check Eligibility & Apply',
-          ctaHref: 'https://app.prepgrind.com/register',
+          ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
           subsections: [
             {
               id: 'vacancy-table',
@@ -7955,51 +6896,154 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'selection-process': {
       if (examId === 'sbi-po') {
         return {
-          title: `SBI PO Selection Process 2026`,
-          overview: `Understand the qualifying weightages, interview phases, and normalized ranks required to crack the selection rounds.`,
-          ctaText: 'Start Phase I Practice',
-          ctaHref: 'https://app.prepgrind.com/register',
+          title: "SBI PO Selection Process 2026: Prelims to Final Merit List",
+          overview: "The SBI PO Selection Process 2026 consists of three stages: Preliminary Examination (qualifying only), Main Examination (objective + descriptive, merit-counting), and Phase III covering a Psychometric Test, Group Exercise, and Interview. Approximately 10 times the number of vacancies in each category are shortlisted from Prelims to Mains, and roughly 3 times the number of vacancies are shortlisted from Mains to the Interview stage. The final merit list is based on normalized Mains and Phase III scores combined at a 75:25 ratio — Prelims marks are not counted at all.",
+          metaTitle: "SBI PO Selection Process 2026: Stages & Rules",
+          metaDescription: "SBI PO Selection Process 2026 — Prelims, Mains, Psychometric Test, Group Exercise & Interview. Shortlisting ratios, final merit & documents needed.",
+          ctaText: "Attempt Free SBI PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/sbi-po",
+          customSchemas: (
+            <>
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/" },
+                      { "@type": "ListItem", "position": 2, "name": "SBI PO", "item": "https://prepbanker.com/sbi-po" },
+                      { "@type": "ListItem", "position": 3, "name": "Selection Process", "item": "https://prepbanker.com/sbi-po/selection-process" }
+                    ]
+                  })
+                }}
+              />
+              {/* Article Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "SBI PO Selection Process 2026: Prelims to Final Merit List",
+                    "datePublished": "2026-06-18",
+                    "dateModified": "2026-07-25",
+                    "author": { "@type": "Organization", "name": "PrepBanker" },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": { "@type": "ImageObject", "url": "https://prepbanker.com/images/logo.png" }
+                    },
+                    "mainEntityOfPage": "https://prepbanker.com/sbi-po/selection-process"
+                  })
+                }}
+              />
+              {/* HowTo Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "HowTo",
+                    "name": "SBI PO Selection Process 2026: Step-by-Step",
+                    "step": [
+                      { "@type": "HowToStep", "text": "Submit the online application with the applicable fee." },
+                      { "@type": "HowToStep", "text": "Download the admit card using Registration Number and Password/DOB." },
+                      { "@type": "HowToStep", "text": "Appear for the Preliminary Examination." },
+                      { "@type": "HowToStep", "text": "Check the Prelims result; qualified candidates are shortlisted for Mains." },
+                      { "@type": "HowToStep", "text": "Download the Mains admit card and appear for the Main Examination." },
+                      { "@type": "HowToStep", "text": "Check the Mains result; qualified candidates are shortlisted for Phase III." },
+                      { "@type": "HowToStep", "text": "Appear for the Psychometric Test, Group Exercise, and Interview." },
+                      { "@type": "HowToStep", "text": "Complete document verification with all required certificates." },
+                      { "@type": "HowToStep", "text": "Check the final result and merit list, released category-wise." }
+                    ]
+                  })
+                }}
+              />
+              {/* FAQPage Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "What are the stages of SBI PO Selection Process 2026?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Preliminary Exam, Main Exam, and Phase III covering Psychometric Test, Group Exercise, and Interview." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many candidates are shortlisted from Prelims to Mains?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Approximately 10 times the number of vacancies in each category are shortlisted for Mains." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many candidates are shortlisted from Mains to Interview?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Approximately 3 times the number of vacancies in each category are shortlisted for the Interview stage." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Are SBI PO Prelims marks counted in the final selection?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, Prelims marks are not included in the final merit list. Prelims is purely qualifying in nature." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the weightage of Mains and Interview in SBI PO final selection?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Mains carries 75% weightage and Phase III, comprising Group Exercise and Interview, carries 25% weightage in the normalized final score." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What does the SBI PO Psychometric Test evaluate?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "It evaluates personality traits and behavioral patterns, with findings shared with the interview panel. There are no separate marks for this component." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What documents are needed for SBI PO document verification?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Interview admit card, proof of date of birth, application form copy, photo ID, educational documents, and category or age relaxation certificates where applicable." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is the SBI PO result sent by post?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "No, SBI PO results are released online only in PDF or merit-list format. No hard copy is sent by post." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the difference between the Group Exercise and the Interview in SBI PO?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "The Group Exercise, worth 20 marks, assesses teamwork and communication in a group setting, while the Personal Interview, worth 30 marks, evaluates individual communication, banking awareness, and overall suitability." }
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How is the SBI PO final merit list prepared?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "By combining normalized Main Examination and Phase III scores at a 75:25 ratio, then ranking candidates category-wise based on available vacancies." }
+                      }
+                    ]
+                  })
+                }}
+              />
+            </>
+          ),
           subsections: [
             {
-              id: 'selection-roadmap',
-              title: 'Recruitment Phase Roadmap',
-              content: (
-                <div className="space-y-6">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    The selection process is organized in a series of qualifying and merit-based stages. Each stage is designed to evaluate specific cognitive and communication capabilities:
-                  </p>
-                  <div className="grid grid-cols-1 gap-4">
-                    {exam.selectionProcess.map((step) => (
-                      <div key={step.step} className="bg-white p-5 rounded-xl border border-slate-200 flex gap-4">
-                        <div className="w-10 h-10 rounded-full bg-slate-900 text-white flex items-center justify-center font-extrabold text-sm flex-shrink-0">
-                          {step.step}
-                        </div>
-                        <div>
-                          <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">{step.title}</h4>
-                          <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">{step.desc}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )
-            },
-            {
-              id: 'normalization-ratio',
-              title: 'Final Merit Score Calculation Weightage',
-              content: (
-                <div className="space-y-4">
-                  <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed">
-                    Marks obtained in the Phase I (Prelims) exam are strictly qualifying and are not added to the final score calculations.
-                  </p>
-                  <HighlightBox type="info" title="Weightage Ratios">
-                    <p className="text-sm">The final ranking is compiled by combining the Main Examination (Phase II) and Group Exercises &amp; Interview (Phase III) in a normalized <strong>75:25 ratio</strong>.</p>
-                  </HighlightBox>
-                </div>
-              )
+              id: "content-override",
+              title: "",
+              content: <></>
             }
           ],
-          faqs: exam.examFaqs.filter(f => f.q.toLowerCase().includes('interview') || f.q.toLowerCase().includes('stage') || f.q.toLowerCase().includes('process'))
+          faqs: [
+            { q: "What are the stages of SBI PO Selection Process 2026?", a: "Preliminary Exam, Main Exam, and Phase III covering Psychometric Test, Group Exercise, and Interview." },
+            { q: "How many candidates are shortlisted from Prelims to Mains?", a: "Approximately 10 times the number of vacancies in each category are shortlisted for Mains." },
+            { q: "How many candidates are shortlisted from Mains to Interview?", a: "Approximately 3 times the number of vacancies in each category are shortlisted for the Interview stage." },
+            { q: "Are SBI PO Prelims marks counted in the final selection?", a: "No, Prelims marks are not included in the final merit list; Prelims is purely qualifying." },
+            { q: "What is the weightage of Mains and Interview in SBI PO final selection?", a: "Mains carries 75% weightage and Phase III (Group Exercise + Interview) carries 25% weightage in the normalized final score." },
+            { q: "What does the SBI PO Psychometric Test evaluate?", a: "It evaluates personality traits and behavioral patterns, with findings shared with the interview panel; there are no separate marks for this component." },
+            { q: "What documents are needed for SBI PO document verification?", a: "Interview admit card, proof of date of birth, application form copy, photo ID, educational documents, and category/relaxation-related certificates where applicable." },
+            { q: "Is the SBI PO result sent by post?", a: "No, SBI PO results are released online only, in PDF/merit-list format; no hard copy is sent by post." },
+            { q: "What is the difference between the Group Exercise and the Interview in SBI PO?", a: "The Group Exercise (20 marks) assesses teamwork and communication in a group setting, while the Personal Interview (30 marks) evaluates individual communication, banking awareness, and overall suitability." },
+            { q: "How is the SBI PO final merit list prepared?", a: "By combining normalized Main Examination and Phase III scores at a 75:25 ratio, then ranking candidates category-wise based on available vacancies." }
+          ]
         };
       }
 
@@ -8008,7 +7052,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: "IBPS PO Selection Process 2026 — Every Stage, Every Rule, No Gaps",
         overview: "The IBPS PO 2026 selection process has three stages: Preliminary Examination, Main Examination, and Interview. Prelims is qualifying only — it does not count in your final score. Only Mains (80% weightage) and Interview (20%) determine your merit rank and bank allotment. The entire process, from notification to provisional allotment, runs over approximately 9–10 months.",
         ctaText: "Start Free IBPS PO Mock Test",
-        ctaHref: "https://app.prepgrind.com/register",
+        ctaHref: "https://app.prepgrind.com/signup/ibps-po",
         metaTitle: "IBPS PO Selection Process – All Stages Explained",
         metaDescription: "Understand the IBPS PO 2026 selection process — Prelims, Mains, Interview, and provisional allotment. Stage-wise marks, cut offs, and prep tips in one page.",
         customSchemas: (
@@ -8864,7 +7908,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} Mock Tests — Practice Series`,
         overview: `Challenge yourself with PrepBanker's full-length mock tests, practice sectional quizzes, and analyze your performance.`,
         ctaText: 'Access Free Mock Tests',
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: [
           {
             id: 'mock-features',
@@ -8905,7 +7949,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} English Language Sectional Mock Tests`,
         overview: `Optimize your score in the English Language section with high-quality practice questions and reading comprehension strategies.`,
         ctaText: 'Start English Test',
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: [
           {
             id: 'english-weightage',
@@ -8964,7 +8008,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} Quantitative Aptitude Practice Tests`,
         overview: `Boost your calculation speed and master data interpretation (DI) sets with sectional practice questions.`,
         ctaText: 'Start Quant Test',
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: [
           {
             id: 'quant-weightage',
@@ -9019,7 +8063,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: `${exam.shortName} Reasoning Ability Practice Tests`,
         overview: `Develop logical deduction habits and master puzzles and seating arrangement configurations.`,
         ctaText: 'Start Reasoning Test',
-        ctaHref: 'https://app.prepgrind.com/register',
+        ctaHref: examId === 'sbi-po' ? 'https://app.prepgrind.com/signup/sbi-po' : 'https://app.prepgrind.com/signup/ibps-po',
         subsections: [
           {
             id: 'reasoning-weightage',
@@ -9080,7 +8124,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         title: "IBPS PO Exam Analysis 2026: Shift-wise Difficulty & Good Attempts",
         overview: "Get live, shift-wise IBPS PO 2026 Prelims exam analysis right here on exam day. Track sectional difficulty levels, subject weightage, and expected good attempts.",
         ctaText: "Practice IBPS PO Mock Tests",
-        ctaHref: "https://app.prepgrind.com/register",
+        ctaHref: "https://app.prepgrind.com/signup/ibps-po",
         subsections: [
           {
             id: "live-updates-ibps",

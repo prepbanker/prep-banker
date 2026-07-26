@@ -143,7 +143,7 @@ const LiveTestCard = memo(function LiveTestCard({ test, timeLeft }: Props) {
           </div>
         ) : (
           <a
-            href="https://app.prepgrind.com/register"
+            href="https://app.prepgrind.com/signup/banking"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-full py-2.5 rounded-lg text-xs font-extrabold text-[#0D1B3E] bg-[#FBBF24] hover:bg-[#F59E0B] active:scale-[0.98] transition-all duration-150 text-center"

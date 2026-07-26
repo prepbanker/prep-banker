@@ -11,7 +11,7 @@ interface Props {
 }
 
 export default function StickyLeftCTA({ 
-  href       = 'https://app.prepgrind.com/register',
+  href       = 'https://app.prepgrind.com/signup/banking',
   label      = 'Start Preparing Now',
   topOffset  = 280,
 }: Props) {

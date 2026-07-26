@@ -62,7 +62,7 @@ export default function StickyBottomCTA() {
         {/* Right Side: CTA Button & Close icon */}
         <div className="flex items-center gap-2.5 sm:gap-4 shrink-0 justify-end">
           <a
-            href="https://app.prepgrind.com/register"
+            href="https://app.prepgrind.com/signup/banking"
             target="_blank"
             rel="noopener noreferrer"
             className="px-3 py-1.5 sm:px-6 sm:py-2.5 rounded-lg bg-[var(--color-yellow)] text-[#07102A] font-extrabold text-xs sm:text-xs tracking-wider uppercase transition-all duration-200 shadow-sm hover:shadow-md hover:brightness-105 active:scale-98"

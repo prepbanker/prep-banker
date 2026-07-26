@@ -180,7 +180,7 @@ const CALENDAR_DATA: CalendarEvent[] = [
         {/* CTA Button */}
         <div className="mt-8 text-center">
           <Button 
-            href="https://app.prepgrind.com/register" 
+            href="https://app.prepgrind.com/signup/banking" 
             variant="gold" 
             size="md"
             external

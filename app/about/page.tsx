@@ -121,7 +121,7 @@ export default function AboutPage() {
                 Create your free account on PrepBanker and start practicing with India&apos;s top simulated tests.
               </p>
               <a
-                href="https://app.prepgrind.com/register"
+                href="https://app.prepgrind.com/signup/banking"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{

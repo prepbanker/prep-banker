@@ -7,7 +7,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
   title: "IBPS PO Reasoning Ability Test 2026 – Attempt Free Sectional Mock",
   overview: "The IBPS PO Reasoning Ability section in Prelims has 35 questions worth 35 marks, completed in exactly 20 minutes. This page gives you free sectional mock tests built on the 2026 exam pattern, topic-wise practice sets for puzzles and seating arrangements, and a preparation strategy that tells you exactly where to spend your time.",
   ctaText: "Start Free IBPS PO Reasoning Ability Test",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO Reasoning Ability Test – Free Sectional Mock",
   metaDescription: "Attempt free IBPS PO Reasoning Ability sectional tests for 2026. 35 questions, 20 minutes, real exam pattern. Master puzzles, syllogisms and seating arrangements.",
   customSchemas: (
@@ -594,7 +594,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             </p>
           </div>
           <p className="mt-4">
-            <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">
+            <a href="https://app.prepgrind.com/signup/ibps-po" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">
               Start Your Free IBPS PO Reasoning Test Now →
             </a>
           </p>

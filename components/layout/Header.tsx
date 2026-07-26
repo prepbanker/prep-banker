@@ -45,7 +45,7 @@ export default function Header() {
           : 'border-b border-[rgba(13,27,62,0.07)]'
       }`}
     >
-      <div className="container-custom flex items-center h-16 gap-2 sm:gap-4 lg:gap-8">
+      <div className="max-w-[1350px] mx-auto w-full px-4 sm:px-6 flex items-center h-16 gap-2 sm:gap-4 lg:gap-8">
 
         {/* ── Logo ── */}
         <Link href="/" className="flex items-center gap-1.5 sm:gap-2.5 shrink-0 no-underline">
@@ -136,7 +136,7 @@ export default function Header() {
         {/* ── CTA + Hamburger ── */}
         <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <a
-            href="https://app.prepgrind.com/register"
+            href="https://app.prepgrind.com/signup/banking"
             target="_blank"
             rel="noopener noreferrer"
             suppressHydrationWarning
@@ -222,7 +222,7 @@ export default function Header() {
               ))}
 
               <a
-                href="https://app.prepgrind.com/register"
+                href="https://app.prepgrind.com/signup/banking"
                 target="_blank"
                 rel="noopener noreferrer"
                 suppressHydrationWarning

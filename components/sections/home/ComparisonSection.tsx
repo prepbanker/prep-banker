@@ -161,7 +161,7 @@ export default function ComparisonSection() {
         {/* CTA Button */}
         <div className="mt-12 text-center">
           <Button 
-            href="https://app.prepgrind.com/register" 
+            href="https://app.prepgrind.com/signup/banking" 
             variant="gold" 
             size="lg"
             external

@@ -2,6 +2,23 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ExamDetailLayout from '@/components/sections/exams/ExamDetailLayout';
+import SBIPONotificationPage from '@/components/sections/exams/SBIPONotificationPage';
+import SBIPOAdmitCardPage from '@/components/sections/exams/SBIPOAdmitCardPage';
+import SBIPOVacancyPage from '@/components/sections/exams/SBIPOVacancyPage';
+import SBIPOSyllabusPage from '@/components/sections/exams/SBIPOSyllabusPage';
+import SBIPOImportantDatesPage from '@/components/sections/exams/SBIPOImportantDatesPage';
+import SBIPOExamPatternPage from '@/components/sections/exams/SBIPOExamPatternPage';
+import SBIPOEligibilityPage from '@/components/sections/exams/SBIPOEligibilityPage';
+import SBIPOSelectionProcessPage from '@/components/sections/exams/SBIPOSelectionProcessPage';
+import SBIPOSalaryPage from '@/components/sections/exams/SBIPOSalaryPage';
+import SBIPOMockTestsPage from '@/components/sections/exams/SBIPOMockTestsPage';
+import SBIPOEnglishTestsPage from '@/components/sections/exams/SBIPOEnglishTestsPage';
+import SBIPOReasoningTestsPage from '@/components/sections/exams/SBIPOReasoningTestsPage';
+import SBIPOComparisonPage from '@/components/sections/exams/SBIPOComparisonPage';
+import SBIPOStudyPlanPage from '@/components/sections/exams/SBIPOStudyPlanPage';
+import SBIPOExamAnalysisPage from '@/components/sections/exams/SBIPOExamAnalysisPage';
+import SBIPOCutOffPage from '@/components/sections/exams/SBIPOCutOffPage';
+import SBIPOQuantTestsPage from '@/components/sections/exams/SBIPOQuantTestsPage';
 import { getExamData, getDetailedSectionContent } from '@/lib/data/exams/detailContentMap';
 
 import { BreadcrumbSchema, ArticleSchema, FAQSchema, AuthorPersonSchema } from '@/components/seo';
@@ -93,6 +110,161 @@ export default async function ExamSectionPage({ params }: PageProps) {
   if (!exam || !content) {
     notFound();
   }
+
+  if (examId === 'sbi-po' && section === 'notification') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPONotificationPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'admit-card') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOAdmitCardPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'vacancy') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOVacancyPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'syllabus') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOSyllabusPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'important-dates' || section === 'dates')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOImportantDatesPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'exam-pattern') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOExamPatternPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'eligibility') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOEligibilityPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'selection-process' || section === 'selection')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOSelectionProcessPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'cut-off' || section === 'cut-offs')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOCutOffPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'salary') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOSalaryPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'mock-tests' || section === 'mock-test')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOMockTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'english-tests' || section === 'english-sectional-test')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOEnglishTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'reasoning-tests' || section === 'reasoning-ability-test')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOReasoningTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'quant-tests' || section === 'quantitative-aptitude-test')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOQuantTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'comparison' || section === 'sbi-po-vs-ibps-po')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOComparisonPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'study-plan' || section === 'strategy')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOStudyPlanPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && (section === 'exam-analysis' || section === 'prelims-exam-analysis')) {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOExamAnalysisPage />
+      </>
+    );
+  }
+
+
 
   return (
     <>

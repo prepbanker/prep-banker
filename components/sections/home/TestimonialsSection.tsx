@@ -286,7 +286,7 @@ export default function TestimonialsSection() {
           >
             Join 50,000+ aspirants preparing with confidence on PrepBanker.
           </p>
-          <Button href="https://app.prepgrind.com/register" variant="gold" size="lg" external>
+          <Button href="https://app.prepgrind.com/signup/banking" variant="gold" size="lg" external>
             <Zap size={16} />
             Start Preparing Now
           </Button>

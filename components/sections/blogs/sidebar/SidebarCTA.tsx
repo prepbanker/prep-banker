@@ -69,7 +69,7 @@ export default function SidebarCTA() {
         </ul>
 
         <a
-          href="https://app.prepgrind.com/register"
+          href="https://app.prepgrind.com/signup/banking"
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-sm font-bold transition-all hover:brightness-110 hover:-translate-y-0.5"

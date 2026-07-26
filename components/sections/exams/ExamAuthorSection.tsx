@@ -36,7 +36,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
   );
 
   return (
-    <section className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs mt-10 font-sans">
+    <section className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs mt-10 mb-16 font-sans">
       
       {/* 1. Header Verification Row */}
       <div className="flex items-center gap-2 pb-4 border-b border-slate-150/70">

@@ -9,7 +9,7 @@ export default function OverviewSection({ exam }: { exam: ExamDetailData }) {
   const isIbps  = exam.id === 'ibps-po';
   const heroGrad = isIbps
     ? 'linear-gradient(135deg,#07102A 0%,#3D2A00 100%)'
-    : 'linear-gradient(135deg,#07102A 0%,#1A2D5A 100%)';
+    : 'linear-gradient(135deg,#030712 0%,#091024 100%)';
   const iconBg    = isIbps ? 'rgba(212,160,23,0.2)' : 'rgba(27,110,181,0.2)';
   const iconColor = isIbps ? '#F0B429' : '#60B4FF';
 
@@ -43,7 +43,7 @@ export default function OverviewSection({ exam }: { exam: ExamDetailData }) {
           })}
         </div>
         <div className="epg-cta-row" style={{ paddingBottom: '1.75rem' }}>
-          <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="epg-btn-gold">
+          <a href="https://app.prepgrind.com/signup/banking" target="_blank" rel="noopener noreferrer" className="epg-btn-gold">
             <Target size={15} />Start Practicing Now
           </a>
           <a href="/mock-tests" className="epg-btn-outline">

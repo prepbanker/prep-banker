@@ -1,6 +1,4 @@
 import { MetadataRoute } from 'next';
-import { BLOGS } from '@/lib/data/blogs/blogs';
-import { CA_ARTICLES } from '@/lib/data/current-affairs/articles';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://prepbanker.com';
@@ -17,10 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/quiz`, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 0.8 },
     { url: `${baseUrl}/sbi-po-quiz`, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 0.9 },
     { url: `${baseUrl}/ibps-po-quiz`, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 0.9 },
-    { url: `${baseUrl}/current-affairs`, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 0.9 },
     { url: `${baseUrl}/previous-year-papers`, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 0.9 },
     { url: `${baseUrl}/pricing`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/blogs`, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 0.9 },
   ];
 
   // 2. Exam Pages
@@ -67,27 +63,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // 4. Blog Posts (Dynamically compiled)
-  const blogPages = BLOGS.map(blog => ({
-    url: `${baseUrl}/blogs/${blog.slug}`,
-    lastModified: blog.updatedAt ? new Date(blog.updatedAt) : new Date(blog.publishedAt),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
-  // 5. Current Affairs Articles (Dynamically compiled)
-  const caPages = CA_ARTICLES.map(article => ({
-    url: `${baseUrl}/current-affairs/${article.id}`,
-    lastModified: new Date(article.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
   return [
     ...staticPages,
     ...examPages,
     ...detailPages,
-    ...blogPages,
-    ...caPages,
   ];
 }

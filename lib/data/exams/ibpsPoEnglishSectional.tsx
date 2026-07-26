@@ -7,7 +7,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
   title: "IBPS PO English Sectional Test 2026 — Practice Free, Score Higher in 20 Minutes",
   overview: "The IBPS PO English Language section has 30 questions for 30 marks in exactly 20 minutes — a fixed, separate timer that cannot borrow time from Quant or Reasoning. The sectional cut off for General/UR category was 11.50 out of 30 in 2023. Practice the exact pattern now with PrepBanker's free timed English sectional tests, built on real IBPS PO question types and difficulty levels.",
   ctaText: "Start Free IBPS PO English Sectional Test",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO English Sectional Test – Practice Free Online",
   metaDescription: "Attempt free IBPS PO English sectional tests 2026 — Reading Comprehension, Cloze Test, Error Spotting & more. 20-minute timer, instant score, detailed solutions.",
   customSchemas: (
@@ -600,7 +600,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
         <div className="space-y-3 font-normal text-slate-600 text-xs sm:text-sm leading-relaxed pl-3">
           <p>
             <strong>Step 1 — Register and take a baseline test.</strong><br />
-            Visit <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">PrepBanker</a> and attempt one English sectional test with no preparation adjustment. This diagnostic gives you your starting accuracy per topic and your section-completion rate under the timer. Most first-attempt scores fall between 10–16 out of 30.
+            Visit <a href="https://app.prepgrind.com/signup/ibps-po" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">PrepBanker</a> and attempt one English sectional test with no preparation adjustment. This diagnostic gives you your starting accuracy per topic and your section-completion rate under the timer. Most first-attempt scores fall between 10–16 out of 30.
           </p>
           <p>
             <strong>Step 2 — Analyze topic-wise, not just total score.</strong><br />

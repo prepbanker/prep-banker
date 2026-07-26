@@ -200,7 +200,7 @@ export default function CADetailContentClient({
 
           {/* Download PDF button */}
           <a
-            href="https://app.prepgrind.com/register"
+            href="https://app.prepgrind.com/signup/banking"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold text-[#07102A] bg-gradient-to-r from-[var(--color-gold)] to-[var(--color-gold-bright)] hover:opacity-95 rounded-lg active:scale-95 transition-all shadow-sm"
@@ -475,7 +475,7 @@ export default function CADetailContentClient({
                 {[
                   { label: 'Start Free Mocks', href: '/quiz' },
                   { label: 'Attempt Live Tests', href: '/live-tests' },
-                  { label: 'Download Notes PDF', href: 'https://app.prepgrind.com/register' },
+                  { label: 'Download Notes PDF', href: 'https://app.prepgrind.com/signup/banking' },
                   { label: 'Explore Syllabus Info', href: '/exams' }
                 ].map((res, i) => (
                   <li key={i}>

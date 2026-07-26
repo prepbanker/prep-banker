@@ -201,7 +201,7 @@ export default function Pricing() {
                 </div>
 
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href="https://app.prepgrind.com/signup/banking"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-3 rounded-xl border border-slate-350 hover:border-slate-500 text-slate-700 hover:text-slate-900 font-extrabold text-xs sm:text-sm transition-all"
@@ -269,7 +269,7 @@ export default function Pricing() {
                 </div>
 
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href="https://app.prepgrind.com/signup/banking"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-[var(--color-navy-deep)] font-extrabold text-xs sm:text-sm transition-all flex items-center justify-center gap-1.5 shadow-md shadow-amber-500/10 hover:shadow-amber-500/20"

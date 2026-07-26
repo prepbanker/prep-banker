@@ -334,7 +334,7 @@ export default function PreviousYearPapers() {
               {/* Action Buttons */}
               <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href="https://app.prepgrind.com/signup/banking"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-8 py-3.5 bg-[var(--color-yellow)] text-[var(--color-navy-deep)] text-sm font-extrabold rounded-xl transition-all duration-200 hover:-translate-y-0.5 text-center shadow-lg hover:shadow-yellow-500/20"
@@ -493,7 +493,7 @@ export default function PreviousYearPapers() {
                         Paper Locked
                       </p>
                       <a
-                        href="https://app.prepgrind.com/register"
+                        href="https://app.prepgrind.com/signup/banking"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 text-xs font-bold bg-[var(--color-navy)] text-white rounded-lg hover:bg-[var(--color-blue)] transition-all duration-200 flex items-center gap-1 hover:scale-102 shadow-sm"
@@ -544,7 +544,7 @@ export default function PreviousYearPapers() {
           </div>
           <div className="w-full md:w-auto flex-shrink-0">
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full md:w-auto px-6 py-3 rounded-lg bg-[#07102A] text-white text-xs font-extrabold hover:bg-black transition-colors block text-center shadow-lg"

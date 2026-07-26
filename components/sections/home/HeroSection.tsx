@@ -132,7 +132,7 @@ export default function HeroSection() {
             {/* CTA */}
             <div className="mb-8 flex flex-wrap gap-3 justify-center lg:justify-start">
               <a
-                href="https://app.prepgrind.com/register"
+                href="https://app.prepgrind.com/signup/banking"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-glow-effect inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white transition-all duration-200 hover:opacity-90 active:scale-95"
@@ -250,7 +250,7 @@ export default function HeroSection() {
                       <div className="pt-3 border-t border-white/5 flex flex-wrap items-center justify-between gap-2">
                         <span className="text-[10px] text-slate-400 font-semibold">Free Access</span>
                         <a
-                          href="https://app.prepgrind.com/register"
+                          href="https://app.prepgrind.com/signup/banking"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center gap-1 px-4 py-2 rounded-xl text-xs font-extrabold transition-all duration-200 hover:opacity-90 active:scale-95 text-slate-900"

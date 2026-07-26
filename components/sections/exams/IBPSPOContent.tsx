@@ -145,7 +145,7 @@ export default function IBPSPOContent() {
           </h1>
 
           <p className="text-white/70 text-sm sm:text-base md:text-lg max-w-3xl mb-8 leading-relaxed">
-            IBPS PO (Probationary Officer) is India's largest banking recruitment exam, 
+            IBPS PO (Probationary Officer) is India's largest banking recruitment exam,
             offering 3,500+ vacancies across 11 public sector banks in a single cycle.
           </p>
 
@@ -172,7 +172,7 @@ export default function IBPSPOContent() {
           {/* CTA Buttons */}
           <div className="flex flex-col xs:flex-row gap-3 justify-start items-start">
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/ibps-po"
               target="_blank"
               rel="noopener noreferrer"
               className="w-fit px-4 py-2 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
@@ -184,8 +184,8 @@ export default function IBPSPOContent() {
       </section>
 
       {/* 2-Column Responsive Container */}
-      <div className="container-custom py-10 flex flex-col-reverse lg:flex-row gap-8 items-start">
-        
+      <div className="container-custom pt-10 pb-24 flex flex-col-reverse lg:flex-row gap-8 items-start">
+
         {/* Left Side: Main Content (70% width) - Rendered first in DOM for normal desktop row layout */}
         <main className="w-full lg:w-[70%] space-y-0">
 
@@ -275,7 +275,7 @@ export default function IBPSPOContent() {
             <p className="text-slate-500 text-xs mb-6">
               Track the full recruitment timeline so you don't miss key deadlines.
             </p>
-            
+
             <div className="overflow-hidden border border-slate-200 rounded-xl bg-white shadow-sm mb-4">
               <table className="w-full text-left text-xs border-collapse">
                 <thead>
@@ -349,7 +349,7 @@ export default function IBPSPOContent() {
                 </tbody>
               </table>
             </div>
-            
+
             <p className="text-xs text-slate-400 italic">
               * Note: Dates are indicative based on the official IBPS PO 2025 cycle. Always verify on the official website <a href="https://ibps.in" target="_blank" rel="noopener noreferrer" className="text-[var(--color-blue)] underline">ibps.in</a>.
             </p>
@@ -360,14 +360,14 @@ export default function IBPSPOContent() {
             <h2 className="text-2xl font-extrabold text-slate-800 mb-2 font-display">
               IBPS PO 2026 Eligibility Criteria
             </h2>
-            
+
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-1 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-blue)]" />
                 Educational Qualification
               </h3>
               <p className="text-slate-600 text-xs leading-relaxed pl-3">
-                A graduate degree in any discipline from a university recognised by the Government of India. 
+                A graduate degree in any discipline from a university recognised by the Government of India.
                 Final year students may also apply, provided they produce proof of passing the graduation on or before the document verification date.
               </p>
             </div>
@@ -433,7 +433,7 @@ export default function IBPSPOContent() {
                 Number of Attempts
               </h3>
               <p className="text-slate-600 text-xs leading-relaxed pl-3">
-                IBPS does not officially cap the number of attempts for the Probationary Officer exam. 
+                IBPS does not officially cap the number of attempts for the Probationary Officer exam.
                 Candidates may apply as long as they meet the age relaxation and basic eligibility criteria.
               </p>
             </div>
@@ -444,7 +444,7 @@ export default function IBPSPOContent() {
             <h2 className="text-2xl font-extrabold text-slate-800 mb-2 font-display">
               IBPS PO 2026 Exam Pattern — Prelims, Mains & Interview
             </h2>
-            
+
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-2 flex items-center gap-1.5">
                 <span className="px-2 py-0.5 rounded text-xs bg-blue-100 text-blue-800 font-bold uppercase">Phase 1</span>
@@ -618,26 +618,24 @@ export default function IBPSPOContent() {
             <h2 className="text-2xl font-extrabold text-slate-800 mb-4 font-display">
               IBPS PO 2026 Complete Syllabus — Prelims & Mains
             </h2>
-            
+
             {/* Tab selector */}
             <div className="flex gap-2 mb-6 bg-slate-100 p-1.5 rounded-xl max-w-xs">
               <button
                 onClick={() => setSyllabusTab('prelims')}
-                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
-                  syllabusTab === 'prelims'
+                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${syllabusTab === 'prelims'
                     ? 'bg-white text-[var(--color-navy)] shadow-xs'
                     : 'text-slate-500 hover:text-slate-800'
-                }`}
+                  }`}
               >
                 Prelims Syllabus
               </button>
               <button
                 onClick={() => setSyllabusTab('mains')}
-                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
-                  syllabusTab === 'mains'
+                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${syllabusTab === 'mains'
                     ? 'bg-white text-[var(--color-navy)] shadow-xs'
                     : 'text-slate-500 hover:text-slate-800'
-                }`}
+                  }`}
               >
                 Mains Syllabus
               </button>
@@ -793,7 +791,7 @@ export default function IBPSPOContent() {
                 <p className="text-white/60 text-xs mt-1">Realistic test conditions, complete answers, and detailed score breakdown.</p>
               </div>
               <a
-                href="https://app.prepgrind.com/register"
+                href="https://app.prepgrind.com/signup/ibps-po"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full md:w-auto text-center px-6 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide uppercase transition-all shadow-md"
@@ -816,31 +814,28 @@ export default function IBPSPOContent() {
             <div className="flex gap-2 bg-slate-100 p-1.5 rounded-xl max-w-sm">
               <button
                 onClick={() => setSectionalTab('english')}
-                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
-                  sectionalTab === 'english'
+                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${sectionalTab === 'english'
                     ? 'bg-white text-[var(--color-navy)] shadow-xs'
                     : 'text-slate-500 hover:text-slate-800'
-                }`}
+                  }`}
               >
                 English Language
               </button>
               <button
                 onClick={() => setSectionalTab('quant')}
-                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
-                  sectionalTab === 'quant'
+                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${sectionalTab === 'quant'
                     ? 'bg-white text-[var(--color-navy)] shadow-xs'
                     : 'text-slate-500 hover:text-slate-800'
-                }`}
+                  }`}
               >
                 Quantitative Aptitude
               </button>
               <button
                 onClick={() => setSectionalTab('reasoning')}
-                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${
-                  sectionalTab === 'reasoning'
+                className={`flex-1 text-center py-2 text-xs font-bold rounded-lg transition-all duration-200 ${sectionalTab === 'reasoning'
                     ? 'bg-white text-[var(--color-navy)] shadow-xs'
                     : 'text-slate-500 hover:text-slate-800'
-                }`}
+                  }`}
               >
                 Reasoning Ability
               </button>
@@ -1348,13 +1343,13 @@ export default function IBPSPOContent() {
             <h2 className="text-2xl font-extrabold text-slate-800 mb-2 font-display">
               IBPS PO 2026 Study Material & Preparation Strategy
             </h2>
-            
+
             <div>
               <h3 className="text-sm font-bold text-slate-800 mb-3 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-blue)]" />
                 90-Day IBPS PO Preparation Plan
               </h3>
-              
+
               {/* 3 Month Cards */}
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
@@ -1543,13 +1538,13 @@ export default function IBPSPOContent() {
 
         {/* Right Side: Sticky Sidebar (30% width, collapsing to top on mobile) - Rendered second in DOM, displayed on top on mobile via column-reverse */}
         <aside className="w-full lg:w-[30%] space-y-6 lg:sticky lg:top-6 lg:self-start">
-          
+
           {/* CARD 1: Quick Navigation */}
           <div className="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm">
             <h3 className="font-black text-sm text-slate-800 px-3 pb-3 border-b border-slate-100 mb-2 tracking-tight">
               IBPS PO 2026 Guide
             </h3>
-            
+
             <nav className="flex flex-col gap-0.5">
               {NAV_ITEMS.map((item) => {
                 const isActive = activeSection === item.id;
@@ -1557,16 +1552,14 @@ export default function IBPSPOContent() {
                   <button
                     key={item.id}
                     onClick={() => handleNavClick(item.id)}
-                    className={`group flex items-center justify-between py-2 px-3.5 rounded-lg text-xs text-left transition-all duration-150 border-l-[3px] ${
-                      isActive
+                    className={`group flex items-center justify-between py-2 px-3.5 rounded-lg text-xs text-left transition-all duration-150 border-l-[3px] ${isActive
                         ? 'bg-blue-50/80 text-[var(--color-blue)] font-bold border-[var(--color-blue)]'
                         : 'border-transparent text-slate-600 hover:bg-slate-50 hover:text-slate-800'
-                    }`}
+                      }`}
                   >
                     <span>{item.label}</span>
-                    <ChevronRight className={`h-3.5 w-3.5 transition-colors ${
-                      isActive ? 'text-[var(--color-blue)]' : 'text-slate-400 group-hover:text-slate-700'
-                    }`} />
+                    <ChevronRight className={`h-3.5 w-3.5 transition-colors ${isActive ? 'text-[var(--color-blue)]' : 'text-slate-400 group-hover:text-slate-700'
+                      }`} />
                   </button>
                 );
               })}
@@ -1578,7 +1571,7 @@ export default function IBPSPOContent() {
             {/* Background design accents */}
             <div className="absolute -top-10 -right-10 w-24 h-24 rounded-full bg-white/5 pointer-events-none" />
             <div className="absolute -bottom-10 -left-10 w-20 h-20 rounded-full bg-[#1B6EB5]/20 pointer-events-none" />
-            
+
             <div className="relative z-10 space-y-1">
               <h3 className="font-extrabold text-base tracking-tight">
                 Start Free IBPS PO Prep
@@ -1595,7 +1588,7 @@ export default function IBPSPOContent() {
 
             <div className="relative z-10 flex flex-col gap-2.5 mt-1">
               <a
-                href="https://app.prepgrind.com/register"
+                href="https://app.prepgrind.com/signup/ibps-po"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full text-center py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-md"

@@ -69,7 +69,7 @@ export default function ContactPage() {
             </div>
 
             <div style={{ textAlign: 'center' }}>
-              <Button href="https://app.prepgrind.com/register" variant="gold" size="lg" external>
+              <Button href="https://app.prepgrind.com/signup/banking" variant="gold" size="lg" external>
                 Start Preparing Free →
               </Button>
             </div>

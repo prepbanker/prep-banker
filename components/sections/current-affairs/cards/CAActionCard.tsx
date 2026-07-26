@@ -77,7 +77,7 @@ function CAActionCard({ quiz }: Props) {
       <div>
         {/* ── Start Now Yellow CTA Button ── */}
         <a
-          href="https://app.prepgrind.com/register"
+          href="https://app.prepgrind.com/signup/banking"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-1.5 w-full py-2.5 rounded-xl text-[14px] font-black text-slate-900 bg-[#FBBF24] hover:bg-[#F59E0B] active:scale-[0.98] transition-all text-center uppercase tracking-wider"

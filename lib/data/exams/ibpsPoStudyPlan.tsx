@@ -7,7 +7,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
   title: "IBPS PO Study Plan 2026 – Complete 3-Month Preparation Guide",
   overview: "A focused 3-month IBPS PO study plan covering all five sections — Quantitative Aptitude, Reasoning Ability, English Language, General Awareness, and Computer Knowledge — is enough to clear Prelims and position yourself strongly for Mains. This guide gives you a week-wise schedule, daily hour allocation, topic priority order, and a mock test strategy built around the 2026 exam pattern.",
   ctaText: "Register Free and Start Your IBPS PO Preparation →",
-  ctaHref: "https://app.prepgrind.com/register",
+  ctaHref: "https://app.prepgrind.com/signup/ibps-po",
   metaTitle: "IBPS PO Study Plan – 3-Month Preparation Guide",
   metaDescription: "Follow this IBPS PO study plan 2026 to prepare for Prelims and Mains in 90 days. Week-wise schedule, topic priority, mock test strategy, and daily routine included.",
   customSchemas: (
@@ -791,7 +791,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
 
           <div className="pt-4 text-center">
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/ibps-po"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-bold rounded-xl text-white bg-[#1B6EB5] hover:bg-[#15548B] transition-colors"

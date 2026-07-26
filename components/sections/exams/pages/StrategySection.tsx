@@ -28,7 +28,7 @@ export default function StrategySection({ exam }: { exam: ExamDetailData }) {
           ))}
         </div>
         <div style={{ marginTop:'1.25rem',textAlign:'center' }}>
-          <a href="https://app.prepgrind.com/register" target="_blank" rel="noopener noreferrer" className="epg-btn-gold" style={{ margin:'0 auto' }}>
+          <a href="https://app.prepgrind.com/signup/banking" target="_blank" rel="noopener noreferrer" className="epg-btn-gold" style={{ margin:'0 auto' }}>
             <Zap size={14} />Start Preparation Now
           </a>
         </div>

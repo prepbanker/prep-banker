@@ -193,7 +193,7 @@ export default function PreviousYearPapersLayout({
               {/* Action Buttons */}
               <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href="https://app.prepgrind.com/signup/banking"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-8 py-3.5 bg-[var(--color-yellow)] text-[var(--color-navy-deep)] text-sm font-extrabold rounded-xl transition-all duration-200 hover:-translate-y-0.5 text-center shadow-lg hover:shadow-yellow-500/20"
@@ -249,7 +249,7 @@ export default function PreviousYearPapersLayout({
               Choose Subject for PYQ PDF
             </h3>
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-[#2D3E6B] hover:bg-[#1E2B50] text-white text-xs font-bold rounded transition-colors"
@@ -307,7 +307,7 @@ export default function PreviousYearPapersLayout({
                               Locked
                             </span>
                             <a
-                              href="https://app.prepgrind.com/register"
+                              href="https://app.prepgrind.com/signup/banking"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="px-6 py-3 text-xs font-bold bg-[#2D3E6B] hover:bg-[#1E2B50] text-white rounded transition-colors shadow-xs"
@@ -407,7 +407,7 @@ export default function PreviousYearPapersLayout({
           </div>
           <div className="w-full md:w-auto flex-shrink-0">
             <a
-              href="https://app.prepgrind.com/register"
+              href="https://app.prepgrind.com/signup/banking"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full md:w-auto px-6 py-3 rounded-lg bg-[#07102A] text-white text-xs font-extrabold hover:bg-black transition-colors block text-center shadow-lg"

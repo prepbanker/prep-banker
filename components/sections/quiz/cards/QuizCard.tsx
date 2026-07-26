@@ -61,7 +61,7 @@ function QuizCard({ quiz }: Props) {
           )}
 
           <a
-            href="https://app.prepgrind.com/register"
+            href="https://app.prepgrind.com/signup/banking"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center p-1.5 rounded-full border border-slate-200 text-slate-500 hover:text-[var(--color-blue)] hover:border-[var(--color-blue)] hover:bg-[#E8F4FD]/50 transition-all cursor-pointer"
@@ -130,7 +130,7 @@ function QuizCard({ quiz }: Props) {
       {/* ── Start Practice CTA Button ── */}
       <div className="p-4 bg-white border-t border-slate-100">
         <a
-          href="https://app.prepgrind.com/register"
+          href="https://app.prepgrind.com/signup/banking"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-1.5 w-full py-2.5 rounded-lg text-xs font-bold text-white bg-gradient-to-r from-[var(--color-blue)] to-[var(--color-navy)] hover:opacity-95 active:scale-[0.98] transition-all text-center"

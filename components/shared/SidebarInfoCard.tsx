@@ -61,7 +61,7 @@ export default function SidebarInfoCard() {
       {/* ── CTA buttons ── */}
       <div className="p-3 flex flex-col gap-1.5">
         <a
-          href="https://app.prepgrind.com/register"
+          href="https://app.prepgrind.com/signup/banking"
           target="_blank"
           rel="noopener noreferrer"
           className="

@@ -46,6 +46,7 @@ interface Props {
 export default function ExamMainLayout({ exam }: Props) {
   const isSbi = exam.id === 'sbi-po';
   const brandColor = isSbi ? '#1B6EB5' : '#F0B429';
+  const registerUrl = isSbi ? "https://app.prepgrind.com/signup/sbi-po" : "https://app.prepgrind.com/signup/ibps-po";
 
   const ICON_MAP: Record<string, React.ElementType> = {
     Users,
@@ -296,7 +297,7 @@ export default function ExamMainLayout({ exam }: Props) {
         className="relative overflow-hidden text-white pt-10 pb-8"
         style={{
           background: isSbi
-            ? 'linear-gradient(135deg, #07102A 0%, #1A2D5A 100%)'
+            ? 'linear-gradient(135deg, #030712 0%, #091024 100%)'
             : 'linear-gradient(135deg, #3D2A00 0%, #07102A 100%)'
         }}
       >
@@ -375,7 +376,7 @@ export default function ExamMainLayout({ exam }: Props) {
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-3 justify-start items-center">
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href={registerUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-sm sm:text-base tracking-wide text-center transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
@@ -712,9 +713,8 @@ export default function ExamMainLayout({ exam }: Props) {
                             <span className="block text-xs text-slate-500 mt-1.5 leading-snug">{item.note}</span>
                           </div>
                           <div className="mt-3.5">
-                            <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${
-                              isUnlimited ? 'bg-emerald-50 text-emerald-800 border border-emerald-200' : 'bg-amber-50 text-amber-800 border border-amber-200'
-                            }`}>
+                            <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${isUnlimited ? 'bg-emerald-50 text-emerald-800 border border-emerald-200' : 'bg-amber-50 text-amber-800 border border-amber-200'
+                              }`}>
                               {item.attempts}
                             </span>
                           </div>
@@ -1071,7 +1071,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
                 <div className="text-center mt-5">
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href={registerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex px-6 py-2.5 rounded-lg bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(240,180,41,0.6)] hover:-translate-y-0.5"
@@ -1259,7 +1259,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     Practice the section that is costing you marks.
                   </span>
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href={registerUrl}
                     className="text-sm font-bold text-[#1B6EB5] hover:underline"
                   >
                     View All Sectional Tests →
@@ -1443,7 +1443,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div className="text-center mt-4">
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href={registerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex px-5 py-2.5 rounded-lg bg-[var(--color-navy-deep)] text-white hover:bg-slate-800 font-bold text-xs sm:text-sm tracking-wide transition-all shadow-[0_4px_12px_rgba(13,27,62,0.25)]"
@@ -1523,7 +1523,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 <div className="flex gap-3 justify-center mt-4 flex-wrap">
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href={registerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 bg-[var(--color-blue)] text-white hover:bg-slate-800 font-bold text-xs rounded-lg transition-all"
@@ -1531,7 +1531,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     Read Today's Current Affairs →
                   </a>
                   <a
-                    href="https://app.prepgrind.com/register"
+                    href={registerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 border border-slate-200 text-slate-700 hover:bg-slate-50 font-bold text-xs rounded-lg transition-all"
@@ -2219,7 +2219,7 @@ export default function ExamMainLayout({ exam }: Props) {
               <div className="bg-slate-900 text-white rounded-xl p-5 text-center mt-6">
                 <p className="text-sm font-semibold text-white/80 mb-3">Join 50,000+ aspirants already preparing on PrepBanker.</p>
                 <a
-                  href="https://app.prepgrind.com/register"
+                  href={registerUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-5 py-2.5 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs sm:text-sm rounded-lg transition-all"
@@ -2274,8 +2274,8 @@ export default function ExamMainLayout({ exam }: Props) {
           {/* Quick Navigation panel */}
           <QuickNavigation exam={exam} />
 
-          {/* Premium Mock Test CTA Banner */}
-          <div className="bg-gradient-to-br from-[#07102A] to-[#1A2D5A] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white">
+          <div className={`bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white ${isSbi ? 'from-[#030712] to-[#091024]' : 'from-[#07102A] to-[#1A2D5A]'
+            }`}>
             <div className="relative z-10">
               <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
               <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
@@ -2283,7 +2283,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 Join 50k+ banking aspirants practicing with PrepBanker mocks.
               </p>
               <a
-                href="https://app.prepgrind.com/register"
+                href={registerUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"
@@ -2380,8 +2380,8 @@ export default function ExamMainLayout({ exam }: Props) {
               {eligResult && (
                 <div
                   className={`p-4 rounded-xl border flex flex-col gap-1.5 animate-fadein ${eligResult.eligible
-                      ? 'bg-green-50 border-green-200 text-green-800'
-                      : 'bg-rose-50 border-rose-250 text-rose-800'
+                    ? 'bg-green-50 border-green-200 text-green-800'
+                    : 'bg-rose-50 border-rose-250 text-rose-800'
                     }`}
                 >
                   <div className="flex items-center gap-1.5 font-extrabold text-sm sm:text-base">
