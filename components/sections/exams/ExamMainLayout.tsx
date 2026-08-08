@@ -266,7 +266,6 @@ export default function ExamMainLayout({ exam }: Props) {
       { label: '90-Day Study Strategy', id: 'prep-strategy' },
       { label: 'Previous Year Cut-offs', id: 'cut-offs' },
       { label: 'Salary Structure & Allowances', id: 'salary-career' },
-      { label: `${exam.shortName} vs SBI PO Comparison`, id: 'comparison' },
       { label: 'Frequently Asked Questions (FAQs)', id: 'faqs' },
     ];
   const renderTopicBadge = (t: string) => {
@@ -298,7 +297,7 @@ export default function ExamMainLayout({ exam }: Props) {
         style={{
           background: isSbi
             ? 'linear-gradient(135deg, #030712 0%, #091024 100%)'
-            : 'linear-gradient(135deg, #3D2A00 0%, #07102A 100%)'
+            : 'linear-gradient(135deg, #1C1200 0%, #040A20 100%)'
         }}
       >
         {/* Decorative background blobs */}
@@ -431,6 +430,14 @@ export default function ExamMainLayout({ exam }: Props) {
         </div>
       </section>
 
+      {exam.id === 'ibps-po' && (
+        <div className="w-full bg-[#0B0F19] border-t-2 border-amber-500 border-b border-slate-800 sticky top-16 z-40 shadow-sm">
+          <div className="container-custom py-4.5">
+            <QuickNavigation exam={exam} />
+          </div>
+        </div>
+      )}
+
       {/* Horizontal Overview Card / Highlights Bar */}
       <div className="container-custom">
         <section className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs scroll-mt-20 relative overflow-hidden" style={{ marginTop: '1.25rem', marginBottom: '1.25rem' }}>
@@ -476,31 +483,35 @@ export default function ExamMainLayout({ exam }: Props) {
         </section>
       </div>
 
-      {/* 2-Column Responsive Layout (Main Area) */}
-      <div className="container-custom py-8 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
+      {/* Responsive Layout (Main Area) */}
+      <div className={`container-custom py-8 gap-8 items-start ${isSbi ? 'grid grid-cols-1 lg:grid-cols-[1fr_300px]' : 'w-full block'
+        }`}>
 
         {/* Left Column: Content */}
         <main className="space-y-10 min-w-0 epg-main-rich-content">
 
           {/* Table of Contents */}
           <section id="toc" className="bg-white border border-slate-200 border-l-4 border-l-[#1B6EB5] p-6 sm:p-7 rounded-2xl shadow-xs scroll-mt-20">
-            <h2 className="text-sm font-extrabold text-slate-800 mb-4 flex items-center gap-2 font-display">
-              <Layers size={15} className="text-[#1B6EB5]" />
+            <span className="block text-slate-800 font-extrabold text-sm mb-4 flex items-center gap-2 font-display">
+              <BookOpen size={16} className="text-[#1B6EB5]" />
               Table of Contents
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
-              {tocItems.map((item, idx) => (
-                <a
-                  key={item.id}
-                  href={`#${item.id}`}
-                  className="group flex items-center px-3 py-2 text-sm text-slate-650 hover:text-[#1B6EB5] hover:bg-slate-50/80 transition-all rounded-xl font-semibold no-underline"
-                >
-                  <span className="text-[var(--color-gold)] font-extrabold mr-2.5 text-xs bg-amber-50 border border-amber-200/50 w-5 h-5 rounded-md flex items-center justify-center group-hover:bg-[#1B6EB5] group-hover:border-[#1B6EB5] group-hover:text-white transition-all">
-                    {idx + 1}
-                  </span>
-                  {item.label}
-                </a>
-              ))}
+            </span>
+            <div className="max-h-[160px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 list-none p-0 m-0">
+                {tocItems.map((item, idx) => (
+                  <li key={item.id}>
+                    <a
+                      href={`#${item.id}`}
+                      className="group flex items-center px-3 py-2 text-sm text-slate-650 hover:text-[#1B6EB5] hover:bg-slate-50/80 transition-all rounded-xl font-semibold no-underline"
+                    >
+                      <span className="text-[var(--color-gold)] font-extrabold mr-2.5 text-xs bg-amber-50 border border-amber-200/50 w-5 h-5 rounded-md flex items-center justify-center group-hover:bg-[#1B6EB5] group-hover:border-[#1B6EB5] group-hover:text-white transition-all">
+                        {idx + 1}
+                      </span>
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           </section>
 
@@ -509,12 +520,57 @@ export default function ExamMainLayout({ exam }: Props) {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-5 font-display border-b border-slate-100 pb-3">
               What is {exam.shortName}?
             </h2>
-            <p className="text-slate-700 text-base sm:text-[17px] leading-relaxed mb-5 font-normal">
-              {isSbi
-                ? "SBI PO is a prestigious national-level recruitment examination conducted annually by the State Bank of India to select entry-level Probationary Officers. It is highly sought-after due to its premium compensation package exceeding ₹90,000/month gross, comprehensive perks, and rapid promotional avenues. Candidates undergo a rigorous four-stage selection process involving Preliminary screening, Main examinations, Group Exercises, and a Personal Interview. Newly recruited officers undergo a detailed two-year probation period, during which they receive hands-on training across diverse retail, corporate, and agricultural banking portfolios."
-                : "IBPS PO is a national-level recruitment examination conducted annually by the Institute of Banking Personnel Selection to recruit Probationary Officers for 11 public sector banks in India. It offers a highly respected career with a structured promotional path, competitive salaries exceeding ₹80,000/month gross in metro cities, and excellent financial security. Aspiring candidates undergo a three-stage selection process comprising Preliminary screening, Main examinations, and a Personal Interview. Selected officers are posted across India and undergo a mandatory two-year probation to master all commercial and retail banking operations."
-              }
-            </p>
+            <div className="space-y-6">
+              <p className="text-slate-750 text-base sm:text-[17px] leading-relaxed font-normal">
+                {isSbi ? (
+                  <>
+                    SBI PO is a <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">prestigious national-level recruitment examination conducted annually by the State Bank of India</mark> to select entry-level Probationary Officers. It is highly sought-after due to its <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">premium compensation package exceeding ₹90,000/month gross</mark>, comprehensive perks, and rapid promotional avenues. Candidates undergo a <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">rigorous four-stage selection process</mark> involving Preliminary screening, Main examinations, Group Exercises, and a Personal Interview. Newly recruited officers undergo a <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">detailed two-year probation period</mark>, during which they receive hands-on training across diverse retail, corporate, and agricultural banking portfolios.
+                  </>
+                ) : (
+                  <>
+                    IBPS PO is a <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">national-level recruitment examination conducted annually by the Institute of Banking Personnel Selection</mark> to recruit Probationary Officers for 11 public sector banks in India. It offers a highly respected career with a structured promotional path, <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">competitive salaries exceeding ₹80,000/month gross in metro cities</mark>, and excellent financial security. Aspiring candidates undergo a <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">three-stage selection process</mark> comprising Preliminary screening, Main examinations, and a Personal Interview. Selected officers are posted across India and undergo a <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">mandatory two-year probation</mark> to master all commercial and retail banking operations.
+                  </>
+                )}
+              </p>
+
+              {/* Modern feature cards for visual appeal */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                <div className="p-5 bg-blue-50/50 border border-blue-150 rounded-2xl flex flex-col justify-between shadow-xs hover:shadow-md transition-all">
+                  <div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#1B6EB5]">Career & Scale</span>
+                    <h4 className="text-base font-extrabold text-slate-800 mt-1 mb-2">Officer Scale-I Entry</h4>
+                    <p className="text-xs sm:text-xs text-slate-600 leading-normal font-normal">
+                      Direct entry into the officer cadre of the country's largest public sector bank. Offers structured promotion pathways up to top management.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-5 bg-emerald-50/50 border border-emerald-150 rounded-2xl flex flex-col justify-between shadow-xs hover:shadow-md transition-all">
+                  <div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-emerald-600">Compensation</span>
+                    <h4 className="text-base font-extrabold text-slate-800 mt-1 mb-2">
+                      {isSbi ? "₹90,000+ Gross/mo" : "₹80,000+ Gross/mo"}
+                    </h4>
+                    <p className="text-xs sm:text-xs text-slate-600 leading-normal font-normal">
+                      Includes basic pay, DA, Special Allowance, HRA/Leased Accommodation, medical aid, petrol allowances, and home travel concessions.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-5 bg-purple-50/50 border border-purple-150 rounded-2xl flex flex-col justify-between shadow-xs hover:shadow-md transition-all">
+                  <div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-purple-600">Hiring Selectivity</span>
+                    <h4 className="text-base font-extrabold text-slate-800 mt-1 mb-2">
+                      {isSbi ? "4 Selection Phases" : "3 Selection Phases"}
+                    </h4>
+                    <p className="text-xs sm:text-xs text-slate-600 leading-normal font-normal">
+                      A rigorous selection process ensures only the most skilled candidates make it through. Preparation requires structured strategy and practice.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-slate-50 border border-slate-200 p-4 sm:p-5 rounded-xl flex items-center justify-between flex-wrap gap-4 mt-6">
               <span className="text-sm font-semibold text-slate-650">
                 Want to read the full criteria, attempts, and post mandates in detail?
@@ -1461,82 +1517,136 @@ export default function ExamMainLayout({ exam }: Props) {
               {isSbi ? 'Current Affairs for SBI PO 2026 — What to Study & How Much' : 'Daily Banking & Economy Current Affairs'}
             </h2>
             <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-5 font-normal">
-              {isSbi
-                ? "The General/Economy/Banking Awareness section in SBI PO Mains carries 40 marks and is often the difference-maker between selection and rejection — since most candidates score similarly in Reasoning and Quant. PrepBanker publishes daily current affairs curated specifically for banking exams, so you never waste time on irrelevant news."
-                : "Get updated daily with specialized digests summarizing the latest notifications."}
+              {isSbi ? (
+                <>
+                  The General/Economy/Banking Awareness section in SBI PO Mains <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">carries 40 marks and is often the difference-maker between selection and rejection</mark> — since most candidates score similarly in Reasoning and Quant. PrepBanker publishes <mark className="bg-yellow-100 text-slate-900 px-1.5 py-0.5 rounded font-semibold">daily current affairs curated specifically for banking exams</mark>, so you never waste time on irrelevant news.
+                </>
+              ) : (
+                "Get updated daily with specialized digests summarizing the latest notifications."
+              )}
             </p>
 
             {isSbi ? (
-              <div className="space-y-6">
+              <div className="space-y-8">
                 <div>
-                  <h4 className="font-extrabold text-slate-850 text-sm sm:text-base mb-2">What to Cover for SBI PO GA</h4>
-                  <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
-                    <table className="w-full text-left text-sm border-collapse min-w-[500px]">
-                      <thead>
-                        <tr className="bg-slate-900 text-white font-bold">
-                          <th className="px-4 py-2.5">Category</th>
-                          <th className="px-4 py-2.5">Weightage</th>
-                          <th className="px-4 py-2.5">What to Focus On</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100 text-slate-650">
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Banking & Financial Awareness</td>
-                          <td className="px-4 py-3">35–40%</td>
-                          <td className="px-4 py-3">RBI policies, repo rate, CRR, SLR, banking schemes, new bank launches</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Current Affairs (Last 6 Months)</td>
-                          <td className="px-4 py-3">25–30%</td>
-                          <td className="px-4 py-3">National & international events, government schemes, summits</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Static GK</td>
-                          <td className="px-4 py-3">15–20%</td>
-                          <td className="px-4 py-3">HQs, taglines, governors, MD & CEOs of banks, countries & capitals</td>
-                        </tr>
-                        <tr className="bg-slate-50/50">
-                          <td className="px-4 py-3 font-semibold text-slate-800">Economy & Budget</td>
-                          <td className="px-4 py-3">10–15%</td>
-                          <td className="px-4 py-3">Union Budget highlights, GDP figures, IMF/World Bank reports</td>
-                        </tr>
-                        <tr>
-                          <td className="px-4 py-3 font-semibold text-slate-800">Awards, Reports & Rankings</td>
-                          <td className="px-4 py-3">5–10%</td>
-                          <td className="px-4 py-3">Padma Awards, Nobel Prize, important indices (GII, HDI, GHI)</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <h4 className="font-extrabold text-slate-800 text-base mb-4 flex items-center gap-2">
+                    <Zap size={18} className="text-[#1B6EB5]" />
+                    Syllabus Weightage & Important Focus Areas
+                  </h4>
+
+                  {/* Premium Grid layout instead of table for better mobile responsiveness and readability */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {[
+                      {
+                        title: 'Banking & Financial Awareness',
+                        weight: '35–40%',
+                        desc: 'RBI policies, repo rate, CRR, SLR, banking schemes, and new bank launches.',
+                        color: 'from-blue-500/10 to-blue-600/5 border-blue-200 text-blue-700',
+                      },
+                      {
+                        title: 'Current Affairs (Last 6 Months)',
+                        weight: '25–30%',
+                        desc: 'National & international events, government schemes, summits, and bilateral agreements.',
+                        color: 'from-emerald-500/10 to-emerald-600/5 border-emerald-200 text-emerald-700',
+                      },
+                      {
+                        title: 'Static GK & General Awareness',
+                        weight: '15–20%',
+                        desc: 'HQs, taglines, governors, MD & CEOs of banks, countries & capitals, and national parks.',
+                        color: 'from-purple-500/10 to-purple-600/5 border-purple-200 text-purple-700',
+                      },
+                      {
+                        title: 'Economy & Budget',
+                        weight: '10–15%',
+                        desc: 'Union Budget highlights, Economic Survey key takeaways, GDP figures, and IMF/World Bank reports.',
+                        color: 'from-amber-500/10 to-amber-600/5 border-amber-200 text-amber-700',
+                      },
+                      {
+                        title: 'Awards, Reports & Rankings',
+                        weight: '5–10%',
+                        desc: 'Padma Awards, Nobel Prize, sports winners, and important indices (GII, HDI, GHI).',
+                        color: 'from-rose-500/10 to-rose-600/5 border-rose-200 text-rose-700',
+                      },
+                    ].map((item, idx) => (
+                      <div
+                        key={idx}
+                        className={`bg-gradient-to-br ${item.color.split(' ')[0]} ${item.color.split(' ')[1]} border ${item.color.split(' ')[2]} p-5 rounded-2xl shadow-xs flex flex-col justify-between hover:shadow-md hover:-translate-y-0.5 transition-all`}
+                      >
+                        <div>
+                          <div className="flex justify-between items-start gap-2 mb-3">
+                            <h5 className="font-extrabold text-slate-800 text-sm leading-snug">{item.title}</h5>
+                            <span className={`px-2.5 py-1 rounded-full text-xs font-black shrink-0 ${item.color.split(' ')[3]} bg-white/80 shadow-xs border border-[currentColor]/10`}>
+                              {item.weight}
+                            </span>
+                          </div>
+                          <p className="text-xs text-slate-600 leading-relaxed font-normal">{item.desc}</p>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
 
-                <div className="space-y-3">
-                  <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">How PrepBanker Helps</h4>
-                  <ul className="list-disc list-inside text-slate-650 text-xs sm:text-sm pl-2 space-y-2 font-normal">
-                    <li>Daily current affairs capsules tagged for banking exams — read in under 10 minutes</li>
-                    <li>Monthly PDF compilations for quick revision before exams</li>
-                    <li>Topic-wise current affairs quizzes to test retention</li>
-                    <li>RBI policy tracker updated after every MPC meeting</li>
-                    <li>Banking awareness quiz — 50 questions updated weekly</li>
-                  </ul>
+                {/* Enhanced "How PrepBanker Helps" section with list items inside card layouts */}
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 space-y-4">
+                  <h4 className="font-extrabold text-slate-800 text-base flex items-center gap-2">
+                    <CheckCircle2 size={18} className="text-emerald-600" />
+                    How PrepBanker Supercharges Your GA Preparation
+                  </h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {[
+                      {
+                        title: "Daily Banking-Focused Digests",
+                        desc: "Capsules tagged for banking exams that you can read in under 10 minutes."
+                      },
+                      {
+                        title: "RBI Monetary Policy Tracker",
+                        desc: "Real-time updates immediately after every MPC policy meeting."
+                      },
+                      {
+                        title: "Monthly Compilation PDFs",
+                        desc: "Structured notes curated for quick revision before exam date."
+                      },
+                      {
+                        title: "Weekly Banking Quizzes",
+                        desc: "50-question mock assessments updated weekly for practice."
+                      },
+                      {
+                        title: "Interactive Topic-Wise Quizzes",
+                        desc: "Flash quizzes for GII, Nobel Prizes, budgets, and government schemes."
+                      }
+                    ].map((feature, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-slate-150 hover:border-slate-350 transition-colors">
+                        <span className="p-1 rounded bg-emerald-50 text-emerald-600 shrink-0 mt-0.5">
+                          <CheckCircle2 size={14} />
+                        </span>
+                        <div>
+                          <h5 className="font-bold text-slate-800 text-xs sm:text-sm">{feature.title}</h5>
+                          <p className="text-xs text-slate-500 mt-1 leading-normal font-normal">{feature.desc}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                <div className="flex gap-3 justify-center mt-4 flex-wrap">
+                {/* Stylish CTA Buttons */}
+                <div className="flex gap-4 justify-center items-center mt-6 flex-wrap">
                   <a
                     href={registerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-[var(--color-blue)] text-white hover:bg-slate-800 font-bold text-xs rounded-lg transition-all"
+                    className="px-5 py-3 bg-[#1B6EB5] hover:bg-[#14538A] text-white font-extrabold text-xs sm:text-sm rounded-xl transition-all shadow-[0_4px_12px_rgba(27,110,181,0.25)] hover:-translate-y-0.5 inline-flex items-center gap-2"
                   >
-                    Read Today's Current Affairs →
+                    <BookOpen size={16} />
+                    Read Today's Current Affairs
                   </a>
                   <a
                     href={registerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 border border-slate-200 text-slate-700 hover:bg-slate-50 font-bold text-xs rounded-lg transition-all"
+                    className="px-5 py-3 border border-slate-300 text-slate-700 hover:bg-slate-50 font-extrabold text-xs sm:text-sm rounded-xl transition-all hover:-translate-y-0.5 inline-flex items-center gap-2 bg-white"
                   >
-                    Attempt Banking Awareness Quiz →
+                    <Trophy size={16} />
+                    Attempt Banking Awareness Quiz
                   </a>
                 </div>
               </div>
@@ -2030,7 +2140,7 @@ export default function ExamMainLayout({ exam }: Props) {
           </section>
 
           {/* Section 14: Selection Process Deep Dive */}
-          {isSbi ? (
+          {isSbi && (
             <section id="selection-process" className="py-6 scroll-mt-20 border-t border-slate-200">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
                 SBI PO 2026 Selection Process — All 4 Stages Explained
@@ -2096,41 +2206,6 @@ export default function ExamMainLayout({ exam }: Props) {
                     </table>
                   </div>
                 </div>
-              </div>
-            </section>
-          ) : (
-            /* Section 13: Comparison */
-            <section id="comparison" className="py-6 scroll-mt-20 border-t border-slate-200">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-4 font-display border-b border-slate-100 pb-3">
-                {exam.shortName} vs SBI PO Comparison
-              </h2>
-              <div className="overflow-hidden border border-slate-200 rounded-xl bg-white mb-4 text-xs sm:text-sm">
-                <table className="w-full text-left border-collapse min-w-[500px]">
-                  <thead>
-                    <tr className="bg-slate-900 text-white font-bold">
-                      <th className="px-4 py-3">Parameters</th>
-                      <th className="px-4 py-3">IBPS PO</th>
-                      <th className="px-4 py-3">SBI PO</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-slate-100 text-slate-650">
-                    <tr className="hover:bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Participating Banks</td>
-                      <td className="px-4 py-3">11 Public Sector Banks</td>
-                      <td className="px-4 py-3">SBI Only</td>
-                    </tr>
-                    <tr className="bg-slate-50/50 hover:bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Vacancies</td>
-                      <td className="px-4 py-3">3,500+ (Higher)</td>
-                      <td className="px-4 py-3">1,500 (Moderate)</td>
-                    </tr>
-                    <tr className="hover:bg-slate-50/50">
-                      <td className="px-4 py-3 font-semibold text-slate-800">Base Basic Salary</td>
-                      <td className="px-4 py-3">₹36,000/month</td>
-                      <td className="px-4 py-3">₹48,480/month (Higher)</td>
-                    </tr>
-                  </tbody>
-                </table>
               </div>
             </section>
           )}
@@ -2269,31 +2344,29 @@ export default function ExamMainLayout({ exam }: Props) {
         </main>
 
         {/* Right Column: Sticky Sidebar (Quick Navigation & CTA Cards) */}
-        <aside className="sticky top-20 space-y-4">
-
-          {/* Quick Navigation panel */}
-          <QuickNavigation exam={exam} />
-
-          <div className={`bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white ${isSbi ? 'from-[#030712] to-[#091024]' : 'from-[#07102A] to-[#1A2D5A]'
-            }`}>
-            <div className="relative z-10">
-              <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-              <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
-              <p className="text-white/60 text-xs leading-relaxed mb-4">
-                Join 50k+ banking aspirants practicing with PrepBanker mocks.
-              </p>
-              <a
-                href={registerUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"
-              >
-                Start Practice Mocks Free →
-              </a>
+        {isSbi && (
+          <aside className="sticky top-20 space-y-4">
+            <QuickNavigation exam={exam} />
+            <div className="bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white from-[#030712] to-[#091024]">
+              <div className="relative z-10">
+                <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
+                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
+                <p className="text-white/60 text-xs leading-relaxed mb-4">
+                  Join 50k+ banking aspirants practicing with PrepBanker mocks.
+                </p>
+                <a
+                  href={registerUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"
+                >
+                  Start Practice Mocks Free →
+                </a>
+              </div>
+              <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
             </div>
-            <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
-          </div>
-        </aside>
+          </aside>
+        )}
       </div>
 
       <Footer />

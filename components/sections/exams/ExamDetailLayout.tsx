@@ -62,6 +62,14 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
       {/* Reusable Hero Section using exams main page layout style (without switcher toggle) */}
       <ExamHero exam={exam} title={detail.title} description={detail.overview} />
 
+      {exam.id === 'ibps-po' && (
+        <div className="w-full bg-[#0B0F19] border-t-2 border-amber-500 border-b border-slate-800 sticky top-16 z-40 shadow-sm">
+          <div className="container-custom py-4.5">
+            <QuickNavigation exam={exam} activeSlug={activeNormalized} />
+          </div>
+        </div>
+      )}
+
       {/* Main Section Content Wrapper */}
       <div className="container-custom py-6 flex-1 flex flex-col gap-6" style={{ marginTop: '2.5rem', marginBottom: '2.5rem' }}>
         
@@ -169,32 +177,34 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
 
           {/* Right Sidebar - Reusable Quick Navigation & CTA Banners */}
           <aside className="sticky top-20 space-y-4">
-            <QuickNavigation exam={exam} activeSlug={activeNormalized} />
+            {exam.id !== 'ibps-po' && <QuickNavigation exam={exam} activeSlug={activeNormalized} />}
 
-            <div className={`bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans ${
-              examId === 'sbi-po' ? 'from-[#030712] to-[#091024]' : 'from-[#07102A] to-[#1A2D5A]'
-            }`}>
-              <div className="relative z-10">
-                <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
-                <p className="text-white/60 text-xs leading-relaxed mb-4">
-                  Join 50k+ banking aspirants practicing with PrepBanker mocks.
-                </p>
-                <a
-                  href={
-                    examId === 'sbi-po'
-                      ? "https://app.prepgrind.com/signup/sbi-po"
-                      : "https://app.prepgrind.com/signup/ibps-po"
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"
-                >
-                  Start Practice Mocks Free →
-                </a>
+            {exam.id !== 'ibps-po' && (
+              <div className={`bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans ${
+                examId === 'sbi-po' ? 'from-[#030712] to-[#091024]' : 'from-[#07102A] to-[#1A2D5A]'
+              }`}>
+                <div className="relative z-10">
+                  <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
+                  <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
+                  <p className="text-white/60 text-xs leading-relaxed mb-4">
+                    Join 50k+ banking aspirants practicing with PrepBanker mocks.
+                  </p>
+                  <a
+                    href={
+                      examId === 'sbi-po'
+                        ? "https://app.prepgrind.com/signup/sbi-po"
+                        : "https://app.prepgrind.com/signup/ibps-po"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full py-2 bg-[var(--color-gold-bright)] hover:bg-[var(--color-gold)] text-slate-900 font-bold text-xs rounded-lg transition-all shadow-[0_4px_12px_rgba(240,180,41,0.3)] hover:-translate-y-0.5"
+                  >
+                    Start Practice Mocks Free →
+                  </a>
+                </div>
+                <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
               </div>
-              <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
-            </div>
+            )}
           </aside>
         </div>
       </div>

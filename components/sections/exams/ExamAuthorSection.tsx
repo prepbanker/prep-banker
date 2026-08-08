@@ -36,8 +36,8 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
   );
 
   return (
-    <section className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs mt-10 mb-16 font-sans">
-      
+    <section className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs mt-10 font-sans">
+
       {/* 1. Header Verification Row */}
       <div className="flex items-center gap-2 pb-4 border-b border-slate-150/70">
         <ShieldCheck size={18} className="text-emerald-600 shrink-0" />
@@ -48,7 +48,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
 
       {/* 2. Content Grid (Flat columns, no nested container boxes) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6">
-        
+
         {/* Author Column */}
         <div className="space-y-4">
           <div>
@@ -72,7 +72,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
                   </div>
                 )}
               </div>
-              
+
               {/* Identity & Credentials */}
               <div className="space-y-1">
                 <div className="flex items-center gap-1.5 flex-wrap">
@@ -92,7 +92,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
                       title="LinkedIn Profile"
                     >
                       <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                       </svg>
                     </a>
                   )}
@@ -122,7 +122,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
               <div className="w-14 h-14 rounded-full bg-slate-100 border border-slate-200 flex items-center justify-center font-black text-slate-500 shrink-0">
                 DB
               </div>
-              
+
               {/* Identity & Credentials */}
               <div className="space-y-1">
                 <Link

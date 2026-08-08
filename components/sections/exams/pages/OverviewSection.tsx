@@ -8,8 +8,8 @@ import { ICON_MAP, T } from '../constants';
 export default function OverviewSection({ exam }: { exam: ExamDetailData }) {
   const isIbps  = exam.id === 'ibps-po';
   const heroGrad = isIbps
-    ? 'linear-gradient(135deg,#07102A 0%,#3D2A00 100%)'
-    : 'linear-gradient(135deg,#030712 0%,#091024 100%)';
+    ? 'linear-gradient(135deg, #040A20 0%, #1C1200 100%)'
+    : 'linear-gradient(135deg, #030712 0%, #091024 100%)';
   const iconBg    = isIbps ? 'rgba(212,160,23,0.2)' : 'rgba(27,110,181,0.2)';
   const iconColor = isIbps ? '#F0B429' : '#60B4FF';
 

@@ -18,7 +18,6 @@ import { ibpsPoMockTestContent } from './ibpsPoMockTest';
 import { ibpsPoEnglishSectionalContent } from './ibpsPoEnglishSectional';
 import { ibpsPoQuantSectionalContent } from './ibpsPoQuantSectional';
 import { ibpsPoReasoningSectionalContent } from './ibpsPoReasoningSectional';
-import { ibpsPoComparisonContent } from './ibpsPoComparison';
 import { ibpsPoStudyPlanContent } from './ibpsPoStudyPlan';
 import Link from 'next/link';
 import { Calendar, CheckCircle2, Lightbulb } from 'lucide-react';
@@ -5026,6 +5025,182 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           faqs: []
         };
       }
+      if (examId === 'ibps-po') {
+        return {
+          title: `IBPS PO Notification 2026: 7365 Vacancies, PDF Download & CRP PO/MT-XVI Details`,
+          overview: `Official notification for CRP PO/MT-XVI released by IBPS on 1 July 2026 for 7,365 Probationary Officer / Management Trainee posts across 11 public sector banks. Application window closed 26 July 2026 — here's everything confirmed so far, updated as corrigenda are released.`,
+          metaTitle: `IBPS PO Notification 2026 PDF Download | 7365 Posts`,
+          metaDescription: `IBPS PO Notification 2026 out for 7365 PO/MT posts. Download official PDF, check CRP PO/MT-XVI dates, correction window & apply online at ibps.in.`,
+          ctaText: `Start Free IBPS PO Mock Test`,
+          ctaHref: `https://app.prepgrind.com/signup/sbi-po`,
+          customSchemas: (
+            <>
+              {/* BreadcrumbList Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com/"},
+                      {"@type": "ListItem", "position": 2, "name": "IBPS PO", "item": "https://prepbanker.com/ibps-po"},
+                      {"@type": "ListItem", "position": 3, "name": "Notification", "item": "https://prepbanker.com/ibps-po/notification"}
+                    ]
+                  })
+                }}
+              />
+              {/* Article / NewsArticle Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "NewsArticle",
+                    "headline": "IBPS PO Notification 2026: 7365 Vacancies",
+                    "description": "IBPS PO Notification 2026 released for 7365 Probationary Officer/Management Trainee vacancies under CRP PO/MT-XVI. Download the official PDF and check exam dates, eligibility and application process.",
+                    "image": ["https://prepbanker.com/images/ibps-po-notification-2026.jpg"],
+                    "datePublished": "2026-07-01T09:00:00+05:30",
+                    "dateModified": "2026-07-27T10:00:00+05:30",
+                    "author": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "url": "https://prepbanker.com"
+                    },
+                    "publisher": {
+                      "@type": "Organization",
+                      "name": "PrepBanker",
+                      "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://prepbanker.com/logo.png"
+                      }
+                    },
+                    "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://prepbanker.com/ibps-po/notification"
+                    }
+                  })
+                }}
+              />
+              {/* FAQPage Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "When was the IBPS PO 2026 notification released?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "IBPS released the official IBPS PO 2026 notification (CRP PO/MT-XVI) on 1 July 2026 on ibps.in."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many vacancies are there in IBPS PO Notification 2026?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "IBPS PO 2026 has 7,365 revised vacancies, increased from the initial 6,715 through a corrigendum issued on 20 July 2026 after 650 posts were added for Indian Bank."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the last date to apply for IBPS PO 2026?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "The online application window for IBPS PO 2026 closed on 26 July 2026, after being extended once from the original 21 July 2026 deadline."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is there a correction window for the IBPS PO 2026 application form?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "Yes, IBPS has introduced a 2-day Application Correction/Edit Window after the registration deadline, available for a fee of Rs. 200, though fields like name, email ID, and mobile number cannot be changed."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What are the IBPS PO 2026 exam dates?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "The IBPS PO Prelims exam is scheduled for 22 and 23 August 2026, and the Mains exam is scheduled for 4 October 2026."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "How many banks are participating in IBPS PO 2026?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "11 Public Sector Banks are participating in IBPS PO 2026, including Bank of Baroda, Canara Bank, Punjab National Bank, Indian Bank, and Union Bank of India."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is new in the IBPS PO 2026 notification compared to previous years?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "The IBPS PO 2026 notification introduces a mandatory Personality Test before the Interview, a revised Mains exam pattern with 170 objective questions instead of 145, removal of the earlier credit history clause, and a first-ever 2-day application correction window."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the application fee for IBPS PO 2026?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "The application fee is Rs. 850 (inclusive of GST) for General/EWS/OBC candidates and Rs. 175 (inclusive of GST) for SC/ST/PwBD candidates."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Where can I download the official IBPS PO Notification 2026 PDF?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "The official IBPS PO 2026 notification PDF is available for download on the IBPS website at ibps.in under the CRP PO/MT-XVI recruitment section."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Is the IBPS PO 2026 notification for the current year's vacancies?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "No, the IBPS PO 2026 recruitment cycle (CRP PO/MT-XVI) is conducted to fill vacancies for the financial year 2027-28, as is standard IBPS practice of recruiting a cycle in advance."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "What is the age limit for IBPS PO 2026?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "Candidates must be between 20 and 30 years of age as on 1 July 2026, with age relaxation applicable for reserved categories as per government norms."}
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "Can I apply for IBPS PO 2026 if I have already appeared in previous attempts?",
+                        "acceptedAnswer": {"@type": "Answer", "text": "Yes, there is no restriction on the number of attempts for IBPS PO; candidates can apply as many times as they wish as long as they meet the age and eligibility criteria."}
+                      }
+                    ]
+                  })
+                }}
+              />
+              {/* WebPage + Speakable Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "@id": "https://prepbanker.com/ibps-po/notification",
+                    "url": "https://prepbanker.com/ibps-po/notification",
+                    "name": "IBPS PO Notification 2026 PDF | 7365 Posts",
+                    "speakable": {
+                      "@type": "SpeakableSpecification",
+                      "cssSelector": ["#quick-answer", "#whats-new-2026"]
+                    },
+                    "isPartOf": {
+                      "@type": "WebSite",
+                      "name": "PrepBanker",
+                      "url": "https://prepbanker.com"
+                    }
+                  })
+                }}
+              />
+              {/* HowTo Schema */}
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "HowTo",
+                    "name": "How to Apply for IBPS PO 2026 Online",
+                    "step": [
+                      {"@type": "HowToStep", "name": "Visit official website", "text": "Go to the official IBPS website ibps.in and click the CRP PO/MT-XVI link."},
+                      {"@type": "HowToStep", "name": "New registration", "text": "Click 'New Registration' and enter basic details to generate your provisional registration number and password."},
+                      {"@type": "HowToStep", "name": "Upload documents", "text": "Upload your live photograph, signature, left thumb impression, and handwritten declaration as per specifications."},
+                      {"@type": "HowToStep", "name": "Fill application form", "text": "Complete personal, educational, and communication details carefully."},
+                      {"@type": "HowToStep", "name": "Preview and pay", "text": "Preview the form, verify all details, and pay the application fee online via net banking, card, or UPI."},
+                      {"@type": "HowToStep", "name": "Download confirmation", "text": "Submit the form and download the confirmation page/e-receipt for future reference."}
+                    ]
+                  })
+                }}
+              />
+            </>
+          ),
+          subsections: [],
+          faqs: []
+        };
+      }
     }
 
     case 'admit-card': {
@@ -8109,9 +8284,6 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'comparison': {
       if (examId === 'sbi-po') {
         return sbiPoComparisonContent;
-      }
-      if (examId === 'ibps-po') {
-        return ibpsPoComparisonContent;
       }
       return undefined;
     }

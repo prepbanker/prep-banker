@@ -46,7 +46,7 @@ export default function ExamHero({ exam, title, description }: Props) {
       style={{
         paddingTop: '2.5rem',
         background: isIbps
-          ? 'linear-gradient(135deg, #3D2A00 0%, #07102A 100%)'
+          ? 'linear-gradient(135deg, #1C1200 0%, #040A20 100%)'
           : 'linear-gradient(135deg, #030712 0%, #091024 100%)'
       }}
     >

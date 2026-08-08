@@ -19,6 +19,21 @@ import SBIPOStudyPlanPage from '@/components/sections/exams/SBIPOStudyPlanPage';
 import SBIPOExamAnalysisPage from '@/components/sections/exams/SBIPOExamAnalysisPage';
 import SBIPOCutOffPage from '@/components/sections/exams/SBIPOCutOffPage';
 import SBIPOQuantTestsPage from '@/components/sections/exams/SBIPOQuantTestsPage';
+import IBPSPONotificationPage from '@/components/sections/exams/IBPSPONotificationPage';
+import IBPSPOAdmitCardPage from '@/components/sections/exams/IBPSPOAdmitCardPage';
+import IBPSPOVacancyPage from '@/components/sections/exams/IBPSPOVacancyPage';
+import IBPSPOSyllabusPage from '@/components/sections/exams/IBPSPOSyllabusPage';
+import IBPSPOImportantDatesPage from '@/components/sections/exams/IBPSPOImportantDatesPage';
+import IBPSPOCutOffPage from '@/components/sections/exams/IBPSPOCutOffPage';
+import IBPSPOExamPatternPage from '@/components/sections/exams/IBPSPOExamPatternPage';
+import IBPSPOEligibilityPage from '@/components/sections/exams/IBPSPOEligibilityPage';
+import IBPSPOSelectionProcessPage from '@/components/sections/exams/IBPSPOSelectionProcessPage';
+import IBPSPOSalaryPage from '@/components/sections/exams/IBPSPOSalaryPage';
+import IBPSPOMockTestsPage from '@/components/sections/exams/IBPSPOMockTestsPage';
+import IBPSPOEnglishTestsPage from '@/components/sections/exams/IBPSPOEnglishTestsPage';
+import IBPSPOQuantTestsPage from '@/components/sections/exams/IBPSPOQuantTestsPage';
+import IBPSPOReasoningTestsPage from '@/components/sections/exams/IBPSPOReasoningTestsPage';
+import IBPSPOStudyPlanPage from '@/components/sections/exams/IBPSPOStudyPlanPage';
 import { getExamData, getDetailedSectionContent } from '@/lib/data/exams/detailContentMap';
 
 import { BreadcrumbSchema, ArticleSchema, FAQSchema, AuthorPersonSchema } from '@/components/seo';
@@ -64,6 +79,9 @@ export async function generateStaticParams() {
 
   for (const examId of exams) {
     for (const section of SECTIONS) {
+      if (examId === 'ibps-po' && (section === 'comparison' || section === 'sbi-po-vs-ibps-po')) {
+        continue;
+      }
       params.push({ examId, section });
     }
   }
@@ -73,6 +91,12 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { examId, section } = await params;
+  if (examId === 'ibps-po' && (section === 'comparison' || section === 'sbi-po-vs-ibps-po')) {
+    return {
+      title: 'Section Not Found | PrepBanker',
+      description: 'The requested exam preparation detail page does not exist.',
+    };
+  }
   const exam = getExamData(examId);
   const content = getDetailedSectionContent(examId, section);
 
@@ -104,11 +128,149 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ExamSectionPage({ params }: PageProps) {
   const { examId, section } = await params;
+  if (examId === 'ibps-po' && (section === 'comparison' || section === 'sbi-po-vs-ibps-po')) {
+    notFound();
+  }
   const exam = getExamData(examId);
   const content = getDetailedSectionContent(examId, section);
 
   if (!exam || !content) {
     notFound();
+  }
+
+  if (examId === 'ibps-po' && section === 'notification') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPONotificationPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'admit-card') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOAdmitCardPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'vacancy') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOVacancyPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'syllabus') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOSyllabusPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'important-dates') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOImportantDatesPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'cut-off') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOCutOffPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'exam-pattern') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOExamPatternPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'eligibility') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOEligibilityPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'selection-process') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOSelectionProcessPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'salary') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOSalaryPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'mock-tests') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOMockTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'english-tests') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOEnglishTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'quant-tests') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOQuantTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'reasoning-tests') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOReasoningTestsPage />
+      </>
+    );
+  }
+
+  if (examId === 'ibps-po' && section === 'study-plan') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOStudyPlanPage />
+      </>
+    );
   }
 
   if (examId === 'sbi-po' && section === 'notification') {

@@ -100,7 +100,7 @@ function ExamCard({ exam }: { exam: ExamDetailData }) {
     <div style={{ background:'#fff',borderRadius:18,border:'1px solid #E2E8F0',overflow:'hidden',boxShadow:'0 2px 20px rgba(13,27,62,0.06)',display:'flex',flexDirection:'column',transition:'all 0.25s' }}>
 
       {/* Card header */}
-      <div style={{ background: isIbps ? 'linear-gradient(135deg,#3D2A00,#07102A)' : 'linear-gradient(135deg,#07102A,#1A2D5A)',padding:'1.5rem' }}>
+      <div style={{ background: isIbps ? 'linear-gradient(135deg,#1C1200,#040A20)' : 'linear-gradient(135deg,#07102A,#1A2D5A)',padding:'1.5rem' }}>
         <div style={{ display:'inline-flex',alignItems:'center',gap:6,background:exam.tagColor + '22',border:'1px solid ' + exam.tagColor + '55',color:exam.tagColor,padding:'3px 12px',borderRadius:999,fontSize:'0.875rem',fontWeight:700,letterSpacing:'0.08em',textTransform:'uppercase',marginBottom:'0.875rem' }}>
           <span style={{ width:5,height:5,borderRadius:'50%',background:exam.tagColor,display:'inline-block' }} />
           {exam.tag}

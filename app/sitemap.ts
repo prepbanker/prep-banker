@@ -50,6 +50,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const detailPages: MetadataRoute.Sitemap = [];
   for (const examId of exams) {
     for (const section of SECTIONS) {
+      if (examId === 'ibps-po' && section === 'comparison') {
+        continue;
+      }
       let finalSection = section;
       if (examId === 'sbi-po' && section === 'comparison') {
         finalSection = 'sbi-po-vs-ibps-po';
