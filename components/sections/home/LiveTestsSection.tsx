@@ -157,6 +157,7 @@ export default function LiveTestsSection() {
               <button
                 key={dir}
                 onClick={() => scroll(dir)}
+                aria-label={`Scroll ${dir}`}
                 className="w-9 h-9 flex items-center justify-center bg-white border border-slate-200 rounded-[10px] text-[#0D1B3E] shadow-sm hover:bg-[#1B6EB5] hover:text-white hover:border-[#1B6EB5] transition-all duration-200"
               >
                 {dir === 'left' ? (

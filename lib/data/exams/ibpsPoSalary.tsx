@@ -258,7 +258,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           </p>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Basic Pay and Annual Increments</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Basic Pay and Annual Increments</div>
             <p className="mb-3 text-slate-600 text-xs sm:text-sm">
               The starting basic pay for IBPS PO (Scale I) is <strong>₹23,700 per month</strong>. This is the foundation on which every other allowance is calculated. Basic pay increases annually through the pay scale progression:
             </p>
@@ -298,14 +298,14 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Dearness Allowance (DA)</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Dearness Allowance (DA)</div>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
               DA is calculated as a percentage of basic pay and is revised every quarter (January, April, July, October) based on the Consumer Price Index (CPI). As of late 2025, DA for public sector bank employees was approximately <strong>46–50% of basic pay</strong>. At ₹23,700 basic pay and 48% DA, this adds about <strong>₹11,376/month</strong>.
             </p>
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">House Rent Allowance (HRA)</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">House Rent Allowance (HRA)</div>
             <p className="mb-3 text-slate-600 text-xs sm:text-sm leading-relaxed">
               HRA depends on the city tier of your posting:
             </p>
@@ -347,7 +347,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Special Allowance & City Compensatory Allowance (CCA)</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Special Allowance & City Compensatory Allowance (CCA)</div>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
               <strong>Special Allowance:</strong> A fixed percentage of basic pay, revised periodically. This typically adds <strong>₹5,000–₹7,500/month</strong> depending on the bank.
             </p>
@@ -468,14 +468,14 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           </p>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Accommodation</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Accommodation</div>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
               Officers posted in metro and urban areas are typically provided bank leased accommodation or a furniture allowance (₹1,00,000–₹1,50,000) to furnish a self-arranged home.
             </p>
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Staff Loans at Concessional Rates</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Staff Loans at Concessional Rates</div>
             <p className="mb-3 text-slate-600 text-xs sm:text-sm leading-relaxed">
               This is one of the most financially significant perks. Bank employees (including IBPS PO officers) can avail:
             </p>
@@ -513,7 +513,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Medical & Leave Benefits</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Medical & Leave Benefits</div>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
               <strong>Medical Benefits:</strong> IBPS PO officers and their dependants are covered under the bank's medical aid scheme. Hospitalisation reimbursement, outdoor treatment, and specialist consultations are typically covered — the exact limits vary by bank.
             </p>
@@ -526,7 +526,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
           </div>
 
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Other Miscellaneous Perks</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Other Miscellaneous Perks</div>
             <ul className="list-disc list-inside text-xs sm:text-sm text-slate-650 space-y-1.5">
               <li>Newspaper/magazine subscription reimbursement</li>
               <li>Mobile phone allowance or reimbursement (bank-dependent)</li>
@@ -610,7 +610,7 @@ export const ibpsPoSalaryContent: DetailSectionContent = {
             *These are approximate ranges based on IBA wage revision settlements as of 2025. Actual figures vary by bank and individual DA rates at time of promotion.*
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">How Fast Can You Get Promoted?</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">How Fast Can You Get Promoted?</div>
           <p className="text-slate-655 text-xs sm:text-sm leading-relaxed mb-3">
             Promotions in public sector banks work on a combination of seniority, performance appraisal (APAR score), and the number of vacancies available at the next level. A typical trajectory for a high-performing officer:
           </p>

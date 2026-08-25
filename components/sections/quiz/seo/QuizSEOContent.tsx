@@ -389,7 +389,7 @@ export default function QuizSEOContent({ onSelectCategory }: QuizSEOContentProps
                   <ShieldCheck className="w-5 h-5 text-slate-300" />
                 </div>
                 <h3 className="text-[14px] font-bold text-slate-400 uppercase tracking-wider mb-1">{step.level}</h3>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-3">{step.title}</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-3">{step.title}</div>
                 <p className="text-[14px] text-slate-500 leading-relaxed">{step.desc}</p>
               </div>
             ))}

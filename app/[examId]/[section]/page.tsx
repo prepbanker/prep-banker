@@ -34,6 +34,8 @@ import IBPSPOEnglishTestsPage from '@/components/sections/exams/IBPSPOEnglishTes
 import IBPSPOQuantTestsPage from '@/components/sections/exams/IBPSPOQuantTestsPage';
 import IBPSPOReasoningTestsPage from '@/components/sections/exams/IBPSPOReasoningTestsPage';
 import IBPSPOStudyPlanPage from '@/components/sections/exams/IBPSPOStudyPlanPage';
+import SBIPOPreviousYearPapersPage from '@/components/sections/exams/SBIPOPreviousYearPapersPage';
+import IBPSPOPreviousYearPapersPage from '@/components/sections/exams/IBPSPOPreviousYearPapersPage';
 import { getExamData, getDetailedSectionContent } from '@/lib/data/exams/detailContentMap';
 
 import { BreadcrumbSchema, ArticleSchema, FAQSchema, AuthorPersonSchema } from '@/components/seo';
@@ -63,6 +65,7 @@ const SECTIONS = [
   'study-plan',
   'exam-analysis',
   'prelims-exam-analysis',
+  'previous-year-papers',
 
   // Legacy compatibility slugs
   'dates',
@@ -93,7 +96,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { examId, section } = await params;
   if (examId === 'ibps-po' && (section === 'comparison' || section === 'sbi-po-vs-ibps-po')) {
     return {
-      title: 'Section Not Found | PrepBanker',
+      title: 'Section Not Found',
       description: 'The requested exam preparation detail page does not exist.',
     };
   }
@@ -102,13 +105,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!exam || !content) {
     return {
-      title: 'Section Not Found | PrepBanker',
+      title: 'Section Not Found',
       description: 'The requested exam preparation detail page does not exist.',
     };
   }
 
-  // Generate highly descriptive, SEO-optimized title & description or use page overrides
-  const title = content.metaTitle || `${content.title} | PrepBanker`;
+  const title = content.metaTitle || content.title;
   const description = content.metaDescription || `${content.overview.slice(0, 150)}... Read the comprehensive guide and attempt free practice mock tests on PrepBanker.`;
 
   return {
@@ -273,6 +275,15 @@ export default async function ExamSectionPage({ params }: PageProps) {
     );
   }
 
+  if (examId === 'ibps-po' && section === 'previous-year-papers') {
+    return (
+      <>
+        {content.customSchemas}
+        <IBPSPOPreviousYearPapersPage />
+      </>
+    );
+  }
+
   if (examId === 'sbi-po' && section === 'notification') {
     return (
       <>
@@ -422,6 +433,15 @@ export default async function ExamSectionPage({ params }: PageProps) {
       <>
         {content.customSchemas}
         <SBIPOExamAnalysisPage />
+      </>
+    );
+  }
+
+  if (examId === 'sbi-po' && section === 'previous-year-papers') {
+    return (
+      <>
+        {content.customSchemas}
+        <SBIPOPreviousYearPapersPage />
       </>
     );
   }

@@ -23,7 +23,7 @@ export default function SidebarInfoCard() {
             PrepBanker Platform
           </p>
           <p className="text-white/50 text-xs">
-            India&apos;s #1 Banking Prep
+            SBI PO &amp; IBPS PO Prep
           </p>
         </div>
       </div>

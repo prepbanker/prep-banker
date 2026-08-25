@@ -245,9 +245,9 @@ export default function PreviousYearPapersLayout({
 
           {/* Screenshot Title and Quiz Button Row */}
           <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
-            <h3 className="text-base sm:text-lg font-bold text-[var(--color-navy)] font-display">
+            <h2 className="text-base sm:text-lg font-bold text-[var(--color-navy)] font-display">
               Choose Subject for PYQ PDF
-            </h3>
+            </h2>
             <a
               href="https://app.prepgrind.com/signup/banking"
               target="_blank"
@@ -282,7 +282,7 @@ export default function PreviousYearPapersLayout({
             <div className="border border-[#DFE5EE] rounded-lg overflow-hidden divide-y divide-[#DFE5EE]">
               {paginatedPapers.length === 0 ? (
                 <div className="bg-white p-12 text-center">
-                  <h3 className="text-sm font-bold text-slate-500">No papers found for the selected year.</h3>
+                  <div className="text-sm font-bold text-slate-500">No papers found for the selected year.</div>
                 </div>
               ) : (
                 paginatedPapers.map((paper) => {
@@ -398,9 +398,9 @@ export default function PreviousYearPapersLayout({
             <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white/20 text-white text-base mb-2">
               🎯
             </span>
-            <h3 className="text-lg sm:text-xl font-extrabold text-white leading-tight">
+            <h2 className="text-lg sm:text-xl font-extrabold text-white leading-tight">
               Want to practice these papers in real exam mode?
-            </h3>
+            </h2>
             <p className="text-white/95 text-xs sm:text-sm mt-1 leading-relaxed">
               Attempt PYQ-based mock tests, get detailed performance analytics & live rankings — completely free on PrepGrind.
             </p>
@@ -442,9 +442,9 @@ export default function PreviousYearPapersLayout({
             <div className="flex items-center justify-between px-6 py-4 bg-[var(--color-navy-deep)] text-white border-b border-white/10 shrink-0">
               <div className="flex items-center gap-2">
                 <FileText className="w-5 h-5 text-[var(--color-gold-bright)]" />
-                <h3 className="text-sm sm:text-base font-extrabold tracking-tight truncate max-w-[200px] sm:max-w-md">
+                <div className="text-sm sm:text-base font-extrabold tracking-tight truncate max-w-[200px] sm:max-w-md">
                   {selectedPdf.title}
-                </h3>
+                </div>
               </div>
               <button
                 onClick={handleClosePdf}

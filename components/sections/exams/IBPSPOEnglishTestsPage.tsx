@@ -210,9 +210,9 @@ export default function IBPSPOEnglishTestsPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   English Key Stats
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -541,7 +541,7 @@ export default function IBPSPOEnglishTestsPage() {
               <div className="p-5 border border-slate-200 bg-slate-50/50 rounded-2xl space-y-4 flex flex-col justify-between">
                 <div className="space-y-2">
                   <span className="px-2 py-0.5 bg-slate-150 text-slate-600 rounded text-[9px] font-black uppercase">Standard</span>
-                  <h4 className="text-slate-800 text-base sm:text-lg">Free Tier</h4>
+                  <div className="text-slate-800 text-base sm:text-lg">Free Tier</div>
                   <ul className="space-y-2 text-xs text-slate-600 list-disc list-inside font-semibold leading-relaxed">
                     <li>3 Full English Sectional Tests (Prelims & Mains).</li>
                     <li>Sample vocabulary & error detection topic drills.</li>
@@ -564,7 +564,7 @@ export default function IBPSPOEnglishTestsPage() {
               <div className="p-5 border border-[#FBBF24]/30 bg-[#FBBF24]/5 rounded-2xl space-y-4 flex flex-col justify-between">
                 <div className="space-y-2">
                   <span className="px-2 py-0.5 bg-amber-400 text-slate-950 rounded text-[9px] font-black uppercase">Recommended</span>
-                  <h4 className="text-slate-900 text-base sm:text-lg">Premium Master Pass</h4>
+                  <div className="text-slate-900 text-base sm:text-lg">Premium Master Pass</div>
                   <ul className="space-y-2 text-xs text-slate-600 list-disc list-inside font-semibold leading-relaxed">
                     <li>Full 80+ test library across all sectional and topic blocks.</li>
                     <li>Detailed explanation keys for all parameters.</li>

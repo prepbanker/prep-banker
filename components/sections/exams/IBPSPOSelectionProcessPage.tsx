@@ -236,33 +236,33 @@ export default function IBPSPOSelectionProcessPage() {
 
               {/* Visual Flow Diagram Stage Tracker */}
               <div className="p-5 bg-white/5 border border-white/10 rounded-2xl space-y-4 font-sans">
-                <h4 className="text-xs font-black text-amber-400 uppercase tracking-widest flex items-center gap-1.5 font-display">
+                <div className="text-xs font-black text-amber-400 uppercase tracking-widest flex items-center gap-1.5 font-display">
                   <GitCommit size={14} className="text-amber-400" /> CRP PO/MT-XVI Stage Flow Tracker
-                </h4>
+                </div>
                 <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center text-[10px] font-black text-slate-300">
                   <div className="p-2.5 bg-white/5 border border-white/15 rounded-xl">
                     <span className="block text-emerald-400">Stage 1</span>
-                    <span>Prelims<br />(Qualifying)</span>
+                    <span>Prelims <br />(Qualifying)</span>
                   </div>
                   <div className="p-2.5 bg-white/5 border border-white/15 rounded-xl">
                     <span className="block text-[#FBBF24]">Stage 2</span>
-                    <span>Mains<br />(80% weight)</span>
+                    <span>Mains <br />(80% weight)</span>
                   </div>
                   <div className="p-2.5 bg-white/5 border border-white/15 rounded-xl">
                     <span className="block text-purple-400">Stage 3</span>
-                    <span>Personality Test<br />(Mandatory)</span>
+                    <span>Personality Test <br />(Mandatory)</span>
                   </div>
                   <div className="p-2.5 bg-white/5 border border-white/15 rounded-xl">
                     <span className="block text-[#FBBF24]">Stage 4</span>
-                    <span>Interview<br />(20% weight)</span>
+                    <span>Interview <br />(20% weight)</span>
                   </div>
                   <div className="p-2.5 bg-white/5 border border-white/15 rounded-xl">
                     <span className="block text-slate-400">Stage 5</span>
-                    <span>Doc Verification<br />(Eligibility check)</span>
+                    <span>Doc Verification <br />(Eligibility check)</span>
                   </div>
                   <div className="p-2.5 bg-white/5 border border-white/15 rounded-xl">
                     <span className="block text-emerald-400">Allotment</span>
-                    <span>Bank Posting<br />(Final outcome)</span>
+                    <span>Bank Posting <br />(Final outcome)</span>
                   </div>
                 </div>
               </div>
@@ -289,9 +289,9 @@ export default function IBPSPOSelectionProcessPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Allotment Formula
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -485,9 +485,9 @@ export default function IBPSPOSelectionProcessPage() {
               {/* Right Column: Redirect options */}
               <div className="lg:col-span-4 p-5 bg-white border border-slate-200 rounded-3xl flex flex-col justify-between gap-5 shadow-xs">
                 <div className="space-y-3">
-                  <h4 className="font-extrabold text-sm text-slate-800 border-l-3 border-[#1B6EB5] pl-2">
+                  <div className="font-extrabold text-sm text-slate-800 border-l-3 border-[#1B6EB5] pl-2">
                     Prelims Quick Tools
-                  </h4>
+                  </div>
                   <p className="text-xs text-slate-400 font-semibold leading-normal">
                     Prepare with our detailed guide sheets for cut-offs and sectional breakdowns:
                   </p>
@@ -549,7 +549,7 @@ export default function IBPSPOSelectionProcessPage() {
                   <div key={idx} className="p-4 bg-white border border-slate-200 rounded-2xl flex gap-3 shadow-xs">
                     <CheckCircle size={16} className="text-indigo-650 shrink-0 mt-0.5" />
                     <div className="space-y-1">
-                      <h4 className="font-extrabold text-sm text-slate-800">{item.title}</h4>
+                      <div className="font-extrabold text-sm text-slate-800">{item.title}</div>
                       <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-normal m-0">{item.text}</p>
                     </div>
                   </div>
@@ -590,7 +590,7 @@ export default function IBPSPOSelectionProcessPage() {
                 <div className="p-6 bg-slate-900 text-white rounded-3xl flex flex-col justify-between gap-6 shadow-md w-full">
                   <div className="space-y-2">
                     <span className="text-[10px] font-black uppercase tracking-wider text-[#FBBF24]">Rule Disclaimer</span>
-                    <h4 className="font-extrabold text-white text-base sm:text-lg">Mandatory Attendance</h4>
+                    <div className="font-extrabold text-white text-base sm:text-lg">Mandatory Attendance</div>
                     <p className="text-xs text-slate-350 leading-relaxed font-semibold m-0">
                       Skipping this stage automatically disqualifies your registration. You will not be permitted to attend the Interview block.
                     </p>
@@ -634,7 +634,7 @@ export default function IBPSPOSelectionProcessPage() {
                 </div>
 
                 <div className="p-5 bg-white border border-slate-200 rounded-2xl space-y-2 shadow-xs">
-                  <h4 className="font-extrabold text-sm text-slate-800">Coordination & Panel Guidelines</h4>
+                  <div className="font-extrabold text-sm text-slate-800">Coordination & Panel Guidelines</div>
                   <p className="text-xs text-slate-500 font-semibold leading-relaxed m-0">
                     Interviews are hosted by the Nodal Bank assigned in each State/UT. The panel reviews banking awareness, state news, personal background, and uses the Stage 3 Personality Test profile during interaction.
                   </p>
@@ -646,9 +646,9 @@ export default function IBPSPOSelectionProcessPage() {
                 <div className="p-5 bg-white border border-indigo-150 rounded-3xl w-full flex flex-col justify-between gap-4 hover:shadow-xs transition-shadow duration-300">
                   <div className="space-y-1">
                     <span className="text-[10px] font-black uppercase text-indigo-600 tracking-wider">Required Folders</span>
-                    <h4 className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center gap-1">
+                    <div className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center gap-1">
                       <FileCheck size={16} className="text-[#1B6EB5]" /> Interview Checklist Documents
-                    </h4>
+                    </div>
                   </div>
                   
                   <div className="space-y-2 text-xs font-semibold text-slate-600">
@@ -698,7 +698,7 @@ export default function IBPSPOSelectionProcessPage() {
                     <span className="w-6 h-6 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center font-black text-[10px]">
                       {item.step || item.stage}
                     </span>
-                    <h4 className="font-extrabold text-sm sm:text-base text-slate-800">{item.title}</h4>
+                    <div className="font-extrabold text-sm sm:text-base text-slate-800">{item.title}</div>
                   </div>
                   <p className="text-xs text-slate-500 leading-normal font-semibold m-0">{item.desc}</p>
                 </div>
@@ -736,9 +736,9 @@ export default function IBPSPOSelectionProcessPage() {
 
               {/* Right Column: Worked Example */}
               <div className="lg:col-span-6 p-5 bg-white border border-slate-200 rounded-3xl space-y-3 shadow-xs font-sans">
-                <h4 className="font-extrabold text-sm sm:text-base text-slate-850 flex items-center gap-1.5">
+                <div className="font-extrabold text-sm sm:text-base text-slate-850 flex items-center gap-1.5">
                   <CheckCircle size={16} className="text-[#1B6EB5]" /> Worked Calculation Example
-                </h4>
+                </div>
                 <div className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed space-y-2">
                   <p>Let's calculate final score for a sample candidate:</p>
                   <ul className="list-disc list-inside space-y-1">
@@ -786,7 +786,7 @@ export default function IBPSPOSelectionProcessPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Target stages set — now start preparation.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Target stages set — now start preparation.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Benchmark your baseline percentile rank with a diagnostic mock test.
                 </p>

@@ -223,7 +223,7 @@ export default function SBIPOEligibilityPage() {
                           {item.icon}
                           <span className="text-[10px] font-black text-slate-455 uppercase tracking-widest">Parameter {idx + 1}</span>
                         </div>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight pt-1">{item.criteria}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight pt-1">{item.criteria}</div>
                         <p className="text-slate-500 text-xs font-semibold leading-relaxed">{item.detail}</p>
                       </div>
                       <div className="text-xs font-black text-slate-800 border-t border-slate-200/50 pt-2 flex justify-between items-center">
@@ -262,7 +262,7 @@ export default function SBIPOEligibilityPage() {
                       </div>
                       <div className="space-y-0.5">
                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">Group {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.title}</div>
                         <span className="block text-xs text-slate-500 font-semibold">{item.note}</span>
                       </div>
                     </div>
@@ -320,7 +320,7 @@ export default function SBIPOEligibilityPage() {
                           <span className="text-[8px] font-black text-[#1B6EB5]/70 uppercase tracking-wider mt-0.5">Yrs</span>
                         </div>
                         <div className="space-y-0.5">
-                          <h4 className="font-extrabold text-slate-900 text-xs sm:text-sm leading-snug">{item.category}</h4>
+                          <div className="font-extrabold text-slate-900 text-xs sm:text-sm leading-snug">{item.category}</div>
                           <span className="block text-[10px] text-slate-500 font-bold">{item.maxAge}</span>
                         </div>
                       </div>
@@ -345,7 +345,7 @@ export default function SBIPOEligibilityPage() {
                       <GraduationCap size={24} className="text-emerald-600" />
                     </div>
                     <div>
-                      <h4 className="font-black text-slate-900 text-sm">Graduation Status</h4>
+                      <div className="font-black text-slate-900 text-sm">Graduation Status</div>
                       <p className="text-xs text-slate-500 font-semibold leading-relaxed mt-0.5">
                         Candidates from any discipline are eligible. Final year students qualify to apply.
                       </p>
@@ -397,7 +397,7 @@ export default function SBIPOEligibilityPage() {
                         <span className="text-[#1B6EB5] font-black text-2xl leading-none">{item.limit}</span>
                       </div>
                       <div className="space-y-1">
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.category}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.category}</div>
                         <p className="text-slate-500 text-xs font-semibold leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
@@ -456,7 +456,7 @@ export default function SBIPOEligibilityPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-5 pr-5 pl-6 sm:py-6 sm:pr-6 sm:pl-7 rounded-2xl flex flex-col justify-between space-y-1.5 transition-all duration-200 " + item.border}>
                       <div className="space-y-0.5">
                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Category {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.category}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.category}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed pt-1">{item.desc}</p>
                       </div>
                     </div>
@@ -500,7 +500,7 @@ export default function SBIPOEligibilityPage() {
                       <span className="absolute -left-[45px] w-6 h-6 rounded-full bg-blue-50 border-2 border-[#1B6EB5] flex items-center justify-center font-extrabold text-[#1B6EB5] text-xs shadow-2xs">
                         {idx + 1}
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{step.title}</h4>
+                      <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{step.title}</div>
                       <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed">{step.desc}</p>
                     </div>
                   ))}
@@ -605,7 +605,7 @@ export default function SBIPOEligibilityPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

@@ -267,7 +267,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
       content: (
         <div className="space-y-5">
           <div>
-            <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">IBPS PO Prelims: English Topic Breakdown</h4>
+            <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">IBPS PO Prelims: English Topic Breakdown</div>
             <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
               <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                 <thead>
@@ -346,7 +346,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
     content: (
       <div className="space-y-5">
         <div>
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">Reading Comprehension — The High-Stakes, High-Time Topic</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base mb-1">Reading Comprehension — The High-Stakes, High-Time Topic</div>
           <p className="text-slate-655 text-xs sm:text-sm leading-relaxed mb-3">
             RC is the most marks-heavy topic and the biggest time risk. IBPS PO Prelims typically has one passage of 400–600 words with 8–10 questions. The passage is usually from finance, economics, social policy, or general awareness themes — not literary prose.
           </p>
@@ -356,7 +356,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
         </div>
 
         <div>
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">Cloze Test — The Most Efficient Marks in the Section</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base mb-1">Cloze Test — The Most Efficient Marks in the Section</div>
           <p className="text-slate-655 text-xs sm:text-sm leading-relaxed mb-3">
             Cloze Tests present a passage with 5–7 blanks. Each blank has 4–5 options. The answer requires understanding the flow of the passage and choosing the word that fits grammatically and contextually.
           </p>
@@ -366,7 +366,7 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
         </div>
 
         <div>
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">Error Spotting — Pattern Recognition, Not Deep Grammar</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base mb-1">Error Spotting — Pattern Recognition, Not Deep Grammar</div>
           <p className="text-slate-655 text-xs sm:text-sm leading-relaxed mb-3">
             Modern IBPS PO Error Spotting questions are mostly sentence-level. A sentence is divided into parts, and you identify which part has the grammatical error. The most commonly tested errors are: subject-verb agreement, tense inconsistency, article usage (a/an/the), preposition misuse, and pronoun-antecedent mismatch.
           </p>
@@ -687,13 +687,13 @@ export const ibpsPoEnglishSectionalContent: DetailSectionContent = {
           Scoring well in English is one part of clearing IBPS PO Prelims. These PrepBanker resources cover the rest of the preparation picture:
         </p>
         <p>
-          Take the <Link href="/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">Free IBPS PO Full Prelims Mock Test</Link> to practice English, Quant, and Reasoning back-to-back under full exam conditions. Full mocks train you for the stamina and time management that sectional tests alone cannot replicate.
+          Take the <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Free IBPS PO Full Prelims Mock Test</Link> to practice English, Quant, and Reasoning back-to-back under full exam conditions. Full mocks train you for the stamina and time management that sectional tests alone cannot replicate.
         </p>
         <p>
           The <Link href="/ibps-po/quant-sectional-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quantitative Aptitude Sectional Test</Link> covers the 35-question, 20-minute Quant section in the same isolated-timer format. If Quant is your weaker section, start there and use English sectional tests for maintenance.
         </p>
         <p>
-          For Mains-level English preparation, the <Link href="/ibps-po/mains-mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</Link> include the full 35-question objective English section plus the descriptive essay and letter writing component — all in one timed simulation.
+          For Mains-level English preparation, the <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</Link> include the full 35-question objective English section plus the descriptive essay and letter writing component — all in one timed simulation.
         </p>
         <p>
           To understand what score you need to clear the English sectional cut off and the overall Prelims cut off, visit the <Link href="/ibps-po/cut-off" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Cut Off 2026</Link> page for year-wise category-wise data and expected 2026 benchmarks.

@@ -164,9 +164,9 @@ export default function Pricing() {
                     <span className="text-xs font-bold uppercase tracking-widest text-slate-400">
                       Always Free
                     </span>
-                    <h3 className="text-xl font-extrabold text-[var(--color-navy)] mt-1">
+                    <h2 className="text-xl font-extrabold text-[var(--color-navy)] mt-1">
                       Free Plan
-                    </h3>
+                    </h2>
                   </div>
 
                   <div className="flex items-baseline gap-1 my-6">
@@ -228,9 +228,9 @@ export default function Pricing() {
                         64% OFF
                       </span>
                     </div>
-                    <h3 className="text-xl font-extrabold text-[var(--color-navy)] mt-1">
+                    <h2 className="text-xl font-extrabold text-[var(--color-navy)] mt-1">
                       Premium Plan
-                    </h3>
+                    </h2>
                   </div>
 
                   <div className="flex items-baseline gap-2 my-6">

@@ -15,6 +15,14 @@ module.exports = {
           light: '#1E3A6E',
           DEFAULT: '#0D1B3E',
         },
+        slate: {
+          400: '#5c6b7e',
+          500: '#4a596e',
+        },
+        gray: {
+          400: '#5c6b7e',
+          500: '#4a596e',
+        },
       },
       fontSize: {
         xs: '0.875rem',

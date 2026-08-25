@@ -77,7 +77,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
               <div className="space-y-1">
                 <div className="flex items-center gap-1.5 flex-wrap">
                   <Link
-                    href={`/author/${author.slug}`}
+                    href={`/authors/${author.slug}`}
                     className="font-extrabold text-slate-900 hover:text-[var(--color-blue)] hover:underline text-base leading-tight no-underline flex items-center gap-1"
                   >
                     {author.name}
@@ -90,6 +90,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
                       rel="noopener noreferrer"
                       className="p-1 hover:bg-slate-100 rounded-lg text-slate-400 hover:text-[#0077B5] transition-colors"
                       title="LinkedIn Profile"
+                      aria-label="LinkedIn Profile"
                     >
                       <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
@@ -126,7 +127,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
               {/* Identity & Credentials */}
               <div className="space-y-1">
                 <Link
-                  href={`/author/${reviewer.slug}`}
+                  href={`/authors/${reviewer.slug}`}
                   className="font-extrabold text-slate-900 hover:text-[var(--color-blue)] hover:underline text-base leading-tight no-underline flex items-center gap-1"
                 >
                   {reviewer.name}
@@ -152,7 +153,7 @@ export default function ExamAuthorSection({ examId, nextReviewDate }: ExamAuthor
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-4 mt-6 border-t border-slate-150/70 text-xs text-slate-500 font-semibold">
         <div className="flex items-center gap-2">
           <Calendar size={14} className="text-[var(--color-blue)]" />
-          <span>Last updated: <strong className="text-slate-800 font-extrabold">{lastUpdated}</strong></span>
+          <span>Last updated: <Link href="/editorial-policy" className="hover:underline text-[var(--color-blue)] font-extrabold text-slate-800">{lastUpdated}</Link></span>
         </div>
         <div>
           <span>Next scheduled review: <strong className="text-slate-800 font-extrabold">{resolvedNextReview}</strong></span>

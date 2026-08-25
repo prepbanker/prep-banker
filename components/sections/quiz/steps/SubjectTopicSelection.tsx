@@ -166,7 +166,7 @@ export default function SubjectTopicSelection({
       {/* ── SUBJECT STATS CALLOUT ── */}
       <div className="bg-slate-50/70 border border-slate-200/60 p-4 px-6 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
         <div>
-          <h4 className="text-xs font-extrabold text-[var(--color-navy-deep)]">{currentSubjectMeta.description}</h4>
+          <div className="text-xs font-extrabold text-[var(--color-navy-deep)]">{currentSubjectMeta.description}</div>
           <span className="text-[10px] text-slate-400 font-bold block mt-0.5">Section Weight</span>
         </div>
         <span className="inline-flex items-center px-3 py-1 rounded-xl text-xs font-black bg-blue-50 text-[var(--color-blue)]">
@@ -198,9 +198,9 @@ export default function SubjectTopicSelection({
 
         {/* TOPIC RAIL (LEFT COLUMN, sticky on desktop, hidden on mobile) */}
         <div className="hidden md:block md:col-span-3 bg-white border border-slate-200 rounded-3xl p-3.5 shadow-sm sticky top-[90px] max-h-[580px] overflow-y-auto">
-          <h3 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-4 px-3">
+          <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-4 px-3">
             Topics
-          </h3>
+          </div>
           <div className="flex flex-col gap-1">
             {topicNames.map(name => {
               const isActive = activeTopic === name;
@@ -232,9 +232,9 @@ export default function SubjectTopicSelection({
         {/* SUBTOPICS ROW-CARDS (RIGHT COLUMN, main list content) */}
         <div className="md:col-span-7 space-y-4">
           <div className="flex items-center justify-between px-1">
-            <h3 className="text-xs font-black text-slate-400 uppercase tracking-widest">
+            <div className="text-xs font-black text-slate-400 uppercase tracking-widest">
               Subtopics — <span className="text-[var(--color-navy)] font-black text-sm uppercase normal-case">{activeTopic}</span>
-            </h3>
+            </div>
             <span className="text-[10px] font-bold text-slate-400">
               {activeSubtopics.length} items available
             </span>

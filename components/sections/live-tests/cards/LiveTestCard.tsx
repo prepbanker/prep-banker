@@ -77,9 +77,9 @@ const LiveTestCard = memo(function LiveTestCard({ test, timeLeft }: Props) {
 
       {/* ── Test Title ── */}
       <div className="px-4 pb-3 flex-grow">
-        <h3 className="text-[13.5px] font-bold leading-snug text-slate-800 line-clamp-2 min-h-[38px]">
+        <div className="text-[13.5px] font-bold leading-snug text-slate-800 line-clamp-2 min-h-[38px]">
           {test.title}
-        </h3>
+        </div>
       </div>
 
       {/* ── Meta Grid ── */}

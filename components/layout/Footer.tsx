@@ -99,7 +99,7 @@ export default function Footer() {
             </div>
 
             <p style={{ fontSize: '0.875rem', lineHeight: 1.7, maxWidth: 280, marginBottom: '1.25rem' }}>
-              India&apos;s most trusted banking exam preparation platform for SBI PO and IBPS PO aspirants. Practice quizzes, live exams, current affairs, and smart analytics — all in one place.
+              A banking exam preparation platform providing comprehensive guides, mock tests, and syllabus breakdowns for SBI PO and IBPS PO aspirants. Practice quizzes, live exams, current affairs, and smart analytics — all in one place.
             </p>
 
             {/* Social Links */}
@@ -107,6 +107,7 @@ export default function Footer() {
               {socialLinks.map(s => (
                 <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
                    title={s.label}
+                   aria-label={s.label}
                    style={{
                      width: 38, height: 38,
                      background: 'rgba(255,255,255,0.07)',
@@ -127,14 +128,14 @@ export default function Footer() {
           {/* Link Columns */}
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
-              <h4 style={{
+              <div style={{
                 color: 'var(--color-yellow)',
                 fontSize: '0.875rem',
                 fontWeight: 700,
                 letterSpacing: '0.1em',
                 textTransform: 'uppercase',
                 marginBottom: '1rem',
-              }}>{title}</h4>
+              }}>{title}</div>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {links.map(link => (
                   <li key={link.href}>

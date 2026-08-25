@@ -260,7 +260,7 @@ export default function SBIPOSalaryPage() {
                       <Coins size={24} />
                     </div>
                     <div>
-                      <h4 className="font-black text-slate-900 text-sm">Pay Scale Formula</h4>
+                      <div className="font-black text-slate-900 text-sm">Pay Scale Formula</div>
                       <p className="text-[11px] text-slate-500 font-bold leading-relaxed mt-0.5 uppercase tracking-wider">
                         JMGS-I Official Grade
                       </p>
@@ -286,7 +286,7 @@ export default function SBIPOSalaryPage() {
                           <span className="inline-block px-1.5 py-0.5 rounded bg-white border border-slate-200/60 text-[9px] font-black uppercase tracking-wider text-slate-500 font-sans">
                             {item.step}
                           </span>
-                          <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.stage}</h4>
+                          <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.stage}</div>
                           <span className="block text-xs text-slate-500 font-semibold mt-0.5">{item.note}</span>
                         </div>
                         <span className="inline-block px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-800 font-extrabold text-xs sm:text-sm self-start sm:self-center shadow-2xs font-sans">
@@ -383,7 +383,7 @@ export default function SBIPOSalaryPage() {
                         { component: 'Special Allowance', desc: 'Fixed components paid over and above basic scales.' }
                       ].map((item, idx) => (
                         <div key={idx} className="border border-slate-150 border-l-4 border-l-blue-500 py-3 pr-3.5 pl-5 rounded-xl bg-white space-y-1 hover:border-slate-350 transition-all duration-200 font-sans">
-                          <h5 className="font-extrabold text-slate-800 text-xs leading-tight m-0">{item.component}</h5>
+                          <div className="font-extrabold text-slate-800 text-xs leading-tight m-0">{item.component}</div>
                           <p className="text-slate-500 text-[11px] font-semibold leading-relaxed m-0">{item.desc}</p>
                         </div>
                       ))}
@@ -405,7 +405,7 @@ export default function SBIPOSalaryPage() {
                         { component: 'Travel Reimbursement', desc: 'Monthly fuel/transport reimbursements for official tasks.' }
                       ].map((item, idx) => (
                         <div key={idx} className="border border-slate-150 border-l-4 border-l-purple-500 py-3 pr-3.5 pl-5 rounded-xl bg-white space-y-1 hover:border-slate-350 transition-all duration-200 font-sans">
-                          <h5 className="font-extrabold text-slate-800 text-xs leading-tight m-0">{item.component}</h5>
+                          <div className="font-extrabold text-slate-800 text-xs leading-tight m-0">{item.component}</div>
                           <p className="text-slate-500 text-[11px] font-semibold leading-relaxed m-0">{item.desc}</p>
                         </div>
                       ))}
@@ -427,7 +427,7 @@ export default function SBIPOSalaryPage() {
                         { component: 'Mobile & Telecoms', desc: 'Monthly allowance to cover telephone and data charges.' }
                       ].map((item, idx) => (
                         <div key={idx} className="border border-slate-150 border-l-4 border-l-emerald-500 py-3 pr-3.5 pl-5 rounded-xl bg-white space-y-1 hover:border-slate-350 transition-all duration-200 font-sans">
-                          <h5 className="font-extrabold text-slate-800 text-xs leading-tight m-0">{item.component}</h5>
+                          <div className="font-extrabold text-slate-800 text-xs leading-tight m-0">{item.component}</div>
                           <p className="text-slate-500 text-[11px] font-semibold leading-relaxed m-0">{item.desc}</p>
                         </div>
                       ))}
@@ -463,7 +463,7 @@ export default function SBIPOSalaryPage() {
                       </div>
                       <div className="space-y-0.5">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Deduction {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.type}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.type}</div>
                         <span className="block text-xs text-slate-500 font-semibold">{item.desc}</span>
                       </div>
                     </div>
@@ -508,7 +508,7 @@ export default function SBIPOSalaryPage() {
                         <Check size={14} className="text-emerald-600" />
                       </div>
                       <div className="space-y-0.5">
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.benefit}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.benefit}</div>
                         <span className="block text-xs text-slate-500 font-semibold leading-normal">{item.detail}</span>
                       </div>
                     </div>
@@ -529,7 +529,7 @@ export default function SBIPOSalaryPage() {
                   {/* Service Bond Panel */}
                   <div className="border border-rose-150 border-l-4 border-l-rose-500 bg-rose-50/10 py-5 pr-5 pl-6 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-rose-500 uppercase tracking-widest font-sans">Mandatory Bond</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight m-0">Service Bond of ₹2 Lakh</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight m-0">Service Bond of ₹2 Lakh</div>
                     <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">
                       Candidates must sign a bond to serve the bank for a minimum of 3 years. Resigning before this period requires repaying ₹2,000,000.
                     </p>
@@ -538,7 +538,7 @@ export default function SBIPOSalaryPage() {
                   {/* Probation Panel */}
                   <div className="border border-blue-150 border-l-4 border-l-blue-500 bg-blue-50/10 py-5 pr-5 pl-6 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-[#1B6EB5] uppercase tracking-widest font-sans">Officer Training</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight m-0">2-Year Probation period</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight m-0">2-Year Probation period</div>
                     <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">
                       PO trainees undergo 2 years of probation, receiving full JMGS-I salary and training across departments before formal confirmation checks.
                     </p>
@@ -577,7 +577,7 @@ export default function SBIPOSalaryPage() {
                     <div key={idx} className="border border-slate-200 rounded-2xl p-5 bg-slate-50/20 flex flex-col justify-between hover:border-slate-350 transition-all space-y-3">
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Duty {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</div>
                         <p className="text-slate-500 text-xs font-semibold leading-relaxed m-0 pt-1.5">{item.task}</p>
                       </div>
                     </div>
@@ -607,7 +607,7 @@ export default function SBIPOSalaryPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-4 pr-5 pl-6 rounded-2xl flex items-center justify-between gap-4 hover:border-slate-350 transition-all " + item.border}>
                       <div className="space-y-0.5">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Level {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-xs sm:text-sm leading-tight m-0">{item.rank}</h4>
+                        <div className="font-extrabold text-slate-900 text-xs sm:text-sm leading-tight m-0">{item.rank}</div>
                       </div>
                       <span className="inline-block px-2.5 py-1 bg-white border border-slate-200 rounded-lg text-[10px] font-black text-slate-700 shrink-0 text-center uppercase tracking-wider">
                         {item.grade}
@@ -686,7 +686,7 @@ export default function SBIPOSalaryPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

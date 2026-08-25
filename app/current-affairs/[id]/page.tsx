@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!article) {
     return {
-      title: 'Article Not Found | PrepBanker',
+      title: 'Article Not Found',
       description: 'Current affairs article not found.'
     };
   }

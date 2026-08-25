@@ -15,7 +15,7 @@ export const ibpsPoData: ExamDetailData = {
   color: '#D4A017',
   accentColor: '#1B6EB5',
   overview:
-    'IBPS PO opens doors to 11 Public Sector Banks simultaneously — one exam, multiple bank opportunities. Covering BOB, PNB, Canara Bank, Union Bank and more, it is the largest banking recruitment drive in India.',
+    'IBPS PO opens doors to 11 Public Sector Banks simultaneously — one exam, multiple bank opportunities. Covering BOB, PNB, Canara Bank, Union Bank and more, it is one of the largest banking recruitment drives in India.',
   tags: ['11 Banks', 'Large Vacancies', 'National Level', '3 Stages', 'Annual Exam', 'Transferable'],
   summaryCards: [
     { iconKey: 'FileText',   label: 'Notification', value: 'IBPS/REC/CRP/PO-XVI' },

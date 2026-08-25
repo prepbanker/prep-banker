@@ -36,7 +36,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Mock Test",
-                "item": "https://prepbanker.com/ibps-po/mock-test"
+                "item": "https://prepbanker.com/ibps-po/mock-tests"
               }
             ]
           })
@@ -51,7 +51,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             "@type": "WebPage",
             "name": "IBPS PO Mock Test 2026: Free Full-Length Tests Online",
             "description": "Attempt free IBPS PO 2026 mock tests on PrepBanker — full-length Prelims and Mains simulations with real-time sectional timers, score analysis, and topic-wise accuracy reports.",
-            "url": "https://prepbanker.com/ibps-po/mock-test",
+            "url": "https://prepbanker.com/ibps-po/mock-tests",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-12",
             "inLanguage": "en-IN",
@@ -65,7 +65,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
               "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://prepbanker.com" },
                 { "@type": "ListItem", "position": 2, "name": "IBPS PO", "item": "https://prepbanker.com/ibps-po" },
-                { "@type": "ListItem", "position": 3, "name": "Mock Test", "item": "https://prepbanker.com/ibps-po/mock-test" }
+                { "@type": "ListItem", "position": 3, "name": "Mock Test", "item": "https://prepbanker.com/ibps-po/mock-tests" }
               ]
             }
           })
@@ -80,7 +80,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             "@type": "Quiz",
             "name": "IBPS PO Prelims Full-Length Mock Test 2026",
             "description": "A full-length IBPS PO Prelims mock test with 100 questions across English Language, Quantitative Aptitude, and Reasoning Ability — 60 minutes, sectional time limits enforced, 0.25 negative marking.",
-            "url": "https://prepbanker.com/ibps-po/mock-test",
+            "url": "https://prepbanker.com/ibps-po/mock-tests",
             "educationalLevel": "Undergraduate",
             "about": {
               "@type": "Thing",
@@ -105,7 +105,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             "@type": "Article",
             "headline": "IBPS PO Mock Test 2026: Free Full-Length Tests, How to Use Them & What to Analyse",
             "description": "Complete guide to IBPS PO 2026 mock tests — when to start, how many to attempt, how to analyse results, and how PrepBanker's free mock tests simulate actual exam conditions.",
-            "url": "https://prepbanker.com/ibps-po/mock-test",
+            "url": "https://prepbanker.com/ibps-po/mock-tests",
             "datePublished": "2026-05-01",
             "dateModified": "2026-06-12",
             "author": {
@@ -122,7 +122,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
                 "url": "https://prepbanker.com/logo.png"
               }
             },
-            "mainEntityOfPage": "https://prepbanker.com/ibps-po/mock-test"
+            "mainEntityOfPage": "https://prepbanker.com/ibps-po/mock-tests"
           })
         }}
       />
@@ -140,7 +140,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
               "name": "PrepBanker",
               "url": "https://prepbanker.com"
             },
-            "url": "https://prepbanker.com/ibps-po/mock-test",
+            "url": "https://prepbanker.com/ibps-po/mock-tests",
             "educationalLevel": "Undergraduate",
             "hasCourseInstance": [
               {
@@ -303,12 +303,12 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             Not all mock tests are equal. Here's what actually matters, and how to evaluate any platform you're considering:
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Accurate Section-wise Time Enforcement</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Accurate Section-wise Time Enforcement</div>
           <p>
             The mock test must enforce 20-minute sectional limits — not just show a 60-minute countdown. If you can spend 40 minutes on Reasoning and 10 on English, the test is training you for a format that doesn't exist. Confirm sectional time locks before committing to a platform.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Question Difficulty Distribution Matched to Actual IBPS PO Papers</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Question Difficulty Distribution Matched to Actual IBPS PO Papers</div>
           <p>
             IBPS PO Prelims typically has:
           </p>
@@ -321,7 +321,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             A mock test that loads all 35 Reasoning questions with complex puzzles is inaccurate and discouraging. One that has all easy questions inflates your score falsely. The difficulty mix should track actual IBPS PO patterns.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Detailed Post-Test Analysis</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Detailed Post-Test Analysis</div>
           <p>
             A score of 72/100 tells you almost nothing useful. What you need is:
           </p>
@@ -337,7 +337,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             The best use of your post-test report is not to see your total score — it's to identify your &quot;high-time, correct&quot; questions. These are questions you got right but spent too long on. In the actual exam, that extra time is what gets you killed. Find them, understand why they took long, and practice identical question types at speed.
           </HighlightBox>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Updated Question Bank (2026-Pattern Aligned)</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Updated Question Bank (2026-Pattern Aligned)</div>
           <p>
             IBPS question types evolve. Puzzle types in 2024–25 were markedly different from 2019 patterns — more complex seating arrangements, floor-based puzzles with multiple variables, and data sufficiency appearing more in Mains. A mock series using 2018-era questions is still useful for fundamentals but does not simulate current exam patterns accurately.
           </p>
@@ -437,7 +437,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
             <div className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs">
-              <h5 className="font-bold text-[#1B6EB5] text-sm sm:text-base mb-2">For IBPS PO Prelims</h5>
+              <div className="font-bold text-[#1B6EB5] text-sm sm:text-base mb-2">For IBPS PO Prelims</div>
               <ul className="list-disc list-inside space-y-2 text-xs sm:text-sm text-slate-650">
                 <li><strong>Bare minimum:</strong> 10 full-length mocks (if you're already scoring 70+ in initial attempts)</li>
                 <li><strong>Recommended:</strong> 15–20 full-length mocks over 8–10 weeks</li>
@@ -445,7 +445,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
               </ul>
             </div>
             <div className="bg-white border border-slate-200 p-5 rounded-2xl shadow-xs">
-              <h5 className="font-bold text-[#1B6EB5] text-sm sm:text-base mb-2">For IBPS PO Mains</h5>
+              <div className="font-bold text-[#1B6EB5] text-sm sm:text-base mb-2">For IBPS PO Mains</div>
               <ul className="list-disc list-inside space-y-2 text-xs sm:text-sm text-slate-655">
                 <li><strong>Bare minimum:</strong> 8 full-length mocks (Mains is a different beast — quality over quantity)</li>
                 <li><strong>Recommended:</strong> 10–15 full-length mocks</li>
@@ -520,7 +520,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
 
           <div className="space-y-4">
             <div>
-              <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Prelims Mock Tests</h4>
+              <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Prelims Mock Tests</div>
               <ul className="list-disc pl-5 space-y-1 text-slate-650 text-xs sm:text-sm">
                 <li>Full-length Prelims mocks with real 20-minute sectional time locks</li>
                 <li>100 questions, calibrated to IBPS PO paper pattern from 2020–2025</li>
@@ -530,7 +530,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             </div>
 
             <div>
-              <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Mains Mock Tests</h4>
+              <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Mains Mock Tests</div>
               <ul className="list-disc pl-5 space-y-1 text-slate-650 text-xs sm:text-sm">
                 <li>Full-length Mains objective paper (155 questions, 180 minutes, 4 sections with individual time limits)</li>
                 <li>Descriptive Paper component with Letter and Essay prompts and model answers for reference</li>
@@ -540,7 +540,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             </div>
 
             <div>
-              <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Sectional Tests</h4>
+              <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Sectional Tests</div>
               <ul className="list-disc pl-5 space-y-1 text-slate-650 text-xs sm:text-sm">
                 <li>Standalone 20-minute Prelims sectional tests for Quant, Reasoning, and English</li>
                 <li>Useful for targeted practice after identifying weak sections in full mocks</li>
@@ -549,7 +549,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             </div>
 
             <div>
-              <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">DPPs (Daily Practice Problems)</h4>
+              <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">DPPs (Daily Practice Problems)</div>
               <ul className="list-disc pl-5 space-y-1 text-slate-650 text-xs sm:text-sm">
                 <li>Chapter-wise daily sets (10–15 questions) for every Prelims and Mains topic</li>
                 <li>Designed for topic consolidation before full mock attempts</li>
@@ -598,7 +598,7 @@ export const ibpsPoMockTestContent: DetailSectionContent = {
             Ready to go beyond the mock test page? Here's where to head next:
           </p>
           <p>
-            Start immediately — attempt the free <Link href="/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Prelims Mock Test</Link> at PrepBanker with real sectional timers, 100 questions, and instant analysis. No cost, no friction. It takes 60 minutes and gives you a real baseline score to build your prep plan around.
+            Start immediately — attempt the free <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Prelims Mock Test</Link> at PrepBanker with real sectional timers, 100 questions, and instant analysis. No cost, no friction. It takes 60 minutes and gives you a real baseline score to build your prep plan around.
           </p>
           <p>
             Understand exactly what the test is measuring with the <Link href="/ibps-po/exam-pattern" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Exam Pattern 2026</Link> page — section-wise marks, time limits, negative marking rules, and how Prelims, Mains, and Interview contribute to the final merit list.

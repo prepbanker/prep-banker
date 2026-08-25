@@ -217,7 +217,7 @@ export default function SBIPOSelectionProcessPage() {
                     <div key={idx} className={"border p-5 rounded-2xl space-y-3 flex flex-col justify-between hover:shadow-sm transition-all " + item.border}>
                       <div className="space-y-1.5">
                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">Stage {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.stage}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.stage}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed">{item.purpose}</p>
                       </div>
                       <div className="border-t border-slate-200/50 pt-2 text-right">
@@ -388,7 +388,7 @@ export default function SBIPOSelectionProcessPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="border border-blue-150 border-l-4 border-l-blue-500 bg-blue-50/15 py-5 pr-5 pl-6 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">Phase II Score</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight">Main Examination</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight">Main Examination</div>
                     <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                       Written objective + descriptive marks (230 marks total) normalized down to a 75 weight block.
                     </p>
@@ -399,7 +399,7 @@ export default function SBIPOSelectionProcessPage() {
 
                   <div className="border border-emerald-200 border-l-4 border-l-emerald-500 bg-emerald-50/15 py-5 pr-5 pl-6 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">Phase III Score</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight">Group Exercise & Interview</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight">Group Exercise & Interview</div>
                     <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                       Interview (30) + Group Exercise (20) marks (50 marks total) normalized down to a 25 weight block.
                     </p>
@@ -477,7 +477,7 @@ export default function SBIPOSelectionProcessPage() {
                       <span className="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-50 border-2 border-[#1B6EB5] flex items-center justify-center font-extrabold text-[#1B6EB5] text-xs shadow-2xs">
                         {idx + 1}
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.step}</h4>
+                      <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.step}</div>
                       <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed">{item.desc}</p>
                     </div>
                   ))}
@@ -584,7 +584,7 @@ export default function SBIPOSelectionProcessPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-5 pr-5 pl-6 sm:py-6 sm:pr-6 sm:pl-7 rounded-2xl flex flex-col justify-between space-y-2 hover:border-slate-350 transition-all duration-200 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">Focus Round {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.stage}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.stage}</div>
                         <span className="inline-block px-2 py-0.5 rounded-md bg-white border border-slate-200 text-[#1B6EB5] text-[10px] font-black uppercase tracking-wider mt-1">{item.focus}</span>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed pt-1.5">{item.desc}</p>
                       </div>
@@ -668,7 +668,7 @@ export default function SBIPOSelectionProcessPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

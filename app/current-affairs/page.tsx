@@ -25,7 +25,7 @@ const HERO_ICON_MAP: Record<string, React.ElementType> = {
 
 // ─── SEO metadata ─────────────────────────
 export const metadata: Metadata = {
-  title:       'Banking Current Affairs 2026 – Daily & Monthly Updates | PrepBanker',
+  title:       'Banking Current Affairs 2026 – Daily & Monthly Updates',
   description:
     'Daily and monthly current affairs for SBI PO and IBPS PO 2026. Banking awareness, RBI updates, economy news, government schemes and static GK — all in one place.',
   keywords: [

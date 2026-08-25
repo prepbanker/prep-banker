@@ -366,7 +366,7 @@ export default function SBIPOStudyPlanPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-5 pr-5 pl-6 sm:py-6 sm:pr-6 sm:pl-7 rounded-2xl flex flex-col justify-between space-y-1.5 transition-all duration-200 hover:border-slate-350 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest font-sans">{item.weeks}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">Phase focus</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">Phase focus</div>
                         <p className="text-slate-550 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">{item.focus}</p>
                       </div>
                     </div>
@@ -545,7 +545,7 @@ export default function SBIPOStudyPlanPage() {
                       <span className="absolute -left-3 top-0.5 w-6 h-6 rounded-full bg-blue-50 border-2 border-[#1B6EB5] flex items-center justify-center font-extrabold text-[#1B6EB5] text-xs shadow-2xs">
                         {idx + 1}
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.step}</h4>
+                      <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.step}</div>
                       <p className="text-slate-550 text-xs sm:text-sm font-semibold leading-relaxed m-0">{item.text}</p>
                     </div>
                   ))}
@@ -654,7 +654,7 @@ export default function SBIPOStudyPlanPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

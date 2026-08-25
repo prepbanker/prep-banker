@@ -277,30 +277,30 @@ export default function SBIPOCutOffPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                    <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
+                    <div className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
                       Prelims Stage
-                    </h4>
+                    </div>
                     <p className="text-xs text-slate-600 font-semibold leading-relaxed">
                       <strong>No sectional cut off</strong> is applied. Candidates are selected for Mains based entirely on their total marks out of 100.
                     </p>
                   </div>
 
                   <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                    <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
+                    <div className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500" />
                       Mains Stage
-                    </h4>
+                    </div>
                     <p className="text-xs text-slate-600 font-semibold leading-relaxed">
                       <strong>Sectional cut offs apply</strong> to each of the objective test sections and the Descriptive Test in Mains.
                     </p>
                   </div>
 
                   <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                    <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
+                    <div className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
                       Final Selection
-                    </h4>
+                    </div>
                     <p className="text-xs text-slate-600 font-semibold leading-relaxed font-sans">
                       Mains marks and Phase III (Interview + GE) marks are combined at a <strong>75:25 ratio</strong> to build the merit list.
                     </p>
@@ -533,7 +533,7 @@ export default function SBIPOCutOffPage() {
                   <div className="bg-emerald-50/30 border border-emerald-100 rounded-2xl p-5 space-y-2 hover:border-emerald-300 hover:bg-emerald-50/50 transition-all flex flex-col justify-between">
                     <div className="space-y-1">
                       <span className="text-[10px] font-black text-emerald-600 uppercase tracking-widest block">GEN / EWS Category</span>
-                      <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">Qualifying Target Marks</h4>
+                      <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">Qualifying Target Marks</div>
                     </div>
                     <div className="pt-4 flex items-baseline gap-1">
                       <span className="text-3xl font-black text-emerald-700">20.00</span>
@@ -544,7 +544,7 @@ export default function SBIPOCutOffPage() {
                   <div className="bg-slate-50/50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all flex flex-col justify-between">
                     <div className="space-y-1">
                       <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest block">SC / ST / OBC / PwBD</span>
-                      <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">Qualifying Target Marks</h4>
+                      <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">Qualifying Target Marks</div>
                     </div>
                     <div className="pt-4 flex items-baseline gap-1">
                       <span className="text-3xl font-black text-slate-700">17.50</span>
@@ -590,7 +590,7 @@ export default function SBIPOCutOffPage() {
                   ].map((factor, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200/60 rounded-xl p-5 sm:p-6 space-y-1">
                       <span className="text-[10px] font-black text-[#1B6EB5] uppercase tracking-widest block">{`Factor 0${idx + 1}`}</span>
-                      <h4 className="font-extrabold text-slate-800 text-sm leading-tight m-0">{factor.title}</h4>
+                      <div className="font-extrabold text-slate-800 text-sm leading-tight m-0">{factor.title}</div>
                       <p className="text-xs text-slate-600 font-semibold leading-relaxed pt-1.5 m-0">{factor.desc}</p>
                     </div>
                   ))}
@@ -614,9 +614,9 @@ export default function SBIPOCutOffPage() {
                     <Globe className="text-[#1B6EB5]" size={28} />
                   </div>
                   <div className="space-y-1">
-                    <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">
+                    <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">
                       Pure Nationwide Merit Selection
-                    </h4>
+                    </div>
                     <p className="text-slate-600 text-xs sm:text-sm font-semibold leading-relaxed m-0">
                       SBI PO is a pure nationwide recruitment with no state-wise vacancy allocation — unlike some state-level bank exams. Because there's no state-wise vacancy split, SBI does not release state-wise cut off data; only category-wise cut off (UR/SC/ST/OBC/EWS/PwBD) is published.
                     </p>
@@ -646,7 +646,7 @@ export default function SBIPOCutOffPage() {
                       <span className="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-blue-500 border-4 border-white shadow-sm flex items-center justify-center font-mono text-[9px] font-black text-white shrink-0" />
                       <div className="space-y-1">
                         <span className="text-[10px] font-black text-[#1B6EB5] uppercase tracking-widest">{item.step}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.title}</div>
                         <p className="text-xs sm:text-sm text-slate-600 font-semibold leading-relaxed pt-1 m-0">{item.desc}</p>
                       </div>
                     </div>
@@ -706,7 +706,7 @@ export default function SBIPOCutOffPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

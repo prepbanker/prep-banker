@@ -267,9 +267,9 @@ export default function IBPSPOExamPatternPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Pattern Quick Summary
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -436,7 +436,7 @@ export default function IBPSPOExamPatternPage() {
                 <Info size={16} />
               </div>
               <div className="space-y-2">
-                <h4 className="font-extrabold text-sm text-slate-900">Crucial Prelims Guidelines</h4>
+                <div className="font-extrabold text-sm text-slate-900">Crucial Prelims Guidelines</div>
                 <ul className="space-y-1.5 text-xs sm:text-sm text-slate-600 font-semibold list-disc list-inside">
                   <li>Each section is individually timed — you cannot borrow time from one section for another.</li>
                   <li>Medium of exam: English Language section is English-only; Quant and Reasoning are available in English and Hindi.</li>
@@ -529,7 +529,7 @@ export default function IBPSPOExamPatternPage() {
                 </div>
 
                 <div className="p-5 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-2xl text-white space-y-3 shadow-md">
-                  <h4 className="font-black text-sm uppercase tracking-wider text-amber-400">Mains Pattern Total</h4>
+                  <div className="font-black text-sm uppercase tracking-wider text-amber-400">Mains Pattern Total</div>
                   <div className="space-y-2 text-xs font-semibold text-slate-300">
                     <div className="flex justify-between">
                       <span>Total Questions</span>
@@ -615,7 +615,7 @@ export default function IBPSPOExamPatternPage() {
                   <CheckCircle size={20} className="stroke-[2.5]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-sm text-slate-900">Correct Answer</h4>
+                  <div className="font-extrabold text-sm text-slate-900">Correct Answer</div>
                   <p className="text-xl font-black text-emerald-600">+1.00 Mark</p>
                   <p className="text-xs text-slate-400 font-semibold">Or assigned full marks per question</p>
                 </div>
@@ -627,7 +627,7 @@ export default function IBPSPOExamPatternPage() {
                   <XCircle size={20} className="stroke-[2.5]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-sm text-slate-900">Incorrect Answer</h4>
+                  <div className="font-extrabold text-sm text-slate-900">Incorrect Answer</div>
                   <p className="text-xl font-black text-rose-650">-0.25 Marks</p>
                   <p className="text-xs text-slate-400 font-semibold">One-fourth penalty deducted</p>
                 </div>
@@ -639,7 +639,7 @@ export default function IBPSPOExamPatternPage() {
                   <Clock size={20} className="stroke-[2.5]" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-sm text-slate-900">Unanswered Question</h4>
+                  <div className="font-extrabold text-sm text-slate-900">Unanswered Question</div>
                   <p className="text-xl font-black text-slate-500">0.00 Marks</p>
                   <p className="text-xs text-slate-400 font-semibold">No penalty for skipped questions</p>
                 </div>
@@ -757,7 +757,7 @@ export default function IBPSPOExamPatternPage() {
                 <div className="p-6 bg-gradient-to-br from-indigo-50 to-slate-50 border border-indigo-150 rounded-3xl w-full flex flex-col justify-between gap-6 hover:shadow-xs transition-shadow duration-300">
                   <div className="space-y-2">
                     <span className="text-[10px] font-black uppercase tracking-wider text-indigo-600">Descriptive Summary</span>
-                    <h4 className="font-extrabold text-slate-900 text-base sm:text-lg">Marks & Time Limits</h4>
+                    <div className="font-extrabold text-slate-900 text-base sm:text-lg">Marks & Time Limits</div>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="p-4 bg-white border border-slate-200 rounded-2xl text-center">
@@ -855,7 +855,7 @@ export default function IBPSPOExamPatternPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Pattern mapped — now start practicing.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Pattern mapped — now start practicing.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Baseline your score with our diagnostic mocks. Build accuracy across quantitative, English, and reasoning subjects.
                 </p>

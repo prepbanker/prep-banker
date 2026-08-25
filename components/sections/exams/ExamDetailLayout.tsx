@@ -185,7 +185,7 @@ export default function ExamDetailLayout({ examId, sectionSlug }: Props) {
               }`}>
                 <div className="relative z-10">
                   <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                  <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
+                  <div className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</div>
                   <p className="text-white/60 text-xs leading-relaxed mb-4">
                     Join 50k+ banking aspirants practicing with PrepBanker mocks.
                   </p>

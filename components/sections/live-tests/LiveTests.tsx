@@ -160,9 +160,9 @@ export default function LiveTests() {
                 64% OFF
               </div>
 
-              <h4 className="text-xs font-extrabold mt-1 pr-10 text-slate-100 uppercase tracking-wide leading-snug">
+              <div className="text-xs font-extrabold mt-1 pr-10 text-slate-100 uppercase tracking-wide leading-snug">
                 Get access to premium subscription
-              </h4>
+              </div>
 
               <div className="mt-4 flex items-baseline gap-2">
                 <span className="text-xs text-slate-450 line-through">₹549.00</span>

@@ -246,7 +246,7 @@ export const ibpsPoQuantSectionalContent: DetailSectionContent = {
             IBPS PO Prelims runs three sections in sequence, each with its own dedicated timer. You get exactly 20 minutes for Quantitative Aptitude. Once the timer for that section ends, you cannot go back.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Prelims Section Breakdown</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Prelims Section Breakdown</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
               <thead>
@@ -286,7 +286,7 @@ export const ibpsPoQuantSectionalContent: DetailSectionContent = {
             </table>
           </div>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Mains Section Breakdown</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Mains Section Breakdown</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
               <thead>
@@ -478,7 +478,7 @@ export const ibpsPoQuantSectionalContent: DetailSectionContent = {
           <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
             Generic advice like &quot;practice daily&quot; doesn't help when you have 45 days left. Here's a structured approach that prioritizes ROI — the topics that give you the most marks per hour of practice.
           </p>
-          <h4 className="font-bold text-slate-805 text-sm sm:text-base text-[#1B6EB5]">8-Week IBPS PO Quant Preparation Plan</h4>
+          <div className="font-bold text-slate-805 text-sm sm:text-base text-[#1B6EB5]">8-Week IBPS PO Quant Preparation Plan</div>
           <div className="space-y-3 font-normal text-slate-655 text-xs sm:text-sm leading-relaxed pl-3">
             <p>
               <strong>Week 1–2: Foundation Topics</strong><br />
@@ -661,19 +661,19 @@ export const ibpsPoQuantSectionalContent: DetailSectionContent = {
             Quantitative Aptitude is one piece of the IBPS PO puzzle. Here's what to explore next on PrepBanker to build a complete preparation strategy:
           </p>
           <p>
-            Attempt a <Link href="/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">Free Full-Length IBPS PO Mock Test</Link> that covers all three Prelims sections together — Quant, Reasoning, and English — with a live timer and detailed post-test analysis. This is the closest simulation of the actual exam environment.
+            Attempt a <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Free Full-Length IBPS PO Mock Test</Link> that covers all three Prelims sections together — Quant, Reasoning, and English — with a live timer and detailed post-test analysis. This is the closest simulation of the actual exam environment.
           </p>
           <p>
-            If Reasoning is your next weak spot, the <Link href="/ibps-po/reasoning-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning Sectional Test</Link> page gives you the same structured practice, with puzzles, seating arrangements, and syllogisms in IBPS-specific formats.
+            If Reasoning is your next weak spot, the <Link href="/ibps-po/reasoning-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning Sectional Test</Link> page gives you the same structured practice, with puzzles, seating arrangements, and syllogisms in IBPS-specific formats.
           </p>
           <p>
             Students preparing for SBI PO alongside IBPS PO will find the <Link href="/sbi-po/quantitative-aptitude-test" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Quantitative Aptitude Test</Link> page useful for comparing difficulty levels and attempting SBI-style DI and arithmetic questions.
           </p>
           <p>
-            For daily revision, the <Link href="/quant/chapter-wise" className="font-bold text-[#1B6EB5] hover:underline">Quantitative Aptitude Chapter-wise Quizzes</Link> section breaks down every Quant topic — from Number Systems to Probability — into short, targeted 10-question practice sets you can complete in under 15 minutes.
+            For daily revision, the <Link href="/ibps-po-quiz" className="font-bold text-[#1B6EB5] hover:underline">Quantitative Aptitude Chapter-wise Quizzes</Link> section breaks down every Quant topic — from Number Systems to Probability — into short, targeted 10-question practice sets you can complete in under 15 minutes.
           </p>
           <p>
-            Finally, check out the <Link href="/ibps-po/previous-year-questions" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO PYQ (Previous Year Questions) Set</Link> to practice with actual past paper questions, understand what the exam has historically tested, and calibrate your preparation to the real standard.
+            Finally, check out the <Link href="/ibps-po/previous-year-papers" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO PYQ (Previous Year Questions) Set</Link> to practice with actual past paper questions, understand what the exam has historically tested, and calibrate your preparation to the real standard.
           </p>
         </div>
       )

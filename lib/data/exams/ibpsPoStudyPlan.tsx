@@ -282,7 +282,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 1 — Quantitative Aptitude: Fast-Mark Topics</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 1 — Quantitative Aptitude: Fast-Mark Topics</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Simplification and Approximation (BODMAS, surds, indices)</li>
                   <li>Number Series (missing term, wrong term)</li>
@@ -294,7 +294,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 2 — Quantitative Aptitude: Core Arithmetic</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 2 — Quantitative Aptitude: Core Arithmetic</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Percentage, Profit &amp; Loss, Discount</li>
                   <li>Simple Interest and Compound Interest</li>
@@ -307,7 +307,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 3 — Reasoning Ability: Individual Question Types</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 3 — Reasoning Ability: Individual Question Types</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Syllogisms (standard + possibility cases)</li>
                   <li>Inequalities (direct and coded)</li>
@@ -320,7 +320,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 4 — English Language: Core Topics</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 4 — English Language: Core Topics</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Reading Comprehension (RC) — inference, vocabulary, tone</li>
                   <li>Cloze Test — contextual vocabulary, grammar patterns</li>
@@ -342,7 +342,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 5 — DI + Puzzle Introduction</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 5 — DI + Puzzle Introduction</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Data Interpretation: Tabular DI, Bar Graph, Line Graph</li>
                   <li>Reasoning Puzzles: Single-row linear arrangements, floor-based puzzles</li>
@@ -353,7 +353,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 6 — Advanced DI + Complex Puzzles</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 6 — Advanced DI + Complex Puzzles</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Data Interpretation: Pie Charts, Caselet DI, Mixed Graph DI</li>
                   <li>Reasoning Puzzles: Circular seating (with/without directions), multi-variable puzzles</li>
@@ -365,7 +365,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 7 — English Language: Advanced Topics</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 7 — English Language: Advanced Topics</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Para Jumbles (sentence rearrangement)</li>
                   <li>Sentence Completion and Fillers (single and double)</li>
@@ -375,7 +375,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 8 — Computer Knowledge + GA Push</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 8 — Computer Knowledge + GA Push</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Computer Awareness: Hardware/Software basics, Computer abbreviations, Input/Output devices, MS Office, Internet &amp; Networking, Shortcut keys</li>
                   <li>General Awareness: Banking &amp; Financial Awareness revision (RBI, SEBI, NABARD functions, key rates, recent policy changes)</li>
@@ -397,7 +397,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
 
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 9 — Full Mock Rollout</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 9 — Full Mock Rollout</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Attempt 1 full Prelims mock every 2 days</li>
                   <li>Spend equal time on mock review as on the mock itself (minimum 45 minutes post-test analysis)</li>
@@ -406,7 +406,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 10 — Targeted Revision</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 10 — Targeted Revision</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Revisit all topics where accuracy was below 60% across your last 5 sectional tests</li>
                   <li>Attempt PYQ sets from IBPS PO 2022–2024 for Quant and Reasoning</li>
@@ -415,7 +415,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 11 — Speed and Strategy Optimization</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 11 — Speed and Strategy Optimization</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>Practice time-boxing: set a 2-minute limit for individual Reasoning questions, 8-minute limit for DI sets</li>
                   <li>Work on your personal attempt order for each section (which question type you enter first, which you skip)</li>
@@ -424,7 +424,7 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
               </div>
 
               <div>
-                <h4 className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 12 — Final Revision + Maintenance</h4>
+                <div className="font-semibold text-slate-800 text-sm sm:text-[15px] mb-1">Week 12 — Final Revision + Maintenance</div>
                 <ul className="list-disc list-inside space-y-1 pl-3 text-slate-600">
                   <li>No new topics. Zero exceptions.</li>
                   <li>Revise your personal error log (all mistakes from previous mocks, categorized by type)</li>
@@ -811,19 +811,19 @@ export const ibpsPoStudyPlanContent: DetailSectionContent = {
             This study plan tells you what to study and when. These pages give you the tools to execute it:
           </p>
           <p>
-            Start with a <Link href="/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">Free Full-Length IBPS PO Mock Test</Link> to get your baseline score before committing to this plan. Knowing where you currently stand on all three Prelims sections shapes which weeks of this plan need the most time from you personally.
+            Start with a <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Free Full-Length IBPS PO Mock Test</Link> to get your baseline score before committing to this plan. Knowing where you currently stand on all three Prelims sections shapes which weeks of this plan need the most time from you personally.
           </p>
           <p>
             For focused sectional practice, the <Link href="/ibps-po/quantitative-aptitude-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quantitative Aptitude Sectional Test</Link> and the <Link href="/ibps-po/reasoning-ability-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning Ability Sectional Test</Link> are the two most important practice tools for Weeks 5–8 of this plan. Both are built on the actual 35-question, 20-minute format.
           </p>
           <p>
-            Once you&apos;ve cleared Prelims, the <Link href="/ibps-po/mains-mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Test</Link> takes you through the full 155-question, 3-hour Mains format — including the heavier DI sets and the combined Reasoning + Computer Aptitude section that trips up many Prelims qualifiers.
+            Once you&apos;ve cleared Prelims, the <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Test</Link> takes you through the full 155-question, 3-hour Mains format — including the heavier DI sets and the combined Reasoning + Computer Aptitude section that trips up many Prelims qualifiers.
           </p>
           <p>
-            For daily GA revision, the <Link href="/banking-awareness/quiz" className="font-bold text-[#1B6EB5] hover:underline">Banking Awareness Quiz</Link> gives you 10–15 question daily sets covering RBI policy, recent bank mergers, financial terminology, and current events — exactly the content that appears in IBPS PO Mains GA section.
+            For daily GA revision, the <Link href="/ibps-po-quiz" className="font-bold text-[#1B6EB5] hover:underline">Banking Awareness Quiz</Link> gives you 10–15 question daily sets covering RBI policy, recent bank mergers, financial terminology, and current events — exactly the content that appears in IBPS PO Mains GA section.
           </p>
           <p>
-            Finally, use the <Link href="/ibps-po/previous-year-questions" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO PYQ Sets</Link> in Weeks 10–11 to calibrate your preparation against real exam questions from 2020–2024. No mock test fully replicates the feel of a real IBPS PO paper — previous year sets come closest.
+            Finally, use the <Link href="/ibps-po/previous-year-papers" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO PYQ Sets</Link> in Weeks 10–11 to calibrate your preparation against real exam questions from 2020–2024. No mock test fully replicates the feel of a real IBPS PO paper — previous year sets come closest.
           </p>
         </div>
       )

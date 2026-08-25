@@ -46,36 +46,6 @@ export const sbiPoSalaryContent: DetailSectionContent = {
           })
         }}
       />
-      {/* JobPosting Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "JobPosting",
-            "title": "Probationary Officer (PO) 2026",
-            "hiringOrganization": {
-              "@type": "Organization",
-              "name": "State Bank of India",
-              "sameAs": "https://sbi.bank.in"
-            },
-            "baseSalary": {
-              "@type": "MonetaryAmount",
-              "currency": "INR",
-              "value": {
-                "@type": "QuantitativeValue",
-                "minValue": 48480,
-                "maxValue": 85920,
-                "unitText": "MONTH"
-              }
-            },
-            "jobLocation": {
-              "@type": "Place",
-              "address": { "@type": "PostalAddress", "addressCountry": "IN" }
-            }
-          })
-        }}
-      />
       {/* FAQPage Schema */}
       <script
         type="application/ld+json"

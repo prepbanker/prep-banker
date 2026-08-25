@@ -142,6 +142,7 @@ export default function CADetailContentClient({
               rel="noopener noreferrer"
               className="p-2 bg-white/5 border border-white/10 hover:border-[#25D366]/30 text-white/70 hover:text-[#25D366] hover:bg-[#25D366]/10 rounded-lg transition-all flex items-center justify-center"
               title="Share on WhatsApp"
+              aria-label="Share on WhatsApp"
             >
               <FaWhatsapp className="w-4.5 h-4.5" />
             </a>
@@ -153,6 +154,7 @@ export default function CADetailContentClient({
               rel="noopener noreferrer"
               className="p-2 bg-white/5 border border-white/10 hover:border-[#1877F2]/30 text-white/70 hover:text-[#1877F2] hover:bg-[#1877F2]/10 rounded-lg transition-all flex items-center justify-center"
               title="Share on Facebook"
+              aria-label="Share on Facebook"
             >
               <FaFacebook className="w-4.5 h-4.5" />
             </a>
@@ -164,6 +166,7 @@ export default function CADetailContentClient({
               rel="noopener noreferrer"
               className="p-2 bg-white/5 border border-white/10 hover:border-white/30 text-white/70 hover:text-white hover:bg-white/10 rounded-lg transition-all flex items-center justify-center"
               title="Share on Twitter/X"
+              aria-label="Share on Twitter/X"
             >
               <FaTwitter className="w-4.5 h-4.5" />
             </a>
@@ -175,6 +178,7 @@ export default function CADetailContentClient({
               rel="noopener noreferrer"
               className="p-2 bg-white/5 border border-white/10 hover:border-[#0A66C2]/30 text-white/70 hover:text-[#0A66C2] hover:bg-[#0A66C2]/10 rounded-lg transition-all flex items-center justify-center"
               title="Share on LinkedIn"
+              aria-label="Share on LinkedIn"
             >
               <FaLinkedin className="w-4.5 h-4.5" />
             </a>
@@ -184,6 +188,7 @@ export default function CADetailContentClient({
               onClick={handleCopyLink}
               className="p-2 bg-white/5 border border-white/10 hover:border-white/30 text-white/70 hover:text-white hover:bg-white/10 rounded-lg transition-all flex items-center justify-center relative"
               title="Copy Link URL"
+              aria-label="Copy Link URL"
             >
               {copied ? (
                 <Check className="w-4 h-4 text-emerald-500" />

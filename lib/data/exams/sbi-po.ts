@@ -9,13 +9,13 @@ export const sbiPoData: ExamDetailData = {
   tag: 'Official Notification Released',
   tagColor: '#16A34A',
   description:
-    "SBI PO (Probationary Officer) is the most prestigious banking job in India, conducted annually by State Bank of India. With 1,500 vacancies, a starting CTC of ₹21.97 LPA (Mumbai centre), and unmatched career growth, cracking SBI PO can change your life. PrepBanker gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
+    "SBI PO (Probationary Officer) is a highly competitive banking job in India, conducted annually by State Bank of India. With 1,500 vacancies, a starting CTC of ₹21.97 LPA (Mumbai centre), and structured career growth, cracking SBI PO is a key milestone for aspirants. PrepBanker gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
   fullDescription:
-    "SBI PO (Probationary Officer) is the most prestigious banking job in India, conducted annually by State Bank of India. With 1,500 vacancies, a starting CTC of ₹21.97 LPA (Mumbai centre), and unmatched career growth, cracking SBI PO can change your life. PrepBanker gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
+    "SBI PO (Probationary Officer) is a highly competitive banking job in India, conducted annually by State Bank of India. With 1,500 vacancies, a starting CTC of ₹21.97 LPA (Mumbai centre), and structured career growth, cracking SBI PO is a key milestone for aspirants. PrepBanker gives you everything in one place — free SBI PO mock tests, sectional practice tests, topic-wise questions, daily current affairs, and exam-specific study material — all built around the latest 2026 exam pattern.",
   color: '#1B6EB5',
   accentColor: '#D4A017',
   overview:
-    "SBI PO is one of India's most prestigious banking exams. As a Probationary Officer you'll be groomed for managerial roles in State Bank of India — the country's largest bank with 22,000+ branches nationwide.",
+    "SBI PO is a national-level banking exam. As a Probationary Officer you'll be groomed for managerial roles in State Bank of India — the country's largest public sector bank with 22,000+ branches nationwide.",
   tags: ['1,500 Vacancies', 'Starting Basic ₹48,480', '12.14 Lakh Applicants', '0.12% Selection'],
   summaryCards: [
     { iconKey: 'Users', label: 'Total Vacancies', value: '1,500' },

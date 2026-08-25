@@ -182,7 +182,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             IBPS PO Prelims runs three sections back-to-back, each with its own locked timer. Reasoning Ability is typically attempted second or third. Once the 20 minutes ends, the screen moves forward — there's no going back.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Prelims Exam Structure</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Prelims Exam Structure</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
               <thead>
@@ -222,7 +222,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             </table>
           </div>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Mains Exam Structure (Reasoning Component)</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Mains Exam Structure (Reasoning Component)</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
               <thead>
@@ -282,7 +282,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
           <p>
             This is the question that separates students who prepare efficiently from those who spread themselves too thin across every Reasoning topic in every textbook. IBPS PO has a fairly stable Reasoning blueprint — here's what the last five cycles tell us:
           </p>
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Topic-Wise Weightage — IBPS PO Reasoning Ability Prelims</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Topic-Wise Weightage — IBPS PO Reasoning Ability Prelims</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
               <thead>
@@ -380,7 +380,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
           <p>
             Here are the verified sectional and overall cut-offs from recent IBPS PO Prelims cycles for General category candidates:
           </p>
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">IBPS PO Prelims Cut-Off History — Reasoning Ability (General Category)</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">IBPS PO Prelims Cut-Off History — Reasoning Ability (General Category)</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
               <thead>
@@ -443,7 +443,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             The biggest mistake students make with Reasoning is treating it like a subject you can "study." Reasoning is a skill built through repeated pattern exposure. The more puzzle types you've seen and solved before the exam, the faster you'll be when you encounter them under pressure.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">7-Week IBPS PO Reasoning Preparation Plan</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">7-Week IBPS PO Reasoning Preparation Plan</div>
           <div className="space-y-3 font-normal text-slate-655 text-xs sm:text-sm leading-relaxed pl-3">
             <p>
               <strong>Week 1: Individual Question Types.</strong> Start with the fastest topics: Syllogisms, Inequalities (direct and coded), Alphanumeric Series, Order & Ranking, and Direction Sense. These 10–12 questions in the exam take under 6 minutes if you've drilled the rules. Get these to automatic-response level before touching a single puzzle.
@@ -480,17 +480,17 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             Puzzles are where Reasoning prep either comes together or falls apart. Students who struggle with puzzles almost always share one of three specific problems — and each has a specific fix.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Problem 1: Reading Clues Without a Template</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Problem 1: Reading Clues Without a Template</div>
           <p>
             Many students read all the clues first, then try to construct a table from memory. This wastes 60–90 seconds and increases the risk of misplacement. The fix: always draw your template (rows, columns, labels) before reading the first clue. For a 7-person linear arrangement, draw 7 boxes numbered 1–7 before anything else.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Problem 2: Attempting the Hardest Puzzle First</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Problem 2: Attempting the Hardest Puzzle First</div>
           <p>
             The 3–4 puzzle sets in IBPS PO are not equal in difficulty. A 5-person single-row puzzle with direct clues can be solved in 3 minutes. A 7-entity multi-variable puzzle with conditional clues might take 8 minutes — or be unsolvable under pressure. Scan the first two lines of each puzzle set before deciding your order.
           </p>
 
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Problem 3: No Skip Threshold</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Problem 3: No Skip Threshold</div>
           <p>
             Students who haven't decided in advance when to abandon a puzzle tend to keep trying until time runs out. Set a personal rule: if you haven't placed at least 3 entities within 2 minutes of starting a puzzle, mark the questions as attempted-but-uncertain and move on. This is not giving up — it's protecting marks you can still earn.
           </p>
@@ -502,7 +502,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
       title: "IBPS PO Reasoning vs SBI PO Reasoning: What's Actually Different?",
       content: (
         <div className="space-y-4 text-slate-655 text-sm sm:text-[15px] leading-relaxed font-normal">
-          <h4 className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Difficulty and Pattern Comparison</h4>
+          <div className="font-bold text-slate-800 text-sm sm:text-base text-[#1B6EB5]">Difficulty and Pattern Comparison</div>
           <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
             <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
               <thead>
@@ -610,7 +610,7 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             Reasoning Ability is one of three Prelims sections you need to clear. Here's what to explore next for a complete IBPS PO preparation strategy:
           </p>
           <p>
-            Attempt the <Link href="/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">Free Full-Length IBPS PO Mock Test</Link> to practice all three Prelims sections — Reasoning, Quant, and English — in sequence with live sectional timers. A full mock gives you real data on how your time management holds across all three sections together, not just Reasoning in isolation.
+            Attempt the <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Free Full-Length IBPS PO Mock Test</Link> to practice all three Prelims sections — Reasoning, Quant, and English — in sequence with live sectional timers. A full mock gives you real data on how your time management holds across all three sections together, not just Reasoning in isolation.
           </p>
           <p>
             If Quantitative Aptitude is your next focus, the <Link href="/ibps-po/quantitative-aptitude-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quantitative Aptitude Test</Link> page has a complete topic-wise strategy, DI preparation guide, and sectional mocks built on the same 20-minute format.
@@ -619,10 +619,10 @@ export const ibpsPoReasoningSectionalContent: DetailSectionContent = {
             Students targeting both IBPS PO and SBI PO can use the <Link href="/sbi-po/reasoning-ability-test" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Reasoning Ability Test</Link> to challenge themselves with harder puzzle variants. The difficulty gap between the two exams becomes immediately clear when you attempt both on PrepBanker.
           </p>
           <p>
-            For focused puzzle-only practice, the <Link href="/reasoning/puzzles-seating-arrangements" className="font-bold text-[#1B6EB5] hover:underline">Reasoning Puzzles Chapter-wise Quiz</Link> section breaks practice down by format — Linear, Circular, Floor, Box, and Multi-Variable — so you can drill the specific puzzle type you struggle with most without attempting a full 35-question mock.
+            For focused puzzle-only practice, the <Link href="/ibps-po-quiz" className="font-bold text-[#1B6EB5] hover:underline">Reasoning Puzzles Chapter-wise Quiz</Link> section breaks practice down by format — Linear, Circular, Floor, Box, and Multi-Variable — so you can drill the specific puzzle type you struggle with most without attempting a full 35-question mock.
           </p>
           <p>
-            Access the <Link href="/ibps-po/reasoning-previous-year-questions" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning PYQ Set</Link> to attempt actual questions from IBPS PO Prelims papers from 2019–2024. Solving real exam questions is the most accurate calibration of where your preparation stands.
+            Access the <Link href="/ibps-po/previous-year-papers" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning PYQ Set</Link> to attempt actual questions from IBPS PO Prelims papers from 2019–2024. Solving real exam questions is the most accurate calibration of where your preparation stands.
           </p>
         </div>
       )

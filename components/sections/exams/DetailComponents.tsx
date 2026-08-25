@@ -228,9 +228,9 @@ export function DatesTimeline({ events }: { events: TimelineEvent[] }) {
               <div className="flex justify-between items-start flex-wrap gap-2 pb-3 border-b border-slate-150">
                 <div>
                   <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Selected Milestone</span>
-                  <h4 className="font-extrabold text-slate-850 text-base sm:text-lg leading-tight mt-0.5">
+                  <div className="font-extrabold text-slate-850 text-base sm:text-lg leading-tight mt-0.5">
                     {currentEvent.event}
-                  </h4>
+                  </div>
                 </div>
                 <span className="inline-flex items-center gap-1 text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
                   <Calendar size={12} className="text-[#1B6EB5]" />
@@ -317,7 +317,7 @@ export function CareerRoadmap({ steps }: { steps: CareerStep[] }) {
           <div className="space-y-4">
             <div>
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block">{currentStep.scale} Cadre</span>
-              <h4 className="font-extrabold text-slate-850 text-base sm:text-lg mt-0.5">{currentStep.role}</h4>
+              <div className="font-extrabold text-slate-850 text-base sm:text-lg mt-0.5">{currentStep.role}</div>
             </div>
             <div className="space-y-2.5">
               <span className="font-bold text-slate-750 text-sm block border-b border-slate-50 pb-1">Primary Duties & Mandates</span>
@@ -405,7 +405,7 @@ export function InteractivePattern({ prelims, mains }: { prelims: PhaseData; mai
       <div className="bg-white border border-slate-200 p-4 sm:p-6 rounded-2xl shadow-xs space-y-4">
         <div className="flex justify-between items-start flex-wrap gap-2 pb-3 border-b border-slate-150">
           <div>
-            <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">{currentPhase.phase} Structure</h4>
+            <div className="font-extrabold text-slate-850 text-base sm:text-lg">{currentPhase.phase} Structure</div>
             <span className="text-xs text-slate-400 font-semibold block mt-0.5">{currentPhase.info}</span>
           </div>
           <span className="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
@@ -501,10 +501,10 @@ export function CutoffTrendsSwitcher({ cutoffs }: { cutoffs: YearCutoff[] }) {
       </div>
 
       <div className="bg-white border border-slate-200 p-4 sm:p-6 rounded-2xl shadow-xs">
-        <h4 className="font-extrabold text-slate-850 text-base sm:text-lg mb-3 flex items-center gap-2">
+        <div className="font-extrabold text-slate-850 text-base sm:text-lg mb-3 flex items-center gap-2">
           <Trophy size={16} className="text-[var(--color-gold)]" />
           Category Specific: {categories.find((c) => c.id === activeCat)?.name} Cut-offs
-        </h4>
+        </div>
         <div className="w-full overflow-x-auto border border-slate-150 rounded-xl bg-white shadow-xs">
           <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
             <thead>
@@ -576,9 +576,9 @@ export function StrategyRoadmap({ phases }: { phases: StrategyPhase[] }) {
           <div className="pb-3 border-b border-slate-150 mb-4 flex justify-between items-start flex-wrap gap-2">
             <div>
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block">Roadmap Stage {activePhase + 1}</span>
-              <h4 className="font-extrabold text-slate-850 text-base sm:text-lg mt-0.5">
+              <div className="font-extrabold text-slate-850 text-base sm:text-lg mt-0.5">
                 {currentPhase?.month} — Focus: {currentPhase?.focus}
-              </h4>
+              </div>
             </div>
             <span className="inline-flex items-center gap-1 text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
               <Clock size={12} className="text-[#1B6EB5]" />

@@ -208,7 +208,7 @@ export default function SBIPOMockTestsPage() {
                       <div className="space-y-1.5">
                         <div className="flex items-center gap-2">
                           {item.icon}
-                          <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.title}</h4>
+                          <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.title}</div>
                         </div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0">{item.desc}</p>
                       </div>
@@ -254,7 +254,7 @@ export default function SBIPOMockTestsPage() {
                         <span className="inline-block px-2 py-0.5 rounded bg-white border border-slate-200 text-[9px] font-black uppercase tracking-wider text-slate-500">
                           {item.badge}
                         </span>
-                        <h4 className="font-extrabold text-slate-900 text-xs sm:text-sm leading-tight pt-1">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-xs sm:text-sm leading-tight pt-1">{item.title}</div>
                         <span className="block text-[11px] text-slate-500 font-semibold">{item.desc}</span>
                       </div>
                       <a
@@ -366,7 +366,7 @@ export default function SBIPOMockTestsPage() {
                   {/* Prelims Mocks */}
                   <div className="border border-blue-150 border-l-4 border-l-blue-500 bg-blue-50/15 py-5 pr-5 pl-6 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Phase I Exam</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight m-0">Prelims Mocks Structure</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight m-0">Prelims Mocks Structure</div>
                     <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">
                       100 questions, 100 marks, 60 minutes, sectional timing (20 min per section), qualifying stage only, no sectional cut-off, 0.25 negative marking.
                     </p>
@@ -378,7 +378,7 @@ export default function SBIPOMockTestsPage() {
                   {/* Mains Mocks */}
                   <div className="border border-emerald-200 border-l-4 border-l-emerald-500 bg-emerald-50/15 py-5 pr-5 pl-6 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Phase II Exam</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight m-0">Mains Mocks Structure</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight m-0">Mains Mocks Structure</div>
                     <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">
                       170 objective questions (200 marks) across 4 sections with a 3-hour composite duration, plus a 30-minute, 30-mark Descriptive Test attempted immediately after. Mains marks carry into your final merit list — Prelims marks don't.
                     </p>
@@ -410,7 +410,7 @@ export default function SBIPOMockTestsPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-5 pr-5 pl-6 sm:py-6 sm:pr-6 sm:pl-7 rounded-2xl flex flex-col justify-between space-y-1.5 transition-all duration-200 hover:border-slate-350 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Report {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</div>
                         <p className="text-slate-500 text-xs font-semibold leading-relaxed m-0 pt-1">{item.desc}</p>
                       </div>
                     </div>
@@ -441,7 +441,7 @@ export default function SBIPOMockTestsPage() {
                       <span className="absolute -left-3 top-0.5 w-6 h-6 rounded-full bg-blue-50 border-2 border-[#1B6EB5] flex items-center justify-center font-extrabold text-[#1B6EB5] text-xs shadow-2xs">
                         {idx + 1}
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.step}</h4>
+                      <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.step}</div>
                       <p className="text-slate-550 text-xs sm:text-sm font-semibold leading-relaxed m-0">{item.text}</p>
                     </div>
                   ))}
@@ -578,7 +578,7 @@ export default function SBIPOMockTestsPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

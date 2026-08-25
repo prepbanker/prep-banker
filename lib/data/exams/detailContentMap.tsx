@@ -385,7 +385,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   The age limit for IBPS PO 2026 is <strong>20 to 30 years</strong> for General/EWS category candidates, calculated as of the cutoff date specified in the official notification (typically June 1st of the notification year).
                 </p>
 
-                <h4 className="font-bold text-slate-850 text-sm sm:text-base text-[#1B6EB5]">Category-wise Age Limit and Relaxation</h4>
+                <div className="font-bold text-slate-850 text-sm sm:text-base text-[#1B6EB5]">Category-wise Age Limit and Relaxation</div>
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
@@ -460,7 +460,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
 
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">How to Calculate Your Age Eligibility</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">How to Calculate Your Age Eligibility</div>
                   <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed mb-3">
                     IBPS specifies the exact cutoff date in the official notification — typically phrased as: <em>&quot;Not below 20 years and not above 30 years — that is, a candidate must have been born not earlier than 02.06.1996 and not later than 01.06.2006 (both dates inclusive).&quot;</em>
                   </p>
@@ -489,7 +489,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
 
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Key points:</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Key points:</div>
                   <ul className="list-disc pl-5 space-y-1.5 text-slate-650 text-xs sm:text-sm">
                     <li><strong>Any stream works</strong> — B.Sc, B.Com, B.A., B.Tech, BBA, BCA, LLB — all qualify.</li>
                     <li><strong>No minimum percentage</strong> — A pass in graduation is sufficient. 50%, 55%, 60% — IBPS does not specify any cutoff.</li>
@@ -499,7 +499,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Can Final Year Students Apply?</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Can Final Year Students Apply?</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     Yes. Students who are in their <strong>final year or final semester</strong> of graduation can apply provisionally. The condition: you must submit your degree or provisional certificate at the time of interview or before joining. If you cannot produce this document when required, your candidature is cancelled — even if you clear Prelims, Mains, and the Interview.
                   </p>
@@ -510,7 +510,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </HighlightBox>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Does Your Graduation Percentage Matter for Cut-offs?</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">Does Your Graduation Percentage Matter for Cut-offs?</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     Not for eligibility — but banks may ask during the Interview. A lower percentage isn&apos;t disqualifying, but some banks informally prefer candidates with 60%+ during the interview panel stage. This is not a documented rule. Focus on your Mains score first; graduation percentage is a minor factor at the Interview.
                   </p>
@@ -728,9 +728,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         {item.step}
                       </div>
                       <div>
-                        <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
+                        <div className="font-bold text-slate-800 text-sm sm:text-base mb-1">
                           {item.title}
-                        </h4>
+                        </div>
                         <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                           {item.desc}
                         </p>
@@ -780,7 +780,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   ].map((item, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 hover:shadow-xs transition-shadow">
                       <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.step}</span>
-                      <h4 className="font-extrabold text-slate-855 text-sm sm:text-base mb-1.5">{item.title}</h4>
+                      <div className="font-extrabold text-slate-855 text-sm sm:text-base mb-1.5">{item.title}</div>
                       <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">{item.desc}</p>
                     </div>
                   ))}
@@ -804,10 +804,10 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Check the <Link href="/ibps-po/exam-pattern" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Exam Pattern 2026</Link> page for a detailed section-wise breakdown of Prelims and Mains — marks distribution, time limits, negative marking rules, and how scores are calculated for the final merit list.
                   </li>
                   <li className="leading-relaxed">
-                    Explore <Link href="/ibps-po/mains-mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</Link> once you&apos;ve cleared Prelims. These include the Descriptive Paper (Letter + Essay) with model answers from previous years.
+                    Explore <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</Link> once you&apos;ve cleared Prelims. These include the Descriptive Paper (Letter + Essay) with model answers from previous years.
                   </li>
                   <li className="leading-relaxed">
-                    Sharpen your <Link href="/banking-awareness" className="font-bold text-[#1B6EB5] hover:underline">Banking Awareness &amp; GEBA</Link> with PrepBanker&apos;s monthly-updated quiz sets on RBI policies, government schemes, static banking GK, and financial news — crucial for the IBPS PO Mains General Economy section.
+                    Sharpen your <Link href="/ibps-po-quiz" className="font-bold text-[#1B6EB5] hover:underline">Banking Awareness &amp; GEBA</Link> with PrepBanker&apos;s monthly-updated quiz sets on RBI policies, government schemes, static banking GK, and financial news — crucial for the IBPS PO Mains General Economy section.
                   </li>
                   <li className="leading-relaxed">
                     If you&apos;re also targeting SBI PO, visit the <Link href="/sbi-po/eligibility" className="font-bold text-[#1B6EB5] hover:underline">SBI PO Eligibility 2026</Link> page to compare criteria side by side and avoid surprises during form-filling for either exam.
@@ -1313,7 +1313,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     The 20-minute sectional time limit is one of the biggest pain points for IBPS PO aspirants. You cannot carry unused time from one section to the next. This is different from SBI PO, where the entire 60 minutes is available across sections. The sectional clock forces you to make hard calls fast — especially in Reasoning, where a single complex puzzle can eat 10 minutes if you&apos;re not careful.
                   </p>
 
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">Prelims Quantitative Aptitude — Topic List</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">Prelims Quantitative Aptitude — Topic List</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -1361,7 +1361,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Data Interpretation and Number Series appear in almost every IBPS PO Prelims paper. These two topics alone account for 30–40% of the Quant section. Master them first.
                   </p>
 
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">Prelims Reasoning Ability — Topic List</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">Prelims Reasoning Ability — Topic List</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -1424,7 +1424,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Puzzles and Seating Arrangement dominate Reasoning in both Prelims and Mains. In recent years (2022–2025), IBPS has placed 2–3 puzzle sets in Prelims worth 10–15 questions combined. If you can&apos;t solve puzzles under time pressure, your Reasoning score will be consistently below cut-off.
                   </p>
 
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">Prelims English Language — Topic List</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">Prelims English Language — Topic List</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -1553,7 +1553,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-3" style={{ gap: '1.125rem' }}>
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains Reasoning {"&"} Computer Aptitude</h5>
+                      <div className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains Reasoning {"&"} Computer Aptitude</div>
                       <p className="text-xs font-semibold text-slate-700 mb-1">Reasoning (40–45 marks):</p>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside mb-3">
                         <li>Puzzles — complex multi-variable sets (6 people, 3 attributes, floor + designation)</li>
@@ -1577,7 +1577,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </div>
 
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains Data Analysis {"&"} Interpretation</h5>
+                      <div className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains Data Analysis {"&"} Interpretation</div>
                       <p className="text-xs text-slate-600 leading-relaxed mb-3">
                         This section has the highest marks per question (60/35 = ~1.7 marks per correct answer). Every question carries more weight than any other section. Topics:
                       </p>
@@ -1595,7 +1595,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-3" style={{ gap: '1.125rem' }}>
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains English Language</h5>
+                      <div className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">Mains English Language</div>
                       <p className="text-xs text-slate-600 leading-relaxed mb-2">Mains English is more complex than Prelims:</p>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Reading Comprehension (2 long passages, 8–10 questions each — inference, tone, meaning-based)</li>
@@ -1611,7 +1611,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </div>
 
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">General Economy {"&"} Banking Awareness</h5>
+                      <div className="font-bold text-slate-850 text-sm mb-2 text-[#1B6EB5]">General Economy {"&"} Banking Awareness</div>
                       <p className="text-xs font-semibold text-slate-700 mb-1">Current Affairs (last 6 months):</p>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside mb-2">
                         <li>RBI monetary policy decisions (repo rate, reverse repo, CRR, SLR changes)</li>
@@ -1648,13 +1648,13 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1.5 text-[#1B6EB5]">Essay Writing</h5>
+                      <div className="font-bold text-slate-800 text-xs sm:text-sm mb-1.5 text-[#1B6EB5]">Essay Writing</div>
                       <p className="text-xs text-slate-600 leading-relaxed">
                         250–300 words on an assigned topic. Common themes include financial inclusion, digital banking, demonetisation impact, UPI growth, women entrepreneurship, and climate finance.
                       </p>
                     </div>
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200" style={{ padding: '1.25rem' }}>
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1.5 text-[#1B6EB5]">Letter Writing</h5>
+                      <div className="font-bold text-slate-800 text-xs sm:text-sm mb-1.5 text-[#1B6EB5]">Letter Writing</div>
                       <p className="text-xs text-slate-600 leading-relaxed">
                         150–200 words. Could be a formal complaint, official request, or semi-formal letter. Banking and financial contexts are standard.
                       </p>
@@ -1697,7 +1697,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     Students preparing for both exams often ask whether the same preparation covers both. The answer is mostly yes — with important caveats.
                   </p>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm my-2">Prelims Exam Comparison:</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm my-2">Prelims Exam Comparison:</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -1732,7 +1732,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </table>
                   </div>
 
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm my-2">Mains Exam Comparison:</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm my-2">Mains Exam Comparison:</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -1809,7 +1809,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Once you know the syllabus, the next step is practising every topic under timed, exam-like conditions.
                   </p>
                   <p>
-                    Start with a free <a href="https://prepbanker.com/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Full-Length Prelims Mock Test</a> to benchmark your current topic-wise coverage before you build a study plan. The post-test analytics show exactly which syllabus chapters need the most work.
+                    Start with a free <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Full-Length Prelims Mock Test</a> to benchmark your current topic-wise coverage before you build a study plan. The post-test analytics show exactly which syllabus chapters need the most work.
                   </p>
                   <p>
                     For focused Reasoning practice, the <a href="https://prepbanker.com/ibps-po/reasoning-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Reasoning Sectional Test Series</a> covers every puzzle and seating arrangement format that has appeared in the last five years — with difficulty levels from Prelims-easy to Mains-hard so you can progress systematically.
@@ -1947,9 +1947,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2 text-[#1B6EB5]">
+                      <div className="font-bold text-slate-800 text-sm sm:text-base mb-2 text-[#1B6EB5]">
                         Letter Writing {examId === 'sbi-po' ? '(1 Question, 25 Marks)' : '(Approx. 150 Words)'}
-                      </h4>
+                      </div>
                       <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
                         {examId === 'sbi-po'
                           ? 'Formal & Informal Letters. Banking and economic topics, or standard service request letters. Word limit: ~250 words.'
@@ -1958,9 +1958,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </p>
                     </div>
                     <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2 text-[#1B6EB5]">
+                      <div className="font-bold text-slate-800 text-sm sm:text-base mb-2 text-[#1B6EB5]">
                         Essay Writing {examId === 'sbi-po' ? '(1 Question, 25 Marks)' : '(Approx. 250 Words)'}
-                      </h4>
+                      </div>
                       <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
                         {examId === 'sbi-po'
                           ? 'Focuses on banking & economic topics, social issues, or current affairs-based prompts. Word limit: ~300 words.'
@@ -2456,7 +2456,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Key rules for Prelims:</h4>
+                    <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Key rules for Prelims:</div>
                     <ul className="list-disc pl-5 space-y-1.5 text-slate-650 text-xs sm:text-sm">
                       <li>Each question carries 1 mark.</li>
                       <li>Wrong answers carry a penalty of <strong className="text-red-600">0.25 marks</strong>.</li>
@@ -2467,9 +2467,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-2 text-[#1B6EB5]">
+                    <div className="font-bold text-slate-800 text-sm sm:text-base mt-2 text-[#1B6EB5]">
                       What the Sectional Time Limits Actually Mean
-                    </h4>
+                    </div>
                     <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed">
                       20 minutes for English, 20 for Quant, 20 for Reasoning. That&apos;s 40 seconds per question on average. The moment you spend 3 minutes on a hard puzzle set in Reasoning, you&apos;ve eaten into 9 questions&apos; time. This is why Prelims preparation must focus on question selection — knowing which questions to skip is as important as knowing how to solve.
                     </p>
@@ -2490,9 +2490,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Mains is where preparation depth shows. The objective paper has 4 sections with individual time limits, and a separate 30-minute descriptive paper follows immediately after.
                   </p>
 
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2 text-[#1B6EB5]">
                     IBPS PO Mains — Objective Paper Breakdown
-                  </h4>
+                  </div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
@@ -2538,9 +2538,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </table>
                   </div>
 
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mt-4 mb-2 text-[#1B6EB5]">
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mt-4 mb-2 text-[#1B6EB5]">
                     IBPS PO Mains — Descriptive Paper
-                  </h4>
+                  </div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
@@ -2574,7 +2574,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Important Mains rules:</h4>
+                    <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Important Mains rules:</div>
                     <ul className="list-disc pl-5 space-y-1.5 text-slate-650 text-xs sm:text-sm">
                       <li>Negative marking is <strong className="text-red-600">0.25 marks per wrong answer</strong> for the objective paper.</li>
                       <li>The descriptive paper is in English only and must be typed (no handwriting).</li>
@@ -2584,9 +2584,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-2 text-[#1B6EB5]">
+                    <div className="font-bold text-slate-800 text-sm sm:text-base mt-2 text-[#1B6EB5]">
                       Understanding the Marks-to-Questions Ratio in Mains
-                    </h4>
+                    </div>
                     <p className="text-slate-650 text-sm sm:text-[15px] leading-relaxed">
                       Notice that Reasoning (45 questions, 60 marks) and Data Analysis (35 questions, 60 marks) don&apos;t follow a 1:1 question-to-mark ratio. This means some questions in these sections carry more than 1 mark. Specifically, Data Analysis questions carry approximately 1.71 marks each on average. This changes your strategy — a single correct DA question is worth more than a correct English question.
                     </p>
@@ -2694,7 +2694,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </p>
 
                   <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Final Merit Calculation:</h4>
+                    <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Final Merit Calculation:</div>
                     <ul className="list-disc pl-5 space-y-1.5 text-slate-650 text-xs sm:text-sm">
                       <li>Mains (Objective + Descriptive): <strong>80% weight</strong></li>
                       <li>Interview: <strong>20% weight</strong></li>
@@ -2703,7 +2703,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-2 mb-2">Category-wise minimum qualifying marks in Interview:</h4>
+                    <div className="font-bold text-slate-800 text-sm sm:text-base mt-2 mb-2">Category-wise minimum qualifying marks in Interview:</div>
                     <ul className="list-disc pl-5 space-y-1.5 text-slate-650 text-xs sm:text-sm">
                       <li>General / EWS: 40 out of 100</li>
                       <li>SC / ST / OBC / PwBD: 35 out of 100</li>
@@ -2725,9 +2725,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Understanding what actually appears in the exam is more useful than a generic syllabus list. Here&apos;s a realistic breakdown based on IBPS PO papers from the past 3–4 years:
                   </p>
 
-                  <h4 className="font-bold text-slate-855 text-sm sm:text-base mb-2 text-[#1B6EB5]">
+                  <div className="font-bold text-slate-855 text-sm sm:text-base mb-2 text-[#1B6EB5]">
                     Prelims Topic Weightage
-                  </h4>
+                  </div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
@@ -2769,9 +2769,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </table>
                   </div>
 
-                  <h4 className="font-bold text-slate-855 text-sm sm:text-base mt-4 mb-2 text-[#1B6EB5]">
+                  <div className="font-bold text-slate-855 text-sm sm:text-base mt-4 mb-2 text-[#1B6EB5]">
                     Mains Topic Weightage
-                  </h4>
+                  </div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[450px]">
                       <thead>
@@ -2863,7 +2863,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     ].map((item, idx) => (
                       <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 hover:shadow-xs transition-shadow">
                         <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-1">{item.step}</span>
-                        <h4 className="font-extrabold text-slate-855 text-sm sm:text-base mb-1.5">{item.title}</h4>
+                        <div className="font-extrabold text-slate-855 text-sm sm:text-base mb-1.5">{item.title}</div>
                         <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">{item.desc}</p>
                       </div>
                     ))}
@@ -2942,13 +2942,13 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       Attempt a free <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Full-Length Mock Test</Link> — a full Prelims simulation with real-time sectional timers and detailed post-test analysis. If you haven&apos;t taken a baseline test yet, this is the most valuable 60 minutes you&apos;ll spend this week.
                     </li>
                     <li className="leading-relaxed">
-                      Work through <Link href="/ibps-po/mains-mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</Link> once Prelims prep is locked in. These include the Descriptive Paper component, with model answers for Letter and Essay sections from previous years.
+                      Work through <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</Link> once Prelims prep is locked in. These include the Descriptive Paper component, with model answers for Letter and Essay sections from previous years.
                     </li>
                     <li className="leading-relaxed">
                       If Data Analysis &amp; Interpretation is a weak spot, head to PrepBanker&apos;s <Link href="/ibps-po/data-interpretation" className="font-bold text-[#1B6EB5] hover:underline">DA/DI Chapter-wise Practice Sets</Link> — organized by question type (Caselet DI, Pie Chart, Missing Table) with increasing difficulty levels.
                     </li>
                     <li className="leading-relaxed">
-                      Strengthen your General Economy &amp; Banking Awareness with PrepBanker&apos;s <Link href="/banking-awareness" className="font-bold text-[#1B6EB5] hover:underline">GEBA Practice Quizzes</Link>, which are updated monthly with RBI notifications, government schemes, and banking news.
+                      Strengthen your General Economy &amp; Banking Awareness with PrepBanker&apos;s <Link href="/ibps-po-quiz" className="font-bold text-[#1B6EB5] hover:underline">GEBA Practice Quizzes</Link>, which are updated monthly with RBI notifications, government schemes, and banking news.
                     </li>
                     <li className="leading-relaxed">
                       Also check the <Link href="/ibps-po/previous-year-papers" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Previous Year Question Papers</Link> section — solved PYQs from 2018 to 2024 with detailed explanation videos for every question.
@@ -3236,7 +3236,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           metaTitle: "IBPS PO Cut Off – Prelims, Mains & Previous Year Marks",
           metaDescription: "Check IBPS PO cut off 2026 expected marks, previous year Prelims & Mains cut offs (2021–2025) category-wise, section-wise trends, and safe score targets.",
           ctaText: "Compare Your Mock Marks Against Cutoffs",
-          ctaHref: "https://prepbanker.com/ibps-po/mock-test",
+          ctaHref: "https://prepbanker.com/ibps-po/mock-tests",
           customSchemas: (
             <>
               {/* BreadcrumbList Schema */}
@@ -3466,7 +3466,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     One point that confuses many students: the Prelims cut off has no bearing on your final selection. Once you pass Prelims, those marks are discarded. Only Mains performance and interview carry forward.
                   </p>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-4">What Is Normalization and How Does It Affect Cut Offs?</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mt-4">What Is Normalization and How Does It Affect Cut Offs?</div>
                   <p>
                     IBPS PO is conducted in multiple shifts across two days. Different shifts may have slightly different difficulty levels. To ensure fairness, IBPS applies normalization — a statistical process that adjusts scores to account for shift-wise variation.
                   </p>
@@ -3484,7 +3484,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     The Prelims cut off has fluctuated between 48.50 and 54.25 for General/UR category over the last five years. The highest point was 2023 (54.25), and the lowest was 2024 (48.50). Here is the full picture:
                   </p>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm my-2">Category-Wise Prelims Cut Off (Overall, Out of 100)</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm my-2">Category-Wise Prelims Cut Off (Overall, Out of 100)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -3545,7 +3545,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     *2025 and 2024 SC/ST official figures aligned with overall patterns; exact category-wise figures to be confirmed from official scorecard.
                   </p>
 
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mt-4 mb-2">Section-Wise Prelims Cut Off — General Category (2023 Data)</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm mt-4 mb-2">Section-Wise Prelims Cut Off — General Category (2023 Data)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -3595,7 +3595,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     The Mains cut off matters far more than Prelims because it directly gates you into the interview and ultimately into the final merit list. The cut off here is out of 225 marks (objective section only — the descriptive 25 marks are added separately for total Mains marks).
                   </p>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm my-2">Category-Wise Mains Cut Off (Out of 225)</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm my-2">Category-Wise Mains Cut Off (Out of 225)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -3658,7 +3658,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p className="mt-3">
                     The 2025 Mains cut off (75.75) is the highest in three years — a notable spike from 2024&apos;s 66.50. This reflects both increased vacancies (5,208 in 2025 vs 3,955 in 2024) and a moderate-difficulty exam that allowed stronger candidates to score higher.
                   </p>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mt-4">What the Trend Tells You for 2026</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mt-4">What the Trend Tells You for 2026</div>
                   <p>
                     The Mains cut off is not predictable in a straight line. It jumped from 63 (2023) to 66.50 (2024) to 75.75 (2025). For 2026, if vacancy count is similar to 2025 and exam difficulty is moderate, the cut off could hold in the <strong>72–78 range for General category</strong>.
                   </p>
@@ -3676,7 +3676,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     This is the cut off that most students don&apos;t fully understand — and it matters most.
                   </p>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base">How the Final Score Is Calculated</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base">How the Final Score Is Calculated</div>
                   <p>
                     After both Mains and the Interview are complete, IBPS calculates a composite score:
                   </p>
@@ -3694,7 +3694,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     <li>Interview contribution: 60 &times; 0.20 = 12.00</li>
                     <li>Final score = 54.67 out of 100</li>
                   </ul>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mt-4 mb-2">Final Cut Off Data (2024–2025)</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm mt-4 mb-2">Final Cut Off Data (2024–2025)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-3">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -3762,7 +3762,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     The 2026 Prelims exam is scheduled for August 22–23, and Mains for October 4. With vacancies expected in the 4,000–6,000 range (based on 5-year trends), here is the realistic cut off range for 2026:
                   </p>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm my-2">Expected Prelims Cut Off 2026 (Out of 100)</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm my-2">Expected Prelims Cut Off 2026 (Out of 100)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -3802,7 +3802,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </table>
                   </div>
 
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mt-4 mb-2">Expected Mains Cut Off 2026 (Out of 225)</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm mt-4 mb-2">Expected Mains Cut Off 2026 (Out of 225)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs my-2">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -3959,13 +3959,13 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Knowing the cut off gives you a target. Hitting it consistently requires structured practice. These PrepBanker resources connect directly to what this page covers:
                   </p>
                   <p>
-                    Start with a <a href="https://prepbanker.com/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">Free IBPS PO Prelims Mock Test</a> — full-length, 3 sections, 20-minute timers, scored and analyzed immediately. See your baseline score before you set any cut off target.
+                    Start with a <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">Free IBPS PO Prelims Mock Test</a> — full-length, 3 sections, 20-minute timers, scored and analyzed immediately. See your baseline score before you set any cut off target.
                   </p>
                   <p>
                     To close your sectional gap, the <a href="https://prepbanker.com/ibps-po/quant-practice" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Quant Practice Tests</a> cover every chapter that appears in both Prelims and Mains — from Simplification and Number Series to Data Interpretation and Quadratic Equations.
                   </p>
                   <p>
-                    Once you cross Prelims, the <a href="https://prepbanker.com/ibps-po/mains-mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</a> include full-length objective + descriptive simulations. With the Mains cut off at 75.75 in 2025, you need real practice at the 3.5-hour format — starting from Prelims itself.
+                    Once you cross Prelims, the <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Mock Tests</a> include full-length objective + descriptive simulations. With the Mains cut off at 75.75 in 2025, you need real practice at the 3.5-hour format — starting from Prelims itself.
                   </p>
                   <p>
                     For context on where cut offs fit in the bigger exam timeline, the <a href="https://prepbanker.com/ibps-po/important-dates" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Important Dates 2026</a> page has every key deadline — notification, registration, exam dates, admit card, and result — in a single organized view.
@@ -4048,7 +4048,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
             content: (
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -4116,7 +4116,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                       <thead>
@@ -4653,9 +4653,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                           </div>
 
                           {/* Event Title */}
-                          <h4 className="text-base sm:text-lg font-extrabold text-slate-800 leading-tight">
+                          <div className="text-base sm:text-lg font-extrabold text-slate-800 leading-tight">
                             {ev.event}
-                          </h4>
+                          </div>
 
                           {/* Event Description */}
                           <p className="text-slate-600 text-sm sm:text-[15px] leading-relaxed font-normal">
@@ -4736,7 +4736,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 border-l-4 border-l-[#1B6EB5]">
-                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">English (20 minutes)</h4>
+                    <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">English (20 minutes)</div>
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-2 font-normal">
                       Start with Fill in the Blanks and Error Detection — they are the fastest. Attempt Cloze Test next. Save RC for last — read the questions first, then find answers in the passage.
                     </p>
@@ -4745,7 +4745,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </span>
                   </div>
                   <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 border-l-4 border-l-[var(--color-gold)]">
-                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">Quantitative Aptitude (20 minutes)</h4>
+                    <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">Quantitative Aptitude (20 minutes)</div>
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-2 font-normal">
                       Start with Simplification (fastest marks). Move to Number Series, then Quadratic Equations. Attempt DI last — pick the easiest set first. Skip any question that takes more than 90 seconds.
                     </p>
@@ -4754,7 +4754,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </span>
                   </div>
                   <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 border-l-4 border-l-purple-500">
-                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">Reasoning (20 minutes)</h4>
+                    <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1">Reasoning (20 minutes)</div>
                     <p className="text-slate-600 text-xs sm:text-sm leading-relaxed mb-2 font-normal">
                       Do not start with puzzles if they look complex — they can consume the entire slot. Start with Inequalities, Syllogisms, and Coding-Decoding. Attempt puzzles only if time permits.
                     </p>
@@ -4833,51 +4833,6 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
           ctaHref: `https://app.prepgrind.com/signup/sbi-po`,
           customSchemas: (
             <>
-              {/* JobPosting Schema */}
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "JobPosting",
-                    "title": "Probationary Officer (PO) 2026",
-                    "description": "State Bank of India (SBI) is recruiting 1,500 Probationary Officers under Advertisement No. CRPD/PO/2026-27/09. Selection through Prelims, Mains and Interview.",
-                    "identifier": {
-                      "@type": "PropertyValue",
-                      "name": "SBI",
-                      "value": "CRPD/PO/2026-27/09"
-                    },
-                    "datePosted": "2026-06-18",
-                    "validThrough": "2026-07-08",
-                    "employmentType": "FULL_TIME",
-                    "hiringOrganization": {
-                      "@type": "Organization",
-                      "name": "State Bank of India",
-                      "sameAs": "https://sbi.bank.in",
-                      "logo": "https://prepbanker.com/images/sbi-logo.png"
-                    },
-                    "jobLocation": {
-                      "@type": "Place",
-                      "address": {
-                        "@type": "PostalAddress",
-                        "addressCountry": "IN"
-                      }
-                    },
-                    "totalJobOpenings": 1500,
-                    "baseSalary": {
-                      "@type": "MonetaryAmount",
-                      "currency": "INR",
-                      "value": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 48480,
-                        "unitText": "MONTH"
-                      }
-                    },
-                    "educationRequirements": "Graduate in any discipline",
-                    "experienceRequirements": "Freshers eligible"
-                  })
-                }}
-              />
               {/* FAQPage Schema */}
               <script
                 type="application/ld+json"
@@ -5029,8 +4984,8 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
         return {
           title: `IBPS PO Notification 2026: 7365 Vacancies, PDF Download & CRP PO/MT-XVI Details`,
           overview: `Official notification for CRP PO/MT-XVI released by IBPS on 1 July 2026 for 7,365 Probationary Officer / Management Trainee posts across 11 public sector banks. Application window closed 26 July 2026 — here's everything confirmed so far, updated as corrigenda are released.`,
-          metaTitle: `IBPS PO Notification 2026 PDF Download | 7365 Posts`,
-          metaDescription: `IBPS PO Notification 2026 out for 7365 PO/MT posts. Download official PDF, check CRP PO/MT-XVI dates, correction window & apply online at ibps.in.`,
+          metaTitle: `IBPS PO Notification 2026: PDF, Dates & Vacancies`,
+          metaDescription: `Check the official IBPS PO 2026 recruitment notification PDF. Find key application dates, 7,365 bank-wise vacancies, eligibility criteria, and exam schedule.`,
           ctaText: `Start Free IBPS PO Mock Test`,
           ctaHref: `https://app.prepgrind.com/signup/sbi-po`,
           customSchemas: (
@@ -5718,7 +5673,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-3">
                     <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Personal Details</h5>
+                      <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Personal Details</div>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Candidate&apos;s full name (must match your application form exactly)</li>
                         <li>Roll number / registration number</li>
@@ -5727,7 +5682,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </ul>
                     </div>
                     <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Exam Details</h5>
+                      <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Exam Details</div>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Exam name and cycle (CRP PO/MT-XVI)</li>
                         <li>Exam type (Prelims or Mains)</li>
@@ -5737,7 +5692,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                       </ul>
                     </div>
                     <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-                      <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Centre Details</h5>
+                      <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2 text-[#1B6EB5]">Centre Details</div>
                       <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                         <li>Name of the exam centre</li>
                         <li>Full address with landmark</li>
@@ -5798,7 +5753,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </table>
                   </div>
                   <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-                    <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Accepted Photo ID Proofs:</h5>
+                    <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Accepted Photo ID Proofs:</div>
                     <p className="text-xs sm:text-sm text-slate-600 mb-2">Any one of the following is valid:</p>
                     <ul className="text-xs sm:text-sm text-slate-605 space-y-1.5 pl-3 list-disc list-inside font-normal">
                       <li>Aadhaar Card (with name and photo clearly visible)</li>
@@ -6000,7 +5955,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     If you&apos;ve downloaded your admit card and are now focused on preparation, here&apos;s where to go next on PrepBanker:
                   </p>
                   <p>
-                    Attempt the best place to start your final sprint is with a full <a href="https://prepbanker.com/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Free Mock Test — Prelims Pattern</a>. This full-length test mirrors the exact difficulty, question types, and time pressure of the October exam — use it to set your baseline score and identify which sections need the most attention in your remaining days.
+                    Attempt the best place to start your final sprint is with a full <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Free Mock Test — Prelims Pattern</a>. This full-length test mirrors the exact difficulty, question types, and time pressure of the October exam — use it to set your baseline score and identify which sections need the most attention in your remaining days.
                   </p>
              
                   <p>
@@ -6095,7 +6050,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                    <h5 className="font-bold text-slate-850 text-xs sm:text-sm mb-1">Mandatory Documents</h5>
+                    <div className="font-bold text-slate-850 text-xs sm:text-sm mb-1">Mandatory Documents</div>
                     <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside">
                       <li>Printed Admit Card (with passport photo affixed)</li>
                       <li>Original Photo ID Card (Aadhaar, PAN, Passport, etc.)</li>
@@ -6103,7 +6058,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </ul>
                   </div>
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                    <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1">Additional Items</h5>
+                    <div className="font-bold text-slate-800 text-xs sm:text-sm mb-1">Additional Items</div>
                     <ul className="text-xs text-slate-605 space-y-1 list-disc list-inside">
                       <li>Two additional passport-sized photos</li>
                       <li>Simple blue or black ballpoint pen</li>
@@ -6751,7 +6706,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <p>
                     Additionally, <strong>4% horizontal reservation</strong> applies for Persons with Disabilities (PwD), spread across all categories. Specific PwD sub-categories (locomotor, visual, hearing, intellectual) are defined in the official notification.
                   </p>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">What &quot;Backlog Vacancies&quot; Mean</h4>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base mt-4 mb-2">What &quot;Backlog Vacancies&quot; Mean</div>
                   <p>
                     If a reserved category vacancy was advertised in a previous IBPS PO cycle but went unfilled (because no eligible candidate in that category met the cut-off), it carries forward as a &quot;backlog&quot; vacancy. These appear in the current cycle&apos;s notification as additional posts for that category. In high-backlog years, SC and ST category candidates can find meaningful extra seats.
                   </p>
@@ -6854,7 +6809,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Vacancy numbers affect two things directly: your target score and your time allocation.
                   </p>
                   <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-1">When Vacancies Are Low (Under 4,000)</h4>
+                    <div className="font-bold text-slate-850 text-sm sm:text-base mb-1">When Vacancies Are Low (Under 4,000)</div>
                     <p>
                       Cut-offs rise because fewer candidates qualify for interview proportionally. In 2023, the General category Mains cut-off touched 47–50 out of 200 — a seemingly low number, but one that requires near-perfect accuracy given negative marking. In low-vacancy years:
                     </p>
@@ -6865,7 +6820,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-1">When Vacancies Are High (Above 5,000)</h4>
+                    <div className="font-bold text-slate-850 text-sm sm:text-base mb-1">When Vacancies Are High (Above 5,000)</div>
                     <p>
                       The cut-off drops, but the total number of shortlisted candidates for interview also increases — meaning Mains becomes more competitive relatively. Focus shifts to:
                     </p>
@@ -6876,7 +6831,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">The Preparation Constant</h4>
+                    <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">The Preparation Constant</div>
                     <p>
                       Regardless of vacancy numbers, the following preparation approach works every year:
                     </p>
@@ -6930,7 +6885,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Understanding the vacancy picture is the first step — preparation is what converts that awareness into a seat.
                   </p>
                   <p>
-                    Start your IBPS PO 2026 prep with a free <a href="https://prepbanker.com/ibps-po/mock-test" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Full-Length Prelims Mock Test</a>. This test is calibrated to the difficulty and pattern of recent IBPS PO papers — it&apos;s the fastest way to benchmark your current level against the projected 2026 cut-off.
+                    Start your IBPS PO 2026 prep with a free <a href="https://prepbanker.com/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Full-Length Prelims Mock Test</a>. This test is calibrated to the difficulty and pattern of recent IBPS PO papers — it&apos;s the fastest way to benchmark your current level against the projected 2026 cut-off.
                   </p>
                   <p>
                     For complete details on the exam calendar, eligibility, and selection process, visit the <a href="https://prepbanker.com/ibps-po/notification" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Notification 2026 page</a> — it covers everything from application dates to final merit list publication.
@@ -7483,7 +7438,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="bg-[#1B6EB5]/5 border border-[#1B6EB5]/20 rounded-2xl p-5 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-[#1B6EB5]/5 rounded-bl-full -mr-6 -mt-6"></div>
                     <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-2">Stage 1</span>
-                    <h4 className="font-extrabold text-slate-850 text-base mb-2">Preliminary Exam</h4>
+                    <div className="font-extrabold text-slate-850 text-base mb-2">Preliminary Exam</div>
                     <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                       A 1-hour, 100-mark Computer Based Test (CBT) with three sections. Purely qualifying in nature. Marks do not affect final selection.
                     </p>
@@ -7492,7 +7447,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="bg-[#1B6EB5]/5 border border-[#1B6EB5]/20 rounded-2xl p-5 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-[#1B6EB5]/5 rounded-bl-full -mr-6 -mt-6"></div>
                     <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-2">Stage 2</span>
-                    <h4 className="font-extrabold text-slate-850 text-base mb-2">Main Examination</h4>
+                    <div className="font-extrabold text-slate-850 text-base mb-2">Main Examination</div>
                     <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                       A 3-hour objective paper (225 marks) plus a 30-minute descriptive paper (25 marks). This is the base of your final selection (80% weight).
                     </p>
@@ -7501,7 +7456,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   <div className="bg-[#1B6EB5]/5 border border-[#1B6EB5]/20 rounded-2xl p-5 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-24 h-24 bg-[#1B6EB5]/5 rounded-bl-full -mr-6 -mt-6"></div>
                     <span className="text-xs font-bold text-[#1B6EB5] uppercase tracking-wider block mb-2">Stage 3</span>
-                    <h4 className="font-extrabold text-slate-850 text-base mb-2">Personal Interview</h4>
+                    <div className="font-extrabold text-slate-850 text-base mb-2">Personal Interview</div>
                     <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                       A personal interview conducted by a panel. Carries 100 marks, contributing 20% to the final combined normalized score.
                     </p>
@@ -7509,7 +7464,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5">
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">Post-Stage &rarr; Document Verification &amp; Provisional Allotment</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">Post-Stage &rarr; Document Verification &amp; Provisional Allotment</div>
                   <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                     After the interview, candidates who clear the final cut off are provisionally allotted to one of the 11 participating banks based on merit rank, category, and stated bank preferences.
                   </p>
@@ -7570,7 +7525,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div className="space-y-2 text-slate-655 text-xs sm:text-sm">
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base">Key Rules:</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base">Key Rules:</div>
                   <ul className="list-disc pl-5 space-y-1.5">
                     <li>Each section has a <strong>separate, fixed 20-minute clock</strong>. You cannot carry over unused time to another section.</li>
                     <li><strong>Negative marking:</strong> 0.25 marks deducted per wrong answer. No penalty for unattempted questions.</li>
@@ -7580,14 +7535,14 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">How Difficult Is Prelims?</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">How Difficult Is Prelims?</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     The 2025 IBPS PO Prelims cut off for the General/UR category was <strong>49.21 out of 100</strong>. In 2023, it peaked at <strong>54.25</strong>. In 2024, it dropped to <strong>48.50</strong>. The 5-year range for General is roughly 48–55. These numbers look manageable — but sectional time limits make the exam brutally tough for unprepared candidates. Scoring 50 in 60 minutes across three separate timed sections is harder than it looks on paper.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">What Prelims Is NOT</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">What Prelims Is NOT</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     This bears repeating because students waste months optimizing for the wrong thing: Prelims marks <strong>do not count in your final merit</strong>. Not one bit. A student who scores 92/100 in Prelims and a student who scores 51/100 both enter Mains on equal footing. Prelims is purely a filter. Pass it cleanly, then focus everything on Mains.
                   </p>
@@ -7608,7 +7563,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   The Mains exam is the heart of the IBPS PO selection process. For 2026, the confirmed date is <strong>4th October 2026</strong>. Only candidates who clear the Prelims cut off appear for Mains. The number of candidates called is typically 10–20 times the number of vacancies.
                 </p>
 
-                <h4 className="font-bold text-slate-850 text-sm sm:text-base text-[#1B6EB5] mb-2">Mains Objective Paper Pattern</h4>
+                <div className="font-bold text-slate-850 text-sm sm:text-base text-[#1B6EB5] mb-2">Mains Objective Paper Pattern</div>
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
@@ -7653,7 +7608,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                   </table>
                 </div>
 
-                <h4 className="font-bold text-slate-850 text-sm sm:text-base text-[#1B6EB5] mb-2">Mains Descriptive Paper Pattern</h4>
+                <div className="font-bold text-slate-850 text-sm sm:text-base text-[#1B6EB5] mb-2">Mains Descriptive Paper Pattern</div>
                 <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                   <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                     <thead>
@@ -7678,14 +7633,14 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">What Is Sectional Cut Off in Mains?</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">What Is Sectional Cut Off in Mains?</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     Yes, sectional cut offs apply in Mains too, for the objective sections. You must clear both the overall Mains cut off and the section-wise minimums to qualify for the interview. In 2023, the Mains cut off for General/UR was <strong>63 out of 225</strong>. In 2024, it dropped to <strong>66.50</strong>. In 2025, the Mains cut off jumped to <strong>75.75</strong> for UR/OBC — the highest in three years.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">How Much Does Each Section Carry?</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">How Much Does Each Section Carry?</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     Notice the weightage asymmetry: Reasoning (60 marks) and Data Analysis (60 marks) together account for 120 out of 200 objective marks — 60% of the objective score. Banking Awareness (40) and English (40) make up the other 40%. General Economy/Banking Awareness is often the most scoring section for prepared candidates because it has minimal negative-marking risk (you either know it or leave it).
                   </p>
@@ -7748,7 +7703,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div className="space-y-3 text-slate-655 text-sm sm:text-[15px] leading-relaxed">
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base">What Do IBPS PO Interviewers Ask?</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base">What Do IBPS PO Interviewers Ask?</div>
                   <p>The interview is not a knowledge test in the way Mains is. The panel evaluates:</p>
                   <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-slate-655">
                     <li><strong>Banking and financial awareness:</strong> Basic concepts of banking operations, RBI policies, current banking sector news.</li>
@@ -7763,7 +7718,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </div>
 
                 <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5">
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-1.5">Pre-Exam Training (PET) — What It Is and Who Qualifies</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-1.5">Pre-Exam Training (PET) — What It Is and Who Qualifies</div>
                   <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                     Before the Prelims, IBPS conducts optional Pre-Exam Training (PET) for candidates belonging to SC/ST categories and religious minority communities. PET is a free, multi-day orientation session that covers exam strategy, basic conceptual revision, and test-taking guidance. It is not mandatory but is recommended for first-time aspirants from these categories. A separate call letter is issued for PET.
                   </p>
@@ -7781,7 +7736,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
 
                 <div className="bg-[#1B6EB5]/5 border border-[#1B6EB5]/20 rounded-2xl p-5">
-                  <h4 className="font-extrabold text-[#1B6EB5] text-sm sm:text-base uppercase tracking-wider mb-2">The Merit Calculation Formula</h4>
+                  <div className="font-extrabold text-[#1B6EB5] text-sm sm:text-base uppercase tracking-wider mb-2">The Merit Calculation Formula</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed mb-4">
                     After the interview, IBPS computes a <strong>combined score out of 100</strong> for every candidate:
                   </p>
@@ -7806,7 +7761,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
 
                 <div>
-                  <h4 className="font-bold text-slate-850 text-sm sm:text-base mb-2">How Bank Allotment Works</h4>
+                  <div className="font-bold text-slate-850 text-sm sm:text-base mb-2">How Bank Allotment Works</div>
                   <p className="text-slate-655 text-sm sm:text-[15px] leading-relaxed">
                     The final merit list is prepared <strong>category-wise and state-wise</strong>, in descending order of final scores. Candidates at the top get to exercise bank preferences. IBPS tries to match bank preferences with available vacancies. If your preferred bank has no remaining vacancy in your category, you are allotted the next bank with an opening in descending preference order.
                   </p>
@@ -7943,9 +7898,9 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                         {item.step}
                       </div>
                       <div>
-                        <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-1">
+                        <div className="font-bold text-slate-800 text-sm sm:text-base mb-1">
                           {item.title}
-                        </h4>
+                        </div>
                         <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
                           {item.desc}
                         </p>
@@ -8010,7 +7965,7 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                     Start your IBPS PO prep with a free <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Full-Length Mock Test</Link> — a complete 100-question, 60-minute Prelims simulation with sectional timers and instant score analysis. No cost, no commitment. Just a clear picture of where you stand.
                   </li>
                   <li className="leading-relaxed">
-                    For Mains preparation, the <Link href="/ibps-po/mains-mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Full Mock Tests</Link> replicate the complete 3-hour 30-minute format — objective plus descriptive, in sequence. Start these from week 5 of your preparation, not after Prelims results.
+                    For Mains preparation, the <Link href="/ibps-po/mock-tests" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Mains Full Mock Tests</Link> replicate the complete 3-hour 30-minute format — objective plus descriptive, in sequence. Start these from week 5 of your preparation, not after Prelims results.
                   </li>
                   <li className="leading-relaxed">
                     To understand the score you need to clear each stage, visit the <Link href="/ibps-po/cut-off" className="font-bold text-[#1B6EB5] hover:underline">IBPS PO Cut Off 2026</Link> page — it has year-wise Prelims and Mains cut off data for all categories, with expected ranges for 2026.
@@ -8095,11 +8050,11 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-2">
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                    <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1 text-[#1B6EB5]">Real-time Pacing Dashboard</h5>
+                    <div className="font-bold text-slate-800 text-xs sm:text-sm mb-1 text-[#1B6EB5]">Real-time Pacing Dashboard</div>
                     <p className="text-xs text-slate-650">Sectional timers and interface elements mimic actual IBPS/SBI client software screens.</p>
                   </div>
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                    <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-1 text-[#1B6EB5]">AI Performance Analytics</h5>
+                    <div className="font-bold text-slate-800 text-xs sm:text-sm mb-1 text-[#1B6EB5]">AI Performance Analytics</div>
                     <p className="text-xs text-slate-650">Identifies chapters where you commit maximum errors or waste too much time.</p>
                   </div>
                 </div>
@@ -8315,6 +8270,34 @@ export function getDetailedSectionContent(examId: string, sectionSlug: string): 
     case 'prelims-exam-analysis': {
       if (examId === 'sbi-po') {
         return sbiPoPrelimsExamAnalysisContent;
+      }
+      return undefined;
+    }
+
+    case 'previous-year-papers': {
+      if (examId === 'sbi-po') {
+        return {
+          title: "SBI PO Previous Year Papers",
+          overview: "Download SBI PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, attempt topic-wise mock tests free on PrepBanker.",
+          metaTitle: "SBI PO Previous Year Question Papers (2016–2025) Free PDF",
+          metaDescription: "Download SBI PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, attempt topic-wise mock tests free on PrepBanker.",
+          ctaText: "Attempt Free SBI PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/sbi-po",
+          subsections: [],
+          faqs: []
+        };
+      }
+      if (examId === 'ibps-po') {
+        return {
+          title: "IBPS PO Previous Year Papers",
+          overview: "Download IBPS PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, then attempt free topic-wise mock tests on PrepBanker.",
+          metaTitle: "IBPS PO Previous Year Question Papers (2016–2025) Free PDF",
+          metaDescription: "Download IBPS PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, then attempt free topic-wise mock tests on PrepBanker.",
+          ctaText: "Attempt Free IBPS PO Mock Test",
+          ctaHref: "https://app.prepgrind.com/signup/ibps-po",
+          subsections: [],
+          faqs: []
+        };
       }
       return undefined;
     }

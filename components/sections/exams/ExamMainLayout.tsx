@@ -538,7 +538,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 <div className="p-5 bg-blue-50/50 border border-blue-150 rounded-2xl flex flex-col justify-between shadow-xs hover:shadow-md transition-all">
                   <div>
                     <span className="text-xs font-bold uppercase tracking-wider text-[#1B6EB5]">Career & Scale</span>
-                    <h4 className="text-base font-extrabold text-slate-800 mt-1 mb-2">Officer Scale-I Entry</h4>
+                    <div className="text-base font-extrabold text-slate-800 mt-1 mb-2">Officer Scale-I Entry</div>
                     <p className="text-xs sm:text-xs text-slate-600 leading-normal font-normal">
                       Direct entry into the officer cadre of the country's largest public sector bank. Offers structured promotion pathways up to top management.
                     </p>
@@ -548,10 +548,10 @@ export default function ExamMainLayout({ exam }: Props) {
                 <div className="p-5 bg-emerald-50/50 border border-emerald-150 rounded-2xl flex flex-col justify-between shadow-xs hover:shadow-md transition-all">
                   <div>
                     <span className="text-xs font-bold uppercase tracking-wider text-emerald-600">Compensation</span>
-                    <h4 className="text-base font-extrabold text-slate-800 mt-1 mb-2">
+                    <div className="text-base font-extrabold text-slate-800 mt-1 mb-2">
                       {isSbi ? "₹90,000+ Gross/mo" : "₹80,000+ Gross/mo"}
-                    </h4>
-                    <p className="text-xs sm:text-xs text-slate-600 leading-normal font-normal">
+                    </div>
+                    <p className="text-xs sm:text-xs text-slate-655 leading-normal font-normal">
                       Includes basic pay, DA, Special Allowance, HRA/Leased Accommodation, medical aid, petrol allowances, and home travel concessions.
                     </p>
                   </div>
@@ -560,9 +560,9 @@ export default function ExamMainLayout({ exam }: Props) {
                 <div className="p-5 bg-purple-50/50 border border-purple-150 rounded-2xl flex flex-col justify-between shadow-xs hover:shadow-md transition-all">
                   <div>
                     <span className="text-xs font-bold uppercase tracking-wider text-purple-600">Hiring Selectivity</span>
-                    <h4 className="text-base font-extrabold text-slate-800 mt-1 mb-2">
+                    <div className="text-base font-extrabold text-slate-800 mt-1 mb-2">
                       {isSbi ? "4 Selection Phases" : "3 Selection Phases"}
-                    </h4>
+                    </div>
                     <p className="text-xs sm:text-xs text-slate-600 leading-normal font-normal">
                       A rigorous selection process ensures only the most skilled candidates make it through. Preparation requires structured strategy and practice.
                     </p>
@@ -658,7 +658,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       <div key={date.event} className="bg-white border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
                         <div className="space-y-1">
                           <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
-                          <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</h4>
+                          <div className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</div>
                           <span className="block text-sm font-bold text-[#1B6EB5]">{date.date}</span>
                         </div>
                         <span className={`text-xs sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
@@ -685,7 +685,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       <div key={date.event} className="bg-white border border-slate-200 p-4 rounded-xl flex items-start justify-between gap-3 hover:shadow-xs transition-shadow">
                         <div className="space-y-1">
                           <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Milestone</span>
-                          <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</h4>
+                          <div className="font-extrabold text-slate-800 text-sm sm:text-base">{date.event}</div>
                           <span className="block text-sm font-bold text-[#1B6EB5]">{date.date}</span>
                         </div>
                         <span className={`text-xs sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${isUpcoming ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-150 text-slate-650'
@@ -724,7 +724,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div className="space-y-4">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Age Limit & Relaxation</h4>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base">Age Limit & Relaxation</h3>
                   <p className="text-xs text-slate-400">Note: Age is calculated as of 1st April 2026.</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {[
@@ -750,7 +750,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div className="space-y-4">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Number of Attempts Cap</h4>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base">Number of Attempts Cap</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                     {[
                       { category: 'General / EWS', attempts: '4 Attempts', note: 'Counted for Prelims/Mains' },
@@ -907,7 +907,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 {isSbi && (
                   <div className="space-y-4">
-                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-2">Phase 3 — Group Exercise & Personal Interview</h4>
+                    <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mt-2">Phase 3 — Group Exercise & Personal Interview</h3>
                     <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                       <table className="w-full text-left text-sm sm:text-base border-collapse min-w-[500px]">
                         <thead>
@@ -987,9 +987,9 @@ export default function ExamMainLayout({ exam }: Props) {
             {syllabusTab === 'prelims' ? (
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
                     English Language
-                  </h4>
+                  </h3>
                   <div className="flex flex-col gap-2">
                     {exam.syllabus['English Language']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
@@ -1001,9 +1001,9 @@ export default function ExamMainLayout({ exam }: Props) {
                   </div>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
                     Quant Aptitude
-                  </h4>
+                  </h3>
                   <div className="flex flex-col gap-2">
                     {exam.syllabus['Quantitative Aptitude']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
@@ -1015,9 +1015,9 @@ export default function ExamMainLayout({ exam }: Props) {
                   </div>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 text-[#1B6EB5] border-b border-slate-200 pb-1.5 flex items-center gap-1.5 font-display">
                     Reasoning Ability
-                  </h4>
+                  </h3>
                   <div className="flex flex-col gap-2">
                     {exam.syllabus['Reasoning Ability']?.slice(0, 4).map((t) => renderTopicBadge(t))}
                     <Link
@@ -1032,9 +1032,9 @@ export default function ExamMainLayout({ exam }: Props) {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
                     Reasoning & Computer
-                  </h4>
+                  </h3>
                   <div className="flex flex-col gap-2 ">
                     {isSbi
                       ? exam.syllabus['Mains Reasoning & Computer Aptitude']?.slice(0, 4).map((t) => renderTopicBadge(t))
@@ -1053,9 +1053,9 @@ export default function ExamMainLayout({ exam }: Props) {
                   </div>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-3 font-display border-b border-slate-200 pb-1.5 flex items-center gap-1.5" style={{ color: isSbi ? '#1B6EB5' : '#D4A017' }}>
                     General/Economy Awareness
-                  </h4>
+                  </h3>
                   <div className="flex flex-col gap-2">
                     {isSbi
                       ? exam.syllabus['Mains General/Economy/Banking Awareness']?.slice(0, 4).map((t) => renderTopicBadge(t))
@@ -1104,8 +1104,8 @@ export default function ExamMainLayout({ exam }: Props) {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
                   <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
                     <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 1 Preparation</span>
-                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Prelims Mocks</h4>
-                    <p className="text-slate-650 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
+                    <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Prelims Mocks</h3>
+                    <p className="text-slate-655 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
                       20 high-fidelity test simulations matching the current difficulty trends, designed with sectional timers.
                     </p>
                     <div className="mt-4 flex items-center justify-between">
@@ -1115,8 +1115,8 @@ export default function ExamMainLayout({ exam }: Props) {
                   </div>
                   <div className="bg-gradient-to-br from-white to-slate-50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
                     <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phase 2 Preparation</span>
-                    <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Mains Mocks</h4>
-                    <p className="text-slate-650 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
+                    <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mt-1">Full-Length Mains Mocks</h3>
+                    <p className="text-slate-655 text-xs sm:text-sm leading-relaxed mt-2 font-normal">
                       15 advanced level full mocks testing analytical ability and descriptive writing simulation answers.
                     </p>
                     <div className="mt-4 flex items-center justify-between">
@@ -1142,7 +1142,7 @@ export default function ExamMainLayout({ exam }: Props) {
           {/* Section: Previous Year Paper Snapshot */}
           {isSbi && (
             <section id="pyq-snapshot" className="py-6 scroll-mt-20 border-t border-slate-200">
-              <PatternSnapshot ctaHref="/sbi-po-previous-year-question-papers" />
+              <PatternSnapshot ctaHref="/sbi-po/previous-year-papers" />
             </section>
           )}
 
@@ -1160,7 +1160,7 @@ export default function ExamMainLayout({ exam }: Props) {
             {isSbi ? (
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">English Language Sectional Tests</h4>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">English Language Sectional Tests</h3>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1212,7 +1212,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div>
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Quantitative Aptitude Sectional Tests</h4>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Quantitative Aptitude Sectional Tests</h3>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1259,7 +1259,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div>
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Reasoning Ability Sectional Tests</h4>
+                  <h3 className="font-extrabold text-slate-800 text-sm sm:text-base mb-2">Reasoning Ability Sectional Tests</h3>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1351,10 +1351,10 @@ export default function ExamMainLayout({ exam }: Props) {
               </p>
 
               <div className="space-y-6">
-                <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">High-Priority Topics to Focus On</h4>
+                <h3 className="font-extrabold text-slate-850 text-sm sm:text-base">High-Priority Topics to Focus On</h3>
 
                 <div>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Reasoning — Must-Practice Topics</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Reasoning — Must-Practice Topics</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1408,7 +1408,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Quantitative Aptitude — Must-Practice Topics</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2">Quantitative Aptitude — Must-Practice Topics</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1456,7 +1456,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div>
-                  <h5 className="font-bold text-slate-800 text-xs sm:text-sm mb-2">English — Must-Practice Topics</h5>
+                  <div className="font-bold text-slate-800 text-xs sm:text-sm mb-2">English — Must-Practice Topics</div>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1529,10 +1529,10 @@ export default function ExamMainLayout({ exam }: Props) {
             {isSbi ? (
               <div className="space-y-8">
                 <div>
-                  <h4 className="font-extrabold text-slate-800 text-base mb-4 flex items-center gap-2">
+                  <h3 className="font-extrabold text-slate-800 text-base mb-4 flex items-center gap-2">
                     <Zap size={18} className="text-[#1B6EB5]" />
                     Syllabus Weightage & Important Focus Areas
-                  </h4>
+                  </h3>
 
                   {/* Premium Grid layout instead of table for better mobile responsiveness and readability */}
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -1574,7 +1574,7 @@ export default function ExamMainLayout({ exam }: Props) {
                       >
                         <div>
                           <div className="flex justify-between items-start gap-2 mb-3">
-                            <h5 className="font-extrabold text-slate-800 text-sm leading-snug">{item.title}</h5>
+                            <div className="font-extrabold text-slate-800 text-sm leading-snug">{item.title}</div>
                             <span className={`px-2.5 py-1 rounded-full text-xs font-black shrink-0 ${item.color.split(' ')[3]} bg-white/80 shadow-xs border border-[currentColor]/10`}>
                               {item.weight}
                             </span>
@@ -1588,10 +1588,10 @@ export default function ExamMainLayout({ exam }: Props) {
 
                 {/* Enhanced "How PrepBanker Helps" section with list items inside card layouts */}
                 <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 space-y-4">
-                  <h4 className="font-extrabold text-slate-800 text-base flex items-center gap-2">
+                  <h3 className="font-extrabold text-slate-800 text-base flex items-center gap-2">
                     <CheckCircle2 size={18} className="text-emerald-600" />
                     How PrepBanker Supercharges Your GA Preparation
-                  </h4>
+                  </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {[
                       {
@@ -1620,7 +1620,7 @@ export default function ExamMainLayout({ exam }: Props) {
                           <CheckCircle2 size={14} />
                         </span>
                         <div>
-                          <h5 className="font-bold text-slate-800 text-xs sm:text-sm">{feature.title}</h5>
+                          <div className="font-bold text-slate-800 text-xs sm:text-sm">{feature.title}</div>
                           <p className="text-xs text-slate-500 mt-1 leading-normal font-normal">{feature.desc}</p>
                         </div>
                       </div>
@@ -1653,17 +1653,17 @@ export default function ExamMainLayout({ exam }: Props) {
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:bg-white transition-colors border-l-4 border-l-[#1B6EB5]">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5">
                     Monetary & Regulatory Updates
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Specialized digests summarizing the latest Reserve Bank of India (RBI) notifications, monetary policy revisions, SLR/CRR changes, and commercial banking regulations.
                   </p>
                 </div>
                 <div className="bg-slate-50/50 p-5 rounded-xl border border-slate-200 hover:bg-white transition-colors border-l-4 border-l-[#1B6EB5]">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5">
                     Financial GK & Digests
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Comprehensive monthly news files covering national summits, financial schemes, corporate bank mergers, international indexes, and budget updates.
                   </p>
@@ -1693,7 +1693,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 {exam.strategy.map((phase) => (
                   <div key={phase.focus}>
                     <div className="absolute -left-[9px] w-4 h-4 rounded-full border-2 border-white bg-[#1B6EB5] mt-1" />
-                    <h4 className="font-extrabold text-slate-850 text-sm sm:text-base mb-1">{phase.focus}</h4>
+                    <div className="font-extrabold text-slate-850 text-sm sm:text-base mb-1">{phase.focus}</div>
                     <ul className="list-disc list-inside text-xs sm:text-sm text-slate-600 pl-1 space-y-1 font-normal">
                       {phase.tips.map((tip, index) => (
                         <li key={index}>{tip}</li>
@@ -1712,7 +1712,7 @@ export default function ExamMainLayout({ exam }: Props) {
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-[#1B6EB5]">
-                      <h4 className="font-extrabold text-[#1B6EB5] text-sm sm:text-base mb-1">English (20 mins)</h4>
+                      <div className="font-extrabold text-[#1B6EB5] text-sm sm:text-base mb-1">English (20 mins)</div>
                       <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
                         Start with Fill in the Blanks and Error Detection. Attempt Cloze Test next. Save RC for last.
                       </p>
@@ -1722,7 +1722,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     </div>
 
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-[var(--color-gold)]">
-                      <h4 className="font-extrabold text-[var(--color-gold)] text-sm sm:text-base mb-1">Quant (20 mins)</h4>
+                      <div className="font-extrabold text-[var(--color-gold)] text-sm sm:text-base mb-1">Quant (20 mins)</div>
                       <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
                         Start with Simplification, Number Series, then Quadratic Equations. Attempt DI last. Skip tough Qs.
                       </p>
@@ -1732,7 +1732,7 @@ export default function ExamMainLayout({ exam }: Props) {
                     </div>
 
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 border-t-4 border-t-purple-500">
-                      <h4 className="font-extrabold text-purple-600 text-sm sm:text-base mb-1">Reasoning (20 mins)</h4>
+                      <div className="font-extrabold text-purple-600 text-sm sm:text-base mb-1">Reasoning (20 mins)</div>
                       <p className="text-xs text-slate-600 leading-relaxed mb-2 font-normal">
                         Start with Inequalities, Syllogisms, and Coding-Decoding. Attempt puzzles only if time permits.
                       </p>
@@ -1767,7 +1767,7 @@ export default function ExamMainLayout({ exam }: Props) {
             {isSbi ? (
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</h4>
+                  <h3 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Prelims Cut-off (Out of 100)</h3>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1835,7 +1835,7 @@ export default function ExamMainLayout({ exam }: Props) {
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</h4>
+                  <h3 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Mains Cut-off (Out of 200 Objective)</h3>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
                       <thead>
@@ -1908,9 +1908,9 @@ export default function ExamMainLayout({ exam }: Props) {
               </div>
             ) : (
               <div className="bg-slate-50 border border-slate-200 p-6 rounded-2xl mb-5 space-y-4">
-                <h4 className="text-sm sm:text-base font-extrabold text-slate-800 text-center mb-2">
+                <div className="text-sm sm:text-base font-extrabold text-slate-800 text-center mb-2">
                   Comparative Prelims General Cut-off Marks
-                </h4>
+                </div>
                 <div className="h-44 flex items-end justify-around border-b border-slate-300 pb-2 px-4">
                   {exam.cutoffs.slice(0, 3).map((cutoff) => {
                     const score = cutoff.prelims.general;
@@ -2017,7 +2017,7 @@ export default function ExamMainLayout({ exam }: Props) {
                   </div>
 
                   <div className="space-y-2">
-                    <h4 className="font-extrabold text-slate-850 text-sm sm:text-base">Additional perks & benefits:</h4>
+                    <div className="font-extrabold text-slate-850 text-sm sm:text-base">Additional perks & benefits:</div>
                     <ul className="list-disc list-inside text-slate-655 text-xs sm:text-sm pl-2 space-y-1.5 font-normal">
                       <li>Mediclaim for self & family (₹6 lakh cover)</li>
                       <li>NPS pension</li>
@@ -2092,7 +2092,7 @@ export default function ExamMainLayout({ exam }: Props) {
                   <div className="flex justify-between items-center border-b border-slate-800 pb-3 mb-4 flex-wrap gap-2">
                     <div>
                       <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">Post Cadre: Scale I</span>
-                      <h4 className="font-extrabold text-xs sm:text-sm mt-0.5">{exam.shortName} Entry Level Salary Structure</h4>
+                      <div className="font-extrabold text-xs sm:text-sm mt-0.5">{exam.shortName} Entry Level Salary Structure</div>
                     </div>
                     <span className="text-xs font-black text-[#1B6EB5] bg-blue-50/10 border border-blue-50/20 px-2.5 py-1 rounded-md uppercase tracking-wider">
                       Confirmed Post
@@ -2148,27 +2148,27 @@ export default function ExamMainLayout({ exam }: Props) {
 
               <div className="space-y-6 text-slate-700 text-sm leading-relaxed font-normal">
                 <div>
-                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 1 — Preliminary Exam:</h4>
+                  <h3 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 1 — Preliminary Exam:</h3>
                   <p>Online, 100 questions, 100 marks, 60 minutes. Three sections with individual 20-minute timers. Qualifying in nature — marks are not added to final merit. Approximately top 10–12 candidates per vacancy are shortlisted for Mains.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 2 — Main Exam:</h4>
+                  <h3 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 2 — Main Exam:</h3>
                   <p>Online, 155 objective questions (200 marks, 180 minutes) + 1 Descriptive test (50 marks, 30 minutes). The descriptive test involves an essay and a formal letter. Marks from this stage form the base for final merit. Sectional as well as overall cut-offs apply.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 3 — Group Exercise (GE):</h4>
+                  <h3 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 3 — Group Exercise (GE):</h3>
                   <p>Shortlisted Mains qualifiers appear for a Group Exercise conducted at SBI's regional offices. Candidates are assessed on communication, leadership, listening, and teamwork. This stage carries 20 marks. Typically 3–4 candidates per vacancy are shortlisted from GE for the final interview.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 4 — Personal Interview:</h4>
+                  <h3 className="font-extrabold text-slate-900 text-sm sm:text-base mb-1">Stage 4 — Personal Interview:</h3>
                   <p>30-mark interview conducted by a panel of senior SBI officers and external experts. Focuses on banking awareness, current affairs, general awareness, candidate's background, and situational judgement. Grooming, confidence, and articulation matter significantly at this stage.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Final Merit Calculation</h4>
+                  <h3 className="font-bold text-slate-800 text-sm sm:text-base mb-2">Final Merit Calculation</h3>
                   <div className="w-full overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-xs">
                     <table className="w-full text-left border-collapse min-w-[500px]">
                       <thead>
@@ -2219,72 +2219,72 @@ export default function ExamMainLayout({ exam }: Props) {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     Free SBI PO Mock Tests
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Start with 5 free full-length Prelims mocks and 3 free Mains mocks — no payment required, no card needed. Get instant scores, section-wise analysis, and rank among all test-takers.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     SBI PO Sectional Tests
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     80+ topic-specific sectional tests covering every chapter in the Prelims and Mains syllabus. Timed exactly like the real exam sections.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     10,000+ Practice Questions
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Topic-wise question bank with difficulty filters. Every question has a step-by-step explanation and a shortcut method. Track what you have attempted and your accuracy per topic.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     Live Exam Experience
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Attempt live SBI PO mock tests with thousands of aspirants simultaneously. Real-time leaderboard, countdown timer, and instant result with all-India percentile.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     Daily Current Affairs
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Banking-exam-tagged daily updates. 5-minute daily capsules, monthly PDFs, and weekly quizzes so your GA preparation never goes stale.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     Performance Analytics Dashboard
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Know your speed, accuracy, and percentile for every topic. The analytics dashboard shows improvement trends over time and flags topics where you are losing the most marks.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     Descriptive Writing Practice
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Model essays and letters on banking topics with marking criteria so you are not caught off-guard in the SBI PO Mains descriptive section.
                   </p>
                 </div>
 
                 <div className="bg-slate-50/50 border border-slate-200 p-5 rounded-xl hover:shadow-xs transition-shadow">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base mb-1.5 flex items-center gap-1.5 text-[#1B6EB5]">
                     Study Material & Notes
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     Topic-wise notes for every chapter in the SBI PO syllabus — concise, exam-focused, and regularly updated.
                   </p>
@@ -2350,7 +2350,7 @@ export default function ExamMainLayout({ exam }: Props) {
             <div className="bg-gradient-to-br border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white from-[#030712] to-[#091024]">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack {exam.shortName} 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

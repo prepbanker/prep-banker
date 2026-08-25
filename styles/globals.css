@@ -70,7 +70,7 @@
 
   /* Gold / Accent */
   --color-gold: #D4A017;
-  --color-gold-bright: #F0B429;
+  --color-gold-bright: #B28203;
   --color-gold-light: #FFD966;
   --color-yellow: #FBBF24;
 
@@ -391,4 +391,23 @@ body {
   filter: blur(16px);
   opacity: 0.95;
   transform: scale(1.03);
+}
+
+/* Card hover utility classes for Server Components */
+.ca-card-hover {
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s ease-in-out;
+}
+.ca-card-hover:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+
+.feature-card-hover {
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s ease-in-out;
+}
+.feature-card-hover:hover {
+  box-shadow: 0 8px 32px var(--hover-shadow-color);
+  transform: translateY(-6px);
 }

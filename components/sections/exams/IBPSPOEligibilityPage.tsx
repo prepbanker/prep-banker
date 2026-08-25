@@ -272,9 +272,9 @@ export default function IBPSPOEligibilityPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Verification Data
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -398,20 +398,20 @@ export default function IBPSPOEligibilityPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="bg-gradient-to-br from-indigo-50/50 to-white border border-indigo-100 rounded-2xl p-5 space-y-2 text-center shadow-xs">
                     <span className="text-[10px] uppercase font-black tracking-widest text-indigo-500">Lower Bound Window</span>
-                    <h4 className="font-extrabold text-2xl text-slate-900">20 Years Minimum</h4>
+                    <div className="font-extrabold text-2xl text-slate-900">20 Years Minimum</div>
                     <p className="text-xs text-slate-500 font-semibold leading-relaxed m-0">Born on or before: <strong className="text-slate-700">1 July 2006</strong></p>
                   </div>
                   
                   <div className="bg-gradient-to-br from-indigo-50/50 to-white border border-indigo-100 rounded-2xl p-5 space-y-2 text-center shadow-xs">
                     <span className="text-[10px] uppercase font-black tracking-widest text-indigo-500">Upper Bound Window</span>
-                    <h4 className="font-extrabold text-2xl text-slate-900">30 Years Maximum</h4>
+                    <div className="font-extrabold text-2xl text-slate-900">30 Years Maximum</div>
                     <p className="text-xs text-slate-500 font-semibold leading-relaxed m-0">Born on or after: <strong className="text-slate-700">2 July 1996</strong></p>
                   </div>
                 </div>
 
                 {/* Visual birth window timeline block */}
                 <div className="p-5 bg-slate-55 border border-slate-200 rounded-2xl space-y-3">
-                  <h4 className="font-extrabold text-xs text-slate-500 uppercase tracking-wider">Birth Range Coverage</h4>
+                  <div className="font-extrabold text-xs text-slate-500 uppercase tracking-wider">Birth Range Coverage</div>
                   <div className="w-full h-8 bg-slate-100 rounded-xl relative overflow-hidden flex items-center justify-between px-4 text-xs font-bold text-slate-500">
                     <span className="z-10">2 July 1996</span>
                     <div className="absolute inset-y-0 left-[15%] right-[15%] bg-indigo-500/10 border-x border-indigo-500/30 flex items-center justify-center text-[10px] text-indigo-600 font-black">
@@ -472,9 +472,9 @@ export default function IBPSPOEligibilityPage() {
                 >
                   <div className="space-y-1">
                     <span className="text-[10px] font-black uppercase tracking-wider text-slate-400 font-sans">Category Group</span>
-                    <h4 className="font-extrabold text-sm sm:text-base text-slate-800 group-hover:text-indigo-650 transition-colors">
+                    <div className="font-extrabold text-sm sm:text-base text-slate-800 group-hover:text-indigo-650 transition-colors">
                       {row.cat}
-                    </h4>
+                    </div>
                   </div>
                   <div className="flex justify-between items-center gap-2 border-t border-slate-100 pt-3">
                     <span className={`px-2.5 py-1 text-xs font-black rounded-lg border ${row.color}`}>
@@ -529,7 +529,7 @@ export default function IBPSPOEligibilityPage() {
                   <div className="flex gap-2.5 items-start">
                     <CheckCircle size={16} className="text-emerald-500 shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm">No Minimum % Barrier</h4>
+                      <div className="font-extrabold text-slate-800 text-xs sm:text-sm">No Minimum % Barrier</div>
                       <p className="text-[11px] text-slate-500 font-semibold">Just passing your degree is fully sufficient to fill the form.</p>
                     </div>
                   </div>
@@ -537,7 +537,7 @@ export default function IBPSPOEligibilityPage() {
                   <div className="flex gap-2.5 items-start">
                     <CheckCircle size={16} className="text-emerald-500 shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm">Computer Literacy</h4>
+                      <div className="font-extrabold text-slate-800 text-xs sm:text-sm">Computer Literacy</div>
                       <p className="text-[11px] text-slate-500 font-semibold">Expected working familiarity to handle digital bank operations.</p>
                     </div>
                   </div>
@@ -599,18 +599,18 @@ export default function IBPSPOEligibilityPage() {
               {/* Right side: 2 steps guidelines */}
               <div className="lg:col-span-5 space-y-4">
                 <div className="p-5 bg-white border border-slate-200 rounded-2xl space-y-3 shadow-xs">
-                  <h4 className="font-extrabold text-sm text-slate-800 flex items-center gap-1.5">
+                  <div className="font-extrabold text-sm text-slate-800 flex items-center gap-1.5">
                     <CheckCircle size={15} className="text-indigo-600" /> Cumulative Math Rule
-                  </h4>
+                  </div>
                   <p className="text-xs text-slate-500 font-semibold leading-relaxed m-0">
                     Add up obtained and maximum marks from all subjects, honours, optionals, and semesters combined to compute the base ratio.
                   </p>
                 </div>
 
                 <div className="p-5 bg-white border border-slate-200 rounded-2xl space-y-3 shadow-xs">
-                  <h4 className="font-extrabold text-sm text-slate-800 flex items-center gap-1.5">
+                  <div className="font-extrabold text-sm text-slate-800 flex items-center gap-1.5">
                     <CheckCircle size={15} className="text-rose-500" /> The No Rounding Rule
-                  </h4>
+                  </div>
                   <p className="text-xs text-slate-500 font-semibold leading-relaxed m-0">
                     Fractions are never rounded up. For example, <strong>59.99%</strong> is processed as below 60% and <strong>54.99%</strong> is processed as below 55%.
                   </p>
@@ -645,7 +645,7 @@ export default function IBPSPOEligibilityPage() {
                 >
                   <div className="space-y-1">
                     <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider">Group {idx + 1}</span>
-                    <h4 className="font-extrabold text-sm sm:text-base text-slate-800">{item.title}</h4>
+                    <div className="font-extrabold text-sm sm:text-base text-slate-800">{item.title}</div>
                   </div>
                   <p className="text-xs text-slate-500 leading-normal font-semibold m-0">{item.desc}</p>
                 </div>
@@ -742,7 +742,7 @@ export default function IBPSPOEligibilityPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Medical fitness */}
               <div className="p-5 bg-rose-50/10 border border-rose-100 rounded-2xl space-y-2">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Medical Fitness Check</h4>
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base">Medical Fitness Check</div>
                 <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                   Provisionally selected candidates must clear a standard bank-allotted medical examination. This usually includes blood tests, chest X-rays, sugar levels, and other baseline physical metrics before official onboarding.
                 </p>
@@ -750,7 +750,7 @@ export default function IBPSPOEligibilityPage() {
 
               {/* Credit check */}
               <div className="p-5 bg-emerald-50/10 border border-emerald-100 rounded-2xl space-y-2">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Credit History & CIBIL Score</h4>
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base">Credit History & CIBIL Score</div>
                 <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                   Participating banks require a healthy CIBIL status at joining. If you have an active default or unresolved credit reporting, you must clear it or present a lender-issued NOC to prevent appointment withdrawal.
                 </p>
@@ -791,7 +791,7 @@ export default function IBPSPOEligibilityPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Eligible to register? Outprep the competition.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Eligible to register? Outprep the competition.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Attempt a Free IBPS PO Mock Test and benchmark your baseline percentile score.
                 </p>

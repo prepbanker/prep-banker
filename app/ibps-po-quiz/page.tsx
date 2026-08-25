@@ -283,9 +283,9 @@ export default function IbpsPoQuizPage() {
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-[var(--color-blue)] text-[10px] font-black uppercase tracking-widest">
                 <Sparkles className="w-3.5 h-3.5" /> High-Performance Prep
               </span>
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[var(--color-navy)] leading-tight tracking-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[var(--color-navy)] leading-tight tracking-tight">
                 IBPS PO Quiz 2026: <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-blue)] to-indigo-600">Free Practice Hub</span>
-              </h1>
+              </h2>
               <p className="text-slate-500 text-sm leading-relaxed max-w-2xl">
                 Elevate your score with PrepBanker&apos;s free IBPS PO sectional quizzes, chapter-wise DPPs, full mocks, and previous year papers. Solve interactive questions, receive instant analytics, and automatically target weak topics.
               </p>
@@ -293,9 +293,9 @@ export default function IbpsPoQuizPage() {
 
             {/* Quick Facts Grid Redesign (6 Cards) */}
             <div className="mt-10">
-              <h3 className="text-xs font-black uppercase text-slate-400 tracking-wider mb-5 flex items-center gap-2">
+              <h2 className="text-xs font-black uppercase text-slate-400 tracking-wider mb-5 flex items-center gap-2">
                 <Info className="w-4 h-4 text-[var(--color-gold)]" /> Snapshot Quick Facts
-              </h3>
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 {[
                   { title: "IBPS PO 2026 Vacancies", desc: "6,715 Indicative", extra: "Recruiting across 11 participating public sector banks" },
@@ -338,9 +338,9 @@ export default function IbpsPoQuizPage() {
             {/* Right Card - Who is it for */}
             <div className="lg:col-span-7 bg-white border border-slate-100 rounded-3xl p-6 sm:p-8 shadow-sm flex flex-col justify-between">
               <div>
-                <h3 className="text-lg font-extrabold text-[var(--color-navy)] mb-1.5 flex items-center gap-2">
+                <h2 className="text-lg font-extrabold text-[var(--color-navy)] mb-1.5 flex items-center gap-2">
                   <Target className="w-5 h-5 text-[var(--color-blue)]" /> Who Should Attempt?
-                </h3>
+                </h2>
                 <p className="text-xs sm:text-sm text-slate-500 mb-6">
                   Simplify your conceptual revision. This interactive platform is custom-suited for:
                 </p>
@@ -448,9 +448,9 @@ export default function IbpsPoQuizPage() {
                       {idx + 1}
                     </div>
                     <div className="space-y-1">
-                      <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] group-hover:text-[var(--color-blue)] transition-colors">
+                      <h3 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] group-hover:text-[var(--color-blue)] transition-colors">
                         {step.title}
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-slate-500 leading-relaxed max-w-2xl">
                         {step.body}
                       </p>
@@ -550,7 +550,7 @@ export default function IbpsPoQuizPage() {
                         {idx + 1}
                       </span>
                     </div>
-                    <h4 className="text-sm font-extrabold text-[var(--color-navy)]">{step.subtitle}</h4>
+                    <h3 className="text-sm font-extrabold text-[var(--color-navy)]">{step.subtitle}</h3>
                     <p className="text-xs text-slate-500 leading-relaxed">{step.desc}</p>
                   </div>
                 </div>
@@ -580,7 +580,7 @@ export default function IbpsPoQuizPage() {
                   { name: "Time-Pressure Guesses", bg: "bg-blue-50/50 border-blue-100", titleColor: "text-blue-800", desc: "Alerts you that your speed is lagging. Attempt focused speed-drills and practice short-form quizzes." }
                 ].map((type, idx) => (
                   <div key={idx} className={`p-5 rounded-2xl border ${type.bg} space-y-2`}>
-                    <h4 className={`text-sm font-extrabold ${type.titleColor}`}>{type.name}</h4>
+                    <h3 className={`text-sm font-extrabold ${type.titleColor}`}>{type.name}</h3>
                     <p className="text-xs sm:text-sm text-slate-655 leading-relaxed">{type.desc}</p>
                   </div>
                 ))}
@@ -604,10 +604,10 @@ export default function IbpsPoQuizPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
               {[
-                { title: "IBPS PO Mock Series", desc: "20 full-length practice mock test series.", href: "/ibps-po-mock-test" },
-                { title: "IBPS PO Exam Pattern", desc: "Section weightages and complete syllabus details.", href: "/ibps-po-syllabus" },
-                { title: "DI Chapter-wise Quiz", desc: "Master Quantitative Data Interpretation puzzles.", href: "/quant/data-interpretation-quiz" },
-                { title: "Banking Awareness Quiz", desc: "Weekly updated banking and financial awareness drills.", href: "/banking-awareness-quiz" }
+                { title: "IBPS PO Mock Series", desc: "20 full-length practice mock test series.", href: "/ibps-po/mock-tests" },
+                { title: "IBPS PO Exam Pattern", desc: "Section weightages and complete syllabus details.", href: "/ibps-po/syllabus" },
+                { title: "DI Chapter-wise Quiz", desc: "Master Quantitative Data Interpretation puzzles.", href: "/ibps-po-quiz" },
+                { title: "Banking Awareness Quiz", desc: "Weekly updated banking and financial awareness drills.", href: "/quiz" }
               ].map((link, idx) => (
                 <a
                   key={idx}
@@ -615,9 +615,9 @@ export default function IbpsPoQuizPage() {
                   className="bg-white border border-slate-100 hover:border-[var(--color-blue)]/40 rounded-2xl p-5 shadow-xs hover:shadow-md transition-all group flex flex-col justify-between items-start"
                 >
                   <div className="space-y-1.5">
-                    <h4 className="text-xs sm:text-sm font-extrabold text-[var(--color-navy)] group-hover:text-[var(--color-blue)] transition-colors">
+                    <h3 className="text-xs sm:text-sm font-extrabold text-[var(--color-navy)] group-hover:text-[var(--color-blue)] transition-colors">
                       {link.title}
-                    </h4>
+                    </h3>
                     <p className="text-[11px] sm:text-xs text-slate-450 leading-relaxed">
                       {link.desc}
                     </p>

@@ -47,15 +47,7 @@ export function BlogPostingSchema({ blog }: { blog: Blog }) {
     articleSection: blog.category,
     wordCount: blog.content.replace(/<[^>]+>/g, '').split(/\s+/).length,
     timeRequired: `PT${blog.readTimeMinutes}M`,
-    ...(blog.rating && {
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: blog.rating,
-        bestRating: 5,
-        worstRating: 1,
-        ratingCount: blog.viewCount ?? 100,
-      },
-    }),
+
   };
 
   return (

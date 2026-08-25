@@ -9,25 +9,25 @@ import '@/styles/globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://prepbanker.com'),
   title: {
-    default: 'PrepBanker – #1 Banking Exam Preparation Platform | SBI PO & IBPS PO',
+    default: 'PrepBanker – Banking Exam Preparation Platform | SBI PO & IBPS PO',
     template: '%s | PrepBanker',
   },
   description:
-    'Prepare for SBI PO and IBPS PO with PrepBanker – India\'s most trusted banking exam platform. Full mock tests, live exams, daily current affairs, performance analytics, and expert guidance.',
+    'PrepBanker is a specialized banking exam preparation platform offering structured study guides, detailed exam analysis, and mock tests for SBI PO and IBPS PO candidates. The platform provides sectional practice tests, detailed syllabus breakdowns, and cut-off trends spanning from 2019 to 2025 to support systematic exam preparation.',
   keywords: [
     'SBI PO preparation', 'IBPS PO mock test', 'banking exam preparation',
     'SBI PO 2026', 'IBPS PO 2026', 'banking mock tests online',
     'current affairs banking', 'live banking exam', 'PrepBanker',
   ],
-  authors: [{ name: 'PrepBanker Team', url: 'https://prepbanker.com' }],
+  authors: [{ name: 'PrepBanker Team', url: 'https://prepbanker.com/' }],
   creator: 'PrepBanker',
   publisher: 'PrepBanker',
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://prepbanker.com',
+    url: 'https://prepbanker.com/',
     siteName: 'PrepBanker',
-    title: 'PrepBanker – #1 Banking Exam Preparation Platform',
+    title: 'PrepBanker – Banking Exam Preparation Platform',
     description:
       'Full mock tests, live exams, current affairs, and analytics for SBI PO & IBPS PO aspirants.',
     images: [
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PrepBanker – #1 Banking Exam Preparation Platform',
-    description: 'Prepare for SBI PO & IBPS PO with India\'s most comprehensive banking prep platform.',
+    title: 'PrepBanker – Banking Exam Preparation Platform',
+    description: 'PrepBanker is a specialized banking exam preparation platform offering structured study guides, detailed exam analysis, and mock tests for SBI PO and IBPS PO candidates.',
     images: ['/og-image.png'],
     creator: '@prepbanker',
   },
@@ -64,14 +64,14 @@ export const metadata: Metadata = {
       { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
     ],
   },
-  manifest: '/site.webmanifest',
+  manifest: '/manifest.webmanifest',
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'YOUR_VERIFICATION_CODE',
   },
   other: {
     category: 'Education',
   },
-  alternates: { canonical: 'https://prepbanker.com' },
+  alternates: { canonical: 'https://prepbanker.com/' },
 };
 
 export const viewport: Viewport = {
@@ -97,7 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: 'PrepBanker',
               url: 'https://prepbanker.com',
               logo: 'https://prepbanker.com/logo.png',
-              description: 'India\'s leading banking exam preparation platform for SBI PO and IBPS PO.',
+              description: 'PrepBanker is a specialized banking exam preparation platform offering structured study guides, detailed exam analysis, and mock tests for SBI PO and IBPS PO candidates. The platform provides sectional practice tests, detailed syllabus breakdowns, and cut-off trends spanning from 2019 to 2025 to support systematic exam preparation.',
               sameAs: [
                 'https://twitter.com/prepbanker',
                 'https://www.facebook.com/prepbanker',
@@ -112,9 +112,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Google Analytics (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-C4MJ8ENML7"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

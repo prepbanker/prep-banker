@@ -280,9 +280,9 @@ export default function IBPSPOImportantDatesPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Verification Log
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -509,7 +509,7 @@ export default function IBPSPOImportantDatesPage() {
                   <Bell size={16} />
                   <span className="text-[10px] font-black uppercase tracking-wider">Official Notices</span>
                 </div>
-                <h4 className="font-extrabold text-sm text-slate-900 m-0">Extension Bulletins</h4>
+                <div className="font-extrabold text-sm text-slate-900 m-0">Extension Bulletins</div>
                 <p className="text-xs text-slate-550 font-semibold leading-relaxed m-0">
                   IBPS issues extensions via official web notice markers on the careers section of ibps.in, rather than publishing completely new PDF notifications.
                 </p>
@@ -521,7 +521,7 @@ export default function IBPSPOImportantDatesPage() {
                   <Calendar size={16} />
                   <span className="text-[10px] font-black uppercase tracking-wider">Expected Schedules</span>
                 </div>
-                <h4 className="font-extrabold text-sm text-slate-900 m-0">Provisional Dates</h4>
+                <div className="font-extrabold text-sm text-slate-900 m-0">Provisional Dates</div>
                 <p className="text-xs text-slate-550 font-semibold leading-relaxed m-0">
                   Admit cards and results schedules are always tentative. Treat them as expected estimates until the live link goes active on the portal.
                 </p>
@@ -533,7 +533,7 @@ export default function IBPSPOImportantDatesPage() {
                   <Clock size={16} />
                   <span className="text-[10px] font-black uppercase tracking-wider">Real-Time Sync</span>
                 </div>
-                <h4 className="font-extrabold text-sm text-slate-900 m-0">Daily Date Checks</h4>
+                <div className="font-extrabold text-sm text-slate-900 m-0">Daily Date Checks</div>
                 <p className="text-xs text-slate-550 font-semibold leading-relaxed m-0">
                   We verify official portals daily. Bookmark this calendar to get instant dates instead of checking outdated offline PDFs.
                 </p>
@@ -644,7 +644,7 @@ export default function IBPSPOImportantDatesPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Ready to test your readiness?</h4>
+                <div className="font-black text-base sm:text-lg text-white">Ready to test your readiness?</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Take a free Prelims mock test constructed according to the official CRP XVI schedule constraints.
                 </p>

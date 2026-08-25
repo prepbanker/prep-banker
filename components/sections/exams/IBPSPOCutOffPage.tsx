@@ -261,9 +261,9 @@ export default function IBPSPOCutOffPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Vacancy Key Highlights
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -527,7 +527,7 @@ export default function IBPSPOCutOffPage() {
                   <div className="p-2.5 rounded-xl bg-amber-500/10 text-amber-600 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
                     <BarChart4 size={20} className="stroke-[2.5]" />
                   </div>
-                  <h4 className="font-extrabold text-slate-900 text-base font-display">Seat Vacancies</h4>
+                  <div className="font-extrabold text-slate-900 text-base font-display">Seat Vacancies</div>
                 </div>
                 <div className="space-y-2">
                   <p className="text-sm font-extrabold text-slate-800 leading-snug">
@@ -545,7 +545,7 @@ export default function IBPSPOCutOffPage() {
                   <div className="p-2.5 rounded-xl bg-blue-500/10 text-[#1B6EB5] group-hover:bg-[#1B6EB5] group-hover:text-white transition-colors duration-300">
                     <Users size={20} className="stroke-[2.5]" />
                   </div>
-                  <h4 className="font-extrabold text-slate-900 text-base font-display">Applicant Volumes</h4>
+                  <div className="font-extrabold text-slate-900 text-base font-display">Applicant Volumes</div>
                 </div>
                 <div className="space-y-2">
                   <p className="text-sm font-extrabold text-slate-800 leading-snug">
@@ -563,7 +563,7 @@ export default function IBPSPOCutOffPage() {
                   <div className="p-2.5 rounded-xl bg-indigo-500/10 text-indigo-650 group-hover:bg-indigo-650 group-hover:text-white transition-colors duration-300">
                     <Sliders size={20} className="stroke-[2.5]" />
                   </div>
-                  <h4 className="font-extrabold text-slate-900 text-base font-display">Difficulty & Normalization</h4>
+                  <div className="font-extrabold text-slate-900 text-base font-display">Difficulty & Normalization</div>
                 </div>
                 <div className="space-y-2">
                   <p className="text-sm font-extrabold text-slate-800 leading-snug">
@@ -581,7 +581,7 @@ export default function IBPSPOCutOffPage() {
                   <div className="p-2.5 rounded-xl bg-rose-500/10 text-rose-600 group-hover:bg-rose-500 group-hover:text-white transition-colors duration-300">
                     <AlertCircle size={20} className="stroke-[2.5]" />
                   </div>
-                  <h4 className="font-extrabold text-slate-900 text-base font-display">Sectional Minimums</h4>
+                  <div className="font-extrabold text-slate-900 text-base font-display">Sectional Minimums</div>
                 </div>
                 <div className="space-y-2">
                   <p className="text-sm font-extrabold text-slate-800 leading-snug">
@@ -887,7 +887,7 @@ export default function IBPSPOCutOffPage() {
                   1
                 </span>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Target a Margin of Safety</h4>
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base">Target a Margin of Safety</div>
                   <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed">
                     Aim 8–10 marks above the highest cutoff of the last 4 years for your category. While 2026 has more vacancies, applicant counts are higher.
                   </p>
@@ -900,7 +900,7 @@ export default function IBPSPOCutOffPage() {
                   2
                 </span>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Monitor Sectional Benchmarks</h4>
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base">Monitor Sectional Benchmarks</div>
                   <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed">
                     Track your sectional score separately in every mock, not just your overall score. Missing even one sectional minimum results in disqualification.
                   </p>
@@ -913,7 +913,7 @@ export default function IBPSPOCutOffPage() {
                   3
                 </span>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Stay Updated Live</h4>
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base">Stay Updated Live</div>
                   <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed">
                     Re-check this page in September 2026 once the official Prelims cutoff is released. We update this space within 24 hours of the official notice.
                   </p>
@@ -926,7 +926,7 @@ export default function IBPSPOCutOffPage() {
                   4
                 </span>
                 <div className="space-y-1">
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Simulate Normalization Shift</h4>
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base">Simulate Normalization Shift</div>
                   <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed">
                     Use full-length timed mock tests. This helps you adapt to normalization-adjusted shift difficulties and manage your speed.
                   </p>
@@ -959,7 +959,7 @@ export default function IBPSPOCutOffPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Target scores set — now outprep the competition.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Target scores set — now outprep the competition.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Analyze your performance with simulated mock tests. Practice sectionals to seal your entry requirements.
                 </p>

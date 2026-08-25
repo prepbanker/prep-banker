@@ -234,7 +234,7 @@ export default function ResultsPage({ result, questions, answers, language, onRe
             <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 flex items-start gap-3.5 shadow-xs">
               <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
               <div className="space-y-1">
-                <h4 className="text-xs font-extrabold text-amber-900 uppercase tracking-wider">Suggested Improvement Areas</h4>
+                <div className="text-xs font-extrabold text-amber-900 uppercase tracking-wider">Suggested Improvement Areas</div>
                 <p className="text-xs text-amber-800 leading-relaxed font-semibold">
                   Based on your score, your accuracy in <span className="font-extrabold uppercase">{weakAreas.map(w => w.replace(/-/g, ' ')).join(', ')}</span> falls below 50%. We recommend reviewing these core conceptual rules and formulas prior to taking another mock exam.
                 </p>
@@ -324,7 +324,7 @@ export default function ResultsPage({ result, questions, answers, language, onRe
             
             {/* Blurred skeleton content overlay */}
             <div className="filter blur-sm select-none pointer-events-none opacity-40 space-y-6">
-              <h4 className="text-sm font-extrabold text-[var(--color-navy)] border-b pb-2">Detailed Solution Analysis</h4>
+              <div className="text-sm font-extrabold text-[var(--color-navy)] border-b pb-2">Detailed Solution Analysis</div>
               <div className="space-y-3">
                 {[1, 2].map((i) => (
                   <div key={i} className="p-4 bg-white border rounded-xl flex flex-col gap-2">

@@ -257,9 +257,9 @@ export default function IBPSPOMockTestsPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Practice Key Highlights
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -618,7 +618,7 @@ export default function IBPSPOMockTestsPage() {
               <div className="lg:col-span-4 p-5 bg-slate-900 text-white rounded-3xl flex flex-col justify-between gap-5 shadow-md">
                 <div className="space-y-2">
                   <span className="text-[10px] text-amber-400 font-black uppercase tracking-wider">Instant Access</span>
-                  <h4 className="font-extrabold text-white text-base sm:text-lg">No Credit Card Needed</h4>
+                  <div className="font-extrabold text-white text-base sm:text-lg">No Credit Card Needed</div>
                   <p className="text-xs text-slate-350 leading-relaxed font-semibold">
                     Sign up immediately on our practice engine to claim your free mock credit and start practicing.
                   </p>
@@ -697,9 +697,9 @@ export default function IBPSPOMockTestsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Left Column: Mock Mocks */}
               <div className="p-6 bg-white border border-slate-250 rounded-3xl space-y-4 shadow-xs">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
                   <span className="w-2.5 h-2.5 rounded-full bg-indigo-650" /> Mock Tests
-                </h4>
+                </div>
                 <div className="space-y-3.5 text-xs font-semibold text-slate-500">
                   <div className="flex gap-2">
                     <CheckCircle size={15} className="text-emerald-500 shrink-0 mt-0.5" />
@@ -724,9 +724,9 @@ export default function IBPSPOMockTestsPage() {
 
               {/* Right Column: PYQs */}
               <div className="p-6 bg-white border border-indigo-150 rounded-3xl space-y-4 shadow-xs">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#1B6EB5]" /> Previous Year Papers
-                </h4>
+                </div>
                 <div className="space-y-3.5 text-xs font-semibold text-slate-500">
                   <div className="flex gap-2">
                     <CheckCircle size={15} className="text-indigo-655 shrink-0 mt-0.5" />
@@ -776,9 +776,9 @@ export default function IBPSPOMockTestsPage() {
                     <div className={`p-2 w-fit rounded-lg ${item.color}`}>
                       <item.icon size={18} />
                     </div>
-                    <h4 className="font-extrabold text-xs sm:text-sm text-slate-850 group-hover:text-indigo-650 transition-colors">
+                    <div className="font-extrabold text-xs sm:text-sm text-slate-850 group-hover:text-indigo-650 transition-colors">
                       {item.title}
-                    </h4>
+                    </div>
                   </div>
                   <p className="text-[11px] text-slate-500 leading-normal font-semibold m-0">{item.desc}</p>
                 </div>
@@ -816,9 +816,9 @@ export default function IBPSPOMockTestsPage() {
 
               {/* Right Column: Key Details */}
               <div className="lg:col-span-6 p-5 bg-white border border-slate-200 rounded-3xl space-y-3 shadow-xs font-sans text-xs sm:text-sm text-slate-500">
-                <h4 className="font-extrabold text-sm sm:text-base text-slate-850 flex items-center gap-1.5">
+                <div className="font-extrabold text-sm sm:text-base text-slate-850 flex items-center gap-1.5">
                   <CheckCircle size={16} className="text-[#1B6EB5]" /> Descriptive Section Targets
-                </h4>
+                </div>
                 <p className="font-semibold leading-relaxed">
                   The Mains Descriptive Paper yields 25 marks (Letter + Essay writing) and is evaluated separately. Cleared cutoffs are mandatory to qualify for interview rounds.
                 </p>
@@ -868,7 +868,7 @@ export default function IBPSPOMockTestsPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Ready to benchmark your rank? Start now.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Ready to benchmark your rank? Start now.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Take a diagnostic mock test. Instant explanations, scorecards, and sectional analytical splits included.
                 </p>

@@ -1,5 +1,5 @@
 // PATH: components/sections/TestimonialsSection.tsx
-'use client';
+
 
 import { Zap } from 'lucide-react';
 import { Button } from '@/components/ui';

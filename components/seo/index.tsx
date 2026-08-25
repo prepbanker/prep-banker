@@ -75,20 +75,16 @@ export function BreadcrumbSchema({ items }: {
 // ── ProductSchema ────────────────────────
 export function ProductSchema({
   name = 'PrepBanker – Banking Exam Preparation Platform',
-  description = "India's most trusted banking exam preparation platform for SBI PO and IBPS PO aspirants.",
+  description = "A specialized banking exam preparation platform offering structured study guides, detailed exam analysis, and mock tests for SBI PO and IBPS PO candidates.",
   url = 'https://prepbanker.com',
   price = '0',
   currency = 'INR',
-  ratingValue = '4.8',
-  reviewCount = '8000',
 }: {
   name?: string;
   description?: string;
   url?: string;
   price?: string;
   currency?: string;
-  ratingValue?: string;
-  reviewCount?: string;
 } = {}) {
   const schema = {
     '@context': 'https://schema.org',
@@ -97,13 +93,6 @@ export function ProductSchema({
     description,
     url,
     brand: { '@type': 'Brand', name: 'PrepBanker' },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue,
-      reviewCount,
-      bestRating: '5',
-      worstRating: '1',
-    },
     offers: {
       '@type': 'Offer',
       priceCurrency: currency,
@@ -247,10 +236,10 @@ export function ArticleSchema({
   image,
   datePublished,
   authorName = 'Yashraj Deshmukh',
-  authorUrl = 'https://prepbanker.com/author/yashraj-deshmukh',
+  authorUrl = 'https://prepbanker.com/authors/yashraj-deshmukh',
   authorImage = 'https://prepbanker.com/images/profile/yashraj-deshmukh.jpeg',
   reviewerName = 'Divya Bhosale',
-  reviewerUrl = 'https://prepbanker.com/author/divya-bhosale',
+  reviewerUrl = 'https://prepbanker.com/authors/divya-bhosale',
   publisherName = 'PrepBanker',
   publisherLogoUrl = 'https://prepbanker.com/logo.png',
   url,
@@ -314,7 +303,7 @@ export function AuthorPersonSchema() {
     {
       '@context': 'https://schema.org',
       '@type': 'Person',
-      '@id': 'https://prepbanker.com/author/yashraj-deshmukh#person',
+      '@id': 'https://prepbanker.com/authors/yashraj-deshmukh#person',
       name: 'Yashraj Deshmukh',
       jobTitle: 'Senior Content Manager – Banking Exams',
       worksFor: {
@@ -322,7 +311,7 @@ export function AuthorPersonSchema() {
         name: 'PrepBanker',
         url: 'https://prepbanker.com'
       },
-      url: 'https://prepbanker.com/author/yashraj-deshmukh',
+      url: 'https://prepbanker.com/authors/yashraj-deshmukh',
       image: 'https://prepbanker.com/images/profile/yashraj-deshmukh.jpeg',
       sameAs: [
         'https://www.linkedin.com/in/yashraj-deshmukh2409'
@@ -331,7 +320,7 @@ export function AuthorPersonSchema() {
     {
       '@context': 'https://schema.org',
       '@type': 'Person',
-      '@id': 'https://prepbanker.com/author/divya-bhosale#person',
+      '@id': 'https://prepbanker.com/authors/divya-bhosale#person',
       name: 'Divya Bhosale',
       jobTitle: 'Subject Matter Expert, Quantitative Aptitude',
       worksFor: {
@@ -339,7 +328,7 @@ export function AuthorPersonSchema() {
         name: 'PrepBanker',
         url: 'https://prepbanker.com'
       },
-      url: 'https://prepbanker.com/author/divya-bhosale'
+      url: 'https://prepbanker.com/authors/divya-bhosale'
     }
   ];
 

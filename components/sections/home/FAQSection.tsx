@@ -1,5 +1,5 @@
 // PATH: components/sections/home/FAQSection.tsx
-'use client';
+
 
 import SharedFAQSection from '@/components/shared/FAQSection';
 import { HOME_FAQS } from '@/lib/data/homeFaqs';

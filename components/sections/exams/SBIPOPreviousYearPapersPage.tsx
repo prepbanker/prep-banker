@@ -1,35 +1,8 @@
-// PATH: app/sbi-po-previous-year-question-papers/page.tsx
-import type { Metadata } from 'next';
+// PATH: components/sections/exams/SBIPOPreviousYearPapersPage.tsx
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PreviousYearPapersLayout, { PYQPaper } from '@/components/sections/previous-year-papers/PreviousYearPapersLayout';
 import { Lightbulb, Calendar, Compass, Search, Clock, FileEdit, RefreshCw, Trophy, Columns, Link } from 'lucide-react';
-
-// --- SEO Metadata ---
-export const metadata: Metadata = {
-  title: 'SBI PO Previous Year Question Papers (2016–2025) Free PDF',
-  description:
-    'Download SBI PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, attempt topic-wise mock tests free on PrepBanker.',
-  keywords: [
-    'SBI PO previous year question papers',
-    'SBI PO PYQ pdf',
-    'SBI PO previous year papers with solutions',
-    'SBI PO prelims previous year paper',
-    'SBI PO mains question paper',
-    'SBI PO memory based papers',
-    'SBI PO exam pattern',
-  ],
-  alternates: {
-    canonical: 'https://prepbanker.com/sbi-po-previous-year-question-papers',
-  },
-  openGraph: {
-    title: 'SBI PO Previous Year Question Papers (2016–2025) Free PDF',
-    description:
-      'Download SBI PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, attempt topic-wise mock tests free on PrepBanker.',
-    url: 'https://prepbanker.com/sbi-po-previous-year-question-papers',
-    type: 'website',
-  },
-};
 
 // --- Hardcoded Papers for SBI PO ---
 const SBI_PO_PAPERS: PYQPaper[] = [
@@ -242,7 +215,7 @@ const breadcrumbSchemaJson = {
       "@type": "ListItem",
       "position": 2,
       "name": "SBI PO Previous Year Question Papers",
-      "item": "https://prepbanker.com/sbi-po-previous-year-question-papers"
+      "item": "https://prepbanker.com/sbi-po/previous-year-papers"
     }
   ]
 };
@@ -250,8 +223,8 @@ const breadcrumbSchemaJson = {
 const webPageSchemaJson = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://prepbanker.com/sbi-po-previous-year-question-papers",
-  "url": "https://prepbanker.com/sbi-po-previous-year-question-papers",
+  "@id": "https://prepbanker.com/sbi-po/previous-year-papers",
+  "url": "https://prepbanker.com/sbi-po/previous-year-papers",
   "name": "SBI PO Previous Year Question Papers (2016–2025) Free PDF",
   "description": "Download SBI PO previous year question papers 2016–2025 with solutions. Practice prelims and mains PYQs section-wise, then attempt free topic-wise mock tests on PrepBanker.",
   "datePublished": "2026-06-23",
@@ -263,7 +236,7 @@ const webPageSchemaJson = {
     "url": "https://prepbanker.com"
   },
   "breadcrumb": {
-    "@id": "https://prepbanker.com/sbi-po-previous-year-question-papers#breadcrumb"
+    "@id": "https://prepbanker.com/sbi-po/previous-year-papers#breadcrumb"
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
@@ -290,7 +263,7 @@ const courseSchemaJson = {
   }
 };
 
-export default function SBIPOPapersPage() {
+export default function SBIPOPreviousYearPapersPage() {
   return (
     <>
       {/* Dynamic SEO Schemas hoisted natively (prevents hydration mismatch) */}
@@ -335,10 +308,10 @@ export default function SBIPOPapersPage() {
             {/* Stats Card */}
             <div className="bg-gradient-to-br from-[var(--color-navy-deep)] to-[var(--color-navy-mid)] text-white border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-md">
               <div>
-                <h4 className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-4 flex items-center gap-1.5">
+                <div className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-4 flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-gold-bright)] animate-pulse" />
                   Competitiveness Stats
-                </h4>
+                </div>
                 <div className="space-y-3.5">
                   <div className="flex justify-between items-baseline border-b border-white/10 pb-2">
                     <span className="text-xs font-semibold text-slate-300">Applicants (2025)</span>
@@ -362,7 +335,7 @@ export default function SBIPOPapersPage() {
             {/* Insights Card */}
             <div className="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-[0_4px_20px_rgba(13,27,62,0.02)]">
               <div>
-                <h4 className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-3.5">Critical Pattern Insights</h4>
+                <div className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-3.5">Critical Pattern Insights</div>
                 <ul className="space-y-3.5 text-xs sm:text-sm text-slate-600">
                   <li className="flex gap-2.5 items-start">
                     <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 text-xs shrink-0 font-bold">✔</span>
@@ -451,7 +424,7 @@ export default function SBIPOPapersPage() {
                     Current Peak
                   </span>
                 </div>
-                <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Advanced Logic-Heavy & High Complexity</h4>
+                <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Advanced Logic-Heavy & High Complexity</div>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
                   Mains papers reached high difficulty. Focus is on massive multi-layered puzzles, application-heavy Data Interpretation sets, and direct current affairs from the preceding 6 months.
                 </p>
@@ -467,7 +440,7 @@ export default function SBIPOPapersPage() {
                     2022 – 2023
                   </span>
                 </div>
-                <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Hybrid Puzzles & Caselets Escalation</h4>
+                <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Hybrid Puzzles & Caselets Escalation</div>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
                   Significant increase in caselet-based Data Interpretation and reasoning puzzles combining two different rules (e.g. seating arrangement + coding).
                 </p>
@@ -483,7 +456,7 @@ export default function SBIPOPapersPage() {
                     2021 & Prior
                   </span>
                 </div>
-                <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Calculation-Based Core (COVID Period)</h4>
+                <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Calculation-Based Core (COVID Period)</div>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
                   Mainly calculation-based Quant (Simplifications, number series) and traditional puzzle frameworks. Included 2021 COVID-period shifts.
                 </p>
@@ -519,7 +492,7 @@ export default function SBIPOPapersPage() {
                     <div className="mb-3 w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center shadow-xs border border-slate-100 text-[var(--color-blue)]">
                       <StepIcon className="w-4 h-4" />
                     </div>
-                    <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</h4>
+                    <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</div>
                     <p className="text-xs text-slate-500 mt-2 leading-relaxed">{step.desc}</p>
                   </div>
                 </div>

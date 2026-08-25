@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { authors } from '@/lib/data/authors';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://prepbanker.com';
@@ -45,7 +46,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'quant-tests',
     'reasoning-tests',
     'comparison',
-    'study-plan'
+    'study-plan',
+    'previous-year-papers'
   ];
   const detailPages: MetadataRoute.Sitemap = [];
   for (const examId of exams) {
@@ -66,9 +68,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  const authorPages = Object.keys(authors).map(slug => ({
+    url: `${baseUrl}/authors/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.5,
+  }));
+
   return [
     ...staticPages,
     ...examPages,
     ...detailPages,
+    ...authorPages,
   ];
 }

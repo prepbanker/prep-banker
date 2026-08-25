@@ -306,10 +306,10 @@ export default function TestRunner({ questionSet, state, dispatch }: TestRunnerP
           {/* Reading Comprehension Scrollbox */}
           {passageText && (
             <div className="bg-white p-3 sm:p-4 md:p-5 rounded-xl border border-slate-200 shadow-2xs flex flex-col max-h-[140px] sm:max-h-[180px] md:max-h-[220px] shrink-0 overflow-hidden mb-3">
-              <h4 className="text-[9.5px] sm:text-[11px] md:text-[12px] font-black uppercase text-slate-450 tracking-wider mb-2 flex items-center gap-1.5">
+              <div className="text-[9.5px] sm:text-[11px] md:text-[12px] font-black uppercase text-slate-450 tracking-wider mb-2 flex items-center gap-1.5">
                 <FileText className="w-3.5 h-3.5 text-[var(--color-blue)]" />
                 Passage (Scroll to Read)
-              </h4>
+              </div>
               <div className="overflow-y-auto text-[11px] sm:text-[12.5px] md:text-[13.5px] text-slate-700 leading-relaxed pr-1.5 font-serif border border-slate-100 p-2.5 rounded-lg bg-slate-50">
                 {passageText}
               </div>
@@ -403,16 +403,16 @@ export default function TestRunner({ questionSet, state, dispatch }: TestRunnerP
               <User className="w-4 h-4" />
             </div>
             <div className="min-w-0">
-              <h4 className="text-[11.5px] sm:text-xs font-black text-[var(--color-navy-deep)] truncate">Guest Candidate</h4>
+              <div className="text-[11.5px] sm:text-xs font-black text-[var(--color-navy-deep)] truncate">Guest Candidate</div>
               <p className="text-[9.5px] sm:text-[10px] text-slate-400 font-black tracking-wider uppercase">Free Mock Session</p>
             </div>
           </div>
 
           {/* Palette Grid */}
           <div className="mb-5">
-            <h4 className="text-[10px] sm:text-[11px] font-black text-slate-450 uppercase tracking-widest mb-3">
+            <div className="text-[10px] sm:text-[11px] font-black text-slate-450 uppercase tracking-widest mb-3">
               Question Palette
-            </h4>
+            </div>
             <div className="grid grid-cols-4 gap-2">
               {questions.map((q, idx) => {
                 const userAns = answers[q.id];
@@ -452,9 +452,9 @@ export default function TestRunner({ questionSet, state, dispatch }: TestRunnerP
 
           {/* Color Legend */}
           <div className="border-t border-slate-100 pt-5 flex flex-col gap-3 mb-6">
-            <h5 className="text-[10px] sm:text-[11px] font-black text-slate-450 uppercase tracking-widest">
+            <div className="text-[10px] sm:text-[11px] font-black text-slate-450 uppercase tracking-widest">
               Legend Status
-            </h5>
+            </div>
             <div className="flex flex-col gap-2.5 text-[11px] sm:text-xs font-bold text-slate-650">
               <div className="flex items-center gap-2.5">
                 <span className="w-4 h-4 rounded bg-[var(--color-success)]" />
@@ -694,7 +694,7 @@ export default function TestRunner({ questionSet, state, dispatch }: TestRunnerP
                 <div className="w-9 h-9 rounded-full bg-emerald-50 text-emerald-500 mx-auto flex items-center justify-center">
                   ✓
                 </div>
-                <h4 className="text-xs font-black text-[var(--color-navy)]">Report Filed!</h4>
+                <div className="text-xs font-black text-[var(--color-navy)]">Report Filed!</div>
                 <p className="text-[10px] text-slate-500">Thank you. The issue has been registered for auditing.</p>
                 <button
                   onClick={() => { setIssueSubmitted(false); setShowReportIssueModal(false); setIssueText(''); }}

@@ -215,7 +215,7 @@ export default function SBIPOReasoningTestsPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-5 pr-5 pl-6 sm:py-6 sm:pr-6 sm:pl-7 rounded-2xl flex flex-col justify-between space-y-2 hover:border-slate-350 transition-all duration-200 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest font-sans">Reason 0{idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.title}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">{item.desc}</p>
                       </div>
                     </div>
@@ -292,7 +292,7 @@ export default function SBIPOReasoningTestsPage() {
               <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-xs font-sans">
                 <div className="border border-blue-150 border-l-4 border-l-[#1B6EB5] bg-blue-50/15 py-5 pr-5 pl-6 rounded-2xl space-y-3">
                   <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Official Pacing</span>
-                  <h4 className="font-extrabold text-slate-900 text-base leading-tight m-0">Prelims Reasoning Structure</h4>
+                  <div className="font-extrabold text-slate-900 text-base leading-tight m-0">Prelims Reasoning Structure</div>
                   <p className="text-slate-655 text-xs sm:text-sm leading-relaxed m-0 pt-1">
                     Each Reasoning sectional test on PrepBanker mirrors the real Prelims section, timed independently of English and Quant so you build the habit of finishing Reasoning within its own sectional window on exam day — including at least one full puzzle-heavy set per test, since that's where the section's marks are concentrated.
                   </p>
@@ -322,7 +322,7 @@ export default function SBIPOReasoningTestsPage() {
                         <span className="inline-block px-2 py-0.5 rounded bg-white border border-slate-200 text-[9px] font-black uppercase tracking-wider text-slate-500">
                           {item.badge}
                         </span>
-                        <h4 className="font-extrabold text-slate-900 text-xs sm:text-sm leading-tight pt-1">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-xs sm:text-sm leading-tight pt-1">{item.title}</div>
                         <span className="block text-[11px] text-slate-500 font-semibold">{item.focus}</span>
                       </div>
                       <a
@@ -390,7 +390,7 @@ export default function SBIPOReasoningTestsPage() {
                         <Check size={14} className="text-emerald-600" />
                       </div>
                       <div className="space-y-0.5">
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.topic}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.topic}</div>
                         <span className="block text-xs text-slate-500 font-semibold leading-normal">{item.tip}</span>
                       </div>
                     </div>
@@ -430,7 +430,7 @@ export default function SBIPOReasoningTestsPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-5 pr-5 pl-6 sm:py-6 sm:pr-6 sm:pl-7 rounded-2xl flex flex-col justify-between space-y-1.5 transition-all duration-200 hover:border-slate-350 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Analytics {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">{item.desc}</p>
                       </div>
                     </div>
@@ -500,7 +500,7 @@ export default function SBIPOReasoningTestsPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

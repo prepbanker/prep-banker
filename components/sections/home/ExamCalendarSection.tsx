@@ -1,4 +1,3 @@
-'use client';
 
 import { Calendar, Info, Bell, ArrowRight, Star, Flag } from 'lucide-react';
 import { SectionTitle, Button } from '@/components/ui';

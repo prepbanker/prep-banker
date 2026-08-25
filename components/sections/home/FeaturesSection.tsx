@@ -1,7 +1,4 @@
 // PATH: components/sections/home/FeaturesSection.tsx
-'use client';
-
-import { useState } from 'react';
 import {
   GraduationCap,
   ClipboardList,
@@ -43,8 +40,6 @@ const ACCENT_COLORS = [
 ];
 
 export default function FeaturesSection() {
-  const [activeId, setActiveId] = useState<string | null>(null);
-
   return (
     <section aria-label="Why Prepare with PrepBanker Mock Tests" className="py-20 bg-gradient-to-b from-[var(--color-off-white)] to-[var(--color-sky)]">
       <div className="container-custom">
@@ -56,31 +51,25 @@ export default function FeaturesSection() {
         />
 
         {/* Feature Grid */}
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12 list-none">
           {features.map((feat, i) => {
             const color = ACCENT_COLORS[i % ACCENT_COLORS.length];
-            const isActive = activeId === feat.id;
 
             return (
               <li
                 key={feat.id}
-                onMouseEnter={() => setActiveId(feat.id)}
-                onMouseLeave={() => setActiveId(null)}
-                className={`bg-white rounded-2xl p-6 border border-slate-100/80 transition-all duration-300 cursor-default flex flex-col gap-4 ${
-                  isActive ? 'shadow-lg -translate-y-1.5' : 'shadow-[var(--shadow-card)] translate-y-0'
-                }`}
                 style={{
-                  boxShadow: isActive ? `0 8px 32px ${color}20` : undefined,
-                }}
+                  '--hover-shadow-color': `${color}20`,
+                  '--accent-color': color,
+                  '--accent-bg-default': `${color}15`,
+                  '--accent-shadow-hover': `0 4px 16px ${color}40`,
+                  '--accent-check-bg-hover': `${color}20`,
+                } as React.CSSProperties}
+                className="bg-white rounded-2xl p-6 border border-slate-100/80 shadow-[var(--shadow-card)] transition-all duration-300 cursor-default flex flex-col gap-4 hover:shadow-lg hover:-translate-y-1.5 feature-card-hover group"
               >
                 {/* Icon box */}
                 <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300"
-                  style={{
-                    background: isActive ? color : `${color}15`,
-                    color: isActive ? '#fff' : color,
-                    boxShadow: isActive ? `0 4px 16px ${color}40` : 'none',
-                  }}
+                  className="w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300 bg-[var(--accent-bg-default)] text-[var(--accent-color)] group-hover:bg-[var(--accent-color)] group-hover:text-white group-hover:shadow-[var(--accent-shadow-hover)]"
                 >
                   {ICONS[feat.icon] ?? <span style={{ fontSize: '1.4rem' }}>⚡</span>}
                 </div>
@@ -105,22 +94,14 @@ export default function FeaturesSection() {
                   {feat.highlights.map((h, j) => (
                     <li
                       key={j}
-                      className={`flex items-center gap-2 text-xs transition-all duration-300 ${
-                        isActive ? 'text-[var(--color-navy)]' : 'text-[var(--color-gray-600)]'
-                      }`}
+                      className="flex items-center gap-2 text-xs transition-all duration-300 text-[var(--color-gray-600)] group-hover:text-[var(--color-navy)]"
                     >
                       <span
-                        className="w-4 h-4 flex-shrink-0 rounded-full flex items-center justify-center transition-all duration-300"
-                        style={{
-                          background: isActive ? `${color}20` : 'var(--color-gray-100)',
-                        }}
+                        className="w-4 h-4 flex-shrink-0 rounded-full flex items-center justify-center transition-all duration-300 bg-[var(--color-gray-100)] group-hover:bg-[var(--accent-check-bg-hover)]"
                       >
                         <Check
                           size={10}
-                          className="transition-all duration-300"
-                          style={{
-                            color: isActive ? color : 'var(--color-gray-400)',
-                          }}
+                          className="transition-all duration-300 text-[var(--color-gray-400)] group-hover:text-[var(--accent-color)]"
                         />
                       </span>
                       {h}

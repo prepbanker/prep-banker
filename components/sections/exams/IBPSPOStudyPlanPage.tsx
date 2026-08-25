@@ -226,9 +226,9 @@ export default function IBPSPOStudyPlanPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Key Timeline Dates
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -388,9 +388,9 @@ export default function IBPSPOStudyPlanPage() {
                   <div className="p-4 bg-white border border-slate-150 rounded-2xl space-y-1.5">
                     {selectedPlanTier === 'crunch' && (
                       <>
-                        <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                        <div className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
                           <AlertTriangle size={15} className="text-[#FBBF24]" /> Crunch Phase Strategy
-                        </h4>
+                        </div>
                         <p className="text-xs text-slate-500 font-semibold leading-relaxed">
                           Best for repeat aspirants or candidates with strong conceptual baselines. Focus strictly on full-length mock tests and active error log revision. Avoid starting new topics entirely.
                         </p>
@@ -398,9 +398,9 @@ export default function IBPSPOStudyPlanPage() {
                     )}
                     {selectedPlanTier === 'balanced' && (
                       <>
-                        <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                        <div className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
                           <Sliders size={15} className="text-[#1B6EB5]" /> Balanced Phase Strategy
-                        </h4>
+                        </div>
                         <p className="text-xs text-slate-500 font-semibold leading-relaxed">
                           Best if you have completed basic topic mapping and need to improve speed. Focus on subject-wise sectional quizzes, error reviews, and taking full mocks every 2 days.
                         </p>
@@ -408,9 +408,9 @@ export default function IBPSPOStudyPlanPage() {
                     )}
                     {selectedPlanTier === 'builder' && (
                       <>
-                        <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                        <div className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
                           <CheckCircle size={15} className="text-emerald-500" /> Builder Phase Strategy
-                        </h4>
+                        </div>
                         <p className="text-xs text-slate-500 font-semibold leading-relaxed">
                           Best for first-time aspirants starting early. Dedicate your energy to build basics and mapping formulas, paired with light topic quizzes before starting full-length simulations.
                         </p>
@@ -461,9 +461,9 @@ export default function IBPSPOStudyPlanPage() {
 
             {/* Daily timetable block */}
             <div className="p-6 border border-slate-200 bg-slate-50/30 rounded-3xl space-y-4">
-              <h4 className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center gap-1.5">
+              <div className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center gap-1.5">
                 <Clock size={16} className="text-indigo-500" /> Daily Time-table (~6 hrs/day)
-              </h4>
+              </div>
               <div className="grid grid-cols-1 sm:grid-cols-5 gap-3 font-sans font-bold">
                 {[
                   { time: 'Morning', act: 'Quant Sectional test & review' },
@@ -506,7 +506,7 @@ export default function IBPSPOStudyPlanPage() {
                     <span className="text-[10px] text-indigo-650 font-black uppercase tracking-widest">{item.week}</span>
                     <span className="w-2.5 h-2.5 rounded-full bg-indigo-500/20 group-hover:bg-indigo-500 transition-colors" />
                   </div>
-                  <h4 className="font-extrabold text-slate-800 text-sm sm:text-base leading-tight font-display">{item.title}</h4>
+                  <div className="font-extrabold text-slate-800 text-sm sm:text-base leading-tight font-display">{item.title}</div>
                   <p className="text-xs text-slate-500 leading-relaxed font-semibold">{item.desc}</p>
                 </div>
               ))}
@@ -622,7 +622,7 @@ export default function IBPSPOStudyPlanPage() {
                 <div key={idx} className="p-5 bg-white border border-slate-200 rounded-3xl space-y-1.5 flex items-start gap-3 hover:border-rose-200 transition-colors">
                   <XCircle size={16} className="text-rose-500 shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-slate-800 text-xs sm:text-sm font-black">{item.title}</h4>
+                    <div className="text-slate-800 text-xs sm:text-sm font-black">{item.title}</div>
                     <p className="text-xs text-slate-500 font-semibold leading-relaxed pt-0.5">{item.desc}</p>
                   </div>
                 </div>

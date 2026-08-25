@@ -183,7 +183,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
 
             {/* Benefit 6 (CTA Card) */}
             <div className="p-5 bg-[var(--color-navy)]/5 rounded-2xl border border-[var(--color-navy)]/10 flex flex-col justify-center items-center text-center">
-              <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Ready to test your limits?</h4>
+              <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Ready to test your limits?</div>
               <p className="text-[14px] leading-relaxed text-slate-500 mb-4">Attempt our free challenges and benchmark your rank today.</p>
               <button
                 onClick={() => {
@@ -247,7 +247,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
                     Speed Improvement
                   </span>
                 </div>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Beat SBI Cutoffs</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Beat SBI Cutoffs</div>
                 <p className="text-[14px] leading-relaxed text-slate-500">
                   SBI PO prelims is notorious for complex puzzles. Mocks train you to solve 1+ questions per minute under actual exam strain.
                 </p>
@@ -262,7 +262,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
                     Accuracy Calibration
                   </span>
                 </div>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Reduce Deductions</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Reduce Deductions</div>
                 <p className="text-[14px] leading-relaxed text-slate-500">
                   With no sectional cutoffs in SBI, accuracy is key. Accurate attempts are prioritized to maximize your rank.
                 </p>
@@ -277,7 +277,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
                     Exam Familiarity
                   </span>
                 </div>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Simulate New Patterns</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Simulate New Patterns</div>
                 <p className="text-[14px] leading-relaxed text-slate-500">
                   SBI frequently changes question formats. Our mocks include the latest sectional styles so you are ready.
                 </p>
@@ -295,7 +295,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
                     Sectional Focus
                   </span>
                 </div>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Qualify Cutoffs</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Qualify Cutoffs</div>
                 <p className="text-[14px] leading-relaxed text-slate-500">
                   IBPS has strict sectional cutoffs. Reports flag if English, Quant, or Reasoning dips below qualifying marks.
                 </p>
@@ -310,7 +310,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
                     Time Calibration
                   </span>
                 </div>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Sectional Clock Mastery</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Sectional Clock Mastery</div>
                 <p className="text-[14px] leading-relaxed text-slate-500">
                   Master the 20-minute sectional timer by balancing simple arithmetic shortcuts with complex charts.
                 </p>
@@ -325,7 +325,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
                     National Benchmarking
                   </span>
                 </div>
-                <h4 className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Track Percentile Rank</h4>
+                <div className="text-sm font-extrabold text-[var(--color-navy)] mb-2">Track Percentile Rank</div>
                 <p className="text-[14px] leading-relaxed text-slate-500">
                   Compete against lakhs of candidates and benchmark your score on a simulated national leaderboard.
                 </p>
@@ -362,7 +362,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
               <div className="w-full md:w-1/2 md:pr-10 text-left md:text-right">
                 <div className="bg-slate-50/50 p-5 rounded-2xl border border-slate-100 hover:bg-white hover:shadow-md transition-all duration-300 text-left">
                   <span className="text-[14px] font-extrabold uppercase tracking-wider text-[var(--color-blue)]">Step 01: Before the Test</span>
-                  <h4 className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Review formulas & clear workspace</h4>
+                  <div className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Review formulas & clear workspace</div>
                   <p className="text-[14px] leading-relaxed text-slate-500">
                     Review quick math tricks, sit in a quiet room, and log in 5 minutes early to prepare your mindset.
                   </p>
@@ -378,7 +378,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
               <div className="w-full md:w-1/2 md:pl-10 text-left">
                 <div className="bg-slate-50/50 p-5 rounded-2xl border border-slate-100 hover:bg-white hover:shadow-md transition-all duration-300 text-left">
                   <span className="text-[14px] font-extrabold uppercase tracking-wider text-[var(--color-gold)]">Step 02: During the Test</span>
-                  <h4 className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Strictly monitor the section timers</h4>
+                  <div className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Strictly monitor the section timers</div>
                   <p className="text-[14px] leading-relaxed text-slate-500">
                     Monitor sectional timers closely. Skip any question that takes over 75 seconds to keep moving ahead.
                   </p>
@@ -392,7 +392,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
               <div className="w-full md:w-1/2 md:pr-10 text-left md:text-right">
                 <div className="bg-slate-50/50 p-5 rounded-2xl border border-slate-100 hover:bg-white hover:shadow-md transition-all duration-300 text-left">
                   <span className="text-[14px] font-extrabold uppercase tracking-wider text-emerald-600">Step 03: After the Test</span>
-                  <h4 className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Review negative marks & analytics</h4>
+                  <div className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Review negative marks & analytics</div>
                   <p className="text-[14px] leading-relaxed text-slate-500">
                     Analyze your results. Review the detailed solutions for every incorrect or skipped question to understand mistakes.
                   </p>
@@ -408,7 +408,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
               <div className="w-full md:w-1/2 md:pl-10 text-left">
                 <div className="bg-slate-50/50 p-5 rounded-2xl border border-slate-100 hover:bg-white hover:shadow-md transition-all duration-300 text-left">
                   <span className="text-[14px] font-extrabold uppercase tracking-wider text-purple-600">Step 04: Mistake Analysis</span>
-                  <h4 className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Maintain a mistake registry log</h4>
+                  <div className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Maintain a mistake registry log</div>
                   <p className="text-[14px] leading-relaxed text-slate-500">
                     Maintain a mistake log of calculation slips or pattern errors. Review it before attempting your next live test.
                   </p>
@@ -422,7 +422,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
               <div className="w-full md:w-1/2 md:pr-10 text-left md:text-right">
                 <div className="bg-slate-50/50 p-5 rounded-2xl border border-slate-100 hover:shadow-md transition-all duration-300 text-left">
                   <span className="text-[14px] font-extrabold uppercase tracking-wider text-indigo-600">Step 05: Revision Strategy</span>
-                  <h4 className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Re-attempt weak topics in practice mode</h4>
+                  <div className="text-[14px] font-extrabold text-[var(--color-navy)] mt-1 mb-1.5">Re-attempt weak topics in practice mode</div>
                   <p className="text-[14px] leading-relaxed text-slate-500">
                     Dedicate the next two days to practicing your weak areas before returning for the next live test.
                   </p>
@@ -584,7 +584,7 @@ export default function LiveTestsSEOContent({ onSelectCategory, onSearchQuery }:
 
             {/* Right: Progress bars */}
             <div className="flex flex-col gap-5">
-              <h4 className="text-[13.5px] font-bold text-[var(--color-navy)] mb-1">Key Performance Tracker Metrics</h4>
+              <div className="text-[13.5px] font-bold text-[var(--color-navy)] mb-1">Key Performance Tracker Metrics</div>
 
               {/* Pattern 1 */}
               <div>

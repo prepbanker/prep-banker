@@ -319,9 +319,9 @@ export default function IBPSPOSalaryPage() {
 
               {/* Inline Callout Box */}
               <div className="why-estimates-vary p-4 bg-slate-900/60 border border-white/10 rounded-2xl space-y-2.5">
-                <h3 className="text-xs font-black uppercase tracking-wider text-[#FBBF24] flex items-center gap-1.5 font-display">
+                <div className="text-xs font-black uppercase tracking-wider text-[#FBBF24] flex items-center gap-1.5 font-display">
                   <Info size={12} className="text-[#FBBF24]" /> Understanding Salary Variances
-                </h3>
+                </div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-sans font-medium">
                   You'll see IBPS PO in-hand salary quoted anywhere from ₹52,000 to ₹80,000 across different sites. That's not an error — it depends on your posting city, tax regime, and how much of NPS/professional tax each estimate accounts for. We break down exactly where that range comes from below.
                 </p>
@@ -349,9 +349,9 @@ export default function IBPSPOSalaryPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Salary Key Highlights
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -551,9 +551,9 @@ export default function IBPSPOSalaryPage() {
                     <div className={`p-2 w-fit rounded-lg ${item.color}`}>
                       <item.icon size={18} />
                     </div>
-                    <h4 className="font-extrabold text-sm sm:text-base text-slate-850 group-hover:text-indigo-655 transition-colors">
+                    <div className="font-extrabold text-sm sm:text-base text-slate-850 group-hover:text-indigo-655 transition-colors">
                       {item.title}
-                    </h4>
+                    </div>
                   </div>
                   <p className="text-xs text-slate-500 leading-normal font-semibold m-0">{item.desc}</p>
                 </div>
@@ -640,9 +640,9 @@ export default function IBPSPOSalaryPage() {
                       <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">Location Scale</span>
                       <span className="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-[9px] font-black">{item.badge}</span>
                     </div>
-                    <h4 className="font-extrabold text-sm sm:text-base text-slate-805 group-hover:text-indigo-655 transition-colors">
+                    <div className="font-extrabold text-sm sm:text-base text-slate-805 group-hover:text-indigo-655 transition-colors">
                       {item.city}
-                    </h4>
+                    </div>
                   </div>
                   
                   <div className="space-y-2 border-t border-slate-100 pt-3">
@@ -679,7 +679,7 @@ export default function IBPSPOSalaryPage() {
               </p>
 
               <div className="space-y-2.5">
-                <h4 className="font-extrabold text-xs text-slate-505 uppercase tracking-wider">CTC Value Distribution</h4>
+                <div className="font-extrabold text-xs text-slate-505 uppercase tracking-wider">CTC Value Distribution</div>
                 <div className="w-full h-8 rounded-2xl overflow-hidden flex font-sans text-xs font-black text-white">
                   <div className="bg-indigo-655 h-full flex items-center justify-center transition-all duration-300" style={{ width: '80%' }}>
                     Cash Component (80%)
@@ -746,9 +746,9 @@ export default function IBPSPOSalaryPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Monthly allowances */}
               <div className="p-6 bg-white border border-slate-200 rounded-3xl space-y-4 shadow-xs">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#1B6EB5]" /> Monthly Direct Allowances
-                </h4>
+                </div>
                 <div className="space-y-3.5 text-xs font-semibold text-slate-500">
                   <div className="flex gap-2">
                     <CheckCircle size={15} className="text-emerald-500 shrink-0 mt-0.5" />
@@ -773,9 +773,9 @@ export default function IBPSPOSalaryPage() {
 
               {/* Additional benefits */}
               <div className="p-6 bg-white border border-indigo-150 rounded-3xl space-y-4 shadow-xs">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base flex items-center gap-2 border-b border-slate-100 pb-3 font-display">
                   <span className="w-2.5 h-2.5 rounded-full bg-indigo-650" /> Additional Indirect Perks
-                </h4>
+                </div>
                 <div className="space-y-3.5 text-xs font-semibold text-slate-500">
                   <div className="flex gap-2">
                     <CheckCircle size={15} className="text-indigo-655 shrink-0 mt-0.5" />
@@ -883,7 +883,7 @@ export default function IBPSPOSalaryPage() {
 
                 {/* Detailed breakdown items */}
                 <div className="border-t border-slate-200 pt-4 space-y-3 text-xs font-semibold text-slate-600">
-                  <h4 className="font-extrabold text-slate-800 text-sm pb-1">Earnings breakdown</h4>
+                  <div className="font-extrabold text-slate-800 text-sm pb-1">Earnings breakdown</div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-3 gap-x-4">
                     <div>
                       <span className="block text-[10px] text-slate-450 uppercase font-bold">Basic Pay</span>
@@ -907,7 +907,7 @@ export default function IBPSPOSalaryPage() {
                     </div>
                   </div>
 
-                  <h4 className="font-extrabold text-slate-800 text-sm pt-2 pb-1 border-t border-slate-100">Deductions breakdown</h4>
+                  <div className="font-extrabold text-slate-800 text-sm pt-2 pb-1 border-t border-slate-100">Deductions breakdown</div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-3 gap-x-4">
                     <div>
                       <span className="block text-[10px] text-red-500/70 uppercase font-bold">NPS (10% Base+DA)</span>
@@ -960,7 +960,7 @@ export default function IBPSPOSalaryPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Wage structure mapped — now start practicing.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Wage structure mapped — now start practicing.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Baseline your score with our diagnostic mocks. Build accuracy across quantitative, English, and reasoning subjects.
                 </p>

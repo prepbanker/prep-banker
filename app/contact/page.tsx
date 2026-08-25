@@ -59,7 +59,7 @@ export default function ContactPage() {
                   width: '100%',
                 }}>
                   <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>{c.icon}</div>
-                  <h3 style={{ fontWeight: 700, color: 'var(--color-navy)', marginBottom: '8px', fontSize: '1.25rem' }}>{c.title}</h3>
+                  <h2 style={{ fontWeight: 700, color: 'var(--color-navy)', marginBottom: '8px', fontSize: '1.25rem' }}>{c.title}</h2>
                   <a href={`mailto:${c.desc}`} style={{ color: 'var(--color-blue)', fontWeight: 600, marginBottom: '6px', fontSize: '1.05rem', textDecoration: 'none', display: 'block' }}>
                     {c.desc}
                   </a>

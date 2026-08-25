@@ -30,13 +30,13 @@ export async function generateMetadata(
 
   if (!blog) {
     return {
-      title: 'Article Not Found | PrepBanker',
+      title: 'Article Not Found',
       description: 'The article you are looking for does not exist.',
     };
   }
 
   return {
-    title:       blog.metaTitle       ?? `${blog.title} | PrepBanker`,
+    title:       blog.metaTitle       ?? blog.title,
     description: blog.metaDescription ?? blog.excerpt,
     keywords:    blog.keywords,
     openGraph: {

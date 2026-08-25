@@ -1,35 +1,8 @@
-// PATH: app/ibps-po-previous-year-question-papers/page.tsx
-import type { Metadata } from 'next';
+// PATH: components/sections/exams/IBPSPOPreviousYearPapersPage.tsx
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PreviousYearPapersLayout, { PYQPaper } from '@/components/sections/previous-year-papers/PreviousYearPapersLayout';
 import { Lightbulb, Calendar, Compass, Search, Clock, FileEdit, RefreshCw, Trophy, Columns, Link, Scale, BarChart3, Star, Brain, BookOpen, Briefcase, Laptop, Check } from 'lucide-react';
-
-// --- SEO Metadata ---
-export const metadata: Metadata = {
-  title: 'IBPS PO Previous Year Question Papers (2016–2025) Free PDF',
-  description:
-    'Download IBPS PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, then attempt free topic-wise mock tests on PrepBanker.',
-  keywords: [
-    'IBPS PO previous year question papers',
-    'IBPS PO PYQ pdf',
-    'IBPS PO previous year papers with solutions',
-    'IBPS PO prelims previous year paper',
-    'IBPS PO mains question paper',
-    'IBPS PO memory based papers',
-    'IBPS PO exam pattern',
-  ],
-  alternates: {
-    canonical: 'https://prepbanker.com/ibps-po-previous-year-question-papers',
-  },
-  openGraph: {
-    title: 'IBPS PO Previous Year Question Papers (2016–2025) Free PDF',
-    description:
-      'Download IBPS PO previous year question papers 2016–2025 with solutions. Practice prelims & mains PYQs, then attempt free topic-wise mock tests on PrepBanker.',
-    url: 'https://prepbanker.com/ibps-po-previous-year-question-papers',
-    type: 'website',
-  },
-};
 
 // --- Hardcoded Papers for IBPS PO (2016–2025) ---
 const IBPS_PO_PAPERS: PYQPaper[] = [
@@ -238,7 +211,7 @@ const breadcrumbSchemaJson = {
       "@type": "ListItem",
       "position": 2,
       "name": "IBPS PO Previous Year Question Papers",
-      "item": "https://prepbanker.com/ibps-po-previous-year-question-papers"
+      "item": "https://prepbanker.com/ibps-po/previous-year-papers"
     }
   ]
 };
@@ -246,8 +219,8 @@ const breadcrumbSchemaJson = {
 const webPageSchemaJson = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://prepbanker.com/ibps-po-previous-year-question-papers",
-  "url": "https://prepbanker.com/ibps-po-previous-year-question-papers",
+  "@id": "https://prepbanker.com/ibps-po/previous-year-papers",
+  "url": "https://prepbanker.com/ibps-po/previous-year-papers",
   "name": "IBPS PO Previous Year Question Papers (2016–2025) Free PDF",
   "description": "Download IBPS PO previous year question papers 2016–2025 with solutions. Practice prelims and mains PYQs section-wise, then attempt free topic-wise mock tests on PrepBanker.",
   "datePublished": "2026-06-23",
@@ -259,7 +232,7 @@ const webPageSchemaJson = {
     "url": "https://prepbanker.com"
   },
   "breadcrumb": {
-    "@id": "https://prepbanker.com/ibps-po-previous-year-question-papers#breadcrumb"
+    "@id": "https://prepbanker.com/ibps-po/previous-year-papers#breadcrumb"
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
@@ -286,7 +259,7 @@ const courseSchemaJson = {
   }
 };
 
-export default function IBPSPOPapersPage() {
+export default function IBPSPOPreviousYearPapersPage() {
   return (
     <>
       {/* Dynamic SEO Schemas hoisted natively (prevents hydration mismatch) */}
@@ -331,10 +304,10 @@ export default function IBPSPOPapersPage() {
             {/* Stats Card */}
             <div className="bg-gradient-to-br from-[var(--color-navy-deep)] to-[var(--color-navy-mid)] text-white border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-md">
               <div>
-                <h4 className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-4 flex items-center gap-1.5">
+                <div className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-4 flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-gold-bright)] animate-pulse" />
                   CRP PO/MT Exam Stats
-                </h4>
+                </div>
                 <div className="space-y-3.5">
                   <div className="flex justify-between items-baseline border-b border-white/10 pb-2">
                     <span className="text-xs font-semibold text-slate-300">Participating Banks</span>
@@ -358,7 +331,7 @@ export default function IBPSPOPapersPage() {
             {/* Insights Card */}
             <div className="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-[0_4px_20px_rgba(13,27,62,0.02)]">
               <div>
-                <h4 className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-3.5">Sectional Lock & Time Pressures</h4>
+                <div className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mb-3.5">Sectional Lock & Time Pressures</div>
                 <ul className="space-y-3.5 text-xs sm:text-sm text-slate-600">
                   <li className="flex gap-2.5 items-start">
                     <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 shrink-0">
@@ -454,7 +427,7 @@ export default function IBPSPOPapersPage() {
                     Current Peak
                   </span>
                 </div>
-                <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Layered Reasoning & Caselet DI Integration</h4>
+                <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Layered Reasoning & Caselet DI Integration</div>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
                   Reasoning puzzles are heavily multi-layered. Quantitative Aptitude is dominated by caselet DI combined with complex arithmetic applications, requiring absolute concept clarity.
                 </p>
@@ -470,7 +443,7 @@ export default function IBPSPOPapersPage() {
                     2022 – 2023
                   </span>
                 </div>
-                <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">General Awareness Deepening & Variable Shifts</h4>
+                <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">General Awareness Deepening & Variable Shifts</div>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
                   General Awareness shifted heavily towards RBI policy details and core banking operations over static GK. Quantitative section difficulty spiked with lengthy calculations.
                 </p>
@@ -486,7 +459,7 @@ export default function IBPSPOPapersPage() {
                     2016 – 2021
                   </span>
                 </div>
-                <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Traditional Core & Timed Sections Introduction</h4>
+                <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">Traditional Core & Timed Sections Introduction</div>
                 <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
                   Introduced strict sectional timers. Papers focused heavily on speed math (simplifications, quadratic equations) and traditional single-variable reasoning puzzles.
                 </p>
@@ -544,9 +517,9 @@ export default function IBPSPOPapersPage() {
             {/* Target Score Card */}
             <div className="bg-gradient-to-br from-indigo-900 to-[var(--color-navy-deep)] text-white border border-white/5 rounded-2xl p-5 shadow-lg flex flex-col justify-between h-full">
               <div>
-                <h4 className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-3 flex items-center gap-1.5">
+                <div className="text-[10px] font-extrabold text-[var(--color-gold-bright)] uppercase tracking-wider mb-3 flex items-center gap-1.5">
                   <Star className="w-3 h-3 text-[var(--color-gold-bright)] fill-[var(--color-gold-bright)] shrink-0" /> Target Benchmark
-                </h4>
+                </div>
                 <div className="text-3xl font-black text-white mb-2">55+</div>
                 <p className="text-xs text-slate-350 leading-relaxed">
                   Don't anchor to the lowest cut-off (48.50 in 2024). Target the highest recent cut-off (54.25 in 2023) as your minimum goal to account for vacancy drops or easier papers.
@@ -599,7 +572,7 @@ export default function IBPSPOPapersPage() {
                     <CardIcon className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">{card.title}</h4>
+                    <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] mb-1">{card.title}</div>
                     <p className="text-xs text-slate-500 leading-relaxed">{card.desc}</p>
                   </div>
                 </div>
@@ -635,7 +608,7 @@ export default function IBPSPOPapersPage() {
                     <div className="mb-3 w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center shadow-xs border border-slate-100 text-[var(--color-blue)]">
                       <StepIcon className="w-4 h-4" />
                     </div>
-                    <h4 className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</h4>
+                    <div className="text-sm sm:text-base font-extrabold text-[var(--color-navy)] pr-8 leading-tight">{step.title}</div>
                     <p className="text-xs text-slate-500 mt-2 leading-relaxed">{step.desc}</p>
                   </div>
                 </div>

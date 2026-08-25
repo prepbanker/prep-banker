@@ -1,4 +1,3 @@
-'use client';
 
 import { Check, HelpCircle, ArrowRight, Award, ShieldAlert, Zap, Layers, HelpCircle as HelpIcon } from 'lucide-react';
 import { SectionTitle, Button } from '@/components/ui';
@@ -83,9 +82,9 @@ export default function ComparisonSection() {
                 row.isHighlighted ? 'border-l-4 border-l-amber-500 bg-amber-50/5' : 'border-slate-200'
               }`}
             >
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2.5">
+              <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2.5">
                 {row.parameter}
-              </h4>
+              </div>
               
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-lg border border-slate-100 bg-slate-50/30 p-2.5">

@@ -108,6 +108,7 @@ export default function TrendingTestsSection() {
               <button
                 key={dir}
                 onClick={() => scroll(dir)}
+                aria-label={`Scroll ${dir}`}
                 className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-500 transition-all hover:border-amber-300 hover:bg-amber-50 hover:text-amber-600"
               >
                 {dir === 'left'

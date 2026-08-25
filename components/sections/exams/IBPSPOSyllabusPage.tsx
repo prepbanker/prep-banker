@@ -214,9 +214,9 @@ export default function IBPSPOSyllabusPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Syllabus Breakdown
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -333,7 +333,7 @@ export default function IBPSPOSyllabusPage() {
                     <XCircle size={18} className="shrink-0" />
                     <span className="text-xs font-black uppercase tracking-wider">Outdated Info Online</span>
                   </div>
-                  <h4 className="font-extrabold text-sm text-slate-900 m-0">Standalone Mains Subject</h4>
+                  <div className="font-extrabold text-sm text-slate-900 m-0">Standalone Mains Subject</div>
                   <p className="text-xs text-slate-550 font-medium leading-relaxed m-0">
                     Prior templates listed Computer Aptitude as a separate scoring subject with its own dedicated question share and sectional cut-off limits.
                   </p>
@@ -345,7 +345,7 @@ export default function IBPSPOSyllabusPage() {
                     <CheckCircle size={18} className="shrink-0" />
                     <span className="text-xs font-black uppercase tracking-wider">Current Official Pattern</span>
                   </div>
-                  <h4 className="font-extrabold text-sm text-slate-900 m-0">Integrated / No Standalone Block</h4>
+                  <div className="font-extrabold text-sm text-slate-900 m-0">Integrated / No Standalone Block</div>
                   <p className="text-xs text-slate-550 font-medium leading-relaxed m-0">
                     The objective exam strictly contains exactly 4 sections (Reasoning, General Awareness, English, Data Analysis). Computer concepts, if tested, are integrated into Reasoning.
                   </p>
@@ -354,7 +354,7 @@ export default function IBPSPOSyllabusPage() {
               </div>
 
               <div className="bg-slate-50/60 border border-slate-200/70 rounded-2xl p-5 space-y-3">
-                <h4 className="text-xs font-black uppercase tracking-wider text-slate-600 m-0">How should you prepare?</h4>
+                <div className="text-xs font-black uppercase tracking-wider text-slate-600 m-0">How should you prepare?</div>
                 <p className="text-xs sm:text-sm text-slate-655 leading-relaxed font-semibold m-0">
                   Basic computer literacy still matters practically (the test itself is computer-administered, and elementary MS Office terms, abbreviations, or database shortcuts occasionally appear inside Logical Reasoning sequences). However, <strong>do not spend hours reading dedicated computer memory textbooks</strong>—focus your energy on quantitative data analysis and logical puzzle workflows instead.
                 </p>
@@ -776,7 +776,7 @@ export default function IBPSPOSyllabusPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 font-sans">
               {/* Broad Themes */}
               <div className="p-5 border border-slate-150 rounded-2xl space-y-2">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Broad Theme Areas</h4>
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base">Broad Theme Areas</div>
                 <ul className="space-y-1.5 text-xs text-slate-500 font-semibold list-disc list-inside">
                   <li>Economic & Social Issues</li>
                   <li>Banking & Financial Sector Reforms</li>
@@ -789,7 +789,7 @@ export default function IBPSPOSyllabusPage() {
 
               {/* Sample Essays */}
               <div className="p-5 border border-slate-150 rounded-2xl space-y-2">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Sample Essay Themes</h4>
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base">Sample Essay Themes</div>
                 <ul className="space-y-1.5 text-xs text-slate-500 font-semibold list-disc list-inside">
                   <li>Financial inclusion in rural India</li>
                   <li>Role of technology in banking</li>
@@ -802,7 +802,7 @@ export default function IBPSPOSyllabusPage() {
 
               {/* Sample Letters */}
               <div className="p-5 border border-slate-150 rounded-2xl space-y-2">
-                <h4 className="font-extrabold text-slate-800 text-sm sm:text-base">Sample Letter Themes</h4>
+                <div className="font-extrabold text-slate-800 text-sm sm:text-base">Sample Letter Themes</div>
                 <ul className="space-y-1.5 text-xs text-slate-500 font-semibold list-disc list-inside">
                   <li>Failed UPI transaction complaint</li>
                   <li>Civic issue to a newspaper editor</li>
@@ -971,7 +971,7 @@ export default function IBPSPOSyllabusPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Syllabus mapped — now outprep the competition.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Syllabus mapped — now outprep the competition.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Practice with high-yield sectional questions curated by exam desk experts. Attempt a full mock to measure your baseline percentile.
                 </p>

@@ -23,14 +23,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!exam) {
     return {
-      title: 'Exam Not Found | PrepBanker',
+      title: 'Exam Not Found',
       description: 'The requested banking exam preparation guide does not exist.',
     };
   }
 
   const title = exam.id === 'ibps-po'
-    ? 'IBPS PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests | PrepBanker'
-    : 'SBI PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests | PrepBanker';
+    ? 'IBPS PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests'
+    : 'SBI PO 2026 Mock Test, Syllabus, Exam Pattern & Free Practice Tests';
 
   const description = exam.id === 'ibps-po'
     ? 'Prepare for IBPS PO 2026 with free mock tests, sectional tests, topic-wise questions, current affairs, and study material. Full syllabus, exam pattern, cut-offs & 90-day strategy.'
@@ -81,8 +81,6 @@ export default async function ExamPage({ params }: PageProps) {
           url="https://prepbanker.com/sbi-po"
           price="0"
           currency="INR"
-          ratingValue="4.8"
-          reviewCount="8500"
         />
       )}
       <ExamMainLayout exam={exam} />

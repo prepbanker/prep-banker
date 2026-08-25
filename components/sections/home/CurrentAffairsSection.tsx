@@ -1,7 +1,4 @@
 // PATH: components/sections/CurrentAffairsSection.tsx
-'use client';
-
-import { useState } from 'react';
 import { SectionTitle, Button } from '@/components/ui';
 import { currentAffairs } from '@/lib/data';
 
@@ -19,6 +16,7 @@ export default function CurrentAffairsSection() {
           highlight="Banking Exams"
           subtitle="Get daily and monthly current affairs for SBI PO, IBPS PO, and other banking exams. Stay informed with important national, international, banking, economy, and government updates."
           align="center"
+          aria-level={2}
         />
 
         {/* Simplified Cards Grid */}
@@ -43,18 +41,10 @@ export default function CurrentAffairsSection() {
 
 // ─── Simplified Individual CA Card ───────────────────
 function CACard({ ca }: { ca: typeof currentAffairs[0] }) {
-  const [hovered, setHovered] = useState(false);
-
   return (
     <article
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
       aria-label={ca.title}
-      className="bg-white rounded-xl p-5 flex flex-col gap-3.5 transition-all duration-200 border border-slate-200/60 shadow-sm h-full"
-      style={{
-        boxShadow: hovered ? 'var(--shadow-hover)' : 'var(--shadow-card)',
-        transform: hovered ? 'translateY(-3px)' : 'translateY(0)',
-      }}
+      className="bg-white rounded-xl p-5 flex flex-col gap-3.5 border border-slate-200/60 shadow-sm h-full ca-card-hover"
     >
       {/* Top row: Category + Date */}
       <div className="flex items-center justify-between gap-2 flex-wrap">

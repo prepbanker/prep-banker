@@ -31,9 +31,9 @@ export default function ExamAnalysisSection({ examId }: ExamAnalysisSectionProps
       <div className="bg-white border border-slate-200 rounded-2xl shadow-[0_4px_24px_rgba(13,27,62,0.02)] overflow-hidden">
         <div className="p-5 border-b border-slate-100 bg-slate-50/50 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            <h4 className="font-black text-sm sm:text-base text-[var(--color-navy)] font-display">
+            <div className="font-black text-sm sm:text-base text-[var(--color-navy)] font-display">
               SBI PO Prelims 2025 Analysis (for reference)
-            </h4>
+            </div>
             <p className="text-xs text-slate-500 font-medium">
               Held on 5 August 2025 across multiple shifts
             </p>

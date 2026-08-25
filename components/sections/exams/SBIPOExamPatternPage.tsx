@@ -210,7 +210,7 @@ export default function SBIPOExamPatternPage() {
                       <span className="inline-flex px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 text-[10px] font-black uppercase tracking-wider">
                         Key Change
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-base">Descriptive Test Marks</h4>
+                      <div className="font-extrabold text-slate-900 text-base">Descriptive Test Marks</div>
                       <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                         Descriptive test marks are reduced to focus weightage on core analytical areas.
                       </p>
@@ -228,7 +228,7 @@ export default function SBIPOExamPatternPage() {
                       <span className="inline-flex px-2 py-0.5 rounded-md bg-amber-100 text-amber-800 text-[10px] font-black uppercase tracking-wider">
                         Key Change
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-base">Mains Total Marks</h4>
+                      <div className="font-extrabold text-slate-900 text-base">Mains Total Marks</div>
                       <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                         The overall maximum score for Mains falls correspondingly due to Descriptive edits.
                       </p>
@@ -246,7 +246,7 @@ export default function SBIPOExamPatternPage() {
                       <span className="inline-flex px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 text-[10px] font-black uppercase tracking-wider">
                         Unchanged
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-base">Descriptive Duration</h4>
+                      <div className="font-extrabold text-slate-900 text-base">Descriptive Duration</div>
                       <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                         Candidates still receive the same amount of time to answer all descriptive prompts.
                       </p>
@@ -262,7 +262,7 @@ export default function SBIPOExamPatternPage() {
                       <span className="inline-flex px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 text-[10px] font-black uppercase tracking-wider">
                         Unchanged
                       </span>
-                      <h4 className="font-extrabold text-slate-900 text-base">Prelims Exam Pattern</h4>
+                      <div className="font-extrabold text-slate-900 text-base">Prelims Exam Pattern</div>
                       <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                         The Preliminary qualifying round maintains its exact metrics, subjects, and scoring rules.
                       </p>
@@ -292,7 +292,7 @@ export default function SBIPOExamPatternPage() {
                     <div key={idx} className="border border-slate-150 p-4 rounded-2xl bg-slate-50/30 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 hover:border-slate-350 transition-all">
                       <div className="space-y-0.5">
                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Section {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.section}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.section}</div>
                         <span className="block text-xs text-slate-500 font-semibold">{item.desc}</span>
                       </div>
                       <div className="flex items-center gap-4 sm:gap-6 justify-between sm:justify-end border-t sm:border-t-0 border-slate-100 pt-2 sm:pt-0">
@@ -369,7 +369,7 @@ export default function SBIPOExamPatternPage() {
                     <div key={idx} className="border border-slate-150 p-4 rounded-2xl bg-slate-50/30 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 hover:border-slate-350 transition-all">
                       <div className="space-y-0.5">
                         <span className="block text-[10px] font-black text-[#1B6EB5] uppercase tracking-widest font-sans">Module {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.section}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">{item.section}</div>
                         <span className="block text-xs text-slate-500 font-semibold">{item.desc}</span>
                       </div>
                       <div className="flex items-center gap-4 sm:gap-6 justify-between sm:justify-end border-t sm:border-t-0 border-slate-100 pt-2 sm:pt-0">
@@ -435,7 +435,7 @@ export default function SBIPOExamPatternPage() {
                     <div key={idx} className="border border-slate-200 rounded-2xl p-5 bg-slate-50/30 flex flex-col justify-between space-y-3 hover:border-slate-350 transition-all">
                       <div className="space-y-1.5">
                         <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Task {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-base leading-tight">{item.task}</h4>
+                        <div className="font-extrabold text-slate-900 text-base leading-tight">{item.task}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed">{item.desc}</p>
                       </div>
                       <div className="border-t border-slate-100 pt-3 flex items-center justify-between text-xs font-bold font-sans">
@@ -505,7 +505,7 @@ export default function SBIPOExamPatternPage() {
                     <div key={idx} className="border border-slate-200 rounded-2xl p-5 bg-slate-50/30 flex flex-col justify-between space-y-3 hover:border-slate-350 transition-all">
                       <div className="space-y-1.5">
                         <span className="block text-[10px] font-black text-[#1B6EB5] uppercase tracking-widest font-sans">Phase III - Step {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-base leading-tight">{item.component}</h4>
+                        <div className="font-extrabold text-slate-900 text-base leading-tight">{item.component}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed">{item.note}</p>
                       </div>
                       <div className="border-t border-slate-100 pt-3 text-right font-sans">
@@ -553,7 +553,7 @@ export default function SBIPOExamPatternPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="border border-blue-150 bg-blue-50/15 p-5 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Component 1</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight">Mains Examination</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight">Mains Examination</div>
                     <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                       Combined score of Objective (200 marks) + Descriptive (30 marks) normalized down.
                     </p>
@@ -564,7 +564,7 @@ export default function SBIPOExamPatternPage() {
 
                   <div className="border border-amber-200 bg-amber-50/15 p-5 rounded-2xl space-y-2">
                     <span className="block text-[10px] font-black text-slate-400 uppercase tracking-widest font-sans">Component 2</span>
-                    <h4 className="font-extrabold text-slate-900 text-base leading-tight">Phase III GE & Interview</h4>
+                    <div className="font-extrabold text-slate-900 text-base leading-tight">Phase III GE & Interview</div>
                     <p className="text-slate-500 text-xs font-semibold leading-relaxed">
                       Combined score of Group Exercise (20 marks) + Interview (30 marks) normalized down.
                     </p>
@@ -717,7 +717,7 @@ export default function SBIPOExamPatternPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

@@ -18,7 +18,7 @@ import { getPaginatedBlogs, BLOGS, formatBlogDate } from '@/lib/data/blogs/blogs
 import type { BlogCategory } from '@/types/blogs';
 
 export const metadata: Metadata = {
-  title: 'Banking Exam Blog 2026 – Expert Tips, Strategy & Current Affairs | PrepBanker',
+  title: 'Banking Exam Blog 2026 – Expert Tips, Strategy & Current Affairs',
   description:
     'Expert articles on SBI PO, IBPS PO preparation strategy, current affairs, RBI updates, study tips, and interview guidance written by banking faculty and toppers.',
   keywords: [

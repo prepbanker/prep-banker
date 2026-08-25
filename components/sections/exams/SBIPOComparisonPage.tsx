@@ -272,7 +272,7 @@ export default function SBIPOComparisonPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-4.5 pr-4.5 pl-6 rounded-2xl flex flex-col justify-between space-y-2 hover:border-slate-350 transition-all duration-200 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest font-sans">Compare 0{idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.topic}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight m-0">{item.topic}</div>
                         <p className="text-slate-500 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1">{item.detail}</p>
                       </div>
                     </div>
@@ -371,7 +371,7 @@ export default function SBIPOComparisonPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-4.5 pr-4.5 pl-6 rounded-2xl flex flex-col justify-between space-y-1.5 transition-all duration-200 hover:border-slate-350 " + item.border}>
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Growth metric {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</div>
                         <p className="text-slate-500 text-xs font-semibold leading-relaxed m-0 pt-1">{item.desc}</p>
                       </div>
                     </div>
@@ -398,7 +398,7 @@ export default function SBIPOComparisonPage() {
                     <div key={idx} className={"border border-slate-150 border-l-4 py-4.5 pr-4.5 pl-6 rounded-2xl flex flex-col justify-between space-y-1 hover:border-slate-350 transition-all duration-200 " + item.border}>
                       <div className="space-y-0.5">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest font-sans">Choice path {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.criteria}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.criteria}</div>
                         <span className="block text-xs text-slate-500 font-semibold mt-1">{item.action}</span>
                       </div>
                     </div>
@@ -479,7 +479,7 @@ export default function SBIPOComparisonPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

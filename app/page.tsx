@@ -5,16 +5,19 @@ import Footer from '@/components/layout/Footer';
 import HeroSection            from '@/components/sections/home/HeroSection';
 import ExamTabExplorer        from '@/components/sections/home/ExamTabExplorer';
 import ExamHighlightsSection  from '@/components/sections/home/ExamHighlightsSection';
-import TrendingTestsSection   from '@/components/sections/home/TrendingTestsSection';
-import ExamCalendarSection    from '@/components/sections/home/ExamCalendarSection';
-import CutOffsSection         from '@/components/sections/home/CutOffsSection';
-import ComparisonSection      from '@/components/sections/home/ComparisonSection';
 import CurrentAffairsSection  from '@/components/sections/home/CurrentAffairsSection';
-import LiveTestsSection       from '@/components/sections/home/LiveTestsSection';
-import WhyPrepBankerSection   from '@/components/sections/home/WhyPrepBankerSection';
-import FeaturesSection        from '@/components/sections/home/FeaturesSection';
-import TestimonialsSection    from '@/components/sections/home/TestimonialsSection';
-import FAQSection             from '@/components/sections/home/FAQSection';
+
+import {
+  DynamicTrendingTests,
+  DynamicLiveTests,
+  DynamicTestimonials,
+  DynamicComparison,
+  DynamicFAQSection,
+  DynamicFeatures,
+  DynamicWhyPrepBanker,
+  DynamicExamCalendar,
+  DynamicCutOffs,
+} from '@/components/sections/home/ClientSectionLoader';
 import { ProductSchema, WebsiteSchema, FAQSchema } from '@/components/seo';
 import { HOME_FAQS } from '@/lib/data/homeFaqs';
 
@@ -43,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'SBI PO Mock Test 2026, IBPS PO Mock Test | PrepBanker',
     description: 'Practice with SBI PO Mock Tests, IBPS PO Mock Tests, sectional tests, topic-wise quizzes, current affairs and study material.',
-    url: 'https://prepbanker.com',
+    url: 'https://prepbanker.com/',
     siteName: 'PrepBanker',
     type: 'website',
     locale: 'en_IN',
@@ -54,7 +57,7 @@ export const metadata: Metadata = {
     description: 'Practice with SBI PO Mock Tests, IBPS PO Mock Tests, sectional tests and study material.',
   },
   alternates: {
-    canonical: 'https://prepbanker.com',
+    canonical: 'https://prepbanker.com/',
   },
   robots: {
     index: true,
@@ -88,34 +91,34 @@ export default function HomePage() {
         <ExamHighlightsSection />
 
         {/* 3. Trending Test Series Slider */}
-        <TrendingTestsSection />
+        <DynamicTrendingTests />
 
         {/* Exam Calendar / Important Dates Section */}
-        <ExamCalendarSection />
+        <DynamicExamCalendar />
 
         {/* Previous Year Cut-offs Section */}
-        <CutOffsSection />
+        <DynamicCutOffs />
 
         {/* SBI PO vs IBPS PO Comparison Section */}
-        <ComparisonSection />
+        <DynamicComparison />
 
         {/* 4. Current Affairs */}
         <CurrentAffairsSection />
 
         {/* 5. Live Tests */}
-        <LiveTestsSection />
+        <DynamicLiveTests />
 
         {/* 6. Why PrepBanker */}
-        <WhyPrepBankerSection />
+        <DynamicWhyPrepBanker />
 
         {/* 7. Features */}
-        <FeaturesSection />
+        <DynamicFeatures />
 
         {/* 8. Testimonials */}
-        <TestimonialsSection />
+        <DynamicTestimonials />
 
         {/* 9. FAQ */}
-        <FAQSection />
+        <DynamicFAQSection />
       </main>
 
       <Footer />

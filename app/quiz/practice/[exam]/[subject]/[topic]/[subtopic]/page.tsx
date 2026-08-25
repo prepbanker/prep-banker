@@ -4,6 +4,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { 
   ArrowLeft, Maximize2, Minimize2, Bookmark, BookmarkCheck, Flag, 
   HelpCircle, ChevronLeft, ChevronRight, AlertTriangle, CheckCircle2, 
@@ -877,10 +878,11 @@ export default function PracticeTestPage() {
                                 
                                 {q.groupDiagram && (
                                   <div className="mt-4 border border-slate-100 bg-white p-2 rounded-xl max-w-sm">
-                                    <img 
+                                    <Image 
                                       src={q.groupDiagram} 
                                       alt={`${subtopicTitle} Group Diagram Context`}
-                                      loading="lazy"
+                                      width={650}
+                                      height={400}
                                       className="max-w-full h-auto rounded-lg" 
                                     />
                                   </div>
@@ -890,10 +892,11 @@ export default function PracticeTestPage() {
 
                             {q.diagram && (
                               <div className="border border-slate-100 bg-white p-2 rounded-xl max-w-sm my-2">
-                                <img 
+                                <Image 
                                   src={q.diagram} 
                                   alt={`${subtopicTitle} Question ${q.id} Diagram`}
-                                  loading="lazy"
+                                  width={650}
+                                  height={400}
                                   className="max-w-full h-auto rounded-lg" 
                                 />
                               </div>
@@ -970,6 +973,7 @@ export default function PracticeTestPage() {
                 <div className="flex items-center gap-3">
                   <Link 
                     href={backUrl} 
+                    aria-label="Go back"
                     className="p-2 hover:bg-slate-50 border border-slate-200 rounded-xl text-slate-500 hover:text-[var(--color-navy)] transition-colors shrink-0"
                   >
                     <ArrowLeft className="w-4 h-4" />
@@ -1011,6 +1015,7 @@ export default function PracticeTestPage() {
 
                   <button 
                     onClick={() => setIsSidebarOpen(true)}
+                    aria-label="Open navigation menu"
                     className="flex lg:hidden p-2 hover:bg-slate-50 text-slate-500 hover:text-[var(--color-navy)] rounded-xl border border-slate-200 transition-all shrink-0 ml-1"
                   >
                     <Menu className="w-4 h-4" />
@@ -1042,10 +1047,11 @@ export default function PracticeTestPage() {
                       
                       {currentQuestion.groupDiagram && (
                         <div className="mt-5 border border-slate-100 bg-white p-3 rounded-2xl max-w-md">
-                          <img 
+                          <Image 
                             src={currentQuestion.groupDiagram} 
                             alt={`${subtopicTitle} Group Diagram Context`}
-                            loading="lazy"
+                            width={650}
+                            height={400}
                             className="max-w-full h-auto rounded-lg mx-auto" 
                           />
                           <span className="text-[10px] text-slate-400 font-bold block text-center mt-2">Diagram: Question Context</span>
@@ -1093,10 +1099,11 @@ export default function PracticeTestPage() {
 
                     {currentQuestion?.diagram && (
                       <div className="border border-slate-100 bg-white p-3 rounded-2xl max-w-md my-4">
-                        <img 
+                        <Image 
                           src={currentQuestion.diagram} 
                           alt={`${subtopicTitle} Question ${currentQuestion.id} Diagram`}
-                          loading="lazy"
+                          width={650}
+                          height={400}
                           className="max-w-full h-auto rounded-lg mx-auto" 
                         />
                         <span className="text-[10px] text-slate-405 font-bold block text-center mt-2">Diagram: Q{currentQuestion.id} Setup</span>

@@ -1,6 +1,3 @@
-'use client';
-
-import { useState } from 'react';
 import { Check, Building2 } from 'lucide-react';
 import { SectionTitle, Button } from '@/components/ui';
 

@@ -247,10 +247,13 @@ export default function SBIPOAdmitCardPage() {
               <span className="block text-[10px] font-black text-slate-450 uppercase tracking-widest px-1">
                 Official SBI PO Admit Card Login Portal Interface
               </span>
-              <img
+              <Image
                 src="/images/sbi-po-login.png"
                 alt="SBI PO Login Portal Screenshot"
+                width={2280}
+                height={1128}
                 className="w-full h-auto rounded-2xl border border-slate-100"
+                sizes="(max-width: 768px) 100vw, 800px"
               />
               <div className="pt-2 flex justify-center">
                 <a
@@ -292,7 +295,7 @@ export default function SBIPOAdmitCardPage() {
                         {String(idx + 1).padStart(2, '0')}
                       </span>
                       <div className="space-y-1 mt-0.5">
-                        <h4 className="font-extrabold text-slate-805 text-sm sm:text-base leading-snug">{step.title}</h4>
+                        <div className="font-extrabold text-slate-805 text-sm sm:text-base leading-snug">{step.title}</div>
                         <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">{step.text}</p>
                       </div>
                     </div>
@@ -311,7 +314,7 @@ export default function SBIPOAdmitCardPage() {
                   <Clock size={20} />
                 </div>
                 <div className="space-y-2 relative z-10">
-                  <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">Best Time to Download Call Letter</h4>
+                  <div className="font-extrabold text-slate-850 text-base sm:text-lg">Best Time to Download Call Letter</div>
                   <p className="text-slate-655 text-sm leading-relaxed">
                     With over 12 lakh candidates trying to access the portal at once, <strong>sbi.bank.in</strong> tends to slow down significantly during daytime hours. Based on candidate reports, the site runs noticeably faster during early morning hours, roughly <strong>5 AM–7 AM IST</strong>. If you hit repeated loading errors during the day, try again early morning rather than refreshing repeatedly — that just adds to server load for everyone.
                   </p>
@@ -416,7 +419,7 @@ export default function SBIPOAdmitCardPage() {
                     <CheckCircle size={56} />
                   </div>
                   <span className="px-2.5 py-0.5 bg-emerald-100 text-emerald-800 text-[10px] font-black uppercase tracking-wider rounded-md">Required</span>
-                  <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">Mandatory Documents</h4>
+                  <div className="font-extrabold text-slate-850 text-base sm:text-lg">Mandatory Documents</div>
                   <ul className="space-y-3 list-none p-0 m-0">
                     <li className="flex items-start gap-2 text-xs sm:text-sm text-slate-655 leading-relaxed">
                       <CheckCircle size={15} className="text-emerald-500 shrink-0 mt-1" />
@@ -435,7 +438,7 @@ export default function SBIPOAdmitCardPage() {
                     <FileText size={56} />
                   </div>
                   <span className="px-2.5 py-0.5 bg-blue-100 text-blue-850 text-[10px] font-black uppercase tracking-wider rounded-md">If Applicable</span>
-                  <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">Additional Checklist</h4>
+                  <div className="font-extrabold text-slate-850 text-base sm:text-lg">Additional Checklist</div>
                   <ul className="space-y-3 list-none p-0 m-0">
                     <li className="flex items-start gap-2 text-xs sm:text-sm text-slate-655 leading-relaxed">
                       <CheckCircle size={15} className="text-blue-500 shrink-0 mt-1" />
@@ -460,10 +463,10 @@ export default function SBIPOAdmitCardPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
                 {/* Do List Card */}
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xs space-y-4">
-                  <h4 className="font-extrabold text-slate-850 text-base flex items-center gap-2 text-emerald-600 uppercase tracking-wide">
+                  <div className="font-extrabold text-slate-850 text-base flex items-center gap-2 text-emerald-600 uppercase tracking-wide">
                     <CheckCircle size={18} />
                     Things You Should Do
-                  </h4>
+                  </div>
                   <ul className="space-y-3.5 list-none p-0 m-0 text-xs sm:text-sm text-slate-655">
                     <li className="flex items-start gap-2">
                       <CheckCircle size={15} className="text-emerald-500 shrink-0 mt-0.5" />
@@ -486,10 +489,10 @@ export default function SBIPOAdmitCardPage() {
 
                 {/* Don't List Card */}
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xs space-y-4">
-                  <h4 className="font-extrabold text-slate-850 text-base flex items-center gap-2 text-rose-600 uppercase tracking-wide">
+                  <div className="font-extrabold text-slate-850 text-base flex items-center gap-2 text-rose-600 uppercase tracking-wide">
                     <XCircle size={18} />
                     Things You Must Avoid
-                  </h4>
+                  </div>
                   <ul className="space-y-3.5 list-none p-0 m-0 text-xs sm:text-sm text-slate-655">
                     <li className="flex items-start gap-2">
                       <XCircle size={15} className="text-rose-500 shrink-0 mt-0.5" />
@@ -607,7 +610,7 @@ export default function SBIPOAdmitCardPage() {
                         <span className="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/25 text-[8px] font-black uppercase tracking-wider">Entry Check</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">25 July 2026</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">SBI biometric entry verified</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">SBI biometric entry verified</div>
                       <p className="text-slate-400 text-[11px] leading-normal">Advisory confirms biometric checks at centres; candidates urged to report early.</p>
                     </div>
                   </div>
@@ -619,7 +622,7 @@ export default function SBIPOAdmitCardPage() {
                         <span className="px-1.5 py-0.5 rounded bg-rose-500/10 text-rose-400 border border-rose-500/25 text-[8px] font-black uppercase tracking-wider">Security Warning</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">25 July 2026</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Fake links alert on social media</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Fake links alert on social media</div>
                       <p className="text-slate-400 text-[11px] leading-normal">Candidates warned against fake links circulating on WhatsApp/Telegram.</p>
                     </div>
                   </div>
@@ -631,7 +634,7 @@ export default function SBIPOAdmitCardPage() {
                         <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/25 text-[8px] font-black uppercase tracking-wider">Server Traffic</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">25 July 2026</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Optimal morning download window</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Optimal morning download window</div>
                       <p className="text-slate-400 text-[11px] leading-normal">Server load is reported lower during early morning hours (5–7 AM IST).</p>
                     </div>
                   </div>
@@ -643,7 +646,7 @@ export default function SBIPOAdmitCardPage() {
                         <span className="px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/25 text-[8px] font-black uppercase tracking-wider">Admit Card</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">22 July 2026</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Admit Card released online</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Admit Card released online</div>
                       <p className="text-slate-400 text-[11px] leading-normal">SBI PO Prelims Call Letter 2026 has been officially released at sbi.bank.in.</p>
                     </div>
                   </div>
@@ -715,7 +718,7 @@ export default function SBIPOAdmitCardPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

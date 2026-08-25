@@ -1,3 +1,4 @@
+// PATH: app/about/page.tsx
 import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -6,11 +7,13 @@ import SuccessMetricsTabs from '@/components/sections/about/SuccessMetricsTabs';
 
 export const metadata: Metadata = generatePageMeta({
   title: 'About Us – PrepBanker Team & Mission',
-  description: 'Learn about PrepBanker – India\'s most trusted online preparation platform for banking exams like SBI PO and IBPS PO. Our mission, features, and values.',
+  description: 'PrepBanker is a specialized banking exam preparation platform offering structured study guides, detailed exam analysis, and mock tests for SBI PO and IBPS PO candidates. The platform provides sectional practice tests, detailed syllabus breakdowns, and cut-off trends spanning from 2019 to 2025 to support systematic exam preparation.',
   path: '/about',
 });
 
 export default function AboutPage() {
+  const uniformDescription = "PrepBanker is a specialized banking exam preparation platform offering structured study guides, detailed exam analysis, and mock tests for SBI PO and IBPS PO candidates. The platform provides sectional practice tests, detailed syllabus breakdowns, and cut-off trends spanning from 2019 to 2025 to support systematic exam preparation.";
+
   return (
     <>
       <BreadcrumbSchema
@@ -21,7 +24,7 @@ export default function AboutPage() {
       />
       <WebPageSchema
         name="About Us – PrepBanker Team & Mission"
-        description="Learn about PrepBanker – India's most trusted online preparation platform for banking exams like SBI PO and IBPS PO. Our mission, features, and values."
+        description={uniformDescription}
         url="https://prepbanker.com/about"
       />
 
@@ -52,8 +55,8 @@ export default function AboutPage() {
             <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(2rem, 5vw, 3.2rem)', lineHeight: 1.15, marginBottom: '1rem', letterSpacing: '-0.025em' }}>
               About <span style={{ background: 'linear-gradient(135deg, #D4A017, #F0B429)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>PrepBanker</span>
             </h1>
-            <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', maxWidth: '640px', margin: '0 auto', lineHeight: 1.6 }}>
-              India&apos;s most comprehensive and trusted online platform dedicated to banking exam preparation.
+            <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', maxWidth: '800px', margin: '0 auto', lineHeight: 1.6 }}>
+              {uniformDescription}
             </p>
           </div>
         </section>
@@ -96,6 +99,36 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Company, Team & Entity Details Section */}
+        <section style={{ padding: '5rem 1.5rem', maxWidth: '1350px', margin: '0 auto', borderTop: '1px solid #E2E8F0' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem' }}>
+            <div>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.5rem', color: '#0D1B3E', marginBottom: '1.25rem' }}>
+                Our Founding Story
+              </h3>
+              <p style={{ fontSize: '1rem', lineHeight: 1.7, color: '#475569', margin: 0 }}>
+                {"{{NEEDS_CONTENT: Founding Story Editorial Content}}"}
+              </p>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.5rem', color: '#0D1B3E', marginBottom: '1.25rem' }}>
+                Our Team
+              </h3>
+              <p style={{ fontSize: '1rem', lineHeight: 1.7, color: '#475569', margin: 0 }}>
+                {"{{NEEDS_CONTENT: Team Structure Editorial Content}}"}
+              </p>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.5rem', color: '#0D1B3E', marginBottom: '1.25rem' }}>
+                Registered Entity Details
+              </h3>
+              <p style={{ fontSize: '1rem', lineHeight: 1.7, color: '#475569', margin: 0 }}>
+                {"{{NEEDS_CONTENT: Registered Entity Editorial Content}}"}
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Feature Cards Grid */}
         <section style={{ background: '#F8FAFC', padding: '5rem 1.5rem', borderTop: '1px solid #E2E8F0', borderBottom: '1px solid #E2E8F0' }}>
           <div style={{ maxWidth: '1350px', margin: '0 auto', textAlign: 'center', marginBottom: '3rem' }}>
@@ -118,7 +151,7 @@ export default function AboutPage() {
                 Ready to Join Thousands of Successful Candidates?
               </h2>
               <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1rem', maxWidth: '500px', margin: '0 auto 2rem', lineHeight: 1.6 }}>
-                Create your free account on PrepBanker and start practicing with India&apos;s top simulated tests.
+                Create your free account on PrepBanker and start practicing with simulated tests.
               </p>
               <a
                 href="https://app.prepgrind.com/signup/banking"

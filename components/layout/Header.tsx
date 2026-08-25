@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { navLinks } from '@/lib/data';
 import Image from 'next/image';
 import Logo from "../../public/images/prepbanker-logo-2.png"
+import ReviewerBanner from '../shared/ReviewerBanner';
 
 export default function Header() {
   const [scrolled,       setScrolled]       = useState(false);  
@@ -237,6 +238,7 @@ export default function Header() {
           </div>
         </>
       )}
+      <ReviewerBanner />
     </header>
   );
 }

@@ -1,7 +1,4 @@
 // PATH: components/sections/home/WhyPrepBankerSection.tsx
-'use client';
-
-import { useState, useEffect, useRef } from 'react';
 import {
   Users,
   FileText,
@@ -16,6 +13,7 @@ import {
   Clock,
 } from 'lucide-react';
 import { whyPrepBanker } from '@/lib/data';
+import RunningCounter from '@/components/shared/RunningCounter';
 
 // ─────────────────────────────────────────
 // Platform Stats Data for Running Counter
@@ -46,7 +44,7 @@ const PLATFORM_STATS = [
     label: 'Average Rating',
     icon: <Star size={22} strokeWidth={1.8} />,
     iconBg: '#fef9c3',
-    iconColor: '#D4A017',
+    iconColor: '#B28203',
   },
   {
     target: 500,
@@ -60,65 +58,12 @@ const PLATFORM_STATS = [
 ];
 
 // ─────────────────────────────────────────
-// Smooth Running Counter Component using requestAnimationFrame
-// ─────────────────────────────────────────
-function RunningCounter({ target, decimals = 0, suffix = '', duration = 1500 }: { target: number; decimals?: number; suffix?: string; duration?: number }) {
-  const [count, setCount] = useState(0);
-  const elementRef = useRef<HTMLSpanElement>(null);
-  const startedRef = useRef(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !startedRef.current) {
-          startedRef.current = true;
-          const startTime = performance.now();
-
-          const animate = (currentTime: number) => {
-            const elapsed = currentTime - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-
-            // Ease out quad
-            const easeProgress = progress * (2 - progress);
-            const currentVal = easeProgress * target;
-
-            setCount(currentVal);
-
-            if (progress < 1) {
-              requestAnimationFrame(animate);
-            } else {
-              setCount(target);
-            }
-          };
-
-          requestAnimationFrame(animate);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (elementRef.current) {
-      observer.observe(elementRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, [target, duration]);
-
-  return (
-    <span ref={elementRef}>
-      {count.toFixed(decimals)}
-      {suffix}
-    </span>
-  );
-}
-
-// ─────────────────────────────────────────
 // Feature icons mapped to data order
 // ─────────────────────────────────────────
 const FEAT_META: { icon: React.ReactNode; color: string }[] = [
   { icon: <Target size={20} strokeWidth={1.9} />, color: '#1B6EB5' },
   { icon: <BarChart2 size={20} strokeWidth={1.9} />, color: '#7c3aed' },
-  { icon: <Zap size={20} strokeWidth={1.9} />, color: '#D4A017' },
+  { icon: <Zap size={20} strokeWidth={1.9} />, color: '#B28203' },
   { icon: <Trophy size={20} strokeWidth={1.9} />, color: '#16a34a' },
   { icon: <Newspaper size={20} strokeWidth={1.9} />, color: '#0284c7' },
   { icon: <BookOpen size={20} strokeWidth={1.9} />, color: '#ea580c' },
@@ -126,12 +71,7 @@ const FEAT_META: { icon: React.ReactNode; color: string }[] = [
   { icon: <HelpCircle size={20} strokeWidth={1.9} />, color: '#ec4899' },
 ];
 
-// ─────────────────────────────────────────
-// WhyPrepBankerSection
-// ─────────────────────────────────────────
 export default function WhyPrepBankerSection() {
-  const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
-
   return (
     <section
       aria-label="The Smarter Way to Crack SBI PO & IBPS PO"
@@ -145,10 +85,12 @@ export default function WhyPrepBankerSection() {
       <div
         className="absolute -top-20 -right-20 w-80 h-80 rounded-full pointer-events-none"
         style={{ background: 'rgba(212,160,23,.06)' }}
+        aria-hidden="true"
       />
       <div
         className="absolute -bottom-16 -left-16 w-60 h-60 rounded-full pointer-events-none"
         style={{ background: 'rgba(27,110,181,.05)' }}
+        aria-hidden="true"
       />
 
       <div className="max-w-[1350px] mx-auto px-6 relative">
@@ -191,6 +133,7 @@ export default function WhyPrepBankerSection() {
           <div
             className="w-14 h-1 rounded-full mx-auto mb-4"
             style={{ background: 'linear-gradient(90deg, #D4A017, #1B6EB5)' }}
+            aria-hidden="true"
           />
 
           <p className="text-slate-500 text-[0.92rem] max-w-2xl mx-auto leading-relaxed">
@@ -241,34 +184,19 @@ export default function WhyPrepBankerSection() {
         <ul className="grid gap-[1.1rem] mb-12" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))' }}>
           {whyPrepBanker.map((item, i) => {
             const meta = FEAT_META[i] ?? FEAT_META[0];
-            const hovered = hoveredIdx === i;
 
             return (
               <li
                 key={i}
-                onMouseEnter={() => setHoveredIdx(i)}
-                onMouseLeave={() => setHoveredIdx(null)}
-                className="flex gap-4 p-[1.4rem] rounded-[14px] transition-all duration-250 cursor-default"
                 style={{
-                  background: '#fff',
-                  border: hovered
-                    ? '1.5px solid rgba(27,110,181,.22)'
-                    : '1.5px solid #f0ece4',
-                  transform: hovered ? 'translateY(-4px)' : 'translateY(0)',
-                  boxShadow: hovered
-                    ? '0 8px 28px rgba(13,27,62,.09)'
-                    : 'none',
-                }}
+                  '--meta-color': meta.color,
+                  '--meta-hover-border': 'rgba(27,110,181,.22)',
+                } as React.CSSProperties}
+                className="flex gap-4 p-[1.4rem] rounded-[14px] bg-white border border-[#f0ece4] transition-all duration-250 cursor-default hover:border-[var(--meta-hover-border)] hover:-translate-y-1 hover:shadow-[0_8px_28px_rgba(13,27,62,.09)] group"
               >
                 {/* Icon */}
                 <div
-                  className="w-[50px] h-[50px] flex-shrink-0 rounded-[13px] flex items-center justify-center transition-all duration-250"
-                  style={{
-                    background: hovered
-                      ? 'linear-gradient(135deg, #0D1B3E, #1B6EB5)'
-                      : '#f1f5f9',
-                    color: hovered ? '#fff' : meta.color,
-                  }}
+                  className="w-[50px] h-[50px] flex-shrink-0 rounded-[13px] flex items-center justify-center bg-slate-100 text-[var(--meta-color)] transition-all duration-250 group-hover:bg-gradient-to-br group-hover:from-[#0D1B3E] group-hover:to-[#1B6EB5] group-hover:text-white"
                 >
                   {meta.icon}
                 </div>
@@ -297,6 +225,7 @@ export default function WhyPrepBankerSection() {
                 background: 'linear-gradient(135deg, #D4A017, #F0B429)',
                 animation: 'wb-pulse 2.2s ease-out infinite',
               }}
+              aria-hidden="true"
             />
             <a
               href="https://app.prepgrind.com/signup/banking"
@@ -313,6 +242,7 @@ export default function WhyPrepBankerSection() {
               <span
                 className="absolute inset-0 pointer-events-none rounded-[50px]"
                 style={{ animation: 'wb-shimmer 2.5s infinite' }}
+                aria-hidden="true"
               />
               <Zap size={16} strokeWidth={2.5} className="relative z-10" />
               <span className="relative z-10">Start Preparing Free Today</span>

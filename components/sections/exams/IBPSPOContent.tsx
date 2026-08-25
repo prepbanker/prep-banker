@@ -787,7 +787,7 @@ export default function IBPSPOContent() {
 
             <div className="bg-[#0D1B3E] text-white p-6 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4">
               <div>
-                <h4 className="font-bold text-sm sm:text-base">Attempt your first IBPS PO Prelims mock test for free</h4>
+                <div className="font-bold text-sm sm:text-base">Attempt your first IBPS PO Prelims mock test for free</div>
                 <p className="text-white/60 text-xs mt-1">Realistic test conditions, complete answers, and detailed score breakdown.</p>
               </div>
               <a
@@ -1211,7 +1211,7 @@ export default function IBPSPOContent() {
               <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs flex flex-col justify-between">
                 <div>
                   <span className="text-blue-600 font-black text-lg">01</span>
-                  <h4 className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 1 — Prelims</h4>
+                  <div className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 1 — Prelims</div>
                   <p className="text-slate-500 text-xs leading-relaxed">
                     Online CBT featuring 100 questions, 100 marks, and a 60-minute duration. This stage is qualifying in nature.
                   </p>
@@ -1220,7 +1220,7 @@ export default function IBPSPOContent() {
               <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs flex flex-col justify-between">
                 <div>
                   <span className="text-purple-600 font-black text-lg">02</span>
-                  <h4 className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 2 — Mains</h4>
+                  <div className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 2 — Mains</div>
                   <p className="text-slate-500 text-xs leading-relaxed">
                     155 objective questions plus descriptive writing. This stage carries **80%** weightage of the final merit ranking.
                   </p>
@@ -1229,7 +1229,7 @@ export default function IBPSPOContent() {
               <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs flex flex-col justify-between">
                 <div>
                   <span className="text-green-600 font-black text-lg">03</span>
-                  <h4 className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 3 — Interview</h4>
+                  <div className="font-extrabold text-slate-800 text-sm mt-1 mb-2">Stage 3 — Interview</div>
                   <p className="text-slate-500 text-xs leading-relaxed">
                     Personal Interview scoring 100 marks. Carries **20%** weightage in the final merit allocation.
                   </p>
@@ -1354,7 +1354,7 @@ export default function IBPSPOContent() {
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
                   <span className="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-0.5 rounded-full uppercase">Month 1</span>
-                  <h4 className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Foundation (Days 1–30)</h4>
+                  <div className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Foundation (Days 1–30)</div>
                   <ul className="list-disc list-inside text-xs text-slate-500 space-y-1">
                     <li>Reasoning: Prelims topics</li>
                     <li>Quant: Basic arithmetic</li>
@@ -1365,7 +1365,7 @@ export default function IBPSPOContent() {
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
                   <span className="bg-purple-100 text-purple-800 text-xs font-bold px-2 py-0.5 rounded-full uppercase">Month 2</span>
-                  <h4 className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Mock Tests (Days 31–60)</h4>
+                  <div className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Mock Tests (Days 31–60)</div>
                   <ul className="list-disc list-inside text-xs text-slate-500 space-y-1">
                     <li>2 full Prelims mocks weekly</li>
                     <li>Deep review of score</li>
@@ -1375,7 +1375,7 @@ export default function IBPSPOContent() {
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
                   <span className="bg-green-100 text-green-800 text-xs font-bold px-2 py-0.5 rounded-full uppercase">Month 3</span>
-                  <h4 className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Speed & Mains (Days 61–90)</h4>
+                  <div className="font-bold text-slate-800 text-xs mt-2.5 mb-1.5">Speed & Mains (Days 61–90)</div>
                   <ul className="list-disc list-inside text-xs text-slate-500 space-y-1">
                     <li>1 Prelims mock every 2 days</li>
                     <li>2 full Mains mocks weekly</li>
@@ -1395,7 +1395,7 @@ export default function IBPSPOContent() {
               {/* 3 Strategy Cards */}
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
-                  <h4 className="font-extrabold text-slate-800 text-xs mb-1">English Language</h4>
+                  <div className="font-extrabold text-slate-800 text-xs mb-1">English Language</div>
                   <p className="text-xs text-slate-500 leading-relaxed mb-2">
                     Target Attempts: **22-25**
                   </p>
@@ -1404,7 +1404,7 @@ export default function IBPSPOContent() {
                   </p>
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
-                  <h4 className="font-extrabold text-slate-800 text-xs mb-1">Quantitative Aptitude</h4>
+                  <div className="font-extrabold text-slate-800 text-xs mb-1">Quantitative Aptitude</div>
                   <p className="text-xs text-slate-500 leading-relaxed mb-2">
                     Target Attempts: **24-28**
                   </p>
@@ -1413,7 +1413,7 @@ export default function IBPSPOContent() {
                   </p>
                 </li>
                 <li className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs">
-                  <h4 className="font-extrabold text-slate-800 text-xs mb-1">Reasoning Ability</h4>
+                  <div className="font-extrabold text-slate-800 text-xs mb-1">Reasoning Ability</div>
                   <p className="text-xs text-slate-500 leading-relaxed mb-2">
                     Target Attempts: **26-30**
                   </p>

@@ -108,9 +108,9 @@ export default function MockTestSnippet() {
               </div>
               <div className="space-y-1 text-left">
                 <div className="flex items-baseline justify-between gap-2 flex-wrap">
-                  <h4 className="font-extrabold text-sm text-slate-200">
+                  <div className="font-extrabold text-sm text-slate-200">
                     {feature.title}
-                  </h4>
+                  </div>
                   <span className="text-[11px] font-black text-[var(--color-gold-bright)]">
                     {feature.value}
                   </span>
@@ -126,10 +126,10 @@ export default function MockTestSnippet() {
 
       {/* Differentiator Alert Callout */}
       <div className="relative z-10 bg-white/[0.03] border border-white/10 rounded-2xl p-5 mb-8 text-left space-y-2">
-        <h5 className="text-xs font-bold text-slate-350 uppercase tracking-widest flex items-center gap-1.5">
+        <div className="text-xs font-bold text-slate-350 uppercase tracking-widest flex items-center gap-1.5">
           <Sparkles className="w-4 h-4 text-[var(--color-gold-bright)]" />
           Why PrepBanker's mock tests are built differently
-        </h5>
+        </div>
         <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
           Our question difficulty is recalibrated every year based on the previous cycle's actual shift-wise feedback from our own test-takers, not just theoretical pattern guesses. Each query mirrors the timing pressure and sectional constraints of the live bank CBT.
         </p>

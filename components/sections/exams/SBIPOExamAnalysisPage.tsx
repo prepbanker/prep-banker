@@ -533,7 +533,7 @@ export default function SBIPOExamAnalysisPage() {
                     <div key={idx} className="border border-slate-150 border-l-4 border-l-blue-500 bg-blue-50/5 py-4 pr-4 pl-6 rounded-2xl flex flex-col justify-between space-y-1 hover:border-slate-350 transition-all duration-200 font-sans">
                       <div className="space-y-1">
                         <span className="block text-[9px] font-black text-slate-400 uppercase tracking-widest">Guideline {idx + 1}</span>
-                        <h4 className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</h4>
+                        <div className="font-extrabold text-slate-900 text-sm leading-tight m-0">{item.title}</div>
                         <p className="text-slate-505 text-xs sm:text-sm font-semibold leading-relaxed m-0 pt-1 text-slate-500">{item.desc}</p>
                       </div>
                     </div>
@@ -603,7 +603,7 @@ export default function SBIPOExamAnalysisPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

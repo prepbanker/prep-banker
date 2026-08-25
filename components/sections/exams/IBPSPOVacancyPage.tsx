@@ -299,9 +299,9 @@ export default function IBPSPOVacancyPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Vacancy Key Highlights
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -456,10 +456,10 @@ export default function IBPSPOVacancyPage() {
 
             {/* Checklist Box */}
             <div className="p-5 bg-white border border-slate-200 rounded-2xl shadow-xs font-sans">
-              <h4 className="font-black text-sm text-slate-800 flex items-center gap-2 mb-3.5">
+              <div className="font-black text-sm text-slate-800 flex items-center gap-2 mb-3.5">
                 <span className="p-1 rounded bg-amber-50 text-amber-600"><Info size={14} /></span>
                 Operational Factors Driving Seat Revisions
-              </h4>
+              </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-xs sm:text-sm text-slate-655 font-bold">
                 <div className="flex items-start gap-2.5 p-3 rounded-xl bg-slate-50/80 border border-slate-100 hover:border-slate-200 transition-all">
@@ -563,7 +563,7 @@ export default function IBPSPOVacancyPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start font-sans">
               {/* Category distribution chart */}
               <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs space-y-4">
-                <h4 className="font-extrabold text-sm text-slate-800 tracking-tight">Vacancy Share Distribution</h4>
+                <div className="font-extrabold text-sm text-slate-800 tracking-tight">Vacancy Share Distribution</div>
                 <div className="space-y-4.5">
                   {[
                     { category: 'Unreserved (UR)', count: '2,936', percentage: 39.9, color: 'from-blue-500 to-sky-400 bg-blue-50', text: 'text-blue-700' },
@@ -593,9 +593,9 @@ export default function IBPSPOVacancyPage() {
 
               {/* Reservation Rules Callout */}
               <div className="space-y-4 bg-slate-50 border border-slate-200 rounded-2xl p-5">
-                <h4 className="font-extrabold text-sm text-slate-800 flex items-center gap-1.5">
+                <div className="font-extrabold text-sm text-slate-800 flex items-center gap-1.5">
                   <UserCheck size={16} /> Reservation & Eligibility
-                </h4>
+                </div>
                 <p className="text-xs text-slate-500 font-semibold leading-relaxed">
                   Wondering if you meet the criteria to claim SC/ST/OBC/EWS reservation? Check the complete eligibility and reservation rules page.
                 </p>
@@ -607,9 +607,9 @@ export default function IBPSPOVacancyPage() {
                 </Link>
 
                 <div className="border-t border-slate-200 pt-3.5 space-y-1.5">
-                  <h5 className="font-extrabold text-xs text-slate-800 flex items-center gap-1">
+                  <div className="font-extrabold text-xs text-slate-800 flex items-center gap-1">
                     <Info size={12} /> PwBD Horizontal Reservation
-                  </h5>
+                  </div>
                   <p className="text-[11px] text-slate-400 leading-normal font-semibold">
                     PwBD reservation is applied horizontally across categories (not as a separate additional total) as per the Rights of Persons with Disabilities Act, 2016 — a PwBD candidate is counted within their applicable category, not outside it.
                   </p>
@@ -753,9 +753,9 @@ export default function IBPSPOVacancyPage() {
 
               {/* Trend Insight Callout */}
               <div className="p-5 border border-amber-200/40 bg-amber-50/30 rounded-2xl space-y-3">
-                <h4 className="font-extrabold text-sm text-amber-900 flex items-center gap-1.5">
+                <div className="font-extrabold text-sm text-amber-900 flex items-center gap-1.5">
                   <Trophy size={16} className="text-amber-500" /> Historical Analysis
-                </h4>
+                </div>
                 <p className="text-xs text-amber-800 leading-relaxed font-semibold">
                   2026 marks the highest IBPS PO vacancy count in the last five recruitment cycles, roughly 41% more than 2025 — good news if you're weighing whether this is the year to attempt seriously.
                 </p>
@@ -907,7 +907,7 @@ export default function IBPSPOVacancyPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">More vacancies, more competition — outprep it.</h4>
+                <div className="font-black text-base sm:text-lg text-white">More vacancies, more competition — outprep it.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Attempt a Free IBPS PO Mock Test today and baseline your readiness. Boost your speed with sectional test challenges.
                 </p>
@@ -1055,7 +1055,7 @@ export default function IBPSPOVacancyPage() {
                   </div>
                   <span className="text-[#FBBF24] text-xs font-bold font-mono mb-4">{pdfProgress}% Completed</span>
 
-                  <h4 className="font-extrabold text-white text-sm sm:text-base">Loading Official Vacancy Document...</h4>
+                  <div className="font-extrabold text-white text-sm sm:text-base">Loading Official Vacancy Document...</div>
                   <p className="text-xs text-white/50 mt-1 max-w-xs leading-normal">
                     Fetching PDF from ibps.in servers. This may take a few seconds depending on your connection.
                   </p>
@@ -1063,7 +1063,7 @@ export default function IBPSPOVacancyPage() {
               )}
               <div className="absolute inset-0 bg-slate-100 flex flex-col items-center justify-center p-6 text-center -z-10">
                 <AlertCircle className="text-slate-400 mb-2" size={32} />
-                <h4 className="font-extrabold text-slate-800">Loading Official Vacancy Document...</h4>
+                <div className="font-extrabold text-slate-800">Loading Official Vacancy Document...</div>
                 <p className="text-xs text-slate-500 mt-1 max-w-sm">
                   If the document does not display within a few seconds, <a href="https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">click here to download the PDF directly</a>.
                 </p>

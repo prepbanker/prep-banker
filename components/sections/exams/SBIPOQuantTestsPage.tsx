@@ -217,30 +217,30 @@ export default function SBIPOQuantTestsPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                    <h4 className="font-extrabold text-[#1B6EB5] text-xs sm:text-sm flex items-center gap-2">
+                    <div className="font-extrabold text-[#1B6EB5] text-xs sm:text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
                       DI Domain Weight
-                    </h4>
+                    </div>
                     <p className="text-xs text-slate-600 font-semibold leading-relaxed">
                       Data Interpretation is the highest-weightage topic in Quant, typically contributing <strong>10–15 of the section's 30 questions</strong> across Bar, Line, Pie, Table, Caselet, and Mixed DI formats.
                     </p>
                   </div>
 
                   <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                    <h4 className="font-extrabold text-[#1B6EB5] text-xs sm:text-sm flex items-center gap-2">
+                    <div className="font-extrabold text-[#1B6EB5] text-xs sm:text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500" />
                       Speed Core Pillars
-                    </h4>
+                    </div>
                     <p className="text-xs text-slate-600 font-semibold leading-relaxed">
                       Number Series and Simplification/Approximation are the next-highest priority — together with DI, these three topics can account for <strong>20+ of the 30 Quant questions</strong>.
                     </p>
                   </div>
 
                   <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                    <h4 className="font-extrabold text-[#1B6EB5] text-xs sm:text-sm flex items-center gap-2">
+                    <div className="font-extrabold text-[#1B6EB5] text-xs sm:text-sm flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
                       Arithmetic Foundation
-                    </h4>
+                    </div>
                     <p className="text-xs text-slate-600 font-semibold leading-relaxed">
                       Arithmetic word problems (Time & Work, Profit & Loss, SI/CI, Time-Speed-Distance) form the foundation for both Prelims and Mains, so early mastery compounds across both stages.
                     </p>
@@ -358,7 +358,7 @@ export default function SBIPOQuantTestsPage() {
                   ].map((test, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 hover:border-slate-350 transition-all flex flex-col justify-between h-44">
                       <div className="space-y-1">
-                        <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm m-0 leading-snug">{test.title}</h4>
+                        <div className="font-extrabold text-slate-800 text-xs sm:text-sm m-0 leading-snug">{test.title}</div>
                         <span className="inline-block text-[10px] text-slate-500 font-bold uppercase tracking-wide leading-normal">
                           {test.focus}
                         </span>
@@ -428,10 +428,10 @@ export default function SBIPOQuantTestsPage() {
                     }
                   ].map((item, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200/60 rounded-2xl p-5 space-y-2 hover:border-slate-350 hover:bg-slate-50 transition-all">
-                      <h4 className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
+                      <div className="font-extrabold text-slate-800 text-xs sm:text-sm flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
                         {item.topic}
-                      </h4>
+                      </div>
                       <p className="text-xs text-slate-600 font-semibold leading-relaxed m-0">
                         {item.advice}
                       </p>
@@ -469,7 +469,7 @@ export default function SBIPOQuantTestsPage() {
                   ].map((report, idx) => (
                     <div key={idx} className="bg-slate-50 border border-slate-200/60 rounded-xl p-5 sm:p-6 space-y-1">
                       <span className="text-[10px] font-black text-[#1B6EB5] uppercase tracking-widest block">{`Feature 0${idx + 1}`}</span>
-                      <h4 className="font-extrabold text-slate-800 text-sm leading-tight m-0">{report.title}</h4>
+                      <div className="font-extrabold text-slate-800 text-sm leading-tight m-0">{report.title}</div>
                       <p className="text-xs text-slate-600 font-semibold leading-relaxed pt-1.5 m-0">{report.desc}</p>
                     </div>
                   ))}
@@ -528,7 +528,7 @@ export default function SBIPOQuantTestsPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>

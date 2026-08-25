@@ -194,9 +194,9 @@ export default function SBIPONotificationPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Key Exam Statistics
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -322,7 +322,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Recruiting Body</span>
-                    <h4 className="font-extrabold text-slate-800 text-sm leading-snug">State Bank of India (SBI)</h4>
+                    <div className="font-extrabold text-slate-800 text-sm leading-snug">State Bank of India (SBI)</div>
                     <p className="text-[11px] text-slate-500 font-medium">Central Recruitment &amp; Promotion Dept.</p>
                   </div>
                 </div>
@@ -334,7 +334,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Post Name</span>
-                    <h4 className="font-extrabold text-slate-800 text-sm leading-snug">Probationary Officer (PO)</h4>
+                    <div className="font-extrabold text-slate-800 text-sm leading-snug">Probationary Officer (PO)</div>
                     <p className="text-[11px] text-slate-500 font-medium">Officer Cadre — Scale I</p>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Advertisement No.</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">CRPD/PO/2026-27/09</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">CRPD/PO/2026-27/09</div>
                     <p className="text-[11px] text-slate-500 font-medium">Official Notification Code</p>
                   </div>
                 </div>
@@ -358,7 +358,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-emerald-700/75 font-bold text-[10px] uppercase tracking-wider">Total Vacancies</span>
-                    <h4 className="font-black text-emerald-800 text-sm sm:text-base leading-snug">1,500 Openings</h4>
+                    <div className="font-black text-emerald-800 text-sm sm:text-base leading-snug">1,500 Openings</div>
                     <p className="text-[11px] text-emerald-750 font-medium font-semibold">1,446 Regular + 54 Backlog</p>
                   </div>
                 </div>
@@ -370,7 +370,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Application Window</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">18 June – 8 July 2026</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">18 June – 8 July 2026</div>
                     <p className="text-[11px] text-purple-650 font-bold">Online registration closed</p>
                   </div>
                 </div>
@@ -382,7 +382,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Application Fee</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">₹750 (Gen/OBC/EWS)</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">₹750 (Gen/OBC/EWS)</div>
                     <p className="text-[11px] text-slate-500 font-medium">No fee for SC / ST / PwBD</p>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Age Limits</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">21 – 30 Years</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">21 – 30 Years</div>
                     <p className="text-[11px] text-slate-500 font-medium">As on 1st April 2026</p>
                   </div>
                 </div>
@@ -406,7 +406,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Education Required</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">Graduation Degree</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">Graduation Degree</div>
                     <p className="text-[11px] text-slate-500 font-medium">Any discipline from recognized University</p>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Selection Stages</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">3-Phase Process</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">3-Phase Process</div>
                     <p className="text-[11px] text-blue-700 font-semibold">Prelims → Mains → GD/Interview</p>
                   </div>
                 </div>
@@ -430,7 +430,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-400 font-bold text-[10px] uppercase tracking-wider">Job Location</span>
-                    <h4 className="font-extrabold text-slate-850 text-sm leading-snug">Across India</h4>
+                    <div className="font-extrabold text-slate-850 text-sm leading-snug">Across India</div>
                     <p className="text-[11px] text-slate-500 font-medium">Postings in branches pan-India</p>
                   </div>
                 </div>
@@ -485,7 +485,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-emerald-100 border-2 border-emerald-500 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Notification Release</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Notification Release</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-black uppercase tracking-wider w-fit">Completed</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">18 June 2026</p>
@@ -495,7 +495,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-emerald-100 border-2 border-emerald-500 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Online Application Starts</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Online Application Starts</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-black uppercase tracking-wider w-fit">Completed</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">18 June 2026</p>
@@ -505,7 +505,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-emerald-100 border-2 border-emerald-500 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Last Date to Apply &amp; Pay Fee</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Last Date to Apply &amp; Pay Fee</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-black uppercase tracking-wider w-fit">Closed</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">8 July 2026</p>
@@ -515,7 +515,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-emerald-100 border-2 border-emerald-500 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Pre-Exam Training (PET) Call Letter</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Pre-Exam Training (PET) Call Letter</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-black uppercase tracking-wider w-fit">Released</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">17 July 2026</p>
@@ -525,7 +525,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-emerald-100 border-2 border-emerald-500 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Prelims Admit Card</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Prelims Admit Card</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-black uppercase tracking-wider w-fit">Released</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">22 July 2026</p>
@@ -535,7 +535,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-blue-100 border-2 border-[#1B6EB5] rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Prelims Examination</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Prelims Examination</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-700 text-[10px] font-black uppercase tracking-wider w-fit">Upcoming</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">1 &amp; 2 August 2026</p>
@@ -545,7 +545,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-slate-100 border-2 border-slate-400 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Prelims Result &amp; Mains Exam</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Prelims Result &amp; Mains Exam</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-black uppercase tracking-wider w-fit">Expected</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">September 2026</p>
@@ -555,7 +555,7 @@ export default function SBIPONotificationPage() {
                 <div className="relative">
                   <span className="absolute -left-[31px] top-1.5 bg-slate-100 border-2 border-slate-400 rounded-full w-4 h-4" />
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
-                    <h4 className="font-bold text-sm sm:text-base text-slate-800">Final Merit Announcement</h4>
+                    <div className="font-bold text-sm sm:text-base text-slate-800">Final Merit Announcement</div>
                     <span className="px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-black uppercase tracking-wider w-fit">Expected</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#1B6EB5] font-extrabold mt-0.5">November/December 2026</p>
@@ -880,7 +880,7 @@ export default function SBIPONotificationPage() {
                     <BookOpen size={72} />
                   </div>
                   <span className="px-2.5 py-1 bg-blue-100 text-blue-800 text-[10px] font-extrabold uppercase tracking-wider rounded-md">Education</span>
-                  <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">Graduation in Any Stream</h4>
+                  <div className="font-extrabold text-slate-850 text-base sm:text-lg">Graduation in Any Stream</div>
                   <p className="text-slate-655 text-sm leading-relaxed">
                     Must hold a bachelor's degree. <span className="bg-amber-100 font-semibold px-1 rounded text-slate-900">Final-year students can apply provisionally</span>, provided graduation is completed by <strong>30 September 2026</strong>.
                   </p>
@@ -892,7 +892,7 @@ export default function SBIPONotificationPage() {
                     <Clock size={72} />
                   </div>
                   <span className="px-2.5 py-1 bg-amber-100 text-amber-800 text-[10px] font-extrabold uppercase tracking-wider rounded-md">Age Limits</span>
-                  <h4 className="font-extrabold text-slate-850 text-base sm:text-lg">21 to 30 Years</h4>
+                  <div className="font-extrabold text-slate-850 text-base sm:text-lg">21 to 30 Years</div>
                   <p className="text-slate-655 text-sm leading-relaxed">
                     Candidates must be born between <strong>2 April 1996</strong> and <strong>1 April 2005</strong> (both dates inclusive). Standard government relaxations apply for reserved groups.
                   </p>
@@ -950,7 +950,7 @@ export default function SBIPONotificationPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="border border-slate-200 bg-white rounded-2xl p-5 shadow-xs flex items-center justify-between">
                   <div>
-                    <h4 className="font-bold text-slate-500 text-xs uppercase tracking-wider">General / EWS / OBC</h4>
+                    <div className="font-bold text-slate-500 text-xs uppercase tracking-wider">General / EWS / OBC</div>
                     <p className="text-slate-800 text-sm font-semibold mt-1">Includes intimation charges</p>
                   </div>
                   <div className="text-2xl font-black text-[#1B6EB5]">₹750</div>
@@ -958,7 +958,7 @@ export default function SBIPONotificationPage() {
 
                 <div className="border border-slate-200 bg-white rounded-2xl p-5 shadow-xs flex items-center justify-between">
                   <div>
-                    <h4 className="font-bold text-slate-500 text-xs uppercase tracking-wider">SC / ST / PwBD</h4>
+                    <div className="font-bold text-slate-500 text-xs uppercase tracking-wider">SC / ST / PwBD</div>
                     <p className="text-slate-800 text-sm font-semibold mt-1">Intimation charges waived</p>
                   </div>
                   <div className="text-2xl font-black text-emerald-600">Nil</div>
@@ -1089,7 +1089,7 @@ export default function SBIPONotificationPage() {
                       <span className="text-[10px] text-slate-400 font-extrabold uppercase font-mono">Step 01</span>
                     </div>
                     <div className="space-y-1">
-                      <h4 className="font-extrabold text-slate-800 text-base">Preliminary Exam</h4>
+                      <div className="font-extrabold text-slate-800 text-base">Preliminary Exam</div>
                       <p className="text-[11px] font-bold text-amber-600">100 Marks • Qualifying Only</p>
                     </div>
                     <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
@@ -1110,7 +1110,7 @@ export default function SBIPONotificationPage() {
                       <span className="text-[10px] text-slate-400 font-extrabold uppercase font-mono">Step 02</span>
                     </div>
                     <div className="space-y-1">
-                      <h4 className="font-extrabold text-slate-800 text-base">Main Exam</h4>
+                      <div className="font-extrabold text-slate-800 text-base">Main Exam</div>
                       <p className="text-[11px] font-bold text-[#1B6EB5]">225 Marks • Merit Counted</p>
                     </div>
                     <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
@@ -1131,7 +1131,7 @@ export default function SBIPONotificationPage() {
                       <span className="text-[10px] text-emerald-600 font-extrabold uppercase font-mono">Final Step</span>
                     </div>
                     <div className="space-y-1">
-                      <h4 className="font-extrabold text-slate-800 text-base">GE &amp; Interview</h4>
+                      <div className="font-extrabold text-slate-800 text-base">GE &amp; Interview</div>
                       <p className="text-[11px] font-bold text-emerald-600">50 Marks • Final Selection</p>
                     </div>
                     <p className="text-slate-655 text-xs sm:text-sm leading-relaxed">
@@ -1180,7 +1180,7 @@ export default function SBIPONotificationPage() {
                         <span className="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/25 text-[8px] font-black uppercase tracking-wider">Exam Dates</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">24 July</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Prelims confirmed: August 1 &amp; 2</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Prelims confirmed: August 1 &amp; 2</div>
                     </div>
                   </div>
 
@@ -1191,7 +1191,7 @@ export default function SBIPONotificationPage() {
                         <span className="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/25 text-[8px] font-black uppercase tracking-wider">Admit Card</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">22 July</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Prelims Admit Card released</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Prelims Admit Card released</div>
                     </div>
                   </div>
 
@@ -1202,7 +1202,7 @@ export default function SBIPONotificationPage() {
                         <span className="px-1.5 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/25 text-[8px] font-black uppercase tracking-wider">Official Notice</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">18 July</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Credit Score (CIBIL) clause removed</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Credit Score (CIBIL) clause removed</div>
                     </div>
                   </div>
 
@@ -1213,7 +1213,7 @@ export default function SBIPONotificationPage() {
                         <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/25 text-[8px] font-black uppercase tracking-wider">Portal Closed</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">8 July</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Registration closed: 12.1 Lakh apply</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Registration closed: 12.1 Lakh apply</div>
                     </div>
                   </div>
 
@@ -1224,7 +1224,7 @@ export default function SBIPONotificationPage() {
                         <span className="px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/25 text-[8px] font-black uppercase tracking-wider">Released</span>
                         <span className="text-[9px] font-bold text-slate-500 uppercase font-mono">18 June</span>
                       </div>
-                      <h4 className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Official PDF released (1,500 posts)</h4>
+                      <div className="font-extrabold text-slate-100 text-xs sm:text-sm leading-snug">Official PDF released (1,500 posts)</div>
                     </div>
                   </div>
                 </div>
@@ -1321,7 +1321,7 @@ export default function SBIPONotificationPage() {
             <div className="bg-gradient-to-br from-[#030712] to-[#091024] border border-slate-800 p-5 rounded-2xl shadow-sm text-center relative overflow-hidden text-white font-sans mb-16">
               <div className="relative z-10">
                 <Trophy size={28} className="mx-auto text-[var(--color-gold-bright)] mb-2.5" />
-                <h4 className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</h4>
+                <div className="font-bold text-sm mb-1 font-display">Ready to Crack SBI PO 2026?</div>
                 <p className="text-white/60 text-xs leading-relaxed mb-4">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks.
                 </p>
@@ -1392,7 +1392,7 @@ export default function SBIPONotificationPage() {
                   </div>
                   <span className="text-[#FBBF24] text-xs font-bold font-mono mb-4">{pdfProgress}% Completed</span>
 
-                  <h4 className="font-extrabold text-white text-sm sm:text-base">Loading Official Notification Document...</h4>
+                  <div className="font-extrabold text-white text-sm sm:text-base">Loading Official Notification Document...</div>
                   <p className="text-xs text-white/50 mt-1 max-w-xs leading-normal">
                     Fetching PDF from sbi.bank.in servers. This may take a few seconds depending on your connection.
                   </p>
@@ -1400,7 +1400,7 @@ export default function SBIPONotificationPage() {
               )}
               <div className="absolute inset-0 bg-slate-100 flex flex-col items-center justify-center p-6 text-center -z-10">
                 <AlertCircle className="text-slate-400 mb-2" size={32} />
-                <h4 className="font-extrabold text-slate-800">Loading Official Notification Document...</h4>
+                <div className="font-extrabold text-slate-800">Loading Official Notification Document...</div>
                 <p className="text-xs text-slate-500 mt-1 max-w-sm">
                   If the document does not display within a few seconds, <a href="https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">click here to download the PDF directly</a>.
                 </p>

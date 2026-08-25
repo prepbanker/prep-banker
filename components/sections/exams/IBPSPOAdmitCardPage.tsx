@@ -242,9 +242,9 @@ export default function IBPSPOAdmitCardPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Admit Card Highlights
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -473,7 +473,7 @@ export default function IBPSPOAdmitCardPage() {
                     </div>
                     {/* Card wrapper */}
                     <div className="p-5 bg-white border border-slate-200/80 rounded-2xl group-hover:border-orange-300 hover:shadow-[0_8px_20px_-6px_rgba(249,115,22,0.05)] transition-all duration-300">
-                      <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-orange-600 transition-colors duration-200">{item.title}</h4>
+                      <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-orange-600 transition-colors duration-200">{item.title}</div>
                       <p className="text-xs sm:text-sm text-slate-505 font-medium leading-relaxed mt-1">{item.text}</p>
                     </div>
                   </div>
@@ -488,10 +488,13 @@ export default function IBPSPOAdmitCardPage() {
                   rel="noopener noreferrer"
                   className="block w-full rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md hover:scale-[1.01] transition-all duration-300 cursor-pointer"
                 >
-                  <img
+                  <Image
                     src="/images/ibps-po-card.jpeg"
                     alt="PrepGrind IBPS PO Complete Test Series"
+                    width={1024}
+                    height={1536}
                     className="w-full h-auto block"
+                    sizes="(max-width: 1024px) 100vw, 500px"
                   />
                 </a>
               </div>
@@ -594,10 +597,10 @@ export default function IBPSPOAdmitCardPage() {
                 
                 {/* Personal details checklist card */}
                 <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
-                  <h4 className="font-extrabold text-sm text-slate-800 flex items-center gap-2 mb-3.5">
+                  <div className="font-extrabold text-sm text-slate-800 flex items-center gap-2 mb-3.5">
                     <span className="p-1 rounded bg-blue-100 text-blue-600"><User size={14} /></span>
                     Personal Credentials Checklist
-                  </h4>
+                  </div>
                   <ul className="space-y-2.5 text-xs sm:text-sm text-slate-650 font-semibold list-none p-0 m-0">
                     <li className="flex items-start gap-2.5">
                       <CheckCircle size={15} className="text-emerald-500 shrink-0 mt-0.5" />
@@ -624,10 +627,10 @@ export default function IBPSPOAdmitCardPage() {
 
                 {/* Examination details checklist card */}
                 <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
-                  <h4 className="font-extrabold text-sm text-slate-800 flex items-center gap-2 mb-3.5">
+                  <div className="font-extrabold text-sm text-slate-800 flex items-center gap-2 mb-3.5">
                     <span className="p-1 rounded bg-indigo-100 text-indigo-600"><Compass size={14} /></span>
                     Examination Details Checklist
-                  </h4>
+                  </div>
                   <ul className="space-y-2.5 text-xs sm:text-sm text-slate-650 font-semibold list-none p-0 m-0">
                     <li className="flex items-start gap-2.5">
                       <CheckCircle size={15} className="text-emerald-500 shrink-0 mt-0.5" />
@@ -660,7 +663,7 @@ export default function IBPSPOAdmitCardPage() {
             <div className="p-5 bg-gradient-to-r from-red-50 to-rose-50 border-l-4 border-red-500 rounded-r-2xl flex gap-4 font-sans shadow-xs">
               <AlertTriangle className="text-red-500 shrink-0 mt-0.5" size={18} />
               <div className="space-y-1.5">
-                <h5 className="font-black text-xs sm:text-sm text-red-950">Mandatory Name & ID Proof Verification</h5>
+                <div className="font-black text-xs sm:text-sm text-red-950">Mandatory Name & ID Proof Verification</div>
                 <p className="text-xs sm:text-sm text-red-900 leading-relaxed font-semibold">
                   A mismatch between your admit card details and photo ID proof is the single most common reason candidates are denied entry. If you spot a discrepancy, refer to the troubleshooting instructions below immediately.
                 </p>
@@ -694,7 +697,7 @@ export default function IBPSPOAdmitCardPage() {
                       <span className={`text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md ${s.textTheme}`}>{s.badge}</span>
                       <span className="text-[11px] font-extrabold text-slate-400">#{s.shift.toLowerCase().replace(' ', '')}</span>
                     </div>
-                    <h4 className="font-black text-lg text-slate-800 tracking-tight">{s.shift}</h4>
+                    <div className="font-black text-lg text-slate-800 tracking-tight">{s.shift}</div>
                   </div>
                   
                   <div className="space-y-3.5 pt-2 border-t border-slate-200/45">
@@ -748,7 +751,7 @@ export default function IBPSPOAdmitCardPage() {
                     </span>
                     <span className="text-xs font-black text-blue-400 tracking-wider">01 / MANDATORY</span>
                   </div>
-                  <h4 className="font-extrabold text-sm text-slate-800 leading-tight">Printed Admit Card</h4>
+                  <div className="font-extrabold text-sm text-slate-800 leading-tight">Printed Admit Card</div>
                   <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                     At least one clear printed hard copy. Coloured prints are preferred, but clean black & white is fully accepted.
                   </p>
@@ -765,7 +768,7 @@ export default function IBPSPOAdmitCardPage() {
                     </span>
                     <span className="text-xs font-black text-emerald-400 tracking-wider">02 / VERIFICATION</span>
                   </div>
-                  <h4 className="font-extrabold text-sm text-slate-800 leading-tight">Original Photo ID</h4>
+                  <div className="font-extrabold text-sm text-slate-800 leading-tight">Original Photo ID</div>
                   <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                     Valid original identity document (Aadhaar Card, PAN Card, Passport, Voter ID, or Driving Licence).
                   </p>
@@ -782,7 +785,7 @@ export default function IBPSPOAdmitCardPage() {
                     </span>
                     <span className="text-xs font-black text-purple-400 tracking-wider">03 / SUBMISSION</span>
                   </div>
-                  <h4 className="font-extrabold text-sm text-slate-800 leading-tight">ID Photocopy</h4>
+                  <div className="font-extrabold text-sm text-slate-800 leading-tight">ID Photocopy</div>
                   <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                     A clear photocopy of the original ID proof presented, to be submitted to the invigilator during the exam.
                   </p>
@@ -799,7 +802,7 @@ export default function IBPSPOAdmitCardPage() {
                     </span>
                     <span className="text-xs font-black text-amber-400 tracking-wider">04 / ADDITIONAL</span>
                   </div>
-                  <h4 className="font-extrabold text-sm text-slate-800 leading-tight">Extra Photo</h4>
+                  <div className="font-extrabold text-sm text-slate-800 leading-tight">Extra Photo</div>
                   <p className="text-xs text-slate-500 leading-relaxed font-semibold">
                     One additional passport-size photograph. Highly recommended if your printed admit card photo appears blurred.
                   </p>
@@ -842,9 +845,9 @@ export default function IBPSPOAdmitCardPage() {
                 }
               ].map((item, idx) => (
                 <div key={idx} className="p-5 border border-slate-150 rounded-2xl hover:border-slate-300 transition-colors space-y-2">
-                  <h4 className="font-extrabold text-sm sm:text-base text-red-800 flex items-center gap-1.5">
+                  <div className="font-extrabold text-sm sm:text-base text-red-800 flex items-center gap-1.5">
                     <AlertCircle size={15} /> {item.issue}
-                  </h4>
+                  </div>
                   <p className="text-xs sm:text-sm text-slate-600 font-semibold leading-relaxed pl-5">
                     {item.solution}
                   </p>
@@ -956,7 +959,7 @@ export default function IBPSPOAdmitCardPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Admit card's almost here — is your prep?</h4>
+                <div className="font-black text-base sm:text-lg text-white">Admit card's almost here — is your prep?</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Take a Free IBPS PO Mock Test today and target real exam performance. Access topic and sectional tests to strengthen your concepts.
                 </p>

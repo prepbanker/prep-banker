@@ -112,7 +112,7 @@ export default function HeroSection() {
             >
               Crack{' '}
               <span style={{ color: 'var(--color-gold-bright)' }}>SBI PO</span> &amp;{' '}
-              <span style={{ color: 'var(--color-blue-light)' }}>IBPS PO</span>
+              <span style={{ color: 'var(--color-blue-light)' }}>IBPS PO</span>{' '}
               <br />
               with Confidence in 2026
             </h1>
@@ -225,10 +225,10 @@ export default function HeroSection() {
                       className="w-1/4 flex-shrink-0 p-5 flex flex-col justify-between min-h-[250px]"
                     >
                       <div className="flex-1">
-                        <h3 className="text-base font-extrabold text-white mb-2 flex items-center gap-1.5">
+                        <h2 className="text-base font-extrabold text-white mb-2 flex items-center gap-1.5">
                           <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-gold-bright)] animate-pulse" />
                           {tab.title}
-                        </h3>
+                        </h2>
                         <p className="text-slate-300 text-xs leading-relaxed mb-4">
                           {tab.description}
                         </p>

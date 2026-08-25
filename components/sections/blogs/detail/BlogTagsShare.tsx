@@ -87,7 +87,7 @@ export default function BlogTagsShare({ blog }: Props) {
             href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold transition-all hover:-translate-y-0.5"
-            style={{ border: '1px solid var(--color-gray-200)', background: '#fff', color: '#1877F2', textDecoration: 'none' }}
+            style={{ border: '1px solid var(--color-gray-200)', background: '#fff', color: '#115ec9', textDecoration: 'none' }}
           >
             <FaFacebook className="w-3.5 h-3.5" /> Facebook
           </a>
@@ -97,7 +97,7 @@ export default function BlogTagsShare({ blog }: Props) {
             href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}&text=${encodeURIComponent(blog.title)}`}
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold transition-all hover:-translate-y-0.5"
-            style={{ border: '1px solid var(--color-gray-200)', background: '#fff', color: '#1DA1F2', textDecoration: 'none' }}
+            style={{ border: '1px solid var(--color-gray-200)', background: '#fff', color: '#0b7ebf', textDecoration: 'none' }}
           >
             <FaTwitter className="w-3.5 h-3.5" /> Twitter
           </a>
@@ -117,7 +117,7 @@ export default function BlogTagsShare({ blog }: Props) {
             href={`https://wa.me/?text=${encodeURIComponent(`${blog.title} ${typeof window !== 'undefined' ? window.location.href : ''}`)}`}
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold transition-all hover:-translate-y-0.5"
-            style={{ border: '1px solid var(--color-gray-200)', background: '#fff', color: '#25D366', textDecoration: 'none' }}
+            style={{ border: '1px solid var(--color-gray-200)', background: '#fff', color: '#1b9a47', textDecoration: 'none' }}
           >
             <Share2 className="w-3.5 h-3.5" /> WhatsApp
           </a>

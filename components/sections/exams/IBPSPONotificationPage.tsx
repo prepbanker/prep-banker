@@ -280,7 +280,7 @@ export default function IBPSPONotificationPage() {
               <div className="inline-flex flex-wrap items-center gap-x-4 gap-y-2 py-2 px-4 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-200">
                 <span className="flex items-center gap-1">🟢 Notification Released: 1 July 2026</span>
                 <span className="text-white/20">|</span>
-                <span className="flex items-center gap-1"><FileCheck size={13} className="text-amber-400" /> Last Updated: 27 July 2026</span>
+                <span className="flex items-center gap-1"><FileCheck size={13} className="text-amber-400" /> <Link href="/editorial-policy" className="hover:underline text-slate-200">Last Updated: 27 July 2026</Link></span>
                 <span className="text-white/20">|</span>
                 <span className="flex items-center gap-1"><CheckCircle size={13} className="text-emerald-400" /> Reviewed by PrepBanker Exam Desk</span>
               </div>
@@ -307,9 +307,9 @@ export default function IBPSPONotificationPage() {
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 shadow-2xl relative overflow-hidden space-y-4">
                 <div className="absolute top-0 right-0 w-24 h-24 rounded-full opacity-10 bg-amber-400 blur-xl pointer-events-none" />
 
-                <h4 className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
+                <div className="font-bold text-xs uppercase tracking-widest text-[#FBBF24] border-b border-white/10 pb-2.5 font-display text-center">
                   Key Exam Statistics
-                </h4>
+                </div>
 
                 <div className="space-y-3.5">
                   <div className="flex items-center justify-between">
@@ -646,7 +646,7 @@ export default function IBPSPONotificationPage() {
                     <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center font-black text-sm font-display">1</div>
                     <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 font-mono">Application</span>
                   </div>
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Application Correction Window</h4>
+                  <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Application Correction Window</div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
                     Introduced for the first time — a 2-day edit facility (₹200 fee) after registration closes, so candidates can fix errors in select fields before the form is locked.
                   </p>
@@ -660,7 +660,7 @@ export default function IBPSPONotificationPage() {
                     <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center font-black text-sm font-display">2</div>
                     <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 font-mono">New Test</span>
                   </div>
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Mandatory Personality Test</h4>
+                  <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Mandatory Personality Test</div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
                     Added before the Interview — a self-report psychometric profile is now shared with the interview panel; it's non-qualifying but compulsory to attend.
                   </p>
@@ -674,7 +674,7 @@ export default function IBPSPONotificationPage() {
                     <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center font-black text-sm font-display">3</div>
                     <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 font-mono">Exam Pattern</span>
                   </div>
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Mains Exam Pattern Revised</h4>
+                  <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Mains Exam Pattern Revised</div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
                     Objective questions increased from 145 to 170. English Language marks reduced from 40 to 20, while Banking Awareness and Data Analysis & Interpretation now carry more weight.
                   </p>
@@ -688,7 +688,7 @@ export default function IBPSPONotificationPage() {
                     <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center font-black text-sm font-display">4</div>
                     <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 font-mono">Eligibility</span>
                   </div>
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Credit History Clause Removed</h4>
+                  <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Credit History Clause Removed</div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
                     The earlier requirement around candidates' credit/loan history (minimum CIBIL score checks) has been dropped from the 2026 notification.
                   </p>
@@ -702,7 +702,7 @@ export default function IBPSPONotificationPage() {
                     <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center font-black text-sm font-display">5</div>
                     <span className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 font-mono">Vacancies</span>
                   </div>
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Vacancies Revised Upward</h4>
+                  <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-emerald-600 transition-colors">Vacancies Revised Upward</div>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
                     7,365 posts now, up from the initially notified 6,715, after IBPS added 650 seats for Indian Bank via corrigendum.
                   </p>
@@ -763,7 +763,7 @@ export default function IBPSPONotificationPage() {
             <div className="p-6 bg-gradient-to-br from-[#0B0F19] to-[#121A2D] border border-slate-800 rounded-2xl text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg font-sans relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 rounded-full opacity-10 bg-amber-400 blur-2xl pointer-events-none" />
               <div className="space-y-1 text-center md:text-left relative z-10">
-                <h4 className="font-extrabold text-sm sm:text-base text-white">Prefer to read the authoritative document?</h4>
+                <div className="font-extrabold text-sm sm:text-base text-white">Prefer to read the authoritative document?</div>
                 <p className="text-xs text-white/60 leading-normal max-w-md font-semibold">
                   Download directly from primary IBPS servers. This is both a legal safety measure and verified E-E-A-T practice.
                 </p>
@@ -814,7 +814,7 @@ export default function IBPSPONotificationPage() {
                         {item.step}
                       </div>
                       <div className="space-y-1">
-                        <h4 className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-orange-600 transition-colors duration-200">{item.title}</h4>
+                        <div className="font-bold text-slate-900 text-sm sm:text-base font-display group-hover:text-orange-600 transition-colors duration-200">{item.title}</div>
                         <p className="text-xs sm:text-sm text-slate-505 font-medium leading-relaxed">{item.text}</p>
                       </div>
                     </div>
@@ -829,9 +829,9 @@ export default function IBPSPONotificationPage() {
               {/* Spacing Card with Fee Details */}
               <div className="p-6 bg-white border border-slate-200 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.02)] space-y-4 relative overflow-hidden">
                 <div className="absolute top-0 left-0 right-0 h-1 bg-orange-500" />
-                <h4 className="font-black text-xs sm:text-sm uppercase tracking-widest text-slate-400 border-b border-slate-100 pb-2 font-mono">
+                <div className="font-black text-xs sm:text-sm uppercase tracking-widest text-slate-400 border-b border-slate-100 pb-2 font-mono">
                   Application Fee
-                </h4>
+                </div>
 
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 border border-slate-100/50">
@@ -873,9 +873,9 @@ export default function IBPSPONotificationPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
               {/* Left: What is Allowed */}
               <div className="p-5 bg-emerald-50/50 border border-emerald-100 rounded-2xl space-y-3">
-                <h4 className="font-extrabold text-sm text-emerald-800 flex items-center gap-1.5">
+                <div className="font-extrabold text-sm text-emerald-800 flex items-center gap-1.5">
                   <CheckCircle size={15} /> Editable Fields & Rules
-                </h4>
+                </div>
                 <ul className="space-y-2 text-xs sm:text-sm text-slate-605 font-semibold list-disc list-inside">
                   <li>Fee: ₹200 (inclusive of GST) per modification</li>
                   <li>Only candidates who completed full registration and fee payment can use this window</li>
@@ -887,9 +887,9 @@ export default function IBPSPONotificationPage() {
 
               {/* Right: What is NOT Allowed */}
               <div className="p-5 bg-red-50/50 border border-red-100 rounded-2xl space-y-3">
-                <h4 className="font-extrabold text-sm text-red-800 flex items-center gap-1.5">
+                <div className="font-extrabold text-sm text-red-800 flex items-center gap-1.5">
                   <AlertCircle size={15} /> Non-Editable Fields & Restrictions
-                </h4>
+                </div>
                 <ul className="space-y-2 text-xs sm:text-sm text-slate-605 font-semibold list-disc list-inside">
                   <li>Cannot edit candidate's Name</li>
                   <li>Cannot change Registered Email ID</li>
@@ -904,7 +904,7 @@ export default function IBPSPONotificationPage() {
             <div className="p-4 bg-amber-50 border-l-4 border-amber-500 rounded-r-xl flex gap-3 font-sans">
               <Info className="text-amber-500 shrink-0 mt-0.5" size={16} />
               <div className="space-y-1">
-                <h5 className="font-extrabold text-xs sm:text-sm text-amber-900">Important Window Rule</h5>
+                <div className="font-extrabold text-xs sm:text-sm text-amber-900">Important Window Rule</div>
                 <p className="text-xs text-amber-800 leading-normal font-semibold">
                   The most recently modified application is treated as the final, valid one. Once the correction window shuts, no request for correction is entertained under any circumstances.
                 </p>
@@ -1011,7 +1011,7 @@ export default function IBPSPONotificationPage() {
             {/* Product CTA Banner Block */}
             <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-2xl text-white space-y-4 shadow-md font-sans">
               <div className="space-y-1.5 text-center md:text-left">
-                <h4 className="font-black text-base sm:text-lg text-white">Notification's out — start practicing today.</h4>
+                <div className="font-black text-base sm:text-lg text-white">Notification's out — start practicing today.</div>
                 <p className="text-xs sm:text-sm text-slate-350 leading-relaxed font-semibold max-w-2xl">
                   Join 50k+ banking aspirants practicing with PrepBanker mocks. Access updated tests crafted according to the revised CRP XVI patterns.
                 </p>
@@ -1089,7 +1089,7 @@ export default function IBPSPONotificationPage() {
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs font-semibold text-slate-500">
               <span className="flex items-center gap-1"><CheckCircle size={13} className="text-emerald-600" /> Reviewed by: PrepBanker Exam Desk</span>
               <span>·</span>
-              <span className="flex items-center gap-1"><Calendar size={13} /> Last Updated: 27 July 2026</span>
+              <span className="flex items-center gap-1"><Calendar size={13} /> <Link href="/editorial-policy" className="hover:underline">Last Updated: 27 July 2026</Link></span>
               <span>·</span>
               <span className="flex items-center gap-1">
                 <ExternalLink size={13} /> Source:{' '}
@@ -1159,7 +1159,7 @@ export default function IBPSPONotificationPage() {
                   </div>
                   <span className="text-[#FBBF24] text-xs font-bold font-mono mb-4">{pdfProgress}% Completed</span>
 
-                  <h4 className="font-extrabold text-white text-sm sm:text-base">Loading Official Notification Document...</h4>
+                  <div className="font-extrabold text-white text-sm sm:text-base">Loading Official Notification Document...</div>
                   <p className="text-xs text-white/50 mt-1 max-w-xs leading-normal">
                     Fetching PDF from ibps.in servers. This may take a few seconds depending on your connection.
                   </p>
@@ -1167,7 +1167,7 @@ export default function IBPSPONotificationPage() {
               )}
               <div className="absolute inset-0 bg-slate-100 flex flex-col items-center justify-center p-6 text-center -z-10">
                 <AlertCircle className="text-slate-400 mb-2" size={32} />
-                <h4 className="font-extrabold text-slate-800">Loading Official Notification Document...</h4>
+                <div className="font-extrabold text-slate-800">Loading Official Notification Document...</div>
                 <p className="text-xs text-slate-500 mt-1 max-w-sm">
                   If the document does not display within a few seconds, <a href="https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-[#1B6EB5] hover:underline">click here to download the PDF directly</a>.
                 </p>

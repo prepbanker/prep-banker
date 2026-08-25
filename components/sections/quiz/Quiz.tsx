@@ -182,9 +182,9 @@ export default function Quiz() {
 
               {/* 1. Exam Category checklist */}
               <div>
-                <h4 className="text-xs font-extrabold text-slate-800 uppercase tracking-wide mb-2.5">
+                <div className="text-xs font-extrabold text-slate-800 uppercase tracking-wide mb-2.5">
                   Exam Category
-                </h4>
+                </div>
                 <div className="space-y-2">
                   {[
                     { key: 'SBI-PO', label: 'SBI PO' },
@@ -205,9 +205,9 @@ export default function Quiz() {
 
               {/* 2. Quiz Type checklist */}
               <div className="border-t border-slate-100 pt-4">
-                <h4 className="text-xs font-extrabold text-slate-800 uppercase tracking-wide mb-2.5">
+                <div className="text-xs font-extrabold text-slate-800 uppercase tracking-wide mb-2.5">
                   Quiz Type
-                </h4>
+                </div>
                 <div className="space-y-2">
                   {[
                     { key: 'Full Mock', label: 'Full Mock' },
@@ -229,9 +229,9 @@ export default function Quiz() {
 
               {/* 3. Difficulty checklist */}
               <div className="border-t border-slate-100 pt-4">
-                <h4 className="text-xs font-extrabold text-slate-800 uppercase tracking-wide mb-2.5">
+                <div className="text-xs font-extrabold text-slate-800 uppercase tracking-wide mb-2.5">
                   Difficulty Level
-                </h4>
+                </div>
                 <div className="space-y-2">
                   {['Easy', 'Medium', 'Hard'].map(level => (
                     <label key={level} className="flex items-center gap-2.5 text-xs font-semibold text-slate-700 hover:text-slate-900 cursor-pointer">
@@ -269,9 +269,9 @@ export default function Quiz() {
                 64% OFF
               </div>
 
-              <h4 className="text-xs font-extrabold mt-1 pr-10 text-slate-100 uppercase tracking-wide leading-snug">
+              <div className="text-xs font-extrabold mt-1 pr-10 text-slate-100 uppercase tracking-wide leading-snug">
                 Get access to premium subscription
-              </h4>
+              </div>
 
               <div className="mt-4 flex items-baseline gap-2">
                 <span className="text-xs text-slate-450 line-through">₹549.00</span>
